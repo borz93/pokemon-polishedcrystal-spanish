@@ -39,8 +39,8 @@ RadioTower2FTeacherScript:
 	jumpthistextfaceplayer
 
 	text "Las nanas de la"
-	line "radio pueden"
-	cont "dormir a los #mon."
+	line "radio duermen"
+	cont "a los #mon."
 	done
 
 GenericTrainerGruntM4:
@@ -339,8 +339,9 @@ GruntM4SeenText:
 	line "el Team Rocket"
 	cont "se disolvió."
 
-	para "¡Pero estamos de"
-	line "vuelta aquí!"
+	para "¡Pero nos estamos"
+	line "volviendo a"
+	cont "reunir aquí!"
 	done
 
 GruntM4BeatenText:
@@ -354,7 +355,8 @@ GruntM5SeenText:
 	cont "mos a los #mon!"
 
 	para "¡Nos encanta ser"
-	line "malos! ¿Miedo?"
+	line "malos! ¿Damos"
+	cont "miedo?"
 	done
 
 GruntM5BeatenText:
@@ -374,14 +376,14 @@ GruntM6BeatenText:
 GruntF2SeenText:
 	text "¡Jajaja!"
 
-	para "Qué aburrido."
-	line "Fue demasiado"
+	para "¡Qué aburrimiento!"
+	line "¡Fue tan sencillo"
 
-	para "fácil tomar"
-	line "¡este lugar!"
+	para "apoderarse de este"
+	line "lugar!"
 
-	para "¡Vamos, manten-"
-	line "me entretenida!"
+	para "¡Venga,"
+	line "entretenme!"
 	done
 
 GruntF2BeatenText:

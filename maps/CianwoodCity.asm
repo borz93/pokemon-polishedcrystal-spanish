@@ -355,8 +355,9 @@ CianwoodCliffEdgeGateSignText:
 	done
 
 CianwoodMoveManiacSignText:
-	text "Maníaco Movs."
-	line "más adelante"
+	text "Maníaco de los"
+	line "movimientos"
+	cont "más adelante"
 	done
 
 CianwoodAdvancedTipsSignText:

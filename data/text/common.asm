@@ -1597,10 +1597,9 @@ _GotBackMonText::
 
 SECTION "_BackAlreadyText", ROMX
 _BackAlreadyText::
-	text "¿Eh? ¿Ya has"
-	line "vuelto? Tu"
+	text "¿Eh? ¿Has vuelto?"
+	line "Tu "
 
-	para ""
 	text_ram wStringBuffer1
 	cont "necesita algo"
 	cont "más de tiempo."
@@ -3776,8 +3775,9 @@ _SlotsPlayAgainText::
 
 SECTION "_SlotsLinedUpText", ROMX
 _SlotsLinedUpText::
-	text "¡alineados!"
+	text "alineados!"
 	line "¡Ganaste "
+	cont ""
 	text_ram wStringBuffer2
 	text " monedas!"
 	done
@@ -3995,11 +3995,11 @@ _PokegearAskDeleteText::
 
 SECTION "_BuenaAskWhichPrizeText", ROMX
 _BuenaAskWhichPrizeText::
-	text "Puedes canjear"
+	text "¡Puedes canjear"
 	line "tus puntos"
 
 	para "por un premio"
-	line "¡a tu elección!"
+	line "a tu elección!"
 
 	para "¿Qué premio"
 	line "quieres?"
@@ -4007,6 +4007,7 @@ _BuenaAskWhichPrizeText::
 
 SECTION "_BuenaIsThatRightText", ROMX
 _BuenaIsThatRightText::
+	text "¿"
 	text_ram wStringBuffer1
 	text "?"
 	line "¿Es correcto?"
@@ -4032,12 +4033,12 @@ _BuenaNoRoomText::
 SECTION "_BuenaComeAgainText", ROMX
 _BuenaComeAgainText::
 	text "Vaya. ¡Vuelve"
-	line "de vez!"
+	line "de vez en cuando!"
 	done
 
 SECTION "_BallBrokeFreeText", ROMX
 _BallBrokeFreeText::
-	text "¡No! ¡#mon"
+	text "¡No! ¡El #mon"
 	line "escapó!"
 	prompt
 
@@ -4049,8 +4050,8 @@ _BallAppearedCaughtText::
 
 SECTION "_BallAlmostHadItText", ROMX
 _BallAlmostHadItText::
-	text "¡Parecía que lo"
-	line "habías atrapado!"
+	text "¡Vaya!"
+	line "¡Te faltó poco!"
 	prompt
 
 SECTION "_BallSoCloseText", ROMX

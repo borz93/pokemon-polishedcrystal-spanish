@@ -519,8 +519,8 @@ GiveTakeItemMenuData:
 	db %10000000 ; x padding
 	db 3 ; # items
 	db "Dar@"
-	db "Take@"
-	db "Swap@"
+	db "Cog.@"
+	db "Cam.@"
 
 TookAndMadeHoldText:
 	text_farend _PokemonSwapItemText
