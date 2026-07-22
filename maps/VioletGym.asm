@@ -88,7 +88,7 @@ GenericTrainerBird_keeperRod:
 	generictrainer BIRD_KEEPER, ROD, EVENT_BEAT_BIRD_KEEPER_ROD, Bird_keeperRodSeenText, Bird_keeperRodBeatenText
 
 	text "¡Las habilidades"
-	line "de Falkner son"
+	line "de Pegaso son"
 	cont "reales!"
 
 	para "¡No te confíes"
@@ -143,7 +143,7 @@ VioletGymStatue:
 	jumpstd gymstatue3
 
 FalknerIntroText:
-	text "Soy Falkner, el"
+	text "Soy Pegaso, el"
 	line "Líder del Gimnasio"
 	cont "#mon de Ciudad"
 	cont "Malva."
@@ -235,7 +235,7 @@ Bird_keeperAbeSeenText:
 	text "¡Veamos si eres"
 	line "lo bastante bueno"
 	cont "para enfrentarte a"
-	cont "Falkner!"
+	cont "Pegaso!"
 	done
 
 Bird_keeperAbeBeatenText:
@@ -255,7 +255,7 @@ VioletGymGuyWinText:
 
 VioletGymGuyFalknerAwayText:
 	text "¡Oye! No puedes"
-	line "retar a Falkner"
+	line "retar a Pegaso"
 	cont "ahora mismo."
 
 	para "Está en la Cueva"

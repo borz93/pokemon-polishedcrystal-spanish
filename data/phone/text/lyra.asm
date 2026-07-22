@@ -137,7 +137,7 @@ LyraPhoneSpecialText_FirstBadge:
 	line "primera Medalla!"
 
 	para "El Pidgeot de"
-	line "Falkner es fuerte,"
+	line "Pegaso es fuerte,"
 	cont "¡pero le gané!"
 
 	para "Tenía que"

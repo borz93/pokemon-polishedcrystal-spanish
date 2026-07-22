@@ -101,7 +101,7 @@ LizFalknerGossipText:
 	line "escucha!"
 
 	para "¿No crees que"
-	line "Falkner del"
+	line "Pegaso del"
 	cont "Gimnasio de"
 	cont "Malva es genial y"
 	cont "guapo?"
@@ -112,7 +112,7 @@ LizFalknerGossipText:
 	para "entrena por ahí,"
 	line "es aún más genial"
 	cont "y guapo que"
-	cont "Falkner."
+	cont "Pegaso."
 
 	para "¡Ojalá pudiera"
 	line "conocerlo!"

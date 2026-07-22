@@ -164,7 +164,7 @@ PokemonJournalWalkerScript:
 	para "Se rumorea que"
 	line "Walker, el padre"
 
-	para "de Falkner,"
+	para "de Pegaso,"
 	line "vagabundea por"
 	cont "Johto."
 	done

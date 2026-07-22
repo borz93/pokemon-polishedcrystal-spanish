@@ -239,7 +239,7 @@ VioletCityCooltrainerFText:
 	done
 
 VioletCityGrampsText:
-	text "Falkner, del"
+	text "Pegaso, del"
 	line "Gimnasio #mon"
 	cont "de Ciudad Malva,"
 
@@ -298,7 +298,7 @@ VioletCitySignText:
 VioletGymSignText:
 	text "Gimnasio #mon"
 	line "de Ciudad Malva"
-	cont "Líder: Falkner"
+	cont "Líder: Pegaso"
 
 	para "El Elegante"
 	line "Maestro de los"

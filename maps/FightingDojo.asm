@@ -595,7 +595,7 @@ WalkerText_Greeting:
 	para "Parece que me"
 	line "acabo de"
 	cont "encontrar con mi"
-	cont "hijo Falkner"
+	cont "hijo Pegaso"
 	cont "aquí…"
 
 	para "¿Qué tal si"
@@ -786,12 +786,12 @@ FightingDojoScheduleSundayText:
 	done
 
 FightingDojoScheduleMondayText:
-	text "Lunes: Falkner,"
+	text "Lunes: Pegaso,"
 	line "Janine, ???"
 	done
 
 FightingDojoScheduleMondayWalkerText:
-	text "Lunes: Falkner,"
+	text "Lunes: Pegaso,"
 	line "Janine, Walker"
 	done
 

@@ -497,7 +497,7 @@ Route31YoungsterText:
 
 	para "Voy a criarlo para"
 	line "enfrentarme a"
-	cont "Falkner."
+	cont "Pegaso."
 
 	para "Es el líder del"
 	line "Gimnasio de"

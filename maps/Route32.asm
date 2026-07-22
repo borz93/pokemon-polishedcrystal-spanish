@@ -185,7 +185,7 @@ Route32CooltrainerMTrigger:
 	text "Mi entrenamiento"
 	line "en la Torre"
 	cont "Bellsprout superó"
-	cont "hasta a Falkner."
+	cont "hasta a Pegaso."
 
 	para "¡Veamos cómo te"
 	line "comparas!"
@@ -942,7 +942,7 @@ Bird_keeperPeterSeenText:
 	line "de Ciudad Malva!"
 
 	para "¿Venciste a"
-	line "Falkner?"
+	line "Pegaso?"
 	done
 
 Bird_keeperPeterBeatenText:

@@ -368,7 +368,7 @@ YellowForestWalkerAfterText:
 	line "veo por qué"
 
 	para "venciste a"
-	line "Falkner."
+	line "Pegaso."
 
 	para "¡Conoces a tus"
 	line "#mon a la"

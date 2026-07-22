@@ -32,9 +32,9 @@ PokemonJournalFalknerScript:
 
 	para "Reportaje"
 	line "especial: ¡el"
-	cont "Líder Falkner!"
+	cont "Líder Pegaso!"
 
-	para "Dicen que Falkner"
+	para "Dicen que Pegaso"
 	line "venera a su"
 	cont "padre, quien"
 
