@@ -31,9 +31,9 @@ PokemonJournalJasmineScript:
 
 	para "Reportaje"
 	line "especial: ¡la"
-	cont "Líder Jasmine!"
+	cont "Líder Yasmina!"
 
-	para "Dicen que Jasmine"
+	para "Dicen que Yasmina"
 	line "y Erika, Líder"
 	cont "del Gimnasio de"
 	cont "Azulona, hablan"

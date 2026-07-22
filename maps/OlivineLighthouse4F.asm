@@ -36,7 +36,7 @@ GenericTrainerLassConnie:
 	para "Rezaré por el"
 	line "#mon de aquí,"
 
-	para "para que Jasmine"
+	para "para que Yasmina"
 	line "vuelva al"
 	cont "gimnasio."
 	done
@@ -60,7 +60,7 @@ SailorKentScript:
 	done
 
 SailorKentSeenText:
-	text "Jasmine debe"
+	text "Yasmina debe"
 	line "estar"
 	cont "preocupadísima"
 	cont "por el #mon."
@@ -86,7 +86,7 @@ SailorKentFinalText:
 	done
 
 LassConnieSeenText:
-	text "Jasmine es la"
+	text "Yasmina es la"
 	line "Líder del"
 	cont "Gimnasio de esta"
 	cont "ciudad."

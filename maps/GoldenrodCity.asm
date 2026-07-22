@@ -417,7 +417,7 @@ GoldenrodCityRocket6Text:
 	done
 
 GoldenrodCityGymLassText:
-	text "Whitney no está"
+	text "Blanca no está"
 	line "aquí ahora mismo."
 
 	para "Salió corriendo y"
@@ -452,7 +452,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "Ciudad Trigal"
 	line "Gimnasio #mon"
-	cont "Líder: Whitney"
+	cont "Líder: Blanca"
 
 	para "¡La Chica"
 	line "Increíblemente"

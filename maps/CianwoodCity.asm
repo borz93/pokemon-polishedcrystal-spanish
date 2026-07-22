@@ -200,7 +200,7 @@ endc
 	done
 
 CianwoodCityLassText:
-	text "Chuck, el Líder"
+	text "Aníbal, el Líder"
 	line "de Gimnasio,"
 
 	para "entrena con sus"
@@ -319,7 +319,7 @@ CianwoodGymSignText:
 	text "Ciudad Orquídea"
 	line "Gimnasio #mon"
 
-	para "Líder: Chuck"
+	para "Líder: Aníbal"
 
 	para "Sus Puños Rugen"
 	line "Más que Palabras"

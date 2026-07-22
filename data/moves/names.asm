@@ -220,7 +220,7 @@ MoveNames::
 	li "Zumbido"
 	li "Velo Sagrado"
 	li "Comp. Dolor"
-	li "Fuego Sacro"
+	li "Fuegosagrado"
 	li "Magnitud"
 	li "Puño Dinám."
 	li "Megacuerno"

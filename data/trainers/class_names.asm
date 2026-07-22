@@ -47,7 +47,7 @@ TrainerClassNames::
 	li "Oficial"         ; OFFICERM
 	li "Oficial"         ; OFFICERF
 	li "Enfermera"       ; NURSE
-	li "#Maniaco"        ; POKEMANIAC
+	li "#Maníaco"        ; POKEMANIAC
 	li "Cosplayer"       ; COSPLAYER
 	li "Empollón"        ; SUPER_NERD
 	li "Srta."           ; LASS

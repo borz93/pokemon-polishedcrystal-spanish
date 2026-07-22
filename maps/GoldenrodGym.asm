@@ -115,7 +115,7 @@ GenericTrainerSrandjrJoandcath1:
 	cont "junior Cath a"
 
 	para "ganar una Medalla"
-	line "de Whitney."
+	line "de Blanca."
 
 	para "Está mejorando"
 	line "poco a poco."
@@ -126,7 +126,7 @@ GenericTrainerSrandjrJoandcath2:
 
 	text "Cath: Sigo"
 	line "perdiendo contra"
-	cont "Whitney. Es"
+	cont "Blanca. Es"
 	cont "deprimente."
 
 	para "¡Estoy bien! Si"
@@ -207,7 +207,7 @@ JoWalksAwayMovement:
 
 WhitneyBeforeText:
 	text "¡Hola! ¡Soy"
-	line "Whitney!"
+	line "Blanca!"
 
 	para "A todos les"
 	line "gustaban los"
@@ -287,7 +287,7 @@ LassCathyBeatenText:
 SrandjrJoandcath1SeenText:
 	text "Jo: Si quieres"
 	line "enfrentarte a"
-	cont "Whitney,"
+	cont "Blanca,"
 
 	para "¡tendrás que"
 	line "pasar por mí!"
@@ -303,7 +303,7 @@ SrandjrJoandcath1BeatenText:
 
 SrandjrJoandcath2SeenText:
 	text "Cath: Intento"
-	line "vencer a Whitney,"
+	line "vencer a Blanca,"
 	cont "pero mi senior y"
 
 	para "yo podemos"
@@ -317,7 +317,7 @@ SrandjrJoandcath2BeatenText:
 
 JoWhitneyCriesText:
 	text "Oh, no. Hiciste"
-	line "llorar a Whitney."
+	line "llorar a Blanca."
 
 	para "Está bien. Parará"
 	line "pronto. Siempre"

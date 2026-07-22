@@ -160,10 +160,10 @@ LizMooMooMilkGossipText:
 	line "escucha!"
 
 	para "¿Conoces la Leche"
-	line "Moomoo?"
+	line "Mu-mú?"
 
 	para "Se compra en la"
-	line "Granja Moomoo."
+	line "Granja Mu-mú."
 
 	para "Dicen que es buena"
 	line "para la salud y la"
@@ -200,7 +200,7 @@ LizWhitneyGossipText:
 	text "¡Escucha,"
 	line "escucha!"
 
-	para "¡Whitney, del"
+	para "¡Blanca, del"
 	line "Gimnasio de"
 	cont "Trigal, empezó a"
 	cont "combatir hace"

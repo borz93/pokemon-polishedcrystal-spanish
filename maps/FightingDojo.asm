@@ -234,14 +234,14 @@ MapFightingDojoSignpost2Script:
 	iftruefwd .saturday_agatha
 	jumpthisopenedtext
 
-	text "Sábado: Whitney,"
-	line "Chuck, ???"
+	text "Sábado: Blanca,"
+	line "Aníbal, ???"
 	done
 .saturday_agatha
 	jumpthisopenedtext
 
-	text "Sábado: Whitney,"
-	line "Chuck, Agatha"
+	text "Sábado: Blanca,"
+	line "Aníbal, Agatha"
 	done
 
 BlackBeltText_ExplainsRematches:
@@ -781,7 +781,7 @@ FightingDojoScheduleQuestionText:
 	done
 
 FightingDojoScheduleSundayText:
-	text "Domingo: Jasmine,"
+	text "Domingo: Yasmina,"
 	line "Erika, Sabrina"
 	done
 

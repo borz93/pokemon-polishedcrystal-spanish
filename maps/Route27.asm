@@ -151,7 +151,7 @@ Route27VeteranfScript:
 .SeenText:
 	text "Mis #mon"
 	line "llevan todos"
-	cont "Gafas Elecc."
+	cont "Gaf.Elección."
 
 	para "Parecen raras,"
 	line "pero son"
@@ -165,7 +165,7 @@ Route27VeteranfScript:
 	done
 
 .AfterText1:
-	text "Las Gafas Elecc."
+	text "Las Gaf.Elección"
 	line "aumentan el"
 	cont "Ataque Especial de"
 	cont "un #mon,"

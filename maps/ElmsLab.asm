@@ -1722,7 +1722,7 @@ ElmsLabLyraSeeYouText:
 
 ElmsLabLyraTheftInnocentText:
 	text "Lyra: ¡Un momento!"
-	line "<PLAYER> no tiene"
+	line "¡<PLAYER> no tiene"
 	cont "nada que ver!"
 
 	para "Vi a un chico"

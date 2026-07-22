@@ -159,24 +159,24 @@ GoldenrodFlowerShopTeacherStopMySisterText:
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
 	text "¿Quieres pedirme"
-	line "prestado el"
+	line "prestado la"
 
-	para "bidón también? No"
+	para "regadera? No"
 	line "quiero que hagas"
 
 	para "nada peligroso con"
-	line "él."
+	line "ella."
 	done
 
 GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 	text "Oh, eres mejor"
-	line "que Whitney."
+	line "que Blanca."
 
 	para "¿Conoces ese árbol"
 	line "tembloroso?"
 
-	para "Si lo mojas con un"
-	line "bidón de agua,"
+	para "Si lo mojas con"
+	line "la regadera,"
 	cont "ataca."
 
 	para "Pero como ya"
@@ -187,11 +187,11 @@ GoldenrodFlowerShopTeacherBetterThanWhitneyText:
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
 	text "Oh, eres mejor"
-	line "que Whitney…"
+	line "que Blanca…"
 
 	para "Entonces estarás"
 	line "bien. ¡Aquí tienes"
-	cont "mi bidón de agua!"
+	cont "mi regadera!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
@@ -209,29 +209,29 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	cont "peligroso."
 
 	para "Si venzo a"
-	line "Whitney, me"
+	line "Blanca, me"
 	cont "pregunto si me"
-	cont "prestará su bidón"
-	cont "de agua…"
+	cont "prestará su"
+	cont "regadera…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
 	text "Vaya, ¿venciste a"
-	line "Whitney? ¡Genial!"
+	line "Blanca? ¡Genial!"
 
 	para "Quizá puedas"
 	line "encargarte del"
 	cont "árbol tembloroso."
 
 	para "Solo necesitarás"
-	line "un bidón de agua"
-	cont "como el de mi"
+	line "una regadera"
+	cont "como la de mi"
 	cont "hermana."
 	done
 
 WoukdYouLikeMulchText:
 	text "¿Quieres comprar"
-	line "Mantillo?"
+	line "Abono?"
 
 	para "¡Hace que las"
 	line "Bayas crezcan más"
@@ -247,7 +247,7 @@ NoRoomForMulchText:
 	done
 
 DescribeMulchText:
-	text "Nuestro Mantillo"
+	text "Nuestro abono"
 	line "es una mezcla de"
 
 	para "tierra de calidad"

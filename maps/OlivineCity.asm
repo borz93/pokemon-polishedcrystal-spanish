@@ -416,7 +416,7 @@ OlivineCityYoungster2Text:
 	done
 
 OlivineCityLass2Text:
-	text "Jasmine, nuestra"
+	text "Yasmina, nuestra"
 	line "Líder de Gimnasio,"
 
 	para "es tímida. ¡Pero"
@@ -441,7 +441,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "Ciudad Olivo"
 	line "Gimnasio #mon"
-	cont "Líder: Jasmine"
+	cont "Líder: Yasmina"
 
 	para "La Chica de la"
 	line "Defensa de Acero"

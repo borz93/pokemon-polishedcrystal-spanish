@@ -207,7 +207,7 @@ SECTION "WhitneyGroup", ROMX
 WhitneyGroup:
 
 	def_trainer_class WHITNEY
-	def_trainer 1, "Whitney"
+	def_trainer 1, "Blanca"
 	tr_mon 19, CLEFAIRY, FEMALE
 		tr_extra CUTE_CHARM
 		tr_evs 96 HP
@@ -226,7 +226,7 @@ WhitneyGroup:
 		tr_moves DEFENSE_CURL, STOMP, FRESH_SNACK, ROLLOUT
 	end_trainer
 
-	def_trainer 2, "Whitney"
+	def_trainer 2, "Blanca"
 	tr_mon 71, LICKILICKY @ LEFTOVERS, FEMALE
 		tr_extra OBLIVIOUS, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf
@@ -327,7 +327,7 @@ SECTION "ChuckGroup", ROMX
 ChuckGroup:
 
 	def_trainer_class CHUCK
-	def_trainer 1, "Chuck"
+	def_trainer 1, "Aníbal"
 	tr_mon 30, PRIMEAPE, MALE
 		tr_extra DEFIANT
 		tr_evs 160 Atk
@@ -350,7 +350,7 @@ endc
 		tr_moves ICE_PUNCH, HYPNOSIS, WATERFALL, DYNAMICPUNCH
 	end_trainer
 
-	def_trainer 2, "Chuck"
+	def_trainer 2, "Aníbal"
 	tr_mon 71, ANNIHILAPE @ CHOICE_SCARF, MALE
 if DEF(FAITHFUL)
 		tr_extra DEFIANT, ATK_UP_SATK_DOWN
@@ -386,7 +386,7 @@ SECTION "JasmineGroup", ROMX
 JasmineGroup:
 
 	def_trainer_class JASMINE
-	def_trainer 1, "Jasmine"
+	def_trainer 1, "Yasmina"
 	tr_mon 34, SKARMORY, FEMALE
 		tr_extra STURDY
 		tr_evs 192 HP
@@ -409,7 +409,7 @@ JasmineGroup:
 		tr_moves BODY_SLAM, BULLDOZE, ROCK_SLIDE, IRON_TAIL
 	end_trainer
 
-	def_trainer 2, "Jasmine"
+	def_trainer 2, "Yasmina"
 	tr_mon 73, FORRETRESS @ LIGHT_CLAY, FEMALE
 		tr_extra STURDY, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 4 Def, 252 SDf
@@ -1515,17 +1515,17 @@ SECTION "Rival0Group", ROMX
 Rival0Group:
 
 	def_trainer_class RIVAL0
-	def_trainer 1, "boy"
+	def_trainer 1, "chico"
 	tr_mon 4, RATTATA
 	tr_mon 5, CHIKORITA @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 2, "boy"
+	def_trainer 2, "chico"
 	tr_mon 4, RATTATA
 	tr_mon 5, CYNDAQUIL @ ORAN_BERRY
 	end_trainer
 
-	def_trainer 3, "boy"
+	def_trainer 3, "chico"
 	tr_mon 4, RATTATA
 	tr_mon 5, TOTODILE @ ORAN_BERRY
 	end_trainer

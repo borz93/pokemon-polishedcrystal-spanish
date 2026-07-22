@@ -503,7 +503,7 @@ GruntM3BeatenText:
 
 RadioTower1FWhitney1Text:
 	text "¡Hola! ¡Soy"
-	line "Whitney!"
+	line "Blanca!"
 
 	para "Oí sobre el"
 	line "cuestionario para"
@@ -519,7 +519,7 @@ RadioTower1FWhitney1Text:
 	done
 
 RadioTower1FWhitney2Text:
-	text "Whitney: Vaya,"
+	text "Blanca: Vaya,"
 	line "¡lo lograste!"
 
 	para "Pensé que la"

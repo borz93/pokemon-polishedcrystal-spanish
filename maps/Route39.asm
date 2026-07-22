@@ -441,8 +441,8 @@ Route39HikerText:
 	cont "clima duro."
 
 	para "…Pero sin unas"
-	line "Gafas Aisl. para"
-	cont "seguridad,"
+	line "Gafas Aislantes"
+	cont "de seguridad,"
 
 	para "ni siquiera puedo"
 	line "empezar la"
@@ -500,7 +500,7 @@ RuggedRoadAheadSignText:
 	done
 
 MoomooFarmSignText:
-	text "Granja Moomoo"
+	text "Granja Mu-mú"
 
 	para "Disfrute Nuestra"
 	line "Leche Fresca y"

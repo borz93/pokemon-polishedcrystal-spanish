@@ -156,7 +156,7 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "Jasmine: …Este"
+	text "Yasmina: …Este"
 	line "#mon siempre"
 
 	para "mantuvo el mar"
@@ -182,19 +182,19 @@ JasmineCianwoodPharmacyText:
 
 
 JasmineCureAmphyText:
-	text "Jasmine: …¿Esa"
+	text "Yasmina: …¿Esa"
 	line "medicina curará a"
 	cont "Amphy?"
 	done
 
 PlayerHandedSecretpotionText:
 	text "<PLAYER> le entregó"
-	line "la SecretPotion a"
-	cont "Jasmine."
+	line "la Poción Secreta"
+	cont "a Yasmina."
 	done
 
 JasmineDontBeOffendedText:
-	text "Jasmine: …Um, no"
+	text "Yasmina: …Um, no"
 	line "te ofendas,"
 	cont "por favor…"
 
@@ -204,14 +204,14 @@ JasmineDontBeOffendedText:
 	done
 
 JasmineAmphyHowAreYouFeelingText:
-	text "Jasmine: …"
+	text "Yasmina: …"
 
 	para "Amphy, ¿cómo te"
 	line "sientes?"
 	done
 
 JasmineThankYouText:
-	text "Jasmine: …Oh, qué"
+	text "Yasmina: …Oh, qué"
 	line "alivio…"
 
 	para "Esto es tan"
@@ -225,7 +225,7 @@ JasmineThankYouText:
 	done
 
 JasmineISeeText:
-	text "Jasmine: …Ya"
+	text "Yasmina: …Ya"
 	line "veo…"
 	done
 

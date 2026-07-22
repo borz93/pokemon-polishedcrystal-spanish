@@ -53,13 +53,13 @@ PokemonFellFromTreeText:
 	prompt
 
 WantsToBattleText::
-	text "¡<ENEMY>"
-	line "quiere luchar!"
+	text "<ENEMY>"
+	line "¡quiere luchar!"
 	prompt
 
 WantToBattleText::
-	text "¡<ENEMY>"
-	line "quieren luchar!"
+	text "<ENEMY>"
+	line "¡quieren luchar!"
 	prompt
 
 BattleText_WildFled:
@@ -368,13 +368,13 @@ GotMoneyForWinningText:
 	prompt
 
 BattleText_EnemyWasDefeated:
-	text "¡<ENEMY>"
-	line "fue derrotado!"
+	text "<ENEMY>"
+	line "¡fue derrotado!"
 	prompt
 
 BattleText_EnemyWereDefeated:
-	text "¡<ENEMY>"
-	line "fueron"
+	text "<ENEMY>"
+	line "¡fueron"
 	cont "derrotados!"
 	prompt
 
@@ -458,8 +458,8 @@ BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
 	done
 
 BattleText_EnemySentOut:
-	text "¡<ENEMY>"
-	line "sacó a"
+	text "<ENEMY>"
+	line "¡sacó a"
 	cont ""
 	text_ram wEnemyMonNickname
 	text "!"
@@ -535,14 +535,14 @@ BattleText_PkmnIsAlreadyOut:
 	prompt
 
 BattleText_PkmnCantBeRecalled:
-    text "¡@"
+    text "¡"
 	text_ram wBattleMonNickname
     line "no puede ser"
     cont "retirado!"
 	prompt
 
 BattleText_PkmnCantBeRecalledAbility:
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer1
 	line "de"
 	cont ""
@@ -573,7 +573,7 @@ BattleText_MonCanOnlyUseMove:
 	prompt
 
 BattleText_ItemPreventsStatusMoves: ; assault vest
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer1
 	line "impide usar"
 	cont "movimientos de"
@@ -834,7 +834,7 @@ IgnoredOrdersText:
 	prompt
 
 IgnoredSleepingText:
-	text "¡@"
+	text "¡"
 	text_ram wBattleMonNickname
 	line "desobedeció…!"
 	cont "¡Está durmiendo!"
@@ -1189,7 +1189,7 @@ EvadedText:
 	prompt
 
 WasDisabledText:
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer1
 	text " de"
 	line "<TARGET>"
@@ -1709,8 +1709,8 @@ SuckedUpOozeText:
 	prompt
 
 BattleText_EnemyWithdrew::
-	text "¡<ENEMY>"
-	line "retiró a"
+	text "<ENEMY>"
+	line "¡retiró a"
 	cont ""
 	text_ram wEnemyMonNickname
 	text "!"

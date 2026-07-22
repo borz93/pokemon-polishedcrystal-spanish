@@ -318,9 +318,9 @@ PokemonJournalWhitneyScript:
 
 	para "Reportaje"
 	line "Especial: ¡Líder"
-	cont "Whitney!"
+	cont "Blanca!"
 
-	para "Dicen que Whitney"
+	para "Dicen que Blanca"
 	line "admira a Bruno del"
 	cont "Alto Mando."
 	done

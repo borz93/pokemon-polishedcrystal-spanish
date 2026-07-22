@@ -268,7 +268,7 @@ GenericTrainerBeautyValencia:
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
-	text "La Leche Moomoo es"
+	text "La Leche Mu-mú es"
 	line "buena para la"
 	cont "belleza y la"
 	cont "salud."
@@ -333,7 +333,7 @@ LassDanaMoomooMilkText:
 	text "¡Sé algo bueno!"
 
 	para "La leche de Granja"
-	line "Moomoo es famosa"
+	line "Mu-mú es famosa"
 	cont "por su sabor."
 	done
 
@@ -373,7 +373,7 @@ BeautyOliviaSeenText:
 
 BeautyOliviaBeatenText:
 	text "Bebemos Leche"
-	line "Moomoo cada día."
+	line "Mu-mú cada día."
 	done
 
 Route38SignText:

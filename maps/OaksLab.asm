@@ -568,7 +568,7 @@ ProfOakEeveeDollTradeText:
 
 	para "Te lo cambio"
 	line "por una"
-	cont "Piedra Eter."
+	cont "Piedra Eterna"
 	done
 
 NoEverstoneText:

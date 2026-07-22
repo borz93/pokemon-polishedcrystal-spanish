@@ -22,7 +22,7 @@ IrwinPlainBadgeGossipText:
 	line "enteré!"
 
 	para "¿Venciste a"
-	line "Whitney?"
+	line "Blanca?"
 
 	para "¡Me enorgullece"
 	line "ser tu amigo!"

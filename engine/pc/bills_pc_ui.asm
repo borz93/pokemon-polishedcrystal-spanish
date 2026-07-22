@@ -1531,7 +1531,7 @@ ManageBoxes:
 BillsPC_MenuStrings:
 	db "Nada@"
 	; pokémon management options
-	db "Retirar@"
+	db "Sacar@"
 	db "Guardar@"
 	db "Estado@"
 	db "Cambiar@"

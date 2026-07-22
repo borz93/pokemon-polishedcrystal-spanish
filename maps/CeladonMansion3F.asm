@@ -208,7 +208,7 @@ GameFreakCharacterDesignerText:
 	text "¿No es Lyra"
 	line "adorable?"
 
-	para "Jasmine también"
+	para "Yasmina también"
 	line "es bonita."
 
 	para "¡Ah, las adoro!"

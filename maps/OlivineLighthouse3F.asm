@@ -111,9 +111,9 @@ OlivineLighthouse3FBattleGirlEmy:
 	para "Entonces te queda"
 	line "un rival: ¡la"
 	cont "propia alumna de"
-	cont "Chuck, yo!"
+	cont "Aníbal, yo!"
 
-	para "¿Lista para"
+	para "¿Listo para"
 	line "combatir?"
 	done
 
@@ -170,7 +170,7 @@ Bird_keeperTheoScript:
 GenericTrainerGentlemanPreston:
 	generictrainer GENTLEMAN, PRESTON, EVENT_BEAT_GENTLEMAN_PRESTON, GentlemanPrestonSeenText, GentlemanPrestonBeatenText
 
-	text "Jasmine solía usar"
+	text "Yasmina solía usar"
 	line "#mon tipo Roca"
 	cont "como Onix."
 	done

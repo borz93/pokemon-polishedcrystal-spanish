@@ -255,7 +255,7 @@ ChuckIntroText1:
 	done
 
 ChuckIntroText2:
-	text "Chuck: ¡Urgh!"
+	text "Aníbal: ¡Urgh!"
 	line "…"
 
 	para "¡Oooargh!"

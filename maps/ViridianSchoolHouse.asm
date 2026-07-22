@@ -128,8 +128,8 @@ PokemonJournalKiyoScript:
 	cont "Kiyo!"
 
 	para "Dicen que Kiyo"
-	line "estudió con Chuck,"
-	cont "de Ciudad"
+	line "estudió con"
+	cont "Aníbal, de Ciudad"
 	cont "Orquídea."
 
 	para "Se rumorea que"

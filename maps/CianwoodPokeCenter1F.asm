@@ -28,9 +28,9 @@ PokemonJournalChuckScript:
 
 	para "Reportaje"
 	line "especial: ¡el"
-	cont "Líder Chuck!"
+	cont "Líder Aníbal!"
 
-	para "Dicen que a Chuck"
+	para "Dicen que a Aníbal"
 	line "le encantan los"
 	cont "postres dulces."
 

@@ -172,7 +172,7 @@ FarmerMText_SickCow:
 
 FarmerMText_BuyMilk:
 	text "¿Qué te parece mi"
-	line "Leche Moomoo?"
+	line "Leche Mu-mú?"
 
 	para "Es mi orgullo y"
 	line "alegría."
@@ -200,7 +200,7 @@ FarmerFText_HealedMiltank:
 	text "Curaste a nuestra"
 	line "Miltank, cariño."
 	cont "Ahora vuelve a dar"
-	cont "Leche Moomoo."
+	cont "Leche Mu-mú."
 
 	para "Toma algo por las"
 	line "molestias."

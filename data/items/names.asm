@@ -8,7 +8,7 @@ ItemNames::
 	li "Parque Ball"
 
 	li "Poké Ball"
-	li "Super Ball"
+	li "Súper Ball"
 	li "Ultra Ball"
 	li "Master Ball"
 
@@ -42,15 +42,15 @@ ItemNames::
 	li "Máx Poción"
 
 	li "Antídoto"
-	li "Antiquemad."
-	li "Antiparál."
+	li "Antiquemar"
+	li "Antiparaliz"
 	li "Despertar"
 	li "Antihielo"
 	li "Cura Total"
 	li "Restauratodo"
 
 	li "Revivir"
-	li "Max Revivir"
+	li "Máx Revivir"
 
 	li "Éter"
 	li "Máx éther"
@@ -65,12 +65,12 @@ ItemNames::
 	li "Zinc"
 	li "Carameloraro"
 	li "Más PP"
-	li "Máx PP"
+	li "Más PP"
 
 	li "Agua Fresca"
 	li "Refresco"
 	li "Limonada"
-	li "Leche Moomoo"
+	li "Leche Mu-mú"
 if DEF(FAITHFUL)
 	li "Caram. Furia"
 else
@@ -78,12 +78,12 @@ else
 endc
 	li "Rokikos"
 
-	li "Polvo Energí"
+	li "Pol. Energía"
 	li "Raíz Energía"
-	li "Polvo Cura"
+	li "Pol. Cura"
 	li "Hierba Vigor"
 
-	li "Ceniza Sagr."
+	li "Cen. Sagrada"
 
 	li "Baya Zreza"
 	li "Baya Atania"
@@ -126,8 +126,8 @@ endc
 	li "Zumo Baya"
 
 	li "Repelente"
-	li "Súper Repel."
-	li "Máx. Repel."
+	li "Súper Repel"
+	li "Máx. Repel"
 
 	li "Cuerda Huida"
 	li "Poké Muñeco"
@@ -165,7 +165,7 @@ endc
 	li "Piedra Solar"
 	li "Piedra Noche"
 	li "Piedra Alba"
-	li "Piedra Eter."
+	li "Pied. Eterna"
 
 	li "Compart. Exp"
 
@@ -177,10 +177,10 @@ endc
 	li "Piedra Dura"
 	li "Polvo Plata"
 	li "Hechizo"
-	li "Metal Recub."
+	li "Rev.Metálico."
 	li "Carbón"
 	li "Agua Mística"
-	li "Semilla Mil."
+	li "Sem. Milagro"
 	li "Imán"
 	li "Cda. Torcida"
 	li "Hielo Eterno"
@@ -204,10 +204,10 @@ endc
 
 	li "Cinta Múscu."
 	li "Gafas Sabias"
-	li "Cinta Exper."
-	li "Arcilla Lig."
-	li "Vidorbe"
-	li "Banda Aguan."
+	li "Cin. Experto"
+	li "Refleluz"
+	li "Vidasfera"
+	li "Ban. Aguante"
 	li "Metrónomo"
 	li "Bola Hierro"
 	li "Cola Plúmbea"
@@ -225,21 +225,21 @@ endc
 
 	li "Seguro Débil"
 	li "Chal. Asalto"
-	li "Gafas Salvar"
+	li "Gaf. Protec"
 
 	li "Almoh.Protec"
 
 	li "Spray Vocal"
-	li "Paq. Salida"
-	li "Botas Pesad."
+	li "Moch. Escape"
+	li "Bota Gruesa"
 	li "Seguro Error"
 	li "Servicio Hab"
 
 	li "Amuleto Puro"
-	li "Hierba Espej"
+	li "Hier. Espejo"
 	li "Guante Boxeo"
 	li "Capa Sigilo"
-	li "Dados Truc."
+	li "Dado Trucado"
 
 	li "Bola Luz"
 	li "Puerro"
@@ -253,21 +253,21 @@ endc
 	li "Lupa Amplia"
 	li "Lupa Zoom"
 
-	li "Hierba Ment."
+	li "Hier. Mental"
 	li "Hierba Poder"
-	li "Hierba Blan."
+	li "Hier. Blanca"
 
 	li "Roca Húmeda"
 	li "Roca Calor"
 	li "Roca Suave"
 	li "Roca Helada"
 
-	li "Banda Elecc."
-	li "Buf. Elecc."
-	li "Gafas Elecc."
+	li "Ban.Elección"
+	li "Buf.Elección"
+	li "Gaf.Elección"
 
-	li "Esfera Llama"
-	li "Esfera Tóx."
+	li "Llamasfera"
+	li "Toxisfera"
 	li "Lodo Negro"
 
 	li "Brazal Firme"
@@ -278,14 +278,14 @@ endc
 	li "Banda Poder"
 	li "Tob. Poder"
 
-	li "Escama Drag."
+	li "Esc. Dragón"
 	li "Mejora"
-	li "Disco Extr."
+	li "Dis. Extraño"
 	li "Protector"
 	li "Electrizador"
 	li "Magmatizador"
-	li "Colm. Afil."
-	li "Garra Afil."
+	li "Colm. Agudo"
+	li "Garr.Afilada"
 	li "Piedra Oval"
 	li "Suvenir Raro"
 	li "Cable Enlace"
@@ -303,26 +303,26 @@ endc
 	li "Perla"
 	li "Perla Grande"
 	li "Sarta Perlas"
-	li "Polvo Estel."
-	li "Frag. Estr."
-	li "Frag. Ladri."
+	li "Polvoestelar"
+	li "Tr. Estrella"
+	li "Ladrillo"
 	li "Hueso Raro"
 	li "ColaSlowpoke"
 
 	li "Fósil Hélix"
 	li "Fósil Domo"
-	li "ámbar Antig."
+	li "AmbarAntiguo"
 
 	li "Carta Flor"
 	li "Carta Surf"
 	li "Carta Celes."
-	li "Carta Retr."
+	li "Car. Retrato"
 	li "Carta Bonita"
 	li "Carta Eón"
 	li "Carta Forma"
 	li "Carta Cielo"
 	li "Carta Música"
-	li "Carta Espej."
+	li "Car. Espejo"
 	assert_list_length NUM_ITEMS + 1
 
 	setcharmap default

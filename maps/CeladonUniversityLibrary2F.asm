@@ -78,7 +78,7 @@ CeladonUniversityLibrary2FArtistScript:
 	end
 
 .Text1:
-	text "“Jasmine miraba"
+	text "“Yasmina miraba"
 	line "los profundos ojos"
 	cont "castaños de"
 	cont "Erika…”"

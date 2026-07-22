@@ -244,7 +244,7 @@ DayCareLyraForgotText:
 	line "¡Casi lo olvido!"
 
 	para "¡Toma! ¡Este es mi"
-	line "número de #gear!"
+	line "número!"
 	done
 
 GotLyrasNumberText:
@@ -317,13 +317,13 @@ DayCareManText_GiveOddEgg:
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> recibió"
-	line "¡el Huevo"
+	text "¡<PLAYER> recibió"
+	line "Huevo"
 	cont "Extraño!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "Descubrí eso"
+	text "Lo escubrí"
 	line "cuando cuidaba"
 
 	para "del #mon de"

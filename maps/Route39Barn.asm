@@ -150,7 +150,7 @@ MooMoo:
 	end
 
 Text_MoomooIsSick:
-	text "Moomoo está"
+	text "Mu-mú está"
 	line "enferma…"
 
 	para "Necesita muchas"
@@ -160,7 +160,7 @@ Text_MoomooIsSick:
 Text_WereFeedingMoomoo:
 	text "¡Estamos"
 	line "alimentando a"
-	cont "Moomoo!"
+	cont "Mu-mú!"
 	done
 
 Text_WeakMoo:

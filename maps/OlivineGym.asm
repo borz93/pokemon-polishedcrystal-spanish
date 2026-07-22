@@ -57,7 +57,7 @@ OlivineGymGuyScript:
 	iffalse_jumptextfaceplayer OlivineGymGuyPreText
 	jumpthistextfaceplayer
 
-	text "Jasmine usa el"
+	text "Yasmina usa el"
 	line "tipo Acero,"
 	cont "recién"
 	cont "descubierto."
@@ -83,7 +83,7 @@ OlivineGymLassConnie:
 
 	para "¡Es hora de que"
 	line "se lo demuestres"
-	cont "a Jasmine!"
+	cont "a Yasmina!"
 
 	para "¡Buena suerte!"
 	done
@@ -156,7 +156,7 @@ Jasmine_SteelTypeIntro:
 
 	para "que me presente."
 
-	para "Soy Jasmine, Líder"
+	para "Soy Yasmina, Líder"
 	line "de Gimnasio. Uso"
 	cont "el tipo Acero."
 
@@ -220,7 +220,7 @@ OlivineGymGuyWinText:
 	done
 
 OlivineGymGuyPreText:
-	text "Jasmine, la Líder"
+	text "Yasmina, la Líder"
 	line "de Gimnasio, está"
 	cont "en el Faro."
 

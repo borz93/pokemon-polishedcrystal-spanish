@@ -1047,16 +1047,16 @@ _BuenaOffTheAirText::
 
 SECTION "Text_EnemyUsed", ROMX
 Text_EnemyUsed::
-	text "¡<ENEMY>"
-	line "usó "
+	text "<ENEMY>"
+	line "¡usó "
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	prompt
 
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
-	text "¡<ENEMY>"
-	line "usó "
+	text "<ENEMY>"
+	line "¡usó "
 	text_ram wMonOrItemNameBuffer
 	cont "en "
 	text_ram wEnemyMonNickname
@@ -1886,12 +1886,12 @@ _BootedHMText::
 SECTION "_ContainedMoveText", ROMX
 _ContainedMoveText::
 	text "Contiene"
-	line "@"
+	line ""
 	text_ram wStringBuffer2
 	text "."
 
 	para "¿Enseñas"
-	line "@"
+	line ""
 	text_ram wStringBuffer2
 	cont "a un #mon?"
 	done
@@ -1926,10 +1926,10 @@ _CantUseItemText::
 
 SECTION "_UseCutText", ROMX
 _UseCutText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó CORTE!"
+	line "usó Corte!"
 	prompt
 
 SECTION "_CutNothingText", ROMX
@@ -1953,7 +1953,7 @@ _BlindingFlashText::
 
 SECTION "_UsedSurfText", ROMX
 _UsedSurfText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
 	line "usó SURF!"
@@ -1968,22 +1968,22 @@ _CantSurfText::
 SECTION "_AlreadySurfingText", ROMX
 _AlreadySurfingText::
 	text "Ya estás"
-	line "haciendo SURF."
+	line "usando Surf."
 	prompt
 
 SECTION "_AskSurfText", ROMX
 _AskSurfText::
 	text "El agua está en"
 	line "calma. ¿Quieres"
-	cont "hacer SURF?"
+	cont "usar Surf?"
 	done
 
 SECTION "_UseWaterfallText", ROMX
 _UseWaterfallText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó CASCADA!"
+	line "usó Cascada!"
 	done
 
 SECTION "_HugeWaterfallText", ROMX
@@ -1995,15 +1995,15 @@ _HugeWaterfallText::
 SECTION "_AskWaterfallText", ROMX
 _AskWaterfallText::
 	text "¿Quieres usar"
-	line "CASCADA?"
+	line "Cascada?"
 	done
 
 SECTION "_UseDigText", ROMX
 _UseDigText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó EXCAVAR!"
+	line "usó Excavar!"
 	done
 
 SECTION "_UseEscapeRopeText", ROMX
@@ -2028,10 +2028,10 @@ _CantUseTeleportText::
 
 SECTION "_UseStrengthText", ROMX
 _UseStrengthText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó FUERZA!"
+	line "usó Fuerza!"
 	done
 
 SECTION "_MoveBoulderText", ROMX
@@ -2052,8 +2052,8 @@ _AskStrengthText::
 
 SECTION "_BouldersMoveText", ROMX
 _BouldersMoveText::
-	text "Las rocas ya"
-	line "¡se pueden mover!"
+	text "¡Las rocas ya"
+	line "se pueden mover!"
 	done
 
 SECTION "_BouldersMayMoveText", ROMX
@@ -2064,10 +2064,10 @@ _BouldersMayMoveText::
 
 SECTION "_UseWhirlpoolText", ROMX
 _UseWhirlpoolText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó TORBELLINO!"
+	line "usó Torbellino!"
 	prompt
 
 SECTION "_MayPassWhirlpoolText", ROMX
@@ -2090,7 +2090,7 @@ _AskWhirlpoolText::
 
 SECTION "_UseHeadbuttText", ROMX
 _UseHeadbuttText::
-	text "¡@"
+	text "¡"
 	text_ram wStringBuffer2
 	text_start
 	line "usó Golpe Cabeza!"
@@ -2156,8 +2156,8 @@ _RodNothingText::
 
 SECTION "_CantGetOffBikeText", ROMX
 _CantGetOffBikeText::
-	text "No puedes bajarte"
-	line "¡aquí!"
+	text "¡No puedes bajarte"
+	line "aquí!"
 	done
 
 SECTION "_GotOnBikeText", ROMX
@@ -2188,7 +2188,7 @@ _AskCutText::
 SECTION "_CanCutText", ROMX
 _CanCutText::
 	text "¡Este árbol se"
-	line "puede CORTAR!"
+	line "puede cortar!"
 	done
 
 SECTION "_FoundItemText", ROMX
@@ -2244,8 +2244,8 @@ WhiteoutToWildText::
 
 SECTION "WhiteoutToTrainerText", ROMX
 WhiteoutToTrainerText::
-	text "<PLAYER> no tiene"
-	line "¡#mon útiles!"
+	text "¡<PLAYER> no tiene"
+	line "#mon útiles!"
 
 	para "<PLAYER> pagó"
 	line "¥"
@@ -2536,8 +2536,8 @@ MailMovedFromBoxText::
 
 SECTION "_ReceivedGiftMonText", ROMX
 _ReceivedGiftMonText::
-	text "<PLAYER> recibió a"
-	line ""
+	text "¡<PLAYER> recibió"
+	line "a"
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	done
@@ -2553,8 +2553,8 @@ _EggSentToPCText::
 
 SECTION "_PCGottaHavePokemonText", ROMX
 _PCGottaHavePokemonText::
-	text "Necesitas un"
-	line "¡#mon para"
+	text "¡Necesitas un"
+	line "#mon para"
 	cont "llamar!"
 	prompt
 
@@ -2711,7 +2711,7 @@ _CaughtAskNicknameText::
 
 SECTION "_PokecenterPCCantUseText", ROMX
 _PokecenterPCCantUseText::
-	text "¡Bzzzt! Necesitas"
+	text "¡Bzzzt! ¡Necesitas"
 	line "un #mon para"
 	cont "usar esto!"
 	prompt
@@ -2817,8 +2817,8 @@ _PokecenterPlayersPCText::
 
 SECTION "_PokecenterOaksPCText", ROMX
 _PokecenterOaksPCText::
-	text "PC del Prof.Oak"
-	line "accedido."
+	text "Accedido al PC"
+	line "del Prof.Oak."
 
 	para "Sistema de"
 	line "puntuación"
@@ -2857,8 +2857,8 @@ _OakPCText3::
 
 SECTION "_OakRating01", ROMX
 _OakRating01::
-	text "Busca #mon en"
-	line "¡zonas con hierba!"
+	text "¡Busca #mon en"
+	line "zonas con hierba!"
 	done
 
 SECTION "_OakRating02", ROMX
@@ -2915,7 +2915,7 @@ _OakRating07::
 
 SECTION "_OakRating08", ROMX
 _OakRating08::
-	text "¡Excelente! Se"
+	text "¡Excelente! ¡Se"
 	line "ve que te gusta"
 	cont "coleccionar cosas!"
 	done
@@ -3016,8 +3016,8 @@ _OakRating19::
 
 SECTION "_OakPCText4", ROMX
 _OakPCText4::
-	text "Se cerró el"
-	line "enlace con el PC"
+	text "Se cerró conexión"
+	line "con el PC"
 	cont "del Prof.Oak."
 	done
 

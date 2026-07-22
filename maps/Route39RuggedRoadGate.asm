@@ -63,7 +63,8 @@ Route39RuggedRoadGateSwimmerScript:
 	line "cerca del barco."
 
 	para "Y también perdí"
-	line "mis Gafas Aisl.…"
+	line "mis Gafas"
+	cont "Aislantes…"
 
 	para "¡Vaya, no es mi"
 	line "día!"
@@ -139,7 +140,7 @@ Route39RuggedRoadGateOfficerCannotPassText:
 
 	para "No puedo dejar que"
 	line "te arriesgues sin"
-	cont "Gafas Aisl."
+	cont "Gafas Aislantes"
 	done
 
 Route39RuggedRoadGateOfficerText:
