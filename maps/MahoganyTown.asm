@@ -66,14 +66,14 @@ RageCandyBarMerchantScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "Good! Savor it!"
+	text "¡Bien! ¡Saboréala!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money."
+	text "No tienes"
+	line "suficiente dinero."
 	done
 
 MahoganyTownGrampsScript:
@@ -81,9 +81,10 @@ MahoganyTownGrampsScript:
 	iftrue_jumptextfaceplayer MahoganyTownGrampsText_ClearedRocketHideout
 	jumpthistextfaceplayer
 
-	text "Are you off to see"
-	line "the Gyarados ram-"
-	cont "page at the lake?"
+	text "¿Vas a ver al"
+	line "Gyarados"
+	cont "enfurecido en el"
+	cont "lago?"
 	done
 
 MahoganyTownSouvenirShopSign:
@@ -91,8 +92,9 @@ MahoganyTownSouvenirShopSign:
 	iftrue_jumptext MahoganyTownSouvenirShopSignText1
 	jumpthistext
 
-	text "Grandma's"
-	line "Souvenir Shop"
+	text "Tienda de"
+	line "Recuerdos de la"
+	cont "Abuela"
 	done
 
 MahoganyTownRageCandyBarMerchantBlocksYouMovement:
@@ -107,105 +109,111 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Hiya, kid!"
+	text "¡Hola, chaval!"
 
-	para "I see you're new"
-	line "in Mahogany Town."
+	para "Veo que eres nuevo"
+	line "en Pueblo Caoba."
 
-	para "Since you're new,"
-	line "you should try a"
+	para "¡Ya que eres"
+	line "nuevo, deberías"
+	cont "probar"
 
 if DEF(FAITHFUL)
-	para "yummy RageCandy-"
-	line "Bar!"
+	cont "una deliciosa"
+	cont "RageCandyBar!"
 else
-	para "yummy Cake of"
-	line "Rage!"
+	cont "una deliciosa"
+	cont "Tarta de Furia!"
 endc
 
-	para "Right now, it can"
-	line "be yours for just"
-	cont "¥300! Want one?"
+	para "Ahora mismo puede"
+	line "ser tuya por solo"
+	cont "¥300! ¿Quieres"
+	cont "una?"
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Oh, fine then…"
+	text "Oh, vale,"
+	line "entonces…"
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "You don't have"
-	line "room for this."
+	text "No tienes sitio"
+	line "para esto."
 	done
 
 RageCandyBarMerchantSoldOutText:
 if DEF(FAITHFUL)
-	text "RageCandyBars are"
+	text "Las RageCandyBar"
+	line "se agotaron."
 else
-	text "Cakes of Rage are"
+	text "Las Tartas de"
+	line "Furia se"
+	cont "agotaron."
 endc
-	line "sold out."
 
-	para "I'm packing up."
-	line "Don't bother me,"
-	cont "kiddo."
+	para "Estoy recogiendo."
+	line "No me molestes,"
+	cont "chaval."
 	done
 
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "Magikarp have"
-	line "returned to Lake"
-	cont "of Rage."
+	text "Los Magikarp"
+	line "volvieron al Lago"
+	cont "de la Furia."
 
-	para "That should be"
-	line "good news for the"
-	cont "anglers there."
+	para "Eso debería ser"
+	line "buena noticia para"
+	cont "los pescadores de"
+	cont "ahí."
 	done
 
 MahoganyTownFisherText:
-	text "Since you came"
-	line "this far, take the"
+	text "Ya que llegaste"
+	line "hasta aquí, tómate"
 
-	para "time to do some"
-	line "sightseeing."
+	para "un tiempo para"
+	line "hacer turismo."
 
-	para "You should head"
-	line "north and check"
+	para "Deberías ir al"
+	line "norte y visitar"
 
-	para "out Lake of Rage"
-	line "right now."
+	para "el Lago de la"
+	line "Furia ahora mismo."
 	done
 
 MahoganyTownLassText:
-	text "Visit Grandma's"
-	line "shop. She sells"
-
-	para "stuff that nobody"
-	line "else has."
+	text "Visita la tienda"
+	line "de la Abuela."
+	cont "Vende cosas que"
+	cont "nadie más tiene."
 	done
 
 MahoganyTownSignText:
-	text "Mahogany Town"
+	text "Pueblo Caoba"
 
-	para "Welcome to the"
-	line "Home of the Ninja"
+	para "Bienvenido al"
+	line "Hogar del Ninja"
 	done
 
 MahoganyTownSouvenirShopSignText1:
-	text "Just a Souvenir"
-	line "Shop"
+	text "Solo una Tienda"
+	line "de Recuerdos"
 
-	para "Nothing Suspicious"
-	line "About It"
+	para "Nada Sospechoso"
+	line "en Ella"
 
-	para "No Need to Be"
-	line "Alarmed"
+	para "No Hay Necesidad"
+	line "de Alarmarse"
 	done
 
 MahoganyGymSignText:
-	text "Mahogany Town"
-	line "#mon Gym"
-	cont "Leader: Pryce"
+	text "Pueblo Caoba"
+	line "Gimnasio #mon"
+	cont "Líder: Pryce"
 
-	para "The Teacher of"
-	line "Winter's Harshness"
+	para "El Maestro de la"
+	line "Dureza del"
+	cont "Invierno"
 	done

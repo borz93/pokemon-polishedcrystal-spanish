@@ -195,116 +195,120 @@ PlateauRivalBattleTrigger2:
 	end
 
 PlateauRivalText1:
-	text "Hold it."
+	text "Alto ahí."
 
-	para "You're going to"
-	line "take the #mon"
+	para "¿Vas a aceptar el"
+	line "reto de la Liga"
+	cont "#mon ahora?"
 
-	para "League challenge"
-	line "now?"
+	para "Eso no va a"
+	line "pasar."
 
-	para "That's not going"
-	line "to happen."
+	para "Mis #mon"
+	line "superentrenados"
 
-	para "My super well-"
-	line "trained #mon"
+	para "te van a"
+	line "machacar."
 
-	para "are going to pound"
-	line "you."
-
-	para "<PLAYER>!"
-	line "I challenge you!"
+	para "¡<PLAYER>!"
+	line "¡Te reto!"
 	done
 
 PlateauRivalWinText:
 	text "…"
 
-	para "OK--I lost…"
+	para "Vale--perdí…"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "…Rayos… sigo sin"
+	line "poder ganar…"
 
-	para "I… I have to think"
-	line "more about my"
+	para "Yo… debo pensar"
+	line "más sobre mis"
 	cont "#mon…"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "¡Já! ¡Procura no"
+	line "perder!"
 	done
 
 PlateauRivalLoseText:
 	text "…"
 
-	para "Whew…"
-	line "With my partners,"
+	para "Uf…"
+	line "Con mis"
+	cont "compañeros,"
 
-	para "I'm going to be"
-	line "the Champion!"
+	para "¡voy a ser el"
+	line "Campeón!"
 	done
 
 PlateauLyraText1:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "I've been travel-"
-	line "ing around Johto,"
+	para "He estado viajando"
+	line "por Johto,"
 
-	para "earning Badges and"
-	line "gaining strength."
+	para "ganando Medallas y"
+	line "haciéndome más"
+	cont "fuerte."
 
-	para "You know what"
-	line "that's like,"
-	cont "<PLAYER>."
+	para "Sabes cómo es eso,"
+	line "<PLAYER>."
 
-	para "And now…"
+	para "Y ahora…"
 
-	para "Here I am, at the"
-	line "Indigo Plateau."
+	para "Aquí estoy, en la"
+	line "Meseta Añil."
 
-	para "Do you know what"
-	line "this means?"
+	para "¿Sabes lo que"
+	line "significa esto?"
 
-	para "I get to challenge"
-	line "you, not only as"
-	cont "my friend, but"
+	para "¡Puedo"
+	line "desafiarte, no"
+	cont "solo como mi"
+	cont "amiga, sino"
 	done
 
 PlateauLyraText2:
-	text "as the #mon"
-	line "League Champion!"
+	text "como la Campeona"
+	line "de la Liga"
+	cont "#mon!"
 	done
 
 PlateauLyraWinText:
-	text "So you're still"
-	line "stronger than me…"
+	text "Así que sigues"
+	line "siendo más fuerte"
+	cont "que yo…"
 	done
 
 PlateauLyraLoseText:
-	text "…I won?"
+	text "…¿Gané?"
 	done
 
 PlateauLyraText3:
-	text "I'm not angry that"
-	line "I lost."
+	text "No estoy enfadada"
+	line "por haber"
+	cont "perdido."
 
-	para "I got to explore"
-	line "Johto, meet new"
-	cont "people, raise my"
+	para "Pude explorar"
+	line "Johto, conocer"
+	cont "gente nueva,"
 
-	para "#mon to be"
-	line "stronger than I"
+	para "hacer que mis"
+	line "#mon fueran más"
 
-	para "thought they could"
-	line "ever be…"
+	para "fuertes de lo que"
+	line "creía posible…"
 
-	para "And I got to"
-	line "battle you at my"
-	cont "very best."
+	para "Y pude luchar"
+	line "contigo dando lo"
+	cont "mejor de mí."
 
-	para "You beat me--now"
-	line "go beat the #-"
-	cont "mon League!"
+	para "¡Me venciste--"
+	line "ahora ve a vencer"
+	cont "a la"
+	cont "Liga #mon!"
 	done
 
 PlateauRivalApproachesMovement:
@@ -327,21 +331,23 @@ PokemonJournalGiovanniScript:
 	setflag ENGINE_READ_GIOVANNI_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Boss Giovanni!"
+	para "Reportaje"
+	line "Especial: ¡El"
+	cont "jefe Giovanni!"
 
-	para "When police sear-"
-	line "ched the abandoned"
-	cont "Viridian Gym, they"
+	para "Cuando la policía"
+	line "registró el"
+	cont "Gimnasio Verde"
 
-	para "discovered that"
-	line "its Leader,"
-	cont "Giovanni, had"
+	para "abandonado,"
+	line "descubrieron que"
 
-	para "also been the"
-	line "Team Rocket Boss."
+	para "su Líder,"
+	line "Giovanni, también"
+	cont "había sido el jefe"
+	cont "del Team Rocket."
 	done
 
 IndigoPlateauYellowScript:
@@ -396,73 +402,74 @@ IndigoPlateauYellowScript:
 
 .PartyAndBoxFullText:
 	text "Yellow: Oh…"
-	line "You can't carry"
+	line "Tampoco puedes"
+	cont "llevar otro"
+	cont "#mon…"
 
-	para "another #mon"
-	line "either…"
-
-	para "And your Box is"
-	line "full, too…"
+	para "Y tu Caja también"
+	line "está llena…"
 	done
 
 .GreetingText:
-	text "Yellow: Hi,"
+	text "Yellow: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "I was watching the"
-	line "Elite Four fight."
+	para "Estaba viendo"
+	line "luchar al Alto"
+	cont "Mando."
 
-	para "They're so intense…"
-	line "And they have such"
+	para "Son tan"
+	line "intensos… Y"
 
-	para "strong bonds with"
-	line "their #mon…"
+	para "tienen vínculos"
+	line "tan fuertes con"
+	cont "sus #mon…"
 
-	para "One day I'm going"
-	line "to reach their"
-	cont "level."
+	para "Algún día voy a"
+	line "llegar a su"
+	cont "nivel."
 	done
 
 .QuestionText:
 	text "Yellow: <PLAYER>,"
-	line "can you do me a"
+	line "¿me haces un"
 	cont "favor?"
 
-	para "I have a #mon"
-	line "that I can't raise"
-	cont "myself, and I don't"
+	para "Tengo un #mon"
+	line "que no puedo"
+	cont "criar yo, y no"
 
-	para "want to leave it"
-	line "in PC storage."
+	para "quiero dejarlo en"
+	line "la PC."
 
-	para "Will you take it,"
-	line "please?"
+	para "¿Lo puedes"
+	line "cuidar tú, por"
+	cont "favor?"
 	done
 
 .GiveStarterText:
-	text "Yellow: Thanks,"
-	line "<PLAYER>! Here"
-	cont "you go!"
+	text "Yellow: ¡Gracias,"
+	line "<PLAYER>! ¡Aquí"
+	cont "tienes!"
 	done
 
 .RefusedText:
 	text "Yellow: Oh…"
-	line "But what about the"
+	line "¿Pero qué hay del"
 	cont "#mon?"
 	done
 
 .GoodbyeText:
-	text "Yellow: You take"
-	line "good care of that"
-
-	para ""
+	text "Yellow: ¡Cuida"
+	line "bien de "
 	text_ram wStringBuffer3
 	text ","
 	line "<PLAYER>!"
 
-	para "I hope we'll meet"
-	line "again."
-	cont "Bye-bye!"
+	para "Espero que"
+	line "volvamos a"
+	cont "vernos."
+	cont "¡Adiós-adiós!"
 	done
 
 .DownMovement:
@@ -488,34 +495,35 @@ IndigoPlateauTeleportGuyScript:
 	end
 
 .Text:
-	text "Ah! You're chal-"
-	line "lenging the Elite"
+	text "¡Ah! ¿Vas a"
+	line "desafiar al Alto"
 
-	para "Four? Are you sure"
-	line "you're ready?"
+	para "Mando? ¿Seguro que"
+	line "estás listo?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Si necesitas"
+	line "entrenar más,"
 
-	para "my Abra can help"
-	line "you."
+	para "mi Abra puede"
+	line "ayudarte."
 
-	para "It can Teleport"
-	line "you home."
+	para "Puede"
+	line "Teletransportarte"
+	cont "a casa."
 
-	para "Would you like to"
-	line "go home now?"
+	para "¿Quieres irte a"
+	line "casa ahora?"
 	done
 
 .YesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "Vale, vale."
+	line "Imagina tu casa"
+	cont "en tu mente…"
 	done
 
 .NoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "Vale, vale. ¡Mucha"
+	line "suerte!"
 	done
 
 IndigoPlateauAbraText:
@@ -523,15 +531,16 @@ IndigoPlateauAbraText:
 	done
 
 IndigoPlateauCooltrainermText:
-	text "At the #mon"
-	line "League, you'll get"
+	text "En la Liga"
+	line "#mon, te pondrá"
 
-	para "tested by the"
-	line "Elite Four."
+	para "a prueba el Alto"
+	line "Mando."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Tienes que"
+	line "vencerlos a todos."
 
-	para "lose, you have to"
-	line "start all over!"
+	para "¡Si pierdes,"
+	line "tienes que"
+	cont "empezar de nuevo!"
 	done

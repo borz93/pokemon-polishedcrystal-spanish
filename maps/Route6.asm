@@ -27,109 +27,114 @@ Route6_MapScriptHeader:
 GenericTrainerPokefanmRex:
 	generictrainer POKEFANM, REX, EVENT_BEAT_POKEFANM_REX, PokefanmRexSeenText, PokefanmRexBeatenText
 
-	text "Look how adorable"
-	line "my Phanpy acts!"
+	text "¡Mira qué"
+	line "adorable actúa mi"
+	cont "Phanpy!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "¿No es tan mono"
+	line "que derrite"
+	cont "corazones?"
 	done
 
 PokefanmRexSeenText:
-	text "My Phanpy is the"
-	line "cutest in the"
-	cont "world."
+	text "Mi Phanpy es el"
+	line "más mono del"
+	cont "mundo."
 	done
 
 PokefanmRexBeatenText:
-	text "My Phanpy!"
+	text "¡Mi Phanpy!"
 	done
 
 GenericTrainerPokefanmAllan:
 	generictrainer POKEFANM, ALLAN, EVENT_BEAT_POKEFANM_ALLAN, PokefanmAllanSeenText, PokefanmAllanBeatenText
 
-	text "Look how adorable"
-	line "my Teddiursa acts!"
+	text "¡Mira qué"
+	line "adorable actúa mi"
+	cont "Teddiursa!"
 
-	para "Isn't it cute"
-	line "enough to make"
-	cont "your heart melt?"
+	para "¿No es tan mono"
+	line "que derrite"
+	cont "corazones?"
 	done
 
 PokefanmAllanSeenText:
-	text "My Teddiursa is"
-	line "the cutest in the"
-	cont "world."
+	text "Mi Teddiursa es"
+	line "el más mono del"
+	cont "mundo."
 	done
 
 PokefanmAllanBeatenText:
-	text "My Teddiursa!"
+	text "¡Mi Teddiursa!"
 	done
 
 GenericTrainerTwinsDayanddani1:
 	generictrainer TWINS, DAYANDDANI1, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani1SeenText, TwinsDayanddani1BeatenText
 
-	text "Day: You beat us…"
+	text "Day: Nos"
+	line "venciste…"
 	done
 
 TwinsDayanddani1SeenText:
-	text "Day: Are you going"
-	line "to beat us?"
+	text "Day: ¿Vas a"
+	line "vencernos?"
 	done
 
 TwinsDayanddani1BeatenText:
-	text "Day: Waah!"
+	text "Day: ¡Uaaah!"
 	done
 
 GenericTrainerTwinsDayanddani2:
 	generictrainer TWINS, DAYANDDANI2, EVENT_BEAT_TWINS_DAY_AND_DANI, TwinsDayanddani2SeenText, TwinsDayanddani2BeatenText
 
-	text "Dani: Looks like"
-	line "we got bounced."
+	text "Dani: Parece que"
+	line "nos rebotaron."
 	done
 
 TwinsDayanddani2SeenText:
-	text "Dani: We'll knock"
-	line "you flat!"
+	text "Dani: ¡Te"
+	line "tumbaremos!"
 	done
 
 TwinsDayanddani2BeatenText:
-	text "Dani: Eeeeh!"
+	text "Dani: ¡Eeeeh!"
 	done
 
 GenericTrainerYoungsterChaz:
 	generictrainer YOUNGSTER, CHAZ, EVENT_BEAT_YOUNGSTER_CHAZ, .SeenText, .BeatenText
 
-	text "Me and my big"
-	line "mouth…"
+	text "Yo y mi bocaza…"
 	done
 
 .SeenText:
-	text "Do I see a strong"
-	line "trainer?"
+	text "¿Veo a un"
+	line "entrenador"
+	cont "fuerte?"
 
-	para "Nope, there's only"
-	line "trash here!"
+	para "¡No, aquí solo hay"
+	line "basura!"
 	done
 
 .BeatenText:
-	text "The trash was me…"
+	text "La basura era yo…"
 	done
 
 GenericTrainerGuitaristfWanda:
 	generictrainer GUITARISTF, WANDA, EVENT_BEAT_GUITARISTF_WANDA, .SeenText, .BeatenText
 
-	text "Just move along…"
+	text "Solo sigue tu"
+	line "camino…"
 	done
 
 .SeenText:
-	text "You'd better"
-	line "scatter and run!"
+	text "¡Mejor dispérsate"
+	line "y corre!"
 	done
 
 .BeatenText:
-	text "The battle's lost"
-	line "and not won…"
+	text "El combate se"
+	line "perdió, no se"
+	cont "ganó…"
 	done
 
 OfficerfJennyScript:
@@ -152,61 +157,68 @@ OfficerfJennyScript:
 	endtext
 
 .DaytimeText:
-	text "Us Officers are"
-	line "here to keep the"
-	cont "peace."
+	text "Los Oficiales"
+	line "estamos aquí para"
+	cont "mantener la paz."
 	done
 
 .SeenText:
-	text "You don't look"
-	line "familiar."
+	text "No te reconozco."
 
-	para "Squirtle Squad,"
-	line "attack!"
+	para "¡Escuadrón"
+	line "Squirtle, al"
+	cont "ataque!"
 	done
 
 .BeatenText:
-	text "Squirtle Squad,"
-	line "retreat…"
+	text "Escuadrón"
+	line "Squirtle,"
+	cont "retirada…"
 	done
 
 .AfterText:
-	text "Sorry to bother"
-	line "you, kid."
+	text "Perdona la"
+	line "molestia, chaval."
 
-	para "I get jumpy at"
-	line "night."
+	para "Me pongo nerviosa"
+	line "de noche."
 	done
 
 Route6PokefanMText:
-	text "The road is closed"
-	line "until the problem"
+	text "La carretera está"
+	line "cerrada hasta que"
 
-	para "at the Power Plant"
-	line "is solved."
+	para "se resuelva el"
+	line "problema de la"
+	cont "Central"
+	cont "Eléctrica."
 	done
 
 Route6UndergroundPathSignText:
-	text "Underground Path"
+	text "Camino"
+	line "Subterráneo"
 
-	para "Cerulean City -"
-	line "Vermilion City"
+	para "Ciudad Celeste -"
+	line "Ciudad Carmín"
 	done
 
 Route6AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo"
+	line "avanzado!"
 
-	para "Some items may"
-	line "seem harmful to"
-	cont "the holder, like"
+	para "Algunos objetos"
+	line "pueden parecer"
+	cont "dañinos para el"
+	cont "portador, como"
 
-	para "an Iron Ball or"
-	line "a Choice Scarf."
+	para "una Bola Hierro o"
+	line "una Buf. Elecc."
 
-	para "But with the move"
-	line "Trick, the holder"
+	para "Pero con el"
+	line "movimiento Truco,"
 
-	para "can swap their"
-	line "item with the"
-	cont "opponent!"
+	para "¡el portador puede"
+	line "intercambiar su"
+	cont "objeto con el"
+	cont "rival!"
 	done

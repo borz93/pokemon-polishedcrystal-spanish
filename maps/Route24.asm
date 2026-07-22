@@ -118,102 +118,110 @@ Route24RocketScript:
 	end
 
 Route24RocketSeenText:
-	text "Hey, kid! Me am a"
-	line "Team Rocket member"
-	cont "kind of guy!"
+	text "¡Oye, niño! Yo"
+	line "ser tipo miembro"
+	cont "de Team Rocket!"
 
-	para "Come from another"
-	line "country, a trainer"
-	cont "number one, me!"
+	para "¡Venir de otro"
+	line "país, entrenador"
+	cont "número uno, yo!"
 
-	para "Think I did, if"
-	line "stop the energy,"
+	para "Pensé, si parar"
+	line "la energía,"
 
-	para "be big panic for"
-	line "here people!"
+	para "¡ser gran pánico"
+	line "para gente de"
+	cont "aquí!"
 
-	para "Secret it is my"
-	line "mission, so tell"
-	cont "you I not!"
+	para "¡Secreto es mi"
+	line "misión, así que"
+	cont "decir yo no!"
 
-	para "But! If win you do"
-	line "versus me, a man I"
+	para "¡Pero! Si ganar tú"
+	line "haces contra mí,"
 
-	para "be and mine secret"
-	line "to you I tell."
+	para "un hombre yo ser"
+	line "y mi secreto a ti"
+	cont "contar."
 
-	para "Hey, kid! Battle"
-	line "begin we do!"
+	para "¡Oye, niño!"
+	line "¡Batalla"
+	cont "empezamos ya!"
 	done
 
 Route24RocketBeatenText:
-	text "Ayieeeh! No, no,"
-	line "no, believe it I"
-	cont "can't!"
+	text "¡Ayieeeh! No, no,"
+	line "no, creer yo no"
+	cont "puedo!"
 
-	para "Strong very much"
-	line "be you! Match I am"
-	cont "not to you!"
+	para "¡Fuerte mucho ser"
+	line "tú! Rival yo no"
+	cont "soy para ti!"
 	done
 
 Route24RocketAfterBattleText:
-	text "OK. Tell you mine"
-	line "secret will I."
+	text "Vale. Decir a ti"
+	line "mi secreto haré"
+	cont "yo."
 
-	para "Machine Part steal"
-	line "by me, hide it I"
+	para "Parte de Máquina"
+	line "robar yo, esconder"
+	cont "la hice"
 
-	para "did in Gym of the"
-	line "Cerulean."
+	para "en Gimnasio de"
+	line "Celeste."
 
-	para "Inside water put"
-	line "it I did. Look for"
+	para "Dentro del agua"
+	line "puse yo. Buscar"
 
-	para "in water center of"
-	line "Gym at."
+	para "en agua centro de"
+	line "Gimnasio en."
 
-	para "But you forget me"
-	line "not!"
+	para "¡Pero a mí olvidar"
+	line "tú no!"
 
-	para "Beat you for sure"
-	line "will Team Rocket."
+	para "Vencerte seguro"
+	line "hará Team Rocket."
 
-	para "Come from Johto"
-	line "will they, mine"
+	para "Venir de Johto"
+	line "harán ellos, mis"
 
-	para "friends, yes. Will"
-	line "revenge they are."
+	para "amigos, sí."
+	line "Venganza tendrán"
+	cont "ellos."
 	done
 
 Route24RocketDisappearsText:
 	text "…"
 
-	para "You say what? Team"
-	line "Rocket bye-bye a"
+	para "¿Tú dices qué? El"
+	line "Team Rocket"
+	cont "adiós-adiós"
 
-	para "go-go? Broken it"
-	line "is says you?"
+	para "¿se va? ¿Roto"
+	line "está dices tú?"
 
-	para "Oh, no! Should I"
-	line "do what now on"
-	cont "from, me?"
+	para "¡Oh, no! ¿Qué debo"
+	line "hacer ahora yo"
+	cont "en adelante?"
 	done
 
 Route24AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo"
+	line "avanzado!"
 
-	para "The Sheer Force"
-	line "Ability negates"
+	para "La Habilidad"
+	line "Potencia Bruta"
 
-	para "side effects of"
-	line "moves, but it"
+	para "anula los efectos"
+	line "secundarios de"
+	cont "movimientos, pero"
 
-	para "also negates some"
-	line "other effects!"
+	para "¡también anula"
+	line "otros efectos!"
 
-	para "In particular,"
-	line "the damage done"
-
-	para "by a held Life Orb"
-	line "is ignored!"
+	para "¡En concreto, se"
+	line "ignora el daño"
+	cont "por llevar un"
+	cont "Vidorbe!"
 	done

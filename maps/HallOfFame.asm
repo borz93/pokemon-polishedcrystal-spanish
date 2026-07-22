@@ -106,77 +106,80 @@ HallOfFameEnterScene:
 	step_end
 
 .LanceText1:
-	text "Lance: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "Lance: Hace mucho"
+	line "que no venía por"
+	cont "aquí."
 
-	para "This is where we"
-	line "honor the League"
+	para "Aquí honramos a"
+	line "los Campeones de"
 
-	para "Champions for all"
-	line "eternity."
+	para "la Liga por toda"
+	line "la eternidad."
 
-	para "Their courageous"
-	line "#mon are also"
-	cont "inducted."
+	para "Sus valientes"
+	line "#mon también"
+	cont "son incluidos."
 	done
 
 .LanceTrophyText:
-	text "Take this as a"
-	line "memento of what"
+	text "Toma esto como"
+	line "recuerdo de lo"
 
-	para "you accomplished"
-	line "here today."
+	para "que lograste hoy"
+	line "aquí."
 	done
 
 .LanceText2:
-	text "Here today, we"
-	line "witnessed the rise"
+	text "Hoy, aquí,"
+	line "presenciamos el"
+	cont "ascenso de un"
+	cont "nuevo Campeón de"
+	cont "la Liga: un"
 
-	para "of a new League"
-	line "Champion--a"
+	para "entrenador que"
+	line "siente compasión"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "y confianza hacia"
+	line "todos los #mon."
 
-	para "and trust toward,"
-	line "all #mon."
+	para "Un entrenador que"
+	line "triunfó gracias a"
 
-	para "A trainer who"
-	line "succeeded through"
+	para "la perseverancia"
+	line "y la"
+	cont "determinación."
 
-	para "perseverance and"
-	line "determination."
+	para "¡El nuevo Campeón"
+	line "de la Liga, que"
 
-	para "The new League"
-	line "Champion who has"
+	para "tiene todo lo"
+	line "necesario para la"
+	cont "grandeza!"
 
-	para "all the makings"
-	line "of greatness!"
+	para "<PLAYER> ¡permíteme"
+	line "registraros a ti"
 
-	para "<PLAYER>, allow me"
-	line "to register you"
-
-	para "and your partners"
-	line "as Champions!"
+	para "y a tus"
+	line "compañeros como"
+	cont "Campeones!"
 	done
 
 .GoldTrophyText:
-	text "<PLAYER> received"
-	line "Gold Trophy."
+	text "<PLAYER> recibió el"
+	line "Trofeo Oro."
 	done
 
 .GoldTrophySentText:
-	text "Gold Trophy"
-	line "was sent home."
+	text "El Trofeo Oro se"
+	line "envió a casa."
 	done
 
 .SilverTrophyText:
-	text "<PLAYER> received"
-	line "Silver Trophy."
+	text "<PLAYER> recibió el"
+	line "Trofeo Plata."
 	done
 
 .SilverTrophySentText:
-	text "Silver Trophy"
-	line "was sent home."
+	text "El Trofeo Plata se"
+	line "envió a casa."
 	done

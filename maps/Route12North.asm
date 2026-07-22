@@ -18,21 +18,22 @@ Route12North_MapScriptHeader:
 GenericTrainerFisherKyle:
 	generictrainer FISHER, KYLE, EVENT_BEAT_FISHER_KYLE, FisherKyleSeenText, FisherKyleBeatenText
 
-	text "The tug you feel"
-	line "on the Rod when"
+	text "Ese tirón que"
+	line "sientes en la"
 
-	para "you hook a #-"
-	line "mon…"
+	para "caña al enganchar"
+	line "a un #mon…"
 	done
 
 FisherKyleSeenText:
-	text "Do you remember?"
+	text "¿Te acuerdas?"
 	done
 
 FisherKyleBeatenText:
-	text "You do remember?"
+	text "¿Sí que te"
+	line "acuerdas?"
 	done
 
 FishingSpotSignText:
-	text "Fishing Spot"
+	text "Zona de Pesca"
 	done

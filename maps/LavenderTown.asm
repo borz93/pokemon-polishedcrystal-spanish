@@ -16,10 +16,9 @@ LavenderTown_MapScriptHeader:
 	warp_event 14,  7, LAV_RADIO_TOWER_1F, 1
 
 	def_coord_events
-; TODO:
-;	coord_event  8,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger1
-;	coord_event  9,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger2
-;	coord_event 10,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger3
+	coord_event  8,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger1
+	coord_event  9,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger2
+	coord_event 10,  5, SCENE_LAVENDERTOWN_EXPOSITION, LavenderTownExpositionTrigger3
 
 	def_bg_events
 	bg_event 11,  5, BGEVENT_JUMPTEXT, LavenderTownSignText
@@ -41,9 +40,6 @@ LavenderTown_MapScriptHeader:
 	const LAVENDERTOWN_YOUNGSTER1
 
 LavenderTownFlyPoint:
-; TODO: don't set these once the coord_events are done
-	setevent EVENT_ROUTE_8_PROTESTORS
-	clearevent EVENT_ROUTE_8_KANTO_POKEMON_FEDERATION
 	setflag ENGINE_FLYPOINT_LAVENDER
 	endcallback
 
@@ -128,14 +124,15 @@ LavenderTownSharedExpositionScript:
 	applymovement LAVENDERTOWN_YOUNGSTER1, .BumpMovement
 	jumpthistext
 
-	text "Aah! G-g-ghost!"
+	text "¡Aah! ¡U-un"
+	line "fantasma!"
 
-	para "The Radio Tower"
-	line "is teeming with"
-	cont "monsters!"
+	para "¡La Torre Radio"
+	line "está plagada de"
+	cont "monstruos!"
 
-	para "Run for the"
-	line "hills!"
+	para "¡Corre hacia las"
+	line "colinas!"
 	done
 
 .BumpMovement:
@@ -169,88 +166,94 @@ LavenderTownFinishExpositionScript:
 	step_end
 
 LavenderTownSignText:
-	text "Lavender Town"
+	text "Pueblo Lavanda"
 
-	para "The Noble Purple"
-	line "Town"
+	para "El Noble Pueblo"
+	line "Púrpura"
 	done
 
 KantoRadioStationSignText:
-	text "Kanto Radio"
-	line "Station"
+	text "Emisora de Radio"
+	line "de Kanto"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "¡Tus Programas"
+	line "Favoritos las 24"
+	cont "Horas del Día!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "Lavender Volunteer"
-	line "#mon House"
+	text "Casa Voluntaria"
+	line "#mon de Lavanda"
 	done
 
 SoulHouseSignText:
-	text "House of Souls"
+	text "Casa de las Almas"
 
-	para "May the Souls of"
-	line "#mon Rest Easy"
+	para "Que las Almas de"
+	line "los #mon"
+	cont "Descansen en Paz"
 	done
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Menudo edificio,"
+	line "¿eh?"
 
-	para "It's Kanto's Radio"
-	line "Tower."
+	para "Es la Torre Radio"
+	line "de Kanto."
 	done
 
 LavenderTownTeacherText:
-	text "Kanto has many"
-	line "good radio shows."
+	text "Kanto tiene muchos"
+	line "buenos programas"
+	cont "de radio."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "La gente viene de"
+	line "todas partes para"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #mon."
+	para "presentar sus"
+	line "respetos a las"
+	cont "almas de #mon"
+	cont "fallecidos."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "Flute to wake"
-	cont "sleeping #mon."
+	text "Necesitas una"
+	line "Flauta # para"
+	cont "despertar #mon"
+	cont "dormidos."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "¡Todo entrenador"
+	line "debe saber eso!"
 	done
 
 LavenderTownSuperNerdText:
-	text "Go back inside the"
-	line "Radio Tower?"
+	text "¿Volver dentro de"
+	line "la Torre Radio?"
 
-	para "You must be"
-	line "crazy!"
+	para "¡Debes estar"
+	line "loco!"
 	done
 
 LavenderTownCooltrainerFText:
-	text "The Tower's"
-	line "haunted, I just"
-	cont "know it!"
+	text "¡La Torre está"
+	line "embrujada, lo sé"
+	cont "seguro!"
 
-	para "I'm so freaked"
-	line "out!"
+	para "¡Estoy tan"
+	line "asustada!"
 	done
 
 LavenderTownRockerText:
-	text "I thought a job at"
-	line "the Radio Tower"
+	text "Pensaba que un"
+	line "trabajo en la"
+	cont "Torre Radio"
 
-	para "would be my big"
-	line "break, but I'm not"
+	para "sería mi gran"
+	line "oportunidad, pero"
 
-	para "going back there"
-	line "until it's safe."
+	para "no volveré allí"
+	line "hasta que sea"
+	cont "seguro."
 	done

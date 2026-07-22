@@ -28,76 +28,83 @@ QuietCave1F_MapScriptHeader:
 GenericTrainerHexManiacAshley:
 	generictrainer HEX_MANIAC, ASHLEY, EVENT_BEAT_HEX_MANIAC_ASHLEY, HexManiacAshleySeenText, HexManiacAshleyBeatenText
 
-	text "I see things that"
-	line "others can't see…"
+	text "Veo cosas que"
+	line "otros no pueden"
+	cont "ver…"
 	done
 
 GenericTrainerCooltrainermHenri:
 	generictrainer COOLTRAINERM, HENRI, EVENT_BEAT_COOLTRAINERM_HENRI, CooltrainermHenriSeenText, CooltrainermHenriBeatenText
 
-	text "Having a diverse"
-	line "team to support"
+	text "Tener un equipo"
+	line "variado que"
 
-	para "each others' weak-"
-	line "nesses is key."
+	para "cubra los puntos"
+	line "débiles de todos"
+	cont "es clave."
 	done
 
 GenericTrainerHikerGrady:
 	generictrainer HIKER, GRADY, EVENT_BEAT_HIKER_GRADY, HikerGradySeenText, HikerGradyBeatenText
 
-	text "You could hear a"
-	line "pin drop in this"
-	cont "place!"
+	text "¡Se podría oír"
+	line "caer un alfiler"
+	cont "aquí!"
 	done
 
 GenericTrainerScientistCarl:
 	generictrainer SCIENTIST, CARL, EVENT_BEAT_SCIENTIST_CARL, ScientistCarlSeenText, ScientistCarlBeatenText
 
-	text "It's interesting"
-	line "that such a quiet"
-	cont "environment can"
+	text "Es interesante"
+	line "que un ambiente"
+	cont "tan silencioso"
 
-	para "exist right near"
-	line "rushing water."
+	para "pueda existir tan"
+	line "cerca del agua"
+	cont "que corre."
 	done
 
 HexManiacAshleySeenText:
-	text "The spirits have"
-	line "shown me your"
-	cont "defeat!"
+	text "¡Los espíritus"
+	line "me mostraron tu"
+	cont "derrota!"
 	done
 
 HexManiacAshleyBeatenText:
-	text "No! The spirits"
-	line "can't be wrong!"
+	text "¡No! Los"
+	line "espíritus no se"
+	cont "equivocan!"
 	done
 
 CooltrainermHenriSeenText:
-	text "Can you handle my"
-	line "balanced team of"
+	text "¿Puedes con mi"
+	line "equipo"
+	cont "equilibrado de"
 	cont "#mon?"
 	done
 
 CooltrainermHenriBeatenText: ; text > text
-	text "I guess you can!"
+	text "¡Parece que sí!"
 	done
 
 HikerGradySeenText:
-	text "I heard you long"
-	line "before I saw you!"
+	text "¡Te oí mucho"
+	line "antes de verte!"
 	done
 
 HikerGradyBeatenText:
-	text "Ach!"
+	text "¡Argh!"
 	done
 
 ScientistCarlSeenText:
-	text "I'm studying the"
-	line "acoustics of this"
-	cont "cave system."
+	text "Estudio la"
+	line "acústica de este"
+	cont "sistema de"
+	cont "cuevas."
 	done
 
 ScientistCarlBeatenText:
-	text "My studies don't"
-	line "apply to battles!"
+	text "¡Mis estudios no"
+	line "sirven para"
+	cont "combatir!"
 	done

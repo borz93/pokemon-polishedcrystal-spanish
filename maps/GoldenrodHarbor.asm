@@ -54,31 +54,31 @@ GoldenrodHarborTutorHyperVoiceScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "OK then."
+	text "Vale, entonces."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf!"
+	text "¡No tienes una"
+	line "Hoja Plateada!"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Hyper Voice!"
+	text "¡Tu #mon ya"
+	line "sabe usar Voz"
+	cont "Cautivadora!"
 	done
 
 GenericTrainerFisherPaton:
 	generictrainer FISHER, PATON, EVENT_BEAT_FISHER_PATON, FisherPatonSeenText, FisherPatonBeatenText
 
-	text "You're working"
-	line "on a #dex?"
-	cont "That's neat!"
+	text "¿Estás trabajando"
+	line "en una #dex?"
+	cont "¡Qué bien!"
 	done
 
 TrainerSwimmerfKatie:
@@ -88,32 +88,34 @@ TrainerSwimmerfKatie:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Why is the sea"
-	line "blue?"
+	text "¿Por qué el mar es"
+	line "azul?"
 
-	para "I heard it ref-"
-	line "lects the sky…"
+	para "Oí que refleja el"
+	line "cielo…"
 
-	para "But then why is"
-	line "the sky blue?"
+	para "¿Pero entonces por"
+	line "qué el cielo es"
+	cont "azul?"
 	done
 
 GenericTrainerSwimmermJames:
 	generictrainer SWIMMERM, JAMES, EVENT_BEAT_SWIMMERM_JAMES, SwimmermJamesSeenText, SwimmermJamesBeatenText
 
-	text "Can't a Swimmer"
-	line "use a rowboat"
-	cont "sometimes?"
+	text "¿Un Nadador no"
+	line "puede usar un"
+	cont "bote a veces?"
 	done
 
 
 GoldenrodHarborMagikarpScript:
 	jumpthistext
 
-	text "This is a Fish"
-	line "#mon! Huh?"
+	text "¡Es un #mon"
+	line "pez! ¿Eh?"
 
-	para "It's only a doll…"
+	para "Es solo un"
+	line "muñeco…"
 	done
 
 GoldenrodHarborPokefanmScript:
@@ -197,7 +199,7 @@ GoldenrodHarborPokefanmScript:
 	db "Magikarp    ¥1400@"
 	db "Marill      ¥5600@"
 	db "Octillery  ¥11200@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodHarborYoungsterScript:
 	faceplayer
@@ -277,10 +279,10 @@ GoldenrodHarborYoungsterScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Magna P.    ¥6400@"
-	db "Tropic P.   ¥9600@"
-	db "Jumbo P.   ¥12800@"
-	db "Cancel@"
+	db "Magna       ¥6400@"
+	db "Tropical    ¥9600@"
+	db "Gigante    ¥12800@"
+	db "Salir@"
 
 GoldenrodHarborSailboatScript:
 	readvar VAR_FACING
@@ -291,185 +293,200 @@ GoldenrodHarborSailboatScript:
 	waitsfx
 	jumpthistext
 
-	text "It's a sailboat"
-	line "named SeaKing."
+	text "Es un velero"
+	line "llamado SeaKing."
 	done
 
 GoldenrodHarborFisherText:
-	text "If you're fishing,"
-	line "you have to be"
+	text "Si pescas, tienes"
+	line "que estar"
 
-	para "quiet so you don't"
-	line "scare the #mon."
+	para "callado para no"
+	line "asustar a los"
+	cont "#mon."
 
-	para "But to be heard"
-	line "over the waves,"
+	para "Pero para que te"
+	line "oigan sobre las"
 
-	para "you have to say"
-	line "things LOUD!"
+	para "olas, ¡tienes que"
+	line "hablar FUERTE!"
 	done
 
 Text_GoldenrodHarborTutorHyperVoice:
-	text "I can teach your"
-	line "#mon how to"
+	text "Puedo enseñarle a"
+	line "tu #mon a usar"
 
-	para "use Hyper Voice"
-	line "for a Silver Leaf."
+	para "Voz Cautivadora"
+	line "por una Hoja"
+	cont "Plateada."
 	done
 
 
 Text_GoldenrodHarborTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Hyper Voice?"
+	text "¿Le enseño Voz"
+	line "Cautivadora a tu"
+	cont "#mon?"
 	done
 
 
 
 FisherPatonSeenText:
-	text "The fish I caught"
-	line "was attached to"
-	cont "another #mon!"
+	text "¡El pez que"
+	line "atrapé venía"
+	cont "pegado a otro"
+	cont "#mon!"
 	done
 
 FisherPatonBeatenText:
-	text "Aren't #mon"
-	line "interesting?"
+	text "¿No son"
+	line "interesantes los"
+	cont "#mon?"
 	done
 
 SwimmerfKatieSeenText:
-	text "Swimming in the"
-	line "deep blue sea"
-	cont "feels wonderful!"
+	text "¡Nadar en el"
+	line "profundo mar azul"
+	cont "se siente"
+	cont "maravilloso!"
 	done
 
 SwimmerfKatieBeatenText:
-	text "I lost…"
-	line "Now I feel blue…"
+	text "Perdí…"
+	line "Ahora me siento"
+	cont "triste…"
 	done
 
 SwimmermJamesSeenText:
-	text "I can swim, but"
-	line "I can also row!"
+	text "¡Sé nadar, pero"
+	line "también sé remar!"
 	done
 
 SwimmermJamesBeatenText:
-	text "Maybe I can't"
-	line "battle…"
+	text "Quizás no sepa"
+	line "combatir…"
 	done
 
 GoldenrodHarborDollVendorText:
-	text "Welcome! I have"
-	line "adorable aquatic"
-	cont "dolls for sale."
+	text "¡Bienvenido! Tengo"
+	line "adorables muñecos"
+	cont "acuáticos a la"
+	cont "venta."
 	done
 
 GoldenrodHarborMagikarpDollText:
-	text "<PLAYER> bought"
-	line "Magikarp Doll."
+	text "<PLAYER> compró"
+	line "un Muñeco"
+	cont "Magikarp."
 	done
 
 GoldenrodHarborMagikarpDollSentText:
-	text "Magikarp Doll"
-	line "was sent home."
+	text "El Muñeco"
+	line "Magikarp se envió"
+	cont "a casa."
 	done
 
 GoldenrodHarborMarillDollText:
-	text "<PLAYER> bought"
-	line "Marill Doll."
+	text "<PLAYER> compró"
+	line "un Muñeco Marill."
 	done
 
 GoldenrodHarborMarillDollSentText:
-	text "Marill Doll"
-	line "was sent home."
+	text "El Muñeco Marill"
+	line "se envió a casa."
 	done
 
 GoldenrodHarborOctilleryDollText:
-	text "<PLAYER> bought"
-	line "Octillery Doll."
+	text "<PLAYER> compró"
+	line "un Muñeco"
+	cont "Octillery."
 	done
 
 GoldenrodHarborOctilleryDollSentText:
-	text "Octillery Doll"
-	line "was sent home."
+	text "El Muñeco"
+	line "Octillery se envió"
+	cont "a casa."
 	done
 
 GoldenrodHarborNoMoneyText:
-	text "You can't afford"
-	line "that!"
+	text "¡No puedes pagar"
+	line "eso!"
 	done
 
 GoldenrodHarborAlreadyBoughtText:
-	text "You already have"
-	line "that!"
+	text "¡Ya tienes eso!"
 	done
 
 GoldenrodHarborPlantVendorText:
-	text "Welcome! I have"
-	line "a selection of"
+	text "¡Bienvenido! Tengo"
+	line "una selección de"
 
-	para "exotic plants to"
-	line "adorn your home."
+	para "plantas exóticas"
+	line "para decorar tu"
+	cont "casa."
 	done
 
 GoldenrodHarborMagnaPlantText:
-	text "<PLAYER> bought"
-	line "Magna Plant."
+	text "<PLAYER> compró"
+	line "una Planta Magna."
 	done
 
 GoldenrodHarborMagnaPlantSentText:
-	text "Magna Plant"
-	line "was sent home."
+	text "La Planta Magna"
+	line "se envió a casa."
 	done
 
 GoldenrodHarborTropicPlantText:
-	text "<PLAYER> bought"
-	line "Tropic Plant."
+	text "<PLAYER> compró"
+	line "una Planta"
+	cont "Tropical."
 	done
 
 GoldenrodHarborTropicPlantSentText:
-	text "Tropic Plant"
-	line "was sent home."
+	text "La Planta Tropical"
+	line "se envió a casa."
 	done
 
 GoldenrodHarborJumboPlantText:
-	text "<PLAYER> bought"
-	line "Jumbo Plant."
+	text "<PLAYER> compró"
+	line "una Planta"
+	cont "Gigante."
 	done
 
 GoldenrodHarborJumboPlantSentText:
-	text "Jumbo Plant"
-	line "was sent home."
+	text "La Planta Gigante"
+	line "se envió a casa."
 	done
 
 GoldenrodHarborLass2Text:
-	text "All this water,"
-	line "it's totally…"
+	text "Toda esta agua,"
+	line "es totalmente…"
 
-	para "bloop-bloop,"
-	line "splish-splish."
+	para "gluglú, gluglú,"
+	line "chof-chof."
 
-	para "Don't you agree?"
+	para "¿No crees?"
 	done
 
 GoldenrodHarborSignText:
-	text "Goldenrod Harbor"
+	text "Puerto Trigal"
 	done
 
 GoldenrodHarborAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "Sometimes you'll"
-	line "get lucky with a"
+	para "¡A veces tendrás"
+	line "suerte con una"
 
-	para "vending machine"
-	line "and get two drinks"
+	para "máquina"
+	line "expendedora y"
+	cont "conseguirás dos"
 
-	para "for the price of"
-	line "one!"
+	para "bebidas por el"
+	line "precio de una!"
 	done
 
 GoldenrodHarborCrateSignText:
-	text "A crate full of"
-	line "rare items!"
+	text "¡Un cajón lleno de"
+	line "objetos raros!"
 	done

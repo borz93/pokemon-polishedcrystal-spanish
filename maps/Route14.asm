@@ -28,182 +28,193 @@ Route14_MapScriptHeader:
 GenericTrainerPokefanmTrevor:
 	generictrainer POKEFANM, TREVOR, EVENT_BEAT_POKEFANM_TREVOR, PokefanmTrevorSeenText, PokefanmTrevorBeatenText
 
-	text "If only there were"
-	line "an easy way to"
+	text "Ojalá hubiera una"
+	line "forma fácil de"
 
-	para "identify where I"
-	line "got my #mon…"
+	para "identificar dónde"
+	line "conseguí mi"
+	cont "#mon…"
 
-	para "Oh! I can just"
-	line "check its stats!"
+	para "¡Oh! ¡Puedo"
+	line "revisar sus"
+	cont "estadísticas!"
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "Hola. ¿Sabías…?"
 
-	para "#mon get more"
-	line "friendly if you"
+	para "Los #mon se"
+	line "vuelven más"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "amistosos si los"
+	line "entrenas en un"
+	cont "lugar que"
+	cont "recuerdan."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this Psyduck?"
+	text "¿Dónde conocí a"
+	line "este Psyduck?"
 	done
 
 GenericTrainerPokefanmCarter:
 	generictrainer POKEFANM, CARTER, EVENT_BEAT_POKEFANM_CARTER, PokefanmCarterSeenText, PokefanmCarterBeatenText
 
-	text "Squirtle, Charman-"
-	line "der and Bulbasaur…"
+	text "Squirtle,"
+	line "Charmander y"
+	cont "Bulbasaur…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Creo que es una"
+	line "mezcla bien"
+	cont "equilibrada."
 	done
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Te cuento, me"
+	line "costó mucho"
 
-	para "catching my prized"
-	line "#mon."
+	para "atrapar a mi"
+	line "#mon más"
+	cont "preciado."
 	done
 
 PokefanmCarterBeatenText:
-	text "Awaaah!"
+	text "¡Awaaah!"
 	done
 
 GenericTrainerBird_keeperRoy:
 	generictrainer BIRD_KEEPER, ROY, EVENT_BEAT_BIRD_KEEPER_ROY, Bird_keeperRoySeenText, Bird_keeperRoyBeatenText
 
-	text "You have #mon"
-	line "that know the HM"
+	text "Tienes #mon que"
+	line "conocen la MO"
 
-	para "move Fly, don't"
-	line "you? I envy you."
+	para "Vuelo, ¿verdad?"
+	line "Te envidio."
 	done
 
 Bird_keeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #mon."
+	text "Mi sueño es volar"
+	line "con mi querido"
+	cont "#mon pájaro."
 	done
 
 Bird_keeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Puedo soñar, pero"
+	line "nunca podré"
+	cont "volar…"
 	done
 
 GenericTrainerBird_keeperJosh:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_JOSH, EVENT_BEAT_BIRD_KEEPER_JOSH, .SeenText, .BeatenText
 
-	text "Maybe I should lie"
-	line "and say I'm in the"
-	cont "heavyweight class…"
+	text "Quizá debería"
+	line "mentir y decir que"
+	cont "estoy en peso"
+	cont "pesado…"
 	done
 
 .SeenText:
-	text "My weight puts me"
-	line "in the feather-"
-	cont "weight class!"
+	text "¡Mi peso me pone"
+	line "en la categoría de"
+	cont "peso pluma!"
 
-	para "…Huh? What do you"
-	line "mean that doesn't"
-	cont "sound very strong?"
+	para "…¿Eh? ¿Qué quieres"
+	line "decir con que eso"
+	cont "no suena muy"
+	cont "fuerte?"
 	done
 
 .BeatenText:
-	text "I lost as lightly"
-	line "as a feather"
-	cont "floats!"
+	text "¡Perdí tan"
+	line "ligero como flota"
+	cont "una pluma!"
 	done
 
 GenericTrainerSchoolboyConnor:
 	generictrainer SCHOOLBOY, SCHOOLBOY_CONNOR, EVENT_BEAT_SCHOOLBOY_CONNOR, .SeenText, .BeatenText
 
-	text "Don't rush, and"
-	line "take the road one"
-	cont "step at a time."
+	text "No te apresures,"
+	line "y toma el camino"
+	cont "paso a paso."
 
-	para "Great advice!"
+	para "¡Gran consejo!"
 	done
 
 .SeenText:
-	text "I can't wait to go"
-	line "home and drop off"
-	cont "my Bag!"
+	text "¡No veo la hora de"
+	line "ir a casa y dejar"
+	cont "mi Bolso!"
 	done
 
 .BeatenText:
-	text "I was in too much"
-	line "of a hurry."
+	text "Tenía demasiada"
+	line "prisa."
 	done
 
 GenericTrainerSchoolboyTorin:
 	generictrainer SCHOOLBOY, TORIN, EVENT_BEAT_SCHOOLBOY_TORIN, .SeenText, .BeatenText
 
-	text "All right! Next"
-	line "time, I won't make"
-	cont "any mistakes!"
+	text "¡Muy bien! ¡La"
+	line "próxima, no"
+	cont "cometeré ningún"
+	cont "error!"
 	done
 
 .SeenText:
-	text "It's good to put"
-	line "what you learn to"
-	cont "use immediately!"
+	text "¡Es bueno usar lo"
+	line "que aprendes de"
+	cont "inmediato!"
 	done
 
 .BeatenText:
-	text "I see. I see."
+	text "Ya veo. Ya veo."
 	done
 
 GenericTrainerSchoolboyTravis:
 	generictrainer SCHOOLBOY, TRAVIS, EVENT_BEAT_SCHOOLBOY_TRAVIS, .SeenText, .BeatenText
 
-	text "Maybe I should"
-	line "join your study"
-	cont "sessions!"
+	text "¡Quizá debería"
+	line "unirme a tus"
+	cont "sesiones de"
+	cont "estudio!"
 	done
 
 .SeenText:
-	text "Do you have after-"
-	line "school study"
-	cont "sessions?"
+	text "¿Tienes sesiones"
+	line "de estudio"
+	cont "después de clase?"
 	done
 
 .BeatenText:
-	text "So strong…"
+	text "Qué fuerte…"
 	done
 
 GenericTrainerTeacherClarice:
 	generictrainer TEACHER_F, CLARICE, EVENT_BEAT_TEACHER_CLARICE, .SeenText, .BeatenText
 
-	text "Don't relax just"
-	line "'cause you won."
+	text "No te relajes solo"
+	line "porque ganaste."
 
-	para "Once you get home,"
-	line "you should do a"
-	cont "full review!"
+	para "¡Al llegar a casa,"
+	line "deberías hacer un"
+	cont "repaso completo!"
 	done
 
 .SeenText:
-	text "All right, let's"
-	line "get this #mon"
-	cont "battle started!"
+	text "Muy bien,"
+	line "¡empecemos este"
+	cont "combate #mon!"
 	done
 
 .BeatenText:
-	text "All right! That"
-	line "concludes today's"
-	cont "battle."
+	text "¡Muy bien! Eso"
+	line "concluye el"
+	cont "combate de hoy."
 	done
 
 Route14SignText:
-	text "Route 14"
+	text "Ruta 14"
 
-	para "Fuchsia City -"
-	line "Lavender Town"
+	para "Ciudad Fucsia -"
+	line "Pueblo Lavanda"
 	done

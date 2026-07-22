@@ -31,53 +31,57 @@ MountMortar1FInside_MapScriptHeader:
 GenericTrainerPokemaniacMiller:
 	generictrainer POKEMANIAC, MILLER, EVENT_BEAT_POKEMANIAC_MILLER, PokemaniacMillerSeenText, PokemaniacMillerBeatenText
 
-	text "A while back, this"
-	line "karate dude wanted"
+	text "Hace tiempo, un"
+	line "karateka quiso"
 
-	para "to battle. He was"
-	line "ridiculously good."
+	para "combatir. Era"
+	line "ridículamente"
+	cont "bueno."
 
-	para "He just thrashed"
-	line "us silly."
+	para "Nos machacó sin"
+	line "piedad."
 
-	para "He went in deeper"
-	line "saying it was for"
+	para "Se adentró más"
+	line "diciendo que era"
 
-	para "his training. I"
-	line "wonder how he is?"
+	para "para entrenar."
+	line "¿Qué será de él?"
 	done
 
 GenericTrainerSupernerdMarkus:
 	generictrainer SUPER_NERD, MARKUS, EVENT_BEAT_SUPER_NERD_MARKUS, SupernerdMarkusSeenText, SupernerdMarkusBeatenText
 
-	text "I came to explore"
-	line "Mt.Mortar, but I"
+	text "Vine a explorar"
+	line "el Monte"
+	cont "Mortero,"
 
-	para "got separated from"
-	line "my partner…"
+	para "pero me separé"
+	line "de mi"
+	cont "compañero…"
 
-	para "Did you run into a"
-	line "trainer who uses a"
+	para "¿Te has topado"
+	line "con un"
+	cont "entrenador que"
 
-	para "Seadra that knows"
-	line "Waterfall?"
+	para "use un Seadra"
+	line "que sepa Cascada?"
 	done
 
 PokemaniacMillerSeenText:
-	text "I'm not losing"
-	line "this time!"
+	text "¡Esta vez no"
+	line "pierdo!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "I lost to some"
-	line "kid…?"
+	text "¿He perdido"
+	line "contra un crío…?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Hey! Hugh!"
+	text "¡Eh! ¡Hugh!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "I mistook you for"
-	line "someone else…"
+	text "Te confundí con"
+	line "otra persona…"
 	done

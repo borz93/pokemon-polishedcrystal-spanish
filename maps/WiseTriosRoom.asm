@@ -73,18 +73,20 @@ TrainerElderGaku:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Ah, so it is you"
-	line "who claim to have"
+	text "Ah, ¿así que eres"
+	line "tú quien afirma"
 
-	para "seen Suicune,"
-	line "Entei and Raikou"
-	cont "while they slept?"
+	para "haber visto a"
+	line "Suicune, Entei y"
+	cont "Raikou mientras"
+	cont "dormían?"
 
-	para "Unbelievable!"
+	para "¡Increíble!"
 
-	para "Legend has it that"
-	line "they can't be seen"
-	cont "while they sleep…"
+	para "Cuenta la leyenda"
+	line "que no se les"
+	cont "puede ver"
+	cont "mientras duermen…"
 	done
 
 TrainerElderMasa:
@@ -94,61 +96,68 @@ TrainerElderMasa:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "In the past, there"
-	line "were two nine-tier"
-	cont "towers here."
+	text "En el pasado,"
+	line "había aquí dos"
+	cont "torres de nueve"
+	cont "niveles."
 
 if DEF(FAITHFUL)
-	para "The Brass Tower,"
+	para "La Torre de"
+	line "Latón, que se"
+	cont "decía que"
 else
-	para "The Gong Tower,"
+	para "La Torre Gong,"
+	line "que se decía que"
 endc
-	line "which was said to"
 
-	para "waken #mon, and"
-	line "the Bell Tower,"
+	para "despertaba a los"
+	line "#mon, y la"
+	cont "Torre Campana,"
 
-	para "where #mon were"
-	line "said to rest."
+	para "donde se decía que"
+	line "los #mon"
+	cont "descansaban."
 
-	para "The view from the"
-	line "tops of the towers"
+	para "La vista desde lo"
+	line "alto de las torres"
 
-	para "must have been"
-	line "magnificent."
+	para "debió de ser"
+	line "magnífica."
 
-	para "At the time, an"
-	line "immense, silver-"
+	para "Por entonces, un"
+	line "#mon inmenso,"
 
-	para "colored #mon"
-	line "was said to make"
+	para "color plateado,"
+	line "se decía que hacía"
 
-	para "its roost atop the"
+	para "su nido en lo alto"
 if DEF(FAITHFUL)
-	line "Brass Tower."
+	line "de la Torre de"
+	cont "Latón."
 else
-	line "Gong Tower."
+	line "de la Torre Gong."
 endc
 
-	para "However…"
+	para "Sin embargo…"
 
-	para "About 150 years"
-	line "ago, a lightning"
+	para "Hace unos 150"
+	line "años, un rayo"
 
-	para "bolt struck one of"
-	line "the towers."
+	para "golpeó una de las"
+	line "torres."
 
-	para "It was engulfed in"
-	line "flames that raged"
-	cont "for three days."
+	para "Quedó envuelta en"
+	line "llamas que"
+	cont "ardieron durante"
+	cont "tres días."
 
-	para "A sudden downpour"
-	line "finally put out"
-	cont "the blaze."
+	para "Un aguacero"
+	line "repentino por fin"
+	cont "apagó el fuego."
 
-	para "And that is how"
-	line "the Burned Tower"
-	cont "came to be."
+	para "Y así es como"
+	line "surgió la Torre"
+	cont "Quemada."
 	done
 
 TrainerElderKoji:
@@ -187,150 +196,159 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Astounding…"
+	text "Asombroso…"
 
-	para "Suicune, Entei and"
-	line "Raikou have arisen"
-	cont "from their sleep…"
+	para "Suicune, Entei y"
+	line "Raikou han"
+	cont "despertado de su"
+	cont "sueño…"
 
-	para "Is the legend"
-	line "coming true?"
+	para "¿Se está"
+	line "cumpliendo la"
+	cont "leyenda?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "We train at the"
-	line "Burned Tower, but"
+	text "Entrenamos en la"
+	line "Torre Quemada,"
+	cont "pero nunca oímos"
 
-	para "we've never heard"
-	line "of a hole opening"
+	para "que se abriera un"
+	line "agujero ahí antes."
+	cont "Debió de ser hecho"
 
-	para "up there before."
-	line "It must have been"
-
-	para "deliberately made"
-	line "by someone."
+	para "deliberadamente"
+	line "por alguien."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "Bell Tower may be"
-	line "entered by those"
+	text "A la Torre Campana"
+	line "pueden entrar"
 
-	para "bearing Ecruteak's"
-	line "Gym Badge."
+	para "quienes porten la"
+	line "Medalla del"
+	cont "Gimnasio de Iris."
 
-	para "However, now that"
-	line "Suicune, Raikou"
+	para "Sin embargo, ahora"
+	line "que Suicune,"
 
-	para "and Entei have"
-	line "arisen, I ask you"
+	para "Raikou y Entei han"
+	line "despertado, te"
 
-	para "to refrain from"
-	line "entering!"
+	para "¡pido que te"
+	line "abstengas de"
+	cont "entrar!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "We, the Wise Trio,"
-	line "are the protectors"
+	text "Nosotros, el Trío"
+	line "Sabio, somos los"
 
-	para "of the legendary"
-	line "#mon."
+	para "protectores de los"
+	line "#mon"
+	cont "legendarios."
 	done
 
 ElderGakuSeenText:
-	text "Legend has it that"
-	line "upon the emergence"
+	text "Cuenta la leyenda"
+	line "que al surgir"
 
-	para "of a trainer who"
-	line "has the ability to"
+	para "un entrenador con"
+	line "la capacidad de"
 
-	para "touch the souls of"
-	line "#mon, a #mon"
+	para "tocar las almas de"
+	line "los #mon, un"
+	cont "#mon vendrá a"
 
-	para "will come forth to"
-	line "put that trainer"
+	para "poner a prueba a"
+	line "ese entrenador en"
+	cont "la Torre Campana."
 
-	para "to test at the"
-	line "Bell Tower."
+	para "¡La leyenda se ha"
+	line "cumplido!"
 
-	para "The legend has"
-	line "come true!"
+	para "¡El #mon"
+	line "legendario Suicune"
+	cont "ha llegado!"
 
-	para "The legendary"
-	line "#mon Suicune"
-	cont "has arrived!"
+	para "Nosotros, el Trío"
+	line "Sabio, pondremos a"
 
-	para "We, the Wise Trio,"
-	line "shall test your"
-
-	para "worthiness to go"
-	line "inside!"
+	para "prueba tu valía"
+	line "para entrar."
 	done
 
 ElderGakuBeatenText:
-	text "Stronger than we"
-	line "thought? Perhaps…"
+	text "¿Más fuerte de lo"
+	line "que pensábamos?"
+	cont "Quizás…"
 	done
 
 ElderMasaSeenText:
-	text "Can you be trusted"
-	line "with the truth?"
+	text "¿Se puede confiar"
+	line "en ti con la"
+	cont "verdad?"
 
-	para "I must ascertain"
-	line "your worthiness."
+	para "Debo comprobar tu"
+	line "valía."
 	done
 
 ElderMasaBeatenText:
-	text "…I will tell you"
-	line "the truth…"
+	text "…Te diré la"
+	line "verdad…"
 	done
 
 ElderKojiSeenText:
-	text "Let me see your"
-	line "power!"
+	text "¡Déjame ver tu"
+	line "poder!"
 	done
 
 ElderKojiBeatenText:
-	text "Too strong!"
-	line "Why?"
+	text "¡Demasiado"
+	line "fuerte! ¿Por qué?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "You… Are you the"
-	line "trainer who is"
+	text "Tú… ¿Eres el"
+	line "entrenador"
 
-	para "awaited by the"
-	line "legendary #mon?"
+	para "esperado por el"
+	line "#mon"
+	cont "legendario?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "I see…"
+	text "Ya veo…"
 
-	para "We, the Wise Trio,"
-	line "have been given"
+	para "A nosotros, el"
+	line "Trío Sabio, se nos"
 
-	para "the responsibility"
-	line "of protecting the"
+	para "dio la"
+	line "responsabilidad de"
 
-	para "legendary #mon."
-	line "We are to allow"
+	para "proteger a los"
+	line "#mon"
+	cont "legendarios."
+	cont "Debemos permitir"
 
-	para "passage only to"
-	line "those people who"
+	para "el paso solo a"
+	line "quienes posean el"
 
-	para "possess the power"
-	line "and soul of truth."
+	para "poder y el alma de"
+	line "la verdad."
 
-	para "Please, do go on"
-	line "and enter the"
-	cont "Bell Tower ahead."
+	para "Adelante, por"
+	line "favor, entra en la"
+	cont "Torre Campana."
 
-	para "Suicune will put"
-	line "you to the test."
+	para "Suicune te pondrá"
+	line "a prueba."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Please, do go on."
+	text "Adelante, por"
+	line "favor."
 
-	para "Suicune will put"
-	line "you to the test."
+	para "Suicune te pondrá"
+	line "a prueba."
 	done

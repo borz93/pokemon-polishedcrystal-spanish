@@ -21,65 +21,69 @@ Route10South_MapScriptHeader:
 GenericTrainerHikerJim:
 	generictrainer HIKER, JIM, EVENT_BEAT_HIKER_JIM, HikerJimSeenText, HikerJimBeatenText
 
-	text "Hay fever is"
-	line "making me sneeze!"
-	cont "Ahahah-CHOO!"
+	text "¡La alergia me"
+	line "hace estornudar!"
+	cont "¡Ahchís!"
 	done
 
 GenericTrainerPokefanmRobert:
 	generictrainer POKEFANM, ROBERT, EVENT_BEAT_POKEFANM_ROBERT, PokefanmRobertSeenText, PokefanmRobertBeatenText
 
-	text "Look what you did"
-	line "to my #mon…"
+	text "Mira lo que le"
+	line "hiciste a mi"
+	cont "#mon…"
 
-	para "I won't forget"
-	line "this…"
+	para "No olvidaré"
+	line "esto…"
 	done
 
 GenericTrainerHexManiacAmy:
 	generictrainer HEX_MANIAC, AMY, EVENT_BEAT_HEX_MANIAC_AMY, HexManiacAmySeenText, HexManiacAmyBeatenText
 
-	text "A Hex Maniac is"
-	line "at peace among"
-	cont "the spirits…"
+	text "Una maníaca"
+	line "tenebrosa está"
+	cont "en paz entre"
+	cont "los espíritus…"
 	done
 
 HikerJimSeenText:
-	text "Hahahah!"
+	text "¡Jajaja!"
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hachoo!"
+	text "¡Jajaja-achís!"
 	done
 
 PokefanmRobertSeenText:
-	text "You like #mon,"
-	line "don't you?"
+	text "Te gustan los"
+	line "#mon, ¿verdad?"
 
-	para "Me too!"
+	para "¡A mí también!"
 	done
 
 PokefanmRobertBeatenText:
-	text "I'd have to say"
-	line "that's my loss."
+	text "Tengo que"
+	line "admitir que he"
+	cont "perdido."
 	done
 
 HexManiacAmySeenText:
-	text "Lavender Town…"
+	text "Pueblo Lavanda…"
 
-	para "Where the spirits"
-	line "of #mon sleep…"
+	para "Donde duermen"
+	line "los espíritus"
+	cont "de #mon…"
 	done
 
 HexManiacAmyBeatenText:
-	text "Your #mon are"
-	line "overflowing with"
-	cont "vitality…"
+	text "Tus #mon"
+	line "rebosan"
+	cont "vitalidad…"
 	done
 
 Route10SignText:
-	text "Route 10"
+	text "Ruta 10"
 
-	para "Cerulean City -"
-	line "Lavender Town"
+	para "Ciudad Celeste -"
+	line "Pueblo Lavanda"
 	done

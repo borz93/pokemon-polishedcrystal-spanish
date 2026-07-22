@@ -1,73 +1,78 @@
 VanceAskNumber1Text:
-	text "You know, you are"
-	line "really strong."
+	text "Sabes, eres muy"
+	line "fuerte."
 
-	para "But I don't want"
-	line "to just slink off…"
+	para "Pero no quiero"
+	line "irme sin más…"
 
-	para "I know! Could I"
-	line "get your number?"
+	para "¡Ya sé! ¿Me das"
+	line "tu número?"
 
-	para "Let's meet up for"
-	line "more battles!"
+	para "¡Quedemos para"
+	line "más combates!"
 	done
 
 VanceAskNumber2Text:
-	text "I want to battle"
-	line "tough trainers as"
-	cont "often as I can!"
+	text "Quiero combatir"
+	line "a entrenadores"
+	cont "duros lo más"
+	cont "posible!"
 
-	para "Could I get your"
-	line "number?"
+	para "¿Me das tu"
+	line "número?"
 
-	para "Let's meet up for"
-	line "more battles!"
+	para "¡Quedemos para"
+	line "más combates!"
 	done
 
 VanceNumberAcceptedText:
-	text "Don't forget to"
-	line "come see me when I"
-	cont "challenge you!"
+	text "No olvides"
+	line "venir cuando"
+	cont "te rete!"
 	done
 
 VanceNumberDeclinedText:
-	text "A bird-user friend"
-	line "isn't a bad thing"
-	cont "to have, I think…"
+	text "Un amigo que usa"
+	line "aves no está"
+	cont "mal, creo…"
 
-	para "Won't you"
-	line "reconsider?"
+	para "¿No lo"
+	line "reconsiderarías?"
 	done
 
 VancePhoneFullText:
-	text "Your phone's out"
-	line "of memory. Delete"
-	cont "a number for me!"
+	text "A tu teléfono no"
+	line "le queda"
+	cont "memoria."
+	cont "¡Borra uno!"
 	done
 
 VanceRematchText:
-	text "Am I happy to see"
-	line "you! I won't lose!"
+	text "¡Qué alegría"
+	line "verte! ¡No"
+	cont "pienso perder!"
 	done
 
 VancePackFullText:
-	text "Oh, too bad. You"
-	line "don't have room."
+	text "Vaya, qué pena."
+	line "No tienes sitio."
 
-	para "I'll give it to"
-	line "you next time!"
+	para "¡Te lo daré la"
+	line "próxima vez!"
 	done
 
 VanceRematchGiftText:
-	text "You are really,"
-	line "really strong!"
+	text "¡Eres muy, muy"
+	line "fuerte!"
 
-	para "Thanks for taking"
-	line "me on so often--I"
+	para "Gracias por"
+	line "combatir tanto"
+	cont "conmigo."
 
-	para "learned a whole"
-	line "lot from you."
+	para "Aprendí mucho"
+	line "de ti."
 
-	para "I know! This will"
-	line "do as my thanks!"
+	para "¡Ya sé! ¡Esto"
+	line "será mi"
+	cont "agradecimiento!"
 	done

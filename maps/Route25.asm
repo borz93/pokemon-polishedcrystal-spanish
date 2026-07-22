@@ -31,50 +31,56 @@ Route25_MapScriptHeader:
 GenericTrainerSchoolboyDudley:
 	generictrainer SCHOOLBOY, DUDLEY, EVENT_BEAT_SCHOOLBOY_DUDLEY, SchoolboyDudleySeenText, SchoolboyDudleyBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerLassEllen:
 	generictrainer LASS, ELLEN, EVENT_BEAT_LASS_ELLEN, LassEllenSeenText, LassEllenBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerSchoolboyJoe:
 	generictrainer SCHOOLBOY, JOE, EVENT_BEAT_SCHOOLBOY_JOE, SchoolboyJoeSeenText, SchoolboyJoeBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerLassLaura:
 	generictrainer LASS, LAURA, EVENT_BEAT_LASS_LAURA, LassLauraSeenText, LassLauraBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerCamperLloyd:
 	generictrainer CAMPER, LLOYD, EVENT_BEAT_CAMPER_LLOYD, CamperLloydSeenText, CamperLloydBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerLassShannon:
 	generictrainer LASS, SHANNON, EVENT_BEAT_LASS_SHANNON, LassShannonSeenText, LassShannonBeatenText
 
-	text "I did my best."
-	line "I have no regrets."
+	text "Di lo mejor de"
+	line "mí. No me"
+	cont "arrepiento."
 	done
 
 GenericTrainerSupernerdPat:
 	generictrainer SUPER_NERD, PAT, EVENT_BEAT_SUPER_NERD_PAT, SupernerdPatSeenText, SupernerdPatBeatenText
 
-	text "I'm sorry… I won't"
-	line "cheat anymore…"
+	text "Lo siento… No"
+	line "haré más trampa…"
 	done
 
 Route25SlowpokeScript:
@@ -120,90 +126,98 @@ Route25CooltrainerMovementData:
 	step_end
 
 SchoolboyDudleySeenText:
-	text "Beat the six of us"
-	line "trainers to win a"
-	cont "fabulous prize!"
+	text "¡Vence a los seis"
+	line "entrenadores para"
+	cont "ganar un premio"
+	cont "fabuloso!"
 
-	para "Think you've got"
-	line "what it takes?"
+	para "¿Crees que tienes"
+	line "lo necesario?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Good stuff."
+	text "¡Uh! Qué bueno."
 	done
 
 LassEllenSeenText:
-	text "I'm second."
-	line "Now it's serious!"
+	text "Soy la segunda."
+	line "¡Ahora va en"
+	cont "serio!"
 	done
 
 LassEllenBeatenText:
-	text "How could I lose?"
+	text "¿Cómo pude"
+	line "perder?"
 	done
 
 SchoolboyJoeSeenText:
-	text "Here's No. 3!"
-	line "I won't be easy."
+	text "¡Aquí está el"
+	line "número 3!"
+	cont "No seré fácil."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Stomped flat!"
+	text "¡Ay! Aplastado."
 	done
 
 LassLauraSeenText:
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "¡Soy la número 4!"
+	line "¿Ya te cansaste?"
 	done
 
 LassLauraBeatenText:
-	text "I lost too…"
+	text "Yo también"
+	line "perdí…"
 	done
 
 CamperLloydSeenText:
-	text "OK! I'm No. 5."
-	line "I'll stomp you!"
+	text "¡Vale! Soy el"
+	line "número 5."
+	cont "¡Te aplastaré!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Too much."
+	text "¡Vaya! Demasiado."
 	done
 
 LassShannonSeenText:
-	text "I'm the last in"
-	line "line, but I tell"
-	cont "you, I'm tough!"
+	text "¡Soy la última de"
+	line "la fila, pero te"
+	cont "digo que soy"
+	cont "dura!"
 	done
 
 LassShannonBeatenText:
-	text "You're kidding."
+	text "Estás de broma."
 	done
 
 SupernerdPatSeenText:
 	text "Mufufufu…"
 
-	para "I have nothing to"
-	line "do with the six-"
-	cont "pack trainers."
+	para "No tengo nada que"
+	line "ver con los seis"
+	cont "entrenadores."
 
-	para "I waited here to"
-	line "beat you when you"
+	para "Esperé aquí para"
+	line "vencerte cuando"
 
-	para "were tired out by"
-	line "all the battles."
+	para "estuvieras"
+	line "agotado por todos"
+	cont "esos combates."
 	done
 
 SupernerdPatBeatenText:
-	text "Aren't you tired"
-	line "at all?"
+	text "¿No estás nada"
+	line "cansado?"
 	done
 
 Route25MewYoungsterText:
-	text "One time I saw a"
-	line "Mew around here!"
+	text "¡Una vez vi un Mew"
+	line "por aquí!"
 
-	para "You don't believe"
-	line "me? Slowpoke saw"
-	cont "it too!"
+	para "¿No me crees?"
+	line "¡Slowpoke también"
+	cont "lo vio!"
 	done
 
 Route25SlowpokeText1:
@@ -213,58 +227,62 @@ Route25SlowpokeText1:
 	done
 
 Route25SlowpokeText2:
-	text "…… ……Yawn?"
+	text "…… ……¿Bostezo?"
 	done
 
 CooltrainermKevinNuggetText:
-	text "You took on one"
-	line "more battle than"
+	text "Aceptaste un"
+	line "combate más de lo"
 
-	para "you expected, but"
-	line "you won anyway."
+	para "que esperabas,"
+	line "pero aun así"
+	cont "ganaste."
 
-	para "As promised, you"
-	line "win a prize."
+	para "Como prometí,"
+	line "ganas un premio."
 	done
 
 CooltrainermKevinSeenText:
-	text "But after seeing"
-	line "how you battle, I"
+	text "Pero tras ver"
+	line "cómo combates,"
 
-	para "want to see how"
-	line "I'll fare."
+	para "quiero ver cómo"
+	line "me irá a mí."
 
-	para "How about it? Let"
-	line "me take you on."
+	para "¿Qué tal? Deja que"
+	line "te desafíe."
 	done
 
 CooltrainermKevinBeatenText:
-	text "I've never had a"
-	line "battle this good!"
+	text "¡Nunca había"
+	line "tenido un combate"
+	cont "tan bueno!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "That was a great"
-	line "battle!"
+	text "¡Ese fue un gran"
+	line "combate!"
 
-	para "You and your #-"
-	line "mon are truly out-"
-	cont "standing!"
+	para "¡Tú y tus #mon"
+	line "sois realmente"
+	cont "sobresalientes!"
 	done
 
 NuggetBridgeNotClearedText:
-	text "Hey there!"
+	text "¡Oye!"
 
-	para "Six trainers and"
-	line "I are hosting a"
+	para "Seis entrenadores"
+	line "y yo organizamos"
 
-	para "battle challenge"
-	line "on this route."
+	para "un desafío de"
+	line "combates en esta"
+	cont "ruta."
 
-	para "You can't skip"
-	line "ahead of them!"
+	para "¡No puedes"
+	line "saltártelos!"
 
-	para "There's a shortcut"
-	line "just below us back"
-	cont "to Route 24."
+	para "Hay un atajo justo"
+	line "debajo de"
+	cont "nosotros de vuelta"
+	cont "a la Ruta 24."
 	done

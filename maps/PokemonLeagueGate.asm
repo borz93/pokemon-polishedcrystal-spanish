@@ -45,36 +45,41 @@ VictoryRoadGateBadgeCheckScript:
 	end
 
 VictoryRoadGateOfficerText:
-	text "Only trainers who"
-	line "have proven them-"
-	cont "selves may pass."
+	text "Solo pasan los"
+	line "entrenadores que"
+	cont "han demostrado"
+	cont "su valía."
 
-	para "You took the Johto"
-	line "Gym challenge?"
+	para "¿Superaste el"
+	line "reto de gimnasios"
+	cont "de Johto?"
 
-	para "The guards ahead"
-	line "will check your"
-	cont "Badges."
+	para "Los guardias de"
+	line "delante"
+	cont "revisarán tus"
+	cont "medallas."
 
-	para "Go on now."
+	para "Adelante."
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "This way leads to"
-	line "Mt.Silver."
+	text "Este camino"
+	line "lleva al Monte"
+	cont "Plateado."
 
-	para "You'll see scary-"
-	line "strong #mon out"
-	cont "there."
+	para "Verás #mon"
+	line "aterradoramente"
+	cont "fuertes."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Off to the #mon"
-	line "League, are you?"
+	text "¿Vas a la Liga"
+	line "#mon?"
 
-	para "The Elite Four are"
-	line "so strong it's"
+	para "El Alto Mando da"
+	line "miedo de lo"
+	cont "fuerte que es,"
 
-	para "scary, and they're"
-	line "ready for you!"
+	para "¡y están listos"
+	line "para ti!"
 	done

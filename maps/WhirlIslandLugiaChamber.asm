@@ -52,5 +52,5 @@ Lugia:
 	end
 
 LugiaText:
-	text "Gyaaas!"
+	text "¡Gyaaas!"
 	done

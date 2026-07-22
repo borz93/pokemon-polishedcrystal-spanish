@@ -34,98 +34,98 @@ NationalParkBugContest_MapScriptHeader:
 BugCatchingContestant1AScript:
 	jumpthistextfaceplayer
 
-	text "Don: I'm going to"
-	line "win! Don't bother"
-	cont "me."
+	text "Don: Voy a ganar."
+	line "No me molestes."
 	done
 
 BugCatchingContestant2AScript:
 	jumpthistextfaceplayer
 
-	text "Lou: My Parasect"
-	line "puts #mon to"
-	cont "sleep with Spore."
+	text "Lou: Mi Parasect"
+	line "duerme #mon"
+	cont "con Espora."
 	done
 
 BugCatchingContestant3AScript:
 	jumpthistextfaceplayer
 
-	text "Nick: I'm raising"
-	line "fast #mon for"
-	cont "battles."
+	text "Nick: Crío #mon"
+	line "veloces para"
+	cont "combatir."
 	done
 
 BugCatchingContestant4AScript:
 	jumpthistextfaceplayer
 
-	text "William: I'm not"
-	line "concerned about"
-	cont "winning."
+	text "William: No me"
+	line "preocupa ganar."
 
-	para "I'm just looking"
-	line "for rare #mon."
+	para "Solo busco"
+	line "#mon raros."
 	done
 
 BugCatchingContestant5AScript:
 	jumpthistextfaceplayer
 
-	text "Benny: Ssh! You'll"
-	line "scare off Scyther."
+	text "Benny: ¡Shh!"
+	line "Espantarás a"
+	cont "Scyther."
 
-	para "I'll talk to you"
-	line "later."
+	para "Hablamos"
+	line "luego."
 	done
 
 BugCatchingContestant6AScript:
 	jumpthistextfaceplayer
 
-	text "Barry: You should"
-	line "weaken Bug #mon"
+	text "Barry: Debilita"
+	line "antes al #mon"
+	cont "Bicho,"
 
-	para "first, then throw"
-	line "a Ball."
+	para "y luego lánzale"
+	line "una Ball."
 	done
 
 BugCatchingContestant7AScript:
 	jumpthistextfaceplayer
 
-	text "Cindy: I love Bug"
-	line "#mon."
+	text "Cindy: Me encantan"
+	line "los #mon Bicho."
 
-	para "I guess you must"
-	line "like them too."
+	para "Supongo que a ti"
+	line "también."
 	done
 
 BugCatchingContestant8AScript:
 	jumpthistextfaceplayer
 
-	text "Josh: I've been"
-	line "collecting Bug"
+	text "Josh: Llevo"
+	line "coleccionando"
 
-	para "#mon since I"
-	line "was just a baby."
+	para "#mon Bicho"
+	line "desde bebé."
 
-	para "There's no way I'm"
-	line "going to lose!"
+	para "¡No pienso perder"
+	line "de ninguna forma!"
 	done
 
 BugCatchingContestant9AScript:
 	jumpthistextfaceplayer
 
-	text "Johnny: If you've"
-	line "got the time to"
+	text "Johnny: Si tienes"
+	line "tiempo de hablar,"
 
-	para "chat, go find some"
-	line "Bug #mon."
+	para "busca algún"
+	line "#mon Bicho."
 	done
 
 BugCatchingContestant10AScript:
 	jumpthistextfaceplayer
 
-	text "Kipp: I've studied"
-	line "about Bug #mon"
-	cont "a lot."
+	text "Kipp: He estudiado"
+	line "mucho sobre"
+	cont "#mon Bicho."
 
-	para "I'm going to win"
-	line "for sure."
+	para "Voy a ganar"
+	line "seguro."
 	done

@@ -48,34 +48,35 @@ Route46TutorRoute46Script:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Suit yourself."
+	text "Como quieras."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Ah well, you don't"
-	line "have a Silver"
-	cont "Leaf."
+	text "Ah bueno, no"
+	line "tienes una Hoja"
+	cont "Plateada."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "All done! Your"
-	line "#mon learned"
-	cont "to use Rollout!"
+	text "¡Listo! ¡Tu"
+	line "#mon aprendió a"
+	cont "usar Rodar!"
 	done
 
 GenericTrainerCamperTed:
 	generictrainer CAMPER, TED, EVENT_BEAT_CAMPER_TED, CamperTedSeenText, CamperTedBeatenText
 
-	text "I did my best but"
-	line "came up short."
+	text "Di lo mejor de mí"
+	line "pero no fue"
+	cont "suficiente."
 
-	para "No excuses--I"
-	line "admit I lost."
+	para "Sin excusas:"
+	line "admito que perdí."
 	done
 
 TrainerPicnickerErin1:
@@ -195,114 +196,121 @@ Route46RematchGiftF:
 GenericTrainerHikerBailey:
 	generictrainer HIKER, BAILEY, EVENT_BEAT_HIKER_BAILEY, HikerBaileySeenText, HikerBaileyBeatenText
 
-	text "It's over. I don't"
-	line "mind. We Hikers"
-	cont "are like that."
+	text "Se acabó. No me"
+	line "importa. Los"
+	cont "montañeros somos"
+	cont "así."
 	done
 
 Route46HikerText:
-	text "A Donphan charged"
-	line "at me and I roll-"
+	text "¡Un Donphan me"
+	line "embistió y rodé"
 
-	para "ed all the way"
-	line "down here!"
+	para "todo el camino"
+	line "hasta aquí abajo!"
 
-	para "Still, it taught"
-	line "me a lesson…"
+	para "Aun así, me"
+	line "enseñó una"
+	cont "lección…"
 
-	para "Be careful around"
-	line "angry #mon!"
+	para "¡Cuidado con los"
+	line "#mon enfadados!"
 	done
 
 Text_Route46TutorRollout:
-	text "I'll teach your"
-	line "#mon how to"
+	text "Le enseñaré a tu"
+	line "#mon a usar"
 
-	para "use Rollout for"
-	line "a Silver Leaf."
+	para "Rodar a cambio de"
+	line "una Hoja Plateada."
 	done
 
 
 Text_Route46TutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Rollout?"
+	text "¿Debería"
+	line "enseñarle Rodar"
+	cont "a tu #mon?"
 	done
 
 
 
 HikerBaileySeenText:
-	text "Awright! I'll show"
-	line "you the power of"
-	cont "mountain #mon!"
+	text "¡Muy bien! ¡Te"
+	line "mostraré el poder"
+	cont "de los #mon de"
+	cont "montaña!"
 	done
 
 HikerBaileyBeatenText:
-	text "Mercy! You showed"
-	line "me your power!"
+	text "¡Piedad! ¡Me"
+	line "mostraste tu"
+	cont "poder!"
 	done
 
 CamperTedSeenText:
-	text "I'm raising #-"
-	line "mon too!"
+	text "¡Yo también crío"
+	line "#mon!"
 
-	para "Will you battle"
-	line "with me?"
+	para "¿Combatirás"
+	line "conmigo?"
 	done
 
 CamperTedBeatenText: ; text > text
-	text "Wha…?"
+	text "¿Qué…?"
 	done
 
 PicnickerErin1SeenText:
-	text "I raise #mon"
-	line "too!"
+	text "¡Yo también crío"
+	line "#mon!"
 
-	para "Will you battle"
-	line "with me?"
+	para "¿Combatirás"
+	line "conmigo?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Oh, rats!"
+	text "¡Oh, rayos!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "I've been to many"
-	line "Gyms, but the Gym"
+	text "He visitado muchos"
+	line "Gimnasios, pero el"
 
-	para "in Goldenrod is my"
-	line "favorite."
+	para "de Ciudad Trigal"
+	line "es mi favorito."
 
-	para "It's filled with"
-	line "pretty flowers!"
+	para "¡Está lleno de"
+	line "flores bonitas!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Aww… I keep losing"
-	line "all the time!"
+	text "Aww… ¡Sigo"
+	line "perdiendo siempre!"
 
-	para "I'll just have to"
-	line "try harder!"
+	para "¡Tendré que"
+	line "esforzarme más!"
 
-	para "Anyway, thanks for"
-	line "battling me again"
+	para "Bueno, gracias por"
+	line "combatir conmigo"
 
-	para "and again. Here's"
-	line "that present from"
-	cont "the other time."
+	para "una y otra vez."
+	line "Aquí tienes ese"
+	cont "regalo de la vez"
+	cont "anterior."
 	done
 
 Route46SignText:
-	text "Route 46"
-	line "Mountain Rd. Ahead"
+	text "Ruta 46"
+	line "Camino de Montaña"
 	done
 
 Route46LassText:
-	text "A dead end…?"
+	text "¿Un callejón sin"
+	line "salida…?"
 
-	para "Did I take the"
-	line "wrong path?"
+	para "¿Tomé el camino"
+	line "equivocado?"
 
-	para "I didn't know this"
-	line "was only one way."
+	para "No sabía que este"
+	line "era de un solo"
+	cont "sentido."
 	done

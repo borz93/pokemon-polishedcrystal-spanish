@@ -30,8 +30,8 @@ CeladonHomeDecorStore4F_MapScriptHeader:
 BigDollClerkNoMoneyScript:
 	jumpthisopenedtext
 
-	text "Clerk: You can't"
-	line "afford it!"
+	text "Empleado: ¡No"
+	line "puedes pagarlo!"
 	done
 
 BigLaprasDollScript:
@@ -52,8 +52,9 @@ BigLaprasDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Big Lapras Doll"
-	line "was sent home."
+	text "El Muñeco Lapras"
+	line "Gigante se envió"
+	cont "a casa."
 	done
 
 BigSnorlaxDollScript:
@@ -74,8 +75,9 @@ BigSnorlaxDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Big Snorlax Doll"
-	line "was sent home."
+	text "El Muñeco Snorlax"
+	line "Gigante se envió"
+	cont "a casa."
 	done
 
 BigOnixDollScript:
@@ -96,85 +98,95 @@ BigOnixDollScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Big Onix Doll"
-	line "was sent home."
+	text "El Muñeco Onix"
+	line "Gigante se envió"
+	cont "a casa."
 	done
 
 BigDollClerkText:
-	text "Aren't our jumbo"
-	line "dolls impressive?"
+	text "¿No son"
+	line "impresionantes"
+	cont "nuestros muñecos"
+	cont "gigantes?"
 
-	para "They're so big,"
-	line "we can barely fit"
-	cont "them in the room."
+	para "Son tan grandes"
+	line "que apenas caben"
+	cont "en la sala."
 	done
 
 BigDollClerkNoSaleText:
-	text "Clerk: Well, if"
-	line "you say so."
+	text "Empleado: Bueno,"
+	line "si tú lo dices."
 	done
 
 
 BigDollClerkSellLaprasText:
-	text "Clerk: You like"
-	line "the Lapras doll?"
+	text "Empleado: ¿Te"
+	line "gusta el muñeco"
+	cont "Lapras?"
 
-	para "It'll cost you"
+	para "Te costará"
 	line "¥300,000."
 	done
 
 BigDollClerkSellSnorlaxText:
-	text "Clerk: You like"
-	line "the Snorlax doll?"
+	text "Empleado: ¿Te"
+	line "gusta el muñeco"
+	cont "Snorlax?"
 
-	para "It'll cost you"
+	para "Te costará"
 	line "¥200,000."
 	done
 
 BigDollClerkSellOnixText:
-	text "Clerk: You like"
-	line "the Onix doll?"
+	text "Empleado: ¿Te"
+	line "gusta el muñeco"
+	cont "Onix?"
 
-	para "It'll cost you"
+	para "Te costará"
 	line "¥250,000."
 	done
 
 BoughtBigLaprasDollText:
-	text "<PLAYER> bought"
-	line "Big Lapras Doll."
+	text "<PLAYER> compró"
+	line "el Muñeco Lapras"
+	cont "Gigante."
 	done
 
 
 BoughtBigSnorlaxDollText:
-	text "<PLAYER> bought"
-	line "Big Snorlax Doll."
+	text "<PLAYER> compró"
+	line "el Muñeco Snorlax"
+	cont "Gigante."
 	done
 
 
 BoughtBigOnixDollText:
-	text "<PLAYER> bought"
-	line "Big Onix Doll."
+	text "<PLAYER> compró"
+	line "el Muñeco Onix"
+	cont "Gigante."
 	done
 
 
 BigLaprasDollText:
-	text "It's a jumbo-size"
-	line "Lapras Doll!"
+	text "¡Es un Muñeco"
+	line "Lapras gigante!"
 	done
 
 BigSnorlaxDollText:
-	text "It's a jumbo-size"
-	line "Snorlax Doll!"
+	text "¡Es un Muñeco"
+	line "Snorlax gigante!"
 	done
 
 BigOnixDollText:
-	text "It's a jumbo-size"
-	line "Onix Doll!"
+	text "¡Es un Muñeco"
+	line "Onix gigante!"
 	done
 
 CeladonHomeDecorStore4FDirectoryText:
-	text "A Stuffed"
-	line "Companion!"
+	text "¡Un compañero"
+	line "de peluche!"
 
-	para "4F: Jumbo Dolls"
+	para "4F: Muñecos"
+	line "Gigantes"
 	done

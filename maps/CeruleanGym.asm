@@ -89,62 +89,65 @@ CeruleanGymMistyScript:
 	setevent EVENT_GOT_TM63_WATER_PULSE
 	jumpthisopenedtext
 
-	text "It contains the"
-	line "move Water Pulse."
+	text "Contiene el"
+	line "movimiento"
+	cont "Hidropulso."
 
-	para "It can sometimes"
-	line "confuse your foe."
+	para "A veces puede"
+	line "confundir al"
+	cont "rival."
 	done
 
 GenericTrainerSwimmerfDiana:
 	generictrainer SWIMMERF, DIANA, EVENT_BEAT_SWIMMERF_DIANA, SwimmerfDianaSeenText, SwimmerfDianaBeatenText
 
-	text "I'll be swimming"
-	line "quietly."
+	text "Voy a nadar"
+	line "tranquilamente."
 	done
 
 GenericTrainerSwimmerfViola:
 	generictrainer SWIMMERF, VIOLA, EVENT_BEAT_SWIMMERF_VIOLA, SwimmerfViolaSeenText, SwimmerfViolaBeatenText
 
-	text "Swimming is good"
-	line "for both beauty"
-	cont "and health!"
+	text "¡Nadar es bueno"
+	line "para la belleza y"
+	cont "la salud!"
 
-	para "Just look at"
-	line "Misty, you'll see."
+	para "Solo mira a Misty,"
+	line "y lo verás."
 	done
 
 GenericTrainerSwimmerfBriana:
 	generictrainer SWIMMERF, BRIANA, EVENT_BEAT_SWIMMERF_BRIANA, SwimmerfBrianaSeenText, SwimmerfBrianaBeatenText
 
-	text "Don't be too smug"
-	line "about beating me."
+	text "No te confíes por"
+	line "haberme vencido."
 
-	para "Misty will destroy"
-	line "you if you get"
-	cont "complacent."
+	para "Misty te destruirá"
+	line "si bajas la"
+	cont "guardia."
 	done
 
 GenericTrainerSailorParker:
 	generictrainer SAILOR, PARKER, EVENT_BEAT_SAILOR_PARKER, SailorParkerSeenText, SailorParkerBeatenText
 
-	text "Misty has gotten"
-	line "much better in the"
-	cont "past few years."
+	text "Misty ha mejorado"
+	line "mucho en los"
+	cont "últimos años."
 
-	para "Don't let your"
-	line "guard down, or"
-	cont "you'll be crushed!"
+	para "No bajes la"
+	line "guardia, ¡o te"
+	cont "aplastará!"
 	done
 
 GenericTrainerSailorEddie:
 	generictrainer SAILOR, EDDIE, EVENT_BEAT_SAILOR_EDDIE, SailorEddieSeenText, SailorEddieBeatenText
 
-	text "Hey, let's go for"
-	line "a swim!"
+	text "¡Oye, vamos a"
+	line "nadar!"
 
-	para "Sailors have to"
-	line "be able to swim!"
+	para "¡Los marineros"
+	line "deben saber"
+	cont "nadar!"
 	done
 
 CeruleanGymGuyScript:
@@ -152,14 +155,14 @@ CeruleanGymGuyScript:
 	iftrue_jumptextfaceplayer CeruleanGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Ey! ¡Futuro"
+	line "campeón!"
 
-	para "Since Misty was"
-	line "away, I went out"
+	para "Como Misty no"
+	line "estaba, salí a"
 
-	para "for some fun too."
-	line "He-he-he."
+	para "divertirme yo"
+	line "también. Je-je-je."
 	done
 
 CeruleanGymHiddenMachinePart:
@@ -182,9 +185,10 @@ CeruleanGymStatue1:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Sorry, I'll be out"
-	line "for a while."
-	cont "Misty, Gym Leader"
+	text "Lo siento, estaré"
+	line "fuera un rato."
+	cont "Misty, Líder de"
+	cont "Gimnasio"
 	done
 
 CeruleanGymStatue2:
@@ -192,9 +196,11 @@ CeruleanGymStatue2:
 	iffalsefwd CeruleanGymStatue
 	jumpthistext
 
-	text "Since Misty's out,"
-	line "we'll be away too."
-	cont "Gym Trainers"
+	text "Como Misty está"
+	line "fuera, nosotros"
+	cont "también."
+	cont "Entrenadores de"
+	cont "Gimnasio"
 	done
 
 CeruleanGymStatue:
@@ -236,165 +242,179 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "¡Uy! ¡Yo lo"
+	line "siento mucho! Tú"
+	cont "no herido, ¿ok?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "Yo muy ocupado."
+	line "No hay tiempo"
+	cont "para hablar"
+	cont "contigo. No bueno"
+	cont "para mí si alguien"
+	cont "me ve."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "¡Oh no! ¡Tú ya me"
+	line "viste! ¡Yo cometer"
+	cont "gran error!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "¡Oye, tú! Olvidar"
+	line "que me viste, ¿ok?"
 
-	para "You see, hear,"
-	line "know nothing,"
+	para "Tú no ver, no oír,"
+	line "no saber nada,"
 
-	para "okay?"
-	line "Bye, kid! Nothing!"
+	para "¿ok?"
+	line "¡Adiós, niño!"
+	cont "¡Nada de nada!"
 
-	para "Bye-bye a go-go!"
+	para "¡Adiós-adiós a"
+	line "go-go!"
 	done
 
 
 
 MistyIntroText:
-	text "Misty: I was ex-"
-	line "pecting you, you"
-	cont "pest!"
+	text "Misty: Te estaba"
+	line "esperando,"
+	cont "¡pesado!"
 
-	para "You may have a"
-	line "lot of Johto Gym"
+	para "Puede que tengas"
+	line "muchas Medallas"
 
-	para "Badges, but you'd"
-	line "better not take me"
-	cont "too lightly."
+	para "de Johto, pero"
+	line "mejor no me"
+	cont "subestimes."
 
-	para "My Water-type"
-	line "#mon are tough!"
+	para "¡Mis #mon de"
+	line "tipo Agua son"
+	cont "duros!"
 	done
 
 MistyWinLossText:
-	text "Misty: You really"
-	line "are good…"
+	text "Misty: De verdad"
+	line "eres bueno…"
 
-	para "I'll admit that"
-	line "you are skilled…"
+	para "Admito que tienes"
+	line "talento…"
 
-	para "Here you go. It's"
-	line "the Cascade Badge."
+	para "Toma. Es la"
+	line "Medalla Cascada."
 	done
 
 MistyGiveTMText:
-	text "Misty: Here's"
-	line "another memento"
+	text "Misty: Aquí tienes"
+	line "otro recuerdo"
 
-	para "from this battle."
-	line "Take it!"
+	para "de este combate."
+	line "¡Tómalo!"
 	done
 
 
 MistyFightDoneText:
-	text "Misty: Are there"
-	line "many strong train-"
-	cont "ers in Johto? Like"
-	cont "you, I mean."
+	text "Misty: ¿Hay"
+	line "muchos"
+	cont "entrenadores"
+	cont "fuertes en Johto?"
+	cont "Como tú, digo."
 
-	para "I'm going to"
-	line "travel one day, so"
+	para "Algún día voy a"
+	line "viajar, para"
 
-	para "I can battle some"
-	line "skilled trainers."
+	para "poder luchar"
+	line "contra"
+	cont "entrenadores"
+	cont "hábiles."
 	done
 
 SwimmerfDianaSeenText:
-	text "Sorry about being"
-	line "away. Let's get on"
-	cont "with it!"
+	text "Perdón por estar"
+	line "fuera. ¡Vamos a"
+	cont "ello!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "I give up! You're"
-	line "the winner!"
+	text "¡Me rindo! ¡Tú"
+	line "ganas!"
 	done
 
 SwimmerfViolaSeenText:
-	text "Swimming isn't"
-	line "just about speed!"
+	text "¡Nadar no es solo"
+	line "cuestión de"
+	cont "velocidad!"
 
-	para "It's also about"
-	line "beauty and grace!"
+	para "¡También es"
+	line "belleza y"
+	cont "elegancia!"
 	done
 
 SwimmerfViolaBeatenText:
-	text "I lost"
-	line "beautifully…"
+	text "Perdí con"
+	line "elegancia…"
 	done
 
 SwimmerfBrianaSeenText:
-	text "Don't let my ele-"
-	line "gant swimming un-"
-	cont "nerve you."
+	text "No dejes que mi"
+	line "elegante estilo"
+	cont "te intimide."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ooh, you calmly"
-	line "disposed of me…"
+	text "Vaya, me venciste"
+	line "con calma…"
 	done
 
 SailorParkerSeenText:
-	text "Alright! Come"
-	line "and get me!"
+	text "¡Muy bien! ¡Ven"
+	line "a por mí!"
 	done
 
 SailorParkerBeatenText:
-	text "This can't be…"
+	text "Esto no puede"
+	line "ser…"
 	done
 
 SailorEddieSeenText:
-	text "I've been relaxing"
-	line "poolside, so"
-	cont "I've got enough"
-	cont "strength!"
+	text "He estado"
+	line "relajándome junto"
+	cont "a la piscina,"
+	cont "¡así que tengo"
+	cont "fuerza de sobra!"
 	done
 
 SailorEddieBeatenText:
-	text "You can't win with"
-	line "strength alone."
+	text "No se puede ganar"
+	line "solo con fuerza."
 	done
 
 
 CeruleanGymGuyWinText:
-	text "Hoo, you showed me"
-	line "how tough you are."
+	text "Vaya, me has"
+	line "mostrado lo fuerte"
+	cont "que eres."
 
-	para "As always, that"
-	line "was one heck of a"
-	cont "great battle!"
+	para "Como siempre, ¡ha"
+	line "sido un combate"
+	cont "genial!"
 	done
 
 CeruleanGymFoundMachinePartText:
-	text "<PLAYER> found"
-	line "Machine Part!"
+	text "<PLAYER> encontró"
+	line "¡una Pieza de"
+	cont "Máquina!"
 	done
 
 CeruleanGymSomethingUnderwaterText:
-	text "There's something"
-	line "under the water…"
+	text "Hay algo bajo el"
+	line "agua…"
 
-	para "Maybe that Rocket"
-	line "Grunt will talk?"
+	para "¿Y si ese Grunt"
+	line "del Team Rocket"
+	cont "habla?"
 
-	para "Where did he run"
-	line "off to?"
+	para "¿A dónde habrá"
+	line "huido?"
 	done

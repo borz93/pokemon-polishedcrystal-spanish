@@ -74,158 +74,162 @@ CeladonUniversityClassroom1ImakuniScript:
 	jumpthisopenedtext
 
 .Text6:
-	text "In both battle and"
-	line "dance, soul and"
-	cont "rhythm are the"
-	cont "secret."
+	text "Tanto en el"
+	line "combate como en"
+	cont "el baile, el alma"
+	cont "y el ritmo son el"
+	cont "secreto."
 
-	para "Hey, that sounds"
-	line "pretty cool!"
+	para "¡Oye, eso suena"
+	line "genial!"
 
-	para "Maybe I'll become"
-	line "a poet!"
+	para "¡Quizá me haga"
+	line "poeta!"
 	done
 
 .Text1:
-	text "Huh? W…Who are"
-	line "you?"
+	text "¿Eh? ¿Q…Quién"
+	line "eres?"
 
-	para "Who? Me? You don't"
-	line "know who I am?"
+	para "¿Quién? ¿Yo? ¿No"
+	line "sabes quién soy?"
 
-	para "I am the super"
-	line "musical star,"
+	para "¡Soy la súper"
+	line "estrella musical,"
 	cont "Imakuni!"
 
-	para "I'll sing the"
-	line "#Rap--you"
-	cont "dance!"
+	para "¡Yo cantaré el"
+	line "#Rap, tú"
+	cont "bailas!"
 
 	para "♪ La di da di da,"
 	line "La di da di da… ♪"
 
-	para "Hey! Move those"
-	line "feet!"
+	para "¡Oye! ¡Mueve esos"
+	line "pies!"
 
-	para "What? #mon?"
+	para "¿Qué? ¿#mon?"
 
-	para "You want to"
-	line "battle me?"
+	para "¿Quieres"
+	line "combatir conmigo?"
 	done
 
 .Text2:
-	text "Come on, don't be"
+	text "¡Vamos, no seas"
 	line "cruel!"
 
-	para "You're going to"
-	line "make me cry!"
+	para "¡Me vas a hacer"
+	line "llorar!"
 	done
 
 .Text3:
-	text "OK, but if I win,"
-	line "you dance!"
+	text "Vale, ¡pero si"
+	line "gano, bailas!"
 	done
 
 .Text4:
-	text "Even if I lost, is"
-	line "it really so bad?"
+	text "Aunque perdí, ¿es"
+	line "tan malo?"
 	done
 
 .Text5:
-	text "Hey! You're pretty"
-	line "good!"
+	text "¡Oye! ¡Eres"
+	line "bastante bueno!"
 
-	para "I'll give you this"
-	line "Berry, so don't"
+	para "Te daré esta Baya,"
+	line "así que no le"
 
-	para "tell anyone I"
-	line "lost, OK?"
+	para "digas a nadie que"
+	line "perdí, ¿vale?"
 	done
 
 CeladonUniversityClassroom1AndyText:
-	text "Hello there!"
-	line "I'm Prof.Andy,"
+	text "¡Hola!"
+	line "Soy el Prof.Andy,"
 
-	para "and I teach what"
-	line "I love--art!"
+	para "y enseño lo que"
+	line "amo: ¡el arte!"
 
-	para "Remember, draw"
-	line "what you see,"
+	para "Recuerda, dibuja"
+	line "lo que ves,"
 
-	para "not what you think"
-	line "you see."
+	para "no lo que crees"
+	line "que ves."
 
-	para "Get past your pre-"
-	line "conceptions about"
-	cont "how things look."
+	para "Supera tus ideas"
+	line "preconcebidas"
+	cont "sobre cómo se ven"
+	cont "las cosas."
 	done
 
 CeladonUniversityClassroom1Dragon_tamerText:
-	text "I've been holding"
-	line "this pose for a"
-	cont "while now."
+	text "Llevo manteniendo"
+	line "esta pose un"
+	cont "buen rato."
 	done
 
 CeladonUniversityClassroom1LadyText:
-	text "You meet some"
-	line "unique people in"
-	cont "art class, but"
+	text "Conoces a gente"
+	line "única en clase de"
+	cont "arte, pero"
 
-	para "that guy in the"
-	line "black costume is"
-	cont "really suspicious!"
+	para "¡ese tipo del"
+	line "traje negro es"
+	cont "muy sospechoso!"
 	done
 
 CeladonUniversityClassroom1Artist1Text:
-	text "It's tough getting"
-	line "the folds of this"
-	cont "cape just right."
+	text "Es difícil lograr"
+	line "los pliegues de"
+	cont "esta capa bien."
 	done
 
 CeladonUniversityClassroom1Artist2Text:
-	text "Aah-choo!"
+	text "¡Achís!"
 
-	para "Ugh. We just had a"
-	line "flower-arranging"
-	cont "seminar, but now"
+	para "Ugh. Acabamos de"
+	line "tener un seminario"
+	cont "de arreglo floral,"
 
-	para "I can't stop"
-	line "sneezing."
+	para "pero ahora no"
+	line "puedo dejar de"
+	cont "estornudar."
 
-	para "I must be aller-"
-	line "gic…"
+	para "Debo ser"
+	line "alérgico…"
 	done
 
 CeladonUniversityClassroom1Artist3Text:
-	text "I work a lot dur-"
-	line "ing the day, so I"
+	text "Trabajo mucho de"
+	line "día, así que tomo"
 
-	para "take classes in"
-	line "the evenings."
+	para "clases por las"
+	line "tardes."
 	done
 
 CeladonUniversityClassroom1BlackboardText:
-	text "There's a descrip-"
-	line "tion of two-point"
+	text "Hay una"
+	line "descripción de la"
 
-	para "and three-point"
-	line "perspective."
+	para "perspectiva de dos"
+	line "y tres puntos."
 	done
 
 CeladonUniversityClassroom1Bookshelf1Text:
-	text "It's a book about"
-	line "Smeargle, a"
-	cont "#mon artist."
+	text "Es un libro sobre"
+	line "Smeargle, un"
+	cont "#mon artista."
 
-	para "It's full of beau-"
-	line "tiful drawings."
+	para "Está lleno de"
+	line "dibujos"
+	cont "hermosos."
 	done
 
 CeladonUniversityClassroom1Bookshelf2Text:
-	text "It's a brochure"
-	line "showcasing fine"
-	cont "art from a place"
+	text "Es un folleto que"
+	line "muestra bellas"
+	cont "artes de un lugar"
 
-	para "called Lilycove"
-	line "Museum."
+	para "llamado Museo"
+	line "Malvalona."
 	done

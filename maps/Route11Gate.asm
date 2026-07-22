@@ -18,16 +18,16 @@ Route11Gate_MapScriptHeader:
 	object_event  5,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route11GateOfficerText, -1
 
 Route11GateOfficerText:
-	text "When you catch"
-	line "lots of #mon,"
-	cont "isn't it hard to"
-	cont "think up names?"
+	text "Cuando atrapas"
+	line "muchos #mon,"
+	cont "¿no es difícil"
+	cont "pensar nombres?"
 
-	para "In Lavender Town,"
-	line "there's a man who"
-	cont "rates #mon"
-	cont "nicknames."
+	para "En Pueblo Lavanda"
+	line "hay un hombre que"
+	cont "valora los apodos"
+	cont "de #mon."
 
-	para "He'll help you"
-	line "rename them too!"
+	para "¡También te ayuda"
+	line "a renombrarlos!"
 	done

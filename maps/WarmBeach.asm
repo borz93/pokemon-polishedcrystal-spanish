@@ -28,75 +28,76 @@ WarmBeach_MapScriptHeader:
 GenericTrainerSightseermGareth:
 	generictrainer SIGHTSEERM, GARETH, EVENT_BEAT_SIGHTSEERM_GARETH, .SeenText, .BeatenText
 
-	text "Even outside of"
-	line "battle, these"
+	text "Incluso fuera de"
+	line "combate, estos"
 
-	para "items make memor-"
-	line "able souvenirs."
+	para "objetos son"
+	line "recuerdos"
+	cont "memorables."
 	done
 
 .SeenText:
-	text "I just picked up"
-	line "some useful items"
+	text "Acabo de comprar"
+	line "objetos útiles"
 
-	para "from the outdoor"
-	line "market!"
+	para "en el mercado al"
+	line "aire libre!"
 	done
 
 .BeatenText:
-	text "My items weren't"
-	line "enough…"
+	text "Mis objetos no"
+	line "bastaron…"
 	done
 
 GenericTrainerAromaLadyHolly:
 	generictrainer AROMA_LADY, HOLLY, EVENT_BEAT_AROMA_LADY_HOLLY, .SeenText, .BeatenText
 
-	text "The sense of smell"
-	line "is vital to living"
-	cont "in nature."
+	text "El sentido del"
+	line "olfato es vital"
+	cont "en la naturaleza."
 	done
 
 .SeenText:
-	text "I am at one with"
-	line "the aromas of"
-	cont "nature."
+	text "Soy uno con los"
+	line "aromas de la"
+	cont "naturaleza."
 	done
 
 .BeatenText:
-	text "Defeat has its"
-	line "own scent…"
+	text "La derrota tiene"
+	line "su propio olor…"
 	done
 
 WarmBeachCooltrainermText:
-	text "There's a #mon"
-	line "here that talks!"
+	text "¡Hay un #mon"
+	line "aquí que habla!"
 
-	para "I would never be-"
-	line "lieve it if I"
+	para "Nunca lo habría"
+	line "creído si no lo"
 
-	para "hadn't seen it for"
-	line "myself!"
+	para "hubiera visto con"
+	line "mis propios ojos!"
 	done
 
 WarmBeachCooltrainerfText:
-	text "I've been selected"
-	line "as the festival"
-	cont "maiden this year,"
+	text "Me eligieron como"
+	line "doncella del"
+	cont "festival este año,"
 
-	para "so I have to play"
-	line "the melody of the"
-	cont "Chosen One."
+	para "así que debo tocar"
+	line "la melodía del"
+	cont "Elegido."
 
-	para "I'm pretty nervous,"
-	line "so I came here to"
-	cont "practice."
+	para "Estoy muy"
+	line "nerviosa, así que"
+	cont "vine a practicar."
 	done
 
 WarmBeachSlowkingScript:
 	jumpthistext
 
-	text "I could use"
-	line "pants…"
+	text "Me vendrían bien"
+	line "unos pantalones…"
 	done
 
 WarmBeachLassScript:
@@ -119,70 +120,71 @@ WarmBeachLassScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "One Shell Bell,"
-	line "just for you!"
+	text "Una Camp. Concha,"
+	line "solo para ti!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money…"
+	text "No tienes"
+	line "suficiente dinero…"
 	done
 
 .Text1:
-	text "I collect shells"
-	line "off the beach and"
+	text "Recojo conchas de"
+	line "la playa y las"
 
-	para "turn them into"
-	line "Shell Bells."
+	para "convierto en"
+	line "Camp. Concha."
 
-	para "People say their"
-	line "chime is healing."
+	para "Dicen que su"
+	line "tañido cura."
 
-	para "They're ¥4000"
-	line "each. Want one?"
+	para "Cuestan ¥4000"
+	line "cada una. ¿Quieres"
+	cont "una?"
 	done
 
 .Text3:
-	text "I only made one"
-	line "Shell Bell today…"
+	text "Solo hice una"
+	line "Camp. Concha hoy…"
 	done
 
 .Text4:
-	text "That's OK!"
+	text "¡Vale, no pasa"
+	line "nada!"
 	done
 
 .Text6:
-	text "You don't have"
-	line "enough room…"
+	text "No tienes"
+	line "suficiente sitio…"
 	done
 
 WarmBeachLadyText:
-	text "Those islands"
-	line "across the water"
+	text "Esas islas al otro"
+	line "lado del agua"
 
-	para "are known as the"
-	line "temples of Fire,"
+	para "son conocidas como"
+	line "los templos del"
+	cont "Fuego, el Hielo y"
+	cont "el Relámpago."
 
-	para "Ice, and Light-"
-	line "ning."
+	para "Eso es lo que dice"
+	line "este folleto,"
 
-	para "That's what this"
-	line "brochure says,"
-
-	para "but what are they"
-	line "for?"
+	para "¿pero para qué"
+	line "sirven?"
 	done
 
 WarmBeachShackSignText:
-	text "Beach Shack"
+	text "Choza de Playa"
 	done
 
 WarmBeachShrineText:
-	text "It's a shrine"
-	line "dedicated to the"
+	text "Es un santuario"
+	line "dedicado al"
 
-	para "Guardian of the"
-	line "Seas."
+	para "Guardián de los"
+	line "Mares."
 	done

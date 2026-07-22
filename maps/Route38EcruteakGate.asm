@@ -39,80 +39,85 @@ ProfOaksAide2Script:
 .Explain
 	jumpthisopenedtext
 
-	text "That Linking Cord"
-	line "gives certain"
+	text "El Cable Enlace"
+	line "da a ciertos"
 
-	para "#mon a sense"
-	line "of connection"
+	para "#mon una"
+	line "sensación de"
+	cont "conexión que"
+	cont "podría ayudarlos"
+	cont "a evolucionar."
 
-	para "that may help"
-	line "them evolve."
-
-	para "Use it to com-"
-	line "plete the #dex!"
+	para "Puedes usarlo"
+	line "para completar"
+	cont "la #dex!"
 	done
 
 .NoRoom
 	jumpthisopenedtext
 
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for this."
+	text "¡Ah! Veo que no"
+	line "tienes espacio"
+	cont "para esto."
 	done
 
 Route38EcruteakGateOfficerText:
-	text "Where did you say"
-	line "you're from?"
+	text "¿De dónde dijiste"
+	line "que eras?"
 
-	para "New Bark Town?"
+	para "¿Pueblo"
+	line "Primavera?"
 
-	para "Prof.Elm lives"
-	line "over there, right?"
+	para "El Prof. Elm vive"
+	line "por allí, ¿no?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Has recorrido un"
+	line "largo camino."
 	done
 
 ProfOaksAide2HiText:
-	text "Hello there! I'm"
-	line "Prof.Oak's aide."
+	text "¡Hola! Soy"
+	line "ayudante del"
+	cont "Prof. Oak."
 
-	para "If you caught 30"
-	line "kinds of #mon,"
+	para "Si atrapaste 30"
+	line "tipos de #mon,"
 
-	para "I'm supposed to"
-	line "give you an item."
+	para "se supone que debo"
+	line "darte un objeto."
 
-	para "So, <PLAYER>,"
-	line "have you caught"
+	para "Así que, <PLAYER>,"
+	line "¿atrapaste al"
 
-	para "at least 30 kinds"
-	line "of #mon?"
+	para "menos 30 tipos de"
+	line "#mon?"
 	done
 
 ProfOaksAide2UhOhText:
-	text "Let's see…"
-	line "Uh-oh! You've only"
+	text "A ver…"
+	line "¡Ay! Solo has"
+	cont "atrapado"
 
-	para "caught "
+	para ""
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Come back and see"
-	line "me when you catch"
-	cont "30 kinds."
+	para "Vuelve a verme"
+	line "cuando atrapes"
+	cont "30 tipos."
 	done
 
 ProfOaksAide2HereYouGoText:
-	text "Let's see…"
-	line "Great job! You've"
+	text "A ver… ¡Buen"
+	line "trabajo! Has"
+	cont "atrapado"
 
-	para "caught "
+	para ""
 	text_decimal wTempDexOwn, 2, 3
-	text " kinds"
-	line "of #mon."
+	text " tipos"
+	line "de #mon."
 
-	para "Congratulations!"
-	line "Here you go!"
+	para "¡Felicidades!"
+	line "¡Aquí tienes!"
 	done

@@ -35,42 +35,43 @@ Route13GrampsScript:
 	iftruefwd .lucky
 	jumpthistextfaceplayer
 
-	text "I can't see Lucky"
-	line "Island today…"
+	text "No veo la Isla"
+	line "Suerte hoy…"
 
-	para "But I know it's"
-	line "appeared before!"
+	para "¡Pero sé que ha"
+	line "aparecido antes!"
 	done
 
 .lucky
 	jumpthistextfaceplayer
 
-	text "I can see Lucky"
-	line "Island today!"
-	cont "What a spectacle!"
+	text "¡Hoy veo la Isla"
+	line "Suerte!"
+	cont "¡Qué espectáculo!"
 	done
 
 GenericTrainerCamperClark:
 	generictrainer CAMPER, CLARK, EVENT_BEAT_CAMPER_CLARK, .SeenText, .BeatenText
 
-	text "It doesn't matter"
-	line "what kind of prep"
-	cont "work you've done."
+	text "No importa qué"
+	line "tipo de"
+	cont "preparación"
+	cont "hicieras."
 
-	para "If you lose, you"
-	line "lose."
+	para "Si pierdes,"
+	line "pierdes."
 	done
 
 .SeenText:
-	text "Collect water!"
-	line "Don't let the fire"
-	cont "go out!"
+	text "¡Recoge agua!"
+	line "¡No dejes que se"
+	cont "apague el fuego!"
 
-	para "Look out for wild"
-	line "#mon!"
+	para "¡Cuidado con los"
+	line "#mon salvajes!"
 
-	para "Let's go,"
-	line "Campfire!"
+	para "¡Vamos,"
+	line "Hoguera!"
 	done
 
 .BeatenText:
@@ -80,237 +81,249 @@ GenericTrainerCamperClark:
 GenericTrainerPicnickerGinger:
 	generictrainer PICNICKER, GINGER, EVENT_BEAT_PICNICKER_GINGER, .SeenText, .BeatenText
 
-	text "You can communi-"
-	line "cate with #mon"
-
-	para "through whistling"
-	line "instead of words!"
+	text "¡Puedes"
+	line "comunicarte con"
+	cont "#mon silbando,"
+	cont "en vez de con"
+	cont "palabras!"
 	done
 
 .SeenText:
-	text "Why do I always"
-	line "get the urge to"
-	cont "whistle outdoors?"
+	text "¿Por qué siempre"
+	line "me dan ganas de"
+	cont "silbar al aire"
+	cont "libre?"
 	done
 
 .BeatenText:
-	text "Tweeee!"
+	text "¡Tuiiii!"
 	done
 
 GenericTrainerBird_keeperPerry:
 	generictrainer BIRD_KEEPER, PERRY, EVENT_BEAT_BIRD_KEEPER_PERRY, Bird_keeperPerrySeenText, Bird_keeperPerryBeatenText
 
-	text "Your #mon are"
-	line "remarkably well-"
-	cont "trained."
+	text "Tus #mon están"
+	line "notablemente bien"
+	cont "entrenados."
 	done
 
 Bird_keeperPerrySeenText:
-	text "Agility is the key"
-	line "attribute of bird"
-	cont "#mon."
+	text "La Agilidad es el"
+	line "atributo clave de"
+	cont "los #mon ave."
 	done
 
 Bird_keeperPerryBeatenText:
-	text "You beat me with"
-	line "your speed…"
+	text "Me venciste con tu"
+	line "velocidad…"
 	done
 
 GenericTrainerBird_keeperBret:
 	generictrainer BIRD_KEEPER, BRET, EVENT_BEAT_BIRD_KEEPER_BRET, Bird_keeperBretSeenText, Bird_keeperBretBeatenText
 
-	text "If you groom them,"
-	line "#mon get happy."
+	text "Si los acicalas,"
+	line "los #mon se"
+	cont "ponen contentos."
 	done
 
 Bird_keeperBretSeenText:
-	text "Check out my #-"
-	line "mon. Just look at"
+	text "Mira mis #mon."
+	line "Fíjate en su"
 
-	para "their coloring and"
-	line "their plumage."
+	para "color y su"
+	line "plumaje."
 	done
 
 Bird_keeperBretBeatenText:
-	text "Shoot!"
-	line "Not good enough!"
+	text "¡Caramba!"
+	line "¡No fue"
+	cont "suficiente!"
 	done
 
 GenericTrainerCamperTanner:
 	generictrainer CAMPER, TANNER, EVENT_BEAT_CAMPER_TANNER, .SeenText, .BeatenText
 
-	text "I figured it would"
-	line "be easy to knock"
-	cont "you out…"
+	text "Pensé que sería"
+	line "fácil dejarte"
+	cont "fuera de combate…"
 	done
 
 .SeenText:
-	text "I can fit in a"
-	line "quick battle while"
-	cont "preparing a meal!"
+	text "¡Puedo encajar un"
+	line "combate rápido"
+	cont "mientras preparo"
+	cont "una comida!"
 	done
 
 .BeatenText:
-	text "Oh, I'm hungry…"
+	text "Oh, tengo"
+	line "hambre…"
 	done
 
 GenericTrainerPicnickerPiper:
 	generictrainer PICNICKER, PIPER, EVENT_BEAT_PICNICKER_PIPER, .SeenText, .BeatenText
 
-	text "The way you were"
-	line "walking made me"
-	cont "think I could win."
+	text "La forma en que"
+	line "caminabas me hizo"
+	cont "pensar que podría"
+	cont "ganar."
 	done
 
 .SeenText:
-	text "How about we bring"
-	line "out your #mon"
+	text "¿Qué tal si"
+	line "sacamos a tus"
 
-	para "and mine for a"
-	line "battle?"
+	para "#mon y a los"
+	line "míos para un"
+	cont "combate?"
 	done
 
 .BeatenText:
-	text "Oh, that's too"
-	line "bad…"
+	text "Oh, qué mala"
+	line "suerte…"
 	done
 
 GenericTrainerCoupleTimandsue1:
 	generictrainer COUPLE, TIMANDSUE1, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Tim: If you've"
-	line "beaten her, you"
-	cont "must be strong!"
+	text "Tim: Si la"
+	line "venciste, ¡debes"
+	cont "ser fuerte!"
 	done
 
 .SeenText:
-	text "Tim: I'll give you"
-	line "a little hint."
+	text "Tim: Te daré una"
+	line "pequeña pista."
 
-	para "My girlfriend's"
-	line "stronger than me!"
+	para "¡Mi novia es más"
+	line "fuerte que yo!"
 	done
 
 .BeatenText:
-	text "Tim: You're the"
-	line "strongest!"
+	text "Tim: ¡Eres el más"
+	line "fuerte!"
 	done
 
 GenericTrainerCoupleTimandsue2:
 	generictrainer COUPLE, TIMANDSUE2, EVENT_BEAT_COUPLE_TIM_AND_SUE, .SeenText, .BeatenText
 
-	text "Sue: That strength"
-	line "of yours…"
-	cont "I've got it!"
+	text "Sue: Esa fuerza"
+	line "tuya…"
+	cont "¡Yo la tengo!"
 
-	para "Are you in love?"
+	para "¿Estás enamorado?"
 	done
 
 .SeenText:
-	text "Sue: Women who"
-	line "don't take love"
+	text "Sue: Las mujeres"
+	line "que no se toman"
 
-	para "seriously might"
-	line "get hurt."
+	para "en serio el amor"
+	line "podrían salir"
+	cont "heridas."
 	done
 
 .BeatenText:
-	text "Sue: Wa ha…"
+	text "Sue: Ja ja…"
 	done
 
 GenericTrainerPokefanmAlex:
 	generictrainer POKEFANM, ALEX, EVENT_BEAT_POKEFANM_ALEX, PokefanmAlexSeenText, PokefanmAlexBeatenText
 
-	text "Doesn't everyone"
-	line "wish to someday be"
-	cont "a king?"
+	text "¿No desea todo"
+	line "el mundo ser rey"
+	cont "algún día?"
 	done
 
 PokefanmAlexSeenText:
-	text "Bow down before my"
-	line "regal #mon!"
+	text "¡Inclínate ante mi"
+	line "#mon real!"
 	done
 
 PokefanmAlexBeatenText:
-	text "How… How dare you"
-	line "mock royalty!"
+	text "¡Cómo… Cómo te"
+	line "atreves a burlarte"
+	cont "de la realeza!"
 	done
 
 GenericTrainerPokefanmJoshua:
 	generictrainer POKEFANM, JOSHUA, EVENT_BEAT_POKEFANM_JOSHUA, PokefanmJoshuaSeenText, PokefanmJoshuaBeatenText
 
-	text "You look like you"
-	line "have many #mon,"
+	text "Parece que tienes"
+	line "muchos #mon,"
 
-	para "but Pikachu is"
-	line "still the best."
+	para "pero Pikachu sigue"
+	line "siendo el mejor."
 	done
 
 PokefanmJoshuaSeenText:
-	text "Nihihi! Would you"
-	line "like to battle my"
-	cont "Pikachu gang?"
+	text "¡Nijiji! ¿Quieres"
+	line "combatir contra mi"
+	cont "banda de Pikachu?"
 	done
 
 PokefanmJoshuaBeatenText:
-	text "Pi-Pikachu!"
+	text "¡Pi-Pikachu!"
 	done
 
 GenericTrainerHikerKenny:
 	generictrainer HIKER, KENNY, EVENT_BEAT_HIKER_KENNY, HikerKennySeenText, HikerKennyBeatenText
 
-	text "Geological fea-"
-	line "tures don't appear"
-	cont "to change."
+	text "Las formaciones"
+	line "geológicas no"
+	cont "parecen cambiar."
 
-	para "But they actually"
-	line "change, little by"
-	cont "little."
+	para "Pero en realidad"
+	line "cambian, poco a"
+	cont "poco."
 	done
 
 HikerKennySeenText:
-	text "I should go to"
-	line "Rock Tunnel to get"
-	cont "myself an Onix."
+	text "Debería ir al"
+	line "Túnel Roca a por"
+	cont "un Onix."
 	done
 
 HikerKennyBeatenText:
-	text "I lost…"
+	text "Perdí…"
 	done
 
 Route13TrainerTips1Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "Look! Right there,"
-	line "at the left side"
-	cont "of the post."
+	para "¡Mira! Justo ahí,"
+	line "al lado izquierdo"
+	cont "del poste."
 	done
 
 Route13TrainerTips2Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "Some #mon need"
-	line "items to evolve."
+	para "Algunos #mon"
+	line "necesitan objetos"
+	cont "para evolucionar."
 
-	para "If you're lucky,"
-	line "a wild #mon can"
+	para "Si tienes suerte,"
+	line "un #mon salvaje"
 
-	para "be found holding"
-	line "its own evolution"
-	cont "item!"
+	para "¡puede llevar su"
+	line "propio objeto de"
+	cont "evolución!"
 	done
 
 Route13SignText:
-	text "Route 13"
+	text "Ruta 13"
 
-	para "North to Silence"
-	line "Bridge"
+	para "Norte hacia el"
+	line "Puente Silencio"
 	done
 
 Route13DirectionsSignText:
-	text "North to Lavender"
-	line "Town"
+	text "Norte hacia Pueblo"
+	line "Lavanda"
 
-	para "West to Fuchsia"
-	line "City"
+	para "Oeste hacia Ciudad"
+	line "Fucsia"
 	done

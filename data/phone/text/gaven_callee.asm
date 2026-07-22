@@ -1,72 +1,72 @@
 GavenAnswerPhoneText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking…"
+	text ", al habla…"
 
-	para "Hi, <PLAYER>!"
-	line "Good morning!"
+	para "¡Hola, <PLAYER>!"
+	line "¡Buenos días!"
 	done
 
 GavenAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking…"
+	text ", al habla…"
 
-	para "Hi, <PLAYER>!"
+	para "¡Hola, <PLAYER>!"
 	done
 
 GavenAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking…"
+	text ", al habla…"
 
-	para "Hi, <PLAYER>!"
-	line "Good evening!"
+	para "¡Hola, <PLAYER>!"
+	line "¡Buenas noches!"
 	done
 
 GavenGreetText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "<PLAYER>, ¡buenos"
+	line "días!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "¿Qué tal estás?"
 	done
 
 GavenGreetDayText:
-	text "Hi, <PLAYER>!"
+	text "¡Hola, <PLAYER>!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "¿Qué tal estás?"
 	done
 
 GavenGreetNiteText:
-	text "<PLAYER>, good"
-	line "evening!"
+	text "<PLAYER>, ¡buenas"
+	line "noches!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "¿Qué tal estás?"
 	done
 
 GavenGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text "'s"
-	line "doing as great as"
-	cont "ever."
+	text " sigue"
+	line "genial como"
+	cont "siempre."
 
-	para "Let's keep at it"
-	line "and become #mon"
-	cont "Champs!"
+	para "¡Sigamos así y"
+	line "seremos"
+	cont "Campeones #mon!"
 	done

@@ -30,30 +30,30 @@ YellowForestGateNurseScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "All done!"
+	text "¡Listo!"
 
-	para "Your #mon"
-	line "are fully healed."
+	para "Tus #mon"
+	line "están curados."
 	done
 
 YellowForestGateOfficerText:
-	text "There are rare"
-	line "#mon in"
-	cont "Yellow Forest!"
+	text "Hay #mon raros"
+	line "en el Bosque"
+	cont "Amarillo!"
 
-	para "Don't forget to"
-	line "bring # Balls!"
+	para "No olvides traer"
+	line "# Balls!"
 
-	para "That guy is sell-"
-	line "ing some spares."
+	para "Ese chico vende"
+	line "algunas de más."
 	done
 
 YellowForestGateNurseText:
-	text "Your #mon look"
-	line "worn out."
+	text "Tus #mon se ven"
+	line "cansados."
 
-	para "Let me heal them"
-	line "for you."
+	para "Deja que los"
+	line "cure."
 	done
 
 

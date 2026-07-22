@@ -121,74 +121,80 @@ DarkCaveVioletEntranceMovementData_FalknerLeave:
 	step_end
 
 DarkCaveVioletEntranceFalknerAttackText:
-	text "Falkner: Use Wing"
-	line "Attack, Pidgeotto!"
+	text "Falkner: ¡Usa"
+	line "Ataque Ala,"
+	cont "Pidgeotto!"
 	done
 
 DarkCaveVioletEntranceFalknerReturnText:
-	text "Good job,"
+	text "Buen trabajo,"
 	line "Pidgeotto."
 	done
 
 DarkCaveVioletEntranceFalknerIntroText:
-	text "Oh! You must be"
-	line "a trainer."
+	text "¡Oh! Debes ser"
+	line "un entrenador."
 	prompt
 
 DarkCaveVioletEntranceFalknerDarkIntroText:
-	text "You must be brave"
-	line "to come here in"
-	cont "pitch darkness."
+	text "Debes ser valiente"
+	line "para venir aquí en"
+	cont "total oscuridad."
 	prompt
 
 DarkCaveVioletEntranceFalknerExplanationText:
-	text "I'm Falkner, the"
-	line "Violet #mon"
-	cont "Gym Leader."
+	text "Soy Falkner, el"
+	line "Líder de Gimnasio"
+	cont "#mon de Ciudad"
+	cont "Iris."
 
-	para "I don't explore"
-	line "caves for fun,"
+	para "No exploro cuevas"
+	line "por diversión,"
 
-	para "but that Ursaring"
-	line "was attacking"
+	para "pero ese Ursaring"
+	line "atacaba a"
 
-	para "trainers too weak"
-	line "to defend them-"
-	cont "selves."
+	para "entrenadores muy"
+	line "débiles para"
+	cont "defenderse."
 
-	para "As a Gym Leader,"
-	line "it's my job to"
+	para "Como Líder de"
+	line "Gimnasio, es mi"
 
-	para "handle this sort"
-	line "of situation."
+	para "deber manejar este"
+	line "tipo de"
+	cont "situación."
 
-	para "So you're here to"
-	line "earn a Badge?"
+	para "¿Así que vienes a"
+	line "ganar una"
+	cont "Medalla?"
 
-	para "Then meet me at"
-	line "the Violet Gym."
+	para "Entonces"
+	line "encuéntrame en el"
+	cont "Gimnasio Iris."
 	done
 
 DarkCaveVioletEntranceFalknerDarknessText:
-	text "Falkner: Is"
-	line "someone there?"
+	text "Falkner: ¿Hay"
+	line "alguien ahí?"
 
-	para "Don't come any"
-	line "closer!"
+	para "¡No te acerques"
+	line "más!"
 
-	para "It's too dark, you"
-	line "could get hurt."
+	para "Está muy oscuro,"
+	line "podrías salir"
+	cont "herido."
 	done
 
 DarkCaveVioletEntranceFalknerProgressAnywayText:
-	text "Falkner: Is"
-	line "someone there?"
+	text "Falkner: ¿Hay"
+	line "alguien ahí?"
 
-	para "It's reckless to"
-	line "explore Dark Cave"
-	cont "without any light!"
+	para "¡Es una temeridad"
+	line "explorar la Cueva"
+	cont "Oscura sin luz!"
 
-	para "I'm in the middle"
-	line "of a battle, so"
-	cont "stay back!"
+	para "¡Estoy en medio de"
+	line "un combate, así"
+	cont "que atrás!"
 	done

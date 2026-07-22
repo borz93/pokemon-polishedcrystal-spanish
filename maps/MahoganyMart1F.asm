@@ -89,15 +89,16 @@ MahoganyMart1FBlackBeltScript:
 	iftrue_jumptextfaceplayer MahoganyMart1FBlackBeltText_LanceEntered
 	jumpthistextfaceplayer
 
-	text "Heheh! The experi-"
-	line "ment worked like a"
-	cont "charm."
+	text "¡Jeje! El"
+	line "experimento"
+	cont "funcionó de"
+	cont "maravilla."
 
-	para "Magikarp are just"
-	line "worthless, but"
+	para "Los Magikarp no"
+	line "valen nada, pero"
 
-	para "Gyarados are big"
-	line "moneymakers."
+	para "los Gyarados dan"
+	line "mucho dinero."
 	done
 
 MahoganyMart1FVeteranFScript:
@@ -123,26 +124,27 @@ MahoganyMart1FTutorAgilityScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "So be it. Come"
-	line "back if you change"
-	cont "your mind."
+	text "Como quieras."
+	line "Vuelve si cambias"
+	cont "de opinión."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Get me a Silver"
-	line "Leaf if you want"
-	cont "me to teach it."
+	text "Consígueme una"
+	line "Hoja Plateada si"
+	cont "quieres que te lo"
+	cont "enseñe."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Your foes will"
-	line "never know what"
-	cont "hit them."
+	text "Tus rivales nunca"
+	line "sabrán qué los"
+	cont "golpeó."
 	done
 
 MahoganyMart1FDragoniteTackleMovement:
@@ -188,94 +190,103 @@ MahoganyMart1FLanceApproachHiddenStairsMovement:
 	step_end
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… You found"
-	line "the secret stair-"
-	cont "way…"
+	text "Argh… Encontraste"
+	line "la escalera"
+	cont "secreta…"
 	done
 
 
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "That guy's dragon"
-	line "#mon are tough…"
+	para "Los #mon dragón"
+	line "de ese tipo son"
+	cont "duros…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "Lance: Dragonite,"
-	line "Hyper Beam."
+	line "Hiperrayo."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "What took you,"
+	text "¿Qué te retrasó,"
 	line "<PLAYER>?"
 
-	para "Just as I thought,"
-	line "that strange radio"
+	para "Tal como pensaba,"
+	line "esa extraña señal"
 
-	para "signal is coming"
-	line "from here."
+	para "de radio viene de"
+	line "aquí."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "The stairs are"
-	line "right here."
+	text "Las escaleras"
+	line "están aquí mismo."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "Lance: <PLAYER>, we"
-	line "should split up to"
+	text "Lance: <PLAYER>,"
+	line "deberíamos"
+	cont "separarnos para"
 
-	para "check this place."
-	line "I'll go first."
+	para "revisar este"
+	line "lugar. Yo iré"
+	cont "primero."
 	done
 
 MahoganyMart1FVeteranFText:
-	text "Our basement used"
-	line "to be a ninja"
-	cont "hideout."
+	text "Nuestro sótano"
+	line "solía ser un"
+	cont "escondite ninja."
 
-	para "Some of their arts"
-	line "have survived to"
-	cont "this very day."
+	para "Algunas de sus"
+	line "artes han"
+	cont "sobrevivido hasta"
+	cont "hoy."
 
-	para "One such art would"
-	line "greatly increase"
-	cont "their footspeed."
+	para "Un arte así"
+	line "aumentaría mucho"
+	cont "la velocidad de"
+	cont "pies."
 	done
 
 Text_MahoganyMart1FTutorAgility:
-	text "If you'd like, I"
-	line "can teach your"
+	text "Si quieres, puedo"
+	line "enseñarle a tu"
 
-	para "#mon the move"
-	line "Agility."
+	para "#mon el"
+	line "movimiento"
+	cont "Agilidad."
 	done
 
 Text_MahoganyMart1FTutorQuestion:
-	text "I just need a"
-	line "Silver Leaf first."
+	text "Solo necesito una"
+	line "Hoja Plateada"
+	cont "primero."
 	done
 
 PokemonJournalWillScript:
 	setflag ENGINE_READ_WILL_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Elite Four Will!"
+	para "Reportaje"
+	line "especial: ¡El"
+	cont "Alto Mando Will!"
 
-	para "Will does not talk"
-	line "about his past"
+	para "Will no habla de"
+	line "su pasado antes"
 
-	para "before joining the"
-	line "Elite Four."
+	para "de unirse al Alto"
+	line "Mando."
 
-	para "Some say he worked"
-	line "for Team Rocket."
+	para "Algunos dicen que"
+	line "trabajó para el"
+	cont "Team Rocket."
 
-	para "#mon Journal"
-	line "refuses to specu-"
-	cont "late."
+	para "La Revista #mon"
+	line "se niega a"
+	cont "especular."
 	done

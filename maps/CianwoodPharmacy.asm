@@ -43,28 +43,29 @@ CianwoodPharmacist:
 	pokemart MARTTYPE_PHARMACY, MART_CIANWOOD
 
 PharmacistGiveSecretpotionText:
-	text "Your #mon"
-	line "appear to be fine."
+	text "Tus #mon"
+	line "parecen estar"
+	cont "bien."
 
-	para "Is something"
-	line "worrying you?"
+	para "¿Te preocupa"
+	line "algo?"
 
 	para "…"
 
-	para "The Lighthouse"
-	line "#mon is in"
-	cont "trouble?"
+	para "¿El #mon del"
+	line "Faro está mal?"
 
-	para "I got it!"
+	para "¡Ya lo tengo!"
 
-	para "This ought to do"
-	line "the trick."
+	para "Esto debería"
+	line "funcionar."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SecretPotion is"
-	line "a tad too strong."
+	text "Mi Poción"
+	line "Secreta es un"
+	cont "poco fuerte."
 
-	para "I only offer it in"
-	line "an emergency."
+	para "Solo la doy en"
+	line "una emergencia."
 	done

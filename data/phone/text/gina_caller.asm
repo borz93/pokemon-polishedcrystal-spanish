@@ -1,118 +1,122 @@
 GinaGettingInSyncWithMonText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	text " and"
-	line "I are getting more"
+	text " y yo"
+	line "estamos cada vez"
 
-	para "in sync with each"
-	line "other."
+	para "más"
+	line "compenetrados."
 	done
 
 GinaDefeatedMonText:
-	text "We battled a wild"
-	line ""
+	text "Combatimos contra"
+	line "un "
 	text_ram wStringBuffer4
-	text " and"
+	text " salvaje"
 
-	para "managed to drop it"
-	line "in a close match."
+	para "y logramos"
+	line "vencerlo por"
+	cont "poco."
 
-	para "We're getting into"
-	line "the groove!"
+	para "¡Le estamos"
+	line "pillando el"
+	cont "truco!"
 	done
 
 GinaLostAMonText:
-	text "But, you know?"
+	text "Pero, ¿sabes?"
 
-	para "I still haven't"
-	line "caught "
+	para "Aún no he"
+	line "atrapado a "
 	text_ram wStringBuffer4
 	text "."
 
-	para "It's getting past"
-	line "frustrating…"
+	para "Ya es muy"
+	line "frustrante…"
 	done
 
 GinaBattleRematchText:
-	text "Would you be my"
-	line "practice partner"
-	cont "again sometime?"
+	text "¿Serías mi"
+	line "compañero de"
+	cont "práctica otra"
+	cont "vez?"
 
-	para "I'll be waiting on"
+	para "Te espero en:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "…Could you take it"
-	line "a little easier on"
-	cont "me next time?"
+	para "…¿Podrías ir"
+	line "más suave"
+	cont "la próxima vez?"
 	done
 
 GinaHangUpText:
-	text "Bye! Let's chat"
-	line "again!"
+	text "¡Adiós! ¡Hasta"
+	line "pronto!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Have you heard"
-	line "about Team Rocket?"
+	text "¿Oíste sobre el"
+	line "Team Rocket?"
 
-	para "They've taken over"
-	line "the Radio Tower in"
-	cont "Goldenrod."
+	para "Han tomado la"
+	line "Torre Radio de"
+	cont "Trigal."
 
-	para "Are the people"
-	line "inside safe?"
+	para "¿Estará a salvo"
+	line "la gente de"
+	cont "dentro?"
 	done
 
 GinaFoundItemText:
-	text "I picked up some-"
-	line "thing nice today."
+	text "Hoy encontré"
+	line "algo bueno."
 
-	para "I want you to have"
-	line "it, so I called!"
+	para "¡Quiero que lo"
+	line "tengas, así que"
+	cont "te llamé!"
 
-	para "You will come for"
-	line "it, won't you?"
+	para "Vendrás a por"
+	line "ello, ¿verdad?"
 
 	para ""
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	line "es donde"
+	cont "estoy."
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Sorry, I haven't"
-	line "found anything"
+	text "Perdona, no he"
+	line "encontrado nada"
 
-	para "useful yet…"
-	line "I promise, if I"
+	para "útil aún…"
+	line "Prometo que si"
 
-	para "find anything, you"
-	line "can have it!"
+	para "encuentro algo,"
+	line "¡es tuyo!"
 	done
 
 GinaReminderText:
-	text "Oh, <PLAYER>!"
-	line "How soon can I"
+	text "¡Ay, <PLAYER>!"
+	line "¿Cuándo podré"
 
-	para "expect to see you"
-	line "for our battle?"
+	para "verte para"
+	line "nuestro combate?"
 
-	para "Don't forget,"
+	para "No olvides,"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "I'm getting really"
-	line "impatient, waiting"
+	text "Me estoy"
+	line "impacientando"
+	cont "por darte mi"
+	cont "regalo!"
 
-	para "to give you my"
-	line "present!"
-
-	para "Hurry over to"
+	para "Ven rápido a"
 	line ""
 	text_ram wStringBuffer5
 	text "!"

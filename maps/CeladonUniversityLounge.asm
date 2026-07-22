@@ -67,136 +67,146 @@ CeladonUniversityLoungeNeeshaScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "Hi! I'm Neesha!"
-	line "I'm one of top four"
+	text "¡Hola! ¡Soy"
+	line "Neesha! Soy una de"
 
-	para "trainers in Cela-"
-	line "don University."
+	para "las cuatro mejores"
+	line "de la Universidad"
+	cont "de Azulona."
 
-	para "We're known as the"
-	line "Celadon Four!"
+	para "¡Somos conocidas"
+	line "como el Cuatro de"
+	cont "Azulona!"
 
-	para "Want me to show"
-	line "you why we're so"
-	cont "famous?"
+	para "¿Quieres que te"
+	line "muestre por qué"
+	cont "somos famosas?"
 
-	para "Then let's battle!"
+	para "¡Entonces"
+	line "combatamos!"
 	done
 
 .IntroText2:
-	text "Hi! I'm Neesha!"
-	line "I'm one of the"
-	cont "Celadon Four!"
+	text "¡Hola! ¡Soy"
+	line "Neesha! ¡Soy una"
+	cont "del Cuatro de"
+	cont "Azulona!"
 
-	para "It looks like"
-	line "you've heard of us."
+	para "Parece que ya has"
+	line "oído de nosotras."
 
-	para "Then let's battle!"
+	para "¡Entonces"
+	line "combatamos!"
 	done
 
 .NoBattleText:
-	text "Not interested in"
-	line "a challenge?"
+	text "¿No te interesa un"
+	line "desafío?"
 	done
 
 .SeenText:
-	text "We'll blow you"
-	line "away!"
+	text "¡Te vamos a"
+	line "arrasar!"
 	done
 
 .BeatenText:
-	text "A painful loss…"
+	text "Una derrota"
+	line "dolorosa…"
 	done
 
 .AfterText1:
-	text "You're a worthy"
-	line "opponent!"
+	text "¡Eres un rival"
+	line "digno!"
 
-	para "But you haven't"
-	line "seen everything"
+	para "Pero no has visto"
+	line "todo lo que puede"
 
-	para "the Celadon Four"
-	line "can do."
+	para "hacer el Cuatro de"
+	line "Azulona."
 
-	para "Why don't you find"
-	line "the rest of us and"
-	cont "challenge them?"
+	para "¿Por qué no buscas"
+	line "al resto de"
+	cont "nosotras y nos"
+	cont "retas?"
 	done
 
 .AfterText2:
-	text "So you beat all of"
-	line "the Celadon Four…"
+	text "Así que venciste a"
+	line "todo el Cuatro de"
+	cont "Azulona…"
 
-	para "That's so cool!"
+	para "¡Qué genial!"
 
-	para "Take this as a"
-	line "prize!"
+	para "¡Toma esto como"
+	line "premio!"
 	done
 
 .FinalText:
-	text "It's not often that"
-	line "someone gives us"
+	text "No es común que"
+	line "alguien nos dé un"
 
-	para "Celadon Four a"
-	line "real challenge."
+	para "desafío real al"
+	line "Cuatro de Azulona."
 
-	para "I won't forget"
-	line "you, trainer!"
+	para "¡No te olvidaré,"
+	line "entrenador!"
 	done
 
 CeladonUniversityLoungeLassText:
-	text "Next month we're"
-	line "going on a trip"
-	cont "to Mt.Moon."
+	text "El próximo mes"
+	line "iremos de viaje al"
+	cont "Monte Moon."
 
-	para "Maybe I'll see a"
+	para "¡Quizá vea un"
 	line "Clefairy!"
 	done
 
 CeladonUniversityLoungeRichBoyText:
-	text "Have you ever"
-	line "wondered why"
+	text "¿Alguna vez te"
+	line "preguntaste por"
 
-	para "Ultra Balls have"
-	line "a yellow letter"
-	cont "H on the top?"
+	para "qué las Ultra Ball"
+	line "tienen una letra"
+	cont "H amarilla"
+	cont "arriba?"
 
-	para "It's because they"
-	line "were first called"
-	cont "Hyper Balls!"
+	para "¡Es porque antes"
+	line "se llamaban Hyper"
+	cont "Ball!"
 	done
 
 CeladonUniversityLoungeCooltrainerfText:
-	text "#mon with"
-	line "reduced physical"
+	text "Los #mon con"
+	line "fuerza física"
 
-	para "strength instinct-"
-	line "ively attempt to"
-	cont "enter a # Ball."
+	para "reducida intentan"
+	line "instintivamente"
+	cont "entrar en una Ball"
+	cont "#."
 	done
 
 CeladonUniversityLoungeSuper_nerd1Text:
-	text "What do you get if"
-	line "you cross a joke"
+	text "¿Qué obtienes si"
+	line "cruzas un chiste"
 
-	para "with a rhetorical"
-	line "question?"
+	para "con una pregunta"
+	line "retórica?"
 
 	para "………………………………"
 	done
 
 CeladonUniversityLoungeSuper_nerd2Text:
-	text "I'm writing scripts"
-	line "for a game."
+	text "Escribo guiones"
+	line "para un juego."
 
-	para "Do not said use"
+	para "¡No dijo usar"
 	line "asm!"
 	done
 
 CeladonUniversityLoungeBookshelf1Text:
-	text "It's stuffed full"
-	line "of copies of"
-	cont "#mon manga!"
+	text "¡Está repleto de"
+	line "copias de manga"
+	cont "#mon!"
 	done
 
 CeladonUniversityLoungeBookshelf2:
@@ -215,24 +225,25 @@ CeladonUniversityLoungeBookshelf2:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "This book has a"
-	line "secret compartment"
+	text "¡Este libro tiene"
+	line "un compartimento"
+	cont "secreto donde"
 
-	para "where the pages"
-	line "should be!"
+	para "deberían estar las"
+	line "páginas!"
 	done
 
 .Text2:
-	text "Too bad--it's"
-	line "empty."
+	text "Qué pena, está"
+	line "vacío."
 	done
 
 CeladonUniversityLoungeComputer:
 	jumpthistext
 
-	text "There's a player"
-	line "character running"
+	text "Hay un personaje"
+	line "jugable corriendo"
 
-	para "around a 2D"
-	line "Celadon City."
+	para "por una Ciudad"
+	line "Azulona en 2D."
 	done

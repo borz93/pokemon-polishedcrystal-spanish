@@ -95,17 +95,17 @@ GiovannisCaveRadioScript:
 	iftrue_jumptext GiovannisCaveRadioAfterTimeTravelText
 	jumpthistext
 
-	text "There is a radio"
-	line "that no longer"
-	cont "works…"
+	text "Hay una radio que"
+	line "ya no funciona…"
 	done
 
 GiovannisCaveRadioAfterTimeTravelText:
-	text "You cannot turn on"
-	line "the radio."
+	text "No puedes"
+	line "encender la"
+	cont "radio."
 
-	para "Giovanni must have"
-	line "left it here…"
+	para "Giovanni debió"
+	line "dejarla aquí…"
 	done
 
 GiovannisCave_GiovanniStepsBackMovementData:
@@ -152,163 +152,177 @@ GiovannisCave_CelebiFloatsMovementData:
 GiovannisCaveGiovanniIntroText:
 	text "…"
 
-	para "I don't know why"
-	line "you came here,"
+	para "No sé por qué"
+	line "viniste aquí,"
 
-	para "but I have to warn"
-	line "you that this is"
-	cont "no place for kids"
-	cont "like you."
+	para "pero debo"
+	line "advertirte que"
+	cont "este no es lugar"
+	cont "para niños como"
+	cont "tú."
 
-	para "Lyra: Huh? That's"
-	line "the guy we just"
+	para "Lyra: ¿Eh? ¡Ese"
+	line "es el tipo que"
 
-	para "saw arguing with"
-	line "that boy!"
+	para "acabamos de ver"
+	line "discutiendo con"
+	cont "ese chico!"
 	done
 
 GiovannisCaveGiovanniMemoriesText:
-	text "You have a certain"
-	line "look…"
+	text "Tienes cierta"
+	line "mirada…"
 
-	para "I remember you!"
+	para "¡Te recuerdo!"
 
-	para "That kid three"
-	line "years ago kept"
-	cont "ruining our plans,"
+	para "Ese niño de hace"
+	line "tres años seguía"
+	cont "arruinando"
+	cont "nuestros planes,"
 
-	para "but you caused all"
-	line "our problems in"
-	cont "the first place!"
+	para "¡pero tú causaste"
+	line "todos nuestros"
+	cont "problemas desde"
+	cont "el principio!"
 
 	para "…"
 
-	para "I'm on my way to"
-	line "Goldenrod City to"
+	para "Voy de camino a"
+	line "Ciudad Trigal para"
 
-	para "answer the call"
-	line "and join my team."
+	para "responder a la"
+	line "llamada y unirme a"
+	cont "mi equipo."
 
-	para "Are you going to"
-	line "get in my way"
-	cont "again?"
+	para "¿Vas a"
+	line "interponerte en mi"
+	cont "camino otra vez?"
 	done
 
 GiovannisCaveLyraQuestionsText:
-	text "Lyra: Three years"
-	line "ago…? Goldenrod"
-	cont "City…?"
+	text "Lyra: ¿Hace tres"
+	line "años…? ¿Ciudad"
+	cont "Trigal…?"
 	done
 
 GiovannisCaveLyraRecognizesGiovanniText:
-	text "This is who Team"
-	line "Rocket was trying"
-	cont "to reach!"
+	text "¡Este es a quien"
+	line "el Team Rocket"
+	cont "intentaba"
+	cont "contactar!"
 
-	para "Their boss,"
+	para "¡Su jefe,"
 	line "Giovanni!"
 
-	para "<PLAYER>, when did"
-	line "you meet Giovanni"
-	cont "before…?"
+	para "<PLAYER>, ¿cuándo"
+	line "conociste a"
+	cont "Giovanni antes…?"
 	done
 
 GiovannisCaveBroadcastText:
-	text "“… …Ahem, we are"
-	line "Team Rocket!"
-	cont "After three years"
-	cont "of preparation, we"
-	cont "have risen again"
-	cont "from the ashes!"
-	cont "Giovanni! Can you"
-	cont "hear? We did it!"
-	cont "Where is our boss?"
-	cont "Is he listening?”"
+	text "“… …Ejem, ¡somos"
+	line "el Team Rocket!"
+	cont "¡Tras tres años de"
+	cont "preparación, hemos"
+	cont "resurgido de las"
+	cont "cenizas!"
+	cont "¡Giovanni! ¿Nos"
+	cont "oyes? ¡Lo"
+	cont "logramos! ¿Dónde"
+	cont "está nuestro jefe?"
+	cont "¿Está escuchando?”"
 
-	para "Lyra: Team Rocket"
-	line "has occupied the"
+	para "Lyra: El Team"
+	line "Rocket ha ocupado"
 
-	para "Radio Tower right"
-	line "now…"
+	para "la Torre Radio"
+	line "ahora mismo…"
 
-	para "You're there, but"
-	line "you're also here…"
+	para "Estás ahí, pero"
+	line "también estás"
+	cont "aquí…"
 	done
 
 GiovannisCaveGiovanniIMustGoText:
-	text "Giovanni: My old"
-	line "associates need"
-	cont "me…"
+	text "Giovanni: Mis"
+	line "antiguos"
+	cont "asociados me"
+	cont "necesitan…"
 
-	para "We will not repeat"
-	line "the failure of"
-	cont "three years ago!"
+	para "¡No repetiremos el"
+	line "fracaso de hace"
+	cont "tres años!"
 
-	para "Team Rocket will"
-	line "be born again!"
+	para "¡El Team Rocket"
+	line "renacerá!"
 
-	para "Lyra: Hah!"
-	line "<PLAYER> already"
-	cont "stopped you!"
-	cont "…Will stop you."
+	para "Lyra: ¡Ja!"
+	line "¡<PLAYER> ya te"
+	cont "detuvo!"
+	cont "…Te detendrá."
 
-	para "Will have stopped"
-	line "you…?"
+	para "¿Te habrá"
+	line "detenido…?"
 
-	para "…Traveling through"
-	line "time is confusing!"
+	para "…¡Viajar en el"
+	line "tiempo es"
+	cont "confuso!"
 
-	para "Giovanni: Enough"
-	line "chatter! Get out"
-	cont "of my way!"
+	para "Giovanni: ¡Basta"
+	line "de charla! ¡Fuera"
+	cont "de mi camino!"
 	done
 
 GiovannisCaveGiovanniBeatenText:
-	text "What in the world"
-	line "are you?"
+	text "¿Qué demonios eres"
+	line "tú?"
 	done
 
 GiovannisCaveGiovanniAfterText:
-	text "Giovanni: How is"
-	line "this possible…?"
+	text "Giovanni: ¿Cómo es"
+	line "esto posible…?"
 
-	para "The past three"
-	line "years have been"
-	cont "a waste…?"
+	para "¿Los últimos tres"
+	line "años han sido una"
+	cont "pérdida…?"
 
-	para "How can a kid like"
-	line "you manage to"
+	para "¿Cómo puede un"
+	line "niño como tú"
 
-	para "destroy my dream"
-	line "once again?"
+	para "destruir mi sueño"
+	line "una vez más?"
 	done
 
 GiovannisCaveBroadcastAfterText:
-	text "“… …Hey! Where has"
-	line "Giovanni gone?"
-	cont "I wonder if he is"
-	cont "listening to our"
-	cont "broadcast… …”"
+	text "“… …¡Oye! ¿A dónde"
+	line "se fue Giovanni?"
+	cont "Me pregunto si"
+	cont "está escuchando"
+	cont "nuestra emisión…"
+	cont "…”"
 	done
 
 GiovannisCaveLyraFeelsSorryText:
-	text "Lyra: They keep"
-	line "calling for their"
-	cont "boss."
+	text "Lyra: Siguen"
+	line "llamando a su"
+	cont "jefe."
 
-	para "I feel sorry they"
-	line "don't know he's not"
-	cont "coming."
+	para "Me da pena que no"
+	line "sepan que no va a"
+	cont "venir."
 
-	para "But right now,"
-	line "<PLAYER>, you must"
-	cont "be defeating them!"
+	para "Pero ahora mismo,"
+	line "<PLAYER>, ¡debes"
+	cont "estar"
+	cont "derrotándolos!"
 	done
 
 GiovannisCaveLyraWantsToLeaveText:
-	text "Lyra: Not again…!"
-	line "I've had enough!"
+	text "Lyra: ¡Otra vez"
+	line "no…! ¡Ya he tenido"
+	cont "suficiente!"
 
-	para "Please let us go"
-	line "back to our time!"
+	para "¡Por favor,"
+	line "volvamos a"
+	cont "nuestra época!"
 	done

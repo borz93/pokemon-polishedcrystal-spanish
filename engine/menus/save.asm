@@ -633,16 +633,16 @@ Checksum:
 	ret
 
 WouldYouLikeToSaveTheGameText:
-	; Would you like to save the game?
+	; ¿Quieres guardar la partida?
 	text_farend _WouldYouLikeToSaveTheGameText
 SavedTheGameText:
-	; saved the game.
+	; ¡Partida guardada!
 	text_farend _SavedTheGameText
 AnotherSaveFileText:
-	; There is another save file. Is it OK to overwrite?
+	; Ya existe una partida. ¿Sobrescribir?
 	text_farend _AnotherSaveFileText
 SaveFileCorruptedText:
-	; The save file is corrupted!
+	; ¡El archivo de guardado está corrupto!
 	text_farend _SaveFileCorruptedText
 VerifyGameVersion:
 ; Verify that the current game version matches the one in the save file.
@@ -697,20 +697,19 @@ VerifyGameVersion:
 	jr .infinite_loop
 
 .SaveUpgradeScreen:
-	text  "Your save file does"
-	next1 "not match the game"
-	next1 "version of this ROM."
+	text  "Tu partida no"
+	next1 "coincide con la"
+	next1 "versión de la ROM."
 	next1 ""
-	next1 "If your save is old,"
-	next1 "please consult the"
-	next1 "documentation for"
-	next1 "this game release"
-	next1 "for instructions to"
-	next1 "upgrade your save."
+	next1 "Si tu partida es"
+	next1 "antigua, consulta"
+	next1 "la documentación"
+	next1 "de esta versión"
+	next1 "para actualizarla."
 	next1 ""
-	next1 "Game version:"
+	next1 "Versión del juego:"
 	next1 ""
-	next1 "Save version:"
+	next1 "Versión guardada:"
 	done
 
 SaveCurrentVersion:

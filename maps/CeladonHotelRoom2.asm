@@ -43,64 +43,70 @@ MrHyperScript:
 	jumpthisopenedtext
 
 .TextComeBackAnytime:
-	text "Come back anytime!"
-	line "Mr. Hyper will"
-	cont "always be hyped up"
-	cont "to see you!"
+	text "¡Vuelve cuando"
+	line "quieras!"
+	cont "Mr. Hyper"
+	cont "siempre estará"
+	cont "encantado de"
+	cont "verte!"
 	done
 
 .TextIntro:
-	text "I'm Mr. Hyper!"
-	line "Want to know why?"
+	text "¡Soy Mr. Hyper!"
+	line "¿Sabes por qué?"
 
-	para "Because I can help"
-	line "#mon perform"
-	cont "Hyper Training!"
+	para "Porque ayudo a"
+	line "los #mon a"
+	cont "entrenar al"
+	cont "máximo!"
 
-	para "It lets a #mon"
-	line "that has maxed out"
-	cont "its effort become"
-	cont "even stronger!"
+	para "¡Esto permite que"
+	line "un #mon que ya"
+	cont "maximizó su"
+	cont "esfuerzo se vuelva"
+	cont "aún más fuerte!"
 
-	para "This training will"
-	line "help them increase"
-	cont "their stats."
+	para "Este entrenamiento"
+	line "ayuda a mejorar"
+	cont "sus estadísticas."
 
-	para "If you want me to"
-	line "train up your"
-	cont "#mon, bring me"
-	cont "some Bottle Caps."
+	para "Si quieres que"
+	line "entrene a tu"
+	cont "#mon, tráeme"
+	cont "algunas Chapas."
 	done
 
 .TextAskTrain:
-	text "What do you say?"
-	line "Want to try my"
-	cont "Hyper Training?"
+	text "¿Qué me dices?"
+	line "¿Quieres probar"
+	cont "mi entrenamiento?"
 	done
 
 .TextNoBottleCaps:
-	text "You don't have any"
-	line "Bottle Caps?"
+	text "¿No tienes"
+	line "Chapas?"
 
-	para "I know Fishermen"
-	line "snag them some-"
-	cont "times…"
+	para "Sé que a veces"
+	line "los Pescadores"
+	cont "consiguen…"
 	done
 
 .TextTrainWho:
-	text "Hyper Train which"
-	line "#mon?"
+	text "¿A qué #mon"
+	line "entreno?"
 	done
 
 .TextGotStronger:
-	text "All done! My Hyper"
-	line "training improved"
+	text "¡Listo! Mi"
+	line "entrenamiento"
+	cont "mejoró las"
+	cont "estadísticas de"
 	cont ""
 	text_ram wStringBuffer1
-	text "'s stats!"
+	text "!"
 	done
 
 .TextTrainSomeMore:
-	text "Hyper Train more"
+	text "¿Entreno a otro"
 	line "#mon?"
 	done

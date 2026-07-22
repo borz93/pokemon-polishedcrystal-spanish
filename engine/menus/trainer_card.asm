@@ -344,7 +344,7 @@ TrainerCard_PrintTopHalfOfCard:
 	ds 11, '┌' - 2
 	db     '┌' - 1, "<LNBRK>"
 	db     "<LNBRK>"
-	db     " Money@"
+	db     " Dinero@"
 
 TrainerCardSetup_ClearBottomHalf:
 	hlcoord 1, 10
@@ -410,9 +410,9 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime_BP:
 	text "#dex"
-	next "Play Time"
-	next "Battle Pts"
-	next "          Badges"
+	next "Tiempo"
+	next "Pts batalla"
+	next "        Medallas"
 	done
 
 TrainerCard_Page1_PrintGameTime:

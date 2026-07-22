@@ -17,19 +17,19 @@ Route15FuchsiaGate2F_MapScriptHeader:
 Route15FuchsiaGate2FBinoculars1:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "The Safari Zone"
-	line "looks verdant!"
+	para "¡La Zona Safari"
+	line "se ve verde!"
 	done
 
 Route15FuchsiaGate2FBinoculars2:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "It looks like a"
-	line "small island!"
+	para "¡Parece una isla"
+	line "pequeña!"
 	done

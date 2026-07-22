@@ -43,15 +43,17 @@ CinnabarIslandBlue:
 	ifgreater 14, .Ready
 	jumpthisopenedtext
 
-	text "If you want to"
-	line "battle me, show me"
+	text "Si quieres"
+	line "combatir conmigo,"
 
-	para "how many Kanto"
-	line "Badges you've got."
+	para "muéstrame cuántas"
+	line "Medallas de Kanto"
+	cont "tienes."
 
-	para "Less than seven…"
-	line "You're not ready"
-	cont "to battle me."
+	para "Menos de siete…"
+	line "No estás listo"
+	cont "para combatir"
+	cont "conmigo."
 	done
 
 .Ready
@@ -65,106 +67,107 @@ CinnabarIslandBlue:
 	end
 
 CinnabarIslandBlueText:
-	text "Who are you?"
+	text "¿Quién eres?"
 
 if !DEF(DEBUG)
-	para "Well, it's plain"
-	line "to see that you're"
-	cont "a trainer…"
+	para "Bueno, se nota"
+	line "que eres un"
+	cont "entrenador…"
 
-	para "My name's Blue."
+	para "Me llamo Blue."
 
-	para "I was once the"
-	line "Champion, although"
+	para "Fui Campeón una"
+	line "vez, aunque solo"
+	cont "por poco tiempo…"
 
-	para "it was for only a"
-	line "short time…"
+	para "Ese entrometido de"
+	line "Red me venció…"
 
-	para "That meddling Red"
-	line "did me in…"
+	para "Bueno, ¿qué"
+	line "quieres? ¿Quieres"
+	cont "retarme o algo?"
 
-	para "Anyway, what do"
-	line "you want? You want"
+	para "…Odio decirlo,"
+	line "pero no tengo"
+	cont "ganas de combatir"
+	cont "ahora."
 
-	para "to challenge me or"
-	line "something?"
+	para "Mira bien a tu"
+	line "alrededor…"
 
-	para "…I hate to say"
-	line "it, but I'm not in"
+	para "Un volcán entra en"
+	line "erupción, y así"
+	cont "sin más, un pueblo"
+	cont "entero"
+	cont "desaparece."
 
-	para "the mood for a"
-	line "battle now."
+	para "Podemos seguir"
+	line "ganando y"
+	cont "perdiendo en"
+	cont "#mon. Pero si"
 
-	para "Take a good look"
-	line "around you…"
-
-	para "A volcano erupts,"
-	line "and just like"
-
-	para "that, a whole town"
-	line "disappears."
-
-	para "We can go on win-"
-	line "ning and losing in"
-
-	para "#mon. But if"
-	line "nature so much as"
-
-	para "twitches, we can"
-	line "lose in a second."
+	para "la naturaleza se"
+	line "inmuta un poco,"
+	cont "podemos perder en"
+	cont "un segundo."
 
 	para "…"
 
-	para "That's the way it"
-	line "is…"
+	para "Así son las"
+	line "cosas…"
 
-	para "But, anyway, I'm"
-	line "still a trainer."
+	para "Pero, en fin, sigo"
+	line "siendo entrenador."
 endc
 	done
 
 CinnabarIslandBlueBattleText:
-	text "If I see a strong"
-	line "opponent, it makes"
-	cont "me want to battle."
+	text "Si veo a un rival"
+	line "fuerte, me dan"
+	cont "ganas de"
+	cont "combatir."
 	done
 
 CinnabarIslandBlueReadyText:
-	text "If you want to"
-	line "battle me, come to"
-	cont "the Viridian Gym."
+	text "Si quieres"
+	line "combatir conmigo,"
 
-	para "I'll take you on"
-	line "then."
+	para "ve al Gimnasio de"
+	line "Ciudad Verde."
+
+	para "Te enfrentaré"
+	line "entonces."
 	done
 
 
 CinnabarIslandGymSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hay un aviso"
+	line "aquí…"
 
-	para "“Cinnabar Gym has"
-	line "relocated to Sea-"
-	cont "foam Islands.”"
+	para "“El Gimnasio de"
+	line "Canela se mudó a"
+	cont "las Islas Espuma.”"
 
 	para "-- Blaine"
 	done
 
 CinnabarIslandSignText:
-	text "Cinnabar Island"
+	text "Isla Canela"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "El Ardiente Pueblo"
+	line "del Deseo"
+	cont "Abrasador"
 	done
 
 CinnabarIslandVolcanoWarningSignText:
-	text "CAUTION"
+	text "CUIDADO"
 
-	para "Cinnabar Volcano"
-	line "is dormant, but"
-	cont "still active!"
+	para "El Volcán Canela"
+	line "está inactivo,"
+	cont "¡pero sigue"
+	cont "activo!"
 
-	para "Do not enter the"
-	line "volcano without"
-	cont "a means of escape!"
+	para "¡No entres al"
+	line "volcán sin forma"
+	cont "de escapar!"
 	done

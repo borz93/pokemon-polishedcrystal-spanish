@@ -88,52 +88,55 @@ VermilionGymSurgeScript:
 	setevent EVENT_GOT_TM57_WILD_CHARGE
 	jumpthisopenedtext
 
-	text "That TM contains"
-	line "Wild Charge. Use"
+	text "Ese TM contiene"
+	line "Carga Salvaje."
 
-	para "it to go like"
-	line "lightning!"
+	para "¡Empléalo para ir"
+	line "como un rayo!"
 	done
 
 GenericTrainerGentlemanGregory:
 	generictrainer GENTLEMAN, GREGORY, EVENT_BEAT_GENTLEMAN_GREGORY, GentlemanGregorySeenText, GentlemanGregoryBeatenText
 
-	text "When I was still"
-	line "in the army, Lt."
+	text "Cuando estaba en"
+	line "el ejército, el"
 
-	para "Surge saved my"
-	line "life."
+	para "Tte.Surge me salvó"
+	line "la vida."
 	done
 
 GenericTrainerGuitaristmVincent:
 	generictrainer GUITARISTM, VINCENT, EVENT_BEAT_GUITARISTM_VINCENT, GuitaristmVincentSeenText, GuitaristmVincentBeatenText
 
-	text "Lt.Surge is pro-"
-	line "tected by electric"
+	text "El Tte.Surge está"
+	line "protegido por"
 
-	para "fences so you"
-	line "won't underestimate"
-	cont "his strength!"
+	para "vallas eléctricas"
+	line "para que no"
+	cont "subestimes su"
+	cont "fuerza."
 	done
 
 GenericTrainerJugglerHorton:
 	generictrainer JUGGLER, HORTON, EVENT_BEAT_JUGGLER_HORTON, JugglerHortonSeenText, JugglerHortonBeatenText
 
-	text "Don't get too com-"
-	line "fortable about"
+	text "No te confíes"
+	line "demasiado por"
 
-	para "beating me…"
-	line "Lt.Surge is tough."
+	para "vencerme… El"
+	line "Tte.Surge es duro."
 	done
 
 GenericTrainerGuitaristfJanet:
 	generictrainer GUITARISTF, JANET, EVENT_BEAT_GUITARISTF_JANET, GuitaristfJanetSeenText, GuitaristfJanetBeatenText
 
-	text "Lt.Surge hid both"
-	line "switches for the"
+	text "El Tte.Surge"
+	line "escondió los dos"
 
-	para "electric fences"
-	line "in the trash."
+	para "interruptores de"
+	line "las vallas"
+	cont "eléctricas en la"
+	cont "basura."
 	done
 
 VermilionGymGuyScript:
@@ -141,22 +144,24 @@ VermilionGymGuyScript:
 	iftrue_jumptextfaceplayer VermilionGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Ey! ¡Futuro"
+	line "campeón!"
 
-	para "Lt.Surge is very"
-	line "cautious. He has"
+	para "El Tte.Surge es"
+	line "muy cauteloso."
 
-	para "traps set all over"
-	line "the Gym."
+	para "Tiene trampas por"
+	line "todo el Gimnasio."
 
-	para "But you're good at"
-	line "Gym puzzles by"
-	cont "now, aren't you?"
+	para "Pero ya se te dan"
+	line "bien los"
+	cont "rompecabezas de"
+	cont "Gimnasio, ¿no?"
 
-	para "You'll have no"
-	line "problem getting to"
-	cont "Lt.Surge."
+	para "No tendrás ningún"
+	line "problema en"
+	cont "llegar hasta el"
+	cont "Tte.Surge."
 	done
 
 VermilionGymTrashCanScript:
@@ -211,155 +216,165 @@ VermilionGymStatue:
 	jumpstd gymstatue2
 
 LtSurgeIntroText:
-	text "Surge: Hey, you"
-	line "little tyke!"
+	text "Surge: ¡Oye,"
+	line "renacuajo!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "Tengo que"
+	line "reconocerlo. Puede"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "que no sea muy"
+	line "listo desafiarme,"
+	cont "¡pero tienes"
+	cont "agallas!"
 
-	para "When it comes to"
-	line "electric #mon,"
-	cont "I'm number one!"
+	para "En cuanto a"
+	line "#mon"
+	cont "eléctricos, ¡soy"
+	cont "el número uno!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Nunca he perdido"
+	line "en el campo de"
+	cont "batalla."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "¡Te electrocutaré"
+	line "igual que hice con"
+	cont "mis enemigos en la"
+	cont "guerra!"
 	done
 
 LtSurgeWinLossText:
-	text "Surge: Arrrgh!"
-	line "You are strong!"
+	text "Surge: ¡Arrrgh!"
+	line "¡Eres fuerte!"
 
-	para "OK, kid. You get"
-	line "the Thunder Badge!"
+	para "Vale, chaval."
+	line "¡Toma la Medalla"
+	cont "Trueno!"
 	done
 
 LtSurgeThunderBadgeText:
-	text "Surge: Consider it"
-	line "proof that you"
-	cont "defeated me."
+	text "Surge: Considéralo"
+	line "prueba de que me"
+	cont "derrotaste."
 
-	para "Looks good on your"
-	line "Trainer Card,"
-	cont "doesn't it?"
+	para "Queda bien en tu"
+	line "Tarjeta de"
+	cont "Entrenador, ¿eh?"
 
-	para "You wear it"
-	line "proudly, hear?"
+	para "Llévala con"
+	line "orgullo, ¿oíste?"
 
-	para "And here's a great"
-	line "TM for you!"
+	para "¡Y aquí tienes un"
+	line "gran TM!"
 	done
 
 
 LtSurgeFightDoneText:
-	text "Surge: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "Surge: ¡Oye,"
+	line "chaval! ¿Sigues"
+	cont "dándolo todo?"
 
-	para "My #mon and I"
-	line "are still at it!"
+	para "¡Mis #mon y yo"
+	line "seguimos en ello!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat Lt.Surge?"
+	text "¿Vienes a vencer"
+	line "al Tte.Surge?"
 
-	para "Not if I can help"
-	line "it!"
+	para "¡No si puedo"
+	line "evitarlo!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, Lt.Surge,"
-	cont "sir!"
+	text "¡Siento haberle"
+	line "fallado, Tte."
+	cont "Surge, señor!"
 	done
 
 GuitaristmVincentSeenText:
-	text "Lt.Surge recog-"
-	line "nized my potential"
+	text "El Tte.Surge"
+	line "reconoció mi"
+	cont "potencial con"
+	cont "#mon"
+	cont "eléctricos."
 
-	para "with Electric"
-	line "#mon."
-
-	para "Think you can beat"
-	line "me?"
+	para "¿Crees que puedes"
+	line "vencerme?"
 	done
 
 GuitaristmVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "¡Oh, qué"
+	line "impactante!"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "¡Voy a vencerte!"
+	line "¡Prepárate para"
+	cont "la sacudida!"
 	done
 
 JugglerHortonBeatenText:
-	text "Gwaaah!"
-	line "I was overpowered…"
+	text "¡Gwaaah!"
+	line "Me superaron…"
 	done
 
 GuitaristfJanetSeenText:
-	text "I'm a lightweight,"
-	line "but I'm good with"
-	cont "electricity!"
+	text "Soy ligera, ¡pero"
+	line "se me da bien la"
+	cont "electricidad!"
 	done
 
 GuitaristfJanetBeatenText:
-	text "Fried!"
+	text "¡Frita!"
 	done
 
 
 VermilionGymGuyWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "¡Uf! ¡Vaya combate"
+	line "electrizante!"
 
-	para "It sure made me"
-	line "nervous."
+	para "La verdad es que"
+	line "me puso nervioso."
 	done
 
 VermilionGymFoundSwitchText:
-	text "A secret switch"
-	line "beneath the trash?"
+	text "¿Un interruptor"
+	line "secreto bajo la"
+	cont "basura?"
 
-	para "Better press it."
+	para "Mejor pulsarlo."
 	done
 
 VermilionGymFoundFirstSwitchText:
-	text "The first electric"
-	line "fence unlocked!"
+	text "¡La primera valla"
+	line "eléctrica se"
+	cont "desbloqueó!"
 	done
 
 VermilionGymFoundSecondSwitchText:
-	text "The second"
-	line "electric fence"
+	text "¡La segunda valla"
+	line "eléctrica se"
 
-	para "unlocked! The"
-	line "path is clear!"
+	para "desbloqueó! ¡El"
+	line "camino está"
+	cont "libre!"
 	done
 
 VermilionGymResetSwitchesText:
-	text "Oh no, the elec-"
-	line "tric fence locked"
-	cont "again!"
+	text "Oh no, ¡la valla"
+	line "eléctrica se"
+	cont "bloqueó de nuevo!"
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "¡Nada! Aquí no hay"
+	line "más que basura."
 	done
 
 VermilionGymElectricFenceText:
-	text "An electric fence!"
-	line "Don't touch it!"
+	text "¡Una valla"
+	line "eléctrica! ¡No la"
+	cont "toques!"
 	done
 
 SampleVermilionGymTrashCans:

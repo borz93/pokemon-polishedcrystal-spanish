@@ -21,36 +21,36 @@ CeladonMansion2F_MapScriptHeader:
 CeladonMansion2FSign:
 	jumpthistext
 
-	text "Game Freak"
-	line "Meeting Room"
+	text "Sala de Reuniones"
+	line "de Game Freak"
 	done
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> encendió"
+	line "el PC."
 
 	para "…"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Alguien estaba"
+	line "escribiendo un"
+	cont "correo."
 
-	para "…I hope you'll"
-	line "come visit Kanto."
+	para "…Espero que"
+	line "vengas a Kanto."
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "Creo que te"
+	line "sorprenderá lo"
 
-	para "much things have"
-	line "changed here."
+	para "mucho que ha"
+	line "cambiado esto."
 
-	para "You'll also see"
-	line "many #mon that"
+	para "También verás"
+	line "muchos #mon que"
 
-	para "aren't native to"
-	line "Johto."
+	para "no son nativos"
+	line "de Johto."
 
-	para "To the Producer"
+	para "Al Productor"
 
 	para "…"
 	done

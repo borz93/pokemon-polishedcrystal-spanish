@@ -23,17 +23,20 @@ PokemonJournalAgathaScript:
 	setflag ENGINE_READ_AGATHA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Ex-Elite Agatha!"
+	para "Reportaje"
+	line "especial:"
+	cont "¡Exmiembro"
+	cont "Agatha!"
 
-	para "In their youth,"
-	line "Agatha and Prof."
-	cont "Oak were rivals"
+	para "De jóvenes,"
+	line "Agatha y el Prof."
+	cont "Oak eran rivales"
 
-	para "who vied for supr-"
-	line "emacy as trainers."
+	para "que competían por"
+	line "ser los mejores"
+	cont "entrenadores."
 	done
 
 Route10PokeCenter1FGymGuyScript:
@@ -41,45 +44,49 @@ Route10PokeCenter1FGymGuyScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Power Plant's"
-	line "Manager is looking"
+	text "El Encargado de"
+	line "la Central"
+	cont "Eléctrica busca"
 
-	para "for a strong #-"
-	line "mon trainer."
+	para "a un entrenador"
+	line "#mon fuerte."
 
-	para "He needs help"
-	line "getting back"
+	para "Necesita ayuda"
+	line "para recuperar"
 
-	para "something that"
-	line "was stolen."
+	para "algo que le"
+	line "robaron."
 	done
 
 .Text2:
-	text "I hear Team Rocket"
-	line "got back together"
+	text "Oí que el Team"
+	line "Rocket se reunió"
 
-	para "in Johto but fell"
-	line "apart right away."
+	para "en Johto, pero"
+	line "se deshizo"
+	cont "enseguida."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "No sabía nada"
+	line "de eso."
 	done
 
 Route10PokeCenter1FGentlemanText:
-	text "A #mon Center"
-	line "near a cave?"
+	text "¿Un Centro"
+	line "#mon cerca de"
+	cont "una cueva?"
 
-	para "That's mighty"
-	line "convenient."
+	para "Qué"
+	line "conveniente."
 	done
 
 Route10PokeCenter1FCooltrainerfText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Cuando sales"
+	line "fuera, se ve"
 
-	para "the roof of a big"
-	line "building."
+	para "el tejado de un"
+	line "edificio grande."
 
-	para "That's the Power"
-	line "Plant."
+	para "Eso es la"
+	line "Central"
+	cont "Eléctrica."
 	done

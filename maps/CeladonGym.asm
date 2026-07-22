@@ -52,69 +52,70 @@ CeladonGymErikaScript:
 	setevent EVENT_GOT_TM19_GIGA_DRAIN
 	jumpthisopenedtext
 
-	text "It is Giga Drain."
+	text "Es Gigadrenado."
 
-	para "It is a wonderful"
-	line "move that drains"
+	para "Es un movimiento"
+	line "maravilloso que"
+	cont "absorbe la mitad"
+	cont "del daño causado"
+	cont "para curar a tu"
+	cont "#mon."
 
-	para "half the damage it"
-	line "inflicts to heal"
-	cont "your #mon."
-
-	para "Please use it if"
-	line "it pleases you…"
+	para "Utilízalo si te"
+	line "complace…"
 	done
 
 GenericTrainerLassMichelle:
 	generictrainer LASS, MICHELLE, EVENT_BEAT_LASS_MICHELLE, LassMichelleSeenText, LassMichelleBeatenText
 
-	text "I just got care-"
-	line "less, that's all!"
+	text "¡Solo me despisté,"
+	line "nada más!"
 	done
 
 GenericTrainerPicnickerTanya:
 	generictrainer PICNICKER, TANYA, EVENT_BEAT_PICNICKER_TANYA, PicnickerTanyaSeenText, PicnickerTanyaBeatenText
 
-	text "Oh, look at all"
-	line "your Badges. No"
+	text "Vaya, mira todas"
+	line "tus Medallas. No"
 
-	para "wonder I couldn't"
-	line "win!"
+	para "¡es de extrañar"
+	line "que no pudiera"
+	cont "ganar!"
 	done
 
 GenericTrainerBeautyJulia:
 	generictrainer BEAUTY, JULIA, EVENT_BEAT_BEAUTY_JULIA, BeautyJuliaSeenText, BeautyJuliaBeatenText
 
-	text "How do I go about"
-	line "becoming ladylike"
-	cont "like Erika?"
+	text "¿Cómo hago para"
+	line "ser tan elegante"
+	cont "como Erika?"
 	done
 
 GenericTrainerAroma_ladyDahlia:
 	generictrainer AROMA_LADY, DAHLIA, EVENT_BEAT_AROMA_LADY_DAHLIA, Aroma_ladyDahliaSeenText, Aroma_ladyDahliaBeatenText
 
-	text "Gloom releases a"
-	line "foul fragrance,"
+	text "Gloom libera una"
+	line "fragancia"
+	cont "desagradable,"
 
-	para "but Erika knows"
-	line "how to turn it"
+	para "pero Erika sabe"
+	line "convertirla en un"
 
-	para "into a sweet"
-	line "perfume."
+	para "dulce perfume."
 	done
 
 GenericTrainerTwinsJoandzoe1:
 	generictrainer TWINS, JOANDZOE1, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe1SeenText, TwinsJoandzoe1BeatenText
 
-	text "Erika will get you"
-	line "back for us!"
+	text "¡Erika nos"
+	line "vengará!"
 	done
 
 GenericTrainerTwinsJoandzoe2:
 	generictrainer TWINS, JOANDZOE2, EVENT_BEAT_TWINS_JO_AND_ZOE, TwinsJoandzoe2SeenText, TwinsJoandzoe2BeatenText
 
-	text "Erika is much,"
-	line "much stronger!"
+	text "¡Erika es mucho,"
+	line "mucho más fuerte!"
 	done
 
 CeladonGymStatue:
@@ -126,122 +127,130 @@ CeladonGymStatue:
 	jumpstd gymstatue2
 
 ErikaBeforeBattleText:
-	text "Erika: Hello…"
-	line "Lovely weather,"
+	text "Erika: Hola…"
+	line "Qué tiempo tan"
+	cont "agradable,"
+	cont "¿verdad?"
 
-	para "isn't it?"
-	line "It's so pleasant…"
+	para "Es tan"
+	line "placentero…"
 
-	para "…I'm afraid I may"
-	line "doze off…"
+	para "…Me temo que"
+	line "podría"
+	cont "quedarme dormida…"
 
-	para "My name is Erika."
-	line "I am the Leader of"
-	cont "Celadon Gym."
+	para "Me llamo Erika."
+	line "Soy la Líder del"
+	cont "Gimnasio Azulona."
 
-	para "…Oh? All the way"
-	line "from Johto, you"
-	cont "say? How nice…"
+	para "…¿Oh? ¿Desde"
+	line "Johto, dices? Qué"
+	cont "amable…"
 
-	para "Oh. I'm sorry, I"
-	line "didn't realize"
+	para "Oh. Lo siento, no"
+	line "me di cuenta de"
 
-	para "that you wished to"
-	line "challenge me."
+	para "que deseabas"
+	line "retarme."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "Muy bien, pero no"
+	line "pienso perder."
 	done
 
 ErikaBeatenText:
-	text "Erika: Oh!"
-	line "I concede defeat…"
+	text "Erika: ¡Oh!"
+	line "Admito la"
+	cont "derrota…"
 
-	para "You are remarkably"
-	line "strong…"
+	para "Eres"
+	line "extraordinaria-"
+	cont "mente fuerte…"
 
-	para "I shall give you"
-	line "the Rainbow Badge…"
+	para "Te daré la"
+	line "Medalla Arcoíris…"
 	done
 
 ErikaExplainTMText:
-	text "Erika: That was a"
-	line "delightful match."
+	text "Erika: Ha sido un"
+	line "combate delicioso."
 
-	para "I felt inspired."
-	line "Please, I wish you"
-	cont "to have this TM."
+	para "Me sentí"
+	line "inspirada. Por"
+	cont "favor, quiero que"
+	cont "tengas esta MT."
 	done
 
 
 ErikaAfterBattleText:
-	text "Erika: Losing"
-	line "leaves a bitter"
-	cont "aftertaste…"
+	text "Erika: Perder deja"
+	line "un regusto"
+	cont "amargo…"
 
-	para "But knowing that"
-	line "there are strong"
+	para "Pero saber que hay"
+	line "entrenadores"
 
-	para "trainers spurs me"
-	line "to do better…"
+	para "fuertes me anima a"
+	line "mejorar…"
 	done
 
 LassMichelleSeenText:
-	text "Do you think a"
-	line "girls-only Gym"
-	cont "is rare?"
+	text "¿Crees que un"
+	line "Gimnasio solo para"
+	cont "chicas es raro?"
 	done
 
 LassMichelleBeatenText:
-	text "Oh, bleah!"
+	text "¡Oh, puaj!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, a battle?"
-	line "That's kind of"
-	cont "scary, but OK!"
+	text "Oh, ¿un combate?"
+	line "Da un poco de"
+	cont "miedo, ¡pero vale!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, that's it?"
+	text "Oh, ¿eso es todo?"
 	done
 
 BeautyJuliaSeenText:
-	text "Were you looking"
-	line "at these flowers"
-	cont "or at me?"
+	text "¿Mirabas estas"
+	line "flores o me"
+	cont "mirabas a mí?"
 	done
 
 BeautyJuliaBeatenText:
-	text "How annoying!"
+	text "¡Qué molesto!"
 	done
 
 Aroma_ladyDahliaSeenText:
-	text "There is an in-"
-	line "triguing scent"
-	cont "around you…"
+	text "Hay un aroma"
+	line "intrigante a tu"
+	cont "alrededor…"
 	done
 
 Aroma_ladyDahliaBeatenText:
-	text "The foul scent"
-	line "of defeat…"
+	text "El desagradable"
+	line "aroma de la"
+	cont "derrota…"
 	done
 
 TwinsJoandzoe1SeenText:
-	text "We'll show you"
-	line "#mon moves that"
-	cont "Erika taught us!"
+	text "¡Te enseñaremos"
+	line "movimientos"
+	cont "#mon que Erika"
+	cont "nos enseñó!"
 	done
 
 TwinsJoandzoe1BeatenText:
-	text "Oh… We lost…"
+	text "Oh… Perdimos…"
 	done
 
 TwinsJoandzoe2SeenText:
-	text "We're going to"
-	line "protect Erika!"
+	text "¡Vamos a proteger"
+	line "a Erika!"
 	done
 
 TwinsJoandzoe2BeatenText:
-	text "We couldn't win…"
+	text "No pudimos ganar…"
 	done

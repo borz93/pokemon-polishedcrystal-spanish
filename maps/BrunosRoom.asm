@@ -79,67 +79,69 @@ BrunoScript:
 	end
 
 .SeenText:
-	text "I am Bruno of the"
-	line "Elite Four."
+	text "Soy Bruno, del"
+	line "Alto Mando."
 
-	para "I always train to"
-	line "the extreme be-"
-	cont "cause I believe in"
-	cont "our potential."
+	para "Siempre entreno al"
+	line "extremo porque"
+	cont "creo en nuestro"
+	cont "potencial."
 
-	para "That is how we"
-	line "became strong."
+	para "Así nos volvimos"
+	line "fuertes."
 
-	para "Can you withstand"
-	line "our power?"
+	para "¿Puedes resistir"
+	line "nuestro poder?"
 
-	para "Hm? I see no fear"
-	line "in you. You look"
+	para "¿Eh? No veo miedo"
+	line "en ti. Pareces"
 
-	para "determined. Per-"
-	line "fect for battle!"
+	para "decidido."
+	line "¡Perfecto para"
+	cont "combatir!"
 
-	para "Ready, <PLAYER>?"
-	line "You will bow down"
+	para "¿Listo, <PLAYER>?"
+	line "Te postrarás ante"
 
-	para "to our overwhelm-"
-	line "ing power!"
+	para "nuestro poder"
+	line "arrollador!"
 
-	para "Hoo hah!"
+	para "¡Hoo ha!"
 	done
 
 .BeatenText:
-	text "Why? How could we"
-	line "lose?"
+	text "¿Por qué? ¿Cómo"
+	line "pudimos perder?"
 	done
 
 .AfterText:
-	text "Having lost, I"
-	line "have no right to"
-	cont "say anything…"
+	text "Al perder, no"
+	line "tengo derecho a"
+	cont "decir nada…"
 
-	para "Go face your next"
-	line "challenge!"
+	para "¡Ve a enfrentar tu"
+	line "próximo reto!"
 	done
 
 .SeenRematchText:
-	text "Hello again."
+	text "Hola de nuevo."
 
-	para "As one of the"
-	line "Elite Four, I will"
-	cont "stand up to your"
-	cont "challenge!"
+	para "Como miembro del"
+	line "Alto Mando,"
+	cont "¡afrontaré tu"
+	cont "reto!"
 
-	para "It would disturb"
-	line "me for you to"
-	cont "underestimate my"
-	cont "fighting #mon."
+	para "Me molestaría que"
+	line "subestimaras a"
+	cont "mis #mon"
+	cont "luchadores."
 
-	para "Get ready!"
+	para "¡Prepárate!"
 	done
 
 .AfterRematchText:
-	text "We tried hard."
+	text "Lo intentamos"
+	line "mucho."
 
-	para "Continue on!"
+	para "¡Sigue adelante!"
 	done

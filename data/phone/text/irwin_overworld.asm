@@ -1,53 +1,61 @@
 IrwinAskNumber1Text:
-	text "You're the best"
-	line "I've ever battled!"
+	text "¡Eres el mejor"
+	line "rival que he"
+	cont "tenido!"
 
-	para "Huh? You're the"
-	line "one who saved all"
-	cont "the Slowpoke?"
+	para "¿Eh? ¿Tú"
+	line "salvaste a todos"
+	cont "los Slowpoke?"
 
-	para "Well, no wonder I"
-	line "couldn't beat you!"
+	para "¡Con razón no"
+	line "pude ganarte!"
 
-	para "Would it be OK to"
-	line "get your number?"
+	para "¿Te importaría"
+	line "darme tu"
+	cont "número?"
 
-	para "I don't want to"
-	line "miss anything you"
-	cont "do from now on!"
+	para "¡No quiero"
+	line "perderme nada"
+	cont "de lo que hagas"
+	cont "ahora!"
 	done
 
 IrwinAskNumber2Text:
-	text "You will tell me"
-	line "your phone number?"
+	text "¿Me dirás tu"
+	line "número de"
+	cont "teléfono?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Gee, thanks!"
-	line "Now I can call you"
+	text "¡Vaya! ¡Gracias!"
+	line "Ya puedo"
+	cont "llamarte cuando"
 
-	para "anytime, whether"
-	line "anything's up or"
+	para "quiera, pase algo"
+	line "o no."
 
-	para "not. You know,"
-	line "just to chat!"
+	para "Ya sabes, ¡solo"
+	line "para charlar!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
-	line "I'm not dangerous!"
+	text "Vaya, pero…"
+	line "¡No soy"
+	cont "peligroso!"
 
-	para "I just want to"
-	line "call and chat"
+	para "Solo quiero"
+	line "llamar y"
+	cont "charlar"
 
-	para "about everything"
-	line "and nothing!"
+	para "de todo y"
+	line "de nada!"
 	done
 
 IrwinPhoneFullText:
-	text "Your phone list is"
-	line "already full…"
+	text "Tu lista de"
+	line "teléfonos ya"
+	cont "está llena…"
 
-	para "You must be really"
-	line "popular…"
+	para "Debes de ser"
+	line "muy popular…"
 	done

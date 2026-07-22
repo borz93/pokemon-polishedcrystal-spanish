@@ -1,84 +1,88 @@
 GavenMonGreaterThanImaginedText:
-	text "My "
+	text "Mi "
 	text_ram wStringBuffer4
-	line "might be greater"
-	cont "than I imagined."
+	line "podría ser mejor"
+	cont "de lo que pensaba."
 
-	para "I doubt I'll see a"
+	para "Dudo que vea un"
 	line ""
 	text_ram wStringBuffer4
-	text " that's"
-	cont "better than mine."
+	text " mejor"
+	cont "que el mío."
 	done
 
 GavenDefeatedMonText:
-	text "Oh, and I managed"
-	line "to barely defeat"
+	text "Ah, y logré"
+	line "vencer por poco"
 
-	para ""
+	para "a un "
 	text_ram wStringBuffer4
-	text " the"
-	line "other day."
+	text " el"
+	line "otro día."
 
-	para "I've never seen a"
-	line ""
+	para "Nunca había visto"
+	line "a un "
 	text_ram wStringBuffer4
-	text " get"
-	cont "that strong…"
+	text " tan"
+	cont "fuerte…"
 
-	para "You shouldn't let"
-	line "your guard down,"
+	para "No deberías"
+	line "bajar la"
+	cont "guardia,"
 
-	para "even against a"
-	line "#mon you're"
-	cont "used to seeing."
+	para "ni ante un"
+	line "#mon que"
+	cont "conozcas bien."
 	done
 
 GavenLostAMonText:
-	text "And a while back,"
-	line "I tried to catch a"
-	cont "wild "
+	text "Hace tiempo,"
+	line "intenté atrapar"
+	cont "un "
 	text_ram wStringBuffer4
-	text "."
+	text " salvaje."
 
-	para "But it managed to"
-	line "elude me."
+	para "Pero logró"
+	line "escaparse."
 
-	para "One wrong decision"
-	line "could mean total"
+	para "Una mala decisión"
+	line "puede ser un"
+	cont "fracaso total…"
 
-	para "failure… You ought"
-	line "to be careful too."
+	para "Deberías tener"
+	line "cuidado tú"
+	cont "también."
 	done
 
 GavenBattleRematchText:
-	text "Let's battle!"
+	text "¡Combatamos!"
 
-	para "I'll be waiting on"
+	para "Te espero en:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout"
-	line "when you're close."
+	para "Avísame cuando"
+	line "estés cerca."
 	done
 
 GavenHangUpText:
-	text "OK, I'll talk to"
-	line "you soon!"
+	text "¡Vale, hablamos"
+	line "pronto!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "I obsess over how"
-	line "to beat you."
+	text "Pienso"
+	line "obsesivamente en"
+	cont "cómo vencerte."
 	done
 
 GavenReminderText:
-	text "<PLAYER>, why"
-	line "aren't you here?"
+	text "<PLAYER>, ¿por qué"
+	line "no estás aquí?"
 
-	para "I'll take you down"
-	line "with "
+	para "¡Te venceré en:"
+	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done

@@ -1,67 +1,70 @@
 GinaAskNumber1Text:
-	text "Whenever I see a"
-	line "strong trainer, I"
+	text "Siempre que veo"
+	line "a un entrenador"
 
-	para "want to be their"
-	line "cheerleader."
+	para "fuerte, quiero"
+	line "animarlo."
 
-	para "When I'm on my"
-	line "walk, I sometimes"
-	cont "pick up items."
+	para "Cuando salgo a"
+	line "pasear, a veces"
+	cont "recojo objetos."
 
-	para "If I get anything,"
-	line "you can have it!"
+	para "Si consigo algo,"
+	line "¡puedes tenerlo!"
 
-	para "Want to give me"
-	line "your number?"
+	para "¿Me das tu"
+	line "número?"
 
-	para "I'll call as soon"
-	line "as I get anything."
+	para "Te llamaré en"
+	line "cuanto tenga"
+	cont "algo."
 	done
 
 GinaAskNumber2Text:
-	text "If I find an item,"
-	line "you can have it!"
+	text "¡Si encuentro"
+	line "algo, es tuyo!"
 
-	para "Want to give me"
-	line "your number?"
+	para "¿Me das tu"
+	line "número?"
 	done
 
 GinaNumberAcceptedText:
-	text "I'll call as soon"
-	line "as I get anything!"
+	text "¡Te llamaré en"
+	line "cuanto tenga"
+	cont "algo!"
 	done
 
 GinaNumberDeclinedText:
-	text "Is that so? Well,"
-	line "I'll still be"
-	cont "rooting for you!"
+	text "¿En serio?"
+	line "Bueno, seguiré"
+	cont "animándote!"
 	done
 
 GinaPhoneFullText:
-	text "But your phone is"
-	line "all filled up!"
+	text "¡Pero tu"
+	line "teléfono está"
+	cont "lleno!"
 	done
 
 GinaRematchText:
-	text "I've been waiting!"
+	text "¡Te esperaba!"
 
-	para "I've gotten a bit"
-	line "better at this!"
+	para "¡He mejorado"
+	line "un poco en esto!"
 	done
 
 GinaGiftText:
-	text "So you're finally"
-	line "here!"
+	text "¡Por fin"
+	line "llegaste!"
 
-	para "I think this will"
-	line "make you happy."
+	para "Creo que esto"
+	line "te hará feliz."
 	done
 
 GinaPackFullText:
-	text "Your Bag looks"
-	line "completely full."
+	text "Tu Bolso parece"
+	line "estar lleno."
 
-	para "I'll have to hold"
-	line "on to this."
+	para "Tendré que"
+	line "guardarte esto."
 	done

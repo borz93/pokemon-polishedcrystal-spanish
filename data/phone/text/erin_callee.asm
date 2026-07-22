@@ -1,68 +1,69 @@
 ErinAnswerPhoneText:
-	text "Yes, this is"
+	text "Sí, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh. Hi, <PLAYER>!"
-	line "Good morning!"
+	para "¡Ah hola, <PLAYER>!"
+	line "¡Buenos días!"
 	done
 
 ErinAnswerPhoneDayText:
-	text "Yes, this is"
+	text "Sí, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Yahoo!"
+	para "¡Ah hola, <PLAYER>!"
+	line "¡Yuju!"
 	done
 
 ErinAnswerPhoneNiteText:
-	text "Yes, this is"
+	text "Sí, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, hi, <PLAYER>!"
+	para "¡Ah hola, <PLAYER>!"
 	done
 
 ErinGreetText:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Good morning!"
+	line "¡Buenos días!"
 	done
 
 ErinGreetDayText:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Working hard?"
+	line "¿Entrenando duro?"
 	done
 
 ErinGreetNiteText:
-	text "<PLAYER>!"
+	text "¡<PLAYER>!"
 
-	para "It's "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "!"
-	line "Were you up?"
+	line "¿Estabas"
+	cont "despierto?"
 	done
 
 ErinGenericText:
-	text "Are you raising"
-	line "your #mon?"
+	text "¿Estás criando"
+	line "a tus #mon?"
 
-	para "Hey, "
-	text_ram wStringBuffer3
-	text "'s"
-	line ""
+	para "Oye, el "
 	text_ram wStringBuffer4
-	text " is"
-	cont "looking good!"
+	text " de"
+	line ""
+	text_ram wStringBuffer3
+	text " se ve"
+	cont "genial!"
 	done

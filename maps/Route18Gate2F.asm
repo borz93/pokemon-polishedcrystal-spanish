@@ -17,19 +17,19 @@ Route18Gate2F_MapScriptHeader:
 Route18Gate2FBinoculars1:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "Pallet Town is in"
-	line "the west!"
+	para "¡Pueblo Paleta"
+	line "está al oeste!"
 	done
 
 Route18Gate2FBinoculars2:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "There are people"
-	line "swimming!"
+	para "¡Hay gente"
+	line "nadando!"
 	done

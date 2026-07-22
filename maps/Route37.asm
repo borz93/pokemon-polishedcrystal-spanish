@@ -39,28 +39,30 @@ SunnyCallback:
 GenericTrainerTwinsToriandtil1:
 	generictrainer TWINS, ANNANDANNE1, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil1SeenText, TwinsToriandtil1BeatenText
 
-	text "Til: I can tell"
-	line "what my sister and"
+	text "Til: Sé lo que mi"
+	line "hermana y mis"
 
-	para "my #mon are"
-	line "thinking."
+	para "#mon están"
+	line "pensando."
 	done
 
 GenericTrainerTwinsToriandtil2:
 	generictrainer TWINS, ANNANDANNE2, EVENT_BEAT_TWINS_ANN_AND_ANNE, TwinsToriandtil2SeenText, TwinsToriandtil2BeatenText
 
-	text "Tori: We share the"
-	line "same feelings as"
-	cont "our #mon."
+	text "Tori: Compartimos"
+	line "los mismos"
+	cont "sentimientos que"
+	cont "nuestros #mon."
 	done
 
 GenericTrainerPsychicGreg:
 	generictrainer PSYCHIC_T, GREG, EVENT_BEAT_PSYCHIC_GREG, PsychicGregSeenText, PsychicGregBeatenText
 
-	text "Putting #mon to"
-	line "sleep or paralyz-"
-	cont "ing them are good"
-	cont "battle techniques."
+	text "Dormir o"
+	line "paralizar a los"
+	cont "#mon son buenas"
+	cont "técnicas de"
+	cont "combate."
 	done
 
 SunnyScript:
@@ -83,26 +85,27 @@ SunnyScript:
 	setevent EVENT_GOT_MAGNET_FROM_SUNNY
 	jumpthisopenedtext
 
-	text "Sunny: That thing…"
+	text "Dominga: Esa"
+	line "cosa…"
 
 	para "Um…"
 
-	para "…What was it now…"
+	para "…¿Qué era ahora…?"
 
 	para "…"
 
-	para "Oh! I remember"
-	line "now!"
+	para "¡Oh! ¡Ya recuerdo!"
 
-	para "A #mon that"
-	line "knows Electric"
+	para "Un #mon que"
+	line "conozca"
+	cont "movimientos"
+	cont "Eléctricos debería"
+	cont "llevarlo."
 
-	para "moves should hold"
-	line "it."
-
-	para "My sis Monica said"
-	line "it powers up"
-	cont "Electric moves!"
+	para "¡Mi hermana Luna"
+	line "dijo que potencia"
+	cont "los movimientos"
+	cont "Eléctricos!"
 	done
 
 SunnySundayScript:
@@ -114,16 +117,16 @@ SunnyDoneScript:
 SunnyNotSundayScript:
 	jumpthisopenedtext
 
-	text "Sunny: Isn't today"
-	line "Sunday?"
-	cont "Um… I forgot!"
+	text "Dominga: ¿No es"
+	line "hoy domingo?"
+	cont "Um… ¡lo olvidé!"
 	done
 
 GenericTrainerBeautyCallie:
 	generictrainer BEAUTY, CALLIE, EVENT_BEAT_BEAUTY_CALLIE, BeautyCallieSeenText, BeautyCallieBeatenText
 
-	text "Wow, you're cute"
-	line "and skilled too!"
+	text "¡Vaya, eres linda"
+	line "y hábil también!"
 	done
 
 TrainerBeautyCassandra:
@@ -133,96 +136,101 @@ TrainerBeautyCassandra:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "People like you"
-	line "are skilled even"
+	text "La gente como tú"
+	line "es hábil aun"
 
-	para "though they're"
-	line "young…"
+	para "siendo joven…"
 	done
 
 TwinsToriandtil1SeenText:
-	text "Til: Tori and I"
-	line "are in this to-"
-	cont "gether!"
+	text "Til: ¡Tori y yo"
+	line "estamos juntas en"
+	cont "esto!"
 	done
 
 TwinsToriandtil1BeatenText:
 TwinsToriandtil2BeatenText:
-	text "Til & Tori: Nnn… A"
-	line "little too strong."
+	text "Til y Tori: Nnn…"
+	line "Muy fuerte."
 	done
 
 TwinsToriandtil2SeenText:
-	text "Tori: Til and I"
-	line "are in this to-"
-	cont "gether!"
+	text "Tori: ¡Til y yo"
+	line "estamos juntas en"
+	cont "esto!"
 	done
 
 PsychicGregSeenText:
-	text "#mon can't do a"
-	line "thing if they are"
-	cont "asleep."
+	text "Los #mon no"
+	line "pueden hacer nada"
+	cont "si están"
+	cont "dormidos."
 
-	para "I'll show you how"
-	line "scary that is!"
+	para "¡Te mostraré qué"
+	line "tan aterrador es"
+	cont "eso!"
 	done
 
 PsychicGregBeatenText:
-	text "I lost. That's"
-	line "pretty sad…"
+	text "Perdí. Qué"
+	line "triste…"
 	done
 
 MeetSunnyText:
-	text "Sunny: Hi!"
+	text "Dominga: ¡Hola!"
 
-	para "I'm Sunny of Sun-"
-	line "day, meaning it's"
-	cont "Sunday today!"
+	para "¡Soy Dominga, así"
+	line "que hoy debe ser"
+	cont "domingo!"
 	done
 
 SunnyGivesGiftText:
-	text "I was told to give"
-	line "you this if I saw"
-	cont "you!"
+	text "¡Me dijeron que te"
+	line "diera esto si te"
+	cont "veía!"
 	done
 
 
 SunnySundayText:
-	text "Sunny: My sisters"
-	line "and brothers are"
-	cont "Monica, Tuscany,"
-	cont "Wesley, Arthur,"
-	cont "Frieda and Santos."
+	text "Dominga: Mis"
+	line "hermanas y"
+	cont "hermanos son"
+	cont "Luna, Marta,"
+	cont "Marcial, Julio,"
+	cont "Vera y Sabas."
 
-	para "They're all older"
-	line "than me!"
+	para "¡Todos son mayores"
+	line "que yo!"
 	done
 
 
 BeautyCallieSeenText:
-	text "Oh, you're a cute"
-	line "little trainer!"
+	text "Oh, ¡eres una"
+	line "entrenadora"
+	cont "pequeña y linda!"
 
-	para "Why don't you"
-	line "battle me?"
+	para "¿Por qué no"
+	line "combates conmigo?"
 	done
 
 BeautyCallieBeatenText:
-	text "You're good…"
+	text "Eres buena…"
 	done
 
 BeautyCassandraSeenText:
-	text "Hey hey there,"
-	line "you young trainer!"
+	text "Oye, oye,"
+	line "¡entrenadora"
+	cont "joven!"
 
-	para "Won't you battle"
-	line "with me?"
+	para "¿No quieres"
+	line "combatir conmigo?"
 	done
 
 BeautyCassandraBeatenText:
-	text "Wow, you're strong…"
+	text "Vaya, eres"
+	line "fuerte…"
 	done
 
 Route37SignText:
-	text "Route 37"
+	text "Ruta 37"
 	done

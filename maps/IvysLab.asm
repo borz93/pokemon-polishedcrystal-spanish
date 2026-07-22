@@ -98,79 +98,81 @@ ProfIvyScript:
 	jumpthisopenedtext
 
 .NoBerryText:
-	text "Ivy: I under-"
-	line "stand…"
+	text "Ivy: Entiendo…"
 
-	para "You don't have"
-	line "three Liechi"
-	cont "Berries to spare."
+	para "No tienes tres"
+	line "Bayas Liechi de"
+	cont "sobra."
 	done
 
 .RequestText:
-	text "Ivy: Hello again,"
-	line "<PLAYER>!"
+	text "Ivy: ¡Hola de"
+	line "nuevo, <PLAYER>!"
 
-	para "Can I ask you to"
-	line "do me a favor?"
+	para "¿Puedo pedirte un"
+	line "favor?"
 
-	para "This Nidorino"
-	line "is sick, and my"
+	para "Este Nidorino"
+	line "está enfermo, y"
 
-	para "Lum Berries aren't"
-	line "helping it."
+	para "mis Bayas Ziuela"
+	line "no lo ayudan."
 
-	para "Can you please"
-	line "find three Liechi"
-	cont "Berries for it?"
+	para "¿Podrías"
+	line "encontrarle tres"
+	cont "Bayas Liechi?"
 	done
 
 .OkayText:
-	text "Ivy: Perfect!"
-	line "Thanks, <PLAYER>!"
+	text "Ivy: ¡Perfecto!"
+	line "¡Gracias,"
+	cont "<PLAYER>!"
 
-	para "Let's see if this"
-	line "helps Nidorino…"
+	para "Veamos si esto"
+	line "ayuda a Nidorino…"
 	done
 
 .ThanksText:
-	text "Ivy: Thank you,"
+	text "Ivy: ¡Gracias,"
 	line "<PLAYER>!"
 
-	para "Nidorino looks"
-	line "much healthier!"
+	para "¡Nidorino parece"
+	line "mucho más sano!"
 
-	para "Please take this"
-	line "for your trouble."
+	para "Por favor, toma"
+	line "esto por las"
+	cont "molestias."
 	done
 
 .ChallengeText:
-	text "Ivy: I could use a"
-	line "break from work."
+	text "Ivy: Me vendría"
+	line "bien un descanso"
+	cont "del trabajo."
 
-	para "How about a quick"
-	line "battle?"
+	para "¿Qué tal un"
+	line "combate rápido?"
 	done
 
 .NoText:
-	text "Ah well, I'll just"
-	line "keep on with my"
-	cont "research."
+	text "Bueno, seguiré"
+	line "con mi"
+	cont "investigación."
 	done
 
 .SeenText:
-	text "Professor versus"
-	line "Champion--let's go!"
+	text "Profesora contra"
+	line "Campeón, ¡vamos!"
 	done
 
 .BeatenText:
-	text "No surprises"
-	line "here!"
+	text "¡Nada"
+	line "sorprendente!"
 	done
 
 .AfterText:
-	text "Ivy: That was an"
-	line "exhilarating"
-	cont "battle!"
+	text "Ivy: ¡Qué combate"
+	line "tan"
+	cont "emocionante!"
 	done
 
 IvysLabHopeScript:
@@ -178,21 +180,21 @@ IvysLabHopeScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "Hope: Prof.Ivy"
-	line "takes care of the"
+	text "Hope: La Prof.Ivy"
+	line "cuida de los"
 
-	para "#mon on this"
-	line "island."
+	para "#mon de esta"
+	line "isla."
 
-	para "Right now she's"
-	line "tending to a sick"
-	cont "Nidorino."
+	para "Ahora mismo está"
+	line "atendiendo a un"
+	cont "Nidorino enfermo."
 	done
 
 .Text2:
-	text "Hope: Thanks for"
-	line "helping out with"
-	cont "that Nidorino!"
+	text "Hope: ¡Gracias"
+	line "por ayudar con"
+	cont "ese Nidorino!"
 	done
 
 IvysLabNidorinoScript:
@@ -205,7 +207,8 @@ IvysLabNidorinoScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Its cry is weak…"
+	text "Su grito es"
+	line "débil…"
 	done
 
 .WeakCry:
@@ -217,14 +220,15 @@ IvysLabNidorinoScript:
 	end
 
 IvysLabNidorinoText:
-	text "Nidorino: Gyun!"
+	text "Nidorino: ¡Gyun!"
 	done
 
 IvysLabWindowText:
-	text "The window's open."
+	text "La ventana está"
+	line "abierta."
 
-	para "An ocean breeze"
-	line "is blowing in."
+	para "Sopla una brisa"
+	line "marina."
 	done
 
 IvysLabHealingMachine:
@@ -245,23 +249,26 @@ IvysLabHealingMachine:
 	endtext
 
 .Text:
-	text "Would you like to"
-	line "heal your #mon?"
+	text "¿Quieres curar a"
+	line "tus #mon?"
 	done
 
 PokemonJournalProfIvyScript:
 	setflag ENGINE_READ_PROF_IVY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "#mon Prof.Ivy!"
+	para "Reportaje"
+	line "especial: ¡La"
+	cont "Prof.Ivy!"
 
-	para "Philena Ivy worked"
-	line "with Brock of Pew-"
-	cont "ter City to study"
+	para "Philena Ivy"
+	line "trabajó con Brock,"
+	cont "de Ciudad"
+	cont "Plateada, para"
 
-	para "a shiny Onix's"
-	line "crystalline body."
+	para "estudiar el cuerpo"
+	line "cristalino de un"
+	cont "Onix variocolor."
 	done

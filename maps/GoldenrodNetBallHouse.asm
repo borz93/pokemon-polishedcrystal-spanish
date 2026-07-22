@@ -28,33 +28,35 @@ GoldenrodNetBallHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Sometimes you get"
-	line "really lucky and"
-	cont "catch a #mon at"
+	text "A veces tienes"
+	line "suerte y capturas"
+	cont "a un #mon con"
 
-	para "full HP. I love"
-	line "that feeling."
+	para "toda su PS. Me"
+	line "encanta esa"
+	cont "sensación."
 	done
 
 .Text1:
-	text "I stocked up on"
-	line "Net Balls to catch"
-	cont "a Pineco, but got"
+	text "Compré Malla Ball"
+	line "para atrapar un"
+	cont "Pineco, y lo"
 
-	para "it with my very"
-	line "first one!"
+	para "logré con la"
+	line "primera que usé."
 
-	para "I won't be needing"
-	line "this anymore."
+	para "Ya no la voy a"
+	line "necesitar."
 	done
 
 GoldenrodNetBallHouseBugCatcherText:
-	text "They hold Bug-"
-	line "Catching Contests"
+	text "Hacen Concursos"
+	line "de Captura"
 
-	para "in National Park"
-	line "on Route 35."
+	para "en el Parque"
+	line "Nacional de la"
+	cont "Ruta 35."
 
-	para "Sometimes even"
-	line "Bugsy competes."
+	para "A veces hasta"
+	line "compite Bugsy."
 	done

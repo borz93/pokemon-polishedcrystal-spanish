@@ -1,68 +1,69 @@
 BeverlyAnswerPhoneText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good morning,"
-	line "<PLAYER>."
+	para "¡Ah! Buenos"
+	line "días, <PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good day,"
-	line "<PLAYER>."
+	para "¡Ah! Buen"
+	line "día, <PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh! Good evening,"
-	line "<PLAYER>."
+	para "¡Ah! Buenas"
+	line "noches, <PLAYER>."
 	done
 
 BeverlyGreetText:
-	text "Hello, <PLAYER>."
-	line "Good morning."
+	text "Hola, <PLAYER>."
+	line "Buenos días."
 
-	para "This is "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Were you asleep?"
+	line "¿Dormías?"
 	done
 
 BeverlyGreetDayText:
-	text "Hi, <PLAYER>."
-	line "This is "
+	text "Hola, <PLAYER>."
+	line "Soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "How are you doing?"
+	para "¿Qué tal estás?"
 	done
 
 BeverlyGreetNiteText:
-	text "Hi, <PLAYER>."
-	line "This is "
+	text "Hola, <PLAYER>."
+	line "Soy "
 	text_ram wStringBuffer3
 	text "."
 
-	para "Were you awake?"
+	para "¿Estabas"
+	line "despierto?"
 	done
 
 BeverlyGenericText:
-	text "Keeping your"
-	line "#mon happy?"
+	text "¿Tienes felices"
+	line "a tus #mon?"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "healthy. It eats a"
-	cont "lot every day."
+	text " está"
+	line "sana. Come"
+	cont "mucho cada día."
 	done

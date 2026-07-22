@@ -57,72 +57,75 @@ DimCave3FSetUpStoneTable:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through."
+	text "¡La roca cayó"
+	line "por el agujero!"
 	done
 
 GenericTrainerEngineerHugo:
 	generictrainer ENGINEER, HUGO, EVENT_BEAT_ENGINEER_HUGO, .SeenText, .BeatenText
 
-	text "The noise of that"
-	line "mine cart gave me"
-	cont "a scare."
+	text "El ruido de ese"
+	line "vagón minero me"
+	cont "asustó."
 
-	para "You always have to"
-	line "stay alert for a"
-	cont "cave-in here."
+	para "Siempre hay que"
+	line "estar alerta por"
+	cont "derrumbes aquí."
 	done
 
 .SeenText:
-	text "Cave-in!"
+	text "¡Derrumbe!"
 	done
 
 .BeatenText:
-	text "Oh, you just"
-	line "pushed a boulder!"
+	text "Ah, ¡solo"
+	line "empujaste una"
+	cont "roca!"
 	done
 
 GenericTrainerBlackbeltTakeo:
 	generictrainer BLACKBELT_T, TAKEO, EVENT_BEAT_BLACKBELT_TAKEO, .SeenText, .BeatenText
 
-	text "All I want is to"
-	line "train in peace."
+	text "Solo quiero"
+	line "entrenar en paz."
 	done
 
 .SeenText:
-	text "I'm training here"
-	line "alone with my"
+	text "Entreno aquí"
+	line "solo con mis"
 	cont "#mon."
 
-	para "Leave at once!"
+	para "¡Vete ya!"
 	done
 
 .BeatenText:
-	text "Clearly I need"
-	line "more training…"
+	text "Claramente"
+	line "necesito más"
+	cont "entrenamiento…"
 	done
 
 GenericTrainerHikerFloyd:
 	generictrainer HIKER, FLOYD, EVENT_BEAT_HIKER_FLOYD, .SeenText, .BeatenText
 
-	text "I am SO lost in"
-	line "here!"
+	text "¡Estoy TAN"
+	line "perdido aquí!"
 
-	para "I should stick to"
-	line "hiking outdoors."
+	para "Debería quedarme"
+	line "en senderismo al"
+	cont "aire libre."
 	done
 
 .SeenText:
-	text "This cave makes me"
-	line "so ANGRY!"
+	text "¡Esta cueva me"
+	line "pone MUY furioso!"
 
-	para "I'll battle to let"
-	line "off some steam!"
+	para "¡Combatiré para"
+	line "desahogarme!"
 	done
 
 .BeatenText:
-	text "I got beat down by"
-	line "a kid!"
+	text "¡Un crío me"
+	line "venció!"
 	done
 
 DimCave3FPokefanmScript:
@@ -133,20 +136,19 @@ DimCave3FPokefanmScript:
 	iftrue_jumpopenedtext .YesText
 	jumpthisopenedtext
 
-	text "What?! Do you"
-	line "have a map?"
+	text "¡¿Qué?! ¿Tienes"
+	line "un mapa?"
 	done
 
 .QuestionText:
-	text "Are you lost?"
+	text "¿Estás perdido?"
 	done
 
 .YesText:
-	text "Me too!"
+	text "¡Yo también!"
 
-	para "The Power Plant"
-	line "messes with my"
-
-	para "compass, and I"
-	line "don't have a map."
+	para "La Central"
+	line "Eléctrica confunde"
+	cont "mi brújula, y no"
+	cont "tengo mapa."
 	done

@@ -413,7 +413,7 @@ ENDM
 	map_const HAUNTED_RADIO_TOWER_2F,                      9,  4 ; 20
 	map_const HAUNTED_RADIO_TOWER_3F,                      9,  4 ; 21
 	map_const HAUNTED_RADIO_TOWER_4F,                      9,  4 ; 22
-	map_const HAUNTED_RADIO_TOWER_5F,                      8,  9 ; 23
+	map_const HAUNTED_RADIO_TOWER_5F,                      7,  4 ; 23
 	map_const HAUNTED_RADIO_TOWER_6F,                      8,  9 ; 24
 	map_const ROUTE_16_WEST,                              31, 13 ; 25
 

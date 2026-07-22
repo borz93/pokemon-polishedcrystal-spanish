@@ -113,9 +113,9 @@ MapRuinsofAlphOmanyteChamberSignpost4Script:
 	endtext
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "This #mon"
-	line "drifted in the"
+	text "Este #mon"
+	line "flotaba en el mar"
 
-	para "sea by twisting"
-	line "its ten tentacles."
+	para "girando sus diez"
+	line "tentáculos."
 	done

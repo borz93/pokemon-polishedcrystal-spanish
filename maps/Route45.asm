@@ -81,77 +81,83 @@ Route45Dragon_tamerScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "The art of train-"
-	line "ing Dragon-type"
-	cont "#mon is just"
-	cont "amazing."
+	text "El arte de"
+	line "entrenar #mon"
+	cont "tipo Dragón es"
+	cont "asombroso."
 
-	para "You should become"
-	line "a Dragon Tamer"
-	cont "too."
+	para "Deberías hacerte"
+	line "Domador de"
+	cont "Dragones también."
 	done
 
 .IntroText:
-	text "I'm training my"
-	line "dragons here."
+	text "Estoy entrenando a"
+	line "mis dragones aquí."
 
-	para "Huh? A battle?"
-	line "I want a good one,"
+	para "¿Eh? ¿Un combate?"
+	line "Quiero uno bueno,"
 
-	para "so prove to me"
-	line "that you're strong."
+	para "así que"
+	line "demuéstrame que"
+	cont "eres fuerte."
 
-	para "Win against every"
-	line "trainer on this"
+	para "Vence a todos los"
+	line "entrenadores de"
 
-	para "route and I'll"
-	line "battle you."
+	para "esta ruta y"
+	line "combatiré contigo."
 	done
 
 .QuestionText:
-	text "Oh, you're ready."
-	line "It's time for a"
-	cont "duel: your #mon"
-	cont "versus my dragons."
+	text "Oh, ya estás"
+	line "listo. Es hora de"
+	cont "un duelo: tus"
+	cont "#mon contra mis"
+	cont "dragones."
 
-	para "Should we start"
-	line "now?"
+	para "¿Empezamos ya?"
 	done
 
 .RefusedText:
-	text "No problem."
-	line "I'll keep on"
-	cont "training."
+	text "No hay problema."
+	line "Seguiré"
+	cont "entrenando."
 	done
 
 .SeenText:
-	text "Let's see if you"
-	line "can handle my"
+	text "Veamos si puedes"
+	line "con la"
 
-	para "dragons' unyield-"
-	line "ing focus."
-	cont "Go, Dragonite!"
+	para "concentración"
+	line "inquebrantable de"
+	cont "mis dragones."
+	cont "¡Ve, Dragonite!"
 	done
 
 .BeatenText:
-	text "How powerful!"
-	line "My #mon were"
-	cont "no match for you."
+	text "¡Qué poder! Mis"
+	line "#mon no"
+	cont "tuvieron"
+	cont "oportunidad ante"
+	cont "ti."
 	done
 
 .AfterText1:
-	text "Your strength"
-	line "rivals my own!"
+	text "¡Tu fuerza"
+	line "rivaliza con la"
+	cont "mía!"
 
-	para "Take this. You"
-	line "deserve it."
+	para "Toma esto. Te lo"
+	line "mereces."
 	done
 
 GenericTrainerBattleGirlNozomi:
 	generictrainer BATTLE_GIRL, NOZOMI, EVENT_BEAT_BATTLE_GIRL_NOZOMI, BattleGirlNozomiSeenText, BattleGirlNozomiBeatenText
 
-	text "Thanks for the"
-	line "workout, <PLAYER>!"
+	text "¡Gracias por el"
+	line "ejercicio,"
+	cont "<PLAYER>!"
 	done
 
 TrainerBlackbeltKenji:
@@ -200,22 +206,22 @@ BlackbeltKenji1Script:
 .Morning:
 	jumpthisopenedtext
 
-	text "I'm going to train"
-	line "a bit more before"
-	cont "I break for lunch."
+	text "Voy a entrenar un"
+	line "poco más antes de"
+	cont "parar a comer."
 	done
 
 .Night:
 	jumpthisopenedtext
 
-	text "We had plenty of"
-	line "rest at lunch, so"
+	text "Descansamos bien"
+	line "en la comida, así"
 
-	para "now we're all"
-	line "ready to go again!"
+	para "que ya estamos"
+	line "listos otra vez."
 
-	para "We're going to"
-	line "train again!"
+	para "¡Vamos a entrenar"
+	line "de nuevo!"
 	done
 
 .NoRoom:
@@ -259,23 +265,24 @@ Route45RematchGiftM:
 GenericTrainerHikerErik:
 	generictrainer HIKER, ERIK, EVENT_BEAT_HIKER_ERIK, HikerErikSeenText, HikerErikBeatenText
 
-	text "I'll head back to"
-	line "Blackthorn's Ice"
-
-	para "Path and train"
-	line "some more."
+	text "Volveré a la Ruta"
+	line "Helada de Ciudad"
+	cont "Endrino a"
+	cont "entrenar más."
 	done
 
 GenericTrainerHikerMichael:
 	generictrainer HIKER, MICHAEL, EVENT_BEAT_HIKER_MICHAEL, HikerMichaelSeenText, HikerMichaelBeatenText
 
-	text "Boy, do I love"
-	line "HP Up! Mmmm, yum!"
+	text "¡Cómo me encanta"
+	line "el PS Más! ¡Mmm,"
+	cont "qué rico!"
 
-	para "I keep drinking my"
-	line "#mon's!"
+	para "¡Sigo bebiendo el"
+	line "de mi #mon!"
 
-	para "I can't help it!"
+	para "¡No puedo"
+	line "evitarlo!"
 	done
 
 TrainerHikerParry:
@@ -366,195 +373,212 @@ HikerParry1Script:
 GenericTrainerHikerTimothy:
 	generictrainer HIKER, TIMOTHY, EVENT_BEAT_HIKER_TIMOTHY, HikerTimothySeenText, HikerTimothyBeatenText
 
-	text "The best thing to"
-	line "ever happen to me"
+	text "Lo mejor que me ha"
+	line "pasado nunca"
 
-	para "was discovering"
-	line "#mon."
+	para "fue descubrir a"
+	line "los #mon."
 	done
 
 GenericTrainerCooltrainermRyan:
 	generictrainer COOLTRAINERM, RYAN, EVENT_BEAT_COOLTRAINERM_RYAN, CooltrainermRyanSeenText, CooltrainermRyanBeatenText
 
-	text "I see you're rais-"
-	line "ing your #mon"
-	cont "with care."
+	text "Veo que crías a"
+	line "tus #mon con"
+	cont "cuidado."
 
-	para "The bond you build"
-	line "will save you in"
-	cont "tough situations."
+	para "El vínculo que"
+	line "creas te salvará"
+	cont "en situaciones"
+	cont "difíciles."
 	done
 
 GenericTrainerCooltrainerfKelly:
 	generictrainer COOLTRAINERF, KELLY, EVENT_BEAT_COOLTRAINERF_KELLY, CooltrainerfKellySeenText, CooltrainerfKellyBeatenText
 
-	text "I'm not in favor"
-	line "of overly power-"
-	cont "ful moves."
+	text "No estoy a favor"
+	line "de los"
+	cont "movimientos"
+	cont "demasiado"
+	cont "poderosos."
 
-	para "I want to win, but"
-	line "I also don't want"
-	cont "to harm #mon."
+	para "Quiero ganar, pero"
+	line "tampoco quiero"
+	cont "dañar a los"
+	cont "#mon."
 	done
 
 GenericTrainerCamperQuentin:
 	generictrainer CAMPER, QUENTIN, EVENT_BEAT_CAMPER_QUENTIN, CamperQuentinSeenText, CamperQuentinBeatenText
 
-	text "Have you been to"
-	line "the Battle Tower?"
+	text "¿Has ido a la"
+	line "Torre de Combate?"
 
-	para "I never, ever lose"
-	line "there, but…"
+	para "Nunca, jamás"
+	line "pierdo allí,"
+	cont "pero…"
 	done
 
 BattleGirlNozomiSeenText:
-	text "This is no place"
-	line "for weak #mon!"
+	text "¡Este no es lugar"
+	line "para #mon"
+	cont "débiles!"
 	done
 
 BattleGirlNozomiBeatenText:
-	text "What a fight!"
+	text "¡Vaya combate!"
 	done
 
 HikerErikSeenText:
-	text "Be prepared for"
-	line "anything!"
+	text "¡Prepárate para"
+	line "cualquier cosa!"
 
-	para "Let me see if your"
-	line "#mon have been"
-	cont "raised properly!"
+	para "¡Veamos si tus"
+	line "#mon fueron"
+	cont "criados bien!"
 	done
 
 HikerErikBeatenText:
-	text "Oh, I lost that!"
+	text "¡Vaya, perdí eso!"
 	done
 
 HikerMichaelSeenText:
-	text "Yo! You're spunky!"
-	line "But you know what?"
+	text "¡Ey! ¡Tienes"
+	line "agallas! ¿Pero"
+	cont "sabes qué?"
 
-	para "When it comes to"
-	line "sheer spunkiness,"
-	cont "I'm the man!"
+	para "En cuanto a"
+	line "agallas de"
+	cont "verdad, ¡yo soy"
+	cont "el mejor!"
 	done
 
 HikerMichaelBeatenText:
-	text "My #mon weren't"
-	line "spunky enough!"
+	text "¡A mis #mon les"
+	line "faltaron"
+	cont "agallas!"
 	done
 
 HikerParry1SeenText:
-	text "My #mon are"
-	line "power packed!"
+	text "¡Mis #mon están"
+	line "cargados de"
+	cont "poder!"
 	done
 
 HikerParry1BeatenText:
-	text "Wahahah! I'm the"
-	line "big loser!"
+	text "¡Wajajajá! ¡Soy el"
+	line "gran perdedor!"
 	done
 
 HikerParryAfterBattleText:
-	text "I'm not much good"
-	line "at thinking, see?"
+	text "No se me da bien"
+	line "pensar, ¿sabes?"
 
-	para "So, I just plow"
-	line "ahead with power!"
+	para "Así que avanzo con"
+	line "pura fuerza."
 	done
 
 HikerTimothySeenText:
-	text "Why do I climb"
-	line "mountains?"
+	text "¿Por qué escalo"
+	line "montañas?"
 
-	para "Because they're"
-	line "there."
+	para "Porque están"
+	line "ahí."
 
-	para "Why do I train"
+	para "¿Por qué entreno"
 	line "#mon?"
 
-	para "Because they're"
-	line "there!"
+	para "¡Porque están"
+	line "ahí!"
 	done
 
 HikerTimothyBeatenText:
-	text "Losses…"
-	line "They're there too!"
+	text "Las derrotas…"
+	line "¡También están"
+	cont "ahí!"
 	done
 
 HikerParryGivesIronText:
-	text "I just can't find"
-	line "a way to win!"
+	text "¡No encuentro la"
+	line "forma de ganar!"
 
-	para "Keep it up!"
+	para "¡Sigue así!"
 
-	para "Oh, and take this"
-	line "--it's the gift"
+	para "Oh, y toma esto"
+	line "--es el regalo"
 
-	para "you couldn't take"
-	line "when we last met."
+	para "que no pudiste"
+	line "llevarte la última"
+	cont "vez que nos vimos."
 	done
 
 BlackbeltKenji1SeenText:
-	text "I was training"
-	line "here alone."
+	text "Estaba"
+	line "entrenando aquí"
+	cont "solo."
 
-	para "Behold the fruits"
-	line "of my labor!"
+	para "¡Contempla los"
+	line "frutos de mi"
+	cont "esfuerzo!"
 	done
 
 BlackbeltKenji1BeatenText:
-	text "Waaaargh!"
+	text "¡Waaaargh!"
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "This calls for"
-	line "extreme measures."
+	text "Esto exige"
+	line "medidas extremas."
 
-	para "I must take to the"
-	line "hills and train in"
-	cont "solitude."
+	para "Debo ir a las"
+	line "colinas y"
+	cont "entrenar en"
+	cont "soledad."
 	done
 
 
 
 CooltrainermRyanSeenText:
-	text "What are your"
-	line "thoughts on rais-"
-	cont "ing #mon?"
+	text "¿Qué opinas sobre"
+	line "criar #mon?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "You've won my"
-	line "respect."
+	text "Te has ganado mi"
+	line "respeto."
 	done
 
 CooltrainerfKellySeenText:
-	text "What is your"
-	line "battle strategy?"
+	text "¿Cuál es tu"
+	line "estrategia de"
+	cont "combate?"
 
-	para "It is foolish to"
-	line "use strong moves"
-	cont "indiscriminately."
+	para "Es una tontería"
+	line "usar movimientos"
+	cont "fuertes sin"
+	cont "cuidado."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Fine. I lost."
+	text "Bien. Perdí."
 	done
 
 CamperQuentinSeenText:
-	text "I'm really, really"
-	line "tough!"
+	text "¡Soy muy, muy"
+	line "duro!"
 
-	para "Is there anywhere"
-	line "I can prove how"
-	cont "tough I really am?"
+	para "¿Hay algún sitio"
+	line "donde pueda"
+	cont "demostrarlo?"
 	done
 
 CamperQuentinBeatenText:
-	text "I was tough at the"
-	line "Battle Tower…"
+	text "Era duro en la"
+	line "Torre de Combate…"
 	done
 
 Route45SignText:
-	text "Route 45"
-	line "Mountain Rd. Ahead"
+	text "Ruta 45"
+	line "Camino de Montaña"
+	cont "adelante"
 	done

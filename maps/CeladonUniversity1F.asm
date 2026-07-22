@@ -43,142 +43,151 @@ CeladonUniversity1F_MapScriptHeader:
 	object_event 23, 13, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversity1FCooltrainerfText, -1
 
 CeladonUniversity1FSuperNerdText:
-	text "Some academics be-"
-	line "lieve there are"
+	text "Algunos académicos"
+	line "creen que hay"
 
-	para "other universes"
-	line "parallel to this"
-	cont "one."
+	para "otros universos"
+	line "paralelos a este."
 
-	para "Does that mean"
-	line "there's a universe"
+	para "¿Eso implica que"
+	line "hay un universo"
 
-	para "without any"
+	para "sin ningún"
 	line "#mon?"
 
-	para "That would be"
-	line "tragic!"
+	para "¡Eso sería"
+	line "trágico!"
 	done
 
 CeladonUniversity1FLassText:
-	text "This place offers"
-	line "courses of study"
+	text "Este sitio ofrece"
+	line "cursos de todo"
 
-	para "in everything from"
-	line "flower arranging"
+	para "tipo, desde"
+	line "arreglo floral"
 
-	para "to #mon"
-	line "psychology!"
+	para "hasta psicología"
+	line "#mon!"
 	done
 
 CeladonUniversity1FCooltrainermText:
-	text "Everyone at this"
-	line "university is a"
-	cont "#mon trainer."
+	text "Todos en esta"
+	line "universidad son"
+	cont "entrenadores"
+	cont "#mon."
 
-	para "To get offered a"
-	line "place here, you"
+	para "Para entrar aquí,"
+	line "tienes que"
 
-	para "have to pass a"
-	line "series of #mon"
-	cont "battling tests."
+	para "aprobar una serie"
+	line "de pruebas de"
+	cont "combate #mon."
 	done
 
 CeladonUniversity1FYoungsterText:
-	text "Magikarp is the"
-	line "university's mascot"
-	cont "#mon."
+	text "Magikarp es el"
+	line "#mon mascota de"
+	cont "la universidad."
 
-	para "It's a symbol that"
-	line "anybody can aspire"
-	cont "to greatness!"
+	para "¡Es un símbolo de"
+	line "que cualquiera"
+	cont "puede aspirar a la"
+	cont "grandeza!"
 	done
 
 CeladonUniversity1FChildText:
-	text "Ugh! I can't find"
-	line "my next class…"
+	text "¡Uf! No encuentro"
+	line "mi próxima clase…"
 
-	para "I'm gonna be late!"
+	para "¡Voy a llegar"
+	line "tarde!"
 	done
 
 CeladonUniversity1FPokefanmText:
-	text "I'm the janitor!"
+	text "¡Soy el conserje!"
 
-	para "Be careful, the"
-	line "floor is wet!"
+	para "¡Cuidado, el suelo"
+	line "está mojado!"
 	done
 
 CeladonUniversity1FReceptionistText:
-	text "Welcome to Celadon"
-	line "University!"
+	text "¡Bienvenido a la"
+	line "Universidad de"
+	cont "Azulona!"
 
-	para "Classrooms and the"
-	line "principal's office"
-	cont "are down the hall."
+	para "Las aulas y el"
+	line "despacho del"
+	cont "director están al"
+	cont "fondo del"
+	cont "pasillo."
 
-	para "The library is to"
-	line "your right, the"
+	para "La biblioteca está"
+	line "a tu derecha, la"
 
-	para "student lounge to"
-	line "your left."
+	para "sala de estudio a"
+	line "tu izquierda."
 
-	para "The cafeteria,"
-	line "pool, and nurse's"
+	para "La cafetería, la"
+	line "piscina y la"
 
-	para "office are up-"
-	line "stairs."
+	para "enfermería están"
+	line "arriba."
 	done
 
 CeladonUniversity1FCooltrainerfText:
-	text "I'm studying to be"
-	line "a #mon nurse."
+	text "Estudio para ser"
+	line "enfermera #mon."
 
-	para "With so many spe-"
-	line "cies out there,"
+	para "Con tantas"
+	line "especies ahí"
+	cont "fuera,"
 
-	para "it's a steep"
-	line "learning curve!"
+	para "¡es una curva de"
+	line "aprendizaje muy"
+	cont "empinada!"
 	done
 
 CeladonUniversity1FPrincipalsOfficeSignText:
-	text "Principal's Office"
+	text "Despacho del"
+	line "Director"
 	done
 
 CeladonUniversity1FClassroom1SignText:
-	text "W2 Art"
+	text "O2 Arte"
 	done
 
 CeladonUniversity1FClassroom2SignText:
-	text "W1 History"
+	text "O1 Historia"
 	done
 
 CeladonUniversity1FClassroom3SignText:
-	text "E1 Science"
+	text "E1 Ciencias"
 	done
 
 CeladonUniversity1FClassroom4SignText:
-	text "E2 Battling"
+	text "E2 Combate"
 	done
 
 CeladonUniversity1FStudentLoungeSignText:
-	text "Student Lounge"
+	text "Sala de Estudio"
 	done
 
 CeladonUniversity1FLibrarySignText:
-	text "Library"
+	text "Biblioteca"
 	done
 
 CeladonUniversity1FTrophyCaseSignText:
-	text "The case is full"
-	line "of trophies and"
-	cont "medals."
+	text "La vitrina está"
+	line "llena de trofeos y"
+	cont "medallas."
 	done
 
 CeladonUniversity1FBookshelfText:
-	text "There are tons of"
-	line "yearbooks here."
+	text "Hay montones de"
+	line "anuarios aquí."
 
-	para "Students have"
-	line "scribbled all over"
-	cont "them."
+	para "Los estudiantes"
+	line "los han"
+	cont "garabateado"
+	cont "enteros."
 	done

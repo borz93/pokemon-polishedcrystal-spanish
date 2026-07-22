@@ -133,30 +133,35 @@ endr
 
 ;; add a second to the no-RTC fake real-time clock
 UpdateNoRTC::
-	; set our modulus
-	ld a, 60
-	ld b, a
-
+; use cp/sub instead of an exact-match check so this self-corrects even if
+; wRTCSeconds/Minutes/Hours ever started out out-of-range (e.g. a stale value
+; read from a buggy real RTC via GetClock's "and $1f" mask before RTC_OPT was
+; turned off), instead of only wrapping when it happens to land exactly on
+; the modulus.
 	ld hl, wRTCSeconds
 
 ; +1 second
 	inc [hl]
-	sub [hl]
-	ret nz
+	ld a, [hl]
+	cp 60
+	ret c
+	sub 60
 	ld [hld], a
 
 ; +1 minute
-	ld a, b
 	inc [hl]
-	sub [hl]
-	ret nz
+	ld a, [hl]
+	cp 60
+	ret c
+	sub 60
 	ld [hld], a
 
 ; +1 hour
-	ld a, 24
 	inc [hl]
-	sub [hl]
-	ret nz
+	ld a, [hl]
+	cp 24
+	ret c
+	sub 24
 	ld [hld], a
 
 ; We do not need to check for days overflow! Pokémon Crystal always keeps the

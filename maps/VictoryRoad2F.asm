@@ -82,17 +82,18 @@ VictoryRoadRivalLeft:
 GenericTrainerVeteranfJoanne:
 	generictrainer VETERANF, JOANNE, EVENT_BEAT_VETERANF_JOANNE, VeteranfJoanneSeenText, VeteranfJoanneBeatenText
 
-	text "You earned the"
-	line "right to be on"
-	cont "Victory Road!"
+	text "¡Te ganaste el"
+	line "derecho a estar en"
+	cont "el Camino de la"
+	cont "Victoria!"
 	done
 
 GenericTrainerVeteranfJonet:
 	generictrainer VETERANF, JONET, EVENT_BEAT_VETERANF_JONET, VeteranfJonetSeenText, VeteranfJonetBeatenText
 
-	text "Did somebody"
-	line "capture Moltres"
-	cont "already?"
+	text "¿Alguien ya"
+	line "capturó a"
+	cont "Moltres?"
 	done
 
 VictoryRoadRivalBattleApproachMovement1:
@@ -110,101 +111,105 @@ VictoryRoadRivalBattleExitMovement1:
 	step_end
 
 VictoryRoadRivalBeforeText:
-	text "Hold it."
+	text "Alto ahí."
 
-	para "…Are you going to"
-	line "take the #mon"
-	cont "League challenge?"
+	para "…¿Vas a aceptar el"
+	line "desafío de la Liga"
+	cont "#mon?"
 
-	para "…Don't make me"
-	line "laugh."
+	para "…No me hagas"
+	line "reír."
 
-	para "You're so much"
-	line "weaker than I am."
+	para "Eres mucho más"
+	line "débil que yo."
 
-	para "I'm not like I was"
-	line "before."
+	para "Ya no soy como"
+	line "antes."
 
-	para "I now have the"
-	line "best and strongest"
+	para "Ahora tengo"
+	line "conmigo a los"
 
-	para "#mon with me."
-	line "I'm invincible!"
+	para "#mon mejores y"
+	line "más fuertes."
+	cont "¡Soy invencible!"
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "¡Te reto!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…I couldn't win…"
+	text "…No pude ganar…"
 
-	para "I gave it every-"
-	line "thing I had…"
+	para "Di todo lo que"
+	line "tenía…"
 
-	para "What you possess,"
-	line "and what I lack…"
+	para "Lo que tú tienes,"
+	line "y lo que a mí me"
+	cont "falta…"
 
-	para "I'm beginning to"
-	line "understand what"
+	para "Empiezo a entender"
+	line "lo que ese maestro"
 
-	para "that dragon master"
-	line "said to me…"
+	para "de dragones me"
+	line "dijo…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…I haven't given up"
-	line "on becoming the"
-	cont "greatest trainer…"
+	text "…No me he rendido"
+	line "en convertirme en"
+	cont "el mejor"
+	cont "entrenador…"
 
-	para "I'm going to find"
-	line "out why I can't"
+	para "Voy a averiguar"
+	line "por qué no puedo"
 
-	para "win and become"
-	line "stronger…"
+	para "ganar y hacerme"
+	line "más fuerte…"
 
-	para "When I do, I will"
-	line "challenge you."
+	para "Cuando lo haga, te"
+	line "retaré."
 
-	para "And I'll beat you"
-	line "down with all my"
-	cont "power."
+	para "Y te derrotaré con"
+	line "todo mi poder."
 
-	para "…Humph! You keep"
-	line "at it until then."
+	para "…¡Já! Sigue"
+	line "esforzándote hasta"
+	cont "entonces."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "…Humph!"
+	text "…¡Já!"
 
-	para "When it comes down"
-	line "to it, nothing can"
-	cont "beat power."
+	para "Al final, nada"
+	line "puede vencer al"
+	cont "poder."
 
-	para "I don't need any-"
-	line "thing else."
+	para "No necesito nada"
+	line "más."
 	done
 
 VeteranfJoanneSeenText:
-	text "Victory Road is"
-	line "the final test"
-	cont "for trainers!"
+	text "¡El Camino de la"
+	line "Victoria es la"
+	cont "prueba final para"
+	cont "entrenadores!"
 	done
 
 VeteranfJoanneBeatenText:
-	text "Aiyah!"
+	text "¡Aiyah!"
 	done
 
 VeteranfJonetSeenText:
-	text "There's supposed"
-	line "to be a Moltres"
-	cont "roosting here."
+	text "Se supone que hay"
+	line "un Moltres"
+	cont "posado aquí."
 
-	para "I'm going to catch"
-	line "it!"
+	para "¡Voy a"
+	line "capturarlo!"
 	done
 
 VeteranfJonetBeatenText:
-	text "I'd have won if"
-	line "I had a legendary"
-	cont "#mon…"
+	text "Habría ganado si"
+	line "tuviera un #mon"
+	cont "legendario…"
 	done

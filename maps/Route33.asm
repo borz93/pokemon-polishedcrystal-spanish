@@ -133,51 +133,53 @@ TrainerSchoolgirlImogen:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "I'm trying hard so"
-	line "I can be the star"
-	cont "in my class."
+	text "Me esfuerzo mucho"
+	line "para ser la mejor"
+	cont "de mi clase."
 	done
 
 HikerAnthony1SeenText:
-	text "I came through the"
-	line "tunnel, but I"
+	text "Vine por el"
+	line "túnel, pero aún"
 
-	para "still have plenty"
-	line "of energy left."
+	para "me queda mucha"
+	line "energía."
 	done
 
 HikerAnthony1BeatenText:
-	text "Whoa! You've got"
-	line "more zip than me!"
+	text "¡Vaya! ¡Tienes más"
+	line "chispa que yo!"
 	done
 
 HikerAnthony1AfterText:
-	text "We Hikers are at"
-	line "our best in the"
-	cont "mountains."
+	text "Los Montañeros"
+	line "estamos mejor en"
+	cont "las montañas."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Hey, did you get a"
-	line "Dunsparce?"
+	text "Oye, ¿conseguiste"
+	line "un Dunsparce?"
 
-	para "I caught one too."
+	para "Yo también atrapé"
+	line "uno."
 
-	para "Take a look at it"
-	line "in the light. It's"
-	cont "got a funny face!"
+	para "Míralo bien a la"
+	line "luz. ¡Tiene una"
+	cont "cara graciosa!"
 	done
 
 SchoolgirlImogenSeenText:
-	text "I'm the best in my"
-	line "class at #mon."
+	text "Soy la mejor de mi"
+	line "clase en #mon."
 	done
 
 SchoolgirlImogenBeatenText:
-	text "So there are bet-"
-	line "ter trainers…"
+	text "Así que hay"
+	line "entrenadores"
+	cont "mejores…"
 	done
 
 Route33SignText:
-	text "Route 33"
+	text "Ruta 33"
 	done

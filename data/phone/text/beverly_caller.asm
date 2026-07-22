@@ -1,81 +1,81 @@
 BeverlyMadeMonEvenCuterText:
-	text "I fancied up my"
-	line ""
+	text "Arreglé a mi "
 	text_ram wStringBuffer4
-	text " and"
+	text " y"
 
-	para "made it even cuter"
-	line "than before!"
+	para "quedó aún más"
+	line "mono que antes!"
 	done
 
 BeverlyDefeatedMonText:
-	text "I happened to come"
-	line "across a wild"
-	cont "Snubbull recently."
+	text "Hace poco me"
+	line "topé con un"
+	cont "Snubbull salvaje."
 
-	para "My Snubbull, I"
-	line "assure you, was"
+	para "Mi Snubbull, te"
+	line "aseguro, era"
 
-	para "far cuter than the"
-	line "wild one."
+	para "mucho más mono"
+	line "que el salvaje."
 	done
 
 BeverlyLostAMonText:
-	text "I happened to see"
-	line "a wild Marill the"
+	text "El otro día vi"
+	line "un Marill"
+	cont "salvaje."
 
-	para "other day."
-	line "Or so I thought."
+	para "O eso creí."
 
-	para "A closer look"
-	line "showed it was"
+	para "Mirando mejor"
+	line "vi que era"
 
 	para ""
 	text_ram wStringBuffer4
-	text ". I was"
-	line "quite miffed."
+	text ". Me"
+	line "molestó."
 	done
 
 BeverlyHangUpText:
-	text "You can expect a"
-	line "call from me."
+	text "Espera mi"
+	line "llamada."
 	done
 
 BeverlyFoundItemText:
-	text "My husband got"
-	line "some Nuggets."
+	text "Mi marido"
+	line "consiguió unas"
+	cont "Pepitas."
 
-	para "If you'd like, you"
-	line "could have one as"
+	para "Si quieres,"
+	line "puedo darte una"
+	cont "en"
+	cont "agradecimiento."
 
-	para "thanks for helping"
-	line "me out."
-
-	para "I'll be at"
+	para "Estaré en:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Please come see me"
-	line "when you can."
+	para "Ven a verme"
+	line "cuando puedas."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Are your #mon"
-	line "in prime form?"
+	text "¿Tus #mon"
+	line "están en forma?"
 
-	para "Let's chat about"
-	line "#mon again."
+	para "Hablemos de"
+	line "#mon otra vez."
 	done
 
 BeverlyComePickUpText:
-	text "Pardon?"
-	line "Oh, the Nugget?"
+	text "¿Perdón?"
+	line "¿Ah, la Pepita?"
 
-	para "There's no need to"
-	line "hurry. Come see me"
+	para "No hay prisa."
+	line "Ven a verme"
 
-	para "in "
+	para "a "
 	text_ram wStringBuffer5
-	line "when you can."
+	line "cuando"
+	cont "puedas."
 	done

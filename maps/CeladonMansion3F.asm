@@ -52,12 +52,12 @@ GameFreakGameDesignerScript:
 	setevent EVENT_ENABLE_DIPLOMA_PRINTING
 	jumpthisopenedtext
 
-	text "The Graphic Artist"
-	line "will print out a"
-	cont "Diploma for you."
+	text "El Artista Gráfico"
+	line "te imprimirá un"
+	cont "Diploma."
 
-	para "You should go show"
-	line "that off!"
+	para "¡Deberías ir a"
+	line "presumirlo!"
 	done
 
 GameFreakGraphicArtistScript:
@@ -83,16 +83,17 @@ GameFreakGraphicArtistScript:
 MapCeladonMansion3FSignpost0Script:
 	jumpthistext
 
-	text "Game Freak"
-	line "Development Room"
+	text "Sala de"
+	line "Desarrollo de"
+	cont "Game Freak"
 	done
 
 MapCeladonMansion3FSignpost1Script:
 	jumpthistext
 
-	text "It's a detailed"
-	line "drawing of a"
-	cont "pretty girl."
+	text "Es un dibujo"
+	line "detallado de una"
+	cont "chica guapa."
 	done
 
 MapCeladonMansion3FSignpost2Script:
@@ -113,116 +114,122 @@ MapCeladonMansion3FSignpost2Script:
 MapCeladonMansion3FSignpost3Script:
 	jumpthistext
 
-	text "It's crammed with"
-	line "reference materi-"
-	cont "als. There's even"
-	cont "a # Doll."
+	text "Está repleto de"
+	line "material de"
+	cont "referencia."
+	cont "Incluso hay un"
+	cont "Muñeco #."
 	done
 
 GameFreakGameDesignerText:
-	text "Is that right?"
+	text "¿En serio?"
 
-	para "I'm the Game"
-	line "Designer!"
+	para "¡Soy el Diseñador"
+	line "de Juegos!"
 
-	para "Filling up your"
-	line "#dex is tough,"
-	cont "but don't give up!"
+	para "Llenar tu #dex"
+	line "es difícil, pero"
+	cont "¡no te rindas!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Excellent!"
-	line "You completed your"
+	text "¡Vaya! ¡Excelente!"
+	line "¡Completaste tu"
 	cont "#dex!"
 
-	para "Congratulations!"
+	para "¡Felicidades!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
-	text "To recognize your"
-	line "achievement…"
-	cont "here you go!"
+	text "Para reconocer tu"
+	line "logro…"
+	cont "¡aquí tienes!"
 
-	para "A crisp new"
-	line "Diploma!"
+	para "¡Un Diploma"
+	line "recién hecho!"
 	done
 
 GameFreakGameDesignerGiveDiplomaText:
-	text "<PLAYER> received"
-	line "Diploma!"
+	text "<PLAYER> recibió"
+	line "un Diploma!"
 	done
 
 GameFreakGameDesignerDiplomaSentText:
-	text "Diploma"
-	line "was sent home."
+	text "El Diploma se"
+	line "envió a casa."
 	done
 
 
 GameFreakDesignerGaveDiplomaText:
-	text "Congratulations"
-	line "for completing"
-	cont "your #dex!"
+	text "¡Felicidades por"
+	line "completar tu"
+	cont "#dex!"
 
-	para "You should show"
-	line "off that Diploma!"
+	para "¡Deberías"
+	line "presumir ese"
+	cont "Diploma!"
 	done
 
 GameFreakGraphicArtistText:
-	text "I'm the Graphic"
-	line "Artist."
+	text "Soy el Artista"
+	line "Gráfico."
 
-	para "I drew you!"
+	para "¡Yo te dibujé!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "I'm the Graphic"
-	line "Arist."
+	text "Soy el Artista"
+	line "Gráfico."
 
-	para "Oh, you completed"
-	line "your #dex?"
+	para "Oh, ¿completaste"
+	line "tu #dex?"
 
-	para "Want me to print"
-	line "out your Diploma?"
+	para "¿Quieres que"
+	line "imprima tu"
+	cont "Diploma?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Give me a shout if"
-	line "you want your"
-	cont "Diploma printed."
+	text "Avísame si quieres"
+	line "que imprima tu"
+	cont "Diploma."
 	done
 
 GameFreakProgrammerText:
-	text "Who, me? I'm the"
-	line "Programmer."
+	text "¿Yo? Soy el"
+	line "Programador."
 
-	para "Use the Wonder"
-	line "Trade Hub!"
+	para "¡Usa el Centro de"
+	line "Intercambio"
+	cont "Sorpresa!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Isn't Lyra"
+	text "¿No es Lyra"
 	line "adorable?"
 
-	para "Jasmine's pretty"
-	line "too."
+	para "Jasmine también"
+	line "es bonita."
 
-	para "Oh, I love them!"
+	para "¡Ah, las adoro!"
 	done
 
 
 
 CeladonMansion3FGameProgramText:
-	text "It's the game"
-	line "program. Messing"
+	text "Es el programa del"
+	line "juego."
+	cont "¡Toquetearlo"
 
-	para "with it could put"
-	line "a bug in the game!"
+	para "podría meter un"
+	line "bug en el juego!"
 
-	para "Want to mess with"
-	line "it anyway?"
+	para "¿Quieres"
+	line "toquetearlo de"
+	cont "todos modos?"
 	done
 
 CeladonMansion3FAreYouSureText:
-	text "Are you sure?"
-	line "It could crash!"
+	text "¿Seguro?"
+	line "¡Podría fallar!"
 	done

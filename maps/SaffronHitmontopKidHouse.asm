@@ -45,9 +45,9 @@ SaffronHitmontopKidHouseChildScript:
 	done
 
 .Text3:
-	text "That's a"
+	text "¡Es un"
 	line "Hitmontop!"
-	cont "Oh boy! So cool!"
+	cont "¡Qué guay!"
 	done
 
 .SpinMovement:
@@ -82,32 +82,32 @@ SaffronHitmontopKidHouseTeacherScript:
 	jumpthisopenedtext
 
 .Text3:
-	text "My son finally got"
-	line "to meet his favor-"
-	cont "ite #mon."
+	text "Mi hijo por fin"
+	line "conoció a su"
+	cont "#mon favorito."
 	done
 
 .Text1:
-	text "My son likes to"
-	line "pretend he's a"
+	text "A mi hijo le gusta"
+	line "fingir que es un"
 	cont "#mon."
 
-	para "It gets a little"
-	line "embarrassing some-"
-	cont "times."
+	para "A veces da un"
+	line "poco de repelús."
 
-	para "Maybe if he saw a"
-	line "real Hitmontop he"
-	cont "would calm down…"
+	para "Quizá si viera un"
+	line "Hitmontop de"
+	cont "verdad, se"
+	cont "calmaría…"
 	done
 
 .Text2:
-	text "Oh my! You made my"
-	line "son so happy!"
+	text "¡Vaya! ¡Hiciste"
+	line "muy feliz a mi"
+	cont "hijo!"
 
-	para "It's not much of a"
-	line "thank-you, but I'd"
-
-	para "like you to have"
-	line "this."
+	para "No es gran cosa"
+	line "como agradecimien-"
+	cont "to, pero quiero"
+	cont "que tengas esto."
 	done

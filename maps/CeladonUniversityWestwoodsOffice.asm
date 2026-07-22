@@ -32,69 +32,67 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "I'll just buy some"
-	line "ramen in the cafe-"
-	cont "teria."
+	text "Me compraré"
+	line "ramen en la"
+	cont "cafetería."
 	done
 
 .Text1:
-	text "I was told there"
-	line "would be free"
-	cont "pizza here!"
+	text "¡Me dijeron que"
+	line "habría pizza"
+	cont "gratis aquí!"
 
-	para "Where is it?"
+	para "¿Dónde está?"
 
-	para "I'm so ANGRY!"
+	para "¡ESTOY FURIOSO!"
 
-	para "…Maybe I should"
-	line "quit snacking on"
-if DEF(FAITHFUL)
-	cont "RageCandyBars."
-else
-	cont "Cakes of Rage."
-endc
+	para "…Quizá debería"
+	line "dejar de picar"
+	cont "Pastel Furia."
 
-	para "You can have this"
-	line "one."
+	para "Puedes quedarte"
+	line "con este."
 	done
 
 CeladonUniversityWestwoodsOfficeBookText:
-	text "Dear Diary,"
+	text "Querido diario,"
 
-	para "My work compiling"
-	line "entries for the"
+	para "Mi trabajo"
+	line "recopilando"
+	cont "entradas para la"
+	cont "#dex."
 
-	para "#dex continues"
-	line "to be well-recei-"
-	cont "ved."
+	para "Sigue siendo"
+	line "bien recibido."
 
-	para "Proof that one"
-	line "does not always"
+	para "Prueba de que no"
+	line "siempre hay que"
+	cont "salir de la"
+	cont "oficina para"
+	cont "triunfar!"
 
-	para "need to leave the"
-	line "office to succeed!"
+	para "Usar los informes"
+	line "que envían otros"
 
-	para "Using reports sub-"
-	line "mitted by others"
-
-	para "gets the job done"
-	line "just fine."
+	para "también funciona"
+	line "bien."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost1Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood I."
 	done
 
 CeladonUniversityWestwoodsOfficeSignpost2Text:
-	text "It's a portrait of"
+	text "Es un retrato de"
 	line "Westwood III."
 	done
 
 CeladonUniversityWestwoodsOfficeBookshelfText:
-	text "The Complete Works"
-	line "of Prof.Westwood."
+	text "Las Obras"
+	line "Completas del"
+	cont "Prof. Westwood."
 
-	para "…Might give that"
-	line "one a miss."
+	para "…Mejor me lo"
+	line "salto."
 	done

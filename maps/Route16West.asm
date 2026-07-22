@@ -26,96 +26,100 @@ Route16West_MapScriptHeader:
 GenericTrainerLassGina:
 	generictrainer LASS, GINA, EVENT_BEAT_LASS_GINA, .SeenText, .BeatenText
 
-	text "My strappy sandals"
-	line "look sooo cute,"
-	cont "though! ♥"
+	text "¡Mis sandalias"
+	line "finas son taaan"
+	cont "monas! ♥"
 	done
 
 .SeenText:
-	text "Check out my new"
-	line "outfit!"
+	text "¡Mira mi look"
+	line "nuevo!"
 	done
 
 .BeatenText:
-	text "If I'd spent money"
-	line "on Potions instead"
-	cont "of clothes…"
+	text "Si hubiera"
+	line "gastado en"
+	cont "Pociones en vez"
+	cont "de ropa…"
 	done
 
 GenericTrainerLassAlice:
 	generictrainer LASS, ALICE, EVENT_BEAT_LASS_ALICE, .SeenText, .BeatenText
 
-	text "I'm really a guy…"
-	line "Don't tell anyone!"
+	text "En realidad soy"
+	line "chico… ¡No se lo"
+	cont "digas a nadie!"
 	done
 
 .SeenText:
-	text "Our eyes met!"
+	text "¡Nuestras miradas"
+	line "se cruzaron!"
 
-	para "Now you must date"
-	line "me! ♥"
+	para "¡Ahora debes salir"
+	line "conmigo! ♥"
 
-	para "No wait, I mean,"
-	line "we must battle!"
+	para "No espera, quiero"
+	line "decir, ¡debemos"
+	cont "combatir!"
 	done
 
 .BeatenText:
-	text "How could you be"
-	line "so cruel?"
+	text "¿Cómo puedes ser"
+	line "tan cruel?"
 	done
 
 GenericTrainerCosplayerKuroko:
 	generictrainer COSPLAYER, KUROKO, EVENT_BEAT_COSPLAYER_KUROKO, .SeenText, .BeatenText
 
-	text "One time a trainer"
-	line "threw a # Ball"
-	cont "at me!"
+	text "Una vez un"
+	line "entrenador me tiró"
+	cont "una # Ball!"
 	done
 
 .SeenText:
-	text "See how lifelike"
-	line "my cosplay is?"
+	text "¿Ves qué realista"
+	line "es mi cosplay?"
 	done
 
 .BeatenText:
-	text "You just don't"
-	line "appreciate art!"
+	text "¡Es que no"
+	line "aprecias el arte!"
 	done
 
 GenericTrainerCooltrainerfSera:
 	generictrainer COOLTRAINERF, SERA, EVENT_BEAT_COOLTRAINERF_SERA, .SeenText, .BeatenText
 
-	text "I've gone out as"
-	line "a Cosplayer, but"
+	text "Salí vestida de"
+	line "Cosplayer, pero"
 
-	para "an Ace Trainer's"
-	line "outfit is more"
-	cont "intimidating."
+	para "el traje de"
+	line "Entr. Élite es"
+	cont "más intimidante."
 	done
 
 .SeenText:
-	text "Do you think you"
-	line "can handle me?"
+	text "¿Crees que puedes"
+	line "conmigo?"
 	done
 
 .BeatenText:
-	text "Congrats! ♥"
+	text "¡Felicidades! ♥"
 	done
 
 GenericTrainerBeautyNicole:
 	generictrainer BEAUTY, BEAUTY_NICOLE, EVENT_BEAT_BEAUTY_NICOLE, .SeenText, .BeatenText
 
-	text "Cute #mon can"
-	line "be strong too,"
-	cont "you know!"
+	text "Los #mon monos"
+	line "también pueden"
+	cont "ser fuertes!"
 	done
 
 .SeenText:
-	text "Aren't my #mon"
-	line "the cutest?"
+	text "¿A que mis #mon"
+	line "son los más monos?"
 	done
 
 .BeatenText:
-	text "They're even cute"
-	line "while fainted…"
+	text "Son monos hasta"
+	line "debilitados…"
 	done

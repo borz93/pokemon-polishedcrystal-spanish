@@ -26,17 +26,16 @@ PokemonJournalJanineScript:
 	setflag ENGINE_READ_JANINE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Janine!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Janine!"
 
-	para "Janine was said to"
-	line "be a fan of the"
-
-	para "#mon zoo in"
-	line "Fuchsia City"
-	cont "as a child."
+	para "Dicen que de niña"
+	line "era fan del zoo"
+	cont "#mon de Ciudad"
+	cont "Fucsia."
 	done
 
 JanineImpersonatorScript:
@@ -53,13 +52,14 @@ JanineImpersonatorScript:
 	end
 
 .Text1:
-	text "I'm Janine! Hocus-"
-	line "pocus… Poof!"
+	text "¡Soy Janine!"
+	line "Abracadabra…"
+	cont "¡Puf!"
 	done
 
 .Text2:
-	text "See? I look just"
-	line "like her now!"
+	text "¿Ves? Ahora soy"
+	line "igualita a ella!"
 	done
 
 .SpinMovement:
@@ -73,19 +73,20 @@ endr
 	step_end
 
 FuchsiaPokeCenter1FCooltrainerMText:
-	text "Hey! You have a"
-	line "brand new kind of"
-	cont "#dex."
+	text "¡Oye! Tienes un"
+	line "#dex de un tipo"
+	cont "nuevo."
 
-	para "Did Prof.Oak give"
-	line "that to you?"
+	para "¿Te lo dio el"
+	line "Prof. Oak?"
 	done
 
 FuchsiaPokeCenter1FCooltrainerFText:
-	text "I got quite a"
-	line "shock at the Gym."
+	text "Me llevé un"
+	line "buen susto en"
+	cont "el Gimnasio."
 
-	para "There were all"
-	line "these girls who"
-	cont "looked identical."
+	para "Había un montón"
+	line "de chicas que"
+	cont "eran idénticas."
 	done

@@ -70,36 +70,36 @@ SetupFairyBookScript:
 	endcallback
 
 ValeriesHouseValerieText:
-	text "Valerie: My"
-	line "fashion designs"
+	text "Valerie: Dicen que"
+	line "mis diseños de"
 
-	para "are said to be"
-	line "rather mystifying."
-	cont "Do you agree with"
-	cont "that?"
+	para "moda son bastante"
+	line "enigmáticos."
+	cont "¿Tú qué opinas?"
 
-	para "I've always wanted"
-	line "to be a #mon,"
-	cont "you see."
+	para "Siempre he querido"
+	line "ser un #mon,"
+	cont "¿sabes?"
 
-	para "That desire is my"
-	line "inspiration and"
+	para "Ese deseo es mi"
+	line "inspiración y lo"
 
-	para "what I try to"
-	line "achieve by"
-	cont "designing."
+	para "que intento"
+	line "lograr al"
+	cont "diseñar."
 
-	para "And yet… the only"
-	line "time I feel truly"
+	para "Y aun así… el"
+	line "único momento en"
 
-	para "one with #mon"
-	line "is when we are"
+	para "que me siento uno"
+	line "con los #mon"
 
-	para "embroiled in"
-	line "desperate battle."
+	para "es en medio de un"
+	line "combate"
+	cont "desesperado."
 
-	para "I wonder why that"
-	line "is…"
+	para "Me pregunto por"
+	line "qué será…"
 	done
 
 ValeriesHouseFairyBookScript:
@@ -117,60 +117,66 @@ ValeriesHouseFairyBookScript:
 .Sunday
 	jumpthisopenedtext
 
-	text "A man is being"
-	line "led by a turtle"
-	cont "under the sea…"
+	text "Una tortuga guía"
+	line "a un hombre bajo"
+	cont "el mar…"
 	done
 
 .Monday
 	jumpthisopenedtext
 
-	text "A peasant's house"
-	line "has become a fine"
-	cont "palace overnight…"
+	text "La casa de un"
+	line "campesino se"
+	cont "vuelve un palacio"
+	cont "de la noche a la"
+	cont "mañana…"
 	done
 
 .Tuesday
 	jumpthisopenedtext
 
-	text "A girl with very"
-	line "long hair is lock-"
-	cont "ed in a tower…"
+	text "Una chica de pelo"
+	line "muy largo está"
+	cont "encerrada en una"
+	cont "torre…"
 	done
 
 .Wednesday
 	jumpthisopenedtext
 
-	text "A beautiful girl"
-	line "is talking to a"
-	cont "horse's head…"
+	text "Una chica bella"
+	line "habla con la"
+	cont "cabeza de un"
+	cont "caballo…"
 	done
 
 .Thursday
 	jumpthisopenedtext
 
-	text "A talking fish"
-	line "claims that it can"
-	cont "grant wishes…"
+	text "Un pez parlante"
+	line "dice que puede"
+	cont "conceder deseos…"
 	done
 
 .Friday
 	jumpthisopenedtext
 
-	text "A golden apple"
-	line "tree stands atop"
-	cont "a glass mountain…"
+	text "Un manzano de oro"
+	line "se alza sobre una"
+	cont "montaña de"
+	cont "cristal…"
 	done
 
 .Saturday
 	jumpthisopenedtext
 
-	text "A dog digs in the"
-	line "garden and finds"
-	cont "golden treasure…"
+	text "Un perro cava en"
+	line "el jardín y halla"
+	cont "un tesoro"
+	cont "dorado…"
 	done
 
 ValeriesHouseFairyBookText:
-	text "It's a book of"
-	line "fairy tales."
+	text "Es un libro de"
+	line "cuentos de hadas."
 	done

@@ -98,42 +98,44 @@ YellowForest_FinishBridge:
 GenericTrainerSchoolgirlSarah:
 	generictrainer SCHOOLGIRL, SARAH, EVENT_BEAT_SCHOOLGIRL_SARAH, SchoolgirlSarahSeenText, SchoolgirlSarahBeatenText
 
-	text "If we were at my"
-	line "school, I'd have"
-	cont "beaten you!"
+	text "¡Si estuviéramos"
+	line "en mi colegio, te"
+	cont "habría vencido!"
 	done
 
 GenericTrainerSchoolgirlIsabel:
 	generictrainer SCHOOLGIRL, ISABEL, EVENT_BEAT_SCHOOLGIRL_ISABEL, SchoolgirlIsabelSeenText, SchoolgirlIsabelBeatenText
 
-	text "We're learning"
-	line "about how #mon"
+	text "Estamos"
+	line "aprendiendo cómo"
+	cont "prosperan los"
 
-	para "thrive together"
-	line "in the wild."
+	para "#mon juntos en"
+	line "estado salvaje."
 	done
 
 GenericTrainerTeacherKathryn:
 	generictrainer TEACHER_F, KATHRYN, EVENT_BEAT_TEACHER_KATHRYN, TeacherKathrynSeenText, TeacherKathrynBeatenText
 
-	text "Keeping an eye on"
-	line "everyone during a"
+	text "Vigilar a todos"
+	line "durante una"
 
-	para "field trip is"
-	line "hard work."
+	para "excursión es"
+	line "trabajo duro."
 	done
 
 GenericTrainerBreederSophie:
 	generictrainer BREEDER, SOPHIE, EVENT_BEAT_BREEDER_SOPHIE, BreederSophieSeenText, BreederSophieBeatenText
 
-	text "Sometimes Pikachu"
-	line "use their electric"
+	text "A veces los"
+	line "Pikachu usan sus"
 
-	para "shocks to revive"
-	line "fainted ones."
+	para "descargas para"
+	line "reanimar a los"
+	cont "debilitados."
 
-	para "That's just the"
-	line "cutest!"
+	para "¡Eso es lo más"
+	line "mono que hay!"
 	done
 
 YellowForestWalkerScript:
@@ -236,24 +238,25 @@ YellowForestTutorSeedBombScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Talk to me if you"
-	line "change your mind!"
+	text "¡Habla conmigo si"
+	line "cambias de idea!"
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "Aw, you don't have"
-	line "a Silver Leaf."
+	text "Vaya, no tienes"
+	line "una Hoja"
+	cont "Plateada."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Seed Bomb!"
+	text "¡Tu #mon ya"
+	line "sabe usar"
+	cont "Bomba Germen!"
 	done
 
 YellowForestSurfPikachuDoll:
@@ -266,240 +269,254 @@ YellowForestSurfPikachuDoll:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Surf Pikachu Doll"
-	line "was sent home."
+	text "El Muñeco Pikachu"
+	line "Surf se envió a"
+	cont "casa."
 	done
 
 SchoolgirlSarahSeenText:
-	text "Ooh, a trainer!"
-	line "I want to battle!"
+	text "¡Oh, un"
+	line "entrenador!"
+	cont "¡Quiero"
+	cont "combatir!"
 	done
 
 SchoolgirlSarahBeatenText:
-	text "Sniff…"
-	line "You made me lose!"
+	text "Snif…"
+	line "¡Me hiciste"
+	cont "perder!"
 	done
 
 SchoolgirlIsabelSeenText:
-	text "Do you have cute"
-	line "#mon like the"
-	cont "ones here?"
+	text "¿Tienes #mon"
+	line "monos como los de"
+	cont "aquí?"
 	done
 
 SchoolgirlIsabelBeatenText:
-	text "You have really"
-	line "strong #mon!"
+	text "¡Tienes #mon"
+	line "muy fuertes!"
 	done
 
 TeacherKathrynSeenText:
-	text "You there!"
-	line "You're a trainer?"
+	text "¡Tú! ¿Eres"
+	line "entrenador?"
 
-	para "You had better not"
-	line "make my students"
-	cont "cry!"
+	para "¡Más te vale no"
+	line "hacer llorar a mis"
+	cont "estudiantes!"
 	done
 
 TeacherKathrynBeatenText:
-	text "I won't let this"
-	line "make me cry…"
+	text "No dejaré que esto"
+	line "me haga llorar…"
 	done
 
 BreederSophieSeenText:
-	text "Did you know that"
-	line "Pikachu is an"
-	cont "evolved #mon?"
+	text "¿Sabías que"
+	line "Pikachu es un"
+	cont "#mon"
+	cont "evolucionado?"
 	done
 
 BreederSophieBeatenText:
-	text "I thought so!"
+	text "¡Eso pensaba!"
 	done
 
 YellowForestWalkerSeenText:
-	text "Hello there!"
-	line "The name's Walker."
+	text "¡Hola! Me llamo"
+	line "Walker."
 
-	para "I was once the Gym"
-	line "Leader of Violet"
+	para "Fui Líder de"
+	line "Gimnasio de"
+	cont "Ciudad Malva,"
 
-	para "City, but I left"
-	line "that to my son."
+	para "pero se lo dejé a"
+	line "mi hijo."
 
-	para "Now I wander"
-	line "through Johto and"
+	para "Ahora vago por"
+	line "Johto disfrutando"
+	cont "del paisaje."
 
-	para "take in the"
-	line "sights."
+	para "Walker: ¿Estás"
+	line "coleccionando"
+	cont "Medallas, eh?"
 
-	para "Walker: You're"
-	line "collecting Gym"
-	cont "Badges, huh?"
+	para "¡Pues mi hijo"
+	line "perdió contra ti!"
 
-	para "Then my son lost"
-	line "to you!"
+	para "Ahora quiero"
+	line "probar tu"
+	cont "habilidad yo"
+	cont "mismo."
 
-	para "Now I want to"
-	line "test your skill"
-	cont "for myself."
+	para "No tengo una"
+	line "Medalla, ¡pero"
 
-	para "I don't have a"
-	line "Badge, but you'll"
-
-	para "get something"
-	line "nice if you win!"
+	para "conseguirás algo"
+	line "bueno si ganas!"
 	done
 
 YellowForestWalkerBeatenText:
-	text "My bird #mon…"
-	line "Taken down!"
+	text "Mis #mon"
+	line "pájaro…"
+	cont "¡Derrotados!"
 	done
 
 YellowForestWalkerAfterText:
-	text "Walker: Well, I"
-	line "can see why you"
+	text "Walker: Bueno, ya"
+	line "veo por qué"
 
-	para "won against"
+	para "venciste a"
 	line "Falkner."
 
-	para "You know your"
-	line "#mon inside"
-	cont "and out!"
+	para "¡Conoces a tus"
+	line "#mon a la"
+	cont "perfección!"
 
-	para "You've earned"
-	line "this HM."
+	para "Te has ganado"
+	line "esta MO."
 	done
 
 YellowForestWalkerFinalText:
-	text "Walker: Bird"
-	line "#mon soar"
+	text "Walker: Los"
+	line "#mon pájaro"
 
-	para "through the sky"
-	line "because that's"
+	para "surcan el cielo"
+	line "porque eso es lo"
 
-	para "what they want to"
-	line "do with all their"
-	cont "heart."
+	para "que quieren hacer"
+	line "con todo su"
+	cont "corazón."
 
-	para "If you want some-"
-	line "thing that badly,"
+	para "Si quieres algo"
+	line "así de fuerte,"
 
-	para "I know you can"
-	line "reach it."
+	para "sé que puedes"
+	line "conseguirlo."
 
-	para "What I want is"
-	line "to keep wandering."
+	para "Lo que yo quiero"
+	line "es seguir"
+	cont "vagando."
 
-	para "Goodbye!"
+	para "¡Adiós!"
 	done
 
 YellowForestWalkerFlyText:
 	text "Skarmory,"
-	line "let's Fly!"
+	line "¡a volar!"
 	done
 
 YellowForestYellowGreetingText:
-	text "Yellow: Hi!"
-	line "I'm Yellow!"
+	text "Yellow: ¡Hola!"
+	line "¡Soy Yellow!"
 
-	para "This forest full"
-	line "of Pikachu…"
+	para "Este bosque lleno"
+	line "de Pikachu…"
 
-	para "It reminds me of"
-	line "home in Kanto."
+	para "Me recuerda a mi"
+	line "hogar en Kanto."
 
-	para "Where I caught my"
-	line "first #mon."
+	para "Donde atrapé mi"
+	line "primer #mon."
 
-	para "The trainer who"
-	line "helped me catch it"
-	cont "told me something."
+	para "El entrenador que"
+	line "me ayudó a"
+	cont "atraparlo me dijo"
+	cont "algo."
 
-	para "That if you care"
-	line "for #mon with"
+	para "Que si cuidas a"
+	line "tus #mon con"
 
-	para "all your heart,"
-	line "they'll always be"
-	cont "your friends!"
+	para "todo el corazón,"
+	line "¡siempre serán tus"
+	cont "amigos!"
 
-	para "I can sense that"
-	line "you care about"
+	para "Puedo sentir que"
+	line "te importan tus"
 
-	para "your #mon."
-	line "So let me see"
+	para "#mon. ¡Así que"
+	line "déjame ver qué"
 
-	para "what your friends"
-	line "can do!"
+	para "pueden hacer tus"
+	line "amigos!"
 	done
 
 YellowForestYellowWinLossText:
-	text "Haha! What a"
-	line "battle!"
+	text "¡Jaja! ¡Vaya"
+	line "combate!"
 	done
 
 YellowForestYellowAfterText:
-	text "Yellow: Wow!"
-	line "You really are a"
+	text "Yellow: ¡Vaya! De"
+	line "verdad eres un"
 
-	para "good trainer."
-	line "Here's something"
+	para "buen entrenador."
+	line "¡Toma algo que tus"
 
-	para "that your friends"
-	line "will appreciate!"
+	para "amigos"
+	line "apreciarán!"
 	done
 
 YellowForestYellowGoodbyeText:
-	text "Yellow: Give that"
-	line "Light Ball to a"
+	text "Yellow: Dale esa"
+	line "Bola Luz a un"
 
-	para "Pikachu to raise"
-	line "its power."
+	para "Pikachu para"
+	line "aumentar su"
+	cont "poder."
 	done
 
 YellowForestCooltrainerMText:
-	text "Seeds are surpris-"
-	line "ingly powerful."
+	text "Las semillas son"
+	line "sorprendentemente"
+	cont "poderosas."
 
-	para "Over many years,"
-	line "a small seed can"
+	para "Con los años, una"
+	line "semilla pequeña"
 
-	para "grow into a huge"
-	line "tree."
+	para "puede crecer hasta"
+	line "ser un árbol"
+	cont "enorme."
 
-	para "And a big seed can"
-	line "just fall down and"
-	cont "hit you!"
+	para "¡Y una semilla"
+	line "grande puede caer"
+	cont "y golpearte!"
 	done
 
 Text_YellowForestTutorSeedBomb:
-	text "I can teach your"
-	line "#mon how to"
+	text "Puedo enseñarle a"
+	line "tu #mon a usar"
 
-	para "use Seed Bomb"
-	line "for a Silver Leaf."
+	para "Bomba Germen por"
+	line "una Hoja"
+	cont "Plateada."
 	done
 
 
 Text_YellowForestTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Seed Bomb?"
+	text "¿Le enseño Bomba"
+	line "Germen a tu"
+	cont "#mon?"
 	done
 
 
 
 YellowForestSuperNerdText:
-	text "There's a protein"
-	line "in your body"
-	cont "called pikachurin."
+	text "Hay una proteína"
+	line "en tu cuerpo"
+	cont "llamada"
+	cont "pikachurina."
 
-	para "What inspired that"
-	line "name?"
+	para "¿Qué inspiró ese"
+	line "nombre?"
 
-	para "Pikachu, of"
-	line "course!"
+	para "¡Pikachu, claro"
+	line "está!"
 	done
 
 YellowForestSurfPikachuDollText:
-	text "<PLAYER> found"
-	line "Surf Pikachu Doll."
+	text "<PLAYER> encontró"
+	line "el Muñeco Pikachu"
+	cont "Surf."
 	done

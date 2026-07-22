@@ -14,6 +14,7 @@ LavRadioTower1F_MapScriptHeader:
 	def_bg_events
 	bg_event 11,  0, BGEVENT_JUMPTEXT, LavRadioTower1FDirectoryText
 	bg_event  5,  0, BGEVENT_JUMPTEXT, LavRadioTower1FPokeFluteSignText
+	bg_event  8,  0, BGEVENT_JUMPTEXT, LavRadioTower1FReferenceLibraryText
 
 	def_object_events
 	object_event  6,  6, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, LavRadioTower1FReceptionistText, -1
@@ -46,48 +47,51 @@ LavRadioTower1FGentlemanScript:
 	jumpthisopenedtext
 
 .GotExpnCardText:
-	text "With that thing,"
-	line "you can tune into"
+	text "Con eso, puedes"
+	line "sintonizar los"
 
-	para "the radio programs"
-	line "here in Kanto."
+	para "programas de radio"
+	line "aquí en Kanto."
 
-	para "Gahahahaha!"
+	para "¡Jajajaja!"
 	done
 
 .OffTheAirText:
-	text "Oh, no, no, no!"
+	text "¡Oh, no, no, no!"
 
-	para "We've been off the"
-	line "air ever since the"
+	para "Estamos fuera del"
+	line "aire desde que la"
 
-	para "Power Plant shut"
-	line "down."
+	para "Central Eléctrica"
+	line "cerró."
 
-	para "All my efforts to"
-	line "start this station"
+	para "Todos mis"
+	line "esfuerzos por"
 
-	para "would be wasted if"
-	line "I can't broadcast."
+	para "iniciar esta"
+	line "emisora se"
+	cont "desperdiciarán si"
+	cont "no puedo emitir."
 
-	para "I'll be ruined!"
+	para "¡Estaré arruinado!"
 	done
 
 .ReturnedMachinePartText:
-	text "Ah! So you're the"
-	line "<PLAYER> who solved"
+	text "¡Ah! Así que eres"
+	line "el <PLAYER> que"
 
-	para "the Power Plant's"
-	line "problem?"
+	para "resolvió el"
+	line "problema de la"
+	cont "Central Eléctrica?"
 
-	para "Thanks to you, I"
-	line "never lost my job."
+	para "Gracias a ti, no"
+	line "perdí mi trabajo."
 
-	para "I tell you, you're"
-	line "a real lifesaver!"
+	para "¡Te digo que eres"
+	line "todo un salvador!"
 
-	para "Please take this"
-	line "as my thanks."
+	para "Toma esto como mi"
+	line "agradecimiento."
 	done
 
 LavRadioTower1FSuperNerd2Script:
@@ -95,101 +99,106 @@ LavRadioTower1FSuperNerd2Script:
 	iftrue_jumptextfaceplayer LavRadioTower1FSuperNerd2Text_GotExpnCard
 	jumpthistextfaceplayer
 
-	text "Hey there!"
+	text "¡Hola!"
 
-	para "I am the super"
-	line "Music Director!"
+	para "¡Soy el Director"
+	line "Musical supremo!"
 
-	para "Huh? Your #gear"
-	line "can't tune into my"
+	para "¿Eh? Tu #gear no"
+	line "sintoniza mis"
 
-	para "music programs."
-	line "How unfortunate!"
+	para "programas de"
+	line "música."
+	cont "¡Qué lástima!"
 
-	para "If you get a Expn."
-	line "Card upgrade, you"
+	para "Si consigues una"
+	line "Tarj. Expn.,"
+	cont "podrás sintonizar."
 
-	para "can tune in. You'd"
-	line "better get one!"
+	para "¡Más te vale"
+	line "conseguir una!"
 	done
 
 LavRadioTower1FReceptionistText:
-	text "Welcome!"
-	line "Feel free to look"
+	text "¡Bienvenido!"
+	line "Siéntete libre de"
 
-	para "around anywhere on"
-	line "this floor."
+	para "mirar por todo"
+	line "este piso."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Sorry, but you can"
-	line "only tour the"
-	cont "ground floor."
+	text "Lo siento, pero"
+	line "solo puedes"
+	cont "visitar la planta"
+	cont "baja."
 
-	para "Ever since Johto's"
-	line "Radio Tower was"
+	para "Desde que la Torre"
+	line "Radio de Johto fue"
 
-	para "taken over by a"
-	line "criminal gang, we"
+	para "tomada por una"
+	line "banda criminal,"
 
-	para "have had to step"
-	line "up our security."
+	para "tuvimos que"
+	line "reforzar nuestra"
+	cont "seguridad."
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Many people are"
-	line "hard at work here"
+	text "Mucha gente"
+	line "trabaja duro aquí"
 
-	para "in the Radio"
-	line "Tower."
+	para "en la Torre"
+	line "Radio."
 
-	para "They must be doing"
-	line "their best to put"
-	cont "on good shows."
+	para "Deben esforzarse"
+	line "al máximo para"
+	cont "hacer buenos"
+	cont "programas."
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Hey there!"
+	text "¡Hola!"
 
-	para "I am the super"
-	line "Music Director!"
+	para "¡Soy el Director"
+	line "Musical supremo!"
 
-	para "I'm responsible"
-	line "for the gorgeous"
+	para "Soy responsable"
+	line "de las hermosas"
 
-	para "melodies that go"
-	line "out over the air."
+	para "melodías que salen"
+	line "al aire."
 
-	para "Don't be square."
-	line "Grab your music"
-	cont "off the air!"
+	para "No seas soso."
+	line "¡Consigue tu"
+	cont "música del aire!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F Reception"
-	line "2F Sales"
+	text "1F Recepción"
+	line "2F Ventas"
 
-	para "3F Personnel"
-	line "4F Production"
+	para "3F Personal"
+	line "4F Producción"
 
-	para "5F Director's"
-	line "   Office"
+	para "5F Despacho del"
+	line "   Director"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Perk Up #mon"
-	line "with Mellow Sounds"
+	text "Anima #mon con"
+	line "sonidos suaves"
 
-	para "of the # Flute"
-	line "on Channel 20"
+	para "de la Flauta #"
+	line "en el Canal 20"
 	done
 
-; TODO: use this text
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! A full rack"
-	line "of #mon CDs and"
-	cont "videos."
+	text "¡Vaya! Un estante"
+	line "lleno de CD y"
+	cont "vídeos #mon."
 
-	para "This must be the"
-	line "reference library."
+	para "Debe ser la"
+	line "biblioteca de"
+	cont "referencia."
 	done

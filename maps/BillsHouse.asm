@@ -21,29 +21,29 @@ PokemonJournalBillScript:
 	setflag ENGINE_READ_BILL_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "#Maniac Bill!"
+	para "Reportaje"
+	line "especial: Bill,"
+	cont "el #Maniaco!"
 
-	para "Bill invented the"
-	line "#mon Storage"
-	cont "System to hold his"
+	para "Bill inventó el"
+	line "Sistema de"
+	cont "Almacenamiento"
+	cont "para guardar su"
+	cont "enorme colección"
+	cont "#mon."
 
-	para "own vast #mon"
-	line "collection."
-
-	para "Apparently, the"
-	line "first one he"
-
-	para "caught was an"
-	line "Abra."
+	para "Al parecer, el"
+	line "primero que"
+	cont "atrapó fue un"
+	cont "Abra."
 	done
 
 BillsHousePCText:
-	text "There's a spinning"
-	line "3D model of a"
-	cont "Porygon."
+	text "Hay un modelo 3D"
+	line "de Porygon"
+	cont "girando."
 	done
 
 BillsHouseBillScript:
@@ -66,60 +66,62 @@ BillsHouseBillScript:
 	jumpthistext
 
 .AfterText:
-	text "That was one rad"
-	line "battle!"
+	text "¡Menudo combate"
+	line "tan guay!"
 
-	para "Any #Maniac"
-	line "would be thrilled"
-
-	para "to see what"
-	line "you've caught."
+	para "Cualquier"
+	line "#Maniaco se"
+	cont "emocionaría al"
+	cont "ver lo que has"
+	cont "atrapado."
 	done
 
 .IntroText:
-	text "Bill: Eevee is"
-	line "such a fascinating"
-	cont "#mon."
+	text "Bill: Eevee es"
+	line "un #mon"
+	cont "fascinante."
 
-	para "Some say that the"
-	line "three legendary"
+	para "Dicen que las tres"
+	line "bestias"
 
-	para "beasts of Johto"
-	line "were once three"
+	para "legendarias de"
+	line "Johto fueron antes"
 
-	para "#mon that"
-	line "evolve from Eevee."
+	para "tres #mon que"
+	line "evolucionan de"
+	cont "Eevee."
 
-	para "But that might be"
-	line "only a rumor."
+	para "Pero puede que"
+	line "solo sea un rumor."
 
-	para "Still, I'd sure"
-	line "love to see them…"
+	para "Aun así, me"
+	line "encantaría verlas…"
 	done
 
 .SeenText:
-	text "You caught all"
-	line "three of the"
-	cont "legendary beasts?"
+	text "¿Atrapaste las"
+	line "tres bestias"
+	cont "legendarias?"
 
-	para "That's so cool,"
+	para "¡Qué pasada,"
 	line "<PLAYER>!"
 
-	para "Do you think they"
-	line "were once related"
-	cont "to Eevee?"
+	para "¿Crees que"
+	line "estaban antes"
+	cont "relacionadas con"
+	cont "Eevee?"
 
-	para "Oh man, now I have"
-	line "to show you my"
-	cont "team!"
+	para "Vaya, ahora tengo"
+	line "que enseñarte"
+	cont "mi equipo!"
 
-	para "You can compare"
-	line "the three legends"
+	para "Puedes comparar"
+	line "las tres leyendas"
 
-	para "you battled to"
-	line "my own #mon!"
+	para "que combatiste con"
+	line "mis #mon!"
 	done
 
 .BeatenText:
-	text "Yeehah!"
+	text "¡Yija!"
 	done

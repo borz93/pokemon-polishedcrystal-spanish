@@ -28,15 +28,16 @@ GentlemanAlfredScript:
 	iftrue_jumptextfaceplayer GentlemanAlfredFinalText
 	jumpthistextfaceplayer
 
-	text "Up top is a #-"
-	line "mon that keeps the"
-	cont "Lighthouse lit."
+	text "Arriba hay un"
+	line "#mon que"
+	cont "mantiene el Faro"
+	cont "encendido."
 
-	para "But I hear that"
-	line "it's sick now and"
+	para "Pero oí que ahora"
+	line "está enfermo y no"
 
-	para "can't be cured by"
-	line "ordinary medicine."
+	para "se cura con"
+	line "medicina normal."
 	done
 
 TrainerSailorHuey1:
@@ -164,43 +165,46 @@ SailorHuey1Script:
 	jumpstd rematchgiftm
 
 SailorHuey1SeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "¡Los hombres de"
+	line "mar siempre"
+	cont "buscan un buen"
+	cont "combate!"
 	done
 
 SailorHuey1BeatenText:
-	text "Urf!"
-	line "I lose!"
+	text "¡Argh!"
+	line "¡Pierdo!"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "¿Hm? Este no es"
+	line "lugar para jugar."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "¡Ah! Veo que vas"
+	line "en serio."
 	done
 
 GentlemanAlfredFinalText:
-	text "Up top is a #-"
-	line "mon that keeps the"
-	cont "Lighthouse lit."
+	text "Arriba hay un"
+	line "#mon que"
+	cont "mantiene el Faro"
+	cont "encendido."
 
-	para "You helped cure"
-	line "its sickness?"
+	para "¿Ayudaste a curar"
+	line "su enfermedad?"
 
-	para "You've done us a"
-	line "real service!"
+	para "¡Nos hiciste un"
+	line "gran favor!"
 	done
 
 SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "¡Vaya! ¡Sigues tan"
+	line "fuerte como"
+	cont "siempre!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "En fin, toma esa"
+	line "medicina de"
+	cont "antes."
 	done

@@ -40,63 +40,65 @@ GoldenrodUndergroundEntrancesVeteranMScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "In the long run,"
-	line "the house always"
-	cont "wins…"
+	text "A la larga, la"
+	line "casa siempre"
+	cont "gana…"
 	done
 
 .Text1:
-	text "I tried to use"
-	line "this item in the"
+	text "Intenté usar"
+	line "este objeto en"
+	cont "la Sala de"
 
-	para "Game Corner, but"
-	line "they caught me."
+	para "Juegos, pero me"
+	line "pillaron."
 
-	para "You may as well"
-	line "take it."
+	para "Mejor quédatelo"
+	line "tú."
 	done
 
 GoldenrodUndergroundEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Hay algunas"
+	line "tiendas abajo…"
 
-	para "But there are"
-	line "also trainers."
+	para "Pero también hay"
+	line "entrenadores."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Me da miedo"
+	line "bajar ahí."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd1Text:
-	text "This tunnel was"
-	line "originally made"
-	cont "for deliveries to"
+	text "Este túnel se"
+	line "hizo para"
+	cont "repartos a los"
 
-	para "the department"
-	line "store."
+	para "Grandes"
+	line "Almacenes."
 
-	para "It's a nice short-"
-	line "cut across the"
-	cont "city too."
+	para "También es un"
+	line "buen atajo por"
+	cont "la ciudad."
 	done
 
 GoldenrodUndergroundEntrances_SuperNerd2Text:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Me retaron a un"
+	line "combate ahí"
+	cont "abajo."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "Es duro ahí"
+	line "abajo. Ten"
+	cont "cuidado."
 	done
 
 GoldenrodUndergroundEntrances_BeautyText:
-	text "I went on a tour"
-	line "of the Radio"
+	text "Hice un tour"
+	line "por la Torre"
+	cont "Radio."
 
-	para "Tower. I saw all"
-	line "three studios and"
+	para "Vi los tres"
+	line "estudios y"
 
-	para "even ate in the"
-	line "café."
+	para "hasta comí en"
+	line "la cafetería."
 	done

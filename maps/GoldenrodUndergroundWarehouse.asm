@@ -25,30 +25,31 @@ GoldenrodUndergroundWarehouse_MapScriptHeader:
 GenericTrainerGruntM24:
 	generictrainer GRUNTM, 24, EVENT_BEAT_ROCKET_GRUNTM_24, GruntM24SeenText, GruntM24BeatenText
 
-	text "Team Rocket will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of Giovanni."
+	text "El Team Rocket"
+	line "seguirá adelante,"
+	cont "esperando el"
+	cont "regreso de"
+	cont "Giovanni."
 
-	para "We'll do whatever"
-	line "it takes."
+	para "Haremos lo que"
+	line "sea necesario."
 	done
 
 GenericTrainerGruntM14:
 	generictrainer GRUNTM, 14, EVENT_BEAT_ROCKET_GRUNTM_14, GruntM14SeenText, GruntM14BeatenText
 
-	text "I lost…"
+	text "Perdí…"
 
-	para "Please forgive me,"
+	para "¡Perdóname,"
 	line "Giovanni!"
 	done
 
 GenericTrainerGruntM15:
 	generictrainer GRUNTM, 15, EVENT_BEAT_ROCKET_GRUNTM_15, GruntM15SeenText, GruntM15BeatenText
 
-	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	text "¡Ji-ji-ji!"
+	line "¡Fue genial!"
+	cont "¡Te recordaré!"
 	done
 
 GoldenrodUndergroundWarehouseDirectorScript:
@@ -68,91 +69,94 @@ GoldenrodUndergroundWarehouseDirectorScript:
 	jumpopenedtext DirectorAfterText
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "¿Cómo llegaste"
+	line "tan lejos?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "Supongo que no hay"
+	line "remedio. Me"
+	cont "desharé de ti."
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "Me deshicieron a"
+	line "mí…"
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "¡No pasarás de"
+	line "aquí!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "No tengo piedad"
+	line "con mis enemigos,"
+	cont "ni con mocosos!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "¡Maldición!"
 	done
 
 GruntM15SeenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	text "¡Ji-ji-ji! ¡Te"
+	line "recuerdo!"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "¡Me venciste bien"
+	line "en nuestro"
+	cont "escondite!"
 	done
 
 GruntM15BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	text "¡Ji-ji-ji! ¿Así"
+	line "que era eso?"
 	done
 
 DirectorIntroText:
-	text "Director: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "Director: ¿Quién?"
+	line "¿Qué? ¿Viniste a"
+	cont "rescatarme?"
 
-	para "Thank you!"
+	para "¡Gracias!"
 
-	para "The Radio Tower!"
+	para "¡La Torre Radio!"
 
-	para "What's happening"
-	line "there?"
+	para "¿Qué está"
+	line "pasando ahí?"
 
-	para "Taken over by Team"
+	para "¿La tomó el Team"
 	line "Rocket?"
 
-	para "Here. Take this"
-	line "Card Key."
+	para "Ten. Toma esta"
+	line "Tarj. Llave."
 	done
 
 DirectorCardKeyText:
-	text "Director: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "Director: Usa eso"
+	line "para abrir las"
+	cont "persianas del"
+	cont "piso 3."
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Te ruego que"
+	line "ayudes."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "No se sabe qué"
+	line "harán si"
 
-	para "they control the"
-	line "transmitter."
+	para "controlan el"
+	line "transmisor."
 
-	para "They may even be"
-	line "able to control"
+	para "¡Podrían incluso"
+	line "controlar #mon"
+	cont "con una señal"
+	cont "especial!"
 
-	para "#mon using a"
-	line "special signal!"
+	para "Eres el único al"
+	line "que puedo"
+	cont "recurrir."
 
-	para "You're the only"
-	line "one I can call on."
+	para "Por favor, salva"
+	line "la Torre Radio…"
 
-	para "Please save the"
-	line "Radio Tower…"
-
-	para "And all the #-"
-	line "mon nationwide!"
+	para "¡Y a todos los"
+	line "#mon del país!"
 	done

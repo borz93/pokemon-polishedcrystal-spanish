@@ -26,71 +26,76 @@ UragaChannelEast_MapScriptHeader:
 GenericTrainerSwimmerfWoda:
 	generictrainer SWIMMERF, WODA, EVENT_BEAT_SWIMMERF_WODA, .SeenText, .BeatenText
 
-	text "The strong curr-"
-	line "ents here make it"
-	cont "a good place to"
-	cont "train."
+	text "Las fuertes"
+	line "corrientes de"
+	cont "aquí son un buen"
+	cont "sitio para"
+	cont "entrenar."
 	done
 
 .SeenText:
-	text "Did you come here"
-	line "to train too?"
+	text "¿Viniste aquí a"
+	line "entrenar también?"
 	done
 
 .BeatenText:
-	text "You don't need"
-	line "more training!"
+	text "¡No necesitas"
+	line "más"
+	cont "entrenamiento!"
 	done
 
 GenericTrainerCooltrainermKieran:
 	generictrainer COOLTRAINERM, KIERAN, EVENT_BEAT_COOLTRAINERM_KIERAN, .SeenText, .BeatenText
 
-	text "I couldn't get my"
-	line "#m-on."
+	text "No pude"
+	line "conseguir mi"
+	cont "#mon."
 
-	para "I need to get my"
-	line "head back in the"
-	cont "game."
+	para "Necesito"
+	line "centrarme de"
+	cont "nuevo en el"
+	cont "juego."
 	done
 
 .SeenText:
-	text "It's on like"
-	line "#mon!"
+	text "¡Empieza el"
+	line "combate #mon!"
 	done
 
 .BeatenText:
-	text "Game over."
+	text "Fin del juego."
 	done
 
 GenericTrainerBikerTyrone:
 	generictrainer BIKER, TYRONE, EVENT_BEAT_BIKER_TYRONE, .SeenText, .BeatenText
 
-	text "I fell in the"
-	line "water while show-"
-	cont "ing off on Cycling"
-	cont "Road."
+	text "Me caí al agua"
+	line "mientras"
+	cont "presumía en el"
+	cont "Ciclocarril."
 
-	para "Then the strong"
-	line "currents dragged"
-	cont "me here."
+	para "Luego las"
+	line "fuertes"
+	cont "corrientes me"
+	cont "arrastraron aquí."
 	done
 
 .SeenText:
-	text "Cough! Splutter!"
+	text "¡Cof! ¡Glup!"
 	done
 
 .BeatenText:
-	text "…Gasp!"
+	text "…¡Jadeo!"
 	done
 
 UragaChannelSignText:
-	text "Uraga Channel"
+	text "Canal Uraga"
 	done
 
 ScaryCaveEastSignText:
-	text "There's graffiti"
-	line "on this sign…"
+	text "Hay pintadas en"
+	line "este cartel…"
 
-	para "“This cave is"
-	line "scary!”"
+	para "“Esta cueva da"
+	line "miedo!”"
 	done

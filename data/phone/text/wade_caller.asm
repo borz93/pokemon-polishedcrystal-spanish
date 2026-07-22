@@ -1,136 +1,136 @@
 WadeAreYourMonGrowingText:
-	text "Are your #mon"
-	line "growing?"
+	text "¿Están creciendo"
+	line "tus #mon?"
 
-	para "My #mon are"
-	line "growing a bit too"
+	para "Mis #mon"
+	line "crecen un poco"
 
-	para "quickly for me."
-	line "It's overwhelming!"
+	para "rápido para mí."
+	line "¡Es agobiante!"
 
-	para ""
+	para "Mi "
 	text_ram wStringBuffer4
-	text "'s grow-"
-	line "ing especially"
+	line "crece"
+	cont "especialmente"
+	cont "rápido."
 
-	para "quickly. I think"
-	line "it'll get tough."
+	para "Creo que se"
+	line "pondrá difícil."
 	done
 
 WadeDefeatedMonText:
-	text "Oh yeah, we KO'd a"
-	line "wild "
+	text "Ah sí, dejamos"
+	line "K.O. a un "
 	text_ram wStringBuffer4
 
-	para "with one hit a"
-	line "while back."
+	para "de un solo golpe"
+	line "hace tiempo."
 
-	para "It went down so"
-	line "easily, I felt a"
-
-	para "little sorry for"
-	line "the poor thing."
+	para "Cayó tan fácil"
+	line "que sentí algo de"
+	cont "pena por él."
 	done
 
 WadeLostAMonText:
-	text "Oh yeah, a wild"
-	line ""
+	text "Ah sí, un "
 	text_ram wStringBuffer4
-	text " got"
+	text " salvaje"
+	line "se me escapó"
 
-	para "away from me at"
-	line "the last second."
+	para "en el último"
+	line "segundo."
 
-	para "I know it's a"
-	line "common #mon…"
+	para "Sé que es un"
+	line "#mon común…"
 
-	para "But it does annoy"
-	line "me that it got"
+	para "Pero me molesta"
+	line "que se escapara"
 
-	para "away when I almost"
-	line "had it."
+	para "cuando casi lo"
+	line "tenía."
 	done
 
 WadeBattleRematchText:
-	text "Do you feel like a"
-	line "#mon battle?"
+	text "¿Te apetece un"
+	line "combate #mon?"
 
-	para "It won't be like"
-	line "last time!"
+	para "¡No será como la"
+	line "última vez!"
 
-	para ""
+	para "Estoy en"
+	line ""
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'll be."
+	text "."
 
-	para "Let me know when"
-	line "you get there."
+	para "Avísame cuando"
+	line "llegues."
 	done
 
 WadeHangUpText:
-	text "See you later!"
+	text "¡Hasta luego!"
 	done
 
 WadeBugCatchingContestText:
-	text "The Bug-Catching"
-	line "Contest is at the"
+	text "El Concurso de"
+	line "Captura es hoy"
 
-	para "National Park"
-	line "today."
+	para "en el Parque"
+	line "Nacional."
 
-	para "Are you going,"
+	para "¿Vas a ir,"
 	line "<PLAYER>?"
 
-	para "I'm trying to make"
-	line "up my mind."
+	para "Aún lo estoy"
+	line "pensando."
 	done
 
 WadeFoundItemText:
-	text "I found all kinds"
-	line "of Berries. If you"
+	text "Encontré todo"
+	line "tipo de Bayas."
 
-	para "want, I'll share"
-	line "some with you."
+	para "Si quieres, te"
+	line "doy algunas."
 
-	para "I'll be waiting on"
+	para "Te espero en"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Huh? Berries?"
+	text "¿Eh? ¿Bayas?"
 
-	para "Sorry, I haven't"
-	line "found any yet."
+	para "Perdona, aún no"
+	line "he encontrado"
+	cont "ninguna."
 
-	para "I'll call you if I"
-	line "find any. Will you"
-	cont "please wait?"
+	para "Te llamaré si"
+	line "encuentro alguna."
+	cont "¿Puedes esperar?"
 	done
 
 WadeQuickBattleText:
-	text "Let's battle"
-	line "already!"
+	text "¡Vamos a"
+	line "combatir ya!"
 
 	para ""
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	line "es donde"
+	cont "estoy."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "¡Ven en cuanto"
+	line "puedas!"
 	done
 
 WadeComeQuickText:
-	text "How come you're"
-	line "not here yet?"
+	text "¿Por qué aún no"
+	line "has venido?"
 
 	para ""
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	line "es donde"
+	cont "estoy."
 
-	para "Please get here as"
-	line "soon as you can!"
+	para "¡Ven en cuanto"
+	line "puedas!"
 	done

@@ -78,10 +78,11 @@ BattleTowerOutsidePanUpHelperScript:
 	step_end
 
 BattleTowerOutsideSignText:
-	text "Battle Tower"
+	text "Torre Batalla"
 
-	para "Take the Ultimate"
-	line "Trainer Challenge!"
+	para "¡Acepta el Desafío"
+	line "del Entrenador"
+	cont "Definitivo!"
 	done
 
 BattleTowerOutsideAnabelScript:
@@ -119,51 +120,53 @@ BattleTowerOutsideAnabelScript:
 	end
 
 .ChallengeText:
-	text "Greetings… My name"
-	line "is Anabel."
+	text "Saludos… Me llamo"
+	line "Anabel."
 
-	para "…You are <PLAYER>?"
-	line "I have heard sev-"
-	cont "eral rumors about"
-	cont "you…"
+	para "…¿Eres <PLAYER>?"
+	line "He oído varios"
+	cont "rumores sobre"
+	cont "ti…"
 
-	para "Let me see your"
-	line "talent in its"
-	cont "entirety…"
+	para "Déjame ver todo tu"
+	line "talento en su"
+	cont "totalidad…"
 	done
 
 .YesText:
-	text "Let's begin,"
-	line "shall we?"
+	text "Empecemos,"
+	line "¿de acuerdo?"
 	done
 
 .NoText:
-	text "It's very dis-"
-	line "appointing…"
+	text "Qué"
+	line "decepcionante…"
 	done
 
 .BeatenText:
-	text "OK, I understand…"
+	text "Vale, lo entiendo…"
 	done
 
 .ItemText:
-	text "Fufufu, nicely"
-	line "done…"
+	text "Fufufu, bien"
+	line "hecho…"
 
-	para "Take this, please…"
+	para "Toma esto, por"
+	line "favor…"
 	done
 
 .GoodbyeText:
-	text "I urge you to keep"
-	line "battling and keep"
-	cont "on winning."
+	text "Te insto a seguir"
+	line "combatiendo y"
+	cont "ganando."
 
-	para "I will be waiting"
-	line "for you in this"
-	cont "Battle Tower."
+	para "Te estaré"
+	line "esperando en esta"
+	cont "Torre Batalla."
 
-	para "Until the next"
-	line "time we meet…"
+	para "Hasta la próxima"
+	line "vez que nos"
+	cont "veamos…"
 	done
 
 BattleTowerOutsideYoungsterScript:
@@ -171,20 +174,22 @@ BattleTowerOutsideYoungsterScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "Wow, the Battle"
-	line "Tower is huge! My"
+	text "Vaya, ¡la Torre"
+	line "Batalla es"
+	cont "enorme! Me duele"
 
-	para "neck is tired from"
-	line "looking up at it."
+	para "el cuello de tanto"
+	line "mirarla."
 	done
 
 .OpenText:
-	text "Wow, the Battle"
-	line "Tower is huge!"
+	text "Vaya, ¡la Torre"
+	line "Batalla es"
+	cont "enorme!"
 
-	para "There must be many"
-	line "kinds of #mon"
-	cont "in there!"
+	para "¡Debe haber muchos"
+	line "tipos de #mon"
+	cont "ahí dentro!"
 	done
 
 BattleTowerOutsideBeautyScript:
@@ -192,39 +197,41 @@ BattleTowerOutsideBeautyScript:
 	iftrue_jumptextfaceplayer .OpenText
 	jumpthistextfaceplayer
 
-	text "What on earth do"
-	line "they do here?"
+	text "¿Qué demonios"
+	line "hacen aquí?"
 
-	para "If the name says"
-	line "anything, I guess"
+	para "Si el nombre dice"
+	line "algo, supongo que"
 
-	para "it must be for"
-	line "#mon battles."
+	para "debe ser para"
+	line "combates #mon."
 	done
 
 .OpenText:
-	text "You can use only"
-	line "three #mon."
+	text "Solo puedes usar"
+	line "tres #mon."
 
-	para "It's so hard to"
-	line "decide which three"
+	para "Es tan difícil"
+	line "decidir cuáles"
 
-	para "should go into"
-	line "battle…"
+	para "tres deben ir al"
+	line "combate…"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, I snuck"
-	line "out from work."
+	text "Jeje, me escapé"
+	line "del trabajo."
 
-	para "I can't bail out"
-	line "until I've won!"
+	para "¡No puedo huir"
+	line "hasta que gane!"
 
-	para "I have to win it"
-	line "all. That I must!"
+	para "Tengo que ganarlo"
+	line "todo. ¡Debo"
+	cont "hacerlo!"
 	done
 
 BattleTowerOutsideDoorsClosedText:
-	text "The Battle Tower's"
-	line "doors are closed…"
+	text "Las puertas de la"
+	line "Torre Batalla"
+	cont "están cerradas…"
 	done

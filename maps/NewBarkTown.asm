@@ -160,9 +160,9 @@ NewBarkTownTeacherScript:
 	iftrue_jumptextfaceplayer Text_YourMonIsAdorable
 	jumpthistextfaceplayer
 
-	text "There's always"
-	line "such a refreshing"
-	cont "breeze here."
+	text "Aquí siempre"
+	line "sopla una brisa"
+	cont "refrescante."
 	done
 
 NewBarkTownRivalScript:
@@ -244,184 +244,189 @@ Movement_LyraSaysGoodbye3_NBT:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #gear"
-	line "is impressive!"
+	text "Vaya, tu #gear"
+	line "es impresionante!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "¿Te lo dio tu"
+	line "madre?"
 	done
 
 
 Text_WaitPlayer:
-	text "Wait, <PLAYER>!"
+	text "¡Espera, <PLAYER>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "¿Qué crees que"
+	line "estás haciendo?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#mon!"
+	text "Es peligroso salir"
+	line "sin un #mon"
+	cont "¡contigo!"
 
-	para "Wild #mon"
-	line "jump out of the"
+	para "Los #mon"
+	line "salvajes saltan"
 
-	para "grass on the way"
-	line "to the next town."
+	para "de la hierba de"
+	line "camino al"
+	cont "siguiente pueblo."
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #mon"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "¡Oh! Tu #mon"
+	line "es adorable!"
+	cont "¡Cómo me gustaría!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAYER>!"
-	line "Leaving again?"
+	text "¡Hola, <PLAYER>!"
+	line "¿Te vas otra vez?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Deberías avisar"
+	line "a tu madre si"
+	cont "te vas."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #gear to"
+	text "Llama a tu madre"
+	line "con el #gear"
 
-	para "let her know how"
-	line "you're doing."
+	para "para que sepa"
+	line "cómo estás."
 	done
 
 Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
+	text "¡Eh, <PLAYER>!"
 
-	para "I hear Prof.Elm"
-	line "discovered some"
-	cont "new #mon."
+	para "Oí que el"
+	line "Prof.Elm descubrió"
+	cont "#mon nuevos."
 	done
 
 NewBarkTownRivalText1:
 	text "……"
 
-	para "So this is the"
-	line "famous Elm #mon"
-	cont "Lab…"
+	para "Así que este es"
+	line "el famoso"
+	cont "Laboratorio Elm…"
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "…¿Qué miras"
+	line "tanto?"
 	done
 
 Text_LyraIntro:
-	text "Lyra: Oh, hello,"
+	text "Lyra: ¡Hola,"
 	line "<PLAYER>!"
 
-	para "I came by your"
-	line "house earlier,"
+	para "Pasé por tu casa"
+	line "antes,"
 
-	para "but you were"
-	line "still sleeping."
+	para "pero seguías"
+	line "dormido."
 
-	para "You know how I"
-	line "assist Prof.Elm"
-	cont "sometimes?"
+	para "¿Sabes que a veces"
+	line "ayudo al"
+	cont "Prof.Elm?"
 
-	para "He's starting new"
-	line "#mon research"
+	para "Está empezando"
+	line "una investigación"
+	cont "#mon nueva"
 
-	para "and would like us"
-	line "both to help."
+	para "y quiere que"
+	line "le ayudemos."
 
-	para "Let's go and see"
-	line "what he wants!"
+	para "¡Vamos a ver"
+	line "qué quiere!"
 	done
 
 Text_LyraGoodbye1:
-	text "Lyra: <PLAYER>!"
+	text "Lyra: ¡<PLAYER>!"
 
-	para "I heard that you"
-	line "have all the Gym"
-	cont "Badges in Johto."
+	para "Me dijeron que"
+	line "tienes todas las"
+	cont "Medallas de Johto."
 
-	para "…You're really"
-	line "something,"
+	para "…Eres alguien"
+	line "especial,"
 	cont "<PLAYER>."
 
-	para "To think that we"
-	line "both started our"
+	para "Pensar que los"
+	line "dos empezamos"
 
-	para "journeys in this"
-	line "town…"
+	para "nuestro viaje en"
+	line "este pueblo…"
 
-	para "I do what I can"
-	line "to help the Prof-"
-	cont "essor, but I could"
+	para "Hago lo que puedo"
+	line "para ayudar al"
+	cont "Profesor, pero"
+	cont "nunca podría"
+	cont "vencer al Campeón"
+	cont "de la Liga."
 
-	para "never take on the"
-	line "League Champion."
+	para "…Antes de irte…"
 
-	para "…Before you go…"
+	para "¿Qué tal una"
+	line "batalla más?"
 
-	para "How about one"
-	line "more battle?"
-
-	para "I want to see the"
-	line "kind of trainer"
-	cont "you've become!"
+	para "Quiero ver en qué"
+	line "clase de"
+	cont "entrenador te has"
+	cont "¡convertido!"
 	done
 
 Text_LyraGoodbyeWin:
-	text "You're as talented"
-	line "as I expected!"
+	text "Eres tan bueno"
+	line "¡como esperaba!"
 	done
 
 Text_LyraGoodbyeLoss:
-	text "I hope you didn't"
-	line "let me win…"
+	text "Espero que no me"
+	line "dejaras ganar…"
 	done
 
 Text_LyraGoodbye2:
-	text "…Thanks, <PLAYER>."
+	text "…Gracias,"
+	line "<PLAYER>."
 
-	para "I can tell how"
-	line "much work and"
+	para "Sé cuánto"
+	line "esfuerzo y cariño"
 
-	para "love you put into"
-	line "raising your"
+	para "le has puesto a"
+	line "criar a tu"
 	cont "#mon."
 
-	para "…So, this is"
-	line "goodbye."
+	para "…Bueno, esto es"
+	line "un adiós."
 
-	para "I know you can win"
-	line "at the #mon"
-	cont "League!"
+	para "Sé que puedes"
+	line "ganar la Liga"
+	cont "¡#mon!"
 
-	para "You're going to be"
-	line "a great Champion!"
+	para "¡Vas a ser una"
+	line "gran Campeona!"
 	done
 
 NewBarkTownSignText:
-	text "New Bark Town"
+	text "Pueblo Primavera"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "El pueblo donde"
+	line "soplan los"
+	cont "vientos de un"
+	cont "nuevo comienzo"
 	done
 
 PlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "Casa de <PLAYER>"
 	done
 
 ElmsLabSignText:
-	text "Elm #mon Lab"
+	text "Lab. #mon Elm"
 	done
 
 LyrasHouseSignText:
-	text "Lyra's House"
+	text "Casa de Lyra"
 	done

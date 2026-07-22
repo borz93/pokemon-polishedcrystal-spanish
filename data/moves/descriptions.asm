@@ -265,8 +265,8 @@ Move00Description:
 	done
 
 LowKickDescription:
-	text "Deals more damage"
-	next "to heavier foes."
+	text "Más daño cuanto"
+	next "más pese el rival."
 	done
 
 KarateChopDescription:
@@ -281,8 +281,8 @@ StoneEdgeDescription:
 if !DEF(FAITHFUL)
 XScissorDescription:
 endc
-	text "Has a high criti-"
-	next "cal hit ratio."
+	text "Tiene un alto"
+	next "ratio crítico."
 	done
 
 SwiftDescription:
@@ -290,8 +290,8 @@ FeintAttackDescription:
 DisarmVoiceDescription:
 AerialAceDescription:
 AuraSphereDescription:
-	text "An attack that"
-	next "never misses."
+	text "Un ataque que"
+	next "nunca falla."
 	done
 
 AbsorbDescription:
@@ -299,51 +299,51 @@ MegaDrainDescription:
 LeechLifeDescription:
 GigaDrainDescription:
 DrainPunchDescription:
-	text "Steals 1/2 of the"
-	next "damage inflicted."
+	text "Roba la mitad del"
+	next "daño infligido."
 	done
 
 DrainKissDescription:
-	text "Steals 3/4 of the"
-	next "damage inflicted."
+	text "Roba 3/4 del daño"
+	next "infligido."
 	done
 
 DoubleSlapDescription:
-	text "Repeatedly slaps"
-	next "2-5 times."
+	text "Abofetea de 2 a"
+	next "5 veces."
 	done
 
 FuryStrikesDescription:
-	text "Scratches or jabs"
-	next "2-5 times."
+	text "Araña o golpea de"
+	next "2 a 5 veces."
 	done
 
 PinMissileDescription:
-	text "Fires pins that"
-	next "strike 2-5 times."
+	text "Lanza pinchos que"
+	next "golpean 2-5 veces."
 	done
 
 IcicleSpearDescription:
-	text "Fires icicles to"
-	next "hit 2-5 times."
+	text "Lanza carámbanos"
+	next "2-5 veces."
 	done
 
 RockBlastDescription:
-	text "Hurls boulders to"
-	next "hit 2-5 times."
+	text "Lanza rocas 2-5"
+	next "veces."
 	done
 
 TakeDownDescription:
 DoubleEdgeDescription:
-	text "A tackle that also"
-	next "hurts the user."
+	text "Placaje que"
+	next "también te daña."
 	done
 
 FlareBlitzDescription:
 WildChargeDescription:
 BraveBirdDescription:
-	text "A charge that also"
-	next "hurts the user."
+	text "Carga que también"
+	next "te hace daño."
 	done
 
 StompDescription:
@@ -359,16 +359,16 @@ ExtrasensoryDescription:
 DarkPulseDescription:
 AstonishDescription:
 IcicleCrashDescription:
-	text "An attack that may"
-	next "cause flinching."
+	text "Ataque que puede"
+	next "hacer retroceder."
 	done
 
 PoisonStingDescription:
 SludgeBombDescription:
 PoisonJabDescription:
 GunkShotDescription:
-	text "An attack that may"
-	next "poison the foe."
+	text "Puede envenenar"
+	next "al rival."
 	done
 
 EmberDescription:
@@ -376,8 +376,8 @@ FlamethrowerDescription:
 FireBlastDescription:
 SacredFireDescription:
 ScaldDescription:
-	text "An attack that may"
-	next "inflict a burn."
+	text "Ataque que puede"
+	next "causar quemadura."
 	done
 
 BodySlamDescription:
@@ -386,19 +386,19 @@ ThunderboltDescription:
 ThunderDescription:
 LickDescription:
 SparkDescription:
-	text "An attack that may"
-	next "cause paralysis."
+	text "Ataque que puede"
+	next "paralizar."
 	done
 
 ZapCannonDescription:
-	text "An attack that"
-	next "always paralyzes."
+	text "Ataque que"
+	next "siempre paraliza."
 	done
 
 IceBeamDescription:
 BlizzardDescription:
-	text "An attack that may"
-	next "freeze the foe."
+	text "Ataque que puede"
+	next "congelar al rival."
 	done
 
 PsybeamDescription:
@@ -406,76 +406,76 @@ ConfusionDescription:
 DizzyPunchDescription:
 WaterPulseDescription:
 HurricaneDescription:
-	text "An attack that may"
-	next "confuse the foe."
+	text "Puede confundir"
+	next "al rival."
 	done
 
 DynamicpunchDescription:
-	text "An attack that"
-	next "confuses the foe."
+	text "Ataque que"
+	next "confunde al rival."
 	done
 
 MetalClawDescription:
-	text "An attack that may"
-	next "up user's Attack."
+	text "Ataque que puede"
+	next "subir su Ataque."
 	done
 
 SteelWingDescription:
-	text "An attack that may"
-	next "up user's Defense."
+	text "Ataque que puede"
+	next "subir su Defensa."
 	done
 
 FlameChargeDescription:
-	text "An attack that may"
-	next "up user's Speed."
+	text "Puede subir su"
+	next "Velocidad."
 	done
 
 AncientpowerDescription:
-	text "An attack that may"
-	next "raise all stats."
+	text "Ataque que puede"
+	next "subir todo."
 	done
 
 CloseCombatDescription:
-	text "Lowers the user's"
-	next "Def and Sp.Def."
+	text "Baja su Defensa y"
+	next "Def. Esp."
 	done
 
 AuroraBeamDescription:
 PlayRoughDescription:
-	text "An attack that may"
-	next "lower Attack."
+	text "Ataque que puede"
+	next "bajar Ataque."
 	done
 
 RockSmashDescription:
 if !DEF(FAITHFUL)
-	text "Removes Reflect"
-	next "and Light Screen."
+	text "Elimina Reflejo y"
+	next "Pant. de Luz."
 	done
 endc
 CrunchDescription:
 IronTailDescription:
-	text "An attack that may"
-	next "lower Defense."
+	text "Ataque que puede"
+	next "bajar Defensa."
 	done
 
 BubbleBeamDescription:
-	text "An attack that may"
-	next "lower Speed."
+	text "Ataque que puede"
+	next "bajar Velocidad."
 	done
 
 BulldozeDescription:
-	text "A Ground attack"
-	next "that lowers Speed."
+	text "Ataque Tierra que"
+	next "baja Velocidad."
 	done
 
 IcyWindDescription:
-	text "An icy attack that"
-	next "lowers Speed."
+	text "Ataque helado que"
+	next "baja Velocidad."
 	done
 
 MoonblastDescription:
-	text "An attack that may"
-	next "lower Sp.Atk."
+	text "Ataque que puede"
+	next "bajar At. Esp."
 	done
 
 AcidDescription:
@@ -486,777 +486,777 @@ EarthPowerDescription:
 EnergyBallDescription:
 FlashCannonDescription:
 FocusBlastDescription:
-	text "An attack that may"
-	next "lower Sp.Def."
+	text "Ataque que puede"
+	next "bajar Def. Esp."
 	done
 
 MudSlapDescription:
-	text "An attack that"
-	next "lowers accuracy."
+	text "Ataque que"
+	next "baja precisión."
 	done
 
 OctazookaDescription:
-	text "An attack that may"
-	next "lower accuracy."
+	text "Ataque que puede"
+	next "bajar precisión."
 	done
 
 SonicboomDescription:
-	text "Always inflicts"
-	next "20HP damage."
+	text "Siempre inflige"
+	next "20 PS de daño."
 	done
 
 DragonRageDescription:
-	text "Always inflicts"
-	next "40HP damage."
+	text "Siempre inflige"
+	next "40 PS de daño."
 	done
 
 SeismicTossDescription:
 NightShadeDescription:
-	text "Damage equals the"
-	next "user's level."
+	text "El daño es igual"
+	next "a su nivel."
 	done
 
 PoisonpowderDescription:
-	text "A move that may"
-	next "poison the foe."
+	text "Puede envenenar"
+	next "al rival."
 	done
 
 WillOWispDescription:
-	text "A move that may"
-	next "burn the foe."
+	text "Movim. que puede"
+	next "quemar al rival."
 	done
 
 ThunderWaveDescription:
-	db   "A move that"
-	next "paralyzes the foe.@"
+	db   "Paraliza al"
+	next "rival.@"
 	done
 
 StunSporeDescription:
 GlareDescription:
-	text "A move that may"
-	next "paralyze the foe."
+	text "Puede paralizar"
+	next "al rival."
 	done
 
 SingDescription:
 SleepPowderDescription:
 HypnosisDescription:
-	text "May cause the foe"
-	next "to fall asleep."
+	text "Puede hacer que"
+	next "el rival duerma."
 	done
 
 SporeDescription:
-	text "A move that puts"
-	next "the foe to sleep."
+	text "Movim. que duerme"
+	next "al rival."
 	done
 
 ToxicDescription:
-	text "A Poison move with"
-	next "increasing damage."
+	text "Movim. Veneno con"
+	next "daño creciente."
 	done
 
 ConfuseRayDescription:
 SupersonicDescription:
 SweetKissDescription:
-	text "A move that may"
-	next "confuse the foe."
+	text "Puede confundir"
+	next "al rival."
 	done
 
 DefenseCurlDescription:
-	text "Raises the user's"
-	next "Defense."
+	text "Sube la Defensa"
+	next "propia."
 	done
 
 DoubleTeamDescription:
-	text "Raises the user's"
-	next "evasiveness."
+	text "Sube la evasión"
+	next "propia."
 	done
 
 FocusEnergyDescription:
-	text "Raises the criti-"
-	next "cal hit ratio."
+	text "Sube el ratio"
+	next "crítico."
 	done
 
 SwordsDanceDescription:
-	text "Sharply raises the"
-	next "user's Attack."
+	text "Sube mucho el"
+	next "Ataque propio."
 	done
 
 BarrierDescription:
-	text "Sharply raises the"
-	next "user's Defense."
+	text "Sube mucho la"
+	next "Defensa propia."
 	done
 
 AgilityDescription:
-	text "Sharply raises the"
-	next "user's Speed."
+	text "Sube mucho la"
+	next "Velocidad propia."
 	done
 
 NastyPlotDescription:
-	text "Sharply raises the"
-	next "user's Sp.Atk."
+	text "Sube mucho el"
+	next "At. Esp. propio."
 	done
 
 AmnesiaDescription:
-	text "Sharply raises the"
-	next "user's Sp.Def."
+	text "Sube mucho la"
+	next "Def. Esp. propia."
 	done
 
 MinimizeDescription:
-	text "Sharply raises the"
-	next "user's evasiveness."
+	text "Sube mucho la"
+	next "evasión propia."
 	done
 
 GrowthDescription:
-	text "Raises the user's"
-	next "Atk and Sp.Atk."
+	text "Sube el Ataque y"
+	next "At. Esp. propios."
 	done
 
 BulkUpDescription:
-	text "Raises the user's"
-	next "Atk and Def."
+	text "Sube el Ataque y"
+	next "Defensa propios."
 	done
 
 CalmMindDescription:
-	text "Raises the user's"
-	next "Sp.Atk and Sp.Def."
+	text "Sube At. Esp. y"
+	next "Def. Esp. propios."
 	done
 
 DragonDanceDescription:
-	text "Raises the user's"
-	next "Attack and Speed."
+	text "Sube el Ataque y"
+	next "Veloc. propios."
 	done
 
 HoneClawsDescription:
-	text "Raises the user's"
-	next "Atk and accuracy."
+	text "Sube el Ataque y"
+	next "precisión propios."
 	done
 
 GrowlDescription:
-	text "A move that lowers"
-	next "the foe's Attack."
+	text "Movim. que baja"
+	next "el Ataque rival."
 	done
 
 LeerDescription:
-	text "A move that lowers"
-	next "the foe's Defense."
+	text "Movim. que baja"
+	next "la Defensa rival."
 	done
 
 StringShotDescription:
-	text "A move that lowers"
-	next "the foe's Speed."
+	text "Movim. que baja"
+	next "la Veloc. rival."
 	done
 
 SmokescreenDescription:
 FlashDescription:
-	text "A move that lowers"
-	next "the foe's accuracy."
+	text "Baja la"
+	next "precisión rival."
 	done
 
 CharmDescription:
-	text "Sharply lowers the"
-	next "foe's Attack."
+	text "Baja mucho el"
+	next "Ataque rival."
 	done
 
 ScreechDescription:
-	text "Sharply lowers the"
-	next "foe's Defense."
+	text "Baja mucho la"
+	next "Defensa rival."
 	done
 
 ScaryFaceDescription:
-	text "Sharply lowers the"
-	next "foe's Speed."
+	text "Baja mucho la"
+	next "Veloc. rival."
 	done
 
 HazeDescription:
-	text "Eliminates all"
-	next "stat changes."
+	text "Elimina cambios"
+	next "de estad."
 	done
 
 SafeguardDescription:
-	text "Prevents all"
-	next "status problems."
+	text "Evita todos los"
+	next "males de estado."
 	done
 
 ReflectDescription:
-	text "Raises Defense"
-	next "with a barrier."
+	text "Sube la Defensa"
+	next "con una barrera."
 	done
 
 LightScreenDescription:
-	text "Raises Sp.Def with"
-	next "a wall of light."
+	text "Sube Def. Esp. con"
+	next "un muro de luz."
 	done
 
 RecoverDescription:
-	text "Restores HP by 1/2"
-	next "the max HP."
+	text "Restaura la mitad"
+	next "del PS máx."
 	done
 
 FreshSnackDescription:
-	text "Restores HP by 1/2"
-	next "the user's max HP."
+	text "Restaura la mitad"
+	next "del PS propio."
 	done
 
 RoostDescription:
-	text "Lands to restore"
-	next "1/2 the max HP."
+	text "Aterriza para"
+	next "recuperar 1/2 PS."
 	done
 
 ThrashDescription:
 PetalDanceDescription:
 OutrageDescription:
-	text "Works 2-3 turns"
-	next "and confuses user."
+	text "Dura 2-3 turnos y"
+	next "confunde al final."
 	done
 
 FireSpinDescription:
 WhirlpoolDescription:
 WrapDescription:
-	text "Traps the foe for"
-	next "2-5 turns."
+	text "Atrapa al rival"
+	next "2-5 turnos."
 	done
 
 TrickRoomDescription:
-	text "Slow #mon move"
-	next "first for 5 turns."
+	text "Los #mon lentos"
+	next "actúan primero."
 	done
 
 ExplosionDescription:
-	text "Very powerful but"
-	next "makes user faint."
+	text "Muy potente, pero"
+	next "te deja fuera."
 	done
 
 EndureDescription:
-	text "Endures any hit"
-	next "with at least 1HP."
+	text "Aguanta cualquier"
+	next "golpe con 1 PS."
 	done
 
 FalseSwipeDescription:
-	text "Leaves the foe"
-	next "with at least 1HP."
+	text "Deja al rival"
+	next "con 1 PS."
 	done
 
 SolarBeamDescription:
-	text "1st turn: Prepare"
-	next "2nd turn: Attack"
+	text "Turno 1: prepara"
+	next "turno 2: ataca"
 	done
 
 FlyDescription:
-	text "1st turn: Fly"
-	next "2nd turn: Attack"
+	text "Turno 1: vuela"
+	next "turno 2: ataca"
 	done
 
 HyperBeamDescription:
 GigaImpactDescription:
-	text "1st turn: Attack"
-	next "2nd turn: Rest"
+	text "Turno 1: ataca"
+	next "turno 2: descansa"
 	done
 
 DigDescription:
-	text "1st turn: Burrow"
-	next "2nd turn: Attack"
+	text "Turno 1: excava"
+	next "turno 2: ataca"
 	done
 
 AcrobaticsDescription:
-	text "Damage doubles if"
-	next "user has no item."
+	text "Daño doble si no"
+	next "tienes objeto."
 	done
 
 HexDescription:
-	text "Damage doubles if"
-	next "foe has status."
+	text "Daño x2 con"
+	next "estado alterado."
 	done
 
 AvalancheDescription:
-	text "Damage doubles if"
-	next "user is hit first."
+	text "Daño doble si te"
+	next "golpean antes."
 	done
 
 VenoshockDescription:
-	text "Damage doubles if"
-	next "foe is poisoned."
+	text "Daño x2 con"
+	next "veneno activo."
 	done
 
 RainDanceDescription:
-	text "Boosts Water-type"
-	next "moves for 5 turns."
+	text "Potencia movs. de"
+	next "Agua 5 turnos."
 	done
 
 SunnyDayDescription:
-	text "Boosts Fire-type"
-	next "moves for 5 turns."
+	text "Potencia movs. de"
+	next "Fuego 5 turnos."
 	done
 
 SandstormDescription:
 HailDescription:
-	text "Inflicts damage"
-	next "every turn."
+	text "Hace daño cada"
+	next "turno."
 	done
 
 UTurnDescription:
 VoltSwitchDescription:
-	text "Switches out after"
-	next "making its attack."
+	text "Cambia de #mon"
+	next "tras atacar."
 	done
 
 FirePunchDescription:
-	text "A fiery punch. May"
-	next "cause a burn."
+	text "Puñetazo de fuego."
+	next "Puede quemar."
 	done
 
 IcePunchDescription:
-	text "An icy punch. May"
-	next "cause freezing."
+	text "Puñetazo helado."
+	next "Puede congelar."
 	done
 
 ThunderpunchDescription:
-	text "An electric punch."
-	next "It may paralyze."
+	text "Puñetazo eléc."
+	next "Puede paralizar."
 	done
 
 CounterDescription:
-	text "Returns a physical"
-	next "attack double."
+	text "Devuelve x2 un"
+	next "ataque físico."
 	done
 
 MirrorCoatDescription:
-	text "Returns a special"
-	next "attack double."
+	text "Devuelve x2 un"
+	next "ataque especial."
 	done
 
 SpikesDescription:
-	text "Hurts foes when"
-	next "they switch in."
+	text "Daña al rival al"
+	next "entrar en combate."
 	done
 
 ToxicSpikesDescription:
-	text "Poisons foes when"
-	next "they switch in."
+	text "Envenena al rival"
+	next "al entrar."
 	done
 
 QuickAttackDescription:
-	text "Lets the user get"
-	next "in the first hit."
+	text "Deja al usuario"
+	next "golpear primero."
 	done
 
 AquaJetDescription:
-	text "A speedy lunge."
-	next "Always goes first."
+	text "Embiste veloz."
+	next "Siempre va antes."
 	done
 
 IceShardDescription:
-	text "Hurls icy shards."
-	next "Always goes first."
+	text "Lanza esquirlas"
+	next "heladas. Va antes."
 	done
 
 MachPunchDescription:
-	text "A fast punch that"
-	next "always goes first."
+	text "Puñetazo rápido"
+	next "que va antes."
 	done
 
 BulletPunchDescription:
-	text "A tough punch that"
-	next "always goes first."
+	text "Puñetazo duro que"
+	next "va antes."
 	done
 
 ExtremespeedDescription:
-	text "A powerful first-"
-	next "strike attack."
+	text "Ataque potente"
+	next "que golpea antes."
 	done
 
 ScratchDescription:
-	text "Scratches with"
-	next "sharp claws."
+	text "Araña con"
+	next "garras afiladas."
 	done
 
 PeckDescription:
-	text "Jabs the foe with"
-	next "a beak, etc."
+	text "Picotea al rival"
+	next "con el pico."
 	done
 
 VineWhipDescription:
-	text "Whips the foe with"
-	next "slender vines."
+	text "Azota al rival"
+	next "con lianas."
 	done
 
 DragonClawDescription:
-	text "Slashes the foe"
-	next "with sharp claws."
+	text "Ataca al rival"
+	next "con garras."
 	done
 
 CutDescription:
-	text "Cuts using claws,"
-	next "scythes, etc."
+	text "Corta con garras,"
+	next "hoces, etc."
 	done
 
 if DEF(FAITHFUL)
 XScissorDescription:
-	text "Slashes foe with"
-	next "scythes or claws."
+	text "Ataca con hoces"
+	next "o garras."
 	done
 endc
 
 GustDescription:
-	text "Whips up a strong"
-	next "gust of wind."
+	text "Levanta una"
+	next "fuerte ráfaga."
 	done
 
 WingAttackDescription:
-	text "Strikes the foe"
-	next "with wings."
+	text "Golpea al rival"
+	next "con las alas."
 	done
 
 TackleDescription:
-	text "A full-body charge"
-	next "attack."
+	text "Ataque de carga"
+	next "con el cuerpo."
 	done
 
 HornAttackDescription:
-	text "An attack using a"
-	next "horn to jab."
+	text "Ataque que usa"
+	next "un cuerno."
 	done
 
 DoubleKickDescription:
-	text "A double kicking"
-	next "attack."
+	text "Ataque de doble"
+	next "patada."
 	done
 
 PayDayDescription:
-	text "Throws coins. Gets"
-	next "them back later."
+	text "Lanza monedas."
+	next "Luego se recogen."
 	done
 
 SuckerPunchDescription:
-	text "Attacks before the"
-	next "foe does."
+	text "Ataca antes que"
+	next "el rival."
 	done
 
 DazzlingleamDescription:
-	text "Dazzles with a"
-	next "powerful flash."
+	text "Deslumbra con un"
+	next "destello potente."
 	done
 
 RoarDescription:
-	text "Scares wild foes"
-	next "to end battle."
+	text "Asusta al rival"
+	next "y acaba combate."
 	done
 
 DisableDescription:
-	text "Disables the foe's"
-	next "most recent move."
+	text "Anula el último"
+	next "mov. usado rival."
 	done
 
 WaterGunDescription:
-	text "Squirts water to"
-	next "attack."
+	text "Lanza agua para"
+	next "atacar."
 	done
 
 SurfDescription:
-	text "A strong Water-"
-	next "type attack."
+	text "Ataque potente"
+	next "de tipo Agua."
 	done
 
 HydroPumpDescription:
-	text "A powerful Water-"
-	next "type attack."
+	text "Ataque muy potente"
+	next "de tipo Agua."
 	done
 
 DrillPeckDescription:
-	text "A strong, spin-"
-	next "ning-peck attack."
+	text "Picotazo giratorio"
+	next "y potente."
 	done
 
 StrengthDescription:
-	text "A powerful physi-"
-	next "cal attack."
+	text "Ataque físico"
+	next "muy potente."
 	done
 
 LeechSeedDescription:
-	text "Steals HP from the"
-	next "foe on every turn."
+	text "Roba PS al rival"
+	next "en cada turno."
 	done
 
 RockThrowDescription:
-	text "Drops rocks on the"
-	next "enemy."
+	text "Lanza rocas al"
+	next "rival."
 	done
 
 EarthquakeDescription:
-	text "Tough but useless"
-	next "vs. flying foes."
+	text "Potente, pero"
+	next "inútil vs Volador."
 	done
 
 RageDescription:
-	text "Raises Attack if"
-	next "the user is hit."
+	text "Sube el Ataque si"
+	next "te golpean."
 	done
 
 TeleportDescription:
-	text "A move for fleeing"
-	next "from battle."
+	text "Movim. para huir"
+	next "del combate."
 	done
 
 DragonPulseDescription:
-	text "Attacks foe with"
-	next "a shock wave."
+	text "Ataca al rival"
+	next "con onda expans."
 	done
 
 AquaTailDescription:
-	text "Swings tail like a"
-	next "wave in a storm."
+	text "Mueve la cola como"
+	next "ola de tormenta."
 	done
 
 MetronomeDescription:
-	text "Randomly uses any"
-	next "#mon move."
+	text "Usa al azar un"
+	next "mov. #mon."
 	done
 
 SkillSwapDescription:
-	text "Swaps abilities"
-	next "with the foe."
+	text "Intercambia"
+	next "habilidad rival."
 	done
 
 HiJumpKickDescription:
-	text "May miss and hurt"
-	next "the user."
+	text "Puede fallar y"
+	next "dañarte."
 	done
 
 DreamEaterDescription:
-	text "Steals HP from a"
-	next "sleeping victim."
+	text "Roba PS de un"
+	next "rival dormido."
 	done
 
 TransformDescription:
-	text "The user assumes"
-	next "the foe's guise."
+	text "El usuario toma"
+	next "la forma rival."
 	done
 
 SplashDescription:
-	text "Has no effect"
-	next "whatsoever."
+	text "No tiene ningún"
+	next "efecto."
 	done
 
 BonemerangDescription:
-	text "An attack that"
-	next "strikes twice."
+	text "Ataque que"
+	next "golpea dos veces."
 	done
 
 RestDescription:
-	text "Sleep for 2 turns"
-	next "to fully recover."
+	text "Duerme 2 turnos"
+	next "y te recuperas."
 	done
 
 ConversionDescription:
-	text "Change user's type"
-	next "to a move's type."
+	text "Cambia tu tipo"
+	next "al de un mov."
 	done
 
 TriAttackDescription:
-	text "Fires three kinds"
-	next "of beams at once."
+	text "Lanza 3 tipos de"
+	next "rayos a la vez."
 	done
 
 SuperFangDescription:
-	text "Cuts the foe's HP"
-	next "by 1/2."
+	text "Corta el PS rival"
+	next "a la mitad."
 	done
 
 SubstituteDescription:
-	text "Makes a decoy with"
-	next "1/4 user's max HP."
+	text "Crea un señuelo"
+	next "con 1/4 de tu PS."
 	done
 
 StruggleDescription:
-	text "Used only if all"
-	next "PP are exhausted."
+	text "Se usa si te"
+	next "quedas sin PP."
 	done
 
 SketchDescription:
-	text "Copies the foe's"
-	next "move permanently."
+	text "Copia mov. rival"
+	next "para siempre."
 	done
 
 ThiefDescription:
-	text "An attack that may"
-	next "steal a held item."
+	text "Ataque que puede"
+	next "robar el objeto."
 	done
 
 FacadeDescription:
-	text "Double damage with"
-	next "Psn, Brn, or Prz."
+	text "Daño x2 si tienes"
+	next "Ven, Quem o Par."
 	done
 
 HyperVoiceDescription:
-	text "Attack the foe"
-	next "with sound waves."
+	text "Ataca al rival"
+	next "con ondas de son."
 	done
 
 CurseDescription:
-	text "Works differently"
-	next "for Ghost-types."
+	text "Funciona distinto"
+	next "en tipo Fantasma."
 	done
 
 ReversalDescription:
-	text "Stronger if the"
-	next "user's HP is low."
+	text "Más fuerte si tu"
+	next "PS es bajo."
 	done
 
 SeedBombDescription:
-	text "Slams a barrage of"
-	next "seeds at the foe."
+	text "Lanza una lluvia"
+	next "de semillas."
 	done
 
 ProtectDescription:
-	text "Foils attack that"
-	next "turn. It may fail."
+	text "Evita el ataque"
+	next "de ese turno."
 	done
 
 BellyDrumDescription:
-	text "Sacrifices HP to"
-	next "maximize Attack."
+	text "Sacrifica PS para"
+	next "maximizar Ataque."
 	done
 
 ForesightDescription:
-	text "Negates foe's eva-"
-	next "sion and immunity."
+	text "Anula evasión e"
+	next "inmunidad rival."
 	done
 
 DestinyBondDescription:
-	text "The foe faints if"
-	next "the user does."
+	text "El rival cae si"
+	next "tú también caes."
 	done
 
 PerishSongDescription:
-	text "Both user and foe"
-	next "faint in 3 turns."
+	text "Ambos caen tras"
+	next "3 turnos."
 	done
 
 PowerGemDescription:
-	text "Attacks with a ray"
-	next "of gem-like light."
+	text "Ataca con un rayo"
+	next "de luz como gema."
 	done
 
 RolloutDescription:
-	text "Attacks 5 turns"
-	next "with rising power."
+	text "Ataca 5 turnos"
+	next "con más potencia."
 	done
 
 SwaggerDescription:
-	text "Causes confusion"
-	next "but raises Attack."
+	text "Causa confusión"
+	next "pero sube Ataque."
 	done
 
 ShellSmashDescription:
-	text "Lowers defenses,"
-	next "raises offenses."
+	text "Baja las defensas"
+	next "y sube el ataque."
 	done
 
 BugBiteDescription:
-	text "Bites the foe and"
-	next "eats a held Berry."
+	text "Muerde al rival y"
+	next "come su Baya."
 	done
 
 MeanLookDescription:
-	text "Prevents fleeing"
-	next "or switching."
+	text "Evita huir o"
+	next "cambiar de #mon"
 	done
 
 AttractDescription:
-	text "Makes the opposite"
-	next "gender infatuated."
+	text "Enamora al sexo"
+	next "opuesto."
 	done
 
 SleepTalkDescription:
-	text "Randomly attacks"
-	next "while asleep."
+	text "Ataca al azar"
+	next "mientras duerme."
 	done
 
 HealBellDescription:
-	text "Eliminates all"
-	next "status problems."
+	text "Cura todos los"
+	next "males de estado."
 	done
 
 ReturnDescription:
-	text "An attack that is"
-	next "based on loyalty."
+	text "Ataque basado en"
+	next "el cariño."
 	done
 
 PsystrikeDescription:
-	text "A wave that does"
-	next "physical damage."
+	text "Onda que hace"
+	next "daño físico."
 	done
 
 PainSplitDescription:
-	text "Adds user & foe's"
-	next "HPs. Shares total."
+	text "Suma el PS de"
+	next "ambos, repartido."
 	done
 
 MagnitudeDescription:
-	text "A Ground attack"
-	next "with random power."
+	text "Ataque Tierra con"
+	next "potencia al azar."
 	done
 
 MegahornDescription:
-	text "A powerful charge"
-	next "attack."
+	text "Ataque de carga"
+	next "muy potente."
 	done
 
 PowerWhipDescription:
-	text "A violent lash"
-	next "attack."
+	text "Ataque de látigo"
+	next "violento."
 	done
 
 DragonbreathDescription:
-	text "A strong breath"
-	next "attack."
+	text "Ataque de aliento"
+	next "potente."
 	done
 
 BatonPassDescription:
-	text "Switches while"
-	next "keeping effects."
+	text "Cambia de #mon"
+	next "y mantiene efectos"
 	done
 
 EncoreDescription:
-	text "Makes the foe re-"
-	next "peat 2-6 times."
+	text "Hace que el rival"
+	next "repita 2-6 veces."
 	done
 
 PursuitDescription:
-	text "Heavily strikes"
-	next "switching #mon."
+	text "Golpea fuerte al"
+	next "#mon que huye."
 	done
 
 RapidSpinDescription:
-	text "A high-speed"
-	next "spinning attack."
+	text "Ataque giratorio"
+	next "muy veloz."
 	done
 
 HealingLightDescription:
-	text "Restores HP based"
-	next "on weather."
+	text "Restaura PS según"
+	next "el clima."
 	done
 
 KnockOffDescription:
-	text "Slaps down the"
-	next "foe's held item."
+	text "Tira al suelo el"
+	next "objeto rival."
 	done
 
 HiddenPowerDescription:
-	text "The type varies"
-	next "with the #mon."
+	text "El tipo varía"
+	next "según el #mon."
 	done
 
 FutureSightDescription:
-	text "An attack that"
-	next "hits on 3rd turn."
+	text "Ataque que golpea"
+	next "al 3er turno."
 	done
 
 GyroBallDescription:
-	text "Does more damage"
-	next "at lower speed."
+	text "Hace más daño"
+	next "a menor Velocidad."
 	done
 
 TrickDescription:
-	text "Swaps held items"
-	next "with the foe."
+	text "Intercambia el"
+	next "objeto con rival."
 	done

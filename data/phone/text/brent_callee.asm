@@ -1,78 +1,79 @@
 BrentAnswerPhoneText:
-	text "Yes? "
+	text "¿Sí? "
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Yes? "
+	text "¿Sí? "
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Yes? "
+	text "¿Sí? "
 	text_ram wStringBuffer3
-	text " here…"
+	text " al habla…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "Ah, <PLAYER>."
+	line "¿Qué necesitas?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>. How"
-	line "are you doing?"
+	text "Hola, <PLAYER>."
+	line "¿Qué tal estás?"
 
-	para "Hey! It's me,"
+	para "¡Eh! Soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>,"
+	line "¿qué tal estás?"
 
-	para "Hey, it's me,"
+	para "Eh, soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Hola, <PLAYER>,"
+	line "¿qué tal estás?"
 
-	para "Hey, it's me,"
+	para "Eh, soy yo,"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "Ah sí, te vi"
+	line "saliendo de un"
 
-	para "#mon Center the"
-	line "other day."
+	para "Centro #mon"
+	line "el otro día."
 
-	para "You heal your"
-	line "#mon regularly,"
+	para "Curas a tus"
+	line "#mon a menudo,"
+	cont "¿verdad?"
 
-	para "don't you?"
-	line "I'm impressed."
+	para "Me impresiona."
 
-	para "Heh, my "
+	para "Je, mi "
 	text_ram wStringBuffer4
-	line "is so tough, it"
+	line "es tan dura"
+	cont "que no necesita"
 
-	para "doesn't need to go"
-	line "to #mon Centers"
-	cont "often. Heheh!"
+	para "ir a Centros"
+	line "#mon a menudo."
+	cont "¡Jeje!"
 	done

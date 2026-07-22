@@ -17,24 +17,24 @@ CeruleanMart_MapScriptHeader:
 	object_event  7,  2, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanMart_CooltrainerFText, -1
 
 CeruleanMart_CooltrainerMText:
-	text "You'll run into"
-	line "many trainers on"
+	text "Te cruzarás con"
+	line "muchos"
+	cont "entrenadores de"
+	cont "camino al Cabo"
+	cont "Celeste."
 
-	para "the way to Ceru-"
-	line "lean Cape."
+	para "Quieren ver cómo"
+	line "se comparan con"
 
-	para "They want to see"
-	line "how they stack"
-
-	para "up against other"
-	line "trainers."
+	para "otros"
+	line "entrenadores."
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "Misty is about the"
-	line "only person in"
+	text "Misty es casi la"
+	line "única persona del"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "Cerulean Cape."
+	para "pueblo que vence a"
+	line "los entrenadores"
+	cont "del Cabo Celeste."
 	done

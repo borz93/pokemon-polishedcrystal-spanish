@@ -40,60 +40,66 @@ SilphCo2FEmployee1Script:
 	endtext
 
 .Text1:
-	text "You traveled here"
-	line "from Johto?"
+	text "¿Viniste desde"
+	line "Johto?"
 
-	para "Since you came"
-	line "such a long way,"
+	para "Ya que has hecho"
+	line "un viaje tan"
+	cont "largo,"
 
-	para "have this neat"
-	line "little souvenir."
+	para "toma este bonito"
+	line "recuerdo."
 	done
 
 .Text2:
-	text "It's Silph Co.'s"
-	line "latest product."
+	text "Es el último"
+	line "producto de"
+	cont "Silph Co."
 
-	para "It's not for sale"
-	line "anywhere yet."
+	para "Aún no se vende"
+	line "en ningún sitio."
 	done
 
 SilphCo2FSilphEmployee2Text:
-	text "We used to use"
-	line "teleporters to get"
+	text "Antes usábamos"
+	line "teletransport."
 
-	para "around, but they"
-	line "were disabled."
+	para "para movernos,"
+	line "pero los"
+	cont "desactivaron."
 
-	para "Good thing I'm on"
-	line "the second floor!"
+	para "¡Menos mal que"
+	line "estoy en el"
+	cont "segundo piso!"
 	done
 
 SilphCo2FScientist1Text:
-	text "We're always work-"
-	line "ing on new TMs."
+	text "Siempre"
+	line "trabajamos en"
+	cont "nuevas MTs."
 
-	para "Some have been"
-	line "discontinued, but"
+	para "Algunas se"
+	line "dejaron de"
+	cont "fabricar, pero"
 
-	para "others are so pop-"
-	line "ular that they"
-
-	para "haven't changed in"
-	line "over 30 years!"
+	para "otras son tan"
+	line "populares que no"
+	cont "han cambiado en"
+	cont "más de 30 años!"
 	done
 
 SilphCo2FScientist2Text:
-	text "I'm coding! Don't"
-	line "break my concen-"
-	cont "tration!"
+	text "¡Estoy"
+	line "programando! No"
+	cont "rompas mi"
+	cont "concentración!"
 	done
 
 SilphCo2FDeptSignText:
 	text "Silph Co. 2F"
-	line "Software Dev."
+	line "Desarrollo Softw."
 	done
 
 SilphCo2FPrinterText:
-	text "It's a printer."
+	text "Es una impresora."
 	done

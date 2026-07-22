@@ -19,23 +19,56 @@ BeautifulBeachVilla_MapScriptHeader:
 	object_event 11,  4, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, (1 << NITE), 0, OBJECTTYPE_COMMAND, jumptext, DarachsBookText, -1
 
 DarachMornDayText:
-	text "TODO"
+	text "¡Bienvenido a"
+	line "nuestra casa de"
+	cont "playa!"
+
+	para "Caitlin y yo"
+	line "venimos aquí a"
+	cont "descansar de los"
+	cont "combates."
 	done
 
 DarachNiteText:
-	text "TODO"
+	text "De noche este"
+	line "sitio se pone"
+	cont "rarito…"
+
+	para "¿Has visto ese"
+	line "árbol de ahí?"
+
+	para "Ni idea de dónde"
+	line "salió."
 	done
 
 CaitlinMornDayText:
-	text "TODO"
+	text "El mar me habla"
+	line "de cosas que solo"
+	cont "yo puedo oír…"
+
+	para "¿Quieres"
+	line "escuchar tú"
+	cont "también?"
 	done
 
 CaitlinNiteScript:
 	jumpthistext
 
-	text "TODO"
+	text "…¿Un árbol que"
+	line "parpadea?"
+
+	para "Debe ser cosa de"
+	line "Caitlin, otra"
+	cont "vez."
+
+	para "Qué susto…"
 	done
 
 DarachsBookText:
-	text "TODO"
+	text "Es el diario de"
+	line "Caitlin."
+
+	para "Anota sus sueños"
+	line "y visiones cada"
+	cont "noche."
 	done

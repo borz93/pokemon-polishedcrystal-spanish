@@ -20,49 +20,52 @@ CeladonDeptStore1F_MapScriptHeader:
 	object_event  5,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonDeptStore1FTeacherText, -1
 
 CeladonDeptStore1FReceptionistText:
-	text "Hello! Welcome to"
-	line "Celadon Dept."
-	cont "Store!"
+	text "¡Hola!"
+	line "Bienvenido a los"
+	cont "Grandes Almacenes"
+	cont "de Azulona!"
 
-	para "The directory is"
-	line "on the wall."
+	para "El directorio"
+	line "está en la pared."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "This Dept.Store is"
-	line "part of the same"
+	text "Estos Grandes"
+	line "Almacenes son de"
+	cont "la misma cadena"
 
-	para "chain as the one"
-	line "in Goldenrod City."
+	para "que los de Ciudad"
+	line "Trigal."
 
-	para "They were both"
-	line "renovated at the"
-	cont "same time."
+	para "Ambos se"
+	line "renovaron al"
+	cont "mismo tiempo."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "This is my first"
-	line "time here."
+	text "Es la primera"
+	line "vez que vengo."
 
-	para "It's so big…"
+	para "Es enorme…"
 
-	para "I'm afraid I'll"
-	line "get lost."
+	para "Me temo que"
+	line "me perderé."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: Service"
-	line "    Counter"
+	text "1F: Mostrador"
+	line "    de Servicio"
 
-	para "2F: Trainer's"
-	line "    Market"
+	para "2F: Mercado"
+	line "    del Entrenador"
 
-	para "3F: Tech Shop"
+	para "3F: Tienda Tec."
 
-	para "4F: Wiseman Gifts"
+	para "4F: Regalos"
+	line "    del Sabio"
 
-	para "5F: Drug Store"
+	para "5F: Farmacia"
 
-	para "6F: Rooftop"
-	line "    Atrium"
+	para "6F: Terraza"
+	line "    Patio"
 	done

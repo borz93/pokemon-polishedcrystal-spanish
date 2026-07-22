@@ -176,11 +176,12 @@ CopycatRetortScript:
 	special RefreshSprites
 	jumpthistext
 
-	text "Copycat: Hmm?"
-	line "Quit mimicking?"
+	text "Copycat: ¿Mmm?"
+	line "¿Que deje de"
+	cont "imitar?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "¡Pero es mi"
+	line "afición favorita!"
 	done
 
 CopycatWorriedScript:
@@ -191,15 +192,16 @@ CopycatWorriedScript:
 	setevent EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
 	jumpthistext
 
-	text "Copycat: Pardon?"
+	text "Copycat: ¿Cómo?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "¿Que no debería"
+	line "decidir qué debes"
+	cont "hacer?"
 
-	para "But I'm really"
-	line "worried… What if"
-	cont "someone finds it?"
+	para "Pero estoy muy"
+	line "preocupada… ¿Y si"
+	cont "alguien lo"
+	cont "encuentra?"
 	done
 
 CopycatFoundLostItemScript:
@@ -212,15 +214,15 @@ CopycatFoundLostItemScript:
 	sjumpfwd CopycatGivePassScript
 
 .FoundDollText:
-	text "Copycat: Yay!"
-	line "That's my Clefairy"
-	cont "# Doll!"
+	text "Copycat: ¡Bien!"
+	line "¡Es el # Muñeco"
+	cont "de Clefairy!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "¿Ves el remiendo"
+	line "en la pata"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "derecha? ¡Esa es"
+	line "la prueba!"
 	done
 
 CopycatReturnedLostItemScript:
@@ -233,22 +235,25 @@ CopycatGivePassScript:
 	setevent EVENT_GOT_PASS_FROM_COPYCAT
 	jumpthisopenedtext
 
-	text "Copycat: That's"
-	line "the pass for the"
-	cont "Magnet Train."
+	text "Copycat: Ese es"
+	line "el pase para el"
+	cont "Tren Imán."
 
-	para "The rail company"
-	line "man gave me that"
+	para "Me lo dio el"
+	line "hombre de la"
+	cont "compañía"
 
-	para "when they tore"
-	line "down our old house"
-	cont "for the station."
+	para "ferroviaria cuando"
+	line "derribaron nuestra"
+	cont "vieja casa para la"
+	cont "estación."
 	done
 
 .GivePassText:
-	text "OK. Here's the"
-	line "Magnet Train Pass"
-	cont "like I promised!"
+	text "Vale. ¡Aquí tienes"
+	line "el Pase del Tren"
+	cont "Imán, como"
+	cont "prometí!"
 	done
 
 CopycatFinalScript:
@@ -258,93 +263,105 @@ CopycatFinalScript:
 	special RefreshSprites
 	jumpthistext
 
-	text "Copycat: You bet!"
-	line "It's a scream!"
+	text "Copycat: ¡Ya lo"
+	line "creo! ¡Es"
+	cont "divertidísimo!"
 	done
 
 CopycatGreeting1Text:
-	text "<PLAYER>: Hi! Do"
-	line "you like #mon?"
+	text "<PLAYER>: ¡Hola!"
+	line "¿Te gustan los"
+	cont "#mon?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Anda,"
+	line "no, si te lo he"
+	cont "preguntado yo a"
+	cont "ti."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: ¿Eh?"
+	line "¡Qué rara eres!"
 	done
 
 CopycatLostDoll1Text:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: ¡Hola!"
+	line "Oí que perdiste tu"
 
-	para "lost your favorite"
-	line "# Doll."
+	para "# Muñeco"
+	line "favorito."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail pass?"
+	para "<PLAYER>: ¿Si lo"
+	line "encuentro, me das"
+	cont "un pase de tren?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Iré a"
+	line "buscarlo por ti."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to Vermilion City?"
+	para "¿Crees que lo"
+	line "perdiste cuando"
+	cont "fuiste a Ciudad"
+	cont "Carmín?"
 	done
 
 CopycatThanks1Text:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail pass!"
+	text "<PLAYER>: ¡Hola!"
+	line "¡Muchas gracias"
+	cont "por el pase de"
+	cont "tren!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: ¿Cómo?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: ¿Es tan"
+	line "divertido imitar"
+	cont "todo lo que hago?"
 	done
 
 CopycatGreeting2Text:
-	text "<PLAYER>: Hi. You"
-	line "must like #mon."
+	text "<PLAYER>: Hola. Te"
+	line "deben gustar los"
+	cont "#mon."
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: No, a mí"
+	line "no. Te lo he"
+	cont "preguntado yo."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: ¿Cómo?"
+	line "¡Qué rara eres!"
 	done
 
 CopycatLostDoll2Text:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # Doll?"
+	text "<PLAYER>: Hola."
+	line "¿De verdad"
+	cont "perdiste tu"
+	cont "# Muñeco?"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>: ¿De"
+	line "verdad me darás"
 
-	para "rail pass if I"
-	line "find it for you?"
+	para "un pase de tren si"
+	line "lo encuentro por"
+	cont "ti?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: ¡Claro,"
+	line "lo buscaré!"
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in Vermilion?"
+	para "¿Crees que lo"
+	line "perdiste cuando"
+	cont "estuviste en"
+	cont "Ciudad Carmín?"
 	done
 
 CopycatThanks2Text:
-	text "<PLAYER>: Thank you"
-	line "for the rail pass!"
+	text "<PLAYER>: ¡Gracias"
+	line "por el pase de"
+	cont "tren!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>: …¿Cómo?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
+	para "<PLAYER>: ¿Es tan"
+	line "divertido copiar"
 
-	para "copy what I say"
-	line "and do?"
+	para "lo que digo y"
+	line "hago?"
 	done
 
 CopycatSpinMovement:
@@ -364,24 +381,24 @@ CopycatsDodrioScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Mirror, mirror on"
-	line "the wall, who's"
-
-	para "the fairest one of"
-	line "all?"
+	text "Espejito,"
+	line "espejito, ¿quién"
+	cont "es la más hermosa"
+	cont "de todas?"
 	done
 
 .Text1:
-	text "Dodrio: Gii giii!"
+	text "Dodrio: ¡Gii giii!"
 	done
 
 CopycatsHouse2FDollScript:
 	jumpthistext
 
-	text "This is a rare"
-	line "#mon! Huh?"
+	text "¡Es un #mon"
+	line "raro! ¿Eh?"
 
-	para "It's only a doll…"
+	para "Es solo un"
+	line "muñeco…"
 	done
 
 CopycatsHouse2FDittoText:

@@ -1166,7 +1166,6 @@ LavRadioTower1F_BlockData:
 
 SECTION "LavRadioTower2F_BlockData", ROMX
 LavRadioTower2F_BlockData:
-HauntedRadioTower2F_BlockData:
 	INCBIN "maps/LavRadioTower2F.ablk.lzp"
 
 SECTION "LavRadioTower3F_BlockData", ROMX
@@ -1180,6 +1179,10 @@ LavRadioTower4F_BlockData:
 SECTION "LavRadioTower5F_BlockData", ROMX
 LavRadioTower5F_BlockData:
 	INCBIN "maps/LavRadioTower5F.ablk.lzp"
+
+SECTION "HauntedRadioTower2F_BlockData", ROMX
+HauntedRadioTower2F_BlockData:
+	INCBIN "maps/HauntedRadioTower2F.ablk.lzp"
 
 SECTION "HauntedRadioTower3F_BlockData", ROMX
 HauntedRadioTower3F_BlockData:

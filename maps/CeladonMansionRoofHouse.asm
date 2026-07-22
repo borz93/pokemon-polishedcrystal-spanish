@@ -30,82 +30,90 @@ CeladonMansionRoofHousePharmacistScript:
 	jumpthisopenedtext
 
 .CurseText:
-	text "TM03 is Curse."
+	text "La MT03 es"
+	line "Maldición."
 
-	para "It's a terrifying"
-	line "move that slowly"
+	para "Es un movimiento"
+	line "aterrador que va"
 
-	para "whittles down the"
-	line "victim's HP."
+	para "reduciendo poco a"
+	line "poco los PS de la"
+	cont "víctima."
 	done
 
 .IntroText:
-	text "Let me recount a"
-	line "terrifying tale…"
+	text "Deja que te"
+	line "cuente una"
+	cont "historia de"
+	cont "terror…"
 	done
 
 .NotNiteText:
-	text "Then again, it's"
-	line "not as scary while"
+	text "Aunque, no da"
+	line "tanto miedo"
+	cont "mientras aún hay"
+	cont "luz fuera."
 
-	para "it's still light"
-	line "outside."
-
-	para "Come back after"
-	line "sunset, OK?"
+	para "Vuelve después"
+	line "del atardecer,"
+	cont "¿vale?"
 	done
 
 .StoryText:
-	text "Once upon a time,"
-	line "there was a little"
+	text "Érase una vez,"
+	line "un niño al que"
 
-	para "boy who was given"
-	line "a new Bicycle…"
+	para "regalaron una"
+	line "Bici nueva…"
 
-	para "He wanted to try"
-	line "it right away…"
+	para "Quiso probarla"
+	line "enseguida…"
 
-	para "He was having so"
-	line "much fun that he"
+	para "Se lo pasaba tan"
+	line "bien que no notó"
 
-	para "didn't notice the"
-	line "sun had set…"
+	para "que el sol se"
+	line "había puesto…"
 
-	para "While riding home"
-	line "in the pitch-black"
+	para "Mientras volvía a"
+	line "casa en la noche"
 
-	para "night, the bike"
-	line "suddenly slowed!"
+	para "más oscura, ¡la"
+	line "bici de repente"
+	cont "frenó!"
 
-	para "The pedals became"
-	line "heavy!"
+	para "¡Los pedales se"
+	line "volvieron"
+	cont "pesados!"
 
-	para "When he stopped"
-	line "pedaling, the bike"
+	para "Cuando dejó de"
+	line "pedalear, ¡la bici"
+	cont "empezó a resbalar"
+	cont "hacia atrás!"
 
-	para "began slipping"
-	line "backwards!"
+	para "¡Era como si la"
+	line "bici estuviera"
+	cont "maldita y quisiera"
+	cont "arrastrarlo al"
+	cont "olvido!"
 
-	para "It was as if the"
-	line "bike were cursed"
-
-	para "and trying to drag"
-	line "him into oblivion!"
+	para "…"
 
 	para "…"
 
+	para "¡¡¡CHILLIDO!!!"
+
+	para "¡El niño estaba"
+	line "subiendo cuesta"
+	cont "arriba por el"
+	cont "Ciclocamino!"
+
 	para "…"
+	line "¡Bum-bum,"
+	cont "bum-bum!"
 
-	para "SHRIEEEEK!"
-
-	para "The boy had been"
-	line "riding uphill on"
-	cont "Cycling Road!"
-
-	para "…"
-	line "Ba-dum ba-dum!"
-
-	para "For listening so"
-	line "patiently, you may"
-	cont "take this--TM03!"
+	para "Por escuchar con"
+	line "tanta paciencia,"
+	cont "toma esto: ¡la"
+	cont "MT03!"
 	done

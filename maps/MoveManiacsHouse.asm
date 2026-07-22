@@ -41,50 +41,52 @@ MoveReminderScript:
 	jumpopenedtext MoveReminderCancelText
 
 MoveReminderIntroText::
-	text "Me? I'm the"
-	line "Move Maniac."
+	text "¿Yo? Soy el"
+	line "Maníaco Movs."
 
-	para "I'll make your"
-	line "#mon remember"
+	para "Haré que #mon"
+	line "recuerde un"
 
-	para "a move if you'll"
-	line "trade me a"
-	cont "Gold Leaf!"
+	para "movimiento si me"
+	line "das una"
+	cont "Hoja de Oro!"
 	done
 
 MoveReminderPromptText::
-	text "Do you want me to"
-	line "teach one of your"
-	cont "#mon a move?"
+	text "¿Quieres que"
+	line "enseñe un mov."
+	cont "a tu #mon?"
 	done
 
 MoveReminderWhichMonText::
-	text "Yay! Which #mon"
-	line "needs tutoring?"
+	text "¡Genial! ¿Qué"
+	line "#mon necesita?"
 	done
 
 MoveReminderNoGoldLeafText::
-	text "Huh? You don't"
-	line "have any Gold"
-	cont "Leaves."
+	text "¿Eh? No tienes"
+	line "ninguna Hoja"
+	cont "de Oro."
 
-	para "Sometimes you can"
-	line "find them on wild"
-	cont "Bellsprout."
+	para "A veces las"
+	line "encuentras en"
+	cont "Bellsprout"
+	cont "salvajes."
 	done
 
 MoveReminderNoMovesText::
-	text "Sorry… There isn't"
-	line "any move I can"
+	text "Lo siento… No hay"
+	line "ningún movimiento"
 
-	para "make that #mon"
-	line "remember."
+	para "que ese #mon"
+	line "pueda recordar."
 	prompt
 
 MoveReminderCancelText::
-	text "If your #mon"
-	line "needs to learn a"
+	text "Si tu #mon"
+	line "necesita aprender"
 
-	para "move, come back"
-	line "with a Gold Leaf!"
+	para "un mov., vuelve"
+	line "con una Hoja"
+	cont "de Oro!"
 	done

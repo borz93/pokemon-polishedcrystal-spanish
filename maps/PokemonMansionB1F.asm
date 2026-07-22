@@ -32,48 +32,57 @@ PokemonMansionB1F_MapScriptHeader:
 GenericTrainerScientistBraydon:
 	generictrainer SCIENTIST, BRAYDON, EVENT_BEAT_SCIENTIST_BRAYDON, ScientistBraydonSeenText, ScientistBraydonBeatenText
 
-	text "This place was"
-	line "once the site of"
+	text "Este lugar fue"
+	line "en su día"
 
-	para "serious #mon"
-	line "research."
+	para "un centro de"
+	line "investigación"
+	cont "#mon seria."
 	done
 
 ScientistBraydonSeenText:
-	text "I miss the old"
-	line "Cinnabar Lab…"
+	text "Echo de menos"
+	line "el viejo Lab."
+	cont "de Canela…"
 	done
 
 ScientistBraydonBeatenText:
-	text "Whew!"
-	line "Overwhelming!"
+	text "¡Uf!"
+	line "¡Qué fuerte!"
 	done
 
 PokemonMansionDiaryText:
-	text "Diary: July 5"
+	text "Diario: 5 de"
+	line "julio"
 
-	para "A new #mon was"
-	line "discovered deep in"
-	cont "the jungle."
+	para "Se descubrió un"
+	line "nuevo #mon en"
+	cont "la selva."
 
-	para "Diary: July 10"
+	para "Diario: 10 de"
+	line "julio"
 
-	para "We christened the"
-	line "newly discovered"
-	cont "#mon, Mew."
+	para "Bautizamos al"
+	line "#mon recién"
+	cont "descubierto"
+	cont "como Mew."
 
-	para "Diary: Feb. 6"
+	para "Diario: 6 de"
+	line "febrero"
 
-	para "Mew gave birth."
-	line "We named the"
-	cont "newborn Mewtwo."
+	para "Mew dio a luz."
+	line "Llamamos Mewtwo"
+	cont "al recién nacido."
 
-	para "Diary: Sept. 1"
+	para "Diario: 1 de"
+	line "septiembre"
 
-	para "Mewtwo is far"
-	line "too powerful."
+	para "Mewtwo es"
+	line "demasiado"
+	cont "poderoso."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies…"
+	para "No hemos logrado"
+	line "frenar su"
+	cont "tendencia"
+	cont "violenta…"
 	done

@@ -32,61 +32,64 @@ CianwoodHouseBlackBeltScript:
 	jumpopenedtext CianwoodHouseBlackBeltText2
 
 CianwoodHouseBlackBeltText1:
-	text "I went to the Gym"
-	line "wearing this vest,"
-	cont "but was laughed"
+	text "Fui al gimnasio"
+	line "con este"
+	cont "chaleco, pero"
 
-	para "out of the build-"
-	line "ing! I can't wear"
-	cont "it there again,"
+	para "se rieron de mí"
+	line "y me echaron!"
+	cont "No puedo"
 
-	para "so you might as"
-	line "well have it."
+	para "llevarlo allí de"
+	line "nuevo, así que"
+	cont "mejor quédatelo."
 	done
 
 CianwoodHouseBlackBeltText2:
-	text "Right. I'm gonna"
-	line "train hard and"
+	text "Bien. Entrenaré"
+	line "duro"
 
-	para "earn my spot in"
-	line "the Gym!"
+	para "y me ganaré un"
+	line "puesto en el"
+	cont "Gimnasio!"
 	done
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "You came from"
-	line "Olivine?"
+	text "¿Vienes de"
+	line "Olivo?"
 
-	para "Do you remember"
-	line "the four islands"
-	cont "along the way?"
+	para "¿Recuerdas las"
+	line "cuatro islas del"
+	cont "camino?"
 
-	para "I heard that a"
-	line "mythical sea crea-"
-	cont "ture is hiding in"
-	cont "them."
+	para "Dicen que una"
+	line "criatura marina"
+	cont "mítica se"
+	cont "esconde en ellas."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "I heard that you"
-	line "can only see it if"
+	text "Dicen que solo"
+	line "puedes verla si"
+	cont "tienes un Ala"
+	cont "de Plata."
 
-	para "you have a Silver"
-	line "Wing."
-
-	para "It must have the"
-	line "same scent as the"
-	cont "creature."
+	para "Debe tener el"
+	line "mismo aroma que"
+	cont "la criatura."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "I've heard that"
-	line "the whirlpools"
+	text "Dicen que la"
+	line "criatura marina"
 
-	para "around the islands"
-	line "are caused by the"
-	cont "sea creature."
+	para "causa los"
+	line "remolinos"
+	cont "alrededor de"
+	cont "las islas."
 
-	para "You might need a"
-	line "special move to"
-	cont "get past them."
+	para "Quizá necesites"
+	line "un movimiento"
+	cont "especial para"
+	cont "pasarlos."
 	done

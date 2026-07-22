@@ -26,27 +26,28 @@ CeladonUniversityNursesOfficeNurseScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "Stay safe, dear!"
+	text "¡Cuídate, cariño!"
 	done
 
 CeladonUniversityNursesOfficeNurseText:
-	text "Come in, dear."
-	line "Are you feeling"
-	cont "well?"
+	text "Pasa, cariño."
+	line "¿Te encuentras"
+	cont "bien?"
 
-	para "Or are your #-"
-	line "mon tuckered out?"
+	para "¿O están tus"
+	line "#mon agotados?"
 
-	para "Please rest here"
-	line "for a while!"
+	para "¡Descansa aquí"
+	line "un rato!"
 	done
 
 CeladonUniversityNursesOfficeSignText:
-	text "A healthy #mon"
-	line "is a happy #-"
-	cont "mon!"
+	text "¡Un #mon sano"
+	line "es un #mon"
+	cont "feliz!"
 
-	para "Don't let your"
-	line "friends faint"
-	cont "during battle!"
+	para "¡No dejes que tus"
+	line "amigos se"
+	cont "debiliten en"
+	cont "combate!"
 	done

@@ -19,28 +19,29 @@ GoldenrodDeptStore3F_MapScriptHeader:
 	object_event  2,  5, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodDeptStore3FRockerText, -1
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+	text "¡Soy muy, muy"
+	line "impaciente!"
 
-	para "I use X Speed in"
-	line "battle to speed up"
-	cont "my #mon."
+	para "Uso Velocidad X en"
+	line "combate para"
+	cont "acelerar a mi"
+	cont "#mon."
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use"
-	cont "X Sp.Atk?"
+	text "¡Oye! ¿Usas"
+	line "At.Esp. X cuando"
+	cont "combates?"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "Special Attack!"
+	para "Es genial. Sube"
+	line "muchísimo el"
+	cont "Ataque Especial!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Para Buscadores"
+	line "de Victoria"
 
-	para "3F Battle"
-	line "   Collection"
+	para "3F Colección"
+	line "   de Combate"
 	done

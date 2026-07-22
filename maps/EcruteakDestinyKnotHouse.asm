@@ -36,48 +36,53 @@ EcruteakDestinyKnotHouseCooltrainerFScript:
 	jumpthisopenedtext
 
 .Text4:
-	text "The red string of"
-	line "fate ties you to"
+	text "El hilo rojo"
+	line "del destino te"
+	cont "une"
 
-	para "the legendary"
-	line "#mon…"
+	para "a los #mon"
+	line "legendarios…"
 
-	para "Are you some kind"
-	line "of Chosen One?"
+	para "¿Serás una"
+	line "especie de"
+	cont "Elegido?"
 	done
 
 .Text1:
-	text "Two mighty bird"
-	line "#mon of Johto,"
+	text "Dos poderosas"
+	line "aves #mon de"
+	cont "Johto,"
 
-	para "each guarding a"
-	line "trio of legendary"
-	cont "#mon."
+	para "cada una"
+	line "guardando un"
+	cont "trío de #mon"
+	cont "legendarios."
 
-	para "Legends within"
-	line "legends…"
+	para "Leyendas dentro"
+	line "de leyendas…"
 	done
 
 .Text2:
-	text "What if a trainer"
-	line "were to catch all"
-	cont "of them?"
+	text "¿Y si un"
+	line "entrenador los"
+	cont "atrapara a"
+	cont "todos?"
 
-	para "What an unlikely"
-	line "destiny!"
+	para "¡Menudo destino"
+	line "tan improbable!"
 	done
 
 .Text3:
-	text "What? You've seen"
-	line "them? And you even"
-	cont "caught them?!"
+	text "¿Qué? ¿Los has"
+	line "visto? ¿Y encima"
+	cont "los atrapaste?!"
 
-	para "Let me see your"
-	line "#dex… Wow!"
+	para "Déjame ver tu"
+	line "#dex… ¡Vaya!"
 
-	para "It must have been"
-	line "your destiny."
+	para "Debió de ser"
+	line "tu destino."
 
-	para "Here, you should"
-	line "have this."
+	para "Toma, esto es"
+	line "para ti."
 	done

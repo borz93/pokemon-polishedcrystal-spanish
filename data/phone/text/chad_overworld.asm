@@ -1,56 +1,67 @@
 ChadAskNumber1Text:
-	text "Huh? Is that thing"
-	line "a #dex? Have"
-	cont "you met Prof.Oak?"
+	text "¿Eh? ¿Eso es"
+	line "una #dex?"
+	cont "¿Conociste al"
+	cont "Prof. Oak?"
 
-	para "Huh? You have?"
-	line "That's way cool!"
+	para "¿Eh? ¿Sí?"
+	line "¡Qué guay!"
 
-	para "I have a dream of"
-	line "becoming a #mon"
+	para "Sueño con ser"
+	line "investigador"
 
-	para "researcher like"
-	line "Prof.Oak."
+	para "#mon como el"
+	line "Prof. Oak."
 
-	para "May I please have"
-	line "your phone number?"
+	para "¿Me das tu"
+	line "número de"
+	cont "teléfono?"
 
-	para "We should chat"
-	line "about Prof.Oak."
+	para "Podríamos"
+	line "hablar del"
+	cont "Prof. Oak."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "¡Seguro que será"
+	line "muy divertido!"
 	done
 
 ChadAskNumber2Text:
-	text "May I please have"
-	line "your phone number?"
+	text "¿Me das tu"
+	line "número de"
+	cont "teléfono?"
 
-	para "We should chat"
-	line "about Prof.Oak."
+	para "Podríamos"
+	line "hablar del"
+	cont "Prof. Oak."
 
-	para "I'm sure it will"
-	line "be loads of fun!"
+	para "¡Seguro que será"
+	line "muy divertido!"
 	done
 
 ChadNumberAcceptedText:
-	text "You must listen to"
-	line "Prof.Oak's #mon"
-	cont "Talk, right?"
+	text "Seguro que"
+	line "escuchas el"
+	cont "#mon Talk del"
+	cont "Prof. Oak, ¿no?"
 	done
 
 ChadNumberDeclinedText:
-	text "Oh… I wish I had a"
-	line "chance to meet"
-	cont "Prof.Oak…"
+	text "Vaya… Ojalá"
+	line "tuviera la"
+	cont "oportunidad de"
+	cont "conocer al"
+	cont "Prof. Oak…"
 	done
 
 ChadPhoneFullText:
-	text "Your phone list is"
-	line "completely full!"
+	text "¡Tu lista de"
+	line "teléfonos está"
+	cont "completamente"
+	cont "llena!"
 	done
 
 ChadRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "¡Te estaba"
+	line "esperando!"
+	cont "¡Combatamos ya!"
 	done

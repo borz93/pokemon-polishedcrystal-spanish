@@ -85,8 +85,9 @@ TrainerPokefanmDerek1:
 .WantsPikachu:
 	jumpthisopenedtext
 
-	text "Pikachu is it!"
-	line "Don't you agree?"
+	text "¡Pikachu es"
+	line "genial! ¿No"
+	cont "crees?"
 	done
 
 .AskNumber1:
@@ -116,11 +117,11 @@ TrainerPokefanmDerek1:
 GenericTrainerPokefanfRuth:
 	generictrainer POKEFANF, RUTH, EVENT_BEAT_POKEFANF_RUTH, PokefanfRuthSeenText, PokefanfRuthBeatenText
 
-	text "Do you know about"
-	line "baby #mon?"
+	text "¿Sabes algo de los"
+	line "#mon bebé?"
 
-	para "I bet they're just"
-	line "adorable!"
+	para "¡Seguro que son"
+	line "adorables!"
 	done
 
 Route39CowgirlAnnieScript:
@@ -174,101 +175,107 @@ Route39CowgirlAnnieScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "We make cheese"
-	line "and yogurt out"
-	cont "of Miltank milk."
+	text "Hacemos queso y"
+	line "yogur con la"
+	cont "leche de Miltank."
 	done
 
 .IntroText:
-	text "Hey! Don't scare"
-	line "the Miltank!"
+	text "¡Oye! ¡No asustes"
+	line "a los Miltank!"
 
-	para "…Oh, you want to"
-	line "battle?"
+	para "…¿Ah, quieres"
+	line "combatir?"
 
-	para "I'm doing farm"
-	line "work right now…"
+	para "Ahora mismo estoy"
+	line "con las faenas de"
+	cont "la granja…"
 
-	para "Tell ya what--"
-	line "beat everyone else"
+	para "Te digo una cosa--"
+	line "vence a todos los"
 
-	para "from Ecruteak to"
-	line "Olivine and I'll"
-	cont "fight ya."
+	para "demás de Iris a"
+	line "Olivo y combato"
+	cont "contigo."
 
-	para "Some o' them"
-	line "might only want"
+	para "Puede que alguno"
+	line "solo quiera"
 
-	para "to battle ya when"
-	line "it's dark out."
+	para "combatir contigo"
+	line "cuando anochezca."
 	done
 
 .QuestionText:
-	text "I'm done with my"
-	line "chores, and you're"
+	text "Ya terminé mis"
+	line "tareas, y tú ya"
 
-	para "done clearing"
-	line "these routes."
+	para "limpiaste estas"
+	line "rutas."
 
-	para "Now then, my team"
-	line "beat Morty, and I"
+	para "Bueno, mi equipo"
+	line "venció a Morty, y"
 
-	para "reckon we can beat"
-	line "you."
+	para "creo que podemos"
+	line "vencerte a ti."
 
-	para "What do you say?"
+	para "¿Qué me dices?"
 	done
 
 .RefusedText:
-	text "Shucks. Back to"
-	line "tending the Mil-"
-	cont "tank, then."
+	text "Vaya. Pues vuelvo"
+	line "a cuidar de los"
+	cont "Miltank, entonces."
 	done
 
 .SeenText:
-	text "I'll show ya what"
-	line "a Cowgirl can do!"
+	text "¡Te enseñaré lo"
+	line "que sabe hacer una"
+	cont "vaquera!"
 	done
 
 .BeatenText:
-	text "I spilled some"
-	line "milk…"
+	text "Se me derramó la"
+	line "leche…"
 	done
 
 .AfterText1:
-	text "Whew! That was an"
-	line "intense break!"
+	text "¡Uf! ¡Vaya"
+	line "descanso más"
+	cont "intenso!"
 
-	para "Thanks for the"
-	line "fun, partner."
+	para "Gracias por la"
+	line "diversión,"
+	cont "compañero."
 
-	para "Take this with"
-	line "ya!"
+	para "¡Toma esto!"
 	done
 
 GenericTrainerSailorEugene:
 	generictrainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText
 
-	text "My #mon were"
-	line "caught and raised"
-	cont "overseas."
+	text "Mis #mon fueron"
+	line "atrapados y"
+	cont "criados en"
+	cont "ultramar."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Son mis"
+	line "compañeros en esos"
+	cont "largos viajes."
 	done
 
 GenericTrainerPsychicNorman:
 	generictrainer PSYCHIC_T, NORMAN, EVENT_BEAT_PSYCHIC_NORMAN, PsychicNormanSeenText, PsychicNormanBeatenText
 
-	text "You know how #-"
-	line "mon have different"
-	cont "abilities?"
+	text "¿Sabes que los"
+	line "#mon tienen"
+	cont "habilidades"
+	cont "distintas?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Las personas"
+	line "somos igual. Cada"
+	cont "uno tiene un"
+	cont "potencial"
+	cont "distinto."
 	done
 
 TrainerPokefanfJaime:
@@ -291,207 +298,229 @@ TrainerPokefanfJaime:
 .Beaten:
 	jumpthisopenedtext
 
-	text "I met my Meowth at"
-	line "night, right here"
-	cont "on Route 39."
+	text "Conocí a mi Meowth"
+	line "de noche, aquí"
+	cont "mismo en la Ruta"
+	cont "39."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "No sé por qué,"
+	line "pero parece que le"
 
-	para "like it when I"
-	line "train here."
+	para "gusta que entrene"
+	line "aquí."
 
-	para "It seems to become"
-	line "friendlier by"
+	para "Parece volverse"
+	line "más amigable"
 
-	para "training here than"
-	line "anywhere else."
+	para "entrenando aquí"
+	line "que en cualquier"
+	cont "otro sitio."
 	done
 
 .NotNight:
 	jumpthisopenedtext
 
-	text "Ufufufu… I hope it"
-	line "gets dark soon."
+	text "Ufufufu… espero"
+	line "que anochezca"
+	cont "pronto."
 	done
 
 Route39MiltankText:
-	text "Miltank: Mooo!"
+	text "Miltank: ¡Muu!"
 	done
 
 SailorEugeneSeenText:
-	text "I just got back to"
-	line "Olivine."
+	text "Acabo de volver a"
+	line "Olivo."
 
-	para "So how about a"
-	line "#mon battle?"
+	para "¿Qué tal un"
+	line "combate #mon?"
 	done
 
 SailorEugeneBeatenText:
-	text "Awaaargh!"
+	text "¡Aaaargh!"
 	done
 
 PokefanmDerek1SeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my Pikachu!"
+	text "¡Este es un buen"
+	line "momento para"
+	cont "presumir de mi"
+	cont "Pikachu!"
 	done
 
 PokefanmDerek1BeatenText:
-	text "I had no time to"
-	line "show off Pikachu…"
+	text "No tuve tiempo de"
+	line "presumir de"
+	cont "Pikachu…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "¡No pienso"
+	line "escuchar tus"
+	cont "fanfarronadas!"
 
-	para "We # Fans have"
-	line "a policy of not"
+	para "Los Fans #"
+	line "tenemos la"
 
-	para "listening to other"
-	line "people brag!"
+	para "política de no"
+	line "escuchar cuando"
+	cont "otros presumen."
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#mon."
+	text "Qué #mon tan"
+	line "encantadores."
 
-	para "Let's show our"
-	line "#mon together"
-	cont "at the same time."
+	para "Mostremos a"
+	line "nuestros #mon"
+	cont "juntos, a la vez."
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "No me importa"
+	line "perder."
 	done
 
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #mon are"
-	cont "capable of."
+	text "Déjame ver de qué"
+	line "son capaces tus"
+	cont "#mon."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #mon"
-	line "have potential."
+	text "Vaya, tus #mon"
+	line "tienen potencial."
 	done
 
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Llegaste en el"
+	line "momento justo."
 
-	para "Let's battle."
+	para "Combatamos."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Vaya,"
+	line "decepcionante…"
 	done
 
 
 Route39BeautyText:
-	text "Which is taller:"
-	line "the Bell Tower in"
-	cont "Ecruteak City,"
+	text "¿Qué es más alta:"
+	line "la Torre Campana"
+	cont "de Ciudad Iris,"
 
-	para "or the Lighthouse"
-	line "in Olivine City?"
+	para "o el Faro de"
+	line "Ciudad Olivo?"
 
-	para "The Bell Tower,"
-	line "no doubt!"
+	para "¡La Torre Campana,"
+	line "sin duda!"
 	done
 
 Route39HikerText:
-	text "North of Olivine"
-	line "is the frontier"
-	cont "of Johto!"
+	text "¡Al norte de"
+	line "Olivo está la"
+	cont "frontera de"
+	cont "Johto!"
 
-	para "An intense hike"
-	line "through rugged"
+	para "Una caminata"
+	line "intensa por"
 
-	para "terrain, then"
-	line "scaling an icy"
-	cont "mountain…"
+	para "terreno escarpado,"
+	line "y luego escalar"
+	cont "una montaña"
+	cont "helada…"
 
-	para "I've heard that"
-	line "some #mon have"
+	para "He oído que"
+	line "algunos #mon se"
 
-	para "adapted to sur-"
-	line "vive the harsh"
-	cont "climate."
+	para "han adaptado para"
+	line "sobrevivir al"
+	cont "clima duro."
 
-	para "…But without a"
-	line "pair of Go-Goggles"
-	cont "for safety,"
+	para "…Pero sin unas"
+	line "Gafas Aisl. para"
+	cont "seguridad,"
 
-	para "I can't even start"
-	line "on the hike…"
+	para "ni siquiera puedo"
+	line "empezar la"
+	cont "caminata…"
 	done
 
 Route39SignText:
-	text "Route 39"
+	text "Ruta 39"
 
-	para "Olivine City -"
-	line "Ecruteak City"
+	para "Ciudad Olivo -"
+	line "Ciudad Iris"
 	done
 
 Route39AdvancedTips1Text:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "Sandstorms boost"
-	line "Special Defense of"
-	cont "Rock-type #mon!"
+	para "¡La Tormenta de"
+	line "Arena aumenta la"
+	cont "Defensa Especial"
+	cont "de los #mon"
+	cont "tipo Roca!"
 
-	para "And, Hail boosts"
-	line "the Defense of"
-	cont "Ice-type #mon!"
+	para "¡Y el Granizo"
+	line "aumenta la"
+	cont "Defensa de los"
+	cont "#mon tipo"
+	cont "Hielo!"
 	done
 
 Route39AdvancedTips2Text:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "A #mon with"
-	line "the Compound Eyes"
-	cont "ability, or one"
+	para "Un #mon con la"
+	line "habilidad Ojo"
+	cont "Compuesto, o uno"
 
-	para "holding an Amulet"
-	line "Coin, is more li-"
-	cont "kely to encounter"
+	para "que lleve una"
+	line "Moneda Amuleto,"
+	cont "tiene más"
+	cont "probabilidad de"
 
-	para "a wild #mon"
-	line "holding an item!"
+	para "¡encontrar un"
+	line "#mon salvaje"
+	cont "con un objeto!"
 	done
 
 RuggedRoadAheadSignText:
-	text "Rugged Road"
-	line "ahead"
+	text "Camino Escarpado"
+	line "por delante"
 
-	para "North to"
-	line "Snowtop Mountain"
+	para "Al norte, Monte"
+	line "Nevado"
 	done
 
 MoomooFarmSignText:
-	text "Moomoo Farm"
+	text "Granja Moomoo"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Disfrute Nuestra"
+	line "Leche Fresca y"
+	cont "Sabrosa"
 	done
 
 Route39TrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "Entrenador"
 
-	para "Use Headbutt on"
-	line "trees to shake"
-	cont "#mon out."
+	para "Usa Golpe Cabeza"
+	line "en los árboles"
+	cont "para hacer caer"
+	cont "#mon."
 
-	para "Different kinds of"
-	line "#mon drop out"
-	cont "of trees."
+	para "De los árboles"
+	line "caen distintos"
+	cont "tipos de #mon."
 
-	para "Use Headbutt on"
-	line "any tree you see!"
+	para "¡Usa Golpe Cabeza"
+	line "en cualquier árbol"
+	cont "que veas!"
 	done

@@ -23,17 +23,18 @@ DaisyScript:
 	iftrue .After
 	jumpthistextfaceplayer
 
-	text "Daisy: Hi! My kid"
-	line "brother is the Gym"
+	text "Daisy: ¡Hola! Mi"
+	line "hermanito es el"
 
-	para "Leader in Viridian"
-	line "City."
+	para "Líder de Gimnasio"
+	line "de Ciudad Verde."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Pero sale de la"
+	line "ciudad tan a"
+	cont "menudo que causa"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "problemas a los"
+	line "entrenadores."
 	done
 
 .Massage:
@@ -64,72 +65,74 @@ DaisyScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Daisy: There you"
-	line "go! All done."
+	text "Daisy: ¡Ya está!"
+	line "Listo."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "¿Ves? ¿A que se"
+	line "ve bien?"
 
-	para "It's such a cute"
-	line "#mon."
+	para "Es un #mon muy"
+	line "mono."
 	done
 
 .IntroText:
-	text "Daisy: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "Daisy: ¡Hola! Qué"
+	line "bien. Voy a tomar"
+	cont "un té."
 
-	para "Would you like to"
-	line "join me?"
+	para "¿Quieres unirte?"
 
-	para "Oh, your #mon"
-	line "are a bit dirty."
+	para "Ah, tus #mon"
+	line "están un poco"
+	cont "sucios."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "¿Quieres que"
+	line "arregle a uno?"
 	done
 
 .After:
 	jumpthistextfaceplayer
 
-	text "Daisy: I always"
-	line "have tea around"
+	text "Daisy: Siempre"
+	line "tomo té a esta"
 
-	para "this time. Come"
-	line "join me."
+	para "hora. Ven a"
+	line "acompañarme."
 	done
 
 .NoMassage:
 	jumpthistext
 
-	text "Daisy: You don't"
-	line "want to have one"
+	text "Daisy: ¿No"
+	line "quieres que"
+	cont "arregle a"
+	cont "ninguno?"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "Vale, solo"
+	line "tomamos té."
 	done
 
 .QuestionText:
-	text "Daisy: Which one"
-	line "should I groom?"
+	text "Daisy: ¿A cuál"
+	line "arreglo?"
 	done
 
 .OkayText:
-	text "Daisy: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "Daisy: Vale, lo"
+	line "dejaré perfecto"
+	cont "enseguida."
 	done
 
 .LooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " se ve"
+	line "feliz."
 	done
 
 .EggMassage:
 	jumpthistext
 
-	text "Daisy: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an Egg."
+	text "Daisy: Ay, perdón."
+	line "No puedo arreglar"
+	cont "un Huevo."
 	done

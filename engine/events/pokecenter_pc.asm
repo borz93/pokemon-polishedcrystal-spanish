@@ -45,11 +45,11 @@ PokemonCenterPC:
 	dw HallOfFamePC, .String_HallOfFame
 	dw TurnOffPC, .String_TurnOff
 
-.String_PlayersPC:  db "<PLAYER>'s PC@"
-.String_BillsPC:    db "Bill's PC@"
-.String_OaksPC:     db "Prof.Oak's PC@"
-.String_HallOfFame: db "Hall of Fame@"
-.String_TurnOff:    db "Turn Off@"
+.String_PlayersPC:  db "PC de <PLAYER>@"
+.String_BillsPC:    db "PC de Bill@"
+.String_OaksPC:     db "PC de Oak@"
+.String_HallOfFame: db "Hall de Fama@"
+.String_TurnOff:    db "Apagar@"
 
 .WhichPC:
 	; before pokedex
@@ -232,13 +232,13 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "Withdraw Item@"
-.DepositItem:  db "Deposit Item@"
-.TossItem:     db "Toss Item@"
-.MailBox:      db "Mail Box@"
-.Decoration:   db "Decoration@"
-.TurnOff:      db "Turn Off@"
-.LogOff:       db "Log Off@"
+.WithdrawItem: db "Sacar Obj.@"
+.DepositItem:  db "Guardar Obj.@"
+.TossItem:     db "Tirar Obj.@"
+.MailBox:      db "Buzón@"
+.Decoration:   db "Decoración@"
+.TurnOff:      db "Apagar@"
+.LogOff:       db "Salir@"
 
 DEF WITHDRAW_ITEM EQU 0
 DEF DEPOSIT_ITEM  EQU 1

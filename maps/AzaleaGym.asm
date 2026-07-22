@@ -65,82 +65,86 @@ AzaleaGymBugsyScript:
 	setevent EVENT_BEAT_BUG_CATCHER_AL
 	setevent EVENT_BEAT_BUG_CATCHER_JOSH
 	writethistext
-		text "Do you know the"
-		line "benefits of the"
-		cont "Hive Badge?"
+		text "¿Sabes qué"
+		line "beneficios tiene"
+		cont "la Med. Colmena?"
 
-		para "If you have it,"
-		line "#mon up to <LV>30"
+		para "Si la tienes, tus"
+		line "#mon hasta Nv30"
 
-		para "will obey you,"
-		line "even traded ones."
+		para "te obedecerán,"
+		line "incluso los"
+		cont "intercambiados."
 
-		para "#mon that know"
-		line "Cut will be able"
+		para "Los #mon que"
+		line "sepan Corte"
 
-		para "to use it outside"
-		line "of battle too."
+		para "podrán usarlo"
+		line "fuera del combate"
+		cont "también."
 
-		para "Here, I also want"
-		line "you to have this."
+		para "Toma, quiero que"
+		line "tengas esto."
 		done
 	promptbutton
 	verbosegivetmhm TM_U_TURN
 	setevent EVENT_GOT_TM69_U_TURN
 	jumpthisopenedtext
 
-	text "TM69 contains"
-	line "U-turn."
+	text "La MT69 contiene"
+	line "Ida y Vuelta."
 
-	para "It lets your #-"
-	line "mon attack, then"
+	para "Deja que #mon"
+	line "ataque y luego"
 
-	para "switch out right"
-	line "away."
+	para "cambie de"
+	line "inmediato."
 
-	para "Isn't that great?"
-	line "I discovered it!"
+	para "¿A que es genial?"
+	line "¡Lo descubrí yo!"
 	done
 
 .SeenText:
-	text "I'm Bugsy!"
-	line "I never lose when"
+	text "¡Soy Bugsy!"
+	line "Nunca pierdo con"
 
-	para "it comes to bug"
-	line "#mon."
+	para "#mon tipo"
+	line "Bicho."
 
-	para "My research is"
-	line "going to make me"
+	para "Mi investigación"
+	line "hará de mí"
 
-	para "the authority on"
-	line "bug #mon!"
+	para "la máxima autori-"
+	line "dad en #mon"
+	cont "Bicho!"
 
-	para "Let me demonstrate"
-	line "what I've learned"
-	cont "from my studies."
+	para "Deja que te"
+	line "muestre lo que"
+	cont "he aprendido."
 	done
 
 .BeatenText:
-	text "Whoa, amazing!"
-	line "You're an expert"
-	cont "on #mon!"
+	text "¡Vaya, increíble!"
+	line "Eres un experto"
+	cont "en #mon!"
 
-	para "My research isn't"
-	line "complete yet."
+	para "Mi investigación"
+	line "no está completa."
 
-	para "OK, you win. Take"
-	line "this Badge."
+	para "Vale, ganas."
+	line "Toma la Medalla."
 	done
 
 .AfterText:
-	text "Bug #mon are"
-	line "deep. There are"
+	text "Los #mon Bicho"
+	line "son profundos."
 
-	para "many mysteries to"
-	line "be explored."
+	para "Hay muchos"
+	line "misterios por"
+	cont "explorar."
 
-	para "Study your favor-"
-	line "ites thoroughly."
+	para "Estudia bien a"
+	line "tus favoritos."
 	done
 
 AzaleaGymGuyScript:
@@ -148,139 +152,142 @@ AzaleaGymGuyScript:
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
-	text "Yo, challenger!"
+	text "¡Eh, aspirante!"
 
-	para "Bugsy's young, but"
-	line "his knowledge of"
+	para "Bugsy es joven,"
+	line "pero su conocim."
+	cont "de #mon Bicho"
+	cont "es real."
 
-	para "bug #mon is for"
-	line "real."
+	para "Va a ser duro"
+	line "sin mis consejos."
 
-	para "It's going to be"
-	line "tough without my"
-	cont "advice."
+	para "Veamos… A los"
+	line "#mon Bicho no"
+	cont "les gusta el"
+	cont "fuego."
 
-	para "Let's see… Bug"
-	line "#mon don't like"
-	cont "fire."
-
-	para "Flying-type moves"
-	line "are super effec-"
-	cont "tive too."
+	para "Los movs. Volador"
+	line "también son"
+	cont "supereficaces."
 	done
 
 .WinText:
-	text "Well done! That"
-	line "was a great clash"
+	text "¡Bien hecho! Fue"
+	line "un gran choque"
 
-	para "of talented young"
-	line "trainers."
+	para "de jóvenes"
+	line "entrenadores con"
+	cont "talento."
 
-	para "With people like"
-	line "you, the future of"
-	cont "#mon is bright!"
+	para "¡Con gente como"
+	line "tú, el futuro"
+	cont "#mon es"
+	cont "prometedor!"
 	done
 
 GenericTrainerBug_catcherBenny:
 	generictrainer BUG_CATCHER, BENNY, EVENT_BEAT_BUG_CATCHER_BENNY, .SeenText, .BeatenText
 
-	text "#mon become"
-	line "stronger if they"
-	cont "evolve. Really!"
+	text "¡Los #mon se"
+	line "hacen más fuertes"
+	cont "al evolucionar!"
 	done
 
 .SeenText:
-	text "Bug #mon evolve"
-	line "young. So they get"
-
-	para "stronger that much"
-	line "faster."
+	text "Los #mon Bicho"
+	line "evolucionan"
+	cont "jóvenes. Por eso"
+	cont "se fortalecen"
+	cont "antes."
 	done
 
 .BeatenText:
-	text "Just evolving"
-	line "isn't enough!"
+	text "¡Con evolucionar"
+	line "no basta!"
 	done
 
 GenericTrainerBug_catcherAl:
 	generictrainer BUG_CATCHER, AL, EVENT_BEAT_BUG_CATCHER_AL, .SeenText, .BeatenText
 
-	text "They're so cool,"
-	line "but most girls"
+	text "Molan mucho, pero"
+	line "a la mayoría de"
+	cont "chicas no les"
+	cont "gustan los #mon"
+	cont "Bicho."
 
-	para "don't like bug"
-	line "#mon."
-
-	para "I don't know why…"
+	para "No sé por qué…"
 	done
 
 .SeenText:
-	text "Bug #mon are"
-	line "cool and tough!"
+	text "¡Los #mon Bicho"
+	line "son geniales y"
+	cont "fuertes!"
 
-	para "I'll prove it to"
-	line "you!"
+	para "¡Te lo voy a"
+	line "demostrar!"
 	done
 
 .BeatenText:
-	text "You proved how"
-	line "tough you are…"
+	text "Has demostrado lo"
+	line "fuerte que eres…"
 	done
 
 GenericTrainerBug_catcherJosh:
 	generictrainer BUG_CATCHER, JOSH, EVENT_BEAT_BUG_CATCHER_JOSH, .SeenText, .BeatenText
 
-	text "I guess I should"
-	line "teach them better"
-	cont "moves…"
+	text "Supongo que debo"
+	line "enseñarles mejores"
+	cont "movimientos…"
 	done
 
 .SeenText:
-	text "You saved all the"
-	line "Slowpoke? Whew,"
-	cont "you're mighty!"
+	text "¿Salvaste a todos"
+	line "los Slowpoke? ¡Uf,"
+	cont "eres poderoso!"
 
-	para "But my grown-up"
-	line "#mon are pretty"
-	cont "tough too!"
+	para "¡Pero mis #mon"
+	line "adultos también"
+	cont "son fuertes!"
 	done
 
 .BeatenText:
-	text "Urrgggh!"
+	text "¡Aaaargh!"
 	done
 
 GenericTrainerTwinsAmyandmimi1:
 	generictrainer TWINS, AMYANDMIMI1, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "Amy: You're"
-	line "really strong!"
+	text "Amy: ¡Eres"
+	line "muy fuerte!"
 	done
 
 .SeenText:
-	text "Amy: Hi! Are you"
-	line "challenging the"
-	cont "Leader? No way!"
+	text "Amy: ¡Hola! ¿Vas"
+	line "a retar al"
+	cont "Líder? ¡Anda ya!"
 	done
 
 GenericTrainerTwinsAmyandmimi2:
 	generictrainer TWINS, AMYANDMIMI2, EVENT_BEAT_TWINS_AMY_AND_MAY, .SeenText, TrainerTwinsAmyandmimiBeatenText
 
-	text "Mimi: Our bug"
-	line "#mon lost!"
+	text "Mimi: ¡Nuestro"
+	line "#mon Bicho"
+	cont "perdió!"
 
-	para "Oh, what a"
-	line "shame."
+	para "Vaya, qué"
+	line "pena."
 	done
 
 .SeenText:
-	text "Mimi: You want to"
-	line "see the Leader?"
-	cont "We come first!"
+	text "Mimi: ¿Quieres"
+	line "ver al Líder?"
+	cont "¡Primero nosotras!"
 	done
 
 TrainerTwinsAmyandmimiBeatenText:
-	text "Amy & Mimi: Oh,"
-	line "double goodness!"
+	text "Amy y Mimi: ¡Vaya,"
+	line "doble bien!"
 	done
 
 SpinarakCartStartUpScript:

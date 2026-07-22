@@ -26,17 +26,19 @@ OlivineLighthouse4F_MapScriptHeader:
 GenericTrainerLassConnie:
 	generictrainer LASS, CONNIE, EVENT_BEAT_LASS_CONNIE, LassConnieSeenText, LassConnieBeatenText
 
-	text "Right. Anybody"
-	line "would be worried"
+	text "Claro. Cualquiera"
+	line "se preocuparía"
 
-	para "if their own #-"
-	line "mon were hurt."
+	para "si su propio"
+	line "#mon estuviera"
+	cont "herido."
 
-	para "I'll pray for the"
-	line "#mon here, so"
+	para "Rezaré por el"
+	line "#mon de aquí,"
 
-	para "Jasmine can come"
-	line "back to the Gym."
+	para "para que Jasmine"
+	line "vuelva al"
+	cont "gimnasio."
 	done
 
 TrainerSailorKent:
@@ -48,47 +50,55 @@ SailorKentScript:
 	iftrue_jumptextfaceplayer SailorKentFinalText
 	jumpthistextfaceplayer
 
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Hablando de"
+	line "enfermos, oí que"
+	cont "hay"
 
-	para "a good Pharmacy in"
-	line "Cianwood."
+	para "una buena"
+	line "farmacia en"
+	cont "Ciudad Orquídea."
 	done
 
 SailorKentSeenText:
-	text "Jasmine must be"
-	line "worried sick about"
-	cont "the #mon here."
+	text "Jasmine debe"
+	line "estar"
+	cont "preocupadísima"
+	cont "por el #mon."
 
-	para "She won't even"
-	line "smile these days."
+	para "Ya ni sonríe"
+	line "estos días."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "Tampoco puedo"
+	line "sonreír…"
 	done
 
 SailorKentFinalText:
-	text "The #mon here"
-	line "is well again."
+	text "El #mon de"
+	line "aquí ya está"
+	cont "bien."
 
-	para "Cianwood Pharmacy"
-	line "lived up to its"
-	cont "reputation!"
+	para "La Farmacia de"
+	line "Ciudad Orquídea"
+	cont "estuvo a la"
+	cont "altura de su fama!"
 	done
 
 LassConnieSeenText:
-	text "Jasmine is this"
-	line "city's Gym Leader."
+	text "Jasmine es la"
+	line "Líder del"
+	cont "Gimnasio de esta"
+	cont "ciudad."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Pienso traerla"
+	line "de vuelta."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "¡Más vale que"
+	line "nadie se"
+	cont "interponga!"
 	done
 
 LassConnieBeatenText:
-	text "Aaack! My #mon!"
+	text "¡Aaay! Mi #mon!"
 	done

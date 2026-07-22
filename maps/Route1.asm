@@ -21,85 +21,90 @@ Route1_MapScriptHeader:
 GenericTrainerSchoolboyDanny:
 	generictrainer SCHOOLBOY, DANNY, EVENT_BEAT_SCHOOLBOY_DANNY, SchoolboyDannySeenText, SchoolboyDannyBeatenText
 
-	text "For trainers, it's"
-	line "a given that we'll"
+	text "Para los"
+	line "entrenadores, es"
 
-	para "battle whenever we"
-	line "meet."
+	para "normal combatir"
+	line "cada vez que nos"
+	cont "vemos."
 	done
 
 GenericTrainerSchoolboySherman:
 	generictrainer SCHOOLBOY, SHERMAN, EVENT_BEAT_SCHOOLBOY_SHERMAN, SchoolboyShermanSeenText, SchoolboyShermanBeatenText
 
-	text "I should record"
-	line "all of today's"
-	cont "mistakes."
+	text "Debería anotar"
+	line "todos los"
+	cont "errores de hoy."
 	done
 
 GenericTrainerCooltrainermFrench:
 	generictrainer COOLTRAINERM, FRENCH, EVENT_BEAT_COOLTRAINERM_FRENCH, CooltrainermFrenchSeenText, CooltrainermFrenchBeatenText
 
-	text "That was a great"
-	line "fight!"
-	cont "Don't you agree?"
+	text "¡Qué buen"
+	line "combate!"
+	cont "¿No crees?"
 	done
 
 GenericTrainerCooltrainerfQuinn:
 	generictrainer COOLTRAINERF, QUINN, EVENT_BEAT_COOLTRAINERF_QUINN, CooltrainerfQuinnSeenText, CooltrainerfQuinnBeatenText
 
-	text "You're strong."
+	text "Eres fuerte."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "Está claro que"
+	line "has entrenado"
+	cont "mucho."
 	done
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Si dos"
+	line "entrenadores se"
+	cont "encuentran, lo"
+	cont "primero es"
+	cont "combatir."
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "Vaya… tengo un"
+	line "historial de"
+	cont "derrotas…"
 	done
 
 SchoolboyShermanSeenText:
-	text "Right after class,"
-	line "I head outside to"
-	cont "practice!"
+	text "Justo después de"
+	line "clase, ¡salgo a"
+	cont "practicar!"
 	done
 
 SchoolboyShermanBeatenText:
-	text "I need to follow"
-	line "the textbook."
+	text "Debo seguir el"
+	line "libro de texto."
 	done
 
 CooltrainermFrenchSeenText:
-	text "You!"
+	text "¡Tú!"
 
-	para "I've been waiting"
-	line "for someone like"
-	cont "you!"
+	para "Llevo esperando"
+	line "a alguien"
+	cont "como tú!"
 	done
 
 CooltrainermFrenchBeatenText:
-	text "Yep, as strong as"
-	line "expected!"
+	text "¡Sí, tan fuerte"
+	line "como esperaba!"
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "¡Eh, tú! ¿Quieres"
+	line "combatir?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "Fuera de combate…"
 	done
 
 Route1SignText:
-	text "Route 1"
+	text "Ruta 1"
 
-	para "Pallet Town -"
-	line "Viridian City"
+	para "Pueblo Paleta -"
+	line "Ciudad Verde"
 	done

@@ -78,75 +78,77 @@ WillScript:
 	end
 
 .SeenText:
-	text "Welcome to the"
-	line "#mon League,"
+	text "Bienvenido a la"
+	line "Liga #mon,"
 	cont "<PLAYER>."
 
-	para "Allow me to intro-"
-	line "duce myself. I am"
+	para "Permíteme"
+	line "presentarme. Soy"
 	cont "Will."
 
-	para "I have trained all"
-	line "around the world,"
+	para "He entrenado por"
+	line "todo el mundo,"
 
-	para "making my Psychic"
-	line "#mon powerful."
+	para "haciendo poderosos"
+	line "a mis #mon"
+	cont "Psíquicos."
 
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the Elite Four."
+	para "Y, por fin, me han"
+	line "aceptado en el"
+	cont "Alto Mando."
 
-	para "I can only keep"
-	line "getting better!"
+	para "¡Solo puedo seguir"
+	line "mejorando!"
 
-	para "Losing is not an"
-	line "option!"
+	para "¡Perder no es una"
+	line "opción!"
 	done
 
 .BeatenText:
-	text "I… I can't…"
-	line "believe it…"
+	text "Yo… no puedo…"
+	line "creerlo…"
 	done
 
 .AfterText:
-	text "Even though I was"
-	line "defeated, I won't"
-	cont "change my course."
+	text "Aunque fui"
+	line "derrotado, no"
+	cont "cambiaré de rumbo."
 
-	para "I will continue"
-	line "battling until I"
+	para "Seguiré"
+	line "combatiendo hasta"
+	cont "estar sobre todos"
+	cont "los entrenadores!"
 
-	para "stand above all"
-	line "trainers!"
+	para "Ahora, <PLAYER>,"
+	line "sigue y vive la"
 
-	para "Now, <PLAYER>, move"
-	line "on and experience"
-
-	para "the true ferocity"
-	line "of the Elite Four."
+	para "verdadera"
+	line "ferocidad del"
+	cont "Alto Mando."
 	done
 
 .SeenRematchText:
-	text "So, you have"
-	line "finally appeared."
+	text "Así que por fin"
+	line "apareciste."
 
-	para "I have observed"
-	line "your battle"
-	cont "techniques."
+	para "He observado tus"
+	line "técnicas de"
+	cont "combate."
 
-	para "I'm ready for you!"
+	para "¡Estoy listo para"
+	line "ti!"
 
-	para "All right."
+	para "Muy bien."
 
-	para "Prepare for"
-	line "battle!"
+	para "¡Prepárate para"
+	line "combatir!"
 	done
 
 .AfterRematchText:
-	text "I've expended all"
-	line "my power."
+	text "Gasté todo mi"
+	line "poder."
 
-	para "I have no regrets"
-	line "about losing"
-	cont "this way."
+	para "No me arrepiento"
+	line "de perder de esta"
+	cont "forma."
 	done

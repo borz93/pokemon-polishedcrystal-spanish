@@ -51,29 +51,29 @@ CeladonDeptStore3FTutorCounterScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Never mind."
+	text "No importa."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf…"
+	text "No tienes una"
+	line "Hoja Plateada…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows Counter."
+	text "Ahora tu #mon"
+	line "sabe Contraataque."
 	done
 
 VideoGameClerkNoMoneyScript:
 	jumpthisopenedtext
 
-	text "Clerk: You can't"
-	line "afford it!"
+	text "Dependiente: ¡No"
+	line "puedes pagarlo!"
 	done
 
 CeladonDeptStore3FSnesScript:
@@ -94,8 +94,8 @@ CeladonDeptStore3FSnesScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Super NES"
-	line "was sent home."
+	text "Super NES fue"
+	line "enviada a casa."
 	done
 
 CeladonDeptStore3FN64Script:
@@ -116,8 +116,8 @@ CeladonDeptStore3FN64Script:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Nintendo 64"
-	line "was sent home."
+	text "Nintendo 64 fue"
+	line "enviada a casa."
 	done
 
 CeladonDeptStore3FGameCubeScript:
@@ -138,8 +138,8 @@ CeladonDeptStore3FGameCubeScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "GameCube"
-	line "was sent home."
+	text "GameCube fue"
+	line "enviada a casa."
 	done
 
 CeladonDeptStore3FWiiScript:
@@ -160,175 +160,188 @@ CeladonDeptStore3FWiiScript:
 	waitbutton
 	jumpthisopenedtext
 
-	text "Wii"
-	line "was sent home."
+	text "Wii fue enviada"
+	line "a casa."
 	done
 
 CeladonDeptStore3FClerk2Text:
-	text "There's a neat move"
-	line "called Counter."
+	text "Hay un movimiento"
+	line "genial llamado"
+	cont "Contraataque."
 
-	para "Not the kind of"
-	line "counter I'm leaning"
-	cont "on, mind you!"
+	para "¡No del tipo de"
+	line "contraataque en el"
+	cont "que me apoyo, ojo!"
 	done
 
 Text_CeladonDeptStore3FTutorCounter:
-	text "I'll teach your"
-	line "#mon how to use"
+	text "Le enseñaré a tu"
+	line "#mon a usar"
 
-	para "Counter if you pay"
-	line "me a Silver Leaf."
+	para "Contraataque si me"
+	line "pagas una Hoja"
+	cont "Plateada."
 	done
 
 
 Text_CeladonDeptStore3FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Counter?"
+	text "¿Debería"
+	line "enseñarle"
+	cont "Contraataque a tu"
+	cont "#mon?"
 	done
 
 
 
 VideoGameClerkText:
-	text "We sell brand-new"
-	line "and vintage game"
-	cont "systems!"
+	text "¡Vendemos"
+	line "videoconsolas"
+	cont "nuevas y"
+	cont "vintage!"
 
-	para "Try them out for"
-	line "yourself!"
+	para "¡Pruébalas tú"
+	line "mismo!"
 	done
 
 VideoGameClerkNoSaleText:
-	text "Clerk: Well, if"
-	line "you say so."
+	text "Dependiente:"
+	line "Bueno, si tú lo"
+	cont "dices."
 	done
 
 
 VideoGameClerkSellSnesText:
-	text "Clerk: That SNES"
-	line "can be yours for"
+	text "Dependiente: Esa"
+	line "SNES puede ser"
 
-	para "just ¥20,000!"
-	line "Want one?"
+	para "¡tuya por solo"
+	line "¥20,000! ¿La"
+	cont "quieres?"
 	done
 
 VideoGameClerkSellN64Text:
-	text "Clerk: That N64"
-	line "can be yours for"
+	text "Dependiente: Esa"
+	line "N64 puede ser"
 
-	para "just ¥25,000!"
-	line "Want one?"
+	para "¡tuya por solo"
+	line "¥25,000! ¿La"
+	cont "quieres?"
 	done
 
 VideoGameClerkSellGameCubeText:
-	text "Clerk: That Game-"
-	line "Cube can be yours"
+	text "Dependiente: Esa"
+	line "GameCube puede ser"
 
-	para "for just ¥30,000!"
-	line "Want one?"
+	para "¡tuya por solo"
+	line "¥30,000! ¿La"
+	cont "quieres?"
 	done
 
 VideoGameClerkSellWiiText:
-	text "Clerk: That Wii"
-	line "can be yours for"
+	text "Dependiente: Esa"
+	line "Wii puede ser tuya"
 
-	para "just ¥40,000!"
-	line "Want one?"
+	para "¡por solo"
+	line "¥40,000! ¿La"
+	cont "quieres?"
 	done
 
 BoughtSnesText:
-	text "<PLAYER> bought"
-	line "Super NES."
+	text "<PLAYER> compró"
+	line "una Super NES."
 	done
 
 
 BoughtN64Text:
-	text "<PLAYER> bought"
-	line "Nintendo 64."
+	text "<PLAYER> compró"
+	line "una Nintendo 64."
 	done
 
 
 BoughtGameCubeText:
-	text "<PLAYER> bought"
-	line "GameCube."
+	text "<PLAYER> compró"
+	line "una GameCube."
 	done
 
 
 BoughtWiiText:
-	text "<PLAYER> bought"
-	line "Wii."
+	text "<PLAYER> compró"
+	line "una Wii."
 	done
 
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #mon I"
+	text "No puedo decidir"
+	line "en qué #mon"
 
-	para "should use this"
-	line "TM on…"
+	para "usar esta MT…"
 
-	para "Good thing it"
-	line "doesn't run out."
+	para "Menos mal que no"
+	line "se agota."
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The Tech Shop"
-	line "sells some cool"
-	cont "game systems."
+	text "La Tienda de"
+	line "Tecnología vende"
+	cont "videoconsolas"
+	cont "geniales."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "Make Your #mon"
-	line "Stronger!"
+	text "¡Haz Más Fuerte a"
+	line "tu #mon!"
 
-	para "3F: Tech Shop"
+	para "3F: Tienda de"
+	line "Tecnología"
 	done
 
 CeladonDeptStore3FSnesText:
-	text "It's a Super NES!"
+	text "¡Es una Super"
+	line "NES!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Yo tengo una en"
+	line "casa!"
 	done
 
 CeladonDeptStore3FN64Text:
-	text "It's an N64!"
+	text "¡Es una N64!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Yo tengo una en"
+	line "casa!"
 	done
 
 CeladonDeptStore3FGameCubeText:
-	text "It's a GameCube!"
+	text "¡Es una GameCube!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Yo tengo una en"
+	line "casa!"
 	done
 
 CeladonDeptStore3FWiiText:
-	text "It's a Wii!"
+	text "¡Es una Wii!"
 
-	para "I have one of"
-	line "those at home!"
+	para "¡Yo tengo una en"
+	line "casa!"
 	done
 
 CeladonDeptStore3FRPGText:
-	text "An RPG! There's"
-	line "no time for that!"
+	text "¡Un RPG! ¡No hay"
+	line "tiempo para eso!"
 	done
 
 CeladonDeptStore3FSportsGameText:
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "¡Un juego de"
+	line "deportes! ¡A papá"
+	cont "le va a gustar!"
 	done
 
 CeladonDeptStore3FPuzzleGameText:
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "¡Un puzle! Parece"
+	line "adictivo."
 	done
 
 CeladonDeptStore3FFightingGameText:
-	text "A fighting game!"
-	line "Looks tough!"
+	text "¡Un juego de"
+	line "lucha! Parece"
+	cont "difícil."
 	done

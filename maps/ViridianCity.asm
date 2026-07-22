@@ -45,11 +45,11 @@ ViridianCityCoffeeGramps:
 	iffalse_jumpopenedtext ViridianCityCoffeeGrampsDoubtedText
 	jumpthisopenedtext
 
-	text "Good, good. Yes, I"
-	line "was something out"
+	text "Bien, bien. Sí,"
+	line "era algo fuera de"
 
-	para "of the ordinary,"
-	line "let me tell you!"
+	para "lo común, ¡te lo"
+	line "aseguro!"
 	done
 
 ViridianCityGrampsNearGym:
@@ -57,15 +57,15 @@ ViridianCityGrampsNearGym:
 	iftrue_jumptextfaceplayer ViridianCityGrampsNearGymBlueReturnedText
 	jumpthistextfaceplayer
 
-	text "This Gym didn't"
-	line "have a Leader"
-	cont "until recently."
+	text "Este Gimnasio no"
+	line "tuvo Líder hasta"
+	cont "hace poco."
 
-	para "A young man from"
-	line "Pallet became the"
-
-	para "Leader, but he's"
-	line "often away."
+	para "Un joven de"
+	line "Pueblo Paleta se"
+	cont "convirtió en el"
+	cont "Líder, pero suele"
+	cont "estar fuera."
 	done
 
 ViridianCityDreamEaterFisher:
@@ -94,171 +94,178 @@ ViridianCityTutorDreamEaterScript:
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have any"
-	line "Silver Leaves…"
+	text "No tienes ninguna"
+	line "Hoja Plateada…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Dream Eater…"
+	text "Ahora tu #mon"
+	line "sabe usar"
+	cont "Sueño Real…"
 
 	para "…Zzzzz…"
 	done
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Hey, kid! I just"
-	line "had a double shot"
+	text "¡Eh, chaval! Acabo"
+	line "de tomarme un"
+	cont "doble espresso, y"
+	cont "estoy que me"
+	cont "subo por las"
+	cont "paredes."
 
-	para "of espresso, and"
-	line "I am wired!"
+	para "Necesito hablar"
+	line "con alguien, ¡así"
+	cont "que servirás tú!"
 
-	para "I need to talk to"
-	line "someone, so you'll"
-	cont "have to do!"
+	para "Puede que ahora no"
+	line "lo parezca, pero"
 
-	para "I might not look"
-	line "like much now, but"
+	para "yo era un experto"
+	line "atrapando #mon."
 
-	para "I was an expert at"
-	line "catching #mon."
-
-	para "Do you believe me?"
+	para "¿Me crees?"
 	done
 
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "What? You little"
-	line "whelp!"
+	text "¿Qué? ¡Mocoso"
+	line "insolente!"
 
-	para "If I were just a"
-	line "bit younger, I'd"
+	para "Si fuera un poco"
+	line "más joven, te"
 
-	para "show you a thing"
-	line "or two. Humph!"
+	para "enseñaría un par"
+	line "de cosas. ¡Já!"
 	done
 
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Are you going to"
-	line "battle the Leader?"
+	text "¿Vas a combatir"
+	line "contra el Líder?"
 
-	para "Good luck to you."
-	line "You'll need it."
+	para "Buena suerte. La"
+	line "vas a necesitar."
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Yawn!"
+	text "¡Bostezo!"
 
-	para "I must have dozed"
-	line "off in the sun."
+	para "Debí de quedarme"
+	line "dormido al sol."
 
-	para "…I had this dream"
-	line "about a Drowzee"
+	para "…Tuve un sueño"
+	line "sobre un Drowzee"
 
-	para "eating my dream."
-	line "And…"
+	para "comiéndose mi"
+	line "sueño. Y…"
 
-	para "I learned how to"
-	line "eat dreams…"
+	para "Aprendí a comer"
+	line "sueños…"
 
-	para "Ooh, this is too"
-	line "spooky!"
-	cont "But now…"
+	para "¡Oh, esto da"
+	line "escalofríos!"
+	cont "Pero ahora…"
 	done
 
 Text_ViridianCityTutorDreamEater:
-	text "I can teach your"
-	line "#mon to eat"
-	cont "dreams."
+	text "Puedo enseñarle a"
+	line "tu #mon a comer"
+	cont "sueños."
 
-	para "I just want a"
-	line "Silver Leaf in"
-	cont "exchange."
+	para "Solo quiero una"
+	line "Hoja Plateada a"
+	cont "cambio."
 	done
 
 
 Text_ViridianCityTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Dream Eater?"
+	text "¿Debería enseñarle"
+	line "Sueño Real a tu"
+	cont "#mon?"
 	done
 
 Text_ViridianCityTutorRefused: ; text > text
-	text "OK…"
+	text "Vale…"
 	done
 
 
 ViridianCityYoungsterText:
-	text "I heard that there"
-	line "are many items on"
+	text "Oí que hay muchos"
+	line "objetos en el"
 
-	para "the ground in"
-	line "Viridian Forest."
+	para "suelo del Bosque"
+	line "Verde."
 	done
 
 ViridianCityYoungster2Text:
-	text "The leader of Team"
-	line "Rocket was the Gym"
+	text "El líder del Team"
+	line "Rocket fue el"
+	cont "Líder de este"
+	cont "Gimnasio durante"
 
-	para "Leader here for a"
-	line "time, but one day"
+	para "un tiempo, pero un"
+	line "día, hace tres"
+	cont "años, desapareció."
 
-	para "three years ago"
-	line "he vanished."
-
-	para "He wasn't usually"
-	line "at the Gym anyway…"
+	para "De todos modos no"
+	line "solía estar en el"
+	cont "Gimnasio…"
 	done
 
 ViridianCitySignText:
-	text "Viridian City"
+	text "Ciudad Verde"
 
-	para "The Eternally"
-	line "Green Paradise"
+	para "El Paraíso"
+	line "Eternamente Verde"
 	done
 
 ViridianGymSignText:
-	text "Viridian City"
-	line "#mon Gym"
-	cont "Leader: …"
+	text "Gimnasio #mon"
+	line "de Ciudad Verde"
+	cont "Líder: …"
 
-	para "The rest of the"
-	line "text is illegible…"
+	para "El resto del texto"
+	line "es ilegible…"
 	done
 
 ViridianCityTrainerTips1Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "Catch #mon"
-	line "and expand your"
-	cont "collection!"
+	para "¡Atrapa #mon y"
+	line "amplía tu"
+	cont "colección!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "¡Cuantos más"
+	line "tengas, más fácil"
+	cont "será combatir!"
 	done
 
 ViridianCityTrainerTips2Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "The world is a"
-	line "big place!"
+	para "¡El mundo es un"
+	line "lugar enorme!"
 
-	para "Don't just run or"
-	line "Fly everywhere--"
-	cont "look around you!"
+	para "No te limites a"
+	line "correr o volar,"
+	cont "¡mira a tu"
+	cont "alrededor!"
 
-	para "You'll find new and"
-	line "exciting things!"
+	para "¡Encontrarás cosas"
+	line "nuevas y"
+	cont "emocionantes!"
 	done
 
 TrainerHouseSignText:
-	text "Trainer House"
+	text "Casa de"
+	line "Entrenadores"
 
-	para "The Club for Top"
-	line "Trainer Battles"
+	para "El Club de los"
+	line "Mejores Combates"
 	done

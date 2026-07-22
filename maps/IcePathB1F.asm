@@ -71,37 +71,40 @@ IcePathB1FSetUpStoneTable:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through."
+	text "¡La roca cayó"
+	line "por el agujero!"
 	done
 
 GenericTrainerBoarderMax:
 	generictrainer BOARDER, MAX, EVENT_BEAT_BOARDER_MAX, BoarderMaxSeenText, BoarderMaxBeatenText
 
-	text "I'm not giving up!"
+	text "¡No me rindo!"
 	done
 
 GenericTrainerSkierBecky:
 	generictrainer SKIER, BECKY, EVENT_BEAT_SKIER_BECKY, SkierBeckySeenText, SkierBeckyBeatenText
 
-	text "Don't forget to"
-	line "wear a scarf!"
+	text "¡No olvides"
+	line "ponerte una"
+	cont "bufanda!"
 	done
 
 BoarderMaxSeenText:
-	text "Blackthorn can't be"
-	line "much farther…"
+	text "Ciudad Endrino no"
+	line "debe estar muy"
+	cont "lejos…"
 	done
 
 BoarderMaxBeatenText:
-	text "Wiped out!"
+	text "¡Aniquilado!"
 	done
 
 SkierBeckySeenText:
-	text "I can see my"
-	line "breath freezing!"
+	text "¡Veo cómo se"
+	line "congela mi"
+	cont "aliento!"
 	done
 
 SkierBeckyBeatenText:
-	text "Achoo!"
+	text "¡Achís!"
 	done

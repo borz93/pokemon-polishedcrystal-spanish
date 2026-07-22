@@ -31,15 +31,15 @@ Route27RestHouseGranny:
 	ifgreater FRIEND_BALL_HAPPINESS - 1, .Loyal
 	jumpthisopenedtext
 
-	text "If it doesn't come"
-	line "to trust you some"
+	text "Si no confía más"
+	line "en ti, esto podría"
 
-	para "more, it could be"
-	line "tough going."
+	para "ser difícil de"
+	line "conseguir."
 
-	para "Trust is the tie"
-	line "that binds #mon"
-	cont "and trainers."
+	para "La confianza une"
+	line "a los #mon"
+	cont "y entrenadores."
 	done
 
 .Loyal:
@@ -59,63 +59,66 @@ Route27RestHouseGranny:
 	waitbutton
 	jumpthisopenedtext
 
-	text "You've not found"
-	line "any Silver Leaves…"
+	text "Aún no has"
+	line "encontrado ninguna"
+	cont "Hoja Plata…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Skill Swap is a"
-	line "move that swaps"
+	text "Cambiazo es un"
+	line "movimiento que"
 
-	para "your ability with"
-	line "that of your"
-	cont "opponent."
+	para "intercambia tu"
+	line "habilidad con la"
+	cont "de tu rival."
 
-	para "It's for advanced"
-	line "trainers only."
+	para "Es solo para"
+	line "entrenadores"
+	cont "avanzados."
 
-	para "Use it if you"
-	line "dare. Good luck!"
+	para "Si te atreves,"
+	line "úsalo. ¡Suerte!"
 	done
 
 .IntroText:
-	text "Where are you off"
-	line "to with #mon?"
+	text "¿A dónde vas con"
+	line "tus #mon?"
 
-	para "The #mon"
-	line "League?"
+	para "¿A la Liga"
+	line "#mon?"
 
-	para "Are your #mon"
-	line "loyal enough for"
-	cont "you to win?"
+	para "¿Son tus #mon"
+	line "lo bastante"
+	cont "leales para"
+	cont "ganar?"
 
-	para "Let me see…"
+	para "Déjame ver…"
 	done
 
 .HeardIntroText:
-	text "Let me see your"
+	text "Déjame ver a tu"
 	line "#mon…"
 	done
 
 .QuestionText:
-	text "Ah! Your #mon"
-	line "trusts you very"
-	cont "much."
+	text "¡Ah! Tu #mon"
+	line "confía mucho en"
+	cont "ti."
 
-	para "It's nice to see a"
-	line "good trainer."
+	para "Qué bien ver a un"
+	line "buen entrenador."
 
-	para "I can teach it my"
-	line "secret technique,"
+	para "Puedo enseñarle mi"
+	line "técnica secreta,"
 
-	para "Skill Swap, if"
-	line "you'd like."
+	para "Cambiazo, si"
+	line "quieres."
 	done
 
 .RefusedText:
-	text "Good luck on your"
-	line "journey."
+	text "Buena suerte en"
+	line "tu viaje."
 	done

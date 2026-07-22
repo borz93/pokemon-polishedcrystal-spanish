@@ -71,22 +71,24 @@ FarmerMScript_SellMilk:
 .Cancel:
 	jumpthisopenedtext
 
-	text "You don't want it?"
-	line "Come again, hear?"
+	text "¿No lo quieres?"
+	line "Vuelve otro día,"
+	cont "¿eh?"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "Sorry, there."
-	line "No cash, no sale!"
+	text "Lo siento."
+	line "¡Sin pasta, no hay"
+	cont "trato!"
 	done
 
 .BagFull:
 	jumpthisopenedtext
 
-	text "I reckon yer"
-	line "Bag's full."
+	text "Me parece que tu"
+	line "Bolso está lleno."
 	done
 
 .MenuDataHeader:
@@ -100,13 +102,13 @@ FarmerMScript_SellMilk:
 	db 3 ; items
 	db "× 1    ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}@"
 	db "×12   ¥{d:ROUTE39FARMHOUSE_DOZEN_MILK_PRICE}@"
-	db "Cancel@"
+	db "Salir@"
 
 .Milking:
 	jumpthisopenedtext
 
-	text "I best go do my"
-	line "milkin'."
+	text "Mejor voy a"
+	line "ordeñar."
 	done
 
 PokefanF_AcrobaticsFarmer:
@@ -118,14 +120,15 @@ PokefanF_AcrobaticsFarmer:
 	iftruefwd .GiveAcrobatics
 	jumpthisopenedtext
 
-	text "Our milk even goes"
-	line "out to Kanto."
+	text "Nuestra leche"
+	line "llega hasta"
+	cont "Kanto."
 
-	para "So if our own"
-	line "Miltank won't give"
+	para "Así que si nuestra"
+	line "Miltank no da"
 
-	para "us any milk, we're"
-	line "in trouble."
+	para "leche, estamos en"
+	line "problemas."
 	done
 
 .GiveAcrobatics:
@@ -136,55 +139,56 @@ PokefanF_AcrobaticsFarmer:
 .GotAcrobatics:
 	jumpthisopenedtext
 
-	text "That there's"
-	line "Acrobatics."
+	text "Eso de ahí es"
+	line "Acrobacia."
 
-	para "It's a move that"
-	line "hurts more if'n"
+	para "Es un movimiento"
+	line "que hace más daño"
 
-	para "your #mon ain't"
-	line "holdin' an item."
+	para "si tu #mon no"
+	line "lleva ningún"
+	cont "objeto."
 
-	para "You best think how"
-	line "you ought to use"
-	cont "it, hon."
+	para "Piensa bien cómo"
+	line "usarlo, cariño."
 	done
 
 FarmerMText_SickCow:
-	text "My Miltank ain't"
-	line "givin' me milk"
-	cont "n'more."
+	text "Mi Miltank ya no"
+	line "me da leche."
 
-	para "This here Farm's"
-	line "got famous milk."
+	para "Esta Granja tiene"
+	line "leche famosa."
 
-	para "Most everyone"
-	line "wants a drink."
+	para "Casi todos quieren"
+	line "un trago."
 
-	para "It'll give me lots"
-	line "o' milk if'n I"
+	para "Me dará mucha"
+	line "leche si le doy"
 
-	para "feed it lots o'"
-	line "Berries, I reckon."
+	para "muchas Bayas,"
+	line "supongo."
 	done
 
 FarmerMText_BuyMilk:
-	text "How'd you like my"
-	line "Moomoo Milk?"
+	text "¿Qué te parece mi"
+	line "Leche Moomoo?"
 
-	para "It's my pride and"
-	line "joy, there."
+	para "Es mi orgullo y"
+	line "alegría."
 
-	para "Give it to #mon"
-	line "to restore HP!"
+	para "¡Dásela a tus"
+	line "#mon para curar"
+	cont "PS!"
 
-	para "I'll give it to ya"
-	line "fer just ¥500."
+	para "Te la doy por solo"
+	line "¥500."
 	done
 
 FarmerMText_GotMilk:
-	text "Here ya go!"
-	line "Drink up'n enjoy!"
+	text "¡Aquí tienes!"
+	line "¡Bébela y"
+	cont "disfrútala!"
 	done
 
 
@@ -193,12 +197,11 @@ FarmerMText_GotMilk:
 
 
 FarmerFText_HealedMiltank:
-	text "You fixed our"
-	line "Miltank, hon. Now"
+	text "Curaste a nuestra"
+	line "Miltank, cariño."
+	cont "Ahora vuelve a dar"
+	cont "Leche Moomoo."
 
-	para "it gives Moomoo"
-	line "Milk again."
-
-	para "Here's somethin'"
-	line "fer your trouble."
+	para "Toma algo por las"
+	line "molestias."
 	done

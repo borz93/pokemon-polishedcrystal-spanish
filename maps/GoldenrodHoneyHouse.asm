@@ -31,39 +31,39 @@ GoldenrodHoneyHousePokefanFScript:
 	jumpthisopenedtext
 
 .AfterText:
-	text "My little brother"
+	text "Mi hermanito"
 if DEF(FAITHFUL)
-	line "takes Honey and"
+	line "coge Miel y la"
 
-	para "spreads it around"
+	para "esparce por la"
 else
-	line "takes Sweet Honey"
+	line "coge Miel Dulce"
 
-	para "and spreads it in"
+	para "y la esparce por"
 endc
-	line "tall grass."
+	line "hierba alta."
 
-	para "#mon are"
-	line "enticed by it."
+	para "A los #mon les"
+	line "atrae."
 
-	para "It tends to draw"
-	line "in #mon at the"
+	para "Suele atraer"
+	line "#mon de tu"
 
-	para "same level as"
-	line "your own!"
+	para "mismo nivel!"
 	done
 
 .IntroText:
-	text "My #mon is an"
-	line "expert at collect-"
+	text "Mi #mon es"
+	line "experta en"
 if DEF(FAITHFUL)
-	cont "ing Honey."
+	cont "recoger Miel."
 else
-	cont "ing Sweet Honey."
+	cont "recoger Miel"
+	cont "Dulce."
 endc
 
-	para "I'll share some"
-	line "with you."
+	para "Compartiré algo"
+	line "contigo."
 	done
 
 .SellHoney:
@@ -78,8 +78,8 @@ endc
 	ifequalfwd $2, .Buy10
 	jumpthisopenedtext ; cancel
 
-	text "Well, come again,"
-	line "honey!"
+	text "Bueno, ¡vuelve"
+	line "pronto, cielo!"
 	done
 
 .Buy1:
@@ -109,35 +109,34 @@ endc
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "enough money,"
-	cont "honey!"
+	text "No tienes"
+	line "suficiente"
+	cont "dinero, cielo!"
 	done
 
 .SellText:
-	text "Would you like to"
+	text "¿Quieres comprar"
 if DEF(FAITHFUL)
-	line "buy some Honey"
+	line "Miel para atraer"
 
-	para "for attracting"
-	line "#mon?"
+	para "#mon?"
 else
-	line "buy some Sweet"
+	line "Miel Dulce para"
 
-	para "Honey for attract-"
-	line "ing #mon?"
+	para "atraer #mon?"
 endc
-	cont "Just ¥1000 each!"
+	cont "¡Solo ¥1000 cada"
+	cont "una!"
 	done
 
 .GoodbyeText:
-	text "Here you go,"
-	line "honey!"
+	text "Aquí tienes,"
+	line "cielo!"
 	done
 
 .BagFullText:
-	text "Oopsy! You have"
-	line "no room for it."
+	text "¡Ups! No tienes"
+	line "espacio para ello."
 	done
 
 .MenuDataHeader:
@@ -152,7 +151,7 @@ endc
 	db 3 ; items
 	db "× 1   ¥1000@"
 	db "×10  ¥10000@"
-	db "Cancel@"
+	db "Salir@"
 
 GoldenrodHoneyHouseButterfreeText:
 	text "Butterfree: Freeh!"

@@ -68,108 +68,114 @@ MagikarpLengthRaterScript:
 .TooShort:
 	jumpthisopenedtext
 
-	text "Wow! This one is"
-	line "outstanding!"
+	text "¡Vaya! ¡Este es"
+	line "excepcional!"
 
-	para "…I wish I could"
-	line "say that, but I've"
+	para "…Ojalá pudiera"
+	line "decir eso, pero ya"
 
-	para "seen a bigger one"
-	line "before."
+	para "he visto uno más"
+	line "grande antes."
 	done
 
 .Refused:
 	jumpthisopenedtext
 
-	text "Oh… So you didn't"
-	line "get one good"
+	text "Vaya… ¿No"
+	line "conseguiste uno"
 
-	para "enough to show me?"
-	line "Maybe next time."
+	para "lo bastante bueno"
+	line "para enseñarme?"
+	cont "Quizá la próxima."
 	done
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "Lake of Rage is"
-	line "actually a crater"
+	text "El Lago de la"
+	line "Furia es en"
+	cont "realidad un"
+	cont "cráter"
 
-	para "made by rampaging"
-	line "Gyarados."
+	para "hecho por"
+	line "Gyarados"
+	cont "enfurecidos."
 
-	para "The crater filled"
-	line "up with rainwater"
+	para "El cráter se llenó"
+	line "de agua de lluvia"
 
-	para "and the lake was"
-	line "formed."
+	para "y así se formó el"
+	line "lago."
 
-	para "That's the story"
-	line "passed on from my"
+	para "Esa es la historia"
+	line "que me contó el"
 
-	para "Grandpa's great-"
-	line "great-grandpa."
+	para "bisabuelo de mi"
+	line "abuelo."
 
-	para "It used to be that"
-	line "you could catch"
+	para "Antes se podían"
+	line "pescar Magikarp"
 
-	para "lively Magikarp"
-	line "there, but…"
+	para "llenos de vida"
+	line "ahí, pero…"
 
-	para "I don't understand"
-	line "what's happening."
+	para "No entiendo qué"
+	line "está pasando."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The lake hasn't"
-	line "been normal since"
+	text "El lago no ha sido"
+	line "normal desde que"
 
-	para "those men wearing"
-	line "black arrived."
+	para "llegaron esos"
+	line "hombres de negro."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "Lake of Rage is"
-	line "back to normal."
+	text "El Lago de la"
+	line "Furia volvió a"
+	cont "la normalidad."
 
-	para "The Magikarp have"
-	line "returned."
+	para "Los Magikarp han"
+	line "regresado."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest Magikarp."
+	para "Quizá aún pueda"
+	line "cumplir mi sueño"
+	cont "de ver el Magikarp"
+	cont "más grande del"
+	cont "mundo."
 
-	para "Do you have a Rod?"
-	line "Please help me if"
-	cont "you do."
+	para "¿Tienes una Caña?"
+	line "Por favor, ayúdame"
+	cont "si es así."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "Magikarp! Let's"
+	text "Ah, ¡tienes un"
+	line "Magikarp! Veamos"
 
-	para "see how big that"
-	line "baby is."
+	para "qué tan grande es"
+	line "esa cosita."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "¡Vaya! ¡Este es"
+	line "excepcional!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "¡Me quito el"
+	line "sombrero ante ti!"
 
-	para "Take this as a"
-	line "memento!"
+	para "¡Toma esto como"
+	line "recuerdo!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
+	text "Lo importante es"
+	line "el récord."
 
-	para "Think of that as"
-	line "a bonus!"
+	para "¡Piensa en eso"
+	line "como un extra!"
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "Magikarp!"
+	text "¿Qué? ¡Eso no es"
+	line "un Magikarp!"
 	done

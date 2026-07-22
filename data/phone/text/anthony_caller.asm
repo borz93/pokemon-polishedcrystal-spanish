@@ -1,137 +1,139 @@
 AnthonyMonAteSomeBerriesText:
-	text "The other day, I"
-	line "was watching my"
+	text "El otro día"
+	line "estaba viendo a"
 
-	para ""
+	para "mi "
 	text_ram wStringBuffer4
-	text " eat"
-	line "some Berries."
+	text " comer"
+	line "unas Bayas."
 
-	para "It looked like it"
-	line "was enjoying its"
+	para "Parecía que"
+	line "disfrutaba de su"
 
-	para "meal, so I decided"
-	line "to try some."
+	para "comida, así que"
+	line "decidí probar."
 
-	para "I'm not sure if"
-	line "people should eat"
+	para "No sé si la"
+	line "gente debería"
 
-	para "that stuff, but it"
-	line "was delicious!"
+	para "comer eso, pero"
+	line "¡estaba delicioso!"
 	done
 
 AnthonyDefeatedMonText:
-	text "Lately, I've been"
-	line "running across"
+	text "Ahora mismo me"
+	line "he encontrado"
 
-	para "wild "
+	para "con "
 	text_ram wStringBuffer4
-	line "quite often."
+	line "muy a menudo."
 
-	para "They're easily"
-	line "taken care of."
+	para "Son fáciles de"
+	line "vencer."
 	done
 
 AnthonyLostAMonText:
-	text "Oh yeah, I was"
-	line "battling this"
+	text "Ah sí, estaba"
+	line "combatiendo con"
 
-	para ""
+	para "un "
 	text_ram wStringBuffer4
-	text " the"
-	line "other day…"
+	line "el otro día…"
 
-	para "It took off when I"
-	line "got distracted by"
-	cont "a passing Beauty."
+	para "Se escapó cuando"
+	line "me distraje con"
+	cont "una Belleza."
 
-	para "Learn from my"
-	line "mistake--always"
+	para "Aprende de mi"
+	line "error--siempre"
 
-	para "stay focused on"
-	line "the job at hand!"
+	para "concéntrate en"
+	line "lo que haces!"
 	done
 
 AnthonyBattleRematchText:
-	text "Come on--let's"
-	line "battle right now!"
+	text "Venga, ¡vamos a"
+	line "combatir ya!"
 
 	para ""
 	text_ram wStringBuffer5
-	text " is"
-	line "where I am."
+	line "es donde"
+	cont "estoy."
 
-	para "Come on down if"
-	line "you feel up to it!"
+	para "¡Ven si te"
+	line "sientes capaz!"
 	done
 
 AnthonyHangUpText:
-	text "All right then!"
-	line "Be good!"
+	text "¡Muy bien"
+	line "entonces!"
+	cont "¡Cuídate!"
 	done
 
 AnthonySwarmText:
-	text "<PLAYER>! It's"
-	line "mind-blowing!"
+	text "¡<PLAYER>! ¡Es"
+	line "alucinante!"
 
-	para "I took a hike in"
-	line ""
+	para "Fui de excursión"
+	line "a "
 	text_ram wStringBuffer5
-	cont "yesterday, see?"
+	cont "ayer, ¿sabes?"
 
-	para "Well, there were"
-	line "tons of "
+	para "Pues había"
+	line "montones de "
 	text_ram wStringBuffer4
 
-	para "around! You have"
-	line "to see it!"
+	para "por todas partes!"
+	line "¡Tienes que verlo!"
 
-	para "I get this feeling"
-	line "that "
+	para "Tengo la sensación"
+	line "de que "
 	text_ram wStringBuffer4
 
-	para "may be timid."
-	line "I didn't see any"
+	para "es tímido. No vi"
+	line "ninguno donde"
 
-	para "where there are"
-	line "strong #mon."
+	para "hay #mon"
+	line "fuertes."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "Rare #mon?"
+	text "¿#mon raros?"
 
-	para "Hey, sorry! I was"
-	line "too focused on my"
+	para "¡Oye, perdona!"
+	line "Estaba muy"
 
-	para "hike, so I wasn't"
-	line "paying attention."
+	para "centrado en mi"
+	line "excursión, no"
+	cont "prestaba atención."
 	done
 
 AnthonyReminderText:
-	text "Hello! You haven't"
-	line "forgotten about"
+	text "¡Hola! ¿No has"
+	line "olvidado nuestro"
 
-	para "our battle, have"
-	line "you?"
+	para "combate,"
+	line "verdad?"
 
 	para ""
 	text_ram wStringBuffer5
 	text "!"
-	line "I'm waiting!"
+	line "¡Te espero!"
 	done
 
 AnthonyHurryText:
-	text "Hello? What? Where"
-	line "is Dunsparce?"
+	text "¿Diga? ¿Qué?"
+	line "¿Dónde está la"
 
-	para "Dark Cave! Hurry!"
+	para "Cueva Oscura?"
+	line "¡Date prisa!"
 
-	para "I know I've said"
-	line "it before, but"
+	para "Ya lo he dicho"
+	line "antes, pero"
 
-	para "Dunsparce don't"
-	line "appear when there"
+	para "Dunsparce no"
+	line "aparece cuando"
 
-	para "are strong #mon"
-	line "around."
+	para "hay #mon"
+	line "fuertes cerca."
 	done

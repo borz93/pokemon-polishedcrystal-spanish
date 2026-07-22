@@ -19,58 +19,60 @@ AzaleaMart_MapScriptHeader:
 	object_event  8,  6, SPRITE_ROCKER, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, (1 << EVE) | (1 << NITE), PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, AzaleaMartRockerText, -1
 
 AzaleaMartCooltrainermText:
-	text "There's no Great"
-	line "Ball here. #"
+	text "Aquí no hay Super"
+	line "Ball."
 
-	para "Balls will have"
-	line "to do."
+	para "Tendrán que servir"
+	line "las # Balls."
 
-	para "I wish Kurt would"
-	line "make me some of"
-	cont "his custom Balls."
+	para "Ojalá Kurt me"
+	line "hiciera algunas de"
+	cont "sus Balls"
+	cont "personalizadas."
 	done
 
 AzaleaMartBugCatcherText:
-	text "A Great Ball is"
-	line "better for catch-"
-	cont "ing #mon than a"
+	text "Una Super Ball es"
+	line "mejor para atrapar"
+	cont "#mon que una"
 	cont "# Ball."
 
-	para "But Kurt's might"
-	line "be better some-"
-	cont "times."
+	para "Pero las de Kurt"
+	line "pueden ser mejores"
+	cont "a veces."
 	done
 
 AzaleaMartLadyText:
-	text "I can buy many"
-	line "items at home in"
-	cont "Goldenrod City,"
+	text "Puedo comprar"
+	line "muchos objetos en"
+	cont "Ciudad Trigal,"
 
-	para "but for boosting"
-	line "Fire-type moves,"
+	para "pero para subir"
+	line "movs. de Fuego,"
 
-	para "nothing beats"
-	line "Azalea's Charcoal!"
+	para "nada supera al"
+	line "Carbón de Azalea!"
 	done
 
 AzaleaMartRockerText:
-	text "The prototype"
-	line "versions of"
+	text "Los primeros"
+	line "prototipos de"
 
-	para "Kurt's balls had"
-	line "some problems."
+	para "las Balls de Kurt"
+	line "tenían problemas."
 
-	para "Love Balls used"
-	line "to catch same-"
-	cont "gender #mon,"
+	para "Las Amor Ball"
+	line "solo atrapaban"
+	cont "#mon del mismo"
+	cont "sexo,"
 
-	para "and Fast Balls"
-	line "only worked for"
+	para "y las Veloz Ball"
+	line "solo funcionaban"
 
-	para "three different"
-	line "#mon species."
+	para "con tres especies"
+	line "de #mon."
 
-	para "Thank goodness"
-	line "those problems"
-	cont "were fixed!"
+	para "¡Menos mal que"
+	line "arreglaron esos"
+	cont "problemas!"
 	done

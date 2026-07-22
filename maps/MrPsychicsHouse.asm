@@ -38,23 +38,23 @@ MrPsychicsHouseTutorZenHeadbuttScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "…I was wrong?"
+	text "…¿Me equivoqué?"
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf…"
+	text "No tienes una"
+	line "Hoja Plata…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Your #mon now"
-	line "knows how to use"
-	cont "Zen Headbutt."
+	text "Tu #mon ya sabe"
+	line "usar Cabezazo"
+	cont "Zen."
 	done
 
 MrPsychicText:
@@ -64,23 +64,24 @@ MrPsychicText:
 
 	para "…"
 
-	para "…I got it!"
+	para "¡Ya lo tengo!"
 
-	para "You want to learn"
-	line "Zen Headbutt!"
+	para "¡Quieres"
+	line "aprender"
+	cont "Cabezazo Zen!"
 	done
 
 Text_MrPsychicsHouseTutorZenHeadbutt:
-	text "I will teach your"
-	line "#mon to use Zen"
+	text "Le enseñaré a tu"
+	line "#mon Cabezazo"
 
-	para "Headbutt for a"
-	line "Silver Leaf."
+	para "Zen por una"
+	line "Hoja Plata."
 	done
 
 
 Text_MrPsychicsHouseTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Zen Headbutt?"
+	text "¿Le enseño a tu"
+	line "#mon"
+	cont "Cabezazo Zen?"
 	done

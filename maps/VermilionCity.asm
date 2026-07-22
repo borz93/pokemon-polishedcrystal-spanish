@@ -148,8 +148,8 @@ VermilionSnorlax:
 	iftruefwd .Awake
 	jumpthisopenedtext
 
-	text "Snorlax is snoring"
-	line "peacefully…"
+	text "Snorlax ronca"
+	line "tranquilamente…"
 	done
 
 .Awake:
@@ -174,40 +174,44 @@ VermilionGymBadgeGuy:
 	ifgreater 9, .SomeBadges
 	jumpthistextfaceplayer
 
-	text "Skilled trainers"
-	line "gather in Kanto."
+	text "En Kanto se reúnen"
+	line "entrenadores"
+	cont "habilidosos."
 
-	para "Gym Leaders are"
-	line "especially strong."
+	para "Los Líderes de"
+	line "Gimnasio son muy"
+	cont "fuertes."
 
-	para "They won't be easy"
-	line "to defeat."
+	para "No será fácil"
+	line "vencerlos."
 	done
 
 .SomeBadges:
 	jumpthistextfaceplayer
 
-	text "You've started to"
-	line "collect Kanto Gym"
-	cont "Badges?"
+	text "¿Has empezado a"
+	line "coleccionar las"
+	cont "Medallas de"
+	cont "Kanto?"
 
-	para "Don't you agree"
-	line "that the trainers"
-	cont "here are tough?"
+	para "¿No crees que los"
+	line "entrenadores de"
+	cont "aquí son duros?"
 	done
 
 .MostBadges:
 	jumpthistextfaceplayer
 
-	text "I guess you'll be"
-	line "finished with your"
+	text "Supongo que"
+	line "pronto acabarás"
 
-	para "conquest of Kanto"
-	line "Gyms soon."
+	para "tu conquista de"
+	line "los Gimnasios de"
+	cont "Kanto."
 
-	para "Let me know if"
-	line "you get all eight"
-	cont "Badges."
+	para "Avísame si"
+	line "consigues las"
+	cont "ocho Medallas."
 	done
 
 .AllBadges:
@@ -226,15 +230,15 @@ VermilionMachokeOwnerScript:
 	iftrue_jumptextfaceplayer VermilionMachokeOwnerText
 	jumpthistextfaceplayer
 
-	text "My #mon"
-	line "prepared the land"
+	text "¡Mis #mon"
+	line "prepararon el"
+	cont "terreno para"
+	cont "construir ese"
+	cont "enorme edificio!"
 
-	para "to construct that"
-	line "huge building!"
-
-	para "It's quite a shame"
-	line "that the public"
-	cont "can't enter yet…"
+	para "Es una pena que el"
+	line "público aún no"
+	cont "pueda entrar…"
 	done
 
 VermilionCitySuperNerd2Script:
@@ -242,221 +246,251 @@ VermilionCitySuperNerd2Script:
 	iftrue_jumptextfaceplayer VermilionCitySuperNerd2Text
 	jumpthistextfaceplayer
 
-	text "The Battle Factory"
-	line "is brand-new!"
+	text "¡La Fábrica de"
+	line "Combate es"
+	cont "nuevecita!"
 
-	para "But it draws a"
-	line "huge amount of"
-	cont "power…"
+	para "¡Pero consume una"
+	line "cantidad enorme"
+	cont "de energía…"
 
-	para "With the Power"
-	line "Plant offline,"
-	cont "it's useless!"
+	para "Con la Central"
+	line "Eléctrica"
+	cont "apagada, es"
+	cont "inútil!"
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Having a variety"
-	line "of #mon types"
+	text "Tener una gran"
+	line "variedad de tipos"
+	cont "de #mon"
 
-	para "should give you an"
-	line "edge in battle."
+	para "debería darte"
+	line "ventaja en"
+	cont "combate."
 
-	para "I'm sure the Kanto"
-	line "Gym Badges will"
-	cont "help you."
+	para "Seguro que las"
+	line "Medallas de Kanto"
+	cont "te ayudarán."
 	done
 
 LawrenceOverheardText:
-	text "…So the legendary"
-	line "#mon was not"
-	cont "on that island…"
+	text "…Así que el"
+	line "#mon legendario"
+	cont "no estaba en esa"
+	cont "isla…"
 
-	para "I must continue my"
-	line "search elsewhere…"
+	para "Debo continuar mi"
+	line "búsqueda en otro"
+	cont "lugar…"
 	done
 
 LawrenceIntroText:
-	text "Lawrence: Please"
-	line "excuse me for"
-	cont "bumping into you."
+	text "Lawrence:"
+	line "Discúlpame por"
+	cont "chocar contigo."
 
-	para "I'm in a hurry to"
-	line "complete my"
-	cont "collection."
+	para "Tengo prisa por"
+	line "completar mi"
+	cont "colección."
 
-	para "My name is"
+	para "Mi nombre es"
 	line "Lawrence III."
 
-	para "And you're the"
-	line "League Champion?"
+	para "¿Y tú eres el"
+	line "Campeón de la"
+	cont "Liga?"
 
-	para "…Well, appearances"
-	line "can be deceiving."
+	para "…Bueno, las"
+	line "apariencias"
+	cont "engañan."
 
-	para "Legendary #mon"
-	line "have always been"
-	cont "my passion."
+	para "Los #mon"
+	line "legendarios"
+	cont "siempre han sido"
+	cont "mi pasión."
 
-	para "I took the Seagal-"
-	line "lop Ferry here to"
+	para "Tomé el Ferry"
+	line "Seagallop hasta"
 
-	para "Shamouti Island,"
-	line "but did not find"
-	cont "the one I sought."
+	para "la Isla Shamouti,"
+	line "pero no encontré"
+	cont "el que buscaba."
 
-	para "Oh, you've encoun-"
-	line "tered #mon out"
-	cont "of Johto's legends?"
+	para "Oh, ¿te has"
+	line "encontrado con"
+	cont "#mon fuera de"
+	cont "las leyendas de"
+	cont "Johto?"
 
-	para "Then our paths may"
-	line "cross again as"
-	cont "fellow collectors."
+	para "Entonces nuestros"
+	line "caminos pueden"
+	cont "cruzarse de nuevo"
+	cont "como coleccio-"
+	cont "nistas."
 
-	para "But I really must"
-	line "be on my way."
-	cont "Farewell!"
+	para "Pero de verdad"
+	line "debo seguir mi"
+	cont "camino. ¡Adiós!"
 	done
 
 VermilionCityTeacherText:
-	text "Vermilion Port is"
-	line "Kanto's seaside"
-	cont "gateway."
+	text "El Puerto Carmín"
+	line "es la puerta"
+	cont "marítima de"
+	cont "Kanto."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "Aquí atracan"
+	line "transatlánticos"
+	cont "de todo el mundo."
 	done
 
 VermilionMachokeOwnerText:
-	text "My #mon"
-	line "prepared the land"
+	text "¡Mis #mon"
+	line "prepararon el"
+	cont "terreno para"
+	cont "construir ese"
+	cont "enorme edificio!"
 
-	para "to construct that"
-	line "huge building!"
+	para "Era un Machop hace"
+	line "tres años,"
 
-	para "It was a Machop"
-	line "three years ago,"
-
-	para "but the effort"
-	line "made it evolve!"
+	para "¡pero el esfuerzo"
+	line "lo hizo"
+	cont "evolucionar!"
 	done
 
 VermilionMachokeText:
-	text "Machoke: Guooh"
+	text "Machoke: ¡Guooh"
 	line "gogogoh!"
 	done
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "Gyms in Kanto."
+	text "Hay ocho Gimnasios"
+	line "en Kanto."
 
-	para "That big building"
-	line "is Vermilion's"
-	cont "#mon Gym."
+	para "Ese gran edificio"
+	line "es el Gimnasio"
+	cont "#mon de Carmín."
 	done
 
 VermilionCitySuperNerd2Text:
-	text "The Battle Factory"
-	line "is brand-new, but"
+	text "La Fábrica de"
+	line "Combate es"
+	cont "nuevecita, pero"
 
-	para "trainers are al-"
-	line "ready arriving"
+	para "ya están llegando"
+	line "entrenadores"
 
-	para "from distant"
-	line "regions to take"
-	cont "its challenge!"
+	para "de regiones"
+	line "lejanas para"
+	cont "¡aceptar su reto!"
 	done
 
 VermilionCityOfficerFText:
-	text "The Power Plant's"
-	line "generator is shut"
-	cont "down, so it's not"
+	text "El generador de la"
+	line "Central Eléctrica"
+	cont "está apagado, así"
 
-	para "safe to open the"
-	line "Battle Factory."
+	para "que no es seguro"
+	line "abrir la Fábrica"
+	cont "de Combate."
 	done
 
 VermilionCityOfficerText:
-	text "Sorry, the Battle"
-	line "Factory is closed"
+	text "Lo siento, la"
+	line "Fábrica de Combate"
+	cont "está cerrada"
 
-	para "until the Power"
-	line "Plant is up and"
-	cont "running again."
+	para "hasta que la"
+	line "Central Eléctrica"
+	cont "vuelva a"
+	cont "funcionar."
 	done
 
 VermilionCitySailorText:
-	text "Nothing beats"
-	line "good sea air!"
+	text "¡Nada mejor que"
+	line "el buen aire de"
+	cont "mar!"
 	done
 
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #gear was"
-	line "placed near the"
-	cont "sleeping Snorlax…"
+	text "Se colocó el"
+	line "#gear cerca del"
+	cont "Snorlax dormido…"
 
 	para "…"
 
-	para "Snorlax woke up!"
+	para "¡Snorlax se"
+	line "despertó!"
 	done
 
 
 
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Congratulations!"
+	text "¡Felicidades!"
 
-	para "You got all the"
-	line "Kanto Gym Badges."
+	para "Conseguiste todas"
+	line "las Medallas de"
+	cont "Kanto."
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Tengo una"
+	line "recompensa por tu"
+	cont "esfuerzo."
 	done
 
 VermilionCitySignText:
-	text "Vermilion City"
+	text "Ciudad Carmín"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "El Puerto de los"
+	line "Atardeceres"
+	cont "Exquisitos"
 	done
 
 VermilionGymSignText:
-	text "Vermilion City"
-	line "#mon Gym"
-	cont "Leader: Lt.Surge"
+	text "Ciudad Carmín"
+	line "Gimnasio #mon"
+	cont "Líder: Lt.Surge"
 
-	para "The Lightning"
-	line "American"
+	para "El Americano"
+	line "Relámpago"
 	done
 
 PokemonFanClubSignText:
-	text "#mon Fan Club"
+	text "Club de Fans"
+	line "#mon"
 
-	para "All #mon Fans"
-	line "Welcome!"
+	para "¡Todos los Fans"
+	line "# son"
+	cont "bienvenidos!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "Diglett's Cave"
+	text "Cueva Diglett"
 	done
 
 VermilionCityPortSignText:
-	text "Vermilion Port"
-	line "Entrance"
+	text "Puerto Carmín"
+	line "Entrada"
 	done
 
 VermilionCityAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "Your Trainer Card"
-	line "has room to show"
-	cont "sixteen Badges!"
+	para "¡Tu Tarjeta de"
+	line "Entrenador tiene"
+	cont "espacio para"
+	cont "dieciséis"
+	cont "Medallas!"
 	done
 
 VermilionCityBattleFactorySignText:
-	text "Battle Factory"
+	text "Fábrica de Combate"
 
-	para "Win it All with"
-	line "Rental #mon!"
+	para "¡Gánalo Todo con"
+	line "#mon de"
+	cont "Alquiler!"
 	done

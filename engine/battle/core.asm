@@ -4607,9 +4607,9 @@ BattleMenuPKMN_Loop:
 .MenuData:
 	db $c0 ; flags
 	db 3 ; items
-	db "Switch@"
-	db "Summary@"
-	db "Cancel@"
+	db "Cambiar@"
+	db "Estado@"
+	db "Salir@"
 
 AI_OpponentCanSwitch:
 	call StackCallOpponentTurn
@@ -8238,11 +8238,11 @@ ShowLinkBattleResult:
 	jmp ClearTileMap
 
 .Win:
-	db "You Win@"
+	db "Ganas@"
 .Lose:
-	db "You Lose@"
+	db "Pierdes@"
 .Draw:
-	db "  Draw@"
+	db "Empate@"
 
 DisplayLinkRecord:
 	ld a, BANK(sLinkBattleStats)

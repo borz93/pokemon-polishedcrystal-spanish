@@ -29,38 +29,40 @@ GoldenrodDeptStore2FClerk2Script:
 	pokemart MARTTYPE_STANDARD, MART_GOLDENROD_2F_2_EEVEE
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#gear has no"
-	line "storage limit."
+	text "El #gear no"
+	line "tiene límite de"
+	cont "almacenamiento."
 
-	para "But getting too"
-	line "many phone calls"
-	cont "can be annoying."
+	para "Pero recibir"
+	line "muchas llamadas"
+	cont "puede ser molesto."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my Abra at"
-	line "the Game Corner."
+	text "Conseguí mi Abra"
+	line "en la Sala de"
+	cont "Juegos."
 
-	para "Now it's my best"
-	line "partner."
+	para "Ahora es mi mejor"
+	line "compañero."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This Dept.Store"
-	line "makes me realize"
+	text "Los Grandes"
+	line "Almacenes me hacen"
+	cont "ver que Ciudad"
+	cont "Trigal es grande."
 
-	para "that Goldenrod is"
-	line "a big city."
-
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "La selección de"
+	line "aquí no tiene"
+	cont "igual en ningún"
+	cont "otro sitio."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Tu Compañero"
+	line "de Viaje"
 
-	para "2F Trainer's"
-	line "   Market"
+	para "2F Mercado del"
+	line "   Entrenador"
 	done

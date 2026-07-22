@@ -29,50 +29,53 @@ CeladonDeptStore3FGameboyKid2Script:
 	end
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Una máquina"
+	line "expendedora con"
+	cont "ruleta de"
+	cont "premios…"
 
-	para "You never see"
-	line "those anymore."
+	para "Ya no se ven"
+	line "de esas."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "I can play games"
-	line "on the third"
-	cont "floor, then come"
+	text "Puedo jugar en"
+	line "la tercera"
+	cont "planta, y venir"
 
-	para "here when I get"
-	line "thirsty!"
+	para "aquí cuando"
+	line "tenga sed!"
 
-	para "This store is"
-	line "great!"
+	para "¡Esta tienda es"
+	line "genial!"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "I traded my"
-	line "#mon while"
+	text "Cambié mi #mon"
+	line "mientras"
 
-	para "it was holding"
-	line "an Upgrade."
+	para "llevaba una"
+	line "Mejora."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yay! I'm finally"
-	line "getting a Porygon!"
+	text "¡Genial! Por fin"
+	line "tendré un"
+	cont "Porygon!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Se me dan mal"
+	line "las tragaperras,"
 
-	para "never get enough"
-	line "coins…"
+	para "así que nunca"
+	line "tengo monedas"
+	cont "suficientes…"
 
-	para "I'll raise it with"
-	line "an Upgrade to make"
-	cont "it evolve!"
+	para "¡Lo criaré con"
+	line "una Mejora para"
+	cont "evolucionarlo!"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: Rooftop Atrium"
-	line "Vending Machines"
+	text "6F: Terraza"
+	line "Máquinas Expend."
 	done

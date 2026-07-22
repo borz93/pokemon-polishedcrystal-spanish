@@ -24,41 +24,44 @@ CharcoalKilnBoss:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "All the Slowpoke"
-	line "have disappeared"
-	cont "from the town."
+	text "Todos los"
+	line "Slowpoke han"
+	cont "desaparecido del"
+	cont "pueblo."
 
-	para "The forest's pro-"
-	line "tector may be"
-	cont "angry with us…"
+	para "El protector del"
+	line "bosque debe estar"
+	cont "enfadado con"
+	cont "nosotros…"
 
-	para "It may be a bad"
-	line "omen. We should"
-	cont "stay in."
+	para "Puede ser un mal"
+	line "augurio."
+	cont "Deberíamos"
+	cont "quedarnos dentro."
 	done
 
 .Text2:
-	text "The Slowpoke have"
-	line "returned…"
+	text "Los Slowpoke han"
+	line "vuelto…"
 
-	para "But my Apprentice"
-	line "hasn't come back"
-	cont "from Ilex Forest."
+	para "Pero mi aprendiz"
+	line "no ha vuelto del"
+	cont "Encinar."
 
-	para "Where in the world"
-	line "is that lazy guy?"
+	para "¿Dónde estará ese"
+	line "vago?"
 	done
 
 .Text3:
-	text "You chased off"
-	line "Team Rocket and"
+	text "¿Ahuyentaste al"
+	line "Team Rocket y"
+	cont "fuiste solo al"
+	cont "Encinar?"
 
-	para "went to Ilex"
-	line "Forest alone?"
-
-	para "That takes guts!"
-	line "I like that. Come"
-	cont "train with us."
+	para "¡Eso tiene"
+	line "agallas! Me gusta."
+	cont "Ven a entrenar"
+	cont "con nosotros."
 	done
 
 CharcoalKilnApprentice:
@@ -76,32 +79,35 @@ CharcoalKilnApprentice:
 	endtext
 
 .Text1:
-	text "Where have all the"
-	line "Slowpoke gone?"
+	text "¿A dónde se"
+	line "fueron todos los"
+	cont "Slowpoke?"
 
-	para "Are they out play-"
-	line "ing somewhere?"
+	para "¿Estarán jugando"
+	line "por ahí?"
 	done
 
 .Text2:
-	text "I'm sorry--I for-"
-	line "got to thank you."
+	text "Perdona, olvidé"
+	line "darte las gracias."
 
-	para "This is Charcoal"
-	line "that I made."
+	para "Este es el Carbón"
+	line "que hice."
 
-	para "Fire-type #mon"
-	line "would be happy to"
-	cont "hold that."
+	para "A los #mon de"
+	line "tipo Fuego les"
+	cont "encantará"
+	cont "sujetarlo."
 	done
 
 .Text3:
-	text "The Slowpoke came"
-	line "back, and you even"
-	cont "found Farfetch'd."
+	text "Los Slowpoke"
+	line "volvieron, y hasta"
+	cont "encontraste a"
+	cont "Farfetch'd."
 
-	para "You're the cool-"
-	line "est, man!"
+	para "¡Eres el más"
+	line "genial, tío!"
 	done
 
 CharcoalKilnFarfetchdScript:
@@ -114,5 +120,5 @@ CharcoalKilnFarfetchdScript:
 	done
 
 CharcoalKilnBucketText:
-	text "It's a bucket."
+	text "Es un cubo."
 	done

@@ -45,10 +45,12 @@ ShamoutiIslandAlolanExeggutorScript:
 	showemote EMOTE_SLEEP, SHAMOUTIISLAND_ALOLAN_EXEGGUTOR_HEAD, 15
 	jumpthistext
 
-	text "The weird tree is…"
-	line "fast asleep?"
+	text "El árbol raro"
+	line "está…"
+	cont "¿profundamente"
+	cont "dormido?"
 
-	para "Is it a #mon?"
+	para "¿Será un #mon?"
 	done
 
 .Awake:
@@ -68,14 +70,14 @@ ShamoutiIslandAlolanExeggutorScript:
 	end
 
 .PokeFluteText:
-	text "The #gear was"
-	line "placed near the"
-	cont "weird tree…"
+	text "El #gear se"
+	line "colocó cerca"
+	cont "del árbol raro…"
 	done
 
 .WokeUpText:
-	text "The #mon"
-	line "woke up!"
+	text "¡El #mon"
+	line "despertó!"
 	done
 
 ShamoutiIslandGrampsScript:
@@ -99,19 +101,21 @@ ShamoutiIslandWilhomenaScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "A shiny Pikachu"
-	line "would be a real"
-	cont "Pikablu."
+	text "Un Pikachu"
+	line "brillante sería"
+	cont "un Pikablu de"
+	cont "verdad."
 
-	para "I've never found"
-	line "one, but I'm happy"
-	cont "with my Marill."
+	para "Nunca encontré"
+	line "uno, pero soy"
+	cont "feliz con mi"
+	cont "Marill."
 	done
 
 .Text1:
-	text "Hello again! Let"
-	line "me give you that"
-	cont "souvenir."
+	text "¡Hola de nuevo!"
+	line "Deja que te dé"
+	cont "ese suvenir."
 	done
 
 ShamoutiIslandPikabluText:
@@ -119,29 +123,30 @@ ShamoutiIslandPikabluText:
 	done
 
 ShamoutiIslandFisherText:
-	text "Today we're dancing"
-	line "for no reason. ♪"
+	text "Hoy bailamos sin"
+	line "razón. ♪"
 
-	para "Someday we'll"
-	line "disappear for no"
-	cont "reason."
+	para "Algún día"
+	line "desapareceremos"
+	cont "sin razón."
 
-	para "…You thought we'd"
-	line "block the road?"
+	para "…¿Pensaste que"
+	line "bloqueábamos el"
+	cont "camino?"
 
-	para "That would be"
-	line "rude!"
+	para "¡Eso sería de mala"
+	line "educación!"
 	done
 
 ShamoutiIslandSignText:
-	text "Shamouti Island"
+	text "Isla Shamouti"
 	done
 
 ShamoutiHotelSignText:
-	text "Shamouti Hotel"
+	text "Hotel Shamouti"
 	done
 
 ShamoutiTouristCenterSignText:
-	text "Shamouti Tourist"
-	line "Center"
+	text "Centro Turístico"
+	line "Shamouti"
 	done

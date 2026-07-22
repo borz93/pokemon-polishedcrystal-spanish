@@ -169,12 +169,12 @@ LinkReceptionistScript_DoTradeOrBattle:
 
 LinkReceptionistScript_HasMail:
 	writethistext
-		text "I am sorry, but"
-		line "we are unable to"
+		text "Lo siento, pero"
+		line "ahora no podemos"
 
-		para "trade #mon"
-		line "carrying mail"
-		cont "at this time."
+		para "cambiar #mon"
+		line "que lleven"
+		cont "correo."
 		done
 	waitbutton
 	endtext
@@ -182,9 +182,10 @@ LinkReceptionistScript_HasMail:
 Script_TradeCenterClosed:
 	jumpthistextfaceplayer
 
-	text "I'm sorry--the"
-	line "Trade Machine is"
-	cont "being adjusted."
+	text "Lo siento, la"
+	line "Máquina de"
+	cont "Cambios está"
+	cont "en ajuste."
 	done
 
 LinkReceptionistScript_Battle:
@@ -203,9 +204,10 @@ endc
 .BattleRoomClosed:
 	jumpthistextfaceplayer
 
-	text "I'm sorry--the"
-	line "Battle Machine is"
-	cont "being adjusted."
+	text "Lo siento, la"
+	line "Máquina de"
+	cont "Combates está"
+	cont "en ajuste."
 	done
 
 PokeCenter2F_EnterRoom:
@@ -259,124 +261,127 @@ PokeCenter2FMovementData_ReceptionistStepsRightAndDown:
 	step_end
 
 Text_BattleReceptionistIntro:
-	text "Welcome to Cable"
-	line "Club Colosseum."
+	text "Bienvenido al"
+	line "Coliseo del Club"
+	cont "Cable."
 
-	para "You may battle a"
-	line "friend here."
+	para "Puedes combatir"
+	line "aquí con un amigo."
 
-	para "Would you like to"
-	line "battle?"
+	para "¿Quieres"
+	line "combatir?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Welcome to Cable"
-	line "Trade Center."
+	text "Bienvenido a la"
+	line "Sala de Cambios"
+	cont "del Club Cable."
 
-	para "You may trade your"
-	line "#mon here with"
-	cont "a friend."
+	para "Puedes cambiar"
+	line "#mon aquí con"
+	cont "un amigo."
 
-	para "Would you like to"
-	line "trade?"
+	para "¿Quieres"
+	line "cambiar?"
 	done
 
 Text_FriendNotReady:
-	text "Your friend is not"
-	line "ready."
+	text "Tu amigo no está"
+	line "listo."
 	prompt
 
 Text_MustSaveGame:
-	text "Before opening the"
-	line "link, you must"
-	cont "save your game."
+	text "Antes de abrir el"
+	line "enlace, debes"
+	cont "guardar partida."
 	done
 
 Text_PleaseWait:
-	text "Please wait."
+	text "Espera, por favor."
 	done
 
 Text_LinkTimedOut:
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "El enlace se cerró"
+	line "por inactividad."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again."
+	para "Contacta con tu"
+	line "amigo y vuelve"
+	cont "a intentarlo."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Please come again."
+	text "Vuelve pronto."
 	prompt
 
 Text_PleaseComeIn:
-	text "Please come in."
+	text "Adelante, pasa."
 	prompt
 
 Text_CantLinkToThePast:
-	text "You can't link to"
-	line "the past here."
+	text "Aquí no puedes"
+	line "conectar con el"
+	cont "pasado."
 	prompt
 
 Text_OldVersionDetected:
-	text "You are connected"
-	line "to an old"
+	text "Estás conectado a"
+	line "una versión"
 
-	para "version of"
+	para "antigua de"
 	line "Polished Crystal."
 	prompt
 
 Text_WrongGameID:
-	text "Your game is not"
-	line "compatible with"
-	cont "the other game."
+	text "Tu partida no es"
+	line "compatible con"
+	cont "la otra partida."
 	prompt
 
 Text_WrongVersion:
-	text "Your game versions"
-	line "do not match."
+	text "Las versiones no"
+	line "coinciden."
 
-	para "In order to play"
-	line "Link Colosseum,"
+	para "Para jugar en el"
+	line "Coliseo,"
 
-	para "your game versions"
-	line "must match."
+	para "las versiones"
+	line "deben coincidir."
 	prompt
 
 Text_WrongMinVersion:
-	text "Your game does not"
-	line "meet the minimum"
-	cont "version"
+	text "Tu partida no"
+	line "cumple la versión"
+	cont "mínima"
 
-	para "requirement for"
-	line "the other game."
+	para "necesaria para"
+	line "la otra partida."
 	prompt
 
 Text_OtherPlayerWrongMinVersion:
-	text "The other game"
-	line "system does not"
+	text "El otro sistema"
+	line "no cumple la"
 
-	para "meet the"
-	line "minimum version"
-	cont "requirement."
+	para "versión mínima"
+	line "necesaria."
 	prompt
 
 Text_WrongOptions:
-	text "Your game options"
-	line "are not compatible"
+	text "Las opciones de tu"
+	line "partida no son"
+	cont "compatibles"
 
-	para "with the other"
-	line "player."
+	para "con las del"
+	line "otro jugador."
 	prompt
 
 Text_IncompatibleRooms:
-	text "Incompatible rooms"
-	line "were chosen."
+	text "Se eligieron salas"
+	line "incompatibles."
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "I'm sorry--the"
-	line "Time Capsule is"
-	cont "inoperative."
+	text "Lo siento, la"
+	line "Cápsula del"
+	cont "Tiempo no"
+	cont "funciona."
 	done

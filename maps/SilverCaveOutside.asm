@@ -25,5 +25,5 @@ SilverCaveOutsideFlyPoint:
 	endcallback
 
 MtSilverSignText:
-	text "Mt.Silver"
+	text "Monte Plateado"
 	done

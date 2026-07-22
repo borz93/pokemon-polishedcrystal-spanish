@@ -50,157 +50,161 @@ DiglettsCaveFossilManiacScript:
 	special PlaceMoneyTopRight
 	jumpthisopenedtext
 
-	text "Hey, thanks!"
+	text "¡Eh, gracias!"
 
-	para "I bet I can sell"
-	line "this for way more"
-	cont "than I just gave"
-	cont "you. Ha!"
+	para "Apuesto a que"
+	line "puedo venderlo"
+	cont "por mucho más de"
+	cont "lo que te di. ¡Ja!"
 
-	para "That's business"
-	line "for ya!"
+	para "¡Eso es el"
+	line "negocio!"
 	done
 
 .GreetingText:
-	text "Hey, check it out."
-	line "I've got a sweet"
-	cont "deal for ya!"
+	text "Oye, mira esto."
+	line "¡Tengo una oferta"
+	cont "genial para ti!"
 
-	para "You know how #-"
-	line "mon fossils turn"
-	cont "up in rocks?"
+	para "¿Sabes que"
+	line "aparecen fósiles"
+	cont "#mon en rocas?"
 
-	para "If you find one,"
-	line "bring it to me."
+	para "Si encuentras uno,"
+	line "tráemelo."
 
-	para "I'll make it worth"
-	line "your while."
+	para "Te lo pagaré bien."
 	done
 
 .OfferText:
-	text "Hey, nice! Let me"
-	line "check that out."
+	text "¡Oye, genial! Deja"
+	line "que lo vea."
 
-	para "I'll give you"
+	para "Te doy"
 	line "¥"
 	text_decimal hMoneyTemp, 3, 7
-	text " for it."
-	cont "Whaddaya say?"
+	text " por él."
+	cont "¿Qué me dices?"
 	done
 
 .WrongItemText:
-	text "Nope, this is no"
-	line "good. Not worth"
-	cont "my while."
+	text "No, esto no sirve."
+	line "No vale la pena."
 	done
 
 .NoItemText:
-	text "…Nope, nothing"
-	line "cool in your Bag."
+	text "…No, nada"
+	line "interesante en tu"
+	cont "Bolso."
 
-	para "Oh well. Maybe"
-	line "next time!"
+	para "En fin. ¡Quizá la"
+	line "próxima vez!"
 	done
 
 GenericTrainerHikerGerard:
 	generictrainer HIKER, GERARD, EVENT_BEAT_HIKER_GERARD, .SeenText, .BeatenText
 
-	text "This place makes"
-	line "me so nervous."
+	text "Este sitio me pone"
+	line "muy nervioso."
 
-	para "What if a Diglett"
-	line "attacks me out of"
-	cont "nowhere?"
+	para "¿Y si un Diglett"
+	line "me ataca de"
+	cont "repente?"
 	done
 
 .SeenText:
-	text "Aah! I think that"
-	line "rock just moved!"
+	text "¡Aah! ¡Creo que"
+	line "esa roca se movió!"
 	done
 
 .BeatenText:
-	text "Must have been"
-	line "my imagination."
+	text "Debieron ser"
+	line "imaginaciones"
+	cont "mías."
 	done
 
 GenericTrainerHikerDent:
 	generictrainer HIKER, DENT, EVENT_BEAT_HIKER_DENT, .SeenText, .BeatenText
 
-	text "I'll fit right in"
-	line "with Pewter Gym's"
-	cont "buff crew. Hohoh!"
+	text "Encajaré bien con"
+	line "el equipo"
+	cont "musculoso del"
+	cont "Gimnasio Plateado."
+	cont "¡Jojo!"
 	done
 
 .SeenText:
-	text "I'm headed to"
-	line "Pewter."
+	text "Voy camino a"
+	line "Ciudad Plateada."
 
-	para "Its Rock-type Gym"
-	line "is perfect for a"
-	cont "buff guy like me!"
+	para "Su Gimnasio tipo"
+	line "Roca es perfecto"
+	cont "para un tipo"
+	cont "musculoso como yo!"
 	done
 
 .BeatenText:
-	text "Hohoh!"
-	line "Someone more buff"
-	cont "than me!"
+	text "¡Jojo!"
+	line "¡Alguien más"
+	cont "musculoso que yo!"
 	done
 
 GenericTrainerBlackbeltInigo:
 	generictrainer BLACKBELT_T, INIGO, EVENT_BEAT_BLACKBELT_INIGO, .SeenText, .BeatenText
 
-	text "Making noises won't"
-	line "make you a better"
-	cont "fighter, but it"
+	text "Hacer ruido no te"
+	line "hace mejor"
+	cont "luchador, pero"
 
-	para "can intimidate"
-	line "your foes."
+	para "puede intimidar a"
+	line "tus rivales."
 	done
 
 .SeenText:
-	text "Prepare for"
-	line "battle!"
-	cont "HOO-HAH!"
+	text "¡Prepárate para"
+	line "el combate!"
+	cont "¡HUA-JA!"
 	done
 
 .BeatenText:
-	text "HIIYAAAH!"
+	text "¡HIIYAAAH!"
 	done
 
 GenericTrainerEngineerSmith:
 	generictrainer ENGINEER, SMITH, EVENT_BEAT_ENGINEER_SMITH, .SeenText, .BeatenText
 
-	text "Those Diglett are"
-	line "just natural"
-	cont "engineers."
+	text "Esos Diglett son"
+	line "ingenieros"
+	cont "natos."
 	done
 
 .SeenText:
-	text "How did Diglett"
-	line "create such a long"
-	cont "tunnel?"
+	text "¿Cómo creó Diglett"
+	line "un túnel tan"
+	cont "largo?"
 	done
 
 .BeatenText:
-	text "Amazing!"
+	text "¡Increíble!"
 	done
 
 DiglettsCaveCooltrainerfText:
-	text "Look at all these"
-	line "cute Diglett!"
+	text "Mira todos estos"
+	line "Diglett tan"
+	cont "monos!"
 
-	para "I swear I saw one"
-	line "with a blue nose!"
+	para "¡Juro que vi uno"
+	line "con la nariz azul!"
 	done
 
 DiglettsCavePokefanMText:
-	text "A bunch of Diglett"
-	line "popped out of the"
+	text "Un montón de"
+	line "Diglett salieron"
+	cont "de la tierra! Fue"
 
-	para "ground! That was"
-	line "shocking."
+	para "impactante."
 
-	para "I heard Diglett"
-	line "on Cinnabar Island"
-	cont "look different."
+	para "Oí que los Diglett"
+	line "de Isla Canela se"
+	cont "ven diferentes."
 	done

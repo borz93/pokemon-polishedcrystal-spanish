@@ -63,9 +63,9 @@ LoreleiAfterScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "If you do beat"
-	line "them, meet me here"
-	cont "for a rematch."
+	text "Si las venciste,"
+	line "encuéntrame aquí"
+	cont "para la revancha."
 	done
 
 LoreleiRematchScript:
@@ -103,21 +103,23 @@ LoreleiGiveIcyRock:
 	jumpthisopenedtext
 
 LoreleiRematchAfterText:
-	text "Your journey isn't"
-	line "over, you know."
+	text "Tu viaje no ha"
+	line "terminado, ¿sabes?"
 
-	para "You can earn more"
-	line "Badges in Kanto,"
+	para "Puedes ganar más"
+	line "Medallas en Kanto,"
 
-	para "catch new species"
-	line "of #mon,"
+	para "atrapar nuevas"
+	line "especies de"
+	cont "#mon,"
 
-	para "improve yourself"
-	line "and your team."
+	para "mejorar tú mismo y"
+	line "tu equipo."
 
-	para "Becoming a"
-	line "#mon master is"
-	cont "a life's work."
+	para "Convertirte en"
+	line "maestro #mon es"
+	cont "obra de toda una"
+	cont "vida."
 	done
 
 LoreleiReintroductionScript:
@@ -126,112 +128,114 @@ LoreleiReintroductionScript:
 	sjump LoreleiAfterRematchIntroScript
 
 Text_IcePathB3FIceRock:
-	text "The boulder is"
-	line "coated with ice."
+	text "La roca está"
+	line "cubierta de hielo."
 
-	para "It is bone-chill-"
-	line "ing to touch."
+	para "Está helada al"
+	line "tacto."
 	done
 
 LoreleiIntroText:
-	text "Lorelei: Hello"
-	line "there, trainer."
-	cont "I am Lorelei."
+	text "Lorelei: Hola,"
+	line "entrenador. Soy"
+	cont "Lorelei."
 
-	para "See that icy rock"
-	line "over there?"
+	para "¿Ves esa roca"
+	line "helada de ahí?"
 
-	para "It emits an energy"
-	line "I've never seen in"
-	cont "Kanto."
+	para "Emite una energía"
+	line "que nunca había"
+	cont "visto en Kanto."
 
-	para "As an expert on"
-	line "Ice-type #mon,"
-	cont "I had to investi-"
-	cont "gate it."
+	para "Como experta en"
+	line "#mon tipo"
+	cont "Hielo, tuve que"
+	cont "investigarla."
 
-	para "And what are you"
-	line "doing here?"
+	para "¿Y qué haces tú"
+	line "aquí?"
 	done
 
 LoreleiAfterIntroText:
-	text "Lorelei: You're"
-	line "taking the #mon"
+	text "Lorelei: Estás"
+	line "aceptando el"
 
-	para "League challenge."
-	line "I see."
-	cont "How ironic."
+	para "desafío de la Liga"
+	line "#mon. Ya veo."
+	cont "Qué irónico."
 
-	para "Why don't I test"
-	line "your skill?"
+	para "¿Por qué no pruebo"
+	line "tu habilidad?"
 	done
 
 LoreleiNoBattleText:
-	text "If you can't face"
-	line "me, you'll never"
+	text "Si no puedes"
+	line "enfrentarme a mí,"
 
-	para "be able to beat"
-	line "the Champion."
+	para "nunca podrás"
+	line "vencer al Campeón."
 	done
 
 LoreleiSeenText:
-	text "Hahaha! Get ready"
-	line "to be frozen"
-	cont "solid!"
+	text "¡Jajaja!"
+	line "¡Prepárate para"
+	cont "quedar congelado!"
 	done
 
 LoreleiBeatenText:
-	text "You're better than"
-	line "I thought!"
+	text "¡Eres mejor de lo"
+	line "que pensaba!"
 	done
 
 LoreleiRewardText:
-	text "You know how to"
-	line "handle Ice-type"
-	cont "#mon."
+	text "Sabes cómo tratar"
+	line "a los #mon tipo"
+	cont "Hielo."
 
-	para "Then you can use"
-	line "this item."
+	para "Entonces puedes"
+	line "usar este objeto."
 	done
 
 LoreleiRematchIntroAgainText:
-	text "Lorelei: Hello"
-	line "again, <PLAYER>."
+	text "Lorelei: Hola de"
+	line "nuevo, <PLAYER>."
 	done
 
 LoreleiRematchSeenText:
-	text "So you battled"
-	line "the Elite Four?"
+	text "¿Así que"
+	line "combatiste contra"
+	cont "el Alto Mando?"
 
-	para "I hope you took"
-	line "Karen down a peg."
+	para "Espero que le"
+	line "bajaras los humos"
+	cont "a Karen."
 
-	para "…………You're the"
-	line "new Champion."
-	cont "I'm impressed."
+	para "…………Eres el nuevo"
+	line "Campeón. Estoy"
+	cont "impresionada."
 
-	para "Then I won't have"
-	line "to hold back!"
+	para "¡Entonces no"
+	line "tendré que"
+	cont "contenerme!"
 	done
 
 LoreleiRematchBeatenText:
-	text "As expected of"
-	line "the Champion!"
+	text "¡Digno de un"
+	line "Campeón!"
 	done
 
 LoreleiOneMoreBadgeText:
-	text "Go on ahead. You"
-	line "can challenge the"
+	text "Adelante. Puedes"
+	line "retar a la Liga"
 
-	para "#mon League"
-	line "with one more"
-	cont "Badge."
+	para "#mon con una"
+	line "Medalla más."
 	done
 
 LoreleiAllBadgesText:
-	text "Go on ahead. You"
-	line "have enough Badges"
+	text "Adelante. Tienes"
+	line "Medallas de sobra"
 
-	para "to challenge the"
-	line "#mon League."
+	para "para retar a la"
+	line "Liga #mon."
 	done

@@ -1,151 +1,157 @@
 BillPhoneMornGreetingText:
-	text "Good morning!"
+	text "¡Buenos días!"
 
-	para "This is the #-"
-	line "mon Storage System"
+	para "Aquí el Servicio"
+	line "de Administración"
 
-	para "Administration"
-	line "Service."
+	para "del Sistema de"
+	line "Almacenaje #."
 	done
 
 BillPhoneDayGreetingText:
-	text "Good day!"
+	text "¡Buenas tardes!"
 
-	para "This is the #-"
-	line "mon Storage System"
+	para "Aquí el Servicio"
+	line "de Administración"
 
-	para "Administration"
-	line "Service."
+	para "del Sistema de"
+	line "Almacenaje #."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Good evening!"
+	text "¡Buenas noches!"
 
-	para "This is the #-"
-	line "mon Storage System"
+	para "Aquí el Servicio"
+	line "de Administración"
 
-	para "Administration"
-	line "Service."
+	para "del Sistema de"
+	line "Almacenaje #."
 	done
 
 BillPhoneGenericText:
-	text "Who's calling?"
+	text "¿Quién llama?"
 
-	para "<PLAYER>, is it?"
-	line "Hang on a sec…"
+	para "<PLAYER>, ¿verdad?"
+	line "Espera un segundo…"
 
 	para "……"
 	line "……"
 	done
 
 BillPhoneNotFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "¡Gracias por"
+	line "esperar!"
 
-	para "<PLAYER>, your"
-	line "database has a lot"
-	cont "of space left."
+	para "<PLAYER>, tu base"
+	line "de datos tiene"
+	cont "mucho espacio."
 
-	para "Get out there and"
-	line "fill it up!"
+	para "¡Sal ahí fuera y"
+	line "llénala!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "¡Gracias por"
+	line "esperar!"
 
-	para "<PLAYER>, your"
-	line "database is almost"
-	cont "overtaxed!"
+	para "<PLAYER>, tu base"
+	line "de datos está casi"
+	cont "saturada!"
 
-	para "Maybe you should"
-	line "save your game?"
+	para "¿Deberías guardar"
+	line "la partida?"
 	done
 
 BillPhoneFullText:
-	text "Thanks for"
-	line "waiting!"
+	text "¡Gracias por"
+	line "esperar!"
 
-	para "<PLAYER>, your"
-	line "database is"
-	cont "overtaxed."
+	para "<PLAYER>, tu base"
+	line "de datos está"
+	cont "saturada."
 	prompt
 
 BillPhoneNewlyFullText:
-	text "Hi, <PLAYER>?"
-	line "It's me, Bill!"
+	text "¿<PLAYER>? ¿Eres"
+	line "tú? ¡Soy Bill!"
 
-	para "Thanks for using"
-	line "my Storage System."
+	para "Gracias por usar"
+	line "mi Sistema de"
+	cont "Almacenaje."
 
-	para "That last #mon"
-	line "overtaxed my"
-	cont "systems!"
+	para "¡El último #mon"
+	line "saturó mis"
+	cont "sistemas!"
 	prompt
 
 BillWholePCFullText:
-	text "Wow, you filled"
-	line "a whole server."
+	text "Vaya, llenaste"
+	line "un servidor"
+	cont "entero."
 
-	para "You'll have to"
-	line "release #mon"
-	cont "to make space."
+	para "Tendrás que"
+	line "liberar #mon"
+	cont "para hacer sitio."
 	done
 
 BillFlushBySaving:
-	text "It needs to run"
-	line "garbage collection"
-	cont "before more use."
+	text "Necesita hacer"
+	line "recolección de"
+	cont "basura antes de"
+	cont "usarse más."
 
-	para "Save the game to"
-	line "continue using the"
-	cont "PC."
+	para "Guarda la partida"
+	line "para seguir"
+	cont "usando el PC."
 
-	para "Do you want to"
-	line "save now?"
+	para "¿Quieres guardar"
+	line "ahora?"
 	done
 
 BillThankYouText:
-	text "Thank you for"
-	line "using the PC"
-	cont "Storage System!"
+	text "¡Gracias por usar"
+	line "el Sistema de"
+	cont "Almacenaje del PC!"
 	done
 
 BillCallMeToSwitch:
-	text "OK, I'll leave it"
-	line "alone."
+	text "Vale, lo dejaré"
+	line "tal cual."
 
-	para "Save the game if"
-	line "you change your"
-	cont "mind."
+	para "Guarda la partida"
+	line "si cambias de"
+	cont "idea."
 	prompt
 
 BillPhoneSecondBadgeText:
-	text "Hey there,"
-	line "trainers!"
-	cont "It's me, Bill!"
+	text "¡Hola,"
+	line "entrenadores!"
+	cont "¡Soy Bill!"
 
-	para "I'm just calling to"
-	line "warn y'all about"
-	cont "Wonder Trading."
+	para "Solo llamo para"
+	line "avisaros sobre"
+	cont "el Intercambio"
+	cont "Misterioso."
 
-	para "The machine has"
-	line "been unstable"
-	cont "recently, and my"
+	para "La máquina ha"
+	line "estado inestable"
+	cont "últimamente, y mis"
 
-	para "repairs aren't"
-	line "quite complete."
+	para "reparaciones no"
+	line "están del todo"
+	cont "completas."
 
-	para "So if you're in"
-	line "Goldenrod City,"
+	para "Así que si estáis"
+	line "en Ciudad Trigal,"
 
-	para "be careful with"
-	line "Wonder Trading."
+	para "tened cuidado con"
+	line "el Intercambio"
+	cont "Misterioso."
 
-	para "You might get a"
-	line "weird #mon"
-	cont "in exchange."
+	para "Podríais recibir"
+	line "un #mon raro"
+	cont "a cambio."
 
-	para "That's all."
-	line "Buh-bye!"
+	para "Eso es todo."
+	line "¡Hasta luego!"
 	done

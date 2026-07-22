@@ -45,73 +45,78 @@ CeladonHotel1FRichBoyGeraldScript:
 	end
 
 CeladonHotel1FGrampsText:
-	text "#mon? No, this"
-	line "is a hotel for"
-	cont "people."
+	text "¿#mon? No, esto"
+	line "es un hotel para"
+	cont "personas."
 
-	para "We're full up."
+	para "Estamos llenos."
 	done
 
 CeladonHotel1FLadyText:
-	text "This is my first"
-	line "trip to Kanto."
+	text "Es mi primer"
+	line "viaje a Kanto."
 
-	para "There's so much to"
-	line "see in Celadon!"
+	para "¡Hay tanto que ver"
+	line "en Azulona!"
 	done
 
 CeladonHotel1FCooltrainerFText:
-	text "Ahh, I really"
-	line "needed this"
-	cont "vacation!"
+	text "Ahh, de verdad"
+	line "necesitaba estas"
+	cont "vacaciones!"
 	done
 
 RichBoyGeraldGreetingText:
-	text "My sister's enjoy-"
-	line "ing our vacation,"
+	text "Mi hermana"
+	line "disfruta de"
+	cont "nuestras"
+	cont "vacaciones,"
 
-	para "but I'm bored."
-	line "Care for a battle?"
+	para "pero yo me aburro."
+	line "¿Un combate?"
 	done
 
 RichBoyGeraldSeenText:
-	text "Then prepare to"
-	line "lose!"
+	text "¡Prepárate para"
+	line "perder!"
 	done
 
 RichBoyGeraldBeatenText:
-	text "At least you're"
-	line "not boring."
+	text "Al menos no eres"
+	line "aburrido."
 	done
 
 RichBoyGeraldAfterText:
-	text "Next time we ought"
-	line "to vacation at"
-	cont "Olivine City."
+	text "La próxima vez"
+	line "deberíamos ir de"
+	cont "vacaciones a"
+	cont "Ciudad Olivo."
 
-	para "I'd quite like to"
-	line "challenge the"
-	cont "Battle Tower."
+	para "Me gustaría"
+	line "retar a la Torre"
+	cont "Batalla."
 	done
 
 RichBoyGeraldNoBattleText:
-	text "Hmph! Fine."
+	text "¡Hmph! Vale."
 	done
 
 CeladonHotel1FSignpost1Text:
-	text "Celadon Hotel"
+	text "Hotel Azulona"
 
-	para "Enjoy your stay!"
+	para "¡Disfruta tu"
+	line "estancia!"
 	done
 
 CeladonHotel1FSignpost2Text:
-	text "Hotel Pool"
+	text "Piscina del Hotel"
 
-	para "Please wear a swim"
-	line "cap in the water."
+	para "Por favor, usa"
+	line "gorro de baño en"
+	cont "el agua."
 	done
 
 CeladonHotel1FSignpost3Text:
 	text "Suites"
-	line "Upstairs"
+	line "Arriba"
 	done

@@ -58,9 +58,10 @@ PewterCityYoungsterScript:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "You beat the Gym?"
-	line "Then you're tough"
-	cont "as rock too!"
+	text "¿Venciste al"
+	line "Gimnasio? ¡Eres"
+	cont "duro como roca"
+	cont "también!"
 	done
 
 PewterCityPokefanMScript:
@@ -85,152 +86,166 @@ PewterCityPokefanMScript:
 	endtext
 
 .Text1:
-	text "The Pewter City"
-	line "specialty--"
+	text "¡La especialidad"
+	line "de Ciudad"
+	cont "Plateada:"
 	cont "PewterCrunch!"
 
-	para "I'll sell you a"
-	line "package for ¥300!"
+	para "¡Te vendo un"
+	line "paquete por ¥300!"
 	done
 
 .Text2:
-	text "Thanks!"
-	line "They're very hard,"
-	cont "so be careful!"
+	text "¡Gracias!"
+	line "Son muy duras,"
+	cont "¡ten cuidado!"
 	done
 
 .Text3:
-	text "Are they too"
-	line "crunchy for you?"
+	text "¿Son demasiado"
+	line "crujientes para"
+	cont "ti?"
 	done
 
 .Text4:
-	text "You don't have"
-	line "room for them!"
+	text "¡No tienes sitio"
+	line "para ellas!"
 	done
 
 .NotEnoughMoney:
 	jumpthisopenedtext
 
-	text "You don't have"
-	line "cash for them!"
+	text "¡No tienes dinero"
+	line "para ellas!"
 	done
 
 PewterCityCooltrainerFText:
-	text "#mon can only"
-	line "be two types at"
-	cont "once, but if it"
-	cont "were possible for"
+	text "Los #mon solo"
+	line "pueden tener dos"
+	cont "tipos a la vez,"
+	cont "pero si fuera"
 
-	para "a #mon to be"
-	line "every type, it"
-	cont "would only have"
-	cont "one weakness."
+	para "posible que un"
+	line "#mon fuera de"
+	cont "todos los tipos,"
+	cont "solo tendría una"
+	cont "debilidad."
 
-	para "What weakness,"
-	line "you ask?"
+	para "¿Qué debilidad,"
+	line "preguntas?"
 
-	para "Rock-type attacks,"
-	line "of course!"
+	para "¡Ataques tipo"
+	line "Roca, claro está!"
 	done
 
 PewterCityCooltrainermText:
-	text "This gal thinks"
-	line "Rock-type #mon"
-	cont "are all that,"
+	text "Esta chica cree"
+	line "que los #mon"
+	cont "tipo Roca son la"
+	cont "monda,"
 
-	para "but it's tied for"
-	line "the most weakness-"
-	cont "es of any type."
+	para "pero empatan en"
+	line "tener más"
+	cont "debilidades que"
+	cont "cualquier tipo."
 
-	para "I don't have the"
-	line "heart to tell her,"
-	cont "though."
+	para "No tengo corazón"
+	line "para decírselo,"
+	cont "eso sí."
 	done
 
 PewterCityBugCatcherText:
-	text "At night, Clefairy"
-	line "come out to play"
-	cont "at Mt.Moon."
+	text "De noche, los"
+	line "Clefairy salen a"
+	cont "jugar en el Monte"
+	cont "Moon."
 
-	para "But not every"
-	line "night."
+	para "Pero no todas las"
+	line "noches."
 	done
 
 PewterCityGrampsText:
-	text "Ah, you came all"
-	line "the way out here"
-	cont "from Johto?"
+	text "Ah, ¿viniste hasta"
+	line "aquí desde Johto?"
 
-	para "That brings back"
-	line "memories. When I"
+	para "Eso trae"
+	line "recuerdos. Cuando"
 
-	para "was young, I went"
-	line "to Johto to train."
+	para "era joven, fui a"
+	line "Johto a entrenar."
 
-	para "You remind me so"
-	line "much of what I was"
+	para "Me recuerdas"
+	line "mucho a cómo era"
 
-	para "like as a young"
-	line "man."
+	para "yo de joven."
 
-	para "Here. I want you"
-	line "to have this item"
-	cont "I found in Johto."
+	para "Toma. Quiero que"
+	line "tengas este objeto"
+	cont "que encontré en"
+	cont "Johto."
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Going to new, un-"
-	line "known places and"
-	cont "seeing new people…"
+	text "Ir a lugares"
+	line "nuevos y"
+	cont "desconocidos, y"
+	cont "conocer gente"
+	cont "nueva…"
 
-	para "Those are the joys"
-	line "of travel."
+	para "Esas son las"
+	line "alegrías de"
+	cont "viajar."
 	done
 
 PewterCityYoungsterText1:
-	text "The Pewter Gym is"
-	line "as rough and tough"
-	cont "as rock itself."
+	text "El Gimnasio"
+	line "Plateado es tan"
+	cont "áspero y duro como"
+	cont "la roca misma."
 
-	para "Be careful in"
-	line "there."
+	para "Ten cuidado ahí"
+	line "dentro."
 	done
 
 
 PewterCitySignText:
-	text "Pewter City"
-	line "A Stone Gray City"
+	text "Ciudad Plateada"
+	line "Una Ciudad Gris"
+	cont "Piedra"
 	done
 
 PewterGymSignText:
-	text "Pewter City"
-	line "#mon Gym"
-	cont "Leader: Brock"
+	text "Ciudad Plateada"
+	line "Gimnasio #mon"
+	cont "Líder: Brock"
 
-	para "The Rock Solid"
-	line "#mon Trainer"
+	para "El Entrenador"
+	line "#mon Sólido"
+	cont "como Roca"
 	done
 
 PewterMuseumOfScienceSignText:
-	text "Pewter Museum of"
-	line "Science"
+	text "Museo de Ciencias"
+	line "de Plateada"
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hay un aviso"
+	line "aquí…"
 
-	para "Mt.Moon Gift Shop"
-	line "Now open!"
+	para "¡Tienda de Regalos"
+	line "del Monte Moon ya"
+	cont "abierta!"
 	done
 
 PewterCityTrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "A #mon holding"
-	line "an Ability Cap"
-	cont "is more likely to"
-	cont "have a baby with"
-	cont "a rare ability."
+	para "Un #mon con un"
+	line "Tope Habil. tiene"
+	cont "más"
+	cont "posibilidades de"
+	cont "tener una cría con"
+	cont "una habilidad"
+	cont "rara."
 	done

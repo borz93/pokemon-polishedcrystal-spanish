@@ -1,71 +1,74 @@
 JackAnswerPhoneText:
-	text "Hello. This is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good morning,"
+	para "¡Buenos días,"
 	line "<PLAYER>!"
 	done
 
 JackAnswerPhoneDayText:
-	text "Hello. This is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "How's it going,"
+	para "¿Qué tal,"
 	line "<PLAYER>?"
 	done
 
 JackAnswerPhoneNiteText:
-	text "Hello. This is"
+	text "Hola, soy"
 	line ""
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Good evening,"
+	para "¡Buenas noches,"
 	line "<PLAYER>!"
 	done
 
 JackGreetText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "<PLAYER>, ¡buenos"
+	line "días!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "How are you doing?"
+	line "¿Qué tal estás?"
 	done
 
 JackGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "<PLAYER>, ¡hola!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace"
+	cont "buen día?"
 	done
 
 JackGreetNiteText:
-	text "<PLAYER>, good"
-	line "evening!"
+	text "<PLAYER>, ¡buenas"
+	line "noches!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Got a minute?"
+	line "¿Tienes un"
+	cont "minuto?"
 	done
 
 JackGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My "
+	para "Mi "
 	text_ram wStringBuffer4
-	text " is"
-	line "so curious, it's a"
+	text " es"
+	line "tan curioso que"
+	cont "es un problema."
 
-	para "problem. Maybe"
-	line "it's like me…"
+	para "Quizá sea"
+	line "como yo…"
 	done

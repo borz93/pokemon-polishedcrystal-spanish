@@ -41,11 +41,18 @@ SoulHouseB3FMrFujiScript:
 	end
 
 .Text1:
-	text "TODO"
+	text "Ten, tengo un"
+	line "regalo para ti."
+
+	para "Tómalo, por"
+	line "favor."
 	done
 
 .Text2:
-	text "TODO"
+	text "Puedes usarlo"
+	line "para calmar las"
+	cont "almas de #mon"
+	cont "inquietos."
 	done
 
 .LeaveMovement:

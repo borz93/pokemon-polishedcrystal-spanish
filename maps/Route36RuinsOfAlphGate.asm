@@ -18,20 +18,19 @@ Route36RuinsOfAlphGate_MapScriptHeader:
 	object_event  7,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 2, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route36RuinsOfAlphGateGrampsText, -1
 
 Route36RuinsOfAlphGateOfficerText:
-	text "Don't you wonder"
-	line "who'd make some-"
-	cont "thing like this?"
-	cont "And why?"
+	text "¿No te preguntas"
+	line "quién haría algo"
+	cont "así? ¿Y por qué?"
 	done
 
 Route36RuinsOfAlphGateGrampsText:
-	text "Did you see that"
-	line "strange tree in"
-	cont "the road?"
+	text "¿Viste ese árbol"
+	line "raro en el"
+	cont "camino?"
 
-	para "That may explain"
-	line "why fewer people"
+	para "Eso explicaría por"
+	line "qué menos gente"
 
-	para "are visiting the"
-	line "Ruins of Alph."
+	para "visita las Ruinas"
+	line "Alfa."
 	done

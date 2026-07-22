@@ -37,31 +37,34 @@ CeladonUniversityLibrary1F_MapScriptHeader:
 	object_event 10,  7, SPRITE_BOOK_PAPER_POKEDEX, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptext, CeladonUniversityLibrary1FBookText, -1
 
 CeladonUniversityLibrary1FLadyText:
-	text "This library is on"
-	line "university"
-	cont "grounds, but it's"
+	text "Esta biblioteca"
+	line "está en el campus"
+	cont "universitario,"
 
-	para "open for anyone"
-	line "to use."
+	para "pero está abierta"
+	line "para que la use"
+	cont "cualquiera."
 
-	para "Isn't that great?"
+	para "¿No es genial?"
 	done
 
 CeladonUniversityLibrary1FGentlemanText:
-	text "Shh! Can't you see"
-	line "I'm reading here?"
+	text "¡Shh! ¿No ves que"
+	line "estoy leyendo?"
 	done
 
 CeladonUniversityLibrary1FCooltrainerfText:
-	text "Prof.Oak used to"
-	line "teach here, so the"
+	text "El Prof.Oak solía"
+	line "enseñar aquí, así"
 
-	para "library has copies"
-	line "of all his journal"
-	cont "articles."
+	para "que la biblioteca"
+	line "tiene copias de"
+	cont "todos sus"
+	cont "artículos."
 
-	para "I've read each one"
-	line "cover to cover!"
+	para "¡Los he leído"
+	line "todos de principio"
+	cont "a fin!"
 	done
 
 CeladonUniversityLibrary1FGameboyKidScript:
@@ -70,18 +73,22 @@ CeladonUniversityLibrary1FGameboyKidScript:
 	end
 
 .Text:
-	text "My #dex has a"
-	line "game upgrade."
+	text "Mi #dex tiene"
+	line "una mejora de"
+	cont "juego."
 
-	para "I'm playing Tetris!"
+	para "¡Estoy jugando al"
+	line "Tetris!"
 	done
 
 CeladonUniversityLibrary1FPokefan_fText:
-	text "We have a mutual"
-	line "lending agreement"
+	text "Tenemos un"
+	line "acuerdo mutuo de"
 
-	para "with Canalave"
-	line "Library in Sinnoh."
+	para "préstamo con la"
+	line "Biblioteca de"
+	cont "Vetusta, en"
+	cont "Sinnoh."
 	done
 
 CeladonUniversityLibrary1FCooltrainermScript:
@@ -97,189 +104,201 @@ CeladonUniversityLibrary1FCooltrainermScript:
 	jumpopenedtext .Text2
 
 .Text1:
-	text "I have a big test"
-	line "coming up, so I'm"
+	text "Tengo un examen"
+	line "importante, así"
 
-	para "planning to be"
-	line "here a while."
+	para "que pienso"
+	line "quedarme un rato"
+	cont "aquí."
 
-	para "I just need to"
-	line "hang in there."
+	para "Solo tengo que"
+	line "aguantar."
 
-	para "This is what helps"
-	line "me out."
+	para "Esto es lo que me"
+	line "ayuda."
 	done
 
 .Text2:
-	text "If you want your"
-	line "#mon to hang in"
-	cont "there, give them"
-	cont "that Focus Band."
+	text "Si quieres que tu"
+	line "#mon aguante,"
+	cont "dale esa Cinta"
+	cont "Focus."
 	done
 
 CeladonUniversityLibrary1FTeacherText:
-	text "I'm the head"
-	line "librarian."
+	text "Soy la"
+	line "bibliotecaria"
+	cont "jefa."
 
-	para "If you need any-"
-	line "thing, just shout."
+	para "Si necesitas algo,"
+	line "solo grita."
 
-	para "Quietly, though."
-	line "This IS a library."
+	para "Bajito, eso sí."
+	line "Esto ES una"
+	cont "biblioteca."
 	done
 
 CeladonUniversityLibrary1FBookText:
-	text "It's a book about"
-	line "flower arranging."
+	text "Es un libro sobre"
+	line "arreglos florales."
 
-	para "A Sunflora is on"
-	line "the cover."
+	para "Hay un Sunflora en"
+	line "la portada."
 	done
 
 CeladonUniversityLibrary1FSignpost1Text:
-	text "Please do not"
-	line "disturb students"
+	text "Por favor, no"
+	line "molestes a los"
 
-	para "reading in the"
-	line "library."
+	para "estudiantes que"
+	line "leen en la"
+	cont "biblioteca."
 	done
 
 CeladonUniversityLibrary1FSignpost2Text:
-	text "Please do not"
-	line "bring food or"
+	text "Por favor, no"
+	line "traigas comida ni"
 
-	para "beverages into"
-	line "the library."
+	para "bebidas a la"
+	line "biblioteca."
 	done
 
 CeladonUniversityLibrary1FBookshelf1Text:
-	text "Huh? Someone left"
-	line "an old photograph"
-	cont "in this book."
+	text "¿Eh? Alguien dejó"
+	line "una foto antigua"
+	cont "en este libro."
 
-	para "Erika and a man"
-	line "with a gentle"
+	para "Erika y un hombre"
+	line "con una sonrisa"
 
-	para "smile are posing"
-	line "happily alongside"
-	cont "an Oddish."
+	para "amable posan"
+	line "felices junto a"
+	cont "un Oddish."
 	done
 
 CeladonUniversityLibrary1FBookshelf2Text:
-	text "It's a photo album"
-	line "containing many"
+	text "Es un álbum de"
+	line "fotos con muchas"
 
-	para "pictures of"
+	para "imágenes de"
 	line "#mon."
 
-	para "“Todd Snap's Scrap-"
-	line "folio” is written"
-	cont "on the cover."
+	para "“Foto-álbum de"
+	line "Todd Snap” está"
+	cont "escrito en la"
+	cont "portada."
 	done
 
 CeladonUniversityLibrary1FBookshelf3Text:
-	text "It's a book about"
-	line "a man who taught"
+	text "Es un libro sobre"
+	line "un hombre que le"
 
-	para "his #mon to"
-	line "play a musical"
-	cont "instrument."
+	para "enseñó a su"
+	line "#mon a tocar un"
+	cont "instrumento"
+	cont "musical."
 
-	para "They seem the best"
-	line "of friends."
+	para "Parecen los"
+	line "mejores amigos."
 	done
 
 CeladonUniversityLibrary1FBookshelf4Text:
-	text "It's a book about"
-	line "#mon palin-"
-	cont "dromes."
+	text "Es un libro sobre"
+	line "palíndromos"
+	cont "#mon."
 
-	para "There's an Eevee"
-	line "and a Girafarig"
-	cont "on the cover."
+	para "Hay un Eevee y un"
+	line "Girafarig en la"
+	cont "portada."
 	done
 
 CeladonUniversityLibrary1FBookshelf5Text:
-	text "This book is about"
-	line "Toy #mon that"
+	text "Este libro trata"
+	line "de #mon"
 
-	para "come to life after"
-	line "being wound up by"
-	cont "a Wonder Key."
+	para "juguete que cobran"
+	line "vida al dárseles"
+	cont "cuerda con una"
+	cont "Llave Maravilla."
 
-	para "They look kinda"
-	line "cute."
+	para "Se ven bastante"
+	line "monos."
 	done
 
 CeladonUniversityLibrary1FBookshelf6Text:
-	text "It's a book about"
-	line "a #mon puppet"
-	cont "that can't tell"
-	cont "lies."
+	text "Es un libro sobre"
+	line "una marioneta"
+	cont "#mon que no"
+	cont "puede mentir."
 
-	para "“Pinpokéo” is"
-	line "written on the"
-	cont "cover."
+	para "“Pinpokéo” está"
+	line "escrito en la"
+	cont "portada."
 	done
 
 CeladonUniversityLibrary1FBookshelf7Text:
-	text "It's a bo…"
-	line "wait…"
+	text "Es un li…"
+	line "espera…"
 
-	para "This is a video"
-	line "game!"
+	para "¡Es un videojuego!"
 
-	para "A #mon pinball"
-	line "machine is shown"
+	para "Una máquina de"
+	line "pinball #mon"
 
-	para "proudly on the"
-	line "box art."
+	para "aparece"
+	line "orgullosamente en"
+	cont "la carátula."
 	done
 
 CeladonUniversityLibrary1FBookshelf8Text:
-	text "It's a book writ-"
-	line "ten by a fishing"
-	cont "guru providing"
+	text "Es un libro"
+	line "escrito por un"
+	cont "gurú de la pesca"
 
-	para "advice to new"
-	line "anglers."
+	para "con consejos para"
+	line "pescadores"
+	cont "novatos."
 
-	para "“Odds and Rods” is"
-	line "written on the"
-	cont "cover."
+	para "“Cañas y Suertes”"
+	line "está escrito en"
+	cont "la portada."
 	done
 
 CeladonUniversityLibrary1FBookshelf9Text:
-	text "It's a manual"
-	line "explaining the"
+	text "Es un manual que"
+	line "explica el juego"
 
-	para "#mon Trading"
-	line "Card game."
+	para "de cartas"
+	line "coleccionables"
+	cont "#mon."
 	done
 
 CeladonUniversityLibrary1FBookshelf10Text:
-	text "It's a cookbook"
-	line "full of #mon-"
-	cont "themed recipes!"
+	text "¡Es un libro de"
+	line "cocina lleno de"
+	cont "recetas #mon!"
 
-	para "Jigglypuff Jello,"
-	line "Charmander Chut-"
-	cont "ney, Munchlax"
-	cont "Snacks…"
+	para "Gelatina de"
+	line "Jigglypuff,"
+	cont "Chutney de"
+	cont "Charmander,"
+	cont "Bocaditos de"
+	cont "Munchlax…"
 	done
 
 CeladonUniversityLibrary1FBookshelf11Text:
-	text "It's a guide to"
-	line "Poffin blending."
+	text "Es una guía para"
+	line "mezclar Poffines."
 
-	para "A famous #mon"
-	line "breeder is on the"
-	cont "cover."
+	para "Un famoso"
+	line "criador #mon"
+	cont "aparece en la"
+	cont "portada."
 	done
 
 CeladonUniversityLibrary1FBookshelf12Text:
-	text "“The Secret Life"
-	line "of Laughter” by"
+	text "“La Vida Secreta"
+	line "de la Risa” por"
 	cont "Joe King."
-	cont "Puntastic!"
+	cont "¡Puntastico!"
 	done

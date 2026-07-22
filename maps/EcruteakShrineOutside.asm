@@ -22,27 +22,29 @@ EcruteakShrineOutside_MapScriptHeader:
 	object_event  2, 14, SPRITE_SAGE, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, EcruteakShrineOutsideSageText, -1
 
 EcruteakShrineOutsideTwinText:
-	text "My Hoothoot's"
-	line "Foresight helps"
-	cont "shoo away ghosts."
+	text "Profecía de mi"
+	line "Hoothoot ayuda a"
+	cont "ahuyentar"
+	cont "fantasmas."
 	done
 
 EcruteakShrineOutsideHoothootText:
-	text "Hoothoot: Hoot!"
+	text "Hoothoot: ¡Hoot!"
 	done
 
 EcruteakShrineOutsideSageText:
-	text "On New Year's Eve,"
-	line "people visit this"
+	text "En Nochevieja, la"
+	line "gente visita este"
 
-	para "shrine and make"
-	line "wishes for their"
-	cont "future."
+	para "santuario y pide"
+	line "deseos para su"
+	cont "futuro."
 	done
 
 EcruteakShrineOutsideStatueText:
-	text "A #mon statue…"
+	text "Una estatua de"
+	line "#mon…"
 
-	para "It looks very"
-	line "serene."
+	para "Se ve muy"
+	line "serena."
 	done

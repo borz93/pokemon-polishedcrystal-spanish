@@ -70,132 +70,142 @@ CeladonUniversityClassroom4RaymondScript:
 	jumpopenedtext .FinalText
 
 .IntroText1:
-	text "Hey! I'm Raymond!"
-	line "Just call me Ray."
+	text "¡Eh! ¡Soy Raymond!"
+	line "Llámame Ray."
 
-	para "I'm one of top four"
-	line "trainers at Cela-"
-	cont "don University."
+	para "Soy uno de los"
+	line "cuatro mejores"
+	cont "de la Universidad"
+	cont "Azulona."
 
-	para "We're known as the"
-	line "Celadon Four!"
+	para "¡Nos conocen como"
+	line "el Cuatro de"
+	cont "Azulona!"
 
-	para "Want to see our"
-	line "skill yourself?"
+	para "¿Quieres ver"
+	line "nuestra habilidad"
+	cont "en persona?"
 
-	para "Let's have a match!"
-	line "Unless you're"
-	cont "afraid to lose."
+	para "¡Combatamos! A"
+	line "menos que tengas"
+	cont "miedo de perder."
 	done
 
 .IntroText2:
-	text "Hey! I'm Raymond!"
-	line "Just call me Ray."
+	text "¡Eh! ¡Soy Raymond!"
+	line "Llámame Ray."
 
-	para "I'm one of the"
-	line "Celadon Four!"
+	para "¡Soy uno del"
+	line "Cuatro de Azulona!"
 
-	para "You're looking to"
-	line "fight us all?"
+	para "¿Buscas retarnos a"
+	line "todos?"
 
-	para "Let's have a match!"
-	line "Unless you're"
-	cont "afraid to lose."
+	para "¡Combatamos! A"
+	line "menos que tengas"
+	cont "miedo de perder."
 	done
 
 .NoBattleText:
-	text "I knew you were"
-	line "scared."
+	text "Sabía que tenías"
+	line "miedo."
 	done
 
 .SeenText:
-	text "Let's do this!"
+	text "¡Hagámoslo!"
 	done
 
 .BeatenText:
-	text "Ohhhh nooooo!"
+	text "¡Ohhhh nooooo!"
 	done
 
 .AfterText1:
-	text "How could this be?"
-	line "I'm one of the"
-	cont "Celadon Four!"
+	text "¿Cómo puede ser?"
+	line "¡Soy uno del"
+	cont "Cuatro de Azulona!"
 
-	para "I may have lost,"
-	line "but my three pals"
-	cont "will avenge me."
+	para "Puede que haya"
+	line "perdido, pero mis"
+	cont "tres compañeros me"
+	cont "vengarán."
 
-	para "Go find them"
-	line "yourself!"
+	para "¡Ve a buscarlos tú"
+	line "mismo!"
 	done
 
 .AfterText2:
-	text "You've beaten all"
-	line "of the Celadon"
-	cont "Four?"
+	text "¿Venciste a todo"
+	line "el Cuatro de"
+	cont "Azulona?"
 
-	para "No way!"
+	para "¡No puede ser!"
 
-	para "…Fine. I guess"
-	line "you've earned this."
+	para "…Vale. Supongo que"
+	line "te has ganado"
+	cont "esto."
 	done
 
 .FinalText:
-	text "If you've conquered"
-	line "the Celadon Four,"
+	text "Si has conquistado"
+	line "al Cuatro de"
+	cont "Azulona,"
 
-	para "you can bear any"
-	line "burden."
+	para "puedes soportar"
+	line "cualquier carga."
 	done
 
 CeladonUniversityClassroom4CandelaText:
-	text "Hi! I'm Candela."
-	line "I teach #mon"
-	cont "Battling!"
+	text "¡Hola! Soy"
+	line "Candela. ¡Enseño"
+	cont "Combate #mon!"
 
-	para "I'm researching"
-	line "ways to enhance"
+	para "Investigo formas"
+	line "de mejorar el"
 
-	para "#mon's natural"
-	line "power in the pur-"
-	cont "suit of strength."
+	para "poder natural de"
+	line "los #mon en"
+	cont "busca de la"
+	cont "fuerza."
 	done
 
 CeladonUniversityClassroom4TeacherText:
-	text "Candela? She only"
-	line "teaches during the"
-	cont "day."
+	text "¿Candela? Solo"
+	line "enseña durante el"
+	cont "día."
 	done
 
 CeladonUniversityClassroom4Bug_catcherText:
-	text "My lecturer said"
-	line "my #mon could"
+	text "Mi profesora dijo"
+	line "que mi #mon"
 
-	para "really battle with"
-	line "the best of them."
+	para "podía combatir de"
+	line "verdad con los"
+	cont "mejores."
 
-	para "Its potential was"
-	line "the best she'd"
-	cont "ever seen!"
+	para "¡Su potencial era"
+	line "el mejor que había"
+	cont "visto jamás!"
 	done
 
 CeladonUniversityClassroom4FisherText:
-	text "The prof said my"
-	line "#mon was a"
-	cont "wonder!"
+	text "¡El profe dijo"
+	line "que mi #mon era"
+	cont "una maravilla!"
 
-	para "It's a breath-"
-	line "taking #mon."
+	para "Es un #mon"
+	line "impresionante."
 	done
 
 CeladonUniversityClassroom4LadyText:
-	text "The professor said"
-	line "my #mon simply"
-	cont "amazed her."
+	text "La profesora dijo"
+	line "que mi #mon"
+	cont "simplemente la"
+	cont "asombró."
 
-	para "I guess it really"
-	line "can accomplish"
-	cont "anything!"
+	para "¡Supongo que de"
+	line "verdad puede"
+	cont "lograr cualquier"
+	cont "cosa!"
 	done
 
 CeladonUniversityClassroom4Rich_boyScript:
@@ -213,50 +223,56 @@ CeladonUniversityClassroom4Rich_boyScript:
 	waitendtext
 
 .Text1:
-	text "We're learning"
-	line "about #mon"
-	cont "abilities."
+	text "Estamos"
+	line "aprendiendo sobre"
+	cont "habilidades"
+	cont "#mon."
 
-	para "Some species can"
-	line "have more than one"
-	cont "ability."
+	para "Algunas especies"
+	line "pueden tener más"
+	cont "de una habilidad."
 
-	para "Use this to switch"
-	line "between them!"
+	para "¡Usa esto para"
+	line "cambiar entre"
+	cont "ellas!"
 	done
 
 .Text2:
-	text "There are some"
-	line "rare “hidden"
-	cont "abilities” that"
+	text "Hay algunas raras"
+	line "“habilidades"
+	cont "ocultas” que un"
 
-	para "an Ability Cap"
-	line "can't change."
+	para "Tope Habil. no"
+	line "puede cambiar."
 
-	para "But! If a #-"
-	line "mon holding an"
+	para "¡Pero! Si un"
+	line "#mon que lleva"
+	cont "un Tope Habil."
+	cont "tiene un Huevo,"
 
-	para "Ability Cap has"
-	line "an Egg, its baby"
-
-	para "might have a"
-	line "hidden ability!"
+	para "¡su cría podría"
+	line "tener una"
+	cont "habilidad oculta!"
 	done
 
 CeladonUniversityClassroom4BlackboardText:
-	text "Be aware of these"
-	line "factors in battle:"
-	cont "- Type chart"
-	cont "- Move effects"
-	cont "- Move categories"
-	cont "- Conditions"
-	cont "- Held items"
-	cont "- Base stats"
-	cont "- Effort values"
-	cont "- Natures"
-	cont "- Abilities"
-	cont "- Weather"
-	cont "- Others?"
+	text "Ten en cuenta"
+	line "estos factores en"
+	cont "combate:"
+	cont "- Tabla de tipos"
+	cont "- Efectos de"
+	cont "movimientos"
+	cont "- Categorías de"
+	cont "movimientos"
+	cont "- Condiciones"
+	cont "- Objetos"
+	cont "equipados"
+	cont "- Estadíst. base"
+	cont "- Valores esfuerzo"
+	cont "- Naturalezas"
+	cont "- Habilidades"
+	cont "- Clima"
+	cont "- ¿Otros?"
 	done
 
 CeladonUniversityClassroom4Bookshelf1:
@@ -271,24 +287,25 @@ CeladonUniversityClassroom4Bookshelf1:
 	endtext
 
 .Text1:
-	text "This bookcase is"
-	line "a mess!"
+	text "¡Esta estantería"
+	line "es un desastre!"
 
-	para "<PLAYER> straight-"
-	line "ened up the books."
+	para "<PLAYER> ordenó"
+	line "los libros."
 
-	para "…Oh?"
+	para "…¿Oh?"
 	done
 
 .Text2:
-	text "This bookcase is"
-	line "all neat and tidy."
+	text "Esta estantería"
+	line "está ordenada y"
+	cont "pulcra."
 	done
 
 CeladonUniversityClassroom4Bookshelf2Text:
-	text "It's a #mon"
-	line "coloring book."
+	text "Es un libro para"
+	line "colorear #mon."
 
-	para "What's this doing"
-	line "here?"
+	para "¿Qué hace esto"
+	line "aquí?"
 	done

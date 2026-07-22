@@ -113,79 +113,80 @@ Route27VeteranfScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "Good luck! Say"
-	line "hello to Lance"
-	cont "for me."
+	text "¡Buena suerte!"
+	line "Saluda a Lance de"
+	cont "mi parte."
 	done
 
 .IntroText:
-	text "Hm! If you're here,"
-	line "then you must be"
+	text "¡Hm! Si estás"
+	line "aquí, debes ir"
 
-	para "heading for the"
-	line "#mon League."
+	para "camino de la Liga"
+	line "#mon."
 
-	para "Want to train"
-	line "with me?"
+	para "¿Quieres entrenar"
+	line "conmigo?"
 
-	para "Then beat everyone"
-	line "else on Routes 26"
-	cont "and 27."
+	para "Entonces vence a"
+	line "todos los demás en"
+	cont "las Rutas 26 y 27."
 
-	para "I'll wait for you"
-	line "here."
+	para "Te esperaré aquí."
 	done
 
 .QuestionText:
-	text "Hm. You beat the"
-	line "rest faster than"
-	cont "I expected."
+	text "Hm. Venciste al"
+	line "resto más rápido"
+	cont "de lo esperado."
 
-	para "Let's train."
+	para "Entrenemos."
 	done
 
 .RefusedText:
-	text "It's OK."
-	line "I can wait."
+	text "Vale."
+	line "Puedo esperar."
 	done
 
 .SeenText:
-	text "My #mon are"
-	line "all wearing"
-	cont "Choice Specs."
+	text "Mis #mon"
+	line "llevan todos"
+	cont "Gafas Elecc."
 
-	para "They may look"
-	line "weird, but they"
-	cont "are powerful."
+	para "Parecen raras,"
+	line "pero son"
+	cont "poderosas."
 	done
 
 .BeatenText:
-	text "You're ready for"
-	line "the #mon"
-	cont "League, I'm sure!"
+	text "¡Seguro que estás"
+	line "listo para la Liga"
+	cont "#mon!"
 	done
 
 .AfterText1:
-	text "Choice Specs will"
-	line "boost a #mon's"
-	cont "Special Attack,"
+	text "Las Gafas Elecc."
+	line "aumentan el"
+	cont "Ataque Especial de"
+	cont "un #mon,"
 
-	para "but it can only"
-	line "use one move."
+	para "pero solo puede"
+	line "usar un"
+	cont "movimiento."
 
-	para "Take a pair"
-	line "yourself."
+	para "Toma unas para"
+	line "ti."
 	done
 
 GenericTrainerPsychicGilbert:
 	generictrainer PSYCHIC_T, GILBERT, EVENT_BEAT_PSYCHIC_GILBERT, PsychicGilbertSeenText, PsychicGilbertBeatenText
 
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the League."
+	text "Con tu habilidad,"
+	line "te irá bien en la"
+	cont "Liga."
 
-	para "That's what my"
-	line "premonition says."
+	para "Eso dice mi"
+	line "premonición."
 	done
 
 TrainerBird_keeperJose1:
@@ -294,35 +295,36 @@ Bird_keeperJose1Script:
 GenericTrainerCooltrainermBlake:
 	generictrainer COOLTRAINERM, BLAKE, EVENT_BEAT_COOLTRAINERM_BLAKE, CooltrainermBlakeSeenText, CooltrainermBlakeBeatenText
 
-	text "If you prevail on"
-	line "this harsh trek,"
+	text "Si superas esta"
+	line "dura travesía,"
 
-	para "the truth will be"
-	line "revealed!"
+	para "¡se revelará la"
+	line "verdad!"
 
-	para "Heh, sorry, I just"
-	line "wanted to say"
-	cont "something cool."
+	para "Je, perdón, solo"
+	line "quería decir algo"
+	cont "guay."
 	done
 
 GenericTrainerAceDuoJakeandbri1:
 	generictrainer ACE_DUO, JAKEANDBRI1, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri1SeenText, AceDuoJakeandbri1BeatenText
 
-	text "Jake: A good"
-	line "trainer can recog-"
+	text "Jake: Un buen"
+	line "entrenador"
 
-	para "nize other good"
-	line "trainers."
+	para "reconoce a otros"
+	line "buenos"
+	cont "entrenadores."
 	done
 
 GenericTrainerAceDuoJakeandbri2:
 	generictrainer ACE_DUO, JAKEANDBRI2, EVENT_BEAT_ACE_DUO_JAKE_AND_BRI, AceDuoJakeandbri2SeenText, AceDuoJakeandbri2BeatenText
 
-	text "Bri: Good trainers"
-	line "also know how to"
+	text "Bri: Los buenos"
+	line "entrenadores"
 
-	para "fight alongside"
-	line "each other."
+	para "también saben"
+	line "luchar juntos."
 	done
 
 TrainerCooltrainerfReena:
@@ -413,17 +415,21 @@ CooltrainerfReena1Script:
 GenericTrainerCooltrainerfMegan:
 	generictrainer COOLTRAINERF, MEGAN, EVENT_BEAT_COOLTRAINERF_MEGAN, CooltrainerfMeganSeenText, CooltrainerfMeganBeatenText
 
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #mon."
+	text "Estoy comparando"
+	line "#mon antes y"
+	cont "después de"
+	cont "evolucionar."
 
-	para "Evolution really"
-	line "does make #mon"
-	cont "stronger."
+	para "La evolución de"
+	line "verdad hace más"
+	cont "fuertes a los"
+	cont "#mon."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Pero las formas"
+	line "evolucionadas"
+	cont "también aprenden"
+	cont "movimientos más"
+	cont "tarde."
 	done
 
 Route27FisherStepLeftTwiceMovement:
@@ -433,123 +439,125 @@ Route27FisherStepLeftTwiceMovement:
 	step_end
 
 Route27FisherHeyText:
-	text "Hey!"
+	text "¡Oye!"
 	done
 
 Route27FisherText:
-	text "Do you know what"
-	line "you just did?"
+	text "¿Sabes lo que"
+	line "acabas de hacer?"
 
-	para "You've taken your"
-	line "first step into"
-	cont "Kanto."
+	para "Diste tu primer"
+	line "paso en Kanto."
 
-	para "Check your #-"
-	line "gear Map and see."
+	para "Mira el mapa de tu"
+	line "#gear."
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Te ves bastante"
+	line "fuerte."
+	cont "¡Déjame combatir"
+	cont "contigo!"
 	done
 
 CooltrainermBlakeBeatenText: ; text > text
-	text "Yow!"
+	text "¡Ay!"
 	done
 
 AceDuoJakeandbri1SeenText:
-	text "Jake: Hm? You're"
-	line "good, aren't you?"
+	text "Jake: ¿Hm? Eres"
+	line "bueno, ¿verdad?"
 	done
 
 AceDuoJakeandbri1BeatenText:
-	text "Jake: Just as I"
-	line "thought!"
+	text "Jake: ¡Justo lo"
+	line "que pensaba!"
 	done
 
 AceDuoJakeandbri2SeenText:
-	text "Bri: The two of"
-	line "us together are"
-	cont "unstoppable!"
+	text "Bri: ¡Los dos"
+	line "juntos somos"
+	cont "imparables!"
 	done
 
 AceDuoJakeandbri2BeatenText:
-	text "Bri: Our teamwork"
-	line "wasn't enough…"
+	text "Bri: Nuestro"
+	line "trabajo en equipo"
+	cont "no bastó…"
 	done
 
 CooltrainerfReena1SeenText:
-	text "You shouldn't"
-	line "underestimate the"
+	text "No deberías"
+	line "subestimar a los"
 
-	para "wild #mon in"
-	line "these parts."
+	para "#mon salvajes"
+	line "de esta zona."
 	done
 
 CooltrainerfReena1BeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "¡Oh! ¡Eres"
+	line "demasiado fuerte!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
+	text "Solo eres un niño,"
+	line "pero no hay que"
 
-	para "be underestimated"
-	line "either."
+	para "subestimarte a"
+	line "ti tampoco."
 	done
 
 CooltrainerfMeganSeenText:
-	text "It's rare to see"
-	line "anyone come here."
+	text "Es raro ver a"
+	line "alguien venir por"
+	cont "aquí."
 
-	para "Are you training"
-	line "on your own?"
+	para "¿Estás entrenando"
+	line "tú solo?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "¡Oh! ¡Eres muy"
+	line "fuerte!"
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "¡No digas nada!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Déjame adivinar lo"
+	line "que piensas."
 
 	para "Mmmmmmm…"
 
-	para "I got it! You're"
-	line "on the #mon"
-	cont "League challenge!"
+	para "¡Lo tengo! ¡Vas a"
+	line "por el reto de la"
+	cont "Liga #mon!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "¡Eres increíble!"
 	done
 
 Bird_keeperJose1SeenText:
-	text "Tweet! Tweet!"
-	line "Tetweet!"
+	text "¡Pío! ¡Pío!"
+	line "¡Piopío!"
 	done
 
 Bird_keeperJose1BeatenText:
-	text "Tweet!"
+	text "¡Pío!"
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "Bird Keepers like"
-	line "me mimic bird"
-
-	para "whistles to com-"
-	line "mand #mon."
+	text "Los Cetreros como"
+	line "yo imitamos"
+	cont "silbidos de aves"
+	cont "para dar órdenes a"
+	cont "los #mon."
 	done
 
 TohjoFallsSignText:
-	text "Tohjo Falls"
+	text "Cascada Tohjo"
 
-	para "The Link Between"
-	line "Kanto and Johto"
+	para "El Enlace Entre"
+	line "Kanto y Johto"
 	done

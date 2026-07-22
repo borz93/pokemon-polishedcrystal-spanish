@@ -46,78 +46,84 @@ Route19BeachHouseVictorScript:
 .NoPikachu:
 	jumpthisopenedtext
 
-	text "You can do it,"
-	line "too!"
+	text "¡Tú también"
+	line "puedes!"
 
-	para "Go out there and"
-	line "find a Surfing"
-	cont "Pikachu!"
+	para "¡Sal ahí fuera y"
+	line "busca un Pikachu"
+	cont "Surfista!"
 
-	para "Show me that you"
-	line "love Surfing too!"
+	para "¡Demuéstrame que"
+	line "a ti también te"
+	cont "encanta el surf!"
 	done
 
 .NoBattle:
 	jumpopenedtext .NoBattleText
 
 .GreetingText:
-	text "Hey there, friend!"
-	line "The name's Victor."
+	text "¡Hola, amigo!"
+	line "Soy Victor."
 
-	para "I love to Surf,"
-	line "and so does Puka."
-	cont "That's my Pikachu!"
+	para "Me encanta el"
+	line "surf, y a Puka"
+	cont "también. ¡Es mi"
+	cont "Pikachu!"
 	done
 
 .ChallengeText:
-	text "Whoa!"
+	text "¡Vaya!"
 
-	para "Your Pikachu knows"
-	line "how to Surf! So,"
-	cont "I'm not alone…"
+	para "¡Tu Pikachu sabe"
+	line "hacer surf! Así"
+	cont "que no estoy"
+	cont "solo…"
 
-	para "Great! You earned"
-	line "the right to a"
+	para "¡Genial! Te"
+	line "ganaste el"
+	cont "derecho a un"
 
-	para "Surfing battle"
-	line "with me and Puka!"
+	para "combate de surf"
+	line "conmigo y Puka!"
 
-	para "Give it a go?"
+	para "¿Te animas?"
 	done
 
 .SeenText:
-	text "The sea unites"
-	line "all in surfdom!"
-	cont "Let's go!"
+	text "¡El mar une a"
+	line "todos los"
+	cont "surfistas!"
+	cont "¡Vamos!"
 	done
 
 .BeatenText:
-	text "I knew you could"
-	line "do it!"
+	text "¡Sabía que podías"
+	line "hacerlo!"
 	done
 
 .AfterText:
-	text "I hear some Pika-"
-	line "chu in Johto"
+	text "Oí que algunos"
+	line "Pikachu de Johto"
+	cont "aprendieron solos"
+	cont "a hacer surf."
 
-	para "taught themselves"
-	line "to Surf."
+	para "Quizá de ahí"
+	line "viene el mío."
 
-	para "Maybe that's where"
-	line "mine came from."
+	para "Encontré a Puka"
+	line "varado en la"
+	cont "orilla hace años,"
+	cont "y desde entonces"
 
-	para "I found Puka wash-"
-	line "ed ashore years"
-	cont "ago, and we've been"
-
-	para "partners ever"
-	line "since then."
+	para "somos"
+	line "compañeros."
 	done
 
 
 .NoBattleText:
-	text "Shucks. Come Surf"
-	line "anytime, friend!"
+	text "Vaya. ¡Ven a"
+	line "hacer surf cuando"
+	cont "quieras, amigo!"
 	done
 
 Route19BeachHouseSurfingPikachuScript:

@@ -50,117 +50,121 @@ FuchsiaCityFlyPoint:
 	endcallback
 
 FuchsiaCityYoungsterText:
-	text "One of the Elite"
-	line "Four used to be"
+	text "Uno del Alto"
+	line "Mando fue Líder"
 
-	para "the Leader of"
-	line "Fuchsia's Gym."
+	para "del Gimnasio de"
+	line "Fucsia."
 	done
 
 FuchsiaCityPokefanMText:
-	text "Koga's daughter"
-	line "succeeded him as"
+	text "La hija de Koga"
+	line "lo sucedió como"
 
-	para "the Gym Leader"
-	line "after he joined"
-	cont "the Elite Four."
+	para "Líder de Gimnasio"
+	line "al unirse él al"
+	cont "Alto Mando."
 	done
 
 FuchsiaCityTeacherText:
-	text "The Safari Game is"
-	line "canceled…"
+	text "El Juego Safari"
+	line "está cancelado…"
 
-	para "At least the"
-	line "Safari Zone is"
-	cont "still open."
+	para "Al menos la Zona"
+	line "Safari sigue"
+	cont "abierta."
 
-	para "You'll need a"
-	line "strong #mon"
-
-	para "to explore it,"
-	line "though."
+	para "Necesitarás un"
+	line "#mon fuerte"
+	cont "para explorarla,"
+	cont "eso sí."
 	done
 
 FuchsiaCityPokefanFText:
-	text "When the Safari"
-	line "Zone Warden left,"
+	text "Cuando el"
+	line "Guardián de la"
+	cont "Zona Safari se"
+	cont "fue,"
 
-	para "there was nobody"
-	line "to maintain the"
-	cont "town zoo."
+	para "no había nadie"
+	line "para mantener el"
+	cont "zoo del pueblo."
 
-	para "So the #mon"
-	line "were released back"
-	cont "into the wild."
+	para "Así que los"
+	line "#mon fueron"
+	cont "liberados de"
+	cont "vuelta a la"
+	cont "naturaleza."
 	done
 
 FuchsiaCitySignText:
-	text "Fuchsia City"
+	text "Ciudad Fucsia"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "¡Contempla el"
+	line "Rosa Pasión!"
 	done
 
 FuchsiaGymSignText:
-	text "Fuchsia City"
-	line "#mon Gym"
-	cont "Leader: Janine"
+	text "Ciudad Fucsia"
+	line "Gimnasio #mon"
+	cont "Líder: Janine"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "La Ninja Maestra"
+	line "Venenosa"
 	done
 
 SafariZoneOfficeSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hay un aviso"
+	line "aquí…"
 
-	para "Safari Zone Office"
-	line "is closed until"
-	cont "further notice."
+	para "La Oficina de la"
+	line "Zona Safari está"
+	cont "cerrada hasta"
+	cont "nuevo aviso."
 	done
 
 SafariZoneOfficeClosedSignText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done
 
 WardensHomeSignText:
-	text "Safari Zone"
-	line "Warden's Home"
+	text "Casa del"
+	line "Guardián de la"
+	cont "Zona Safari"
 	done
 
 SafariZoneClosedSignText:
-	text "The Warden is"
-	line "traveling abroad."
+	text "El Guardián está"
+	line "viajando fuera."
 
-	para "Therefore, the"
-	line "Safari Game is"
-	cont "canceled."
+	para "Por eso, el Juego"
+	line "Safari está"
+	cont "cancelado."
 	done
 
 NoLitteringSignText:
-	text "No littering."
+	text "No tirar basura."
 
-	para "Please take your"
-	line "waste with you."
+	para "Por favor, llévate"
+	line "tu basura."
 	done
 
 SafariZoneExhibitSignText:
-	text "The sign has been"
-	line "torn away…"
+	text "El cartel fue"
+	line "arrancado…"
 	done
 
 HouseForSaleSignText:
-	text "What's this?"
+	text "¿Qué es esto?"
 
-	para "House for Sale…"
-	line "Nobody lives here."
+	para "Casa en venta…"
+	line "Nadie vive aquí."
 	done
 
 FuchsiaCityCarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to Seafoam"
-	cont "Islands."
+	text "Ten cuidado si"
+	line "vas a nadar a"
+	cont "las Islas Espuma."
 
-	para "Fuchsia Police"
+	para "Policía de Fucsia"
 	done

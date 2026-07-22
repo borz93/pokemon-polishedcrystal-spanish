@@ -234,7 +234,7 @@ Text_WhatTimeIsIt:
 	; What time is it?
 	text_farend _OakTimeWhatTimeIsItText
 String_oclock:
-	db "o'clock@"
+	db "en punto@"
 
 Text_HowManyMinutes:
 	; How many minutes?
@@ -414,13 +414,13 @@ Special_SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db " Sunday@"
-.Monday:    db " Monday@"
-.Tuesday:   db " Tuesday@"
-.Wednesday: db "Wednesday@"
-.Thursday:  db "Thursday@"
-.Friday:    db " Friday@"
-.Saturday:  db "Saturday@"
+.Sunday:    db " Domingo@"
+.Monday:    db "  Lunes@"
+.Tuesday:   db " Martes@"
+.Wednesday: db "Miércoles@"
+.Thursday:  db " Jueves@"
+.Friday:    db "Viernes@"
+.Saturday:  db " Sábado@"
 
 .WhatDayIsItText:
 	; What day is it?
@@ -534,10 +534,10 @@ TimeOfDayStrings:
 	dr EVE_String
 	assert_table_length NUM_DAYTIMES
 
-NITE_String: db "Night@"
-MORN_String: db "Morning@"
-DAY_String:  db "Day@"
-EVE_String:  db "Evening@"
+NITE_String: db "Noche@"
+MORN_String: db "Mañana@"
+DAY_String:  db "Día@"
+EVE_String:  db "Tarde@"
 
 PlaceCaughtTimeOfDayString::
 	and CAUGHT_TIME_MASK

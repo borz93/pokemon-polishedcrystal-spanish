@@ -43,119 +43,123 @@ GoldenrodHappinessRaterTeacherScript:
 	ifgreater 0, .NotUsedToYou                            ; 1-49
 	jumpthisopenedtext                                    ; 0
 
-	text "It doesn't seem to"
-	line "like you at all."
-	cont "It looks mean."
+	text "Parece que no le"
+	line "gustas nada."
+	cont "Se ve hostil."
 	done
 
 .Egg:
 	jumpthisopenedtext
 
-	text "That's an Egg."
-	line "It hasn't formed"
-	cont "any feelings yet."
+	text "Es un Huevo. Aún"
+	line "no ha formado"
+	cont "sentimientos."
 	done
 
 .AdoresYou:
 	jumpthisopenedtext
 
-	text "It adores you!"
-	line "It can't possibly"
-	cont "love you any more."
+	text "¡Te adora! No"
+	line "podría quererte"
+	cont "más."
 
-	para "I even feel happy"
-	line "seeing it! ♥"
+	para "¡Hasta a mí me"
+	line "alegra verlo! ♥"
 	done
 
 .LovesYouALot:
 	jumpthisopenedtext
 
-	text "It looks really"
-	line "happy! It must"
-	cont "love you a lot."
+	text "¡Se ve muy feliz!"
+	line "Debe quererte"
+	cont "mucho."
 	done
 
 .Affectionate:
 	jumpthisopenedtext
 
-	text "It's quite affect-"
-	line "ionate with you!"
+	text "¡Es muy cariñoso"
+	line "contigo!"
 
-	para "It seems to want"
-	line "to be babied a"
-	cont "little."
+	para "Parece que quiere"
+	line "que lo mimen un"
+	cont "poco."
 	done
 
 .ReallyTrustsYou:
 	jumpthisopenedtext
 
-	text "I get the feeling"
-	line "that it really"
-	cont "trusts you."
+	text "Tengo la sensación"
+	line "de que confía"
+	cont "mucho en ti."
 	done
 
 .SortOfHappy:
 	jumpthisopenedtext
 
-	text "It's friendly to-"
-	line "ward you. It looks"
-	cont "sort of happy."
+	text "Es amigable"
+	line "contigo. Se ve"
+	cont "algo feliz."
 	done
 
 .QuiteCute:
 	jumpthisopenedtext
 
-	text "It's warming up"
-	line "to you."
-	cont "It's quite cute."
+	text "Se está"
+	line "encariñando."
+	cont "Es muy mono."
 	done
 
 .NotUsedToYou:
 	jumpthisopenedtext
 
-	text "You should treat"
-	line "it better. It's"
-	cont "not used to you."
+	text "Deberías tratarlo"
+	line "mejor. No está"
+	cont "acostumbrado a ti."
 	done
 
 .RefusedText:
-	text "Come back if you"
-	line "change your mind."
+	text "Vuelve si"
+	line "cambias de"
+	cont "opinión."
 	done
 
 GoldenrodHappinessRaterAskCheckText:
-	text "If you treat your"
-	line "#mon nicely,"
+	text "Si tratas bien a"
+	line "tus #mon,"
 
-	para "they will love you"
-	line "in return."
+	para "te querrán a"
+	line "cambio."
 
-	para "Want me to check"
-	line "your #mon's"
-	cont "happiness?"
+	para "¿Quieres que"
+	line "revise la"
+	cont "felicidad de tu"
+	cont "#mon?"
 	done
 
 GoldenrodHappinessRaterTeacherText:
-	text "Oh? Let me see"
-	line "your "
+	text "¿Ah? Déjame ver"
+	line "a tu "
 	text_ram wStringBuffer3
 	text "…"
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Sigo perdiendo"
+	line "combates, y mis"
 
-	para "#mon end up"
-	line "fainting…"
+	para "#mon acaban"
+	line "debilitados…"
 
-	para "Maybe that's why"
-	line "my #mon don't"
-	cont "like me much…"
+	para "Quizá por eso mis"
+	line "#mon no me"
+	cont "quieren mucho…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #mon, it"
-	cont "acts really glad!"
+	text "Cuando uso un"
+	line "objeto en mi"
+	cont "#mon, ¡se"
+	cont "pone muy"
+	cont "contento!"
 	done

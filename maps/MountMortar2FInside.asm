@@ -24,21 +24,22 @@ MountMortar2FInside_MapScriptHeader:
 GenericTrainerSupernerdHugh:
 	generictrainer SUPER_NERD, HUGH, EVENT_BEAT_SUPER_NERD_HUGH, SupernerdHughSeenText, SupernerdHughBeatenText
 
-	text "I'm investigating"
-	line "Mt.Mortar, but my"
-	cont "pal's gone AWOL."
+	text "Estoy investigando"
+	line "el Monte Mortero,"
+	cont "pero mi amigo"
+	cont "desapareció."
 
-	para "Have you seen a"
-	line "trainer who has a"
+	para "¿Has visto a un"
+	line "entrenador que"
 
-	para "Slowpoke that can"
-	line "use Strength?"
+	para "tenga un Slowpoke"
+	line "que sepa Fuerza?"
 	done
 
 SupernerdHughSeenText:
-	text "Yo! Markus!"
+	text "¡Eh! ¡Markus!"
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text "Perdona, mi error."
 	done

@@ -44,10 +44,10 @@ SummaryScreen_OrangePage:
 INCLUDE "gfx/stats/orange_page.pal"
 
 .NatureString:
-	db "Nature/@"
+	db "Naturaleza/@"
 
 .CharacterString:
-	db "Character/@"
+	db "Peculiaridad/@"
 
 .TN_PrintToD:
 	hlcoord 1, 14
@@ -73,10 +73,10 @@ INCLUDE "gfx/stats/orange_page.pal"
 	ret
 
 .battle_factory
-	db "Battle Factory@"
+	db "Fábrica de Combate@"
 
 .event
-	db "Event #mon@"
+	db "#mon de evento@"
 
 .TN_PrintLV:
 	ld a, [wTempMonCaughtLevel]
@@ -108,13 +108,13 @@ INCLUDE "gfx/stats/orange_page.pal"
 	ret
 
 .str_level
-	db "at <LV>@"
+	db "a <LV>@"
 
 .str_hatched
-	db "from Egg@"
+	db "de un Huevo@"
 
 .str_traded
-	db "by trade@"
+	db "en intercambio@"
 
 .TN_PrintCharacteristics:
 	; b = value of best DV, c = index of best DV

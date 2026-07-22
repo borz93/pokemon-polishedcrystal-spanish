@@ -22,16 +22,17 @@ PokemonJournalLanceScript:
 	setflag ENGINE_READ_LANCE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Champion Lance!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Campeón Lance!"
 
-	para "Lance has been"
-	line "spotted buying"
-
-	para "his capes at Cel-"
-	line "adon Dept.Store."
+	para "Han visto a Lance"
+	line "comprando sus"
+	cont "capas en los"
+	cont "Grandes Almacenes"
+	cont "de Azulona."
 	done
 
 SilverCavePokeCenterGrampsScript:
@@ -46,27 +47,30 @@ SilverCavePokeCenterGrampsScript:
 	ifequalfwd NUM_POKEMON_JOURNALS, .ReadThemAll
 	jumpthisopenedtext
 
-	text "Oh, you've read "
+	text "Ah, ¿leíste "
 	text_decimal hScriptVar, 1, 2
-	line "of them?"
+	line "de ellos?"
 
-	para "Not bad, but I've"
-	line "read all {d:NUM_POKEMON_JOURNALS}!"
+	para "Nada mal, pero yo"
+	line "leí los {d:NUM_POKEMON_JOURNALS}!"
 	done
 
 .ReadNone:
 	jumpthisopenedtext
 
-	text "You haven't read"
-	line "any? What a shame."
+	text "¿No has leído"
+	line "ninguno? Qué"
+	cont "lástima."
 
-	para "#mon Centers"
-	line "have most of them"
-	cont "on their shelves,"
+	para "Los Centros"
+	line "#mon tienen la"
+	cont "mayoría en sus"
+	cont "estantes,"
 
-	para "but real fans like"
-	line "me track down the"
-	cont "rare issues."
+	para "pero los fans de"
+	line "verdad buscamos"
+	cont "los números"
+	cont "raros."
 	done
 
 .ReadThemAll:
@@ -78,48 +82,48 @@ SilverCavePokeCenterGrampsScript:
 	jumpthisopenedtext
 
 .AfterText:
-	text "That Belt's not"
-	line "just for show."
+	text "Esa cinta no es"
+	line "solo decorativa."
 
-	para "It'll power up your"
-	line "#mon if they"
-	cont "hold it."
+	para "Potencia a tu"
+	line "#mon si la"
+	cont "lleva puesta."
 	done
 
 .GreetingText:
-	text "In my youth I was"
-	line "a talented trainer"
-	cont "myself."
+	text "De joven yo"
+	line "también era un"
+	cont "entrenador con"
+	cont "talento."
 
-	para "Now I just read"
-	line "about others in"
-	cont "#mon Journal."
+	para "Ahora solo leo"
+	line "sobre otros en"
+	cont "Diario #mon."
 
-	para "Are you a Journal"
-	line "reader too?"
+	para "¿Tú también lees"
+	line "el Diario?"
 	done
 
 .ReadAllText:
-	text "You've read them"
-	line "all? Then you're"
+	text "¿Los leíste"
+	line "todos? ¡Entonces"
+	cont "eres un experto"
+	cont "como yo!"
 
-	para "a Journal expert"
-	line "like me!"
-
-	para "Take this to show"
-	line "you're a fan!"
+	para "¡Toma esto para"
+	line "demostrar que eres"
+	cont "fan!"
 	done
 
 SilverCavePokeCenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb Mt."
+	text "Quien busca poder"
+	line "sube al Monte"
+	cont "Plateado pese a"
+	cont "sus peligros…"
 
-	para "Silver despite its"
-	line "many dangers…"
-
-	para "With their trusted"
-	line "#mon, they must"
-
-	para "feel they can go"
-	line "anywhere…"
+	para "Con sus #mon de"
+	line "confianza, deben"
+	cont "sentir que pueden"
+	cont "ir a cualquier"
+	cont "lugar…"
 	done

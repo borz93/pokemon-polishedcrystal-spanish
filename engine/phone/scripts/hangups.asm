@@ -33,8 +33,15 @@ ReenaForwardScript:
 	promptbutton
 	sjump PhoneScript_HangupText_Female
 
-JoeyHangUpScript: ; TODO: use this
+JoeyHangUpScript:
+	random 2
+	ifequalfwd 0, .TopPercentage
 	farwritetext JoeyDevisingStrategiesText
+	promptbutton
+	sjump PhoneScript_HangupText_Male
+
+.TopPercentage:
+	farwritetext JoeyTopPercentageText
 	promptbutton
 	sjump PhoneScript_HangupText_Male
 

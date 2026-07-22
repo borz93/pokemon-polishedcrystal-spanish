@@ -1,96 +1,105 @@
 JoeyAskNumber1Text:
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Oye, ¿me das tu"
+	line "número de"
+	cont "teléfono?"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Te llamaré para"
+	line "combatir."
 
-	para "I'm a rookie too,"
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Yo también soy"
+	line "novato, así que"
+	cont "sería buena"
+	cont "motivación."
 	done
 
 JoeyAskNumber2Text:
-	text "Can I get your"
-	line "phone number?"
+	text "¿Me das tu"
+	line "número de"
+	cont "teléfono?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "¡No quiero perder"
+	line "contra ti!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "Tenemos que"
+	line "combatir de"
+	cont "nuevo, ¿vale?"
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Te llamaré"
+	line "cuando me"
+	cont "entren ganas"
+	cont "de combatir!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Vale, está"
+	line "bien…"
 
-	para "But I won't lose"
-	line "to you again!"
+	para "¡Pero no volveré"
+	line "a perder!"
 	done
 
 JoeyPhoneFullText:
-	text "Huh, what? Your"
-	line "phone's full."
+	text "¿Eh? Tu"
+	line "teléfono está"
+	cont "lleno."
 	done
 
-JoeyTopPercentageText: ; TODO: use this text from HGSS
-	text "Hey, do you remem-"
-	line "ber my super cool"
+JoeyTopPercentageText:
+	text "Oye, ¿recuerdas a"
+	line "mi "
+	text_ram wStringBuffer4
+	text " tan"
+	cont "guay?"
+
+	para "Mi "
+	text_ram wStringBuffer4
+	text " es"
+	line "distinto de un"
 	cont ""
 	text_ram wStringBuffer4
-	text "?"
+	text " normal."
 
-	para "My "
-	text_ram wStringBuffer4
-	text " is"
-	line "different from"
-	cont "regular "
-	text_ram wStringBuffer4
-	text "."
+	para "Está entre los"
+	line "mejores de su"
+	cont "especie."
 
-	para "It's in the top"
-	line "percentage of"
-	cont ""
-	text_ram wStringBuffer4
-	text "."
-
-	para "Do you know what"
-	line "I'm saying?"
+	para "¿Entiendes lo"
+	line "que digo?"
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "¡Te esperaba!"
+	line "¡Combatamos ya!"
 	done
 
 JoeyPackFullText:
-	text "Hey, wait! Your"
-	line "Bag is stuffed!"
+	text "¡Eh, espera! Tu"
+	line "Bolso está"
+	cont "lleno!"
 
-	para "Well, we'll leave"
-	line "it till next time."
+	para "Bueno, lo"
+	line "dejamos para"
+	cont "la próxima."
 	done
 
 JoeyRematchGiftText:
-	text "And yet another"
-	line "loss…"
+	text "Otra derrota"
+	line "más…"
 
-	para "No doubt about"
-	line "it--you're tough."
+	para "No hay duda,"
+	line "eres fuerte."
 
-	para "Being beaten this"
-	line "often actually"
-	cont "feels good now!"
+	para "Perder tantas"
+	line "veces ya se"
+	cont "siente bien!"
 
-	para "Here, take this."
-	line "Use it to get even"
+	para "Toma, usa esto"
+	line "para hacerte"
+	cont "más fuerte."
 
-	para "tougher. That will"
-	line "toughen me up too!"
+	para "Eso también me"
+	line "hará más fuerte"
+	cont "a mí!"
 	done

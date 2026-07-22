@@ -33,115 +33,125 @@ Route12South_MapScriptHeader:
 GenericTrainerFisherMartin:
 	generictrainer FISHER, MARTIN, EVENT_BEAT_FISHER_MARTIN, FisherMartinSeenText, FisherMartinBeatenText
 
-	text "I'm too impatient"
-	line "for fishing…"
+	text "Soy demasiado"
+	line "impaciente para"
+	cont "pescar…"
 	done
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #mon."
+	text "La paciencia es la"
+	line "clave tanto en la"
+	cont "pesca como en"
+	cont "#mon."
 	done
 
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "¡Gwaaah!"
 	done
 
 GenericTrainerFisherStephen:
 	generictrainer FISHER, STEPHEN, EVENT_BEAT_FISHER_STEPHEN, FisherStephenSeenText, FisherStephenBeatenText
 
-	text "Have you checked"
-	line "out Kanto's radio"
+	text "¿Has escuchado la"
+	line "radio de Kanto?"
 
-	para "programs? We get a"
-	line "good variety here."
+	para "Tenemos buena"
+	line "variedad aquí."
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Me siento tan a"
+	line "gusto pescando"
+	cont "mientras escucho"
+	cont "mi radio."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "¡Mi estúpida radio"
+	line "me distrajo!"
 	done
 
 GenericTrainerFisherBarney:
 	generictrainer FISHER, BARNEY, EVENT_BEAT_FISHER_BARNEY, FisherBarneySeenText, FisherBarneyBeatenText
 
-	text "I think electric-"
-	line "ity is the most"
+	text "Creo que la"
+	line "electricidad es lo"
 
-	para "important thing in"
-	line "our daily lives."
+	para "más importante en"
+	line "nuestra vida"
+	cont "diaria."
 
-	para "If it weren't,"
-	line "people wouldn't"
+	para "Si no lo fuera,"
+	line "la gente no habría"
 
-	para "have made such a"
-	line "fuss when the"
+	para "montado tal"
+	line "escándalo cuando"
 
-	para "Power Plant went"
-	line "out of commission."
+	para "la Central"
+	line "Eléctrica dejó de"
+	cont "funcionar."
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "¿Qué es lo más"
+	line "importante en"
+	cont "nuestra vida"
+	cont "diaria?"
 	done
 
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "¡La respuesta"
+	line "viene a"
+	cont "continuación!"
 	done
 
 GenericTrainerFisherKyler:
 	generictrainer FISHER, KYLER, EVENT_BEAT_FISHER_KYLER, .SeenText, .BeatenText
 
-	text "Really? Rather"
-	line "than always catch-"
-	cont "ing new #mon,"
+	text "¿En serio? ¿Mejor"
+	line "que capturar"
+	cont "#mon nuevos"
+	cont "siempre,"
 
-	para "it's good to train"
-	line "them?"
+	para "es bueno"
+	line "entrenarlos?"
 	done
 
 .SeenText:
-	text "#mon battles"
-	line "lure people in!"
+	text "¡Los combates"
+	line "#mon atraen a"
+	cont "la gente!"
 	done
 
 .BeatenText:
-	text "My #mon bucket"
-	line "is empty!"
+	text "¡Mi cubo de"
+	line "#mon está"
+	cont "vacío!"
 	done
 
 GenericTrainerBird_keeperJustin:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_JUSTIN, EVENT_BEAT_BIRD_KEEPER_JUSTIN, .SeenText, .BeatenText
 
-	text "Since the wind has"
-	line "changed, I'll lay"
-	cont "low…"
+	text "Como el viento ha"
+	line "cambiado, me"
+	cont "quedaré quieto…"
 	done
 
 .SeenText:
-	text "Huh? The wind has"
-	line "changed direction!"
+	text "¿Eh? ¡El viento ha"
+	line "cambiado de"
+	cont "dirección!"
 	done
 
 .BeatenText:
-	text "Phew…"
+	text "Uf…"
 	done
 
 GenericTrainerBird_keeperGail:
 	generictrainer BIRD_KEEPER, GAIL, EVENT_BEAT_BIRD_KEEPER_GAIL, .SeenText, .BeatenText
 
-	text "Chuun-Chuun?"
-	line "Chunchun!"
+	text "¿Chuun-Chuun?"
+	line "¡Chunchun!"
 	done
 
 .SeenText:
@@ -156,35 +166,35 @@ GenericTrainerBird_keeperGail:
 GenericTrainerCoupleVicandtara1:
 	generictrainer COUPLE, VICANDTARA1, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Vic: Tara already"
-	line "saw me humiliated…"
+	text "Vic: Tara ya me"
+	line "vio humillado…"
 	done
 
 .SeenText:
-	text "Vic: All right!"
-	line "I'll be able to"
-	cont "show off for Tara!"
+	text "Vic: ¡Muy bien!"
+	line "¡Podré lucirme"
+	cont "ante Tara!"
 	done
 
 .BeatenText:
-	text "Vic: Oh no, my"
-	line "plans!"
+	text "Vic: Oh no, ¡mis"
+	line "planes!"
 	done
 
 GenericTrainerCoupleVicandtara2:
 	generictrainer COUPLE, VICANDTARA2, EVENT_BEAT_COUPLE_VIC_AND_TARA, .SeenText, .BeatenText
 
-	text "Tara: Even though"
-	line "my boyfriend lost,"
-	cont "he's still wonder-"
-	cont "ful."
+	text "Tara: Aunque mi"
+	line "novio perdió,"
+	cont "sigue siendo"
+	cont "maravilloso."
 	done
 
 .SeenText:
-	text "Tara: I love to"
-	line "look at my boy-"
-	cont "friend's face while"
-	cont "he's battling!"
+	text "Tara: Me encanta"
+	line "mirar la cara de"
+	cont "mi novio mientras"
+	cont "combate!"
 	done
 
 .BeatenText:
@@ -193,8 +203,8 @@ GenericTrainerCoupleVicandtara2:
 	done
 
 Route12SignText:
-	text "Route 12"
+	text "Ruta 12"
 
-	para "North to Lavender"
-	line "Town"
+	para "Norte a Pueblo"
+	line "Lavanda"
 	done

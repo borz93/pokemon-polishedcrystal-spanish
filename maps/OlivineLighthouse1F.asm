@@ -31,30 +31,29 @@ OlivineLighthouse1FSailorScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "The trainers here"
-	line "are all keen to"
-	cont "battle."
+	text "Los entrenadores"
+	line "de aquí quieren"
+	cont "combatir."
 
-	para "Be prepared!"
+	para "¡Prepárate!"
 	done
 
 .Text1:
-	text "People are train-"
-	line "ing hard at this"
-	cont "Lighthouse."
+	text "La gente entrena"
+	line "duro en este"
+	cont "Faro."
 
-	para "You should take"
-	line "this."
+	para "Deberías"
+	line "llevarte esto."
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "mon used to light"
+	text "Antes, los #mon"
+	line "iluminaban de"
+	cont "noche el mar"
+	cont "de Olivo."
 
-	para "the sea around"
-	line "Olivine at night."
-
-	para "The Lighthouse was"
-	line "made in honor of"
-	cont "those #mon."
+	para "El Faro se hizo"
+	line "en honor a esos"
+	cont "#mon."
 	done

@@ -67,31 +67,35 @@ GoldenrodPokecenter1FNurseScript:
 	jumpstd pokecenternurse
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The Colosseum"
-	line "upstairs is for"
-	cont "link battles."
+	text "El Coliseo de"
+	line "arriba es para"
+	cont "combates por"
+	cont "cable."
 
-	para "Battle records are"
-	line "posted on the"
+	para "Los récords de"
+	line "combate se"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "publican en la"
+	line "pared, así que no"
+	cont "puedo permitirme"
+	cont "perder."
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#mon doesn't"
-	cont "always win."
+	text "Un #mon de"
+	line "nivel más alto no"
+	cont "siempre gana."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Al fin y al cabo,"
+	line "puede tener"
+	cont "desventaja de"
+	cont "tipo."
 
-	para "I don't think"
-	line "there is a single"
+	para "No creo que haya"
+	line "un solo #mon"
 
-	para "#mon that is"
-	line "the toughest."
+	para "que sea el más"
+	line "fuerte de todos."
 	done
 
 GoldenrodPokecenter1FPokefanF:
@@ -116,62 +120,64 @@ GoldenrodPokecenter1FPokefanF:
 	setevent EVENT_GOT_EVIOLITE_IN_GOLDENROD
 	jumpthisopenedtext
 
-	text "My daughter will"
-	line "be delighted!"
+	text "¡Mi hija se pondrá"
+	line "contentísima!"
 	done
 
 .NoRoomForEviolite:
 	giveitem EON_MAIL
 	jumpthisopenedtext
 
-	text "Oh… Well, another"
-	line "time, then."
+	text "Oh… Bueno, será"
+	line "otro día."
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your bag"
-	line "looks so heavy!"
+	text "Vaya, ¡tu mochila"
+	line "se ve pesadísima!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named Eon Mail?"
+	para "¡Oh! ¿Tendrás por"
+	line "casualidad algo"
+	cont "llamado Correo"
+	cont "Eón?"
 
-	para "My daughter is"
-	line "after one."
+	para "Mi hija anda"
+	line "detrás de uno."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Podrías"
+	line "desprenderte de"
+	cont "uno, ¿no?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an Eon"
-	line "Mail?"
+	text "¿Regalar un"
+	line "Correo Eón?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "¡Oh, genial!"
+	line "¡Gracias, cielo!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "¡Toma, esto es"
+	line "para ti a cambio!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "¿Oh? ¿No tienes"
+	line "uno? Qué pena."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the Eon Mail."
+	text "<PLAYER> regaló el"
+	line "Correo Eón."
 	done
 
 GoldenrodPokecenter1FPokefanFGotEvioliteText:
-	text "Thank you for"
-	line "the Eon Mail!"
+	text "¡Gracias por el"
+	line "Correo Eón!"
 
-	para "My daughter will"
-	line "be delighted!"
+	para "¡Mi hija se pondrá"
+	line "contentísima!"
 	done
 
 WonderTradeReceptionistScript:
@@ -204,107 +210,119 @@ WonderTradeReceptionistScript:
 .done
 	jumpthisopenedtext
 
-	text "We hope to see you"
-	line "again."
+	text "Esperamos verte de"
+	line "nuevo."
 	done
 
 WonderTradeIntroText:
-	text "Hello! Welcome to"
-	line "#Com Center"
-	cont "Wonder Trade Hub."
+	text "¡Hola! Bienvenido"
+	line "al Centro de"
+	cont "Intercambio"
+	cont "Milagroso del"
+	cont "Centro #Com."
 	done
 
 IntroduceTealaText:
-	text "I'm Teala, your"
-	line "trade attendant."
+	text "Soy Teala, tu"
+	line "encargada de"
+	cont "intercambios."
 	done
 
 WonderTradeExplanationText:
-	text "You can trade"
-	line "#mon with other"
-	cont "people far away."
+	text "Puedes"
+	line "intercambiar"
+	cont "#mon con gente"
+	cont "de muy lejos."
 	done
 
 WonderTradeCompleteText:
-	text "It's your new"
-	line "partner."
+	text "Este es tu nuevo"
+	line "compañero."
 
-	para "Please take care"
-	line "of it with love."
+	para "Cuídalo con"
+	line "cariño, por"
+	cont "favor."
 	done
 
 
 WonderTradeForGSBallPichuText:
-	text "…But what's this?"
-	line "Is something wrong"
+	text "…¿Pero qué es"
+	line "esto? ¿Va algo"
 
-	para "with the Wonder"
-	line "Trade machine?"
+	para "mal con la"
+	line "máquina de"
+	cont "Intercambio"
+	cont "Milagroso?"
 
-	para "It seems like you"
-	line "just traded a"
+	para "Parece que acabas"
+	line "de intercambiar"
 
-	para "#mon with"
-	line "yourself."
+	para "un #mon contigo"
+	line "mismo."
 
-	para "But that can't be"
-	line "right… You can't"
+	para "Pero eso no puede"
+	line "ser… No puedes"
 
-	para "be in two places"
-	line "at once."
+	para "estar en dos"
+	line "sitios a la vez."
 
-	para "Besides, the ma-"
-	line "chine communicates"
+	para "Además, la máquina"
+	line "se comunica"
 
-	para "through space,"
-	line "not time…"
+	para "a través del"
+	line "espacio, no del"
+	cont "tiempo…"
 
-	para "And what is that"
-	line "strange Ball it's"
+	para "¿Y qué es esa"
+	line "Ball extraña que"
 
-	para "holding? Is it an"
-	line "Apricorn Ball?"
+	para "lleva? ¿Es una"
+	line "Ball de Bonguri?"
 
-	para "Here, take a look…"
+	para "Toma, échale un"
+	line "vistazo…"
 	done
 
 WonderTradeForGSBallPichuText2:
-	text "It may be unusual,"
-	line "but a #mon"
-	cont "is a #mon."
+	text "Será inusual, pero"
+	line "un #mon es un"
+	cont "#mon."
 
-	para "Please look after"
-	line "it carefully."
+	para "Cuídalo bien, por"
+	line "favor."
 	done
 
 InfoSignScript:
 	jumpthistext
 
-	text "#Com Center"
-	line "1F Information"
+	text "Centro #Com"
+	line "Información 1F"
 
-	para "Left:"
-	line "Administration"
+	para "Izquierda:"
+	line "Administración"
 
-	para "Center:"
-	line "Wonder Trade Hub"
+	para "Centro:"
+	line "Intercambio"
+	cont "Milagroso"
 
-	para "Right:"
-	line "<PK><MN> Judge Machine"
+	para "Derecha:"
+	line "Máquina Juez"
+	cont "<PK><MN>"
 	done
 
 PokemonJournalWhitneyScript:
 	setflag ENGINE_READ_WHITNEY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Whitney!"
+	para "Reportaje"
+	line "Especial: ¡Líder"
+	cont "Whitney!"
 
-	para "Whitney is said to"
-	line "admire Bruno of"
-	cont "the Elite Four."
+	para "Dicen que Whitney"
+	line "admira a Bruno del"
+	cont "Alto Mando."
 	done
 
 JudgeMachineScript:
@@ -313,42 +331,48 @@ JudgeMachineScript:
 	waitendtext
 
 GoldenrodPokecenter1FSuperNerdText:
-	text "Whoa, this #mon"
-	line "Center is huge."
+	text "Vaya, este Centro"
+	line "#mon es enorme."
 
-	para "They just built"
-	line "this place. They"
+	para "Acaban de"
+	line "construir este"
 
-	para "installed lots of"
-	line "new machines too."
+	para "sitio. También"
+	line "instalaron muchas"
+	cont "máquinas nuevas."
 	done
 
 GoldenrodPokecenter1FLassText_PidgeyMail:
-	text "I thought up a fun"
-	line "new thing for the"
-	cont "Wonder Trade Hub!"
+	text "¡Se me ocurrió"
+	line "algo divertido"
+	cont "para el Centro de"
+	cont "Intercambio"
+	cont "Milagroso!"
 
-	para "I make a Pidgey"
-	line "hold Mail, then"
+	para "Hago que un Pidgey"
+	line "lleve un Correo, y"
 
-	para "put it up for"
-	line "trade for another"
-	cont "one!"
+	para "luego lo pongo"
+	line "para"
+	cont "¡intercambiarlo"
+	cont "por otro!"
 
-	para "If everyone did"
-	line "that, Mail could"
+	para "Si todos hicieran"
+	line "eso, el Correo"
 
-	para "be traded with all"
-	line "sorts of people!"
+	para "¡podría"
+	line "intercambiarse con"
+	cont "todo tipo de"
+	cont "gente!"
 
-	para "I call it Pidgey"
-	line "Mail!"
+	para "¡Lo llamo Correo"
+	line "Pidgey!"
 
-	para "If it becomes"
-	line "popular, I might"
+	para "Si se hace"
+	line "popular, ¡podría"
 
-	para "make lots of new"
-	line "friends!"
+	para "hacer muchos"
+	line "amigos nuevos!"
 	done
 
 JudgeMachineEngineerScript:
@@ -377,64 +401,73 @@ JudgeMachineEngineerScript:
 	end
 
 JudgeMachineEngineerWorkingText:
-	text "The #mon"
-	line "Judge Machine…"
+	text "La Máquina Juez"
+	line "#mon…"
 
-	para "It's been my dream"
-	line "for a long time."
+	para "Ha sido mi sueño"
+	line "durante mucho"
+	cont "tiempo."
 
-	para "And with the #-"
-	line "Com Center funding"
-	cont "my work, it can"
-	cont "become a reality,"
+	para "Y con el Centro"
+	line "#Com"
+	cont "financiando mi"
+	cont "trabajo, puede"
+	cont "hacerse realidad,"
 
-	para "even if it takes"
-	line "a computer the"
-	cont "size of a room!"
+	para "¡aunque necesite"
+	line "un ordenador del"
+	cont "tamaño de una"
+	cont "habitación!"
 
-	para "Think of how use-"
-	line "ful it will be"
-	cont "for Breeders who"
-	cont "hatch many Eggs!"
+	para "¡Piensa en lo útil"
+	line "que será para los"
+	cont "Criadores que"
+	cont "incuban muchos"
+	cont "Huevos!"
 
-	para "I'm almost done…"
+	para "Ya casi acabo…"
 	done
 
 JudgeMachineEngineerFinishedText:
-	text "The #mon"
-	line "Judge Machine…"
+	text "La Máquina Juez"
+	line "#mon…"
 
-	para "It's finally done!"
-	line "My dream has be-"
-	cont "come reality!"
+	para "¡Por fin está"
+	line "lista! ¡Mi sueño"
+	cont "se hizo realidad!"
 
-	para "What is it?"
-	line "It's a machine for"
+	para "¿Qué es? Es una"
+	line "máquina para"
 
-	para "judging the stats"
-	line "of any #mon!"
+	para "juzgar las"
+	line "estadísticas de"
+	cont "cualquier #mon."
 
-	para "It uses the latest"
-	line "AI technology to"
+	para "Usa la última"
+	line "tecnología de IA"
 
-	para "evaluate a #-"
-	line "mon's inherent"
-	cont "potential, as well"
+	para "para evaluar el"
+	line "potencial innato"
+	cont "de un #mon,"
 
-	para "as the effort it's"
-	line "put into becoming"
-	cont "stronger."
+	para "así como el"
+	line "esfuerzo puesto en"
+	cont "volverse más"
+	cont "fuerte."
 
-	para "It's the perfect"
-	line "way to measure a"
-	cont "#mon's power!"
+	para "¡Es la forma"
+	line "perfecta de medir"
+	cont "el poder de un"
+	cont "#mon!"
 
-	para "Go ahead and try"
-	line "using it. It's"
-	cont "perfectly safe."
+	para "Adelante,"
+	line "pruébala. Es"
+	cont "totalmente"
+	cont "segura."
 
-	para "As for me, I'm ta-"
-	line "king a vacation!"
+	para "En cuanto a mí,"
+	line "¡me voy de"
+	cont "vacaciones!"
 	done
 
 JudgeMachineEngineerLeavesMovement:
@@ -446,31 +479,32 @@ JudgeMachineEngineerLeavesMovement:
 	step_end
 
 GoldenrodPokecenter1FPokefanFText_Sunflora:
-	text "Some girl I don't"
-	line "know sent me her"
-	cont "Sunflora."
+	text "Una chica que no"
+	line "conozco me envió"
+	cont "su Sunflora."
 
-	para "You should trade"
-	line "for a #mon that"
-	cont "you want."
+	para "Deberías"
+	line "intercambiar por"
+	cont "un #mon que"
+	cont "quieras."
 	done
 
 GoldenrodPokecenter1FRockerText:
-	text "The machines here"
-	line "can't all be used"
-	cont "yet."
+	text "Aún no se pueden"
+	line "usar todas las"
+	cont "máquinas de aquí."
 
-	para "Still, it's nice"
-	line "coming to a trendy"
+	para "Aun así, mola"
+	line "venir a un sitio"
 
-	para "place before other"
-	line "people."
+	para "de moda antes que"
+	line "los demás."
 	done
 
 GoldenrodPokecenter1FGrampsText:
-	text "Just seeing all"
-	line "these new things"
+	text "Solo con ver todas"
+	line "estas novedades"
 
-	para "here makes me feel"
-	line "younger!"
+	para "aquí, ¡me siento"
+	line "más joven!"
 	done

@@ -111,100 +111,105 @@ Archer2Script:
 	end
 
 Route48JessieJamesSeenText:
-	text "Stop right there,"
-	line "twerp!"
+	text "¡Alto ahí,"
+	line "mocoso!"
 
-	para "You know what"
-	line "#mon lives in"
-	cont "that forest?"
-	cont "Pikachu!"
+	para "¿Sabes qué #mon"
+	line "vive en ese"
+	cont "bosque?"
+	cont "¡Pikachu!"
 
-	para "The boss will be"
-	line "pleased if we"
+	para "El jefe estará"
+	line "contento si"
 
-	para "capture a power-"
-	line "ful one!"
+	para "capturamos uno"
+	line "poderoso!"
 
-	para "Surrender now, or"
-	line "prepare to fight!"
+	para "¡Ríndete ahora, o"
+	line "prepárate a"
+	cont "luchar!"
 	done
 
 Route48JessieJamesBeatenText:
-	text "A brat beat us?"
+	text "¿Un mocoso nos"
+	line "venció?"
 	done
 
 Route48JessieJamesAfterText:
-	text "Looks like Team"
-	line "Rocket's blasting"
-	cont "off again!"
+	text "¡Parece que el"
+	line "Team Rocket sale"
+	cont "volando otra vez!"
 	done
 
 Archer2SeenText:
-	text "So you want to"
-	line "interfere with"
+	text "Así que quieres"
+	line "interferir con los"
 
-	para "Team Rocket's"
-	line "plans again."
+	para "planes del Team"
+	line "Rocket otra vez."
 
-	para "Always sticking"
-	line "your nose where it"
-	cont "doesn't belong."
+	para "Siempre metiendo"
+	line "las narices donde"
+	cont "no te llaman."
 
-	para "We're selling"
-	line "those #mon,"
+	para "Vendemos esos"
+	line "#mon,"
 
-	para "and there's nothing"
-	line "you can do about"
-	cont "it!"
+	para "¡y no hay nada que"
+	line "puedas hacer al"
+	cont "respecto!"
 	done
 
 Archer2BeatenText:
-	text "This is so"
-	line "frustrating…"
+	text "Esto es tan"
+	line "frustrante…"
 	done
 
 Archer2AfterText:
-	text "…Have it your"
-	line "way."
+	text "…Como quieras."
 
-	para "Team Rocket will"
-	line "withdraw for now."
+	para "El Team Rocket se"
+	line "retirará por"
+	cont "ahora."
 
-	para "Our other plan is"
-	line "going smoothly"
-	cont "anyway…"
+	para "Nuestro otro plan"
+	line "va sobre ruedas de"
+	cont "todos modos…"
 	done
 
 Route48NurseText1:
-	text "I saw your battle"
-	line "from the window!"
+	text "¡Vi tu combate"
+	line "desde la ventana!"
 
-	para "You drove away"
-	line "Team Rocket and"
-	cont "saved the Pikachu!"
+	para "¡Ahuyentaste al"
+	line "Team Rocket y"
+	cont "salvaste al"
+	cont "Pikachu!"
 
-	para "Thank you so much!"
+	para "¡Muchas gracias!"
 
-	para "Your #mon de-"
-	line "serve a rest after"
-	cont "all that."
+	para "Tus #mon"
+	line "merecen descansar"
+	cont "tras todo eso."
 	done
 
 Route48NurseText2:
-	text "I like to relax"
-	line "here by the forest"
-	cont "and watch the"
-	cont "#mon play."
+	text "Me gusta relajarme"
+	line "aquí junto al"
+	cont "bosque y ver"
+	cont "jugar a los"
+	cont "#mon."
 
-	para "I'll heal your"
-	line "#mon any time!"
+	para "¡Curaré a tus"
+	line "#mon cuando"
+	cont "quieras!"
 
-	para "Thanks again!"
+	para "¡Gracias de nuevo!"
 	done
 
 Route48YellowForestSignText:
-	text "Route 48"
+	text "Ruta 48"
 
-	para "North to"
-	line "Yellow Forest"
+	para "Norte hacia el"
+	line "Bosque Amarillo"
 	done

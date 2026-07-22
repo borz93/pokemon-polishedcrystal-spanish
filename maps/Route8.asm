@@ -37,9 +37,9 @@ TrainerBikerDwayne:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "The Kanto #mon"
-	line "Federation will"
-	cont "never fall!"
+	text "¡La Federación"
+	line "#mon de Kanto"
+	cont "nunca caerá!"
 	done
 
 TrainerBikerHarris:
@@ -49,8 +49,9 @@ TrainerBikerHarris:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Wiped out by some"
-	line "punk from Johto…"
+	text "Aplastado por un"
+	line "gamberro de"
+	cont "Johto…"
 	done
 
 TrainerBikerZeke:
@@ -60,198 +61,210 @@ TrainerBikerZeke:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "We'll try not to"
-	line "disturb anyone"
-	cont "from now on…"
+	text "Intentaremos no"
+	line "molestar a nadie"
+	cont "de ahora en"
+	cont "adelante…"
 	done
 
 GenericTrainerSupernerdSam:
 	generictrainer SUPER_NERD, SAM, EVENT_BEAT_SUPER_NERD_SAM, SupernerdSamSeenText, SupernerdSamBeatenText
 
-	text "The power of mag-"
-	line "nets is awesome!"
+	text "¡El poder de los"
+	line "imanes es"
+	cont "asombroso!"
 	done
 
 GenericTrainerSupernerdTom:
 	generictrainer SUPER_NERD, TOM, EVENT_BEAT_SUPER_NERD_TOM, SupernerdTomSeenText, SupernerdTomBeatenText
 
-	text "Gym Badges are"
-	line "proof of your"
-	cont "skill at battles."
+	text "Las Medallas son"
+	line "prueba de tu"
+	cont "habilidad en"
+	cont "combate."
 	done
 
 GenericTrainerGentlemanMilton:
 	generictrainer GENTLEMAN, MILTON, EVENT_BEAT_GENTLEMAN_MILTON, GentlemanMiltonSeenText, GentlemanMiltonBeatenText
 
-	text "Stopping in the"
-	line "road for a battle"
-	cont "isn't rude."
+	text "Detenerse en el"
+	line "camino para un"
+	cont "combate no es de"
+	cont "mala educación."
 
-	para "No matter what,"
-	line "I am a gentleman"
-	cont "first!"
+	para "Pase lo que pase,"
+	line "¡soy un caballero"
+	cont "ante todo!"
 	done
 
 GenericTrainerCoupleMoeandlulu1:
 	generictrainer COUPLE, MOEANDLULU1, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu1SeenText, CoupleMoeandlulu1BeatenText
 
-	text "Moe: In short,"
-	line "you're just too"
-	cont "strong…"
+	text "Moe: En pocas"
+	line "palabras, eres"
+	cont "demasiado fuerte…"
 	done
 
 GenericTrainerCoupleMoeandlulu2:
 	generictrainer COUPLE, MOEANDLULU2, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu2SeenText, CoupleMoeandlulu2BeatenText
 
-	text "Lulu: It's not that"
-	line "Moe's weak, it's"
+	text "Lulu: No es que"
+	line "Moe sea débil, es"
 
-	para "that you're too"
-	line "strong!"
+	para "que tú eres"
+	line "¡demasiado fuerte!"
 	done
 
 GenericTrainerLassMeadow:
 	generictrainer LASS, MEADOW, EVENT_BEAT_LASS_MEADOW, LassMeadowSeenText, LassMeadowBeatenText
 
-	text "Oh well, I'm more"
-	line "worried about"
+	text "Bueno, me importa"
+	line "más divertirme"
 
-	para "having fun than"
-	line "being competitive."
+	para "que ser"
+	line "competitiva."
 	done
 
 Route8BikerDwayneProtestText:
-	text "We're the Kanto"
-	line "#mon Federation"
-	cont "trainer group."
+	text "Somos el grupo de"
+	line "entrenadores de la"
+	cont "Federación #mon"
+	cont "de Kanto."
 
-	para "We're holding a"
-	line "protest!"
+	para "¡Estamos"
+	line "protestando!"
 	done
 
 Route8BikerZekeProtestText:
-	text "We're the Kanto"
-	line "#mon Federa-"
-	cont "tion!"
+	text "¡Somos la"
+	line "Federación #mon"
+	cont "de Kanto!"
 
-	para "The cops can't"
-	line "stop us from"
+	para "¡La policía no"
+	line "puede impedirnos"
 
-	para "using the Under-"
-	line "ground Path!"
+	para "usar la Vía"
+	line "Subterránea!"
 	done
 
 BikerDwayneSeenText:
-	text "We're the Kanto"
-	line "#mon Federation"
-	cont "trainer group."
+	text "Somos el grupo de"
+	line "entrenadores de la"
+	cont "Federación #mon"
+	cont "de Kanto."
 
-	para "We'll drive you"
-	line "under our wheels!"
+	para "¡Te arrollaremos"
+	line "con nuestras"
+	cont "ruedas!"
 	done
 
 BikerDwayneBeatenText:
-	text "S-sorry!"
+	text "¡L-lo siento!"
 	done
 
 Route8BikerHarrisProtestText:
 BikerHarrisSeenText:
-	text "The cops shut down"
-	line "our Underground"
+	text "¡La policía cerró"
+	line "nuestra Vía"
 
-	para "Path! That really"
-	line "fries me!"
+	para "Subterránea! ¡Eso"
+	line "me enfurece de"
+	cont "verdad!"
 	done
 
 BikerHarrisBeatenText:
-	text "F-forgive me!"
+	text "¡P-perdóname!"
 	done
 
 BikerZekeSeenText:
-	text "We're the Kanto"
-	line "#mon Federa-"
-	cont "tion!"
-	cont "Right on!"
+	text "¡Somos la"
+	line "Federación #mon"
+	cont "de Kanto!"
+	cont "¡Toma ya!"
 	done
 
 BikerZekeBeatenText:
-	text "Yikes! Sorry!"
+	text "¡Uy! ¡Lo siento!"
 	done
 
 SupernerdSamSeenText:
-	text "How does the Mag-"
-	line "net Train work?"
+	text "¿Cómo funciona el"
+	line "Tren Imán?"
 	done
 
 SupernerdSamBeatenText:
-	text "I just want to see"
-	line "the Magnet Train…"
+	text "Solo quiero ver el"
+	line "Tren Imán…"
 	done
 
 SupernerdTomSeenText:
-	text "Hm… You've got"
-	line "many Gym Badges."
+	text "Hm… Tienes muchas"
+	line "Medallas."
 	done
 
 SupernerdTomBeatenText:
-	text "Just as I thought…"
-	line "You're tough!"
+	text "Tal como"
+	line "pensaba… ¡Eres"
+	cont "duro!"
 	done
 
 GentlemanMiltonSeenText:
-	text "Would you care to"
-	line "join me in a"
-	cont "quick contest?"
+	text "¿Te gustaría"
+	line "unirte a mí en un"
+	cont "combate rápido?"
 	done
 
 GentlemanMiltonBeatenText:
-	text "You were very"
-	line "skillful."
+	text "Fuiste muy"
+	line "hábil."
 	done
 
 CoupleMoeandlulu1SeenText:
-	text "Moe: Do I look"
-	line "weak? Don't make"
-	cont "me laugh!"
+	text "Moe: ¿Parezco"
+	line "débil? ¡No me"
+	cont "hagas reír!"
 
-	para "When I'm with Lulu,"
-	line "I've got a hundred"
-	cont "times the courage!"
+	para "Cuando estoy con"
+	line "Lulu, ¡tengo cien"
+	cont "veces más valor!"
 	done
 
 CoupleMoeandlulu1BeatenText:
-	text "Moe: Uwaaaahhh…"
+	text "Moe: ¡Uwaaaahhh…!"
 	done
 
 CoupleMoeandlulu2SeenText:
-	text "Lulu: Moe and I"
-	line "make a great pair!"
+	text "Lulu: ¡Moe y yo"
+	line "hacemos gran"
+	cont "pareja!"
 
-	para "You should prepare"
-	line "yourself!"
+	para "¡Deberías"
+	line "prepararte!"
 	done
 
 CoupleMoeandlulu2BeatenText:
-	text "Lulu: Eeek!"
+	text "Lulu: ¡Eeek!"
 	done
 
 LassMeadowSeenText:
-	text "I like skirts!"
-	line "They're cute and"
-	cont "comfy to wear!"
+	text "¡Me encantan las"
+	line "faldas! ¡Son"
+	cont "monas y cómodas"
+	cont "de llevar!"
 	done
 
 LassMeadowBeatenText:
-	text "Oh my!"
+	text "¡Vaya!"
 	done
 
 Route8LockedDoorText:
-	text "It's locked…"
+	text "Está cerrado…"
 	done
 
 Route8UndergroundPathSignText:
-	text "The flyer's torn."
+	text "El folleto está"
+	line "roto."
 
-	para "It's impossible to"
-	line "read…"
+	para "Es imposible"
+	line "leerlo…"
 	done

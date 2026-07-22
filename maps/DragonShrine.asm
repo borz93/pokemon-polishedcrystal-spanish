@@ -178,14 +178,14 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
-	text "Clair appears to"
-	line "have learned an"
+	text "Parece que Clair"
+	line "aprendió una"
 
-	para "invaluable lesson"
-	line "from you."
+	para "lección muy"
+	line "valiosa de ti."
 
-	para "I thank you as her"
-	line "grandfather."
+	para "Te lo agradezco"
+	line "como su abuelo."
 	done
 
 .GiveDratini:
@@ -214,9 +214,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Ally@"
-	db "Underling@"
-	db "Friend@"
+	db "Aliados@"
+	db "Sirvientes@"
+	db "Amigos@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -227,9 +227,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Training@"
-	db "Cheating@"
+	db "Estrategia@"
+	db "Entrenar@"
+	db "Hacer trampa@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -240,9 +240,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "Alguien débil@"
+	db "Alguien duro@"
+	db "Cualquiera@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -253,9 +253,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Love@"
-	db "Violence@"
-	db "Knowledge@"
+	db "Amor@"
+	db "Violencia@"
+	db "Conocimiento@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -266,9 +266,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Strong@"
-	db "Weak@"
-	db "Both@"
+	db "Fuertes@"
+	db "Débiles@"
+	db "Ambos@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step_up
@@ -330,243 +330,254 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Qué bien"
+	line "verte por aquí."
 
-	para "No need to explain"
-	line "why you came."
+	para "No hace falta que"
+	line "expliques por qué"
+	cont "viniste."
 
-	para "Clair sent you"
-	line "here, didn't she?"
+	para "Clair te envió,"
+	line "¿verdad?"
 
-	para "That girl is a"
-	line "handful…"
+	para "Esa chica es un"
+	line "buen lío…"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Lo siento, pero"
+	line "debo ponerte a"
+	cont "prueba."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "No te preocupes,"
+	line "solo debes"
+	cont "responder unas"
+	cont "preguntas."
 
-	para "Ready?"
+	para "¿Listo?"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #mon"
-	line "to you?"
+	text "¿Qué son los"
+	line "#mon para ti?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text "¿Qué te ayuda a"
+	line "ganar combates?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "¿Contra qué tipo"
+	line "de entrenador"
+	cont "quieres luchar?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #mon?"
+	text "¿Qué es lo más"
+	line "importante para"
+	cont "criar #mon?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #mon."
-	line "Weak #mon."
+	text "#mon fuertes."
+	line "#mon débiles."
 
-	para "Which is more"
-	line "important?"
+	para "¿Cuál es más"
+	line "importante?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text "Hm… Ya veo…"
 
-	para "You care deeply"
-	line "for #mon."
+	para "Te importan"
+	line "mucho los"
+	cont "#mon."
 
-	para "Very commendable."
+	para "Muy loable."
 
-	para "That conviction is"
-	line "what is important!"
+	para "¡Esa convicción es"
+	line "lo importante!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, no"
+	line "pierdas esa"
+	cont "creencia."
 
-	para "It will see you"
-	line "through at the"
-	cont "#mon League."
+	para "Te ayudará en la"
+	line "Liga #mon."
 	done
 
 DragonShrineMustIInformLanceText:
-	text "Clair!"
+	text "¡Clair!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para "¡Este niño es"
+	line "impecable, en"
+	cont "habilidad y"
+	cont "espíritu!"
 
-	para "Admit defeat and"
-	line "confer the Rising"
-	cont "Badge!"
+	para "¡Admite tu"
+	line "derrota y entrega"
+	cont "la Medalla Alba!"
 
-	para "…Or must I inform"
-	line "Lance of this?"
+	para "…¿O debo"
+	line "informar a Lance"
+	cont "de esto?"
 	done
 
 DragonShrineElderScoldsClairText:
 	text "Clair…"
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Reflexiona sobre"
+	line "lo que te falta a"
 
-	para "lack and this"
-	line "child has."
+	para "ti y este niño"
+	line "tiene."
 	done
 
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text "Vuelve si lo"
+	line "deseas."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Qué bien"
+	line "verte por aquí."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Tu llegada es muy"
+	line "afortunada."
 
-	para "I have something"
-	line "for you."
+	para "Tengo algo para"
+	line "ti."
 
-	para "Take this Dratini"
-	line "as proof that I"
+	para "Toma este"
+	line "Dratini como"
 
-	para "have recognized"
-	line "your worth."
+	para "prueba de que he"
+	line "reconocido tu"
+	cont "valía."
 	done
 
 DragonShrinePartyAndBoxFullText:
-	text "Hm? Your party and"
-	line "Box are both full."
+	text "¿Hm? Tu equipo y"
+	line "tu Caja están"
+	cont "llenos."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #mon are"
-	line "symbolic of our"
-	cont "clan."
+	text "Los #mon dragón"
+	line "son el símbolo de"
+	cont "nuestro clan."
 
-	para "You have shown"
-	line "that you can be"
+	para "Has demostrado que"
+	line "se te puede"
 
-	para "entrusted with"
-	line "one."
+	para "confiar uno."
 	done
 
 
 DragonShrineSilverIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Un chico de tu"
+	line "edad está"
+	cont "entrenando aquí."
 
-	para "He is much like"
-	line "Clair when she was"
+	para "Se parece mucho a"
+	line "Clair cuando era"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "más joven. Es un"
+	line "poco preocupante…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text "¿Ah? No entendí"
+	line "bien eso…"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text "¿Qué es lo que"
+	line "dijiste?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text "Oh, ya entiendo…"
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
+	text "Ha pasado mucho"
+	line "tiempo desde que"
 
-	para "trainer has gained"
-	line "our Master's rare"
-	cont "approval."
+	para "un entrenador"
+	line "ganó la rara"
+	cont "aprobación de"
+	cont "nuestro Maestro."
 
-	para "In fact, not since"
-	line "Master Lance."
+	para "De hecho, no desde"
+	line "el Maestro Lance."
 	done
 
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master Lance?"
+	text "¿Conoces al joven"
+	line "Maestro Lance?"
 
-	para "He looks so much"
-	line "like our Master"
-	cont "did in his youth."
+	para "Se parece mucho a"
+	line "nuestro Maestro"
+	cont "de joven."
 
-	para "It's in their"
-	line "blood."
+	para "Está en su"
+	line "sangre."
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text "¿Y cómo te fue?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Supongo que no"
+	line "tiene sentido"
+	cont "preguntar."
 
-	para "You did fail?"
+	para "¿Fallaste?"
 
 	para "………………………………"
 
-	para "…What? You passed?"
+	para "…¿Qué? ¿Pasaste?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text "¡Eso no puede ser!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
+	text "¡Estás mintiendo!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "¡Ni siquiera yo he"
+	line "sido aprobada!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text "E-entiendo…"
 	done
 
 DragonShrineHereRisingBadgeText:
-	text "Here, this is the"
-	line "Rising Badge…"
+	text "Toma, esta es la"
+	line "Medalla Alba…"
 
-	para "Hurry up! Take it!"
+	para "¡Rápido! ¡Tómala!"
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "The Rising Badge"
-	line "will enable your"
+	text "La Medalla Alba"
+	line "permitirá"
 
-	para "#mon to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "a tus #mon usar"
+	line "el movimiento para"
+	cont "escalar"
+	cont "cascadas."
 
-	para "Also, all #mon"
-	line "will recognize you"
+	para "Además, todos los"
+	line "#mon te"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "reconocerán como"
+	line "entrenador y"
 
-	para "command without"
-	line "question."
+	para "obedecerán tus"
+	line "órdenes sin"
+	cont "cuestionarlas."
 	done
 
 DragonShrineSpeechlessText: ; text > text

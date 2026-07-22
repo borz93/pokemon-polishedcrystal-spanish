@@ -191,160 +191,173 @@ DayCareMovementData_LyraLeaves:
 	step_end
 
 DayCareLyraHelloText:
-	text "Lyra: Grandma!"
+	text "Lyra: ¡Abuela!"
 
-	para "Let me introduce"
-	line "my friend."
+	para "Deja que te"
+	line "presente a mi"
+	cont "amigo."
 
-	para "This is <PLAYER>!"
+	para "¡Este es <PLAYER>!"
 
-	para "Grandma: Ah ha."
+	para "Abuela: Ah ja."
 
-	para "This is your"
+	para "Así que este es"
 	line ""
 	text_ram wStringBuffer3
-	text "… friend."
+	text "… tu amigo."
 
-	para "I see. Hmm."
+	para "Ya veo. Hmm."
 	done
 
 DayCareLyraProtestText:
-	text "Lyra: What?"
-	line "Grandma…!"
+	text "Lyra: ¿Qué?"
+	line "¡Abuela…!"
 
-	para "What are you"
-	line "talking about?"
+	para "¿De qué estás"
+	line "hablando?"
 
-	para "<PLAYER> just"
-	line "lives nearby…"
+	para "<PLAYER> solo vive"
+	line "cerca…"
 
-	para "Grandma: Hahaha."
-	line "I know, I know."
+	para "Abuela: Jajaja."
+	line "Lo sé, lo sé."
 
-	para "You must be sure"
+	para "Debes de estar"
 	line ""
 	text_ram wStringBuffer4
-	text "'s talented."
+	text " segura de que"
+	next "es talentoso."
 
-	para "Right, <PLAYER>?"
-	line "Come and see us"
-	cont "any time!"
+	para "¿Verdad, <PLAYER>?"
+	line "¡Venid a vernos"
+	cont "cuando queráis!"
 	done
 
 DayCareLyraGoodbyeText:
-	text "Lyra: Well, I'd"
-	line "better go now…"
-	cont "See ya!"
+	text "Lyra: Bueno,"
+	line "mejor me voy"
+	cont "ya… ¡Nos vemos!"
 	done
 
 DayCareLyraForgotText:
-	text "Lyra: Oh!"
-	line "I almost forgot!"
+	text "Lyra: ¡Oh!"
+	line "¡Casi lo olvido!"
 
-	para "Here! This is my"
-	line "#gear number!"
+	para "¡Toma! ¡Este es mi"
+	line "número de #gear!"
 	done
 
 GotLyrasNumberText:
-	text "<PLAYER> got Lyra's"
-	line "phone number."
+	text "<PLAYER> consiguió"
+	line "el número de"
+	cont "Lyra."
 	done
 
 DayCareLyraHasInfoText:
-	text "Call me any time"
-	line "you want!"
+	text "¡Llámame cuando"
+	line "quieras!"
 
-	para "Grandma and Grand-"
-	line "pa taught me a lot"
+	para "La abuela y el"
+	line "abuelo me"
+	cont "enseñaron mucho"
 
-	para "about raising"
-	line "#mon, and I'd"
+	para "sobre criar"
+	line "#mon, y me"
 
-	para "like to share it"
-	line "with you."
+	para "gustaría"
+	line "compartirlo"
+	cont "contigo."
 	done
 
 DayCareLyraEmbarassedText:
-	text "Lyra: Grandma!"
+	text "Lyra: ¡Abuela!"
 
-	para "Don't you say"
-	line "anything."
+	para "No digas nada"
+	line "más."
 
-	para "We're both train-"
-	line "ers, and we're"
+	para "Ambos somos"
+	line "entrenadores, y se"
 
-	para "supposed to ex-"
-	line "change numbers."
-	cont "That's all."
+	para "supone que"
+	line "intercambiamos"
+	cont "números. Eso es"
+	cont "todo."
 	done
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "El abuelo te"
+	line "estaba buscando."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the Day-Care"
-	line "Man."
+	text "Soy el Cuidador de"
+	line "la Guardería."
 
-	para "Do you know about"
-	line "Eggs?"
+	para "¿Sabes sobre los"
+	line "Huevos?"
 
-	para "I was raising"
-	line "#mon with my"
-	cont "wife, you see."
+	para "Estaba criando"
+	line "#mon con mi"
+	cont "esposa, ¿sabes?"
 
-	para "We were shocked to"
-	line "find an Egg!"
+	para "¡Nos sorprendimos"
+	line "al encontrar un"
+	cont "Huevo!"
 
-	para "How incredible is"
-	line "that?"
+	para "¿No es"
+	line "increíble?"
 
-	para "Well, wouldn't you"
-	line "like this Egg?"
+	para "Bueno, ¿no"
+	line "querrías este"
+	cont "Huevo?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Entonces vale,"
+	line "¡es tuyo para"
+	cont "quedártelo!"
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "the Odd Egg!"
+	text "<PLAYER> recibió"
+	line "¡el Huevo"
+	cont "Extraño!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "Descubrí eso"
+	line "cuando cuidaba"
 
-	para "someone's #mon"
-	line "before."
+	para "del #mon de"
+	line "alguien antes."
 
-	para "But the trainer"
-	line "didn't want the"
+	para "Pero el"
+	line "entrenador no"
 
-	para "Egg, so I'd kept"
-	line "it around."
+	para "quería el Huevo,"
+	line "así que lo"
+	cont "conservé."
 	done
 
 DayCareLadyText_GiveLyrasEgg:
-	text "Hello, dear."
+	text "Hola, querido."
 
-	para "Lyra told me this"
-	line "Egg was a gift for"
-	cont "you. Here you go!"
+	para "Lyra me dijo que"
+	line "este Huevo era un"
+	cont "regalo para ti."
+	cont "¡Toma!"
 	done
 
 DayCareLadyText_DescribeLyrasEgg:
-	text "That Egg came from"
-	line "her first #mon."
+	text "Ese Huevo vino de"
+	line "su primer #mon."
 
-	para "She must really"
-	line "trust you as a"
-	cont "trainer."
+	para "Debe confiar mucho"
+	line "en ti como"
+	cont "entrenador."
 	done
 
 DayCareText_PartyAndBoxFull:
-	text "You have no room"
-	line "for this, even in"
-	cont "your Box."
+	text "No tienes espacio"
+	line "para esto, ni"
+	cont "siquiera en tu"
+	cont "Caja."
 	done

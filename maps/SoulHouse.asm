@@ -44,9 +44,9 @@ AgathaScript:
 AgathaAfterScript:
 	jumpthisopenedtext
 
-	text "I expect great"
-	line "things from you,"
-	cont "if you will them."
+	text "Espero grandes"
+	line "cosas de ti, si"
+	cont "tú las quieres."
 	done
 
 MrFujiScript:
@@ -55,7 +55,7 @@ MrFujiScript:
 	writetext MrFujiText
 	waitbutton
 	checkevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
-	iftrue_endtext
+	iftruefwd .AlreadyGaveScope
 	writetext MrFujiGiveSilphScopeText
 	waitbutton
 	verbosegivekeyitem SILPHSCOPE2
@@ -64,135 +64,180 @@ MrFujiScript:
 	setevent EVENT_GOT_SILPHSCOPE2_FROM_MR_FUJI
 	endtext
 
+.AlreadyGaveScope:
+	checkevent EVENT_EXORCISED_LAV_RADIO_TOWER
+	iffalse_endtext
+	checkevent EVENT_GOT_MASTER_BALL_FROM_MR_FUJI
+	iftrue_endtext
+	writetext MrFujiThanksForExorcisingText
+	promptbutton
+	verbosegiveitem MASTER_BALL
+	setevent EVENT_GOT_MASTER_BALL_FROM_MR_FUJI
+	endtext
+
 MrFujiText:
-	text "Mr.Fuji: Welcome."
+	text "Sr. Fuji:"
+	line "Bienvenido."
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Hmm… Parece que"
+	line "estás criando a"
 
-	para "#mon in a kind"
-	line "and loving manner."
+	para "tus #mon con"
+	line "cariño y bondad."
 
-	para "#mon lovers"
-	line "come here to pay"
+	para "Los amantes de"
+	line "los #mon"
+	cont "vienen aquí a"
+	cont "rendir homenaje"
+	cont "a los #mon"
+	cont "fallecidos."
 
-	para "their respects to"
-	line "departed #mon."
+	para "Ofrece tus"
+	line "condolencias por"
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "las almas de los"
+	line "#mon"
+	cont "fallecidos, por"
+	cont "favor."
 
-	para "souls of the de-"
-	line "parted #mon."
-
-	para "I'm sure that will"
-	line "make them happy."
+	para "Seguro que eso"
+	line "los hará felices."
 	done
 
 MrFujiGiveSilphScopeText:
-	text "Here, I have"
-	line "a gift for you."
+	text "Ten, tengo un"
+	line "regalo para ti."
 
-	para "Please, take it."
+	para "Tómalo, por"
+	line "favor."
 	done
 
 MrFujiUseThisText:
-	text "You may use that"
-	line "to help ease the"
+	text "Puedes usarlo"
+	line "para calmar las"
+	cont "almas de #mon"
+	cont "inquietos."
+	done
 
-	para "souls of any"
-	line "restless #mon."
+MrFujiThanksForExorcisingText:
+	text "Sr. Fuji: Sentí"
+	line "cómo aquella alma"
+	cont "por fin"
+	cont "descansaba."
+
+	para "Gracias a ti, la"
+	line "Torre Radio ya"
+	cont "no sufre."
+
+	para "Como muestra de"
+	line "gratitud, quiero"
+	cont "que tengas esto."
+
+	para "Silph Co. lo"
+	line "fabricó hace"
+	cont "años, pero nunca"
+	cont "supieron usarlo"
+	cont "con respeto."
+
+	para "Tú sí sabes"
+	line "hacerlo."
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #mon"
-	cont "here, I think."
+	text "Creo que hay otras"
+	line "tumbas de #mon"
+	cont "por aquí."
 
-	para "There are many"
-	line "chambers that only"
-	cont "Mr.Fuji may enter."
+	para "Hay muchas"
+	line "cámaras donde solo"
+	cont "puede entrar el"
+	cont "Sr. Fuji."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #mon"
-	cont "graves…"
+	text "Vine con mi madre"
+	line "a visitar tumbas"
+	cont "de #mon…"
 	done
 
 SoulHouseGrannyText:
-	text "The #mon that"
-	line "lived with me…"
+	text "Los #mon que"
+	line "vivían conmigo…"
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Los quería como a"
+	line "mis nietos…"
 	done
 
 AgathaSeenText:
-	text "Agatha: Hello,"
-	line "child."
+	text "Agatha: Hola,"
+	line "criatura."
 
-	para "My name is"
-	line "Agatha."
+	para "Me llamo Agatha."
 
-	para "I fought for years"
-	line "as a member of"
-	cont "the Elite Four."
-
-	para "…………"
-
-	para "Have you come to"
-	line "mourn a #mon?"
-
-	para "It might not be"
-	line "here any longer."
-
-	para "Mr.Fuji kept many"
-	line "of the graves"
-	cont "elsewhere after"
-
-	para "the radio company"
-	line "took over."
+	para "Combatí durante"
+	line "años como miembro"
+	cont "del Alto Mando."
 
 	para "…………"
 
-	para "He could have"
-	line "fought to preserve"
-	cont "the tower! But he"
+	para "¿Has venido a"
+	line "llorar a un"
+	cont "#mon?"
 
-	para "wouldn't get"
-	line "involved. Too"
+	para "Puede que ya no"
+	line "esté aquí."
 
-	para "scared of abusing"
-	line "his influence."
+	para "El Sr. Fuji"
+	line "guardó muchas"
+	cont "tumbas en otro"
+	cont "sitio tras"
 
-	para "That old fool…"
+	para "la toma de control"
+	line "de la compañía de"
+	cont "radio."
 
-	para "Power is meant to"
-	line "be used!"
+	para "…………"
 
-	para "You clearly"
-	line "understand me."
+	para "¡Pudo haber"
+	line "luchado para"
+	cont "preservar la"
+	cont "torre! Pero no"
 
-	para "I'll show you"
-	line "what a powerful"
-	cont "trainer can do!"
+	para "quiso"
+	line "involucrarse."
+	cont "Demasiado miedo"
+	cont "de abusar de su"
+	cont "influencia."
+
+	para "Ese viejo"
+	line "necio…"
+
+	para "¡El poder está"
+	line "para usarse!"
+
+	para "Está claro que me"
+	line "entiendes."
+
+	para "¡Te mostraré lo"
+	line "que un entrenador"
+	cont "poderoso puede"
+	cont "hacer!"
 	done
 
 AgathaBeatenText:
-	text "Oh, my!"
+	text "¡Vaya!"
 	done
 
 AgathaRewardText:
-	text "You're quite"
-	line "something, child."
+	text "Eres algo"
+	line "especial,"
+	cont "criatura."
 
-	para "A strong trainer"
-	line "with a deep"
+	para "Un entrenador"
+	line "fuerte con una"
 
-	para "connection to"
-	line "your #mon."
+	para "conexión profunda"
+	line "con tus #mon."
 
-	para "Here, take this"
-	line "TM!"
+	para "Toma, ¡esta MT!"
 	done

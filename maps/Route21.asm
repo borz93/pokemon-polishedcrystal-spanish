@@ -30,38 +30,43 @@ Route21_MapScriptHeader:
 GenericTrainerSwimmerfNikki:
 	generictrainer SWIMMERF, NIKKI, EVENT_BEAT_SWIMMERF_NIKKI, SwimmerfNikkiSeenText, SwimmerfNikkiBeatenText
 
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Tengo que vigilar"
+	line "las manchas que"
+	cont "causa el sol."
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "¡Si gano,"
+	line "tendrás que"
+	cont "ayudarme con mi"
+	cont "bronceador!"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Me preocupan las"
+	line "quemaduras"
+	cont "solares…"
 	done
 
 GenericTrainerSwimmerfChelan:
 	generictrainer SWIMMERF, CHELAN, EVENT_BEAT_SWIMMERF_CHELAN, .SeenText, .BeatenText
 
-	text "I suppose an elec-"
-	line "tric bikini would"
-	cont "give you a shock!"
+	text "¡Supongo que un"
+	line "bikini eléctrico"
+	cont "te daría un"
+	cont "calambre!"
 	done
 
 .SeenText:
-	text "I love bikinis!"
+	text "¡Me encantan los"
+	line "bikinis!"
 
-	para "If I had an elec-"
-	line "tric bikini, I"
+	para "¡Si tuviera un"
+	line "bikini eléctrico,"
 
-	para "could wear it even"
-	line "in winter!"
+	para "podría llevarlo"
+	line "incluso en"
+	cont "invierno!"
 	done
 
 .BeatenText:
@@ -71,160 +76,166 @@ GenericTrainerSwimmerfChelan:
 GenericTrainerSwimmerfKendra:
 	generictrainer SWIMMERF, KENDRA, EVENT_BEAT_SWIMMERF_KENDRA, .SeenText, .BeatenText
 
-	text "I wonder if any"
-	line "place sells swim-"
-	cont "suits for #-"
-	cont "mon?"
+	text "Me pregunto si"
+	line "algún sitio vende"
+	cont "trajes de baño"
+	cont "para #mon."
 	done
 
 .SeenText:
-	text "Hey, trainer!"
-	line "How about you put"
-	cont "on a swimsuit too?"
+	text "¡Eh, entrenador!"
+	line "¿Qué tal si tú"
+	cont "también te pones"
+	cont "un traje de baño?"
 	done
 
 .BeatenText:
-	text "I didn't want to"
-	line "lose…"
+	text "No quería"
+	line "perder…"
 	done
 
 GenericTrainerSwimmermEsteban:
 	generictrainer SWIMMERM, ESTEBAN, EVENT_BEAT_SWIMMERM_ESTEBAN, .SeenText, .BeatenText
 
-	text "We called our"
-	line "teacher Professor"
+	text "¡Llamábamos a"
+	line "nuestro profesor"
+	cont "Profesor"
 	cont "Poliwhirl!"
 	done
 
 .SeenText:
-	text "My swimming teach-"
-	line "er had a face just"
-	cont "like a Poliwhirl."
+	text "Mi profesor de"
+	line "natación tenía una"
+	cont "cara igual a la de"
+	cont "un Poliwhirl."
 	done
 
 .BeatenText:
-	text "I'm sorry,"
-	line "Teacher…"
+	text "Lo siento,"
+	line "Profesor…"
 	done
 
 GenericTrainerSwimmermDuane:
 	generictrainer SWIMMERM, DUANE, EVENT_BEAT_SWIMMERM_DUANE, .SeenText, .BeatenText
 
-	text "To win more, I"
-	line "need to work on"
-	cont "my stamina!"
+	text "Para ganar más,"
+	line "necesito trabajar"
+	cont "mi resistencia."
 	done
 
 .SeenText:
-	text "Swimming is full-"
-	line "body exercise."
+	text "Nadar es ejercicio"
+	line "de cuerpo entero."
 
-	para "It really builds"
-	line "your strength!"
+	para "¡Fortalece mucho!"
 	done
 
 .BeatenText:
-	text "My #mon and I"
-	line "have no strength…"
+	text "Mis #mon y yo"
+	line "no tenemos"
+	cont "fuerza…"
 	done
 
 GenericTrainerSwimmermSeth:
 	generictrainer SWIMMERM, SETH, EVENT_BEAT_SWIMMERM_SETH, SwimmermSethSeenText, SwimmermSethBeatenText
 
-	text "This arrogant guy"
-	line "was at Cinnabar's"
-	cont "volcano."
+	text "Este tipo"
+	line "arrogante estaba"
+	cont "en el volcán de"
+	cont "Isla Canela."
 	done
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "¡Tierra a la"
+	line "vista! ¡Hay que"
+	cont "seguir!"
 	done
 
 SwimmermSethBeatenText:
-	text "Glug…"
+	text "Glu, glu…"
 	done
 
 GenericTrainerFisherMurphy:
 	generictrainer FISHER, MURPHY, EVENT_BEAT_FISHER_MURPHY, .SeenText, .BeatenText
 
-	text "The #mon that"
-	line "escaped me was"
-	cont "huge."
+	text "El #mon que se"
+	line "me escapó era"
+	cont "enorme."
 
-	para "It's the truth!"
+	para "¡Es la verdad!"
 	done
 
 .SeenText:
-	text "Huh? I've caught"
-	line "a trainer instead"
-	cont "of a #mon!"
+	text "¿Eh? ¡He pescado"
+	line "un entrenador en"
+	cont "vez de un #mon!"
 	done
 
 .BeatenText:
-	text "My fishing line"
-	line "got cut!"
+	text "¡Se me cortó el"
+	line "sedal!"
 	done
 
 GenericTrainerFisherArnold:
 	generictrainer FISHER, ARNOLD, EVENT_BEAT_FISHER_ARNOLD, FisherArnoldSeenText, FisherArnoldBeatenText
 
-	text "I'll just go back"
-	line "to fishing…"
+	text "Volveré a pescar…"
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Me aburre pescar."
+	line "¡Combatamos!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Un fracaso total…"
 	done
 
 GenericTrainerFisherLiam:
 	generictrainer FISHER, LIAM, EVENT_BEAT_FISHER_LIAM, .SeenText, .BeatenText
 
-	text "I should've asked"
-	line "you to wait until"
+	text "Debería haberte"
+	line "pedido que"
+	cont "esperaras hasta"
 
-	para "I reeled that"
-	line "#mon in…"
+	para "que sacara ese"
+	line "#mon…"
 	done
 
 .SeenText:
-	text "Whoa! A nibble!"
+	text "¡Vaya! ¡Un"
+	line "mordisco!"
 
-	para "…Huh?"
-	line "A battle?"
+	para "…¿Eh?"
+	line "¿Un combate?"
 
-	para "OK, let's go!"
+	para "Vale, ¡vamos!"
 	done
 
 .BeatenText:
-	text "If you chase two"
-	line "#mon, you"
+	text "Si persigues dos"
+	line "#mon a la vez,"
 
-	para "won't catch either"
-	line "one!"
+	para "¡no atraparás"
+	line "ninguno!"
 	done
 
 GenericTrainerFisherGideon:
 	generictrainer FISHER, GIDEON, EVENT_BEAT_FISHER_GIDEON, .SeenText, .BeatenText
 
-	text "What's the reason"
-	line "you became a"
-	cont "#mon trainer?"
+	text "¿Cuál es la razón"
+	line "por la que te"
+	cont "hiciste entrenador"
+	cont "#mon?"
 	done
 
 .SeenText:
-	text "Did I become a"
-	line "Fisherman because"
-	cont "I'm patient, or"
+	text "¿Me hice pescador"
+	line "por ser paciente,"
+	cont "o me volví más"
 
-	para "did I get more"
-	line "patient because"
-	cont "I'm a Fisherman?"
+	para "paciente por ser"
+	line "pescador?"
 	done
 
 .BeatenText:
@@ -234,40 +245,43 @@ GenericTrainerFisherGideon:
 GenericTrainerBird_keeperKinsley:
 	generictrainer BIRD_KEEPER, KINSLEY, EVENT_BEAT_BIRD_KEEPER_KINSLEY, .SeenText, .BeatenText
 
-	text "I just need to"
-	line "practice flapping"
-	cont "my wings more!"
+	text "¡Solo necesito"
+	line "practicar más el"
+	cont "aleteo!"
 	done
 
 .SeenText:
-	text "Someday I might be"
-	line "able to fly like"
-	cont "my bird #mon!"
+	text "¡Algún día podré"
+	line "volar como mis"
+	cont "#mon ave!"
 	done
 
 .BeatenText:
-	text "I couldn't fly…"
+	text "No pude volar…"
 	done
 
 GenericTrainerBird_keeperEaston:
 	generictrainer BIRD_KEEPER, EASTON, EVENT_BEAT_BIRD_KEEPER_EASTON, .SeenText, .BeatenText
 
-	text "We think we're"
-	line "using #mon."
+	text "Pensamos que"
+	line "usamos a los"
+	cont "#mon."
 
-	para "But at some point,"
-	line "the #mon start-"
-	cont "ed using us…"
+	para "Pero en algún"
+	line "momento, los"
+	cont "#mon empezaron"
+	cont "a usarnos a"
+	cont "nosotros…"
 	done
 
 .SeenText:
-	text "Bird Keepers are"
-	line "so wonderful with"
-	cont "their bird #-"
-	cont "mon!"
+	text "¡Los Guardas de"
+	line "Aves son"
+	cont "maravillosos con"
+	cont "sus #mon ave!"
 	done
 
 .BeatenText:
-	text "I couldn't handle"
-	line "it…"
+	text "No pude"
+	line "manejarlo…"
 	done

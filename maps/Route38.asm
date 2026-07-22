@@ -26,11 +26,12 @@ Route38_MapScriptHeader:
 GenericTrainerBird_keeperToby:
 	generictrainer BIRD_KEEPER, TOBY, EVENT_BEAT_BIRD_KEEPER_TOBY, Bird_keeperTobySeenText, Bird_keeperTobyBeatenText
 
-	text "I plan to train in"
-	line "the Yellow Forest"
+	text "Pienso entrenar en"
+	line "el Bosque Amarillo"
 
-	para "to teach my #-"
-	line "mon how to Fly."
+	para "para enseñar a mi"
+	line "#mon a usar"
+	cont "Vuelo."
 	done
 
 TrainerSailorHarry:
@@ -40,11 +41,12 @@ TrainerSailorHarry:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "All kinds of peo-"
-	line "ple around the"
+	text "Todo tipo de"
+	line "personas viven"
 
-	para "world live happily"
-	line "with #mon."
+	para "felices con"
+	line "#mon por el"
+	cont "mundo."
 	done
 
 TrainerLassDana1:
@@ -257,156 +259,167 @@ TrainerSchoolboyChad1:
 GenericTrainerBeautyValencia:
 	generictrainer BEAUTY, VALENCIA, EVENT_BEAT_BEAUTY_VALENCIA, BeautyValenciaSeenText, BeautyValenciaBeatenText
 
-	text "When I see #-"
-	line "mon, it seems to"
-	cont "soothe my nerves."
+	text "Cuando veo"
+	line "#mon, parece"
+	cont "que calma mis"
+	cont "nervios."
 	done
 
 GenericTrainerBeautyOlivia:
 	generictrainer BEAUTY, OLIVIA, EVENT_BEAT_BEAUTY_OLIVIA, BeautyOliviaSeenText, BeautyOliviaBeatenText
 
-	text "Moomoo Milk is"
-	line "good for beauty"
-	cont "and health."
+	text "La Leche Moomoo es"
+	line "buena para la"
+	cont "belleza y la"
+	cont "salud."
 
-	para "I like to buy a"
-	line "dozen bottles at"
-	cont "a time!"
+	para "¡Me gusta comprar"
+	line "una docena de"
+	cont "botellas de una"
+	cont "vez!"
 	done
 
 Bird_keeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #mon!"
+	text "¡Vuela alto en el"
+	line "cielo, mi querido"
+	cont "#mon pájaro!"
 	done
 
 Bird_keeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Me dan ganas de"
+	line "salir volando."
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "Voy a probar algo"
+	line "que aprendí hoy."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Creo que no"
+	line "estudié lo"
+	cont "suficiente."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "I have to take so"
-	line "many tests, I"
+	text "Tengo que hacer"
+	line "tantos exámenes"
 
-	para "don't have much"
-	line "time for #mon."
+	para "que no me queda"
+	line "tiempo para los"
+	cont "#mon."
 
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Así que cuando"
+	line "juego, me"
+	cont "concentro mucho."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #mon."
+	text "Parece que se te"
+	line "dan bien los"
+	cont "#mon."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Si es así, ¿me"
+	line "das algún"
+	cont "consejo?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Ya veo. Así que"
+	line "así se combate."
 	done
 
 LassDanaMoomooMilkText:
-	text "I know something"
-	line "good!"
+	text "¡Sé algo bueno!"
 
-	para "Moomoo Farm's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "La leche de Granja"
+	line "Moomoo es famosa"
+	cont "por su sabor."
 	done
 
 BeautyValenciaSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "¡Hola! ¡Qué"
+	line "entrenador tan"
+	cont "mono!"
 
-	para "May I see your"
+	para "¿Puedo ver a tu"
 	line "#mon?"
 	done
 
 BeautyValenciaBeatenText:
-	text "I'm glad I got to"
-	line "see your #mon!"
+	text "¡Me alegro de"
+	line "haber visto a tu"
+	cont "#mon!"
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
+	text "He estado en"
+	line "ultramar, así que"
 
-	para "about all sorts of"
-	line "#mon!"
+	para "¡conozco todo"
+	line "tipo de #mon!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "¡Tu habilidad es"
+	line "de nivel mundial!"
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#mon and I are"
-	cont "beautiful?"
+	text "¿No crees que mi"
+	line "#mon y yo somos"
+	cont "hermosos?"
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink Moomoo"
-	line "Milk every day."
+	text "Bebemos Leche"
+	line "Moomoo cada día."
 	done
 
 Route38SignText:
-	text "Route 38"
+	text "Ruta 38"
 
-	para "Olivine City -"
-	line "Ecruteak City"
+	para "Ciudad Olivo -"
+	line "Ciudad Iris"
 	done
 
 Route38TrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "Entrenador"
 
-	para "If a #mon is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Si un #mon"
+	line "intenta"
+	cont "evolucionar,"
+	cont "puedes detenerlo."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Pulsa el botón B"
+	line "durante la"
+	cont "evolución."
 
-	para "That startles the"
-	line "#mon and stops"
-	cont "its evolution."
+	para "Eso asusta al"
+	line "#mon y detiene"
+	cont "su evolución."
 	done
 
 Route38AdvancedTipsText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "Press Start in the"
-	line "PC Storage System"
+	para "¡Pulsa Start en el"
+	line "Sistema de"
 
-	para "to quickly focus"
-	line "on the Box name!"
+	para "Almacenamiento de"
+	line "la PC para editar"
+	cont "el nombre de la"
+	cont "Caja al momento!"
 
-	para "You can change the"
-	line "name and theme of"
-	cont "each Box!"
+	para "¡Puedes cambiar el"
+	line "nombre y el tema"
+	cont "de cada Caja!"
 
-	para "Press Select to"
-	line "change what the"
+	para "¡Pulsa Select para"
+	line "cambiar lo que"
 
-	para "A button does"
-	line "for #mon!"
+	para "hace el botón A"
+	line "con los #mon!"
 	done

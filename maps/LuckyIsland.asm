@@ -48,139 +48,144 @@ Script_ChangeLuckyIslandMap:
 GenericTrainerFisherHall:
 	generictrainer FISHER, HALL, EVENT_BEAT_FISHER_HALL, .SeenText, .BeatenText
 
-	text "You just don't"
-	line "appreciate my"
-	cont "sense of humor."
+	text "Simplemente no"
+	line "aprecias mi"
+	cont "sentido del humor."
 	done
 
 .SeenText:
-	text "Dopefish lives!"
+	text "¡Dopefish vive!"
 	done
 
 .BeatenText:
-	text "Swim swim hungry,"
-	line "swim swim hungry!"
+	text "Nada nada hambre,"
+	line "¡nada nada"
+	cont "hambre!"
 	done
 
 GenericTrainerBakerMargaret:
 	generictrainer BAKER, MARGARET, EVENT_BEAT_BAKER_MARGARET, .SeenText, .BeatenText
 
-	text "I'm eggs-hausted."
+	text "Estoy huevo-"
+	line "exhausta."
 	done
 
 .SeenText:
-	text "If an egg tumbles"
-	line "downhill, does"
+	text "Si un huevo rueda"
+	line "cuesta abajo,"
 
-	para "that make it an"
-	line "eggroll?"
+	para "¿se convierte en"
+	line "huevo frito?"
 	done
 
 .BeatenText:
-	text "Guess I'm the"
-	line "eggroll now."
+	text "Supongo que ahora"
+	line "soy yo el huevo"
+	cont "frito."
 	done
 
 GenericTrainerBakerOlga:
 	generictrainer BAKER, OLGA, EVENT_BEAT_BAKER_OLGA, .SeenText, .BeatenText
 
-	text "The first step to"
-	line "healthy living is"
+	text "El primer paso"
+	line "para vivir sano"
 
-	para "to eat a good"
-	line "breakfast."
+	para "es comer un buen"
+	line "desayuno."
 	done
 
 .SeenText:
-	text "Hey, you!"
-	line "Do you eat a good"
-	cont "breakfast every"
-	cont "day?"
+	text "¡Oye, tú!"
+	line "¿Comes un buen"
+	cont "desayuno todos"
+	cont "los días?"
 	done
 
 .BeatenText:
-	text "Wow! Looks like"
-	line "you do."
+	text "¡Vaya! Parece que"
+	line "sí."
 	done
 
 GenericTrainerArtistReina:
 	generictrainer ARTIST, REINA, EVENT_BEAT_ARTIST_REINA, .SeenText, .BeatenText
 
-	text "I'll add a happy"
-	line "little tree to"
-	cont "cover that up."
+	text "Añadiré un árbol"
+	line "feliz para"
+	cont "taparlo."
 	done
 
 .SeenText:
-	text "This sunny meadow"
-	line "will make a lovely"
-	cont "painting!"
+	text "¡Esta pradera"
+	line "soleada será una"
+	cont "pintura preciosa!"
 	done
 
 .BeatenText:
-	text "My brush slipped!"
+	text "¡Se me resbaló el"
+	line "pincel!"
 	done
 
 GenericTrainerArtistAlina:
 	generictrainer ARTIST, ALINA, EVENT_BEAT_ARTIST_ALINA, .SeenText, .BeatenText
 
-	text "I wonder what"
-	line "caused this island"
-	cont "to appear?"
+	text "Me pregunto qué"
+	line "hizo aparecer esta"
+	cont "isla."
 	done
 
 .SeenText:
-	text "This island hardly"
-	line "ever appears."
+	text "Esta isla casi"
+	line "nunca aparece."
 
-	para "I was so lucky to"
-	line "find it!"
+	para "¡Tuve mucha suerte"
+	line "de encontrarla!"
 	done
 
 .BeatenText:
-	text "My luck ran out…"
+	text "Se me acabó la"
+	line "suerte…"
 	done
 
 GenericTrainerSightseersLiandsu1:
 	generictrainer SIGHTSEERS, LIANDSU1, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
-	text "Li: Su and I keep"
-	line "arguing about"
-	cont "this."
+	text "Li: Su y yo"
+	line "seguimos"
+	cont "discutiendo esto."
 	done
 
 .SeenText:
-	text "Li: What came"
-	line "first?"
+	text "Li: ¿Qué fue"
+	line "primero?"
 
-	para "The #mon or"
-	line "the Egg?"
+	para "¿El #mon o el"
+	line "Huevo?"
 	done
 
 .BeatenText:
-	text "Li: I say it's the"
-	line "#mon!"
+	text "Li: ¡Yo digo que"
+	line "el #mon!"
 	done
 
 GenericTrainerSightseersLiandsu2:
 	generictrainer SIGHTSEERS, LIANDSU2, EVENT_BEAT_SIGHTSEERS_LI_AND_SU, .SeenText, .BeatenText
 
-	text "Su: Are there any"
-	line "#mon that don't"
-	cont "come from Eggs?"
+	text "Su: ¿Hay algún"
+	line "#mon que no"
+	cont "venga de Huevos?"
 	done
 
 .SeenText:
-	text "Su: What came"
-	line "first?"
+	text "Su: ¿Qué fue"
+	line "primero?"
 
-	para "The #mon or"
-	line "the Egg?"
+	para "¿El #mon o el"
+	line "Huevo?"
 	done
 
 .BeatenText:
-	text "Su: I think the"
-	line "Egg came first!"
+	text "Su: ¡Creo que el"
+	line "Huevo fue primero!"
 	done
 
 LuckyIslandLuckyEgg:
@@ -204,6 +209,6 @@ LuckyIslandLuckyEgg:
 	endtext
 
 .Text:
-	text "<PLAYER> found"
-	line "Lucky Egg!"
+	text "<PLAYER> encontró"
+	line "¡un Huevo Suerte!"
 	done

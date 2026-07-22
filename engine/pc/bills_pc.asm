@@ -1160,7 +1160,7 @@ InitializeBoxes:
 	jmp FlushStorageSystem
 
 .Box:
-	rawchar "Box @"
+	rawchar "Caja @"
 
 INCLUDE "data/pc/default_box_themes.asm"
 

@@ -28,17 +28,18 @@ PokemonJournalFalknerScript:
 	setflag ENGINE_READ_FALKNER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Falkner!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Líder Falkner!"
 
-	para "People say that"
-	line "Falkner reveres"
-	cont "his father, who"
+	para "Dicen que Falkner"
+	line "venera a su"
+	cont "padre, quien"
 
-	para "led the Violet Gym"
-	line "before him."
+	para "lideró el Gimnasio"
+	line "Iris antes que él."
 	done
 
 VioletPokeCenter1FElmsAideScript:
@@ -78,68 +79,72 @@ VioletPokeCenter1FElmsAideScript:
 	end
 
 .PartyAndBoxFull:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#mon with you."
+	text "Oh, no. No puedes"
+	line "llevar más #mon"
+	cont "contigo."
 
-	para "You have no space"
-	line "in your Box, too."
+	para "Tampoco tienes"
+	line "espacio en tu"
+	cont "Caja."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the Egg."
+	para "Esperaré aquí"
+	line "mientras haces"
+	cont "sitio para el"
+	cont "Huevo."
 	done
 
 .RefusedEgg:
 	setevent EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
 	jumpthisopenedtext
 
-	text "B-but… Prof.Elm"
-	line "asked for you…"
+	text "P-pero… El Prof."
+	line "Elm te lo pidió…"
 	done
 
 .IntroText:
-	text "<PLAYER>, long"
-	line "time, no see."
+	text "<PLAYER>, cuánto"
+	line "tiempo."
 
-	para "I was browsing the"
-	line "#mon Journal"
-	cont "while I waited."
+	para "Estaba mirando el"
+	line "Diario #mon"
+	cont "mientras esperaba."
 
-	para "Its gossip is a"
-	line "good pastime…"
+	para "Sus chismes son un"
+	line "buen"
+	cont "entretenimiento…"
 
-	para "Anyway, Prof.Elm"
-	line "has another favor"
-	cont "to ask you."
+	para "En fin, el Prof."
+	line "Elm tiene otro"
+	cont "favor que pedirte."
 
-	para "Would you take the"
-	line "#mon Egg?"
+	para "¿Aceptas el Huevo"
+	line "#mon?"
 	done
 
 .QuestionText:
-	text "<PLAYER>, will you"
-	line "take the Egg?"
+	text "<PLAYER>, ¿aceptas"
+	line "el Huevo?"
 	done
 
 .GoodbyeText:
-	text "We discovered that"
-	line "a #mon will not"
+	text "Descubrimos que"
+	line "un #mon no"
+	cont "eclosiona hasta"
+	cont "que crece en el"
+	cont "Huevo."
 
-	para "hatch until it"
-	line "grows in the Egg."
+	para "También debe estar"
+	line "con otros #mon"
+	cont "activos para"
+	cont "eclosionar."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#mon to hatch."
+	para "<PLAYER>, eres la"
+	line "única persona en"
+	cont "quien confiamos."
 
-	para "<PLAYER>, you're"
-	line "the only person"
-	cont "we can rely on."
-
-	para "Please call Prof."
-	line "Elm when that Egg"
-	cont "hatches!"
+	para "¡Llama al Prof."
+	line "Elm cuando el"
+	cont "Huevo eclosione!"
 	done
 
 .WalkAroundMovement:
@@ -164,48 +169,53 @@ VioletPokeCenter1FElmsAideScript:
 	step_end
 
 VioletPokeCenter1FGameboyKidText:
-	text "A guy named Bill"
-	line "made the #mon"
-	cont "PC storage system."
+	text "Un tipo llamado"
+	line "Bill creó el"
+	cont "sistema de"
+	cont "almacenaje PC"
+	cont "#mon."
 	done
 
 VioletPokeCenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Fue hace unos"
+	line "tres años."
 
-	para "Team Rocket was up"
-	line "to no good with"
-	cont "#mon."
+	para "El Team Rocket"
+	line "tramaba algo malo"
+	cont "con #mon."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Pero la justicia"
+	line "prevaleció: un"
+	cont "joven los"
+	cont "desarticuló."
 	done
 
 VioletPokeCenter1FSageText:
-	text "Some Bellsprout"
-	line "are found with"
-	cont "Gold Leaves."
+	text "Algunos Bellsprout"
+	line "se encuentran con"
+	cont "Hoja de Oro."
 
-	para "And some Oddish"
-	line "are found with"
-	cont "Silver Leaves."
+	para "Y algunos Oddish"
+	line "se encuentran con"
+	cont "Hoja Plata."
 
-	para "These are valued"
-	line "by a certain type"
-	cont "of person."
+	para "Cierto tipo de"
+	line "persona las"
+	cont "valora mucho."
 	done
 
 VioletPokeCenter1FYoungsterText:
-	text "#mon are smart."
-	line "They won't obey a"
+	text "Los #mon son"
+	line "listos. No"
 
-	para "trainer they don't"
-	line "respect."
+	para "obedecerán a un"
+	line "entrenador que no"
+	cont "respetan."
 
-	para "Without the right"
-	line "Gym Badges, they"
+	para "Sin las Medallas"
+	line "de Gimnasio"
+	cont "correctas, harán"
 
-	para "will just do as"
-	line "they please."
+	para "lo que les"
+	line "plazca."
 	done

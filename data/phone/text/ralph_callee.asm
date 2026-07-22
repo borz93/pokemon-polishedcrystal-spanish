@@ -1,59 +1,62 @@
 RalphAnswerPhoneText:
-	text "Yes? Ah, <PLAYER>."
+	text "¿Sí? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Qué cortés eres"
+	line "al decir tu"
 
-	para "your name when you"
-	line "call on the phone."
+	para "nombre cuando"
+	line "llamas por"
+	cont "teléfono."
 	done
 
 RalphAnswerPhoneDayText:
-	text "Yes? Ah, <PLAYER>."
+	text "¿Sí? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Qué cortés eres"
+	line "al decir tu"
 
-	para "your name when you"
-	line "call on the phone."
+	para "nombre cuando"
+	line "llamas por"
+	cont "teléfono."
 	done
 
 RalphAnswerPhoneNiteText:
-	text "Yes? Ah, <PLAYER>."
+	text "¿Sí? Ah, <PLAYER>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Qué cortés eres"
+	line "al decir tu"
 
-	para "your name when you"
-	line "call on the phone."
+	para "nombre cuando"
+	line "llamas por"
+	cont "teléfono."
 	done
 
 RalphGreetText:
-	text "Hiya, it's Uncle"
+	text "Hola, soy el tío"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetDayText:
-	text "Hiya, it's Uncle"
+	text "Hola, soy el tío"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetNiteText:
-	text "Hiya, it's Uncle"
+	text "Hola, soy el tío"
 	line ""
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGenericText:
-	text "Are you taking"
-	line "good care of your"
+	text "¿Estás cuidando"
+	line "bien a tus"
 
-	para "#mon? You have"
-	line "to be good to your"
-	cont "partners!"
+	para "#mon? Debes"
+	line "ser bueno con"
+	cont "tus compañeros!"
 	done

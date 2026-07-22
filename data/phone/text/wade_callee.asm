@@ -1,77 +1,80 @@
 WadeAnswerPhoneText:
-	text "Hello? This is"
+	text "¿Diga? Soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text ", al habla."
 
-	para "Oh. Hi, <PLAYER>!"
-	line "Good morning!"
+	para "¡Ah hola, <PLAYER>!"
+	line "¡Buenos días!"
 	done
 
 WadeAnswerPhoneDayText:
-	text "Hello? This is"
+	text "¿Diga? Soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text ", al habla."
 
-	para "Oh, hi, <PLAYER>!"
+	para "¡Ah hola, <PLAYER>!"
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Hello? This is"
+	text "¿Diga? Soy"
 	line ""
 	text_ram wStringBuffer3
-	text " speaking."
+	text ", al habla."
 
-	para "Oh, hi, <PLAYER>!"
-	line "Good evening!"
+	para "¡Ah hola, <PLAYER>!"
+	line "¡Buenas noches!"
 	done
 
 WadeGreetText:
-	text "<PLAYER>, good"
-	line "morning!"
+	text "<PLAYER>, ¡buenos"
+	line "días!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace"
+	cont "buen día?"
 	done
 
 WadeGreetDayText:
-	text "<PLAYER>, howdy!"
+	text "<PLAYER>, ¡hola!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Isn't it nice out?"
+	line "¿A que hace"
+	cont "buen día?"
 	done
 
 WadeGreetNiteText:
-	text "Good evening,"
+	text "¡Buenas noches,"
 	line "<PLAYER>!"
 
-	para "It's me, "
+	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "Were you awake?"
+	line "¿Despierto?"
 	done
 
 WadeGenericText:
-	text "How are your"
-	line "#mon doing?"
+	text "¿Cómo están tus"
+	line "#mon?"
 
-	para "My #mon have"
-	line "too much energy to"
+	para "Mis #mon"
+	line "tienen mucha"
+	cont "energía de más."
 
-	para "burn. It gets to"
-	line "be a problem."
+	para "Es un problema."
 
-	para "Of all my #mon,"
-	line ""
+	para "De todos mis"
+	line "#mon,"
+	cont ""
 	text_ram wStringBuffer4
-	text " is the"
-	cont "hardest to handle."
+	text " es el"
+	cont "más difícil."
 
-	para "Working with it is"
-	line "exhausting."
+	para "Trabajar con"
+	line "él agota."
 	done

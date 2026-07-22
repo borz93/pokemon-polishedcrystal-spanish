@@ -26,37 +26,37 @@ SafariZoneEast_MapScriptHeader:
 GenericTrainerCowgirlApril:
 	generictrainer COWGIRL, APRIL, EVENT_BEAT_COWGIRL_APRIL, CowgirlAprilSeenText, CowgirlAprilBeatenText
 
-	text "Sometimes you'll"
-	line "see 10 of the same"
+	text "A veces ves 10"
+	line "del mismo"
 
-	para "#mon, all in a"
-	line "row!"
+	para "#mon, todos en"
+	line "fila!"
 	done
 
 CowgirlAprilSeenText:
-	text "Yeehaw!"
-	line "I just caught a"
-	cont "whole herd of"
-	cont "#mon!"
+	text "¡Yija!"
+	line "Acabo de"
+	cont "atrapar toda una"
+	cont "manada de #mon!"
 	done
 
 CowgirlAprilBeatenText:
-	text "Well, shoot!"
+	text "¡Vaya chasco!"
 	done
 
 SafariZoneEastAreaSignText:
-	text "Safari Zone"
-	line "East Area"
+	text "Zona Safari"
+	line "Este"
 	done
 
 SafariZoneEastRestHouseSignText:
-	text "Rest House"
+	text "Casa de Descanso"
 	done
 
 SafariZoneEastTrainerTipsSignText:
-	text "Trainer Tips"
+	text "Consejos útiles"
 
-	para "Search for rare"
-	line "#mon at night"
-	cont "or in the morning!"
+	para "Busca #mon"
+	line "raros de noche"
+	cont "o por la mañana!"
 	done

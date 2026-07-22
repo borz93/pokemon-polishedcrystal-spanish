@@ -188,7 +188,7 @@ OptionsShared_PlaceOptionName:
 	ret
 
 .Done:
-	db "Done@"
+	db "Hecho@"
 
 ; Shared routine to look up the 1-indexed [wMenuSelection] from a `- 2 * 2`
 ; offset pointer table in HL.

@@ -26,25 +26,25 @@ SeafoamGym_MapScriptHeader:
 GenericTrainerScientistLowell:
 	generictrainer SCIENTIST, LOWELL, EVENT_BEAT_SCIENTIST_LOWELL, ScientistLowellSeenText, ScientistLowellBeatenText
 
-	text "We may be in a"
-	line "cave, but we"
-	cont "always do the"
-	cont "laundry."
+	text "Puede que estemos"
+	line "en una cueva, pero"
+	cont "siempre hacemos la"
+	cont "colada."
 	done
 
 GenericTrainerScientistDennett:
 	generictrainer SCIENTIST, DENNETT, EVENT_BEAT_SCIENTIST_DENNETT, ScientistDennettSeenText, ScientistDennettBeatenText
 
-	text "Together with"
-	line "Blaine, we will"
-	cont "rebuild our Gym!"
+	text "¡Junto a Blaine,"
+	line "reconstruiremos"
+	cont "nuestro Gimnasio!"
 	done
 
 GenericTrainerSupernerdCary:
 	generictrainer SUPER_NERD, CARY, EVENT_BEAT_SUPER_NERD_CARY, SupernerdCarySeenText, SupernerdCaryBeatenText
 
-	text "Bitterness leads"
-	line "to improvement."
+	text "La amargura lleva"
+	line "a la mejora."
 	done
 
 TrainerScientistLinden:
@@ -54,23 +54,23 @@ TrainerScientistLinden:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Not all scientists"
-	line "help the bad guys."
+	text "No todos los"
+	line "científicos ayudan"
+	cont "a los malos."
 	done
 
 GenericTrainerSupernerdWaldo:
 	generictrainer SUPER_NERD, WALDO, EVENT_BEAT_SUPER_NERD_WALDO, SupernerdWaldoSeenText, SupernerdWaldoBeatenText
 
-	text "Who in the world"
-	line "are you?"
+	text "¿Quién demonios"
+	line "eres tú?"
 	done
 
 GenericTrainerSupernerdMerle:
 	generictrainer SUPER_NERD, MERLE, EVENT_BEAT_SUPER_NERD_MERLE, SupernerdMerleSeenText, SupernerdMerleBeatenText
 
-	text "I failed to"
-	line "sense how strong"
-	cont "you are."
+	text "No logré sentir lo"
+	line "fuerte que eres."
 	done
 
 SeafoamGymBlaineScript:
@@ -107,22 +107,24 @@ SeafoamGymBlaineScript:
 	setevent EVENT_GOT_TM61_WILL_O_WISP
 	jumpthisopenedtext
 
-	text "It's called Will-"
-	line "O-Wisp!"
+	text "¡Se llama Fuego"
+	line "Fatuo!"
 
-	para "It weakens your"
-	line "foe by inflicting"
-	cont "a burn."
+	para "Debilita a tu"
+	line "rival infligiendo"
+	cont "una quemadura."
 
-	para "I did lose this"
-	line "time, but I'm going"
-	cont "to win next time."
+	para "Perdí esta vez,"
+	line "pero ganaré la"
+	cont "próxima."
 
-	para "When I rebuild my"
-	line "Cinnabar Gym,"
+	para "Cuando reconstruya"
+	line "mi Gimnasio de"
+	cont "Isla Canela,"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "tendremos que"
+	line "tener una"
+	cont "revancha."
 	done
 
 SeafoamGymGuyScript:
@@ -131,152 +133,165 @@ SeafoamGymGuyScript:
 	setevent EVENT_TALKED_TO_SEAFOAM_GYM_GUY_ONCE
 	jumpthistextfaceplayer
 
-	text "Yo!"
+	text "¡Eh!"
 
-	para "…Huh? It's over"
-	line "already?"
+	para "…¿Eh? ¿Ya se"
+	line "acabó?"
 
-	para "Sorry, sorry!"
+	para "¡Lo siento, lo"
+	line "siento!"
 
-	para "Cinnabar Gym was"
-	line "gone, so I didn't"
+	para "El Gimnasio de"
+	line "Isla Canela había"
+	cont "desaparecido, así"
+	cont "que no sabía dónde"
+	cont "encontrarte."
 
-	para "know where to find"
-	line "you."
-
-	para "But, hey, you're"
-	line "plenty strong even"
-
-	para "without my advice."
-	line "I knew you'd win!"
+	para "Pero, oye, eres"
+	line "muy fuerte incluso"
+	cont "sin mi consejo."
+	cont "¡Sabía que"
+	cont "ganarías!"
 	done
 
 ScientistLowellSeenText:
-	text "This lab coat"
-	line "makes me feel"
-	cont "smarter for some"
-	cont "reason."
+	text "Esta bata blanca"
+	line "me hace sentir más"
+	cont "listo por alguna"
+	cont "razón."
 	done
 
 ScientistLowellBeatenText:
-	text "A white lab coat"
-	line "is a researcher's"
-	cont "life."
+	text "Una bata blanca es"
+	line "la vida de un"
+	cont "investigador."
 	done
 
 ScientistDennettSeenText:
-	text "Blaine may have"
-	line "lost his Gym, but"
-	cont "he never gives up!"
+	text "¡Blaine puede"
+	line "haber perdido su"
+	cont "Gimnasio, pero"
+	cont "nunca se rinde!"
 	done
 
 ScientistDennettBeatenText:
-	text "Blaine's persever-"
-	line "ance motivates me!"
+	text "¡La perseverancia"
+	line "de Blaine me"
+	cont "motiva!"
 	done
 
 SupernerdCarySeenText:
-	text "Wow, a Gym in a"
-	line "cave like this?"
+	text "Vaya, ¿un"
+	line "Gimnasio en una"
+	cont "cueva como esta?"
 
-	para "I'd love to"
-	line "explore it."
+	para "Me encantaría"
+	line "explorarla."
 	done
 
 SupernerdCaryBeatenText:
-	text "A bitter"
-	line "defeat…"
+	text "Una amarga"
+	line "derrota…"
 	done
 
 ScientistLindenSeenText:
-	text "We lost the Gym on"
-	line "Cinnabar Island,"
-	cont "but we came here."
+	text "Perdimos el"
+	line "Gimnasio de Isla"
+	cont "Canela, pero"
+	cont "vinimos aquí."
 	done
 
 ScientistLindenBeatenText:
-	text "We accept defeat"
-	line "gracefully…"
+	text "Aceptamos la"
+	line "derrota con"
+	cont "elegancia…"
 	done
 
 SupernerdWaldoSeenText:
-	text "I am collecting"
-	line "battle records."
+	text "Estoy recopilando"
+	line "registros de"
+	cont "combate."
 
-	para "Can you help me?"
+	para "¿Puedes ayudarme?"
 	done
 
 SupernerdWaldoBeatenText:
-	text "I didn't expect"
-	line "you to be so good!"
+	text "¡No esperaba que"
+	line "fueras tan bueno!"
 	done
 
 SupernerdMerleSeenText:
-	text "Ooh!"
-	line "You look easily"
-	cont "defeated!"
+	text "¡Oh!"
+	line "¡Pareces fácil de"
+	cont "vencer!"
 	done
 
 SupernerdMerleBeatenText:
-	text "Pardon me!"
+	text "¡Perdona!"
 	done
 
 BlaineIntroText:
-	text "Blaine: Waaah!"
+	text "Blaine: ¡Guaaah!"
 
-	para "My Gym in Cinnabar"
-	line "burned down."
+	para "Mi Gimnasio de"
+	line "Isla Canela se"
+	cont "quemó."
 
-	para "My fire-breathing"
-	line "#mon and I are"
+	para "Mis #mon"
+	line "lanzallamas y yo"
 
-	para "homeless because"
-	line "of the volcano."
+	para "nos quedamos sin"
+	line "hogar por culpa"
+	cont "del volcán."
 
-	para "Waaah!"
+	para "¡Guaaah!"
 
-	para "But I'm back in"
-	line "business as a Gym"
+	para "Pero he vuelto al"
+	line "negocio como Líder"
 
-	para "Leader here in"
-	line "this cave."
+	para "de Gimnasio aquí"
+	line "en esta cueva."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a Badge."
+	para "Si logras"
+	line "vencerme, te daré"
+	cont "una Medalla."
 
-	para "Ha! You'd better"
-	line "have Burn Heal!"
+	para "¡Ja! ¡Más te vale"
+	line "tener un"
+	cont "Antiquemad.!"
 	done
 
 BlaineWinLossText:
-	text "Blaine: Awesome."
-	line "I've burned out…"
+	text "Blaine: Increíble."
+	line "Me he quemado por"
+	cont "completo…"
 
-	para "You've earned the"
-	line "Volcano Badge!"
+	para "¡Has ganado la"
+	line "Medalla Volcán!"
 	done
 
 BlaineAfterBattleText:
-	text "Here, I'll give you"
-	line "this, too."
+	text "Toma, te daré esto"
+	line "también."
 	done
 
 BlaineFightDoneText:
-	text "Blaine: My fire"
-	line "#mon will be"
-
-	para "even stronger."
-	line "Just you watch!"
+	text "Blaine: Mis"
+	line "#mon de fuego"
+	cont "serán aún más"
+	cont "fuertes. ¡Ya lo"
+	cont "verás!"
 	done
 
 SeafoamGymGuyWinText2:
-	text "A #mon Gym can"
-	line "be anywhere as"
+	text "Un Gimnasio"
+	line "#mon puede"
+	cont "estar en"
 
-	para "long as the Gym"
-	line "Leader is there."
+	para "cualquier sitio"
+	line "mientras el Líder"
+	cont "esté ahí."
 
-	para "There's no need"
-	line "for a building."
+	para "No hace falta un"
+	line "edificio."
 	done

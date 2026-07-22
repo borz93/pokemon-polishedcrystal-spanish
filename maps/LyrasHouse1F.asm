@@ -28,34 +28,35 @@ LyrasDadScript:
 	iftruefwd .LyraTraining
 	jumpthisopenedtext
 
-	text "Hi, <PLAYER>!"
-	line "Lyra isn't here."
+	text "¡Hola, <PLAYER>!"
+	line "Lyra no está."
 
-	para "She's been busy"
-	line "helping the prof-"
-	cont "essor."
+	para "Ha estado"
+	line "ocupada"
+	cont "ayudando al"
+	cont "profesor."
 	done
 
 .LyraInside
 	jumpthisopenedtext
 
-	text "Hi, <PLAYER>!"
-	line "Lyra is upstairs."
+	text "¡Hola, <PLAYER>!"
+	line "Lyra está arriba."
 
-	para "She's playing"
-	line "with her #mon"
-	cont "as usual."
+	para "Está jugando con"
+	line "su #mon,"
+	cont "como siempre."
 	done
 
 .LyraTraining
 	jumpthisopenedtext
 
-	text "Hi, <PLAYER>!"
-	line "Lyra isn't here."
+	text "¡Hola, <PLAYER>!"
+	line "Lyra no está."
 
-	para "She's collecting"
-	line "Badges all over"
-	cont "Johto!"
+	para "Está consiguiendo"
+	line "medallas por"
+	cont "todo Johto!"
 	done
 
 
@@ -64,33 +65,36 @@ LyrasDadScript:
 LyrasFridgeScript:
 	jumpthistext
 
-	text "Let's see what's"
-	line "in the fridge…"
+	text "A ver qué hay"
+	line "en la nevera…"
 
-	para "Fresh Water and"
-	line "rice balls!"
+	para "¡Agua Fresca y"
+	line "bolas de arroz!"
 	done
 
 LyrasSinkText:
-	text "The sink is spot-"
-	line "less."
+	text "El fregadero"
+	line "está impecable."
 	done
 
 LyrasStoveText:
-	text "Curry is simmering"
-	line "on the stove."
+	text "Hay curry"
+	line "cociendo a fuego"
+	cont "lento."
 	done
 
 LyrasTVScript:
 	jumpthistext
 
-	text "There's a movie on"
-	line "TV: A girl with"
+	text "Hay una peli en"
+	line "la tele: una"
+	cont "chica con"
 
-	para "her hair in pig-"
-	line "tails is walking"
-	cont "up a brick road."
+	para "coletas"
+	line "caminando por un"
+	cont "camino de"
+	cont "ladrillos."
 
-	para "I'd better get"
-	line "going too!"
+	para "¡Yo también"
+	line "debería irme ya!"
 	done

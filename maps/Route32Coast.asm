@@ -39,22 +39,24 @@ Route32Coast_MapScriptHeader:
 GenericTrainerSwimmermMichel:
 	generictrainer SWIMMERM, MICHEL, EVENT_BEAT_SWIMMERM_MICHEL, .SeenText, .BeatenText
 
-	text "Lesson learned--"
-	line "do warm-up exer-"
-	cont "cises."
+	text "Lección"
+	line "aprendida:"
+	cont "haz ejercicios de"
+	cont "calentamiento."
 	done
 
 .SeenText:
-	text "I was waiting"
-	line "for you!"
+	text "¡Te estaba"
+	line "esperando!"
 
-	para "Let's battle!"
-	line "Now!"
+	para "¡Combatamos!"
+	line "¡Ahora!"
 	done
 
 .BeatenText:
-	text "Oh, ouch!"
-	line "I got a cramp!"
+	text "¡Ay, ay!"
+	line "¡Me dio un"
+	cont "calambre!"
 	done
 
 TrainerSwimmermLucas:
@@ -64,66 +66,69 @@ TrainerSwimmermLucas:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Rainbows caused by"
-	line "sunlight appear"
+	text "Los arcoíris"
+	line "causados por la"
 
-	para "opposite the sun"
-	line "in the sky."
+	para "luz solar aparecen"
+	line "opuestos al sol en"
+	cont "el cielo."
 
-	para "Interesting, huh?"
+	para "Interesante, ¿eh?"
 	done
 
 .SeenText:
-	text "Reflecting and re-"
-	line "fracting light"
+	text "Reflejar y"
+	line "refractar la luz"
 
-	para "through water"
-	line "droplets creates"
-	cont "a rainbow."
+	para "a través de gotas"
+	line "de agua crea un"
+	cont "arcoíris."
 	done
 
 .BeatenText:
-	text "That battle was"
-	line "full of color!"
+	text "¡Ese combate"
+	line "estuvo lleno de"
+	cont "color!"
 	done
 
 GenericTrainerSwimmerfAlison:
 	generictrainer SWIMMERF, ALISON, EVENT_BEAT_SWIMMERF_ALISON, .SeenText, .BeatenText
 
-	text "Inhale…"
-	line "Exhale…"
+	text "Inhala…"
+	line "Exhala…"
 
-	para "Isn't this"
-	line "refreshing?"
+	para "¿No es"
+	line "refrescante?"
 	done
 
 .SeenText:
-	text "Before battling"
-	line "you must breathe"
-	cont "deeply."
+	text "Antes de combatir"
+	line "debes respirar"
+	cont "hondo."
 	done
 
 .BeatenText:
-	text "Glub… I inhaled"
-	line "some seawater…"
+	text "Glub… Inhalé algo"
+	line "de agua de mar…"
 	done
 
 GenericTrainerSwimmerfStephanie:
 	generictrainer SWIMMERF, STEPHANIE, EVENT_BEAT_SWIMMERF_STEPHANIE, .SeenText, .BeatenText
 
-	text "Sound travels"
-	line "faster in water"
-	cont "than in air."
+	text "El sonido viaja"
+	line "más rápido en el"
+	cont "agua que en el"
+	cont "aire."
 
-	para "Neat, isn't it?"
+	para "Curioso, ¿verdad?"
 	done
 
 .SeenText:
-	text "Did you hear that?"
+	text "¿Oíste eso?"
 	done
 
 .BeatenText:
-	text "Boo!"
+	text "¡Bu!"
 	done
 
 TrainerBird_keeperPowell:
@@ -133,171 +138,178 @@ TrainerBird_keeperPowell:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "My #mon can"
-	line "use Fly even while"
+	text "Mi #mon puede"
+	line "usar Vuelo incluso"
 
-	para "fainted, so I can"
-	line "still get home."
+	para "debilitado, así"
+	line "que puedo llegar"
+	cont "a casa igual."
 
-	para "Convenient, eh?"
+	para "Conveniente, ¿eh?"
 	done
 
 .SeenText:
-	text "I can't swim, so"
-	line "I flew here on my"
-	cont "#mon."
+	text "No sé nadar, así"
+	line "que volé aquí con"
+	cont "mi #mon."
 	done
 
 .BeatenText:
-	text "Oh no! My"
+	text "¡Oh, no! ¡Mi"
 	line "#mon!"
 	done
 
 GenericTrainerCosplayerChloe:
 	generictrainer COSPLAYER, CHLOE, EVENT_BEAT_COSPLAYER_CHLOE, .SeenText, .BeatenText
 
-	text "When I'm dressed"
-	line "like this, people"
-	para "say I'm the cutest"
-	line "wherever I go."
+	text "Cuando visto así,"
+	line "la gente dice que"
+	para "soy la más mona"
+	line "donde sea que voy."
 	done
 
 .SeenText:
-	text "Like my costume?"
-	line "It's super effect-"
-	cont "ive!"
+	text "¿Te gusta mi"
+	line "traje? ¡Es"
+	cont "supereficaz!"
 	done
 
 .BeatenText:
-	text "Well, that wasn't"
-	line "very effective…"
+	text "Bueno, eso no fue"
+	line "muy eficaz…"
 	done
 
 GenericTrainerFisherKiley:
 	generictrainer FISHER, KILEY, EVENT_BEAT_FISHER_KILEY, .SeenText, .BeatenText
 
-	text "You have to have a"
-	line "good Rod if you"
+	text "Tienes que tener"
+	line "una buena caña si"
 
-	para "want to catch good"
-	line "#mon."
+	para "quieres atrapar"
+	line "buenos #mon."
 	done
 
 .SeenText:
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
+	text "Je, hoy estoy en"
+	line "racha. ¿Qué tal un"
+	cont "combate, chaval?"
 	done
 
 .BeatenText:
-	text "Oof. I wasn't"
-	line "lucky that time."
+	text "Vaya. No tuve"
+	line "suerte esta vez."
 	done
 
 GenericTrainerCamperCraig:
 	generictrainer CAMPER, CRAIG, EVENT_BEAT_CAMPER_CRAIG, .SeenText, .BeatenText
 
-	text "Adventure lives"
-	line "outside your tent,"
+	text "La aventura vive"
+	line "fuera de tu"
+	cont "tienda,"
 
-	para "so get out there"
-	line "and have a blast!"
+	para "¡así que sal ahí"
+	line "y disfrútalo!"
 	done
 
 .SeenText:
-	text "Nothing beats the"
-	line "great outdoors!"
+	text "¡Nada supera el"
+	line "aire libre!"
 	done
 
 .BeatenText:
-	text "I'm one happy"
-	line "Camper."
+	text "Soy un montañero"
+	line "feliz."
 	done
 
 GenericTrainerLassLayla:
 	generictrainer LASS, LAYLA, EVENT_BEAT_LASS_LAYLA, .SeenText, .BeatenText
 
-	text "If you make a wish"
-	line "and tell someone"
-	cont "what it is, it"
-	cont "won't come true!"
+	text "Si pides un deseo"
+	line "y le dices a"
+	cont "alguien cuál es,"
+	cont "¡no se cumplirá!"
 	done
 
 .SeenText:
-	text "If you had one"
-	line "wish, what would"
-	cont "it be?"
+	text "Si tuvieras un"
+	line "deseo, ¿cuál"
+	cont "sería?"
 	done
 
 .BeatenText:
-	text "Don't tell me your"
-	line "wish, though!"
+	text "¡Pero no me digas"
+	line "tu deseo!"
 	done
 
 GenericTrainerCoupleFoxandrae1:
 	generictrainer COUPLE, FOXANDRAE1, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Fox: Our teamwork"
-	line "as a Couple wasn't"
-	cont "enough this time."
+	text "Fox: Nuestro"
+	line "trabajo en equipo"
+	cont "no fue suficiente"
+	cont "esta vez."
 	done
 
 .SeenText:
-	text "Fox: Come on, Rae,"
-	line "let's battle!"
+	text "Fox: Vamos, Rae,"
+	line "¡combatamos!"
 	done
 
 .BeatenText:
-	text "Fox: You beat Rae"
-	line "and me…"
+	text "Fox: Nos venciste"
+	line "a Rae y a mí…"
 	done
 
 GenericTrainerCoupleFoxandrae2:
 	generictrainer COUPLE, FOXANDRAE2, EVENT_BEAT_COUPLE_FOX_AND_RAE, .SeenText, .BeatenText
 
-	text "Rae: We lost, but"
-	line "we're still a"
-	cont "happy Couple."
+	text "Rae: Perdimos,"
+	line "pero seguimos"
+	cont "siendo una pareja"
+	cont "feliz."
 	done
 
 .SeenText:
-	text "Rae: Hey Fox, why"
-	line "don't we have a"
-	cont "battle?"
+	text "Rae: Oye Fox, ¿por"
+	line "qué no combatimos?"
 	done
 
 .BeatenText:
-	text "Rae: How could you"
-	line "beat Fox and me?"
+	text "Rae: ¿Cómo pudiste"
+	line "vencernos a Fox y"
+	cont "a mí?"
 	done
 
 Route32CoastLassText:
-	text "Pant, pant…"
+	text "Jadeo, jadeo…"
 
-	para "I finally got"
-	line "through that cave."
+	para "Por fin crucé esa"
+	line "cueva."
 
-	para "It was much bigger"
-	line "than I'd expected."
+	para "Era mucho más"
+	line "grande de lo que"
+	cont "esperaba."
 
-	para "I got too tired to"
-	line "explore the whole"
+	para "Me cansé demasiado"
+	line "para explorarla"
 
-	para "thing, so I came"
-	line "outside."
+	para "toda, así que salí"
+	line "afuera."
 	done
 
 Route32CoastTrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "A #mon with the"
-	line "Pickup ability"
+	para "¡Un #mon con la"
+	line "habilidad Recogida"
 
-	para "might hold an item"
-	line "after a battle!"
+	para "podría tener un"
+	line "objeto tras un"
+	cont "combate!"
 	done
 
 Route32CoastUnionCaveSignText:
-	text "Union Cave"
-	line "Ahead"
+	text "Cueva Unión"
+	line "Adelante"
 	done

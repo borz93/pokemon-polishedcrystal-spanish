@@ -115,29 +115,30 @@ CherrygroveBayGalarianBirdsScript:
 	endtext
 
 .GreatTreeText
-	text "It's the Great"
-	line "Tree of Cherry-"
-	cont "grove!"
+	text "¡Es el Gran"
+	line "árbol de"
+	cont "Cerezo!"
 	done
 
 .LikeToUseItemText
-	text "Would you like to"
-	line "use a Lure on"
-	cont "the Great Tree?"
+	text "¿Quieres usar un"
+	line "Señuelo en el"
+	cont "Gran árbol?"
 	done
 
 .WhichLureText
-	text "Which Lure would"
-	line "you like to use?"
+	text "¿Qué Señuelo"
+	line "quieres usar?"
 	done
 
 .YouSprayedTheLureText
-	text "You sprayed the"
-	line "Lure on the tree."
+	text "Rociaste el"
+	line "Señuelo en el"
+	cont "árbol."
 	done
 
 .NothingHappensText
-	text "Nothing happened…"
+	text "No pasó nada…"
 	done
 
 CherrygroveBayHikerScript:
@@ -163,37 +164,37 @@ CherrygroveBayTutorEarthPowerScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Oh well."
+	text "Vaya."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have any"
-	line "Silver Leaves…"
+	text "No tienes ninguna"
+	line "Hoja Plata…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Earth Power."
+	text "Ahora tu #mon"
+	line "sabe usar"
+	cont "Tierra Viva."
 	done
 
 GenericTrainerSwimmermThomas:
 	generictrainer SWIMMERM, THOMAS, EVENT_BEAT_SWIMMERM_THOMAS, .SeenText, .BeatenText
 
-	text "My #mon knows"
-	line "how to Surf, but"
-	cont "I prefer swimming."
+	text "Mi #mon sabe"
+	line "Surf, pero"
+	cont "prefiero nadar."
 	done
 
 .SeenText:
-	text "Do you know how to"
-	line "swim? I can teach"
-	cont "you, if you want."
+	text "¿Sabes nadar?"
+	line "Puedo enseñarte,"
+	cont "si quieres."
 	done
 
 .BeatenText:
@@ -203,22 +204,23 @@ GenericTrainerSwimmermThomas:
 GenericTrainerSwimmerfSally:
 	generictrainer SWIMMERF, SALLY, EVENT_BEAT_SWIMMERF_SALLY, .SeenText, .BeatenText
 
-	text "I like drifting on"
-	line "the waves along-"
-	cont "side my #mon!"
+	text "Me gusta flotar"
+	line "en las olas junto"
+	cont "a mi #mon!"
 	done
 
 .SeenText:
-	text "I like this bay."
-	line "Its waters are so"
+	text "Me gusta esta"
+	line "bahía. Sus aguas"
 
-	para "much calmer than"
-	line "the open ocean."
+	para "son mucho más"
+	line "tranquilas que"
+	cont "el mar abierto."
 	done
 
 .BeatenText:
-	text "I don't like"
-	line "losing, however…"
+	text "No me gusta"
+	line "perder, pero…"
 	done
 
 TrainerSwimmerfTara:
@@ -228,95 +230,97 @@ TrainerSwimmerfTara:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "North of here is"
-	line "the Great Tree of"
-	cont "Cherrygrove."
+	text "Al norte está el"
+	line "Gran árbol de"
+	cont "Cerezo."
 
-	para "Some say rare bird"
-	line "#mon come from"
+	para "Dicen que aves"
+	line "#mon raras"
 
-	para "far away to nest"
-	line "there."
+	para "vienen de lejos"
+	line "a anidar allí."
 	done
 
 .SeenText:
-	text "Ah, swimming amid"
-	line "cherry blossoms is"
-	cont "so relaxing!"
+	text "Ah, nadar entre"
+	line "flores de cerezo"
+	cont "es muy relajante!"
 	done
 
 .BeatenText:
-	text "I don't even mind"
-	line "losing…"
+	text "Ni siquiera me"
+	line "importa perder…"
 	done
 
 GenericTrainerHikerTony:
 	generictrainer HIKER, TONY, EVENT_BEAT_HIKER_TONY, .SeenText, .BeatenText
 
-	text "After a long hike,"
-	line "I saw what looked"
+	text "Tras una larga"
+	line "caminata, vi algo"
 
-	para "like a big bird"
-	line "flying this way!"
+	para "que parecía un ave"
+	line "grande volando"
+	cont "hacia aquí!"
 
-	para "Where was it head-"
-	line "ing to and why?"
+	para "¿A dónde iba y"
+	line "por qué?"
 	done
 
 .SeenText:
-	text "I hiked through"
-	line "miles of woods"
+	text "Caminé kilómetros"
+	line "de bosque"
 
-	para "just to see the"
-	line "legendary bird"
-	cont "#mon!"
+	para "solo para ver al"
+	line "ave #mon"
+	cont "legendaria!"
 	done
 
 .BeatenText:
-	text "I'm exhausted…"
+	text "Estoy agotado…"
 	done
 
 CherrygroveBayFisherText:
-	text "I can watch"
-	line "Cherrygrove City"
+	text "Puedo ver"
+	line "Ciudad Cerezo"
 
-	para "from afar while"
-	line "I fish."
+	para "desde lejos"
+	line "mientras pesco."
 
-	para "Oh! And I also saw"
-	line "some really big"
+	para "¡Oh! Y también vi"
+	line "unos pájaros muy"
 
-	para "birds the other"
-	line "day."
+	para "grandes el otro"
+	line "día."
 
-	para "I think they were"
-	line "headed to that big"
-	cont "ol' tree nearby?"
+	para "Creo que iban"
+	line "hacia ese árbol"
+	cont "grande de ahí?"
 	done
 
 CherrygroveBayHikerText:
-	text "I don't believe in"
-	line "legendary #mon"
-	cont "creation myths."
+	text "No creo en los"
+	line "mitos de creación"
+	cont "de #mon"
+	cont "legendarios."
 
-	para "Johto was formed"
-	line "over millions of"
-
-	para "years by the power"
-	line "of the earth!"
+	para "¡Johto se formó"
+	line "durante millones"
+	cont "de años por el"
+	cont "poder de la"
+	cont "tierra!"
 	done
 
 Text_CherrygroveBayTutorEarthPower:
-	text "I can teach your"
-	line "#mon how to"
+	text "Puedo enseñarle"
+	line "a tu #mon"
 
-	para "use Earth Power"
-	line "for a Silver Leaf."
+	para "Tierra Viva por"
+	line "una Hoja Plata."
 	done
 
 
 Text_CherrygroveBayTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Earth Power?"
+	text "¿Le enseño"
+	line "Tierra Viva a tu"
+	cont "#mon?"
 	done

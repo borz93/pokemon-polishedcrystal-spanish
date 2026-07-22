@@ -16,9 +16,13 @@ IvysHouse_MapScriptHeader:
 	object_event  6,  4, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, IvysHouseCharityText, -1
 
 IvysHouseFaithText:
-	text "Faith: TODO"
+	text "Faith: ¡Aquí"
+	line "entrenamos duro"
+	cont "cada día!"
 	done
 
 IvysHouseCharityText:
-	text "Charity: TODO"
+	text "Charity: ¿Un"
+	line "combate? ¡Con"
+	cont "gusto!"
 	done

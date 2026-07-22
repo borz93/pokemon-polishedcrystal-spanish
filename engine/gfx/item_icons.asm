@@ -158,6 +158,14 @@ ShowItemIcon::
 	farcall LoadItemIconPalette
 	jr PrintOverworldItemIcon
 
+ShowCoinsIcon::
+	ld hl, AmuletCoinIcon
+	lb bc, BANK(AmuletCoinIcon), 9
+	call DecompressItemIconForOverworld
+	ld a, AMULET_COIN
+	farcall LoadItemIconPaletteFromA
+	jr PrintOverworldItemIcon
+
 ShowKeyItemIcon::
 	ld a, [wCurKeyItem]
 	ld hl, KeyItemIconPointers

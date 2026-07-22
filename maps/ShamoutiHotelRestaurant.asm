@@ -61,41 +61,40 @@ ShamoutiHotelRestaurantChallengeScript:
 	sjump ShamoutiHotelRestaurantLeaveScript
 
 .GreetingText:
-	text "Welcome to the"
-	line "Oasis Restaurant."
+	text "Bienvenido al"
+	line "Restaurante Oasis."
 
-	para "Here you can par-"
-	line "take, not just in"
+	para "Aquí puedes"
+	line "disfrutar, no solo"
 
-	para "food, but in #-"
-	line "mon battles."
+	para "de comida, sino de"
+	line "combates #mon."
 
-	para "Every day we have"
-	line "a new menu."
+	para "Cada día tenemos"
+	line "un menú nuevo."
 
-	para "The fee is ¥5000."
-	line "Would you like to"
-	cont "enter?"
+	para "La cuota es ¥5000."
+	line "¿Quieres entrar?"
 	done
 
 .AlreadyAteText:
-	text "I'm so sorry, but"
-	line "you already came"
-	cont "here today."
+	text "Lo siento mucho,"
+	line "pero ya viniste"
+	cont "hoy."
 
-	para "Please do visit"
-	line "again tomorrow."
+	para "Por favor, vuelve"
+	line "mañana."
 	done
 
 .NeverMindText:
-	text "I understand."
-	line "Have a nice day!"
+	text "Entiendo. ¡Que"
+	line "tengas buen día!"
 	done
 
 .NotEnoughMoneyText:
-	text "I'm so sorry, but"
-	line "you don't have"
-	cont "enough money."
+	text "Lo siento mucho,"
+	line "pero no tienes"
+	cont "suficiente dinero."
 	done
 
 ShamoutiHotelRestaurantLeavingTrigger2:
@@ -118,16 +117,16 @@ ShamoutiHotelRestaurantLeavingTrigger1:
 	end
 
 .LeavingText:
-	text "Are you ready to"
-	line "leave?"
+	text "¿Listo para"
+	line "irte?"
 	done
 
 .GoodbyeText:
-	text "Thank you for"
-	line "coming."
+	text "Gracias por"
+	line "venir."
 
-	para "Please do visit"
-	line "again tomorrow."
+	para "Por favor, vuelve"
+	line "mañana."
 	done
 
 ShamoutiHotelRestaurantLeaveScript:
@@ -141,6 +140,7 @@ ShamoutiHotelRestaurantLeaveScript:
 	end
 
 ShamoutiHotelRestaurantReceptionistText:
-	text "Please enjoy a"
-	line "meal and a battle."
+	text "Disfruta de una"
+	line "comida y un"
+	cont "combate."
 	done

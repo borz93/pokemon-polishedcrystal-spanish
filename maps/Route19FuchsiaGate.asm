@@ -21,22 +21,25 @@ Route19FuchsiaGateOfficerScript:
 	iftrue_jumptextfaceplayer Route19FuchsiaGateOfficerText_RocksCleared
 	jumpthistextfaceplayer
 
-	text "Cinnabar's volcano"
-	line "erupted."
+	text "El volcán de"
+	line "Canela entró en"
+	cont "erupción."
 
-	para "It hurled boulders"
-	line "that cut off Route"
-	cont "19 indefinitely."
+	para "Lanzó rocas que"
+	line "bloquearon la"
+	cont "Ruta 19"
+	cont "indefinidamente."
 
-	para "I wonder if the"
-	line "people of Cinnabar"
-	cont "are safe…"
+	para "Me pregunto si la"
+	line "gente de Canela"
+	cont "está a salvo…"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No Cinnabar citi-"
-	line "zens were injured"
+	text "Ningún ciudadano"
+	line "de Canela resultó"
+	cont "herido"
 
-	para "by the eruption."
-	line "That's great!"
+	para "por la erupción."
+	line "¡Qué bien!"
 	done

@@ -1,71 +1,79 @@
 AlanAskNumber1Text:
-	text "Reading textbooks"
-	line "is worthwhile"
-	cont "every so often."
+	text "Leer libros de"
+	line "texto merece la"
+	cont "pena de vez en"
+	cont "cuando."
 
-	para "When I'm reading"
-	line "and walking, I"
-	cont "have to look down."
+	para "Al leer"
+	line "caminando, tengo"
+	cont "que mirar abajo."
 
-	para "So I notice items"
-	line "on the ground."
+	para "Así noto los"
+	line "objetos en el"
+	cont "suelo."
 
-	para "Next time I find"
-	line "something, I'll"
-	cont "give it to you."
+	para "La próxima vez"
+	line "que encuentre"
+	cont "algo, te lo doy."
 
-	para "May I have your"
-	line "phone number?"
+	para "¿Me das tu"
+	line "número?"
 	done
 
 AlanAskNumber2Text:
-	text "If I find some-"
-	line "thing, it's yours."
+	text "Si encuentro"
+	line "algo, es tuyo."
 
-	para "So may I have your"
-	line "phone number?"
+	para "¿Me das tu"
+	line "número?"
 	done
 
 AlanNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I find"
+	text "Te llamaré en"
+	line "cuanto"
+	cont "encuentre algo."
 
-	para "something. You can"
-	line "count on it!"
+	para "¡Cuenta con"
+	line "ello!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
-	line "would be a good"
+	text "Vaya… Pensé que"
+	line "sería un buen"
 
-	para "break to call you"
-	line "when I'm studying…"
+	para "descanso"
+	line "llamarte"
+	cont "mientras"
+	cont "estudio…"
 	done
 
 AlanPhoneFullText:
-	text "There's no room"
-	line "for my number."
+	text "No hay sitio"
+	line "para mi número."
 	done
 
 AlanRematchText:
-	text "I waited around"
-	line "for you!"
+	text "¡Te estaba"
+	line "esperando!"
 
-	para "I'm thoroughly"
-	line "prepared today!"
+	para "¡Hoy estoy muy"
+	line "preparado!"
 	done
 
 AlanGiftText:
-	text "This, this! This"
-	line "is yours! Ta-da!"
+	text "¡Esto, esto!"
+	line "¡Es tuyo!"
+	cont "¡Tachán!"
 	done
 
 AlanPackFullText:
-	text "Whoops!"
+	text "¡Vaya!"
 
-	para "You can't carry"
-	line "any more items!"
+	para "No puedes"
+	line "llevar más"
+	cont "objetos!"
 
-	para "I'll hold it until"
-	line "next time."
+	para "Te lo guardo"
+	line "hasta la"
+	cont "próxima."
 	done

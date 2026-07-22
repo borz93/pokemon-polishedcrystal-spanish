@@ -186,16 +186,16 @@ NamingScreen:
 INCLUDE "data/player/sprite_anims.asm"
 
 .PlayerNameString:
-	db "Your name?@"
+	db "¿Tú nombre?@"
 
 .RivalNameString:
-	db "Rival's name?@"
+	db "¿Nombre del rival?@"
 
 .TrendyPhraseString:
-	db "What's trendy?@"
+	db "¿Que está de moda?@"
 
 .BoxNameString:
-	db "Box name?@"
+	db "¿Nombre de la caja?@"
 
 NamingScreen_InitText:
 	call WaitTop

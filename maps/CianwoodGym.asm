@@ -121,9 +121,9 @@ CianwoodGymSetUpStoneTable:
 	refreshmap
 	jumpthistext
 
-	text "The boulders"
-	line "blocked the"
-	cont "waterfall!"
+	text "¡Las rocas"
+	line "bloquearon la"
+	cont "cascada!"
 	done
 
 CianwoodGymChuckScript:
@@ -163,45 +163,49 @@ CianwoodGymChuckScript:
 	setevent EVENT_GOT_TM01_DYNAMICPUNCH
 	jumpthisopenedtext
 
-	text "That is Dynamic-"
-	line "Punch."
+	text "Eso es Puño"
+	line "Dinámico."
 
-	para "It doesn't always"
-	line "hit, but when it"
+	para "No siempre"
+	line "acierta, pero"
 
-	para "does, it causes"
-	line "confusion!"
+	para "cuando lo hace,"
+	line "causa confusión!"
 	done
 
 GenericTrainerBlackbeltYoshi:
 	generictrainer BLACKBELT_T, YOSHI, EVENT_BEAT_BLACKBELT_YOSHI, BlackbeltYoshiSeenText, BlackbeltYoshiBeatenText
 
-	text "You seem to have a"
-	line "strong bond with"
-	cont "your #mon too!"
+	text "¡Parece que tú"
+	line "también tienes un"
+	cont "vínculo fuerte"
+	cont "con tu #mon!"
 	done
 
 GenericTrainerBlackbeltLao:
 	generictrainer BLACKBELT_T, LAO, EVENT_BEAT_BLACKBELT_LAO, BlackbeltLaoSeenText, BlackbeltLaoBeatenText
 
-	text "Fighting #mon"
-	line "are afraid of psy-"
-	cont "chics…"
+	text "Los #mon de"
+	line "lucha temen a"
+	cont "los psíquicos…"
 	done
 
 GenericTrainerBlackbeltNob:
 	generictrainer BLACKBELT_T, NOB, EVENT_BEAT_BLACKBELT_NOB, BlackbeltNobSeenText, BlackbeltNobBeatenText
 
-	text "I lost!"
-	line "I'm speechless!"
+	text "¡Perdí!"
+	line "¡Me he quedado"
+	cont "sin palabras!"
 	done
 
 GenericTrainerBlackbeltLung:
 	generictrainer BLACKBELT_T, LUNG, EVENT_BEAT_BLACKBELT_LUNG, BlackbeltLungSeenText, BlackbeltLungBeatenText
 
-	text "My #mon lost…"
-	line "My… my pride is"
-	cont "shattered…"
+	text "Mi #mon"
+	line "perdió…"
+	cont "Mi… mi orgullo"
+	cont "está hecho"
+	cont "trizas…"
 	done
 
 CianwoodGymStatue:
@@ -227,108 +231,116 @@ CianwoodGymMovement_ChuckChucksBoulder:
 	step_end
 
 ChuckIntroText1:
-	text "WARRGH!"
+	text "¡AAAARGH!"
 
-	para "The water pound-"
-	line "ing right onto my"
-	cont "head…"
+	para "El agua me cae"
+	line "justo en la"
+	cont "cabeza…"
 
-	para "Why did you stop"
-	line "the waterfall?"
+	para "¿Por qué paraste"
+	line "la cascada?"
 
-	para "You just spoiled"
-	line "my training!"
+	para "¡Acabas de"
+	line "arruinar mi"
+	cont "entrenamiento!"
 
-	para "Let me tell you,"
-	line "I'm tough!"
+	para "Te lo advierto,"
+	line "¡soy duro!"
 
-	para "My #mon will"
-	line "crush stones and"
-	cont "shatter bones!"
+	para "¡Mis #mon"
+	line "aplastarán piedras"
+	cont "y romperán huesos!"
 
-	para "Watch this!"
+	para "¡Mira esto!"
 	done
 
 ChuckIntroText2:
-	text "Chuck: Urggh!"
+	text "Chuck: ¡Urgh!"
 	line "…"
 
-	para "Oooarrgh!"
+	para "¡Oooargh!"
 	done
 
 ChuckIntroText3:
-	text "There! Scared now,"
-	line "are you?"
+	text "¡Toma! ¿Ahora sí"
+	line "tienes miedo?"
 
-	para "What?"
-	line "It has nothing to"
+	para "¿Qué?"
+	line "¿Que no tiene que"
 
-	para "do with #mon?"
-	line "That's true!"
+	para "ver con los"
+	line "#mon?"
+	cont "¡Es verdad!"
 
-	para "Come on. We shall"
-	line "do battle!"
+	para "Vamos. ¡Vamos a"
+	line "combatir!"
 	done
 
 ChuckLossText:
-	text "Wha? Huh?"
-	line "I lost?"
+	text "¿Qué? ¿Eh?"
+	line "¿He perdido?"
 
-	para "How about that!"
-	line "You're worthy of"
-	cont "the Storm Badge!"
+	para "¡Vaya!"
+	line "¡Mereces la"
+	cont "Medalla Tormenta!"
 	done
 
 ChuckExplainBadgeText:
-	text "The Storm Badge"
-	line "lets your #mon"
+	text "La Medalla"
+	line "Tormenta permite"
+	cont "a tus #mon"
+	cont "usar Vuelo"
 
-	para "Fly to any city"
-	line "or town you've"
-	cont "already been to."
+	para "para ir a"
+	line "cualquier ciudad"
+	cont "o pueblo que ya"
+	cont "hayas visitado."
 
-	para "Here, take this"
-	line "too!"
+	para "Toma, ¡esto"
+	line "también!"
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! I enjoyed"
-	line "battling you!"
+	text "¡JAJAJA! ¡Disfruté"
+	line "combatiendo"
+	cont "contigo!"
 
-	para "But a loss is a"
-	line "loss!"
+	para "¡Pero una derrota"
+	line "es una derrota!"
 
-	para "From now on, I'm"
-	line "going to train 24"
-	cont "hours a day!"
+	para "A partir de ahora,"
+	line "entrenaré 24"
+	cont "horas al día!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "My #mon and I"
-	line "are bound togeth-"
-	cont "er by friendship."
+	text "Mi #mon y yo"
+	line "estamos unidos"
+	cont "por la amistad."
 
-	para "Our bond will"
-	line "never be broken!"
+	para "¡Nuestro vínculo"
+	line "nunca se romperá!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "This isn't real!"
+	text "¡Esto no puede"
+	line "ser real!"
 	done
 
 BlackbeltLaoSeenText:
-	text "We martial artists"
-	line "fear nothing!"
+	text "¡Los artistas"
+	line "marciales no"
+	cont "tememos nada!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "That's shocking!"
+	text "¡Qué impacto!"
 	done
 
 BlackbeltNobSeenText:
-	text "Words are useless."
-	line "Let your fists do"
-	cont "the talking!"
+	text "Las palabras"
+	line "sobran. ¡Deja que"
+	cont "hablen tus puños!"
 	done
 
 BlackbeltNobBeatenText: ; text > text
@@ -336,36 +348,42 @@ BlackbeltNobBeatenText: ; text > text
 	done
 
 BlackbeltLungSeenText:
-	text "My raging fists"
-	line "will shatter your"
-	cont "#mon!"
+	text "Mis puños"
+	line "furiosos harán"
+	cont "trizas a"
+	cont "tu #mon!"
 	done
 
 BlackbeltLungBeatenText:
-	text "I got shattered!"
+	text "¡Quedé hecho"
+	line "trizas!"
 	done
 
 CianwoodGymBlackBeltText:
-	text "The Gym guide is"
-	line "too scared of us"
-	cont "to stay here."
+	text "El guía del"
+	line "Gimnasio nos tiene"
+	cont "demasiado miedo"
+	cont "para quedarse."
 
-	para "What a wimp!"
+	para "¡Qué blandengue!"
 	done
 
 CianwoodGymChuckTrainingText:
-	text "He's so into his"
-	line "training that he"
-	cont "doesn't notice you."
+	text "Está tan metido"
+	line "en su"
+	cont "entrenamiento que"
+	cont "no se da cuenta"
+	cont "de ti."
 	done
 
 CianwoodGymBoulderText:
-	text "The boulder is"
-	line "blocking the"
-	cont "waterfall."
+	text "La roca está"
+	line "bloqueando la"
+	cont "cascada."
 	done
 
 CianwoodGymChucksBoulderText:
-	text "The boulder is"
-	line "too heavy to move."
+	text "La roca pesa"
+	line "demasiado para"
+	cont "moverla."
 	done

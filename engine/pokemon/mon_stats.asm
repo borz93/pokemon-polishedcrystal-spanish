@@ -120,13 +120,13 @@ endr
 	ret
 
 AllStatNames:
-	db   "Health<NEXT>"
+	db   "Salud<NEXT>"
 MostStatNames:
-	db   "Attack"
-	next "Defense"
-	next "Sp.Atk"
-	next "Sp.Def"
-	next "Speed"
+	db   "Ataque"
+	next "Defensa"
+	next "At.Esp."
+	next "Def.Esp."
+	next "Veloc."
 	next "@"
 
 PrintStatDifferences:
@@ -1003,13 +1003,13 @@ PlaceStatusString:
 StatusStrings:
 	table_width 3
 	rawchar "OK "
-	rawchar "Psn"
+	rawchar "Ven"
 	rawchar "Par"
-	rawchar "Slp"
-	rawchar "Brn"
-	rawchar "Frz"
+	rawchar "Dur"
+	rawchar "Que"
+	rawchar "Con"
 	rawchar "Tox"
-	rawchar "Fnt"
+	rawchar "KO "
 	assert_table_length 8
 
 ListMoves:

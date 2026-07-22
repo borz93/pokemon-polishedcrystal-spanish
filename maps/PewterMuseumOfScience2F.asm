@@ -52,23 +52,23 @@ Museum2FTutorSeismicTossScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "If you say so."
+	text "Como quieras."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf!"
+	text "¡No tienes ninguna"
+	line "Hoja Plata!"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Seismic Toss!"
+	text "¡Ahora tu #mon"
+	line "sabe usar"
+	cont "Sísmico!"
 	done
 
 Museum2FMoonStoneSignpostScript:
@@ -78,144 +78,156 @@ Museum2FMoonStoneSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Meteorite that"
-	line "fell on Mt.Moon."
-	cont "(Moon Stone)"
+	text "Meteorito que"
+	line "cayó en el Monte"
+	cont "Moon."
+	cont "(Piedra Lunar)"
 	done
 
 Museum2FScientistText:
-	text "Meteorites struck"
-	line "Mt.Moon near"
-	cont "Pewter City."
+	text "Meteoritos"
+	line "impactaron el"
+	cont "Monte Moon cerca"
+	cont "de Ciudad"
+	cont "Plateada."
 
-	para "We have one"
-	line "on display."
+	para "Tenemos uno"
+	line "expuesto."
 
-	para "It seems to emit"
-	line "strange energy…"
+	para "Parece emitir"
+	line "energía extraña…"
 	done
 
 
 Museum2FLassText:
-	text "#mon revived"
-	line "from fossils are"
+	text "Los #mon"
+	line "revividos de"
+	cont "fósiles son todos"
+	cont "tipo Roca en"
+	cont "parte."
 
-	para "all part Rock-"
-	line "type."
+	para "¿Siempre fueron"
+	line "así, o es"
 
-	para "Were they always"
-	line "that way, or is it"
-
-	para "a result of the"
-	line "fossilization"
-	cont "process?"
+	para "resultado del"
+	line "proceso de"
+	cont "fosilización?"
 	done
 
 Museum2FPokefanMImperialText:
-	text "This space shuttle"
-	line "used to fly 160"
+	text "Este transbordador"
+	line "espacial volaba a"
+	cont "160 millas sobre"
 
-	para "miles above the"
-	line "earth, defying"
-	cont "gravity!"
+	para "la tierra,"
+	line "¡desafiando la"
+	cont "gravedad!"
 
-	para "You know what else"
-	line "can defy gravity?"
+	para "¿Sabes qué más"
+	line "desafía la"
+	cont "gravedad?"
 
-	para "Seismic Toss,"
-	line "of course!"
+	para "¡Sísmico,"
+	line "por supuesto!"
 	done
 
 Museum2FChildText:
-	text "Stuff and rocks"
-	line "and rocks and"
+	text "Cosas y rocas y"
+	line "rocas y cosas."
 
-	para "stuff. Can we go"
-	line "already?"
+	para "¿Ya podemos"
+	line "irnos?"
 	done
 
 Museum2FTeacherText:
-	text "Sigh… My son isn't"
-	line "enjoying the mu-"
+	text "Suspiro… Mi hijo"
+	line "no disfruta el"
+	cont "museo tanto como"
+	cont "esperaba."
 
-	para "seum as much as I"
-	line "hoped he would."
-
-	para "Kids, huh?"
+	para "Niños, ¿eh?"
 	done
 
 Museum2FPokefanMMetricText:
-	text "This space shuttle"
-	line "used to fly 250"
+	text "Este transbordador"
+	line "espacial volaba a"
+	cont "250 kilómetros"
 
-	para "kilometers above"
-	line "the earth, defy-"
-	cont "ing gravity!"
+	para "sobre la tierra,"
+	line "¡desafiando la"
+	cont "gravedad!"
 
-	para "You know what else"
-	line "can defy gravity?"
+	para "¿Sabes qué más"
+	line "desafía la"
+	cont "gravedad?"
 
-	para "Seismic Toss,"
-	line "of course!"
+	para "¡Sísmico,"
+	line "por supuesto!"
 	done
 
 Text_Museum2FTutorSeismicToss:
-	text "I can teach your"
-	line "#mon to use"
+	text "Puedo enseñar a"
+	line "tu #mon a usar"
 
-	para "Seismic Toss for"
-	line "one Silver Leaf."
+	para "Sísmico por"
+	line "una Hoja Plata."
 	done
 
 
 Text_Museum2FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Seismic Toss?"
+	text "¿Debería enseñar"
+	line "a tu #mon"
+	cont "Sísmico?"
 	done
 
 
 
 
 Museum2FSpaceShuttleSignpostText:
-	text "Space Shuttle"
+	text "Transbordador"
+	line "Espacial"
 	done
 
 PokemonJournalStevenScript:
 	setflag ENGINE_READ_STEVEN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Rock Hound Steven!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Sabueso de Rocas"
+	cont "Steven!"
 
-	para "Steven Stone is"
-	line "said to assist"
-	cont "Devon Corp, which"
+	para "Se dice que"
+	line "Steven Stone"
+	cont "ayuda a Devon"
+	cont "Corp, dirigida"
 
-	para "is run by his fa-"
-	line "ther Joseph Stone,"
+	para "por su padre"
+	line "Joseph Stone,"
 
-	para "by hunting down"
-	line "rare minerals and"
-	cont "even fossils."
+	para "buscando"
+	line "minerales raros"
+	cont "e incluso"
+	cont "fósiles."
 	done
 
 PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	setflag ENGINE_READ_CYNTHIA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Researcher"
+	para "Reportaje"
+	line "especial:"
+	cont "¡Investigadora"
 	cont "Cynthia!"
 
-	para "Cynthia is said to"
-	line "have learned many"
+	para "Se dice que"
+	line "Cynthia aprendió"
 
-	para "legends and myths"
-	line "from her grand-"
-	cont "mother in Sinnoh."
+	para "muchas leyendas y"
+	line "mitos de su"
+	cont "abuela en Sinnoh."
 	done

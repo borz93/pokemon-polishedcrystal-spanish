@@ -23,52 +23,56 @@ PokemonJournalPryceScript:
 	setflag ENGINE_READ_PRYCE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Pryce!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Pryce!"
 
-	para "Pryce's middle name"
-	line "is Willow."
+	para "El segundo"
+	line "nombre de Pryce"
+	cont "es Willow."
 
-	para "His fighting style"
-	line "is said to be as"
+	para "Dicen que su"
+	line "estilo de combate"
+	cont "es flexible como"
+	cont "un sauce en"
 
-	para "flexible as a"
-	line "willow tree in"
-	cont "winter, which has"
-
-	para "earned him the"
-	line "nickname “the"
-	cont "winter trainer”."
+	para "invierno, por lo"
+	line "que le llaman"
+	cont "“el entrenador"
+	cont "de invierno”."
 	done
 
 MahoganyPokeCenter1FPokefanmText:
-	text "What's this? Team"
-	line "Rocket has come"
-	cont "back?"
+	text "¿Qué es esto?"
+	line "¿Ha vuelto el"
+	cont "Team Rocket?"
 
-	para "I saw some men in"
-	line "black at Lake of"
-	cont "Rage…"
+	para "Vi a hombres de"
+	line "negro en el Lago"
+	cont "de la Furia…"
 	done
 
 MahoganyPokeCenter1FYoungsterText:
-	text "I stop my #mon"
-	line "from evolving too"
-	cont "early."
+	text "Evito que mis"
+	line "#mon"
+	cont "evolucionen"
+	cont "muy pronto."
 
-	para "I make them learn"
-	line "certain moves be-"
-	cont "fore I let them"
-	cont "evolve."
+	para "Les hago aprender"
+	line "ciertos"
+	cont "movimientos antes"
+	cont "de evolucionar."
 	done
 
 MahoganyPokeCenter1FCooltrainerfText:
-	text "#mon do become"
-	line "stronger when they"
+	text "Los #mon se"
+	line "hacen más"
+	cont "fuertes al"
+	cont "evolucionar."
 
-	para "evolve, but they"
-	line "also learn moves"
-	cont "more slowly."
+	para "Pero aprenden"
+	line "movimientos más"
+	cont "despacio."
 	done

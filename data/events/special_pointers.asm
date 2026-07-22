@@ -113,6 +113,8 @@ SpecialsPointers::
 	add_special SpecialHoOhChamber
 	add_special Special_CelebiShrineEvent
 	add_special CheckBattleCaughtResult
+	add_special CheckPartyNotFull
+	add_special MarkLastCaughtPartymonShiny
 	add_special JudgeMachine
 	add_special SpecialBuenasPassword
 	add_special Special_SampleKenjiBreakCountdown
@@ -172,6 +174,7 @@ SpecialsPointers::
 	add_special ShowItemIcon
 	add_special ShowKeyItemIcon
 	add_special ShowTMHMIcon
+	add_special ShowCoinsIcon
 	add_special FixPlayerEVsAndStats
 	add_special FadeInPalettes_EnableDynNoApply
 	add_special PrintDiploma

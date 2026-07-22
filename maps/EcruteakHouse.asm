@@ -86,14 +86,15 @@ EcruteakTinTowerEntranceSageScript:
 	iftrue_jumpopenedtext EcruteakTinTowerEntranceSageText_GotFogBadge
 	jumpthisopenedtext
 
-	text "Bell Tower is off"
-	line "limits to anyone"
+	text "La Torre Campana"
+	line "está vetada a"
+	cont "quien no tenga la"
+	cont "Medalla del"
+	cont "Gimnasio Iris."
 
-	para "without Ecruteak"
-	line "Gym's Badge."
-
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Lo siento, pero"
+	line "tendrás que"
+	cont "marcharte."
 	done
 
 .CheckForClearBell:
@@ -105,21 +106,22 @@ EcruteakTinTowerEntranceSageScript:
 	iftruefwd .RingClearBell
 	jumpthisopenedtext
 
-	text "A momentous event"
-	line "has occurred."
+	text "Ha ocurrido un"
+	line "evento"
+	cont "trascendental."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Disculpa, pero"
+	line "debo pedirte que"
+	cont "te marches."
 
-	para "…What soothes the"
-	line "soul…"
+	para "…Lo que calma el"
+	line "alma…"
 
-	para "The Wise Trio say"
-	line "things that are so"
+	para "El Trío Sabio dice"
+	line "cosas que son muy"
 
-	para "very difficult to"
-	line "understand…"
+	para "difíciles de"
+	line "entender…"
 	done
 
 .RingClearBell:
@@ -137,15 +139,16 @@ EcruteakTinTowerEntranceWanderingSageScript:
 	iftrue_jumptextfaceplayer EcruteakTinTowerEntranceWanderingSageText_GotClearBell
 	jumpthistextfaceplayer
 
-	text "The Bell Tower"
-	line "ahead is a nine-"
+	text "La Torre Campana"
+	line "que hay delante es"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "una torre de nueve"
+	line "niveles de belleza"
+	cont "divina."
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Calma el alma de"
+	line "todos los que la"
+	cont "contemplan."
 	done
 
 EcruteakTinTowerEntranceSageBlocksLeftMovement:
@@ -164,88 +167,95 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "Bell Tower is off"
-	line "limits to anyone"
+	text "La Torre Campana"
+	line "está vetada a"
+	cont "quien no tenga la"
+	cont "Medalla del"
+	cont "Gimnasio Iris."
 
-	para "without Ecruteak"
-	line "Gym's Badge."
+	para "¡Ah!"
 
-	para "Ah!"
-
-	para "Ecruteak's Gym"
-	line "Badge! Please, go"
-	cont "right through."
+	para "¡La Medalla del"
+	line "Gimnasio Iris!"
+	cont "Adelante, por"
+	cont "favor."
 	done
 
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Ha ocurrido un"
+	line "evento"
+	cont "trascendental."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Disculpa, pero"
+	line "debo pedirte que"
+	cont "te marches."
 
 	para "………………"
 
-	para "Ah!"
+	para "¡Ah!"
 
-	para "The sound of that"
-	line "Clear Bell!"
+	para "¡El sonido de esa"
+	line "Campana Pura!"
 
-	para "It… It's sublime!"
+	para "¡Es… es sublime!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "¡Nunca había oído"
+	line "un sonido tan"
+	cont "hermoso!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "El tañido de esa"
+	line "campana refleja el"
+	cont "alma de quien la"
+	cont "porta."
 
-	para "You…"
+	para "Tú…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
+	para "Puede que logres"
+	line "cruzar la Torre"
+	cont "Campana."
 
-	para "Please, do go on."
+	para "Adelante, por"
+	line "favor."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Adelante, por"
+	line "favor."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "El tañido de esa"
+	line "campana refleja el"
+	cont "alma de quien la"
+	cont "porta."
 
-	para "You…"
+	para "Tú…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "Bell Tower."
+	para "Puede que logres"
+	line "cruzar la Torre"
+	cont "Campana."
 
-	para "Please, do go on."
+	para "Adelante, por"
+	line "favor."
 	done
 
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The Bell Tower"
-	line "shook! A #mon"
-
-	para "must have returned"
-	line "to the top!"
+	text "¡La Torre Campana"
+	line "tembló! ¡Un"
+	cont "#mon debe de"
+	cont "haber vuelto a la"
+	cont "cima!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #mon…"
+	text "Dos torres…"
+	line "Dos #mon…"
 
-	para "But when one"
-	line "burned down, both"
-
-	para "#mon flew away,"
-	line "never to return."
+	para "Pero cuando una"
+	line "se quemó, ambos"
+	cont "#mon volaron"
+	cont "lejos, sin volver"
+	cont "jamás."
 	done

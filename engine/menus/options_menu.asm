@@ -150,11 +150,11 @@ Options_TextSpeed:
 	assert_table_length TEXT_DELAY_MASK >> TZCOUNT(TEXT_DELAY_MASK) + 1
 
 .Slow:
-	db "Slow   @"
+	db "Lento  @"
 .Medium:
-	db "Medium @"
+	db "Medio  @"
 .Fast:
-	db "Fast   @"
+	db "Rápido @"
 .Instant:
 	db "Instant@"
 
@@ -223,9 +223,9 @@ Options_BattleStyle:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Set:
-	db "Set    @"
+	db "Fijo   @"
 .Switch:
-	db "Switch @"
+	db "Cambiar@"
 .Predict:
 	db "Predict@"
 
@@ -274,9 +274,9 @@ Options_Nicknames:
 .Ask:
 	db "Ask   @"
 .Always:
-	db "Always@"
+	db "Siempre@"
 .Never:
-	db "Never @"
+	db "Nunca  @"
 
 Options_RunningShoes:
 	ld hl, wOptions2
@@ -426,7 +426,7 @@ Options_PokedexUnits:
 .Imperial:
 	db "Imperial@"
 .Metric:
-	db "Metric  @"
+	db "Metrico @"
 
 Options_TextAutoscroll:
 	ldh a, [hJoyPressed]
@@ -476,7 +476,7 @@ endr
 .B:
 	db "B     @"
 .AorB:
-	db "A or B@"
+	db "A o B @"
 
 Options_TurningSpeed:
 	ldh a, [hJoyPressed]
@@ -506,9 +506,9 @@ endr
 	assert_table_length (TURNING_SPEED_MASK >> TZCOUNT(TURNING_SPEED_MASK)) + 1
 
 .Slow:
-	db "Slow@"
+	db "Lento @"
 .Fast:
-	db "Fast@"
+	db "Rápido@"
 
 Options_Typeface:
 	ld hl, wOptions2

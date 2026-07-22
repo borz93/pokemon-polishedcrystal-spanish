@@ -23,59 +23,60 @@ PokemonJournalKarenScript:
 	setflag ENGINE_READ_KAREN_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Elite Four Karen!"
+	para "Reportaje"
+	line "especial: Alto"
+	cont "Mando Karen!"
 
-	para "Karen supposedly"
-	line "began training"
+	para "Dicen que Karen"
+	line "empezó a"
+	cont "entrenar #mon"
+	cont "Siniestro"
 
-	para "Dark-type #mon"
-	line "to help overcome"
-
-	para "their sinister"
-	line "reputation."
+	para "para superar su"
+	line "mala reputación."
 	done
 
 Route3PokeCenter1FPokefanM1Text:
-	text "A few years ago"
-	line "I sold a weird-"
+	text "Hace unos años"
+	line "vendí un"
 
-	para "colored Magikarp"
-	line "to this boy…"
+	para "Magikarp raro a"
+	line "este chico…"
 
-	para "I thought there"
-	line "was something"
-	cont "wrong with it."
+	para "Pensé que algo"
+	line "iba mal con él."
 
-	para "Turns out it was"
-	line "a rare shiny"
-	cont "#mon!"
+	para "Resultó ser un"
+	line "raro #mon"
+	cont "shiny!"
 
-	para "I could have made"
-	line "a lot more money!"
+	para "¡Podría haber"
+	line "ganado más"
+	cont "dinero!"
 	done
 
 Route3PokeCenter1FPokefanM2Text:
-	text "I remember there"
-	line "was nothing built"
+	text "Recuerdo que no"
+	line "había nada"
 
-	para "here when I climb-"
-	line "ed the mountain."
+	para "construido aquí"
+	line "cuando subí."
 
-	para "Things are more"
-	line "convenient now."
+	para "Ahora es más"
+	line "cómodo."
 	done
 
 Route3PokeCenter1FYoungsterText:
-	text "Many trainers are"
-	line "on the mountain."
+	text "Hay muchos"
+	line "entrenadores en"
+	cont "la montaña."
 
-	para "Many wild #mon"
-	line "too."
+	para "Y muchos #mon"
+	line "salvajes."
 
-	para "You never know who"
-	line "or what you'll en-"
-	cont "counter."
+	para "Nunca sabes con"
+	line "quién o qué te"
+	cont "toparás."
 	done

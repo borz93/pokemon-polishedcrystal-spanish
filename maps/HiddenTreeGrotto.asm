@@ -86,7 +86,7 @@ HiddenGrottoItemScript:
 	endtext
 
 .ItemText:
-	text "<PLAYER> found"
+	text "<PLAYER> encontró"
 	line ""
 	text_ram wStringBuffer4
 	text "!"

@@ -1,229 +1,236 @@
 ElmPhoneStartText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "No te esfuerces"
+	line "demasiado."
 
-	para "Be sure to heal"
-	line "your #mon if"
-	cont "they are hurt."
+	para "Asegúrate de"
+	line "curar a tus"
+	cont "#mon si están"
+	cont "heridos."
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "Did you meet Mr."
-	line "#mon? Great!"
-	cont "Come back safely!"
+	para "¿Viste al Sr."
+	line "#mon? ¡Genial!"
+	cont "¡Vuelve sano y"
+	cont "salvo!"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAYER>? I'm very"
-	line "upset now."
+	text "¿<PLAYER>? Estoy"
+	line "muy disgustado."
 
-	para "We had a #mon"
-	line "stolen from here."
+	para "Nos robaron un"
+	line "#mon de aquí."
 
-	para "How could anyone"
-	line "do that?"
+	para "¿Cómo puede"
+	line "alguien hacer"
+	cont "eso?"
 	prompt
 
 ElmPhoneCheckingEggText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "We're checking the"
-	line "Egg now. It does"
+	para "Estamos"
+	line "revisando el"
+	cont "Huevo. Parece"
 
-	para "appear to be a"
-	line "#mon Egg."
+	para "ser un Huevo"
+	line "#mon."
 	prompt
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "¿Viste a mi"
+	line "ayudante? Está"
 
-	para "the #mon Center"
-	line "in Violet City."
+	para "en el Centro"
+	line "#mon de Ciudad"
+	cont "Malva."
 	done
 
 ElmPhoneEggUnhatchedText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "How's the Egg? Has"
-	line "anything changed?"
+	para "¿Cómo va el"
+	line "Huevo? ¿Cambió"
+	cont "algo?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Si pasa algo,"
+	line "llámame, por"
+	cont "favor."
 	prompt
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAYER>?"
-	line "How is the Egg?"
+	text "¿Diga, <PLAYER>?"
+	line "¿Qué tal el Huevo?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#mon is it?"
+	para "¿Qué? ¿Se abrió?"
+	line "¡Vaya! ¿Qué"
+	cont "#mon es?"
 
-	para "Please come show"
-	line "me now!"
+	para "¡Ven a"
+	line "enseñármelo ya!"
 	prompt
 
 ElmPhoneDiscovery1Text:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Acabo de hacer"
+	line "un"
+	cont "descubrimiento."
 
-	para "The time it takes"
-	line "for an Egg to"
-
-	para "hatch depends on"
-	line "the #mon."
+	para "El tiempo que"
+	line "tarda un Huevo"
+	cont "en eclosionar"
+	cont "depende del"
+	cont "#mon."
 	prompt
 
 ElmPhoneDiscovery2Text:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Sigue siendo un"
+	line "misterio qué"
 
-	para "of moves hatched"
-	line "#mon have."
+	para "movimientos"
+	line "tienen los #mon"
+	cont "al eclosionar."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Lo estamos"
+	line "investigando."
 	prompt
 
 ElmPhonePokerusText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Descubrí algo"
+	line "raro."
 
-	para "Apparently there's"
-	line "something called"
+	para "Al parecer hay"
+	line "algo llamado"
 
-	para "#rus that in-"
-	line "fects #mon."
+	para "#rus infecta"
+	line "a los #mon."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #rus."
+	para "Sí, es como un"
+	line "virus, así que"
+	cont "se llama #rus."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Se multiplica"
+	line "rápido e infecta"
+	cont "a otros #mon"
+	cont "también."
 
-	para "#mon too. But"
-	line "that's all."
+	para "No parece hacer"
+	line "nada, y"
+	cont "desaparece con"
+	cont "el tiempo."
 
-	para "It doesn't seem to"
-	line "do anything, and"
-
-	para "it goes away over"
-	line "time."
-
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Supongo que no"
+	line "hay de qué"
+	cont "preocuparse."
+	cont "¡Adiós!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAYER>?"
-	line "It's a disaster!"
+	text "¿D-diga? <PLAYER>?"
+	line "¡Es un desastre!"
 
-	para "Uh, um, it's just"
+	para "Ay, ay, es"
 	line "terrible!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "¿Qué hago?"
+	line "Es… ¡Oh, no…"
 
-	para "Please get back"
-	line "here now!"
+	para "¡Vuelve aquí ya!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAYER>? We"
-	line "discovered some-"
+	text "¿Diga, <PLAYER>?"
+	line "Descubrimos"
+	cont "algo sobre el"
+	cont "Huevo!"
 
-	para "thing about the"
-	line "Egg!"
+	para "Mi ayudante está"
+	line "en el Centro"
+	cont "#mon de Ciudad"
 
-	para "My assistant is at"
-	line "the #mon Center"
-
-	para "in Violet City."
-	line "Could you talk to"
-	cont "him?"
+	para "Malva."
+	line "¿Podrías hablar"
+	cont "con él?"
 	done
 
 ElmPhoneRocketText:
-	text "<PLAYER>, how are"
-	line "things going?"
+	text "<PLAYER>, ¿cómo"
+	line "va todo?"
 
-	para "I called because"
-	line "something weird is"
+	para "Te llamo porque"
+	line "pasa algo raro"
+	cont "con las radios."
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "Hablaban del"
+	line "Team Rocket."
 
-	para "They were talking"
-	line "about Team Rocket."
+	para "<PLAYER>, ¿sabes"
+	line "algo de eso?"
 
-	para "<PLAYER>, do you"
-	line "know anything"
-	cont "about it?"
+	para "Quizá el Team"
+	line "Rocket ha"
+	cont "vuelto. No,"
 
-	para "Maybe Team Rocket"
-	line "has returned. No,"
+	para "eso no puede"
+	line "ser verdad."
 
-	para "that just can't"
-	line "be true."
-
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Siento"
+	line "molestarte."
+	cont "¡Cuídate!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAYER>?"
+	text "¿Diga, <PLAYER>?"
 
-	para "I have something"
-	line "here for you."
+	para "Tengo algo aquí"
+	line "para ti."
 
-	para "Could you swing by"
-	line "my Lab?"
+	para "¿Podrías pasarte"
+	line "por mi Lab?"
 
-	para "See you later!"
+	para "¡Hasta luego!"
 	done
 
 ElmPhoneEvolutionQuestionText:
-	text "By the way,"
-	line "<PLAYER>, want to"
+	text "Por cierto,"
+	line "<PLAYER>, ¿quieres"
 
-	para "know how your"
-	line "#mon evolves?"
+	para "saber cómo"
+	line "evoluciona tu"
+	cont "#mon?"
 	done
 
 ElmPhoneEvoText_None:
-	text "Well, "
+	text "Pues "
 	text_ram wStringBuffer3
-	line "doesn't evolve!"
+	line "no evoluciona!"
 	prompt
 
 ElmPhoneEvoText_Level:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "reaches level "
+	line "evoluciona en"
+	cont "nivel "
 	text_decimal wStringBuffer4, 1, 3
 	text "."
 	prompt
 
 ElmPhoneEvoText_Item:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
+	para "exponerse a:"
 	line ""
 	text_ram wStringBuffer4
 	text "."
@@ -231,31 +238,33 @@ ElmPhoneEvoText_Item:
 
 ElmPhoneEvoText_TradeNoItem:
 	text_ram wStringBuffer3
-	line "evolves by trade,"
+	line "evoluciona al"
+	cont "intercambiarlo,"
 
-	para "or when exposed to"
-	line "a "
+	para "o al exponerse"
+	line "a:"
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 ElmPhoneEvoText_TradeWithItem:
 	text_ram wStringBuffer3
-	line "evolves by trade,"
+	line "evoluciona al"
+	cont "intercambiarlo,"
 
-	para "or when gaining a"
-	line "level with"
+	para "o al subir de"
+	line "nivel portando:"
 	cont ""
 	text_ram wStringBuffer4
-	text " held."
+	text "."
 	prompt
 
 ElmPhoneEvoText_Holding:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "gains a level"
+	line "evoluciona al"
+	cont "subir de nivel"
 
-	para "while holding a"
+	para "portando:"
 	line ""
 	text_ram wStringBuffer4
 	text "."
@@ -263,299 +272,306 @@ ElmPhoneEvoText_Holding:
 
 ElmPhoneEvoText_Holding_MornDay:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "gains a level"
+	line "evoluciona al"
+	cont "subir de nivel"
 
-	para "while holding a"
+	para "portando:"
 	line ""
 	text_ram wStringBuffer4
-	text ", but"
+	text ","
 
-	para "only during the"
-	line "morning or day."
+	para "pero solo de"
+	line "día."
 	prompt
 
 ElmPhoneEvoText_Holding_EveNite:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "gains a level"
+	line "evoluciona al"
+	cont "subir de nivel"
 
-	para "while holding a"
+	para "portando:"
 	line ""
 	text_ram wStringBuffer4
-	text ", but"
+	text ","
 
-	para "only during the"
-	line "evening or night."
+	para "pero solo de"
+	line "noche."
 	prompt
 
 ElmPhoneEvoText_Happiness:
 	text_ram wStringBuffer3
-	line "evolves when it's"
-	cont "really happy!"
+	line "evoluciona si es"
+	cont "muy feliz!"
 	prompt
 
 ElmPhoneEvoText_Happiness_MornDay:
 	text_ram wStringBuffer3
-	line "evolves when it's"
-	cont "really happy, but"
+	line "evoluciona si es"
+	cont "muy feliz, pero"
 
-	para "only during the"
-	line "morning or day."
+	para "solo de día."
 	prompt
 
 ElmPhoneEvoText_Happiness_EveNite:
 	text_ram wStringBuffer3
-	line "evolves when it's"
-	cont "really happy, but"
+	line "evoluciona si es"
+	cont "muy feliz, pero"
 
-	para "only during the"
-	line "evening or night."
+	para "solo de noche."
 	prompt
 
 ElmPhoneEvoText_Stat:
 	text_ram wStringBuffer3
-	line "evolves at level"
-	cont ""
+	line "evoluciona en"
+	cont "nivel "
 	text_decimal wStringBuffer4, 1, 3
-	text ", but what it"
+	text ", pero en qué"
 
-	para "evolves into de-"
-	line "pends on its"
+	para "depende de su"
+	line "Ataque y"
 
-	para "Attack and"
-	line "Defense stats."
+	para "Defensa."
 	prompt
 
 ElmPhoneEvoText_Location:
 	text_ram wStringBuffer3
-	line "evolves when it"
+	line "evoluciona al"
 
-	para "gains a level at"
-	line ""
+	para "subir de nivel"
+	line "en:"
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 ElmPhoneEvoText_Move:
 	text_ram wStringBuffer3
-	line "evolves when it"
+	line "evoluciona al"
 
-	para "gains a level"
-	line "while it knows"
-
-	para "how to use"
-	line ""
+	para "subir de nivel"
+	line "sabiendo usar:"
+	cont ""
 	text_ram wStringBuffer4
 	text "."
 	prompt
 
 ElmPhoneEvoText_Crit:
 	text_ram wStringBuffer3
-	line "evolves after it"
+	line "evoluciona tras"
 
-	para "lands three crit-"
-	line "ical hits in one"
-	cont "battle."
+	para "dar tres golpes"
+	line "críticos en un"
+	cont "combate."
 	prompt
 
 ElmPhoneEvoText_Party:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "gains a level"
+	line "evoluciona al"
+	cont "subir de nivel"
 
-	para "while you have a"
+	para "teniendo un"
 	line ""
 	text_ram wStringBuffer4
-	text " in"
-	cont "your party too."
+	text ""
+	cont "también en tu"
+	cont "equipo."
 	prompt
 
 ElmPhoneEvoText_Egg:
-	text "Eggs don't evolve,"
-	line "they hatch!"
+	text "Los Huevos no"
+	line "evolucionan,"
+	cont "¡eclosionan!"
 	prompt
 
 ElmPhoneEvoText_Pikachu:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
-	line "ThunderStone or"
-	cont "an Odd Souvenir."
+	para "exponerse a"
+	line "Piedra Truen o"
+	cont "un Suvenir Raro."
 	prompt
 
 ElmPhoneEvoText_Gloom:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
-	line "Leaf Stone or"
-	cont "a Sun Stone."
+	para "exponerse a"
+	line "Piedra Hoja o"
+	cont "Piedra Solar."
 	prompt
 
 ElmPhoneEvoText_Poliwhirl:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
-	line "Water Stone, or"
+	para "exponerse a"
+	line "Piedra Agua, o"
 
-	para "when holding a"
-	line "King's Rock, if"
+	para "portando Roca del"
+	line "Rey al ser"
 
-	para "traded, or upon"
-	line "leveling up."
+	para "intercambiado, o"
+	line "al subir de nivel."
 	prompt
 
 ElmPhoneEvoText_SlowpokePlain:
 ElmPhoneEvoText_SlowpokeGalarian:
 	text_ram wStringBuffer3
-	line "evolves at level"
-	cont "37, or when it"
+	line "evoluciona en"
+	cont "nivel 37, o al"
 
-	para "holds King's Rock"
-	line "when traded or"
-	cont "gaining a level."
+	para "portar Roca del"
+	line "Rey al ser"
+	cont "intercambiado o"
+	cont "al subir de"
+	cont "nivel."
 	prompt
 
 ElmPhoneEvoText_Magneton:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
-	line "ThunderStone, or"
+	para "exponerse a"
+	line "Piedra Truen, o"
 
-	para "when it gains a"
-	line "level in a mag-"
-	cont "netic field."
+	para "al subir de"
+	line "nivel en un"
+	cont "campo magnético."
 
-	para "I've heard Magnet"
-	line "Tunnel and Dim"
-	cont "Cave have that."
+	para "Dicen que el"
+	line "Túnel Imán y la"
+	cont "Cueva Tenue lo"
+	cont "tienen."
 	prompt
 
 ElmPhoneEvoText_Exeggcute:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to a"
-	line "Leaf Stone or"
-	cont "an Odd Souvenir."
+	para "exponerse a"
+	line "Piedra Hoja o"
+	cont "un Suvenir Raro."
 	prompt
 
 ElmPhoneEvoText_Koffing:
 	text_ram wStringBuffer3
-	line "evolves at level"
-	cont "35, or when it"
+	line "evoluciona en"
+	cont "nivel 35, o al"
 
-	para "holds Charcoal"
-	line "when traded or"
-	cont "gaining a level."
+	para "portar Carbón"
+	line "al ser"
+	cont "intercambiado o"
+	cont "al subir de"
+	cont "nivel."
 	prompt
 
 ElmPhoneEvoText_Cubone:
 	text_ram wStringBuffer3
-	line "evolves at level"
-	cont "28, or when it's"
+	line "evoluciona en"
+	cont "nivel 28, o al"
 
-	para "exposed to an"
-	line "Odd Souvenir."
+	para "exponerse a un"
+	line "Suvenir Raro."
 	prompt
 
 ElmPhoneEvoText_Scyther:
 	text_ram wStringBuffer3
-	line "evolves when it"
-	cont "gains a level"
+	line "evoluciona al"
+	cont "subir de nivel"
 
-	para "while holding a"
-	line "Metal Coat or a"
-	cont "Hard Stone."
+	para "portando Metal"
+	line "Recub. o Piedra"
+	cont "Dura."
 
-	para "The Metal Coat"
-	line "can also be held"
-	cont "while trading."
+	para "El Metal Recub."
+	line "también sirve al"
+	cont "intercambiarlo."
 	prompt
 
 ElmPhoneEvoText_Eevee:
 	text_ram wStringBuffer3
-	line "evolves in so"
-	cont "many ways!"
+	line "evoluciona de"
+	cont "muchas formas!"
 
-	para "It can be exposed"
-	line "to any of eight"
-	cont "different Stones,"
+	para "Puede exponerse"
+	line "a ocho Piedras"
+	cont "distintas,"
 
-	para "or gain a level"
-	line "near a Moss Rock"
-	cont "or an Ice Rock."
+	para "o subir de nivel"
+	line "cerca de una"
+	cont "Roca Musgo o"
+	cont "una Roca Hielo."
 
-	para "I've heard Ilex"
-	line "Forest and Ice"
-	cont "Path have those."
+	para "Dicen que hay en"
+	line "el Encinar y en"
+	cont "la Ruta Helada."
 
-	para "But also, Eevee"
-	line "will evolve just"
-
-	para "from the sun or"
-	line "moon if it's very"
-	cont "happy!"
+	para "Pero también,"
+	line "Eevee evoluciona"
+	cont "con el sol o la"
+	cont "luna si es muy"
+	cont "feliz!"
 	prompt
 
 ElmPhoneEvoText_MimeJr:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to an"
-	line "Ice Stone, or"
+	para "exponerse a"
+	line "Piedra Hielo, o"
 
-	para "when it gains a"
-	line "level near an"
-	cont "Ice Rock."
+	para "al subir de"
+	line "nivel cerca de"
+	cont "una Roca Hielo."
 
-	para "I've heard there's"
-	line "one in Ice Path."
+	para "Dicen que hay"
+	line "una en la Ruta"
+	cont "Helada."
 	prompt
 
 ElmPhoneEvoText_Stantler:
 	text_ram wStringBuffer3
-	line "evolves when it's"
+	line "evoluciona al"
 
-	para "exposed to harsh"
-	line "hail or sand."
+	para "exponerse a"
+	line "fuerte granizo"
+	cont "o arena."
 
-	para "I've heard Rugged"
-	line "Road and Snowtop"
-
-	para "Mountain have"
-	line "weather like that."
+	para "Dicen que el"
+	line "Camino"
+	cont "Escarpado y el"
+	cont "Monte Nevado"
+	cont "tienen ese clima."
 	prompt
 
 ElmPhoneEvoText_AncientSinnoh:
-	text "But based on its"
-	line "ancestry, it"
+	text "Pero según su"
+	line "ascendencia,"
 
-	para "may also evolve"
-	line "when reminded"
+	para "también podría"
+	line "evolucionar"
 
-	para "of ancient Sinnoh…"
-	line "somehow…"
+	para "al recordar de"
+	line "algún modo al"
+	cont "antiguo Sinnoh…"
 	prompt
 
 ElmPhoneEvoText_DunsparceSegments:
-	text "Some of them end"
-	line "up being longer"
-	cont "than others."
+	text "Algunos acaban"
+	line "siendo más"
+	cont "largos que"
+	cont "otros."
 
-	para "It's just in their"
+	para "Es cosa de sus"
 	line "genes."
 	prompt
 
 ElmPhoneEvolutionRefusedText:
-	text "Sorry to bug you"
-	line "then."
+	text "Perdona la"
+	line "molestia,"
+	cont "entonces."
 	prompt
 
 ElmPhoneEndText:
-	text "Take care!"
+	text "¡Cuídate!"
 	done

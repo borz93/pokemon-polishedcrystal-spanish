@@ -1,152 +1,152 @@
 TrainerClassNames::
 	list_start
-	li "<PK><MN> Trainer" ; CAL
-	li "<PK><MN> Trainer" ; CARRIE
-	li "<PK><MN> Trainer" ; JACKY
-	li "<PK><MN> Trainer" ; EUNA
-	li "Leader"           ; FALKNER
-	li "Leader"           ; BUGSY
-	li "Leader"           ; WHITNEY
-	li "Leader"           ; MORTY
-	li "Leader"           ; CHUCK
-	li "Leader"           ; JASMINE
-	li "Leader"           ; PRYCE
-	li "Leader"           ; CLAIR
-	li "Elite Four"       ; WILL
-	li "Elite Four"       ; KOGA
-	li "Elite Four"       ; BRUNO
-	li "Elite Four"       ; KAREN
-	li "Champion"         ; CHAMPION
-	li "Leader"           ; BROCK
-	li "Leader"           ; MISTY
-	li "Leader"           ; LT_SURGE
-	li "Leader"           ; ERIKA
-	li "Leader"           ; JANINE
-	li "Leader"           ; SABRINA
-	li "Leader"           ; BLAINE
-	li "Leader"           ; BLUE
-	li "<PK><MN> Trainer" ; RED
-	li "<PK><MN> Trainer" ; LEAF
-	li "Strange"          ; RIVAL0
-	li "Rival"            ; RIVAL1
-	li "Rival"            ; RIVAL2
-	li "<PK><MN> Trainer" ; LYRA1
-	li "<PK><MN> Trainer" ; LYRA2
-	li "Youngster"        ; YOUNGSTER
-	li "Bug Catcher"      ; BUG_CATCHER
-	li "Camper"           ; CAMPER
-	li "Picnicker"        ; PICNICKER
-	li "Twins"            ; TWINS
-	li "Fisherman"        ; FISHER
-	li "Bird Keeper"      ; BIRD_KEEPER
-	li "Hiker"            ; HIKER
-	li "Rocket"           ; GRUNTM
-	li "Rocket"           ; GRUNTF
-	li "#fan"             ; POKEFANM
-	li "#fan"             ; POKEFANF
-	li "Officer"          ; OFFICERM
-	li "Officer"          ; OFFICERF
-	li "Nurse"            ; NURSE
-	li "#Maniac"          ; POKEMANIAC
-	li "Cosplayer"        ; COSPLAYER
-	li "Super Nerd"       ; SUPER_NERD
-	li "Lass"             ; LASS
-	li "Beauty"           ; BEAUTY
-	li "Bug Maniac"       ; BUG_MANIAC
-	li "Ruin Maniac"      ; RUIN_MANIAC
-	li "Firebreather"     ; FIREBREATHER
-	li "Juggler"          ; JUGGLER
-	li "Schoolboy"        ; SCHOOLBOY
-	li "Schoolgirl"       ; SCHOOLGIRL
-	li "Psychic"          ; PSYCHIC_T
-	li "Hex Maniac"       ; HEX_MANIAC
-	li "Sage"             ; SAGE
-	li "Medium"           ; MEDIUM
-	li "Kimono Girl"      ; KIMONO_GIRL
-	li "Elder"            ; ELDER
-	li "Sr.& Jr."         ; SR_AND_JR
-	li "Couple"           ; COUPLE
-	li "Gentleman"        ; GENTLEMAN
-	li "Rich Boy"         ; RICH_BOY
-	li "Lady"             ; LADY
-	li "Breeder"          ; BREEDER
-	li "Baker"            ; BAKER
-	li "Cowgirl"          ; COWGIRL
-	li "Sailor"           ; SAILOR
-	li "Swimmer"          ; SWIMMERM
-	li "Swimmer"          ; SWIMMERF
-	li "Burglar"          ; BURGLAR
-	li "Agent"            ; PI
-	li "Scientist"        ; SCIENTIST
-	li "Scientist"        ; ROCKET_SCIENTIST
-	li "Boarder"          ; BOARDER
-	li "Skier"            ; SKIER
-	li "Black Belt"       ; BLACKBELT_T
-	li "Battle Girl"      ; BATTLE_GIRL
-	li "Dragon Tamer"     ; DRAGON_TAMER
-	li "Engineer"         ; ENGINEER
-	li "Teacher"          ; TEACHER_F
-	li "Teacher"          ; TEACHER_M
-	li "Guitarist"        ; GUITARISTM
-	li "Guitarist"        ; GUITARISTF
-	li "Biker"            ; BIKER
-	li "Roughneck"        ; ROUGHNECK
-	li "Tamer"            ; TAMER
-	li "Artist"           ; ARTIST
-	li "Aroma Lady"       ; AROMA_LADY
-	li "Soldier"          ; SOLDIER
-	li "Waiter"           ; WAITER
-	li "Waitress"         ; WAITRESS
-	li "Sightseer"        ; SIGHTSEERM
-	li "Sightseer"        ; SIGHTSEERF
-	li "Sightseers"       ; SIGHTSEERS
-	li "Ace Trainer"      ; COOLTRAINERM
-	li "Ace Trainer"      ; COOLTRAINERF
-	li "Ace Duo"          ; ACE_DUO
-	li "Veteran"          ; VETERANM
-	li "Veteran"          ; VETERANF
-	li "Executive"        ; PROTON
-	li "Executive"        ; PETREL
-	li "Executive"        ; ARCHER
-	li "Executive"        ; ARIANA
-	li "Boss"             ; GIOVANNI
-	li "#mon Prof."       ; PROF_OAK
-	li "#mon Prof."       ; PROF_ELM
-	li "#mon Prof."       ; PROF_IVY
-	li "Mystery Man"      ; MYSTICALMAN
-	li "Karate King"      ; KARATE_KING
-	li "TowerTycoon"      ; TOWERTYCOON
-	li "FactryHead"       ; FACTORYHEAD
-	li "Jessie"           ; JESSIE_JAMES
-	li "Ex-Elite"         ; LORELEI
-	li "Ex-Elite"         ; AGATHA
-	li "Rock Hound"       ; STEVEN
-	li "Researcher"       ; CYNTHIA
-	li "Psychic"          ; INVER
-	li "<PK><MN> Trainer" ; CHERYL
-	li "<PK><MN> Trainer" ; RILEY
-	li "<PK><MN> Trainer" ; BUCK
-	li "<PK><MN> Trainer" ; MARLEY
-	li "<PK><MN> Trainer" ; MIRA
-	li "<PK><MN> Trainer" ; ANABEL
-	li "Valet"            ; DARACH
-	li "Lady"             ; CAITLIN
-	li "Leader"           ; CANDELA
-	li "Leader"           ; BLANCHE
-	li "Leader"           ; SPARK_T
-	li "Trainer"          ; FLANNERY
-	li "Fighter"          ; MAYLENE
-	li "Swimmer"          ; MARLON
-	li "Designer"         ; VALERIE
-	li "<PK><MN> Trainer" ; KUKUI
-	li "Vocalist"         ; PIERS
-	li "Businessman"      ; LARRY
-	li "Surfer"           ; VICTOR
-	li "#Maniac"          ; BILL_T
-	li "<PK><MN> Trainer" ; YELLOW
-	li "Ex-Leader"        ; WALKER
-	li "Student"          ; IMAKUNI
-	li "Collector"        ; LAWRENCE
-	li "Shrine"           ; REI
-	li "Firebreather"     ; FIREBREATHER_ASHES
+	li "Entrenador"      ; CAL
+	li "Entrenador"      ; CARRIE
+	li "Entrenador"      ; JACKY
+	li "Entrenador"      ; EUNA
+	li "Líder"           ; FALKNER
+	li "Líder"           ; BUGSY
+	li "Líder"           ; WHITNEY
+	li "Líder"           ; MORTY
+	li "Líder"           ; CHUCK
+	li "Líder"           ; JASMINE
+	li "Líder"           ; PRYCE
+	li "Líder"           ; CLAIR
+	li "Alto Mando"      ; WILL
+	li "Alto Mando"      ; KOGA
+	li "Alto Mando"      ; BRUNO
+	li "Alto Mando"      ; KAREN
+	li "Campeón"         ; CHAMPION
+	li "Líder"           ; BROCK
+	li "Líder"           ; MISTY
+	li "Líder"           ; LT_SURGE
+	li "Líder"           ; ERIKA
+	li "Líder"           ; JANINE
+	li "Líder"           ; SABRINA
+	li "Líder"           ; BLAINE
+	li "Líder"           ; BLUE
+	li "Entrenador"      ; RED
+	li "Entrenador"      ; LEAF
+	li "Extraño"         ; RIVAL0
+	li "Rival"           ; RIVAL1
+	li "Rival"           ; RIVAL2
+	li "Entrenador"      ; LYRA1
+	li "Entrenador"      ; LYRA2
+	li "Chico"           ; YOUNGSTER
+	li "Insectólogo"     ; BUG_CATCHER
+	li "Campista"        ; CAMPER
+	li "Excursion."      ; PICNICKER
+	li "Gemelas"         ; TWINS
+	li "Pescador"        ; FISHER
+	li "Cetrero"         ; BIRD_KEEPER
+	li "Montañero"       ; HIKER
+	li "Rocket"          ; GRUNTM
+	li "Rocket"          ; GRUNTF
+	li "#fan"            ; POKEFANM
+	li "#fan"            ; POKEFANF
+	li "Oficial"         ; OFFICERM
+	li "Oficial"         ; OFFICERF
+	li "Enfermera"       ; NURSE
+	li "#Maniaco"        ; POKEMANIAC
+	li "Cosplayer"       ; COSPLAYER
+	li "Empollón"        ; SUPER_NERD
+	li "Srta."           ; LASS
+	li "Beldad"          ; BEAUTY
+	li "Entomólogo"      ; BUG_MANIAC
+	li "Arqueólogo"      ; RUIN_MANIAC
+	li "Tragafuego"      ; FIREBREATHER
+	li "Malabarista"     ; JUGGLER
+	li "Colegial"        ; SCHOOLBOY
+	li "Colegiala"       ; SCHOOLGIRL
+	li "Psíquico"        ; PSYCHIC_T
+	li "Bruja"           ; HEX_MANIAC
+	li "Sabio"           ; SAGE
+	li "Medium"          ; MEDIUM
+	li "Chica Kimono"    ; KIMONO_GIRL
+	li "Anciano"         ; ELDER
+	li "Sr. y Jr."       ; SR_AND_JR
+	li "Pareja"          ; COUPLE
+	li "Señor"           ; GENTLEMAN
+	li "Niño Rico"       ; RICH_BOY
+	li "Dama"            ; LADY
+	li "Criador"         ; BREEDER
+	li "Pastelera"       ; BAKER
+	li "Vaquera"         ; COWGIRL
+	li "Marinero"        ; SAILOR
+	li "Nadador"         ; SWIMMERM
+	li "Nadadora"        ; SWIMMERF
+	li "Ladrón"          ; BURGLAR
+	li "Agente"          ; PI
+	li "Científico"      ; SCIENTIST
+	li "Científico"      ; ROCKET_SCIENTIST
+	li "Snowboarder"     ; BOARDER
+	li "Esquiador"       ; SKIER
+	li "Cinturón N."     ; BLACKBELT_T
+	li "Luchadora"       ; BATTLE_GIRL
+	li "Dom. Dragón"     ; DRAGON_TAMER
+	li "Ingeniero"       ; ENGINEER
+	li "Profesora"       ; TEACHER_F
+	li "Profesor"        ; TEACHER_M
+	li "Guitarrista"     ; GUITARISTM
+	li "Guitarrista"     ; GUITARISTF
+	li "Motorista"       ; BIKER
+	li "Matón"           ; ROUGHNECK
+	li "Domador"         ; TAMER
+	li "Artista"         ; ARTIST
+	li "Dama Aroma"      ; AROMA_LADY
+	li "Soldado"         ; SOLDIER
+	li "Camarero"        ; WAITER
+	li "Camarera"        ; WAITRESS
+	li "Turista"         ; SIGHTSEERM
+	li "Turista"         ; SIGHTSEERF
+	li "Turistas"        ; SIGHTSEERS
+	li "Entr. Élite"     ; COOLTRAINERM
+	li "Entr. Élite"     ; COOLTRAINERF
+	li "Dúo Élite"       ; ACE_DUO
+	li "Veterano"        ; VETERANM
+	li "Veterana"        ; VETERANF
+	li "Ejecutivo"       ; PROTON
+	li "Ejecutivo"       ; PETREL
+	li "Ejecutivo"       ; ARCHER
+	li "Ejecutiva"       ; ARIANA
+	li "Jefe"            ; GIOVANNI
+	li "Prof #mon"       ; PROF_OAK
+	li "Prof #mon"       ; PROF_ELM
+	li "Prof #mon"       ; PROF_IVY
+	li "Hombre Mist."    ; MYSTICALMAN
+	li "Rey Kárate"      ; KARATE_KING
+	li "Magnate"         ; TOWERTYCOON
+	li "Líder Fábr."     ; FACTORYHEAD
+	li "Jessie"          ; JESSIE_JAMES
+	li "Ex Élite"        ; LORELEI
+	li "Ex Élite"        ; AGATHA
+	li "Geólogo"         ; STEVEN
+	li "Investig."       ; CYNTHIA
+	li "Psíquico"        ; INVER
+	li "Entrenador"      ; CHERYL
+	li "Entrenador"      ; RILEY
+	li "Entrenador"      ; BUCK
+	li "Entrenador"      ; MARLEY
+	li "Entrenador"      ; MIRA
+	li "Entrenador"      ; ANABEL
+	li "Mayordomo"       ; DARACH
+	li "Dama"            ; CAITLIN
+	li "Líder"           ; CANDELA
+	li "Líder"           ; BLANCHE
+	li "Líder"           ; SPARK_T
+	li "Entrenador"      ; FLANNERY
+	li "Luchador"        ; MAYLENE
+	li "Nadador"         ; MARLON
+	li "Diseñadora"      ; VALERIE
+	li "Entrenador"      ; KUKUI
+	li "Vocalista"       ; PIERS
+	li "Empresario"      ; LARRY
+	li "Surfista"        ; VICTOR
+	li "#Maniaco"        ; BILL_T
+	li "Entrenador"      ; YELLOW
+	li "Ex Líder"        ; WALKER
+	li "Estudiante"      ; IMAKUNI
+	li "Coleccion."      ; LAWRENCE
+	li "Sacerdotisa"     ; REI
+	li "Tragafuego"      ; FIREBREATHER_ASHES
 	assert_list_length NUM_TRAINER_CLASSES

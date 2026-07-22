@@ -280,7 +280,7 @@ InitPokegearTilemap:
 	jmp Pokegear_UpdateClock
 
 .switch
-	db " Switch▶@"
+	db " CAMBIO▶@"
 
 .Map:
 	call PokegearMap
@@ -1091,7 +1091,7 @@ LoadStation_BuenasPassword:
 	ld a, BUENAS_PASSWORD
 	jr LoadRadioStation
 
-BuenasPasswordName: db "Buena's Password@"
+BuenasPasswordName: db "Código de Buena@"
 
 LoadStation_UnownRadio:
 	ld a, UNOWN_RADIO
@@ -1161,13 +1161,13 @@ NoRadioName:
 	ld bc, $412
 	jmp Textbox
 
-OaksPkmnTalkName:     db "Oak's <PK><MN> Talk@"
-PokemonMusicName:     db "#mon Music@"
-LuckyChannelName:     db "Lucky Channel@"
-UnknownStationName:   db "?????@"
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# Flute@"
+OaksPkmnTalkName:     db "La hora de Oak@"
+PokemonMusicName:     db "Música #mon@"
+LuckyChannelName:     db "Canal suerte@"
+UnknownStationName:   db "¿¿??@"
+PlacesAndPeopleName:  db "Lugares y Gente@"
+LetsAllSingName:      db "Cantemos todos@"
+PokeFluteStationName: db "Flauta #mon@"
 
 _TownMap:
 	ld hl, wOptions1
@@ -1607,7 +1607,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "¿Dónde?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -1630,7 +1630,7 @@ TownMapBubble:
 	ret
 
 .PokemonLeagueFlyName:
-	rawchar "Pokémon League@"
+	rawchar "Liga Pokémon@"
 
 GetMapCursorCoordinates:
 	ld a, [wTownMapPlayerIconLandmark]

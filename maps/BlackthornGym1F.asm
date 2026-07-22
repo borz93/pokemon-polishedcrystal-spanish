@@ -76,108 +76,113 @@ BlackthornGymClairScript:
 	end
 
 .IntroText:
-	text "I am Clair."
+	text "Soy Clair."
 
-	para "The world's best"
-	line "dragon master."
+	para "La mejor maestra"
+	line "Dragón del mundo."
 
-	para "I can hold my own"
-	line "against even the"
+	para "Puedo hacer frente"
+	line "incluso al Alto"
 
-	para "#mon League's"
-	line "Elite Four."
+	para "Mando de la Liga"
+	line "#mon."
 
-	para "Do you still want"
-	line "to take me on?"
+	para "¿Aún quieres"
+	line "enfrentarte a mí?"
 
-	para "…Fine."
-	line "Let's do it!"
+	para "…Bien."
+	line "¡Hagámoslo!"
 
-	para "As a Gym Leader,"
-	line "I will use my full"
+	para "Como Líder de"
+	line "Gimnasio, usaré"
 
-	para "power against any"
-	line "opponent!"
+	para "¡todo mi poder"
+	line "contra cualquier"
+	cont "rival!"
 	done
 
 .WinText:
-	text "I lost?"
+	text "¿Perdí?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
+	para "No me lo creo."
+	line "Debe de haber"
+	cont "algún error…"
 	done
 
 .GoToDragonsDenText:
-	text "I won't admit"
-	line "this."
+	text "No pienso"
+	line "admitirlo."
 
-	para "I may have lost,"
-	line "but you're still"
+	para "Puede que haya"
+	line "perdido, pero aún"
 
-	para "not ready for the"
-	line "#mon League."
+	para "no estás listo"
+	line "para la Liga"
+	cont "#mon."
 
-	para "I know. You should"
-	line "take the Dragon-"
-	cont "master challenge."
+	para "Ya sé. Deberías"
+	line "afrontar el reto"
+	cont "de maestro Dragón."
 
-	para "Behind this Gym is"
-	line "a place called"
-	cont "Dragon's Den."
+	para "Detrás de este"
+	line "Gimnasio hay un"
+	cont "lugar llamado"
+	cont "Guarida Dragón."
 
-	para "There is a small"
-	line "shrine at its"
-	cont "center."
-	cont "Go there."
+	para "Hay un pequeño"
+	line "santuario en su"
+	cont "centro."
+	cont "Ve allí."
 
-	para "If you can prove"
-	line "that you've lost"
+	para "Si puedes"
+	line "demostrar que has"
 
-	para "your lazy ideals,"
-	line "I will recognize"
+	para "abandonado tus"
+	line "ideales"
+	cont "perezosos,"
 
-	para "you as a trainer"
-	line "worthy of a Gym"
-	cont "Badge!"
+	para "¡te reconoceré"
+	line "como un entrenador"
+	cont "digno de una"
+	cont "Medalla!"
 	done
 
 .TooMuchToExpectText:
-	text "What's the matter?"
+	text "¿Qué pasa?"
 
-	para "Is it too much to"
-	line "expect of you?"
+	para "¿Es demasiado"
+	line "esperar de ti?"
 	done
 
 ClairPokemonLeagueDirectionsText:
-	text "What's the matter?"
+	text "¿Qué pasa?"
 
-	para "Aren't you headed"
-	line "to the #mon"
-	cont "League?"
+	para "¿No te diriges a"
+	line "la Liga #mon?"
 
-	para "Do you know how to"
-	line "get there?"
+	para "¿Sabes cómo"
+	line "llegar?"
 
-	para "From here, go to"
-	line "New Bark Town."
-	cont "Then Surf east."
+	para "Desde aquí, ve a"
+	line "Pueblo Primavera."
+	cont "Luego surfea al"
+	cont "este."
 
-	para "The route there is"
-	line "very tough."
+	para "La ruta hasta allí"
+	line "es muy dura."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "mon League!"
+	para "¡No te atrevas a"
+	line "perder en la Liga"
+	cont "#mon!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Si lo haces, me"
+	line "sentiré aún peor"
 
-	para "about having lost"
-	line "to you!"
+	para "por haber perdido"
+	line "contra ti."
 
-	para "Give it everything"
-	line "you've got."
+	para "Da todo lo que"
+	line "tengas."
 	done
 
 BlackthornGymGuyScript:
@@ -185,108 +190,111 @@ BlackthornGymGuyScript:
 	iftrue_jumptextfaceplayer .WinText
 	jumpthistextfaceplayer
 
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Eh! ¡Futuro"
+	line "Campeón!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "Ha sido un viaje"
+	line "largo, pero"
 
-	para "are almost done!"
-	line "Count on me!"
+	para "¡ya casi hemos"
+	line "terminado! ¡Cuenta"
+	cont "conmigo!"
 
-	para "Clair uses the"
-	line "mythical and sac-"
-	cont "red Dragon-type"
-	cont "#mon."
+	para "Clair usa #mon"
+	line "de tipo Dragón,"
+	cont "míticos y"
+	cont "sagrados."
 
-	para "You can't damage"
-	line "them very easily."
+	para "No es fácil"
+	line "dañarlos."
 
-	para "But you know,"
-	line "they're supposed"
+	para "Pero ya sabes,"
+	line "se supone que son"
 
-	para "to be weak against"
-	line "Ice-type moves."
+	para "débiles contra los"
+	line "movimientos de"
+	cont "tipo Hielo."
 	done
 
 .WinText:
-	text "You were great to"
-	line "beat Clair!"
+	text "¡Fue genial que"
+	line "vencieras a Clair!"
 
-	para "All that's left is"
-	line "the #mon League"
-	cont "challenge."
+	para "Solo queda el"
+	line "reto de la Liga"
+	cont "#mon."
 
-	para "You're on the way"
-	line "to becoming the"
-	cont "#mon Champion!"
+	para "¡Estás en camino"
+	line "de convertirte en"
+	cont "el Campeón"
+	cont "#mon!"
 	done
 
 GenericTrainerDragonTamerPaul:
 	generictrainer DRAGON_TAMER, PAUL, EVENT_BEAT_DRAGON_TAMER_PAUL, .SeenText, .BeatenText
 
-	text "Lance told you"
-	line "that he'd like to"
+	text "¿Lance te dijo que"
+	line "le gustaría verte"
 
-	para "see you again?"
-	line "Not a chance!"
+	para "otra vez? ¡Ni"
+	line "hablar!"
 	done
 
 .SeenText:
-	text "Your first battle"
-	line "against dragons?"
+	text "¿Tu primer combate"
+	line "contra dragones?"
 
-	para "I'll show you how"
-	line "tough they are!"
+	para "¡Te mostraré lo"
+	line "duros que son!"
 	done
 
 .BeatenText:
-	text "My dragon #mon"
-	line "lost?"
+	text "¿Mis #mon"
+	line "dragón perdieron?"
 	done
 
 GenericTrainerCooltrainermMike:
 	generictrainer COOLTRAINERM, MIKE, EVENT_BEAT_COOLTRAINERM_MIKE, .SeenText, .BeatenText
 
-	text "I know my short-"
-	line "comings now."
+	text "Ahora conozco mis"
+	line "carencias."
 
-	para "Thanks for showing"
-	line "me!"
+	para "¡Gracias por"
+	line "mostrármelas!"
 	done
 
 .SeenText:
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "¿Mis posibilidades"
+	line "de perder? ¡Ni un"
+	cont "uno por ciento!"
 	done
 
 .BeatenText:
-	text "That's odd."
+	text "Qué raro."
 	done
 
 GenericTrainerCooltrainerfLola:
 	generictrainer COOLTRAINERF, LOLA, EVENT_BEAT_COOLTRAINERF_LOLA, .SeenText, .BeatenText
 
-	text "Dragons are weak"
-	line "against Dragon-"
-	cont "type moves."
+	text "Los dragones son"
+	line "débiles contra"
+	cont "movimientos de"
+	cont "tipo Dragón."
 	done
 
 .SeenText:
-	text "Dragons are sacred"
-	line "#mon."
+	text "Los dragones son"
+	line "#mon sagrados."
 
-	para "They are full of"
-	line "life energy."
+	para "Están llenos de"
+	line "energía vital."
 
-	para "If you're not"
-	line "serious, you won't"
+	para "Si no vas en"
+	line "serio, no podrás"
 
-	para "be able to beat"
-	line "them."
+	para "vencerlos."
 	done
 
 .BeatenText:
-	text "Way to go!"
+	text "¡Bien hecho!"
 	done

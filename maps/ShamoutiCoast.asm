@@ -26,27 +26,26 @@ ShamoutiCoast_MapScriptHeader:
 GenericTrainerArtistRin:
 	generictrainer ARTIST, RIN, EVENT_BEAT_ARTIST_RIN, .SeenText, .BeatenText
 
-	text "There's a strange"
-	line "sense of power"
-	cont "from the islands."
+	text "Hay una extraña"
+	line "sensación de poder"
+	cont "en las islas."
 
-	para "I want to capture"
-	line "that in my paint-"
-	cont "ing."
+	para "Quiero capturar"
+	line "eso en mi"
+	cont "pintura."
 	done
 
 .SeenText:
-	text "I'm painting the"
-	line "three islands!"
+	text "¡Estoy pintando"
+	line "las tres islas!"
 
-	para "Please don't block"
-	line "my view!"
+	para "¡Por favor, no me"
+	line "bloquees la vista!"
 	done
 
 .BeatenText:
-	text "I can't paint and"
-	line "battle at the same"
-	cont "time."
+	text "No puedo pintar y"
+	line "combatir a la vez."
 	done
 
 TrainerSwimmerfMarina:
@@ -56,49 +55,50 @@ TrainerSwimmerfMarina:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "If I were stran-"
-	line "ded on a desert"
-	cont "island, I'd take…"
+	text "Si quedara"
+	line "varada en una isla"
+	cont "desierta, me"
+	cont "llevaría…"
 
-	para "my #mon, of"
-	line "course!"
+	para "¡mis #mon,"
+	line "claro está!"
 	done
 
 .SeenText:
-	text "If you were stran-"
-	line "ded on a desert"
-	cont "island, what three"
+	text "Si quedaras varado"
+	line "en una isla"
+	cont "desierta, ¿qué"
 
-	para "things would you"
-	line "bring?"
+	para "tres cosas te"
+	line "llevarías?"
 	done
 
 .BeatenText:
-	text "Washed away with-"
-	line "out a paddle!"
+	text "¡Arrastrada sin"
+	line "remo!"
 	done
 
 GenericTrainerFisherDallas:
 	generictrainer FISHER, DALLAS, EVENT_BEAT_FISHER_DALLAS, .SeenText, .BeatenText
 
-	text "No matter where I"
-	line "fish, I just keep"
+	text "Pesque donde"
+	line "pesque, solo saco"
 
-	para "reeling in Bottle"
-	line "Caps."
+	para "Chapas de"
+	line "botella."
 
-	para "It's driving me"
-	line "nuts!"
+	para "¡Me está volviendo"
+	line "loco!"
 	done
 
 .SeenText:
-	text "Gah! Not another"
-	line "one!"
+	text "¡Argh! ¡Otra vez"
+	line "no!"
 	done
 
 .BeatenText:
-	text "Huh? Oh, not you--"
-	line "you're fine."
+	text "¿Eh? Oh, tú no…"
+	line "tú estás bien."
 	done
 
 GenericTrainerSightseerfPilar:
@@ -131,31 +131,40 @@ GenericTrainerSightseerfPilar:
 GenericTrainerSightseersCyandvi1:
 	generictrainer SIGHTSEERS, CYANDVI1, EVENT_BEAT_SIGHTSEERS_CY_AND_VI, .SeenText, .BeatenText
 
-; text > text
-	text "Cy: TODO"
+; invented dialogue (no source text)
+	text "Cy: Vi y yo"
+	line "vinimos a ver las"
+	cont "tres islas juntos."
 	done
 
-.SeenText: ; text > text
-	text "Cy: TODO"
+.SeenText: ; invented dialogue (no source text)
+	text "Cy: ¿Combatimos"
+	line "los dos a la vez?"
 	done
 
-.BeatenText: ; text > text
-	text "Cy: TODO"
+.BeatenText: ; invented dialogue (no source text)
+	text "Cy: Vi se reirá"
+	line "de mí por esto."
 	done
 
 GenericTrainerSightseersCyandvi2:
 	generictrainer SIGHTSEERS, CYANDVI2, EVENT_BEAT_SIGHTSEERS_CY_AND_VI, .SeenText, .BeatenText
 
-; text > text
-	text "Vi: TODO"
+; invented dialogue (no source text)
+	text "Vi: Cy siempre"
+	line "quiere ver todo a"
+	cont "la vez."
 	done
 
-.SeenText: ; text > text
-	text "Vi: TODO"
+.SeenText: ; invented dialogue (no source text)
+	text "Vi: ¡A ver quién"
+	line "gana esta vez!"
 	done
 
-.BeatenText: ; text > text
-	text "Vi: TODO"
+.BeatenText: ; invented dialogue (no source text)
+	text "Vi: Bueno, ya"
+	line "veremos la"
+	cont "próxima."
 	done
 
 TrainerSwimmermAshe:

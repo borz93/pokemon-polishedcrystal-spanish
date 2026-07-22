@@ -81,308 +81,321 @@ Route41MarlonScript:
 	end
 
 .IntroText:
-	text "Marlon: Uihaa!"
+	text "Marlon: ¡Aloha!"
 
-	para "Sup, so you're"
+	para "Ey, ¡tú eres"
 	line "<PLAYER>!"
 
-	para "The name's Marlon,"
-	line "man of the sea!"
+	para "Soy Marlon,"
+	line "¡el hombre del"
+	cont "mar!"
 
-	para "Me 'n' my #mon"
-	line "swam here from"
-	cont "the Unova region!"
+	para "¡Mi #mon y yo"
+	line "vinimos nadando"
+	cont "desde Unova!"
 	done
 
 .ChallengeText:
-	text "You look strong!"
-	line "Shoots!"
+	text "¡Tienes pinta de"
+	line "ser fuerte!"
 
-	para "We should totally"
-	line "have a battle!"
+	para "¡Deberíamos"
+	line "echar un combate!"
 	done
 
 .RematchText:
-	text "Ohoho! 'Sup,"
+	text "¡Ohoho! ¡Ey,"
 	line "<PLAYER>!"
 
-	para "So I'm facing"
-	line "you again!"
+	para "¡Otra vez cara a"
+	line "cara!"
 
-	para "You're gonna get"
-	line "swept away,"
-	cont "fo' sho'!"
+	para "¡Te va a arrastrar"
+	line "la marea,"
+	cont "seguro!"
 	done
 
 .RefusedText:
-	text "Aw, man!"
+	text "¡Vaya chasco!"
 	done
 
 .SeenText:
-	text "Right on,"
-	line "let's roll!"
+	text "Guay,"
+	line "¡vamos allá!"
 	done
 
 .BeatenText:
-	text "You totally rocked"
-	line "that!"
+	text "¡Vaya pasada!"
 
-	para "You got this Trai-"
-	line "ner thing down!"
+	para "Se te da genial"
+	line "esto de entrenar."
 	done
 
 .AfterText:
-	text "You don't just"
-	line "look strong, you're"
-	cont "strong fo' reals!"
+	text "No solo tienes"
+	line "pinta de fuerte,"
+	cont "¡lo eres de"
+	cont "verdad!"
 
-	para "Eh, I was swept"
-	line "away, too!"
+	para "Ey, ¡a mí también"
+	line "me arrastró la"
+	cont "marea!"
 	done
 
 GenericTrainerSwimmerfKaylee:
 	generictrainer SWIMMERF, KAYLEE, EVENT_BEAT_SWIMMERF_KAYLEE, SwimmerfKayleeSeenText, SwimmerfKayleeBeatenText
 
-	text "There's supposed"
-	line "to be a big #-"
-	cont "mon deep beneath"
-	cont "Whirl Islands."
+	text "Dicen que hay un"
+	line "gran #mon en"
+	cont "las profundidades"
+	cont "de Islas"
+	cont "Remolino."
 
-	para "I wonder what it"
-	line "could be?"
+	para "¿Qué será?"
 	done
 
 GenericTrainerSwimmerfSusie:
 	generictrainer SWIMMERF, SUSIE, EVENT_BEAT_SWIMMERF_SUSIE, SwimmerfSusieSeenText, SwimmerfSusieBeatenText
 
-	text "Wasn't there a hit"
-	line "song about a boy"
-	cont "riding a Lapras?"
+	text "¿No había una"
+	line "canción sobre un"
+	cont "chico montado en"
+	cont "un Lapras?"
 	done
 
 GenericTrainerSwimmerfDenise:
 	generictrainer SWIMMERF, DENISE, EVENT_BEAT_SWIMMERF_DENISE, SwimmerfDeniseSeenText, SwimmerfDeniseBeatenText
 
-	text "A sunburn is the"
-	line "worst for skin."
+	text "Las quemaduras son"
+	line "lo peor para la"
+	cont "piel."
 
-	para "But I don't use a"
-	line "sunblock."
+	para "Pero no uso"
+	line "crema solar."
 
-	para "I won't pollute"
-	line "the water."
+	para "No quiero"
+	line "contaminar el"
+	cont "agua."
 	done
 
 GenericTrainerSwimmerfKara:
 	generictrainer SWIMMERF, KARA, EVENT_BEAT_SWIMMERF_KARA, SwimmerfKaraSeenText, SwimmerfKaraBeatenText
 
-	text "I heard roars from"
-	line "deep inside the"
-	cont "Islands."
+	text "Oí rugidos desde"
+	line "el interior de"
+	cont "las islas."
 	done
 
 GenericTrainerSwimmerfWendy:
 	generictrainer SWIMMERF, WENDY, EVENT_BEAT_SWIMMERF_WENDY, SwimmerfWendySeenText, SwimmerfWendyBeatenText
 
-	text "The clusters of"
-	line "Staryu light up"
-	cont "at the same time."
+	text "Los grupos de"
+	line "Staryu se"
+	cont "iluminan a la"
+	cont "vez."
 
-	para "It's so beautiful,"
-	line "it's scary."
+	para "Es tan bonito que"
+	line "da miedo."
 	done
 
 GenericTrainerSwimmermCharlie:
 	generictrainer SWIMMERM, CHARLIE, EVENT_BEAT_SWIMMERM_CHARLIE, SwimmermCharlieSeenText, SwimmermCharlieBeatenText
 
-	text "Isn't it relaxing"
-	line "just floating like"
-	cont "this?"
+	text "¿Verdad que"
+	line "flotar así"
+	cont "relaja?"
 	done
 
 GenericTrainerSwimmermGeorge:
 	generictrainer SWIMMERM, GEORGE, EVENT_BEAT_SWIMMERM_GEORGE, SwimmermGeorgeSeenText, SwimmermGeorgeBeatenText
 
-	text "It's so far to"
-	line "Cianwood."
+	text "Ciudad Orquídea"
+	line "está muy lejos."
 
-	para "But it's no easy"
-	line "return trip to"
-	cont "Olivine either."
+	para "Pero volver a"
+	line "Ciudad Olivo"
+	cont "tampoco es fácil."
 
-	para "What should I do?"
+	para "¿Qué hago?"
 	done
 
 GenericTrainerSwimmermBerke:
 	generictrainer SWIMMERM, BERKE, EVENT_BEAT_SWIMMERM_BERKE, SwimmermBerkeSeenText, SwimmermBerkeBeatenText
 
-	text "It was a dark and"
-	line "stormy night…"
+	text "Era una noche"
+	line "oscura y"
+	cont "tormentosa…"
 
-	para "I saw this giant"
-	line "#mon flying"
-	cont "from the islands."
+	para "Vi a un #mon"
+	line "gigante volar"
+	cont "desde las islas."
 
-	para "It was scattering"
-	line "feathers from its"
-	cont "silver wings."
+	para "Esparcía plumas de"
+	line "sus alas"
+	cont "plateadas."
 	done
 
 GenericTrainerSwimmermKirk:
 	generictrainer SWIMMERM, KIRK, EVENT_BEAT_SWIMMERM_KIRK, SwimmermKirkSeenText, SwimmermKirkBeatenText
 
-	text "The currents keep"
-	line "me from reaching"
-	cont "that island."
+	text "Las corrientes no"
+	line "me dejan llegar a"
+	cont "esa isla."
 	done
 
 GenericTrainerSwimmermMathew:
 	generictrainer SWIMMERM, MATHEW, EVENT_BEAT_SWIMMERM_MATHEW, SwimmermMathewSeenText, SwimmermMathewBeatenText
 
-	text "A secret about"
-	line "Whirl Islands…"
+	text "Un secreto de las"
+	line "Islas Remolino…"
 
-	para "It's pitch-black"
-	line "inside!"
+	para "¡Dentro está"
+	line "oscuro como boca"
+	cont "de lobo!"
 	done
 
 GenericTrainerSwimmermLewis:
 	generictrainer SWIMMERM, LEWIS, EVENT_BEAT_SWIMMERM_LEWIS, SwimmermLewisSeenText, SwimmermLewisBeatenText
 
-	text "It takes knowledge"
-	line "and experience"
+	text "Hace falta saber y"
+	line "tener experiencia"
 
-	para "to not get lost"
-	line "in the water."
+	para "para no perderse"
+	line "en el agua."
 	done
 
 SwimmermCharlieSeenText:
-	text "The water's warm"
-	line "here. I'm loose"
-	cont "and limber."
+	text "El agua está"
+	line "calentita. Estoy"
+	cont "bien relajado."
 
-	para "Sure, I'll take"
-	line "you on!"
+	para "¡Vale, acepto el"
+	line "combate!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! I've got"
-	line "prune skin!"
+	text "¡Vaya! ¡Tengo la"
+	line "piel arrugada!"
 	done
 
 SwimmermGeorgeSeenText:
-	text "I'm a bit tired."
-	line "If I win, lend me"
-	cont "your #mon."
+	text "Estoy algo"
+	line "cansado. Si gano,"
+	cont "préstame tu"
+	cont "#mon."
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Pant, pant…"
+	text "Jadeo, jadeo…"
 	done
 
 SwimmermBerkeSeenText:
-	text "See those islands"
-	line "that are blocked"
-	cont "by whirlpools?"
+	text "¿Ves esas islas"
+	line "bloqueadas por"
+	cont "torbellinos?"
 
-	para "There just has to"
-	line "be a secret!"
+	para "¡Tiene que haber"
+	line "un secreto!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "What's the secret"
-	line "to your strength?"
+	text "¿Cuál es el"
+	line "secreto de tu"
+	cont "fuerza?"
 	done
 
 SwimmermKirkSeenText:
-	text "The waves are wild"
-	line "here."
+	text "Las olas están"
+	line "bravas aquí."
 
-	para "They tire you out"
-	line "while you swim."
+	para "Te agotan"
+	line "mientras nadas."
 	done
 
 SwimmermKirkBeatenText:
-	text "I'm beat!"
+	text "¡Estoy hecho"
+	line "polvo!"
 	done
 
 SwimmermMathewSeenText:
-	text "Are you seeking"
-	line "the secrets of"
-	cont "Whirl Islands?"
+	text "¿Buscas los"
+	line "secretos de las"
+	cont "Islas Remolino?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, you've got"
-	line "great endurance!"
+	text "¡Vaya, tienes"
+	line "mucho aguante!"
 	done
 
 SwimmermLewisSeenText:
-	text "I feel right at"
-	line "home in the sea!"
+	text "¡Me siento en mi"
+	line "hogar en el mar!"
 	done
 
 SwimmermLewisBeatenText:
-	text "Beaten in my own"
-	line "home?"
+	text "¿Vencido en mi"
+	line "propio hogar?"
 	done
 
 SwimmerfKayleeSeenText:
-	text "I'm on my way to"
-	line "Whirl Islands."
+	text "Voy de camino a"
+	line "las Islas"
+	cont "Remolino."
 
-	para "I'm going explor-"
-	line "ing with friends."
+	para "Voy a explorar"
+	line "con amigos."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Is that how you do"
-	line "it?"
+	text "¿Así se hace?"
 	done
 
 SwimmerfSusieSeenText:
-	text "You look so ele-"
-	line "gant, riding your"
+	text "Qué elegante"
+	line "montando tu"
 	cont "#mon."
 	done
 
 SwimmerfSusieBeatenText:
-	text "I'm crushed…"
+	text "Estoy destrozada…"
 	done
 
 SwimmerfDeniseSeenText:
-	text "The weather is so"
-	line "beautiful, I'm in"
-	cont "a daze!"
+	text "¡Hace un tiempo"
+	line "tan bonito que"
+	cont "estoy en las"
+	cont "nubes!"
 	done
 
 SwimmerfDeniseBeatenText:
-	text "Ohhh!"
+	text "¡Ohhh!"
 	done
 
 SwimmerfKaraSeenText:
-	text "If you need to"
-	line "rest, just tread"
-	cont "water."
+	text "Si necesitas"
+	line "descansar, solo"
+	cont "flota."
 
-	para "You'll get your"
-	line "wind back, so you"
+	para "Recuperarás el"
+	line "aliento, y así"
 
-	para "can keep on going"
-	line "strong."
+	para "seguirás con"
+	line "fuerza."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! You have more"
-	line "energy than I do."
+	text "¡Vaya! Tienes más"
+	line "energía que yo."
 	done
 
 SwimmerfWendySeenText:
-	text "At night, Staryu"
-	line "gather near the"
-	cont "water's surface."
+	text "De noche, los"
+	line "Staryu se reúnen"
+	cont "junto a la"
+	cont "superficie."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, dear…"
+	text "Ay, madre…"
 	done

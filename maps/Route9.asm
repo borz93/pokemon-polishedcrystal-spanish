@@ -27,149 +27,153 @@ Route9_MapScriptHeader:
 GenericTrainerCamperDean:
 	generictrainer CAMPER, DEAN, EVENT_BEAT_CAMPER_DEAN, CamperDeanSeenText, CamperDeanBeatenText
 
-	text "My #mon were"
-	line "hurt before even"
+	text "Mis #mon ya"
+	line "salieron heridos"
 
-	para "entering Rock"
-	line "Tunnel."
+	para "antes de entrar"
+	line "al Túnel Roca."
 
-	para "I'd better take"
-	line "them to a #mon"
-	cont "Center right away."
+	para "Mejor los llevo ya"
+	line "a un Centro"
+	cont "#mon."
 	done
 
 GenericTrainerPicnickerHeidi:
 	generictrainer PICNICKER, HEIDI, EVENT_BEAT_PICNICKER_HEIDI, PicnickerHeidiSeenText, PicnickerHeidiBeatenText
 
-	text "We bake lots of"
-	line "goodies and share"
+	text "Horneamos muchas"
+	line "cosas ricas y las"
 
-	para "them all around."
-	line "They're delicious!"
+	para "compartimos todos."
+	line "¡Son deliciosas!"
 	done
 
 GenericTrainerCamperSid:
 	generictrainer CAMPER, SID, EVENT_BEAT_CAMPER_SID, CamperSidSeenText, CamperSidBeatenText
 
-	text "Sorry. You weren't"
-	line "littering. It was"
-	cont "my mistake."
+	text "Perdona. No"
+	line "estabas tirando"
+	cont "basura. Fue mi"
+	cont "error."
 	done
 
 GenericTrainerPicnickerEdna:
 	generictrainer PICNICKER, EDNA, EVENT_BEAT_PICNICKER_EDNA, PicnickerEdnaSeenText, PicnickerEdnaBeatenText
 
-	text "Conserving energy"
-	line "is important, but"
+	text "Ahorrar energía es"
+	line "importante, pero"
 
-	para "the environment is"
-	line "even more vital."
+	para "el medio ambiente"
+	line "importa aún más."
 	done
 
 GenericTrainerHikerTim:
 	generictrainer HIKER, TIM, EVENT_BEAT_HIKER_TIM, HikerTimSeenText, HikerTimBeatenText
 
-	text "Battles are about"
-	line "concentration."
+	text "Los combates son"
+	line "concentración."
 	done
 
 GenericTrainerHikerSidney:
 	generictrainer HIKER, SIDNEY, EVENT_BEAT_HIKER_SIDNEY, HikerSidneySeenText, HikerSidneyBeatenText
 
-	text "The Power Plant is"
-	line "across a small"
-	cont "river."
+	text "La Central"
+	line "Eléctrica está al"
+	cont "otro lado de un"
+	cont "riachuelo."
 	done
 
 CamperDeanSeenText:
-	text "I came to explore"
-	line "Rock Tunnel."
+	text "Vine a explorar el"
+	line "Túnel Roca."
 	done
 
 CamperDeanBeatenText:
-	text "Whoa! Danger, man."
+	text "¡Uy! Peligro, tío."
 	done
 
 PicnickerHeidiSeenText:
-	text "Have you ever been"
-	line "to a picnic?"
+	text "¿Has ido alguna"
+	line "vez de picnic?"
 
-	para "They're so much"
-	line "fun!"
+	para "¡Es tan"
+	line "divertido!"
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ohhhh!"
+	text "¡Oooh!"
 	done
 
 CamperSidSeenText:
-	text "Hey, you!"
-	line "Don't litter!"
+	text "¡Eh, tú!"
+	line "¡No tires basura!"
 	done
 
 CamperSidBeatenText:
-	text "I was just point-"
-	line "ing out…"
+	text "Solo lo estaba"
+	line "señalando…"
 	done
 
 PicnickerEdnaSeenText:
-	text "People shouldn't"
-	line "leave any litter"
-	cont "behind."
+	text "Nadie debería"
+	line "dejar basura"
+	cont "atrás."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ohh… I lost…"
+	text "Ohh… Perdí…"
 	done
 
 HikerTimSeenText:
-	text "♪ She'll be coming"
-	line "'round Mt.Silver"
-	cont "when she comes… ♪"
+	text "♪ Ella vendrá por"
+	line "el Monte Plateado"
+	cont "cuando venga… ♪"
 
-	para "Mt.Silver is in"
-	line "Johto, right?"
+	para "El Monte Plateado"
+	line "está en Johto,"
+	cont "¿no?"
 	done
 
 HikerTimBeatenText:
-	text "I was too busy"
-	line "singing…"
+	text "Estaba muy"
+	line "ocupado cantando…"
 	done
 
 HikerSidneySeenText:
-	text "I'll tell you a"
-	line "secret."
+	text "Te diré un"
+	line "secreto."
 
-	para "But first, we"
-	line "battle!"
+	para "¡Pero antes,"
+	line "combatimos!"
 	done
 
 HikerSidneyBeatenText:
-	text "Oh, dang!"
-	line "I lost that…"
+	text "¡Oh, vaya!"
+	line "Perdí eso…"
 	done
 
 Route9SignText:
-	text "Route 9"
+	text "Ruta 9"
 
-	para "Cerulean City -"
-	line "Rock Tunnel"
+	para "Ciudad Celeste -"
+	line "Túnel Roca"
 	done
 
 Route9AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejo"
+	line "avanzado!"
 
-	para "A #mon holding"
-	line "a Toxic Orb will"
-	cont "be poisoned, and"
+	para "Un #mon con una"
+	line "Esfera Tóx. se"
+	cont "envenena, y uno"
 
-	para "one holding a"
-	line "Flame Orb will"
-	cont "be burned."
+	para "con una Esfera"
+	line "Llama se quema."
 
-	para "But the Ability"
-	line "Guts makes this"
+	para "Pero la Habilidad"
+	line "Agallas convierte"
 
-	para "an advantage by"
-	line "boosting Attack!"
+	para "eso en ventaja"
+	line "subiendo el"
+	cont "Ataque!"
 	done

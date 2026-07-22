@@ -135,21 +135,22 @@ CeruleanCapeDateInterruptedTrigger3:
 GenericTrainerSwimmermRomeo:
 	generictrainer SWIMMERM, ROMEO, EVENT_BEAT_SWIMMERM_ROMEO, .SeenText, .BeatenText
 
-	text "Being a good"
-	line "Swimmer doesn't"
+	text "Ser un buen"
+	line "Nadador no me"
 
-	para "make me a good"
-	line "trainer…"
+	para "hace un buen"
+	line "entrenador…"
 	done
 
 .SeenText:
-	text "Admire my fitness!"
-	line "My victory is"
-	cont "assured!"
+	text "¡Admira mi buena"
+	line "forma! ¡Mi"
+	cont "victoria está"
+	cont "asegurada!"
 	done
 
 .BeatenText:
-	text "Oh! That's it?"
+	text "¡Oh! ¿Eso es todo?"
 	done
 
 TrainerSwimmermMalcolm:
@@ -159,156 +160,163 @@ TrainerSwimmermMalcolm:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Don't tell me,"
-	line "you visit lots of"
+	text "No me digas que"
+	line "visitas muchos"
 
-	para "#mon Gyms,"
-	line "right?"
+	para "Gimnasios"
+	line "#mon, ¿verdad?"
 	done
 
 .SeenText:
-	text "My #mon and I"
-	line "swim together,"
+	text "Mis #mon y yo"
+	line "nadamos juntos,"
 
-	para "but we also"
-	line "battle!"
+	para "¡pero también"
+	line "combatimos!"
 	done
 
 .BeatenText:
-	text "I wish I were as"
-	line "strong as you."
+	text "Ojalá fuera tan"
+	line "fuerte como tú."
 	done
 
 GenericTrainerSwimmermArmand:
 	generictrainer SWIMMERM, ARMAND, EVENT_BEAT_SWIMMERM_ARMAND, .SeenText, .BeatenText
 
-	text "That gal on the"
-	line "shore… Her music"
-	cont "is good, but she's"
+	text "Esa chica de la"
+	line "orilla… Su música"
+	cont "es buena, pero"
 
-	para "distracting the"
+	para "¡distrae a los"
 	line "#mon!"
 	done
 
 .SeenText:
-	text "Ugh. Would that"
-	line "Guitarist on the"
+	text "Uf. ¿Podría esa"
+	line "Guitarrista de la"
 
-	para "shore keep it"
-	line "down?"
+	para "orilla bajar el"
+	line "volumen?"
 	done
 
 .BeatenText:
-	text "The guitar put me"
-	line "off my stride!"
+	text "¡La guitarra me"
+	line "distrajo!"
 	done
 
 GenericTrainerBeautyBridget:
 	generictrainer BEAUTY, BRIDGET, EVENT_BEAT_BEAUTY_BRIDGET, .SeenText, .BeatenText
 
-	text "I think the view"
-	line "here is beautiful."
-	cont "Don't you agree?"
+	text "Creo que la vista"
+	line "de aquí es"
+	cont "preciosa. ¿No"
+	cont "crees?"
 	done
 
 .SeenText:
-	text "Hey! You're block-"
-	line "ing my view!"
+	text "¡Oye! ¡Me tapas"
+	line "la vista!"
 	done
 
 .BeatenText:
-	text "I was just trying"
-	line "to enjoy the view…"
+	text "Solo intentaba"
+	line "disfrutar de la"
+	cont "vista…"
 	done
 
 GenericTrainerBeautyVeronica:
 	generictrainer BEAUTY, VERONICA, EVENT_BEAT_BEAUTY_VERONICA, .SeenText, .BeatenText
 
-	text "Treat me mean and"
-	line "I'll tell you where"
-	cont "to go!"
+	text "Trátame mal y te"
+	line "diré adónde ir."
 
-	para "Must be why I'm"
-	line "single. …Haha!"
+	para "Por eso debo"
+	line "estar soltera."
+	cont "…¡Jaja!"
 	done
 
 .SeenText:
-	text "I don't date much,"
-	line "but when I do,"
+	text "No suelo tener"
+	line "citas, pero"
 
-	para "Cerulean Cape is"
-	line "the perfect spot."
+	para "cuando las tengo,"
+	line "el Cabo Celeste es"
+	cont "el lugar perfecto."
 	done
 
 .BeatenText:
-	text "Treat 'em mean,"
-	line "keep 'em keen,"
-	cont "right?"
+	text "Trátalos mal para"
+	line "que sigan"
+	cont "interesados, ¿no?"
 	done
 
 GenericTrainerGentlemanCamus:
 	generictrainer GENTLEMAN, CAMUS, EVENT_BEAT_GENTLEMAN_CAMUS, .SeenText, .BeatenText
 
-	text "I was once a ta-"
-	line "lented trainer,"
+	text "Antes fui un"
+	line "entrenador con"
+	cont "talento,"
 
-	para "but now I'm just an"
-	line "old has-been."
+	para "pero ahora ya no"
+	line "soy nadie."
 
-	para "Enjoy it while"
-	line "you're still young."
+	para "Disfrútalo"
+	line "mientras seas"
+	cont "joven."
 	done
 
 .SeenText:
-	text "Seeing you reminds"
-	line "me of my own wild"
-	cont "youth."
+	text "Verte me recuerda"
+	line "a mi propia"
+	cont "juventud salvaje."
 	done
 
 .BeatenText:
-	text "What a wild"
-	line "battle!"
+	text "¡Vaya combate tan"
+	line "salvaje!"
 	done
 
 GenericTrainerGentlemanGeoffrey:
 	generictrainer GENTLEMAN, GEOFFREY, EVENT_BEAT_GENTLEMAN_GEOFFREY, .SeenText, .BeatenText
 
-	text "Sometimes a change"
-	line "is as good as a"
-	cont "rest."
+	text "A veces un cambio"
+	line "es tan bueno como"
+	cont "un descanso."
 
-	para "I feel so refresh-"
-	line "ed!"
+	para "¡Me siento tan"
+	line "renovado!"
 	done
 
 .SeenText:
-	text "I wanted a change,"
-	line "so I got into"
-	cont "#mon!"
+	text "Quería un cambio,"
+	line "así que me metí"
+	cont "¡en los #mon!"
 	done
 
 .BeatenText:
-	text "Despite my age, I'm"
-	line "still a beginner."
+	text "A pesar de mi"
+	line "edad, sigo siendo"
+	cont "un novato."
 	done
 
 GenericTrainerGuitaristfMorgan:
 	generictrainer GUITARISTF, MORGAN, EVENT_BEAT_GUITARISTF_MORGAN, .SeenText, .BeatenText
 
-	text "The echoing cliffs"
-	line "make the Cape a"
-	cont "perfect sound-"
-	cont "board!"
+	text "Los acantilados"
+	line "resonantes hacen"
+	cont "del Cabo la caja"
+	cont "de resonancia"
+	cont "perfecta."
 	done
 
 .SeenText:
-	text "Listen to that"
-	line "reverb!"
+	text "¡Escucha esa"
+	line "reverberación!"
 	done
 
 .BeatenText:
-	text "What a rockin'"
-	line "battle!"
+	text "¡Vaya combate tan"
+	line "roquero!"
 	done
 
 TrainerLadyJessica:
@@ -329,55 +337,56 @@ TrainerLadyJessica:
 	waitendtext
 
 .SeenText:
-	text "Ah! You there!"
-	line "Care to battle"
-	cont "with me?"
+	text "¡Ah! ¡Tú!"
+	line "¿Combates"
+	cont "conmigo?"
 	done
 
 .BeatenText:
-	text "Oh no! I got my"
-	line "dress all wet!"
+	text "¡Oh no! ¡Se me"
+	line "empapó el vestido!"
 	done
 
 .AfterText1:
-	text "I'll have to buy a"
-	line "better #mon…"
+	text "Tendré que comprar"
+	line "mejores #mon…"
 	cont "………………"
-	cont "And a new dress…"
+	cont "Y un vestido"
+	cont "nuevo…"
 	done
 
 .AfterText2:
-	text "Why are you still"
-	line "here?"
+	text "¿Por qué sigues"
+	line "aquí?"
 
-	para "Stop staring at"
-	line "me!"
+	para "¡Deja de"
+	line "mirarme!"
 	cont "………………"
-	cont "Creep!"
+	cont "¡Qué mal rollo!"
 	done
 
 GenericTrainerFisherLeroy:
 	generictrainer FISHER, LEROY, EVENT_BEAT_FISHER_LEROY, .SeenText, .BeatenText
 
-	text "All I ever catch"
-	line "are Magikarp…"
+	text "Solo atrapo"
+	line "Magikarp…"
 
-	para "At least they all"
-	line "look unique."
+	para "Al menos todos se"
+	line "ven únicos."
 	done
 
 .SeenText:
-	text "I keep catching"
-	line "the same #mon…"
+	text "Sigo atrapando el"
+	line "mismo #mon…"
 
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
+	para "Quizá un combate"
+	line "me cambie la"
+	cont "suerte."
 	done
 
 .BeatenText:
-	text "Nothing ever goes"
-	line "right for me now…"
+	text "Nada me sale bien"
+	line "ahora…"
 	done
 
 Route25MistysDateLeavesMovement2:
@@ -414,45 +423,50 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "Misty: Aww! Why"
-	line "did you have to"
+	text "Misty: ¡Ay! ¿Por"
+	line "qué tenías que"
 
-	para "show up and bug us"
-	line "now?"
+	para "aparecer a"
+	line "molestarnos"
+	cont "ahora?"
 
-	para "Do you know what"
-	line "they call people"
-	cont "like you?"
+	para "¿Sabes cómo"
+	line "llaman a la gente"
+	cont "como tú?"
 
-	para "Pests! You heard"
-	line "me right, pest!"
+	para "¡Pesados! Bien que"
+	line "me oíste, ¡pesado!"
 
 	para "…"
 
-	para "…Oh? Those Badges"
-	line "you have… Are they"
-	cont "Johto Gym Badges?"
+	para "…¿Oh? Esas"
+	line "Medallas que"
+	cont "tienes… ¿Son de"
+	cont "Johto?"
 
-	para "If you have eight,"
-	line "you must be good."
+	para "Si tienes ocho,"
+	line "debes de ser"
+	cont "bueno."
 
-	para "OK, then. Come to"
-	line "Cerulean Gym."
+	para "Vale, pues. Ven al"
+	line "Gimnasio Celeste."
 
-	para "I'll be happy to"
-	line "take you on."
+	para "Estaré encantada"
+	line "de enfrentarme a"
+	cont "ti."
 
-	para "I'm Misty, the"
-	line "Gym Leader in"
-	cont "Cerulean."
+	para "Soy Misty, la"
+	line "Líder de Gimnasio"
+	cont "de Ciudad Celeste."
 	done
 
 BillsHouseSignText:
-	text "Sea Cottage"
-	line "Bill's House"
+	text "Casita del Mar"
+	line "Casa de Bill"
 	done
 
 CeruleanCapeSailboatText:
-	text "It's a sailboat"
-	line "named FriendShip."
+	text "Es un velero"
+	line "llamado"
+	cont "FriendShip."
 	done

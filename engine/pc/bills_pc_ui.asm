@@ -1455,8 +1455,9 @@ ManageBoxes:
 	jmp .loop
 
 .ContinueBoxUse:
-	text "Continue Box"
-	line "operations?"
+	text "¿Seguir con las"
+	line "operaciones de"
+	cont "caja?"
 	done
 
 .StorageMonMenu:
@@ -1528,27 +1529,27 @@ ManageBoxes:
 	db -1
 
 BillsPC_MenuStrings:
-	db "Cancel@"
+	db "Nada@"
 	; pokémon management options
-	db "Withdraw@"
-	db "Deposit@"
-	db "Summary@"
-	db "Switch@"
-	db "Item@"
-	db "Release@"
+	db "Retirar@"
+	db "Guardar@"
+	db "Estado@"
+	db "Cambiar@"
+	db "Objeto@"
+	db "Liberar@"
 	; box options
-	db "Change@"
-	db "Rename@"
-	db "Theme@"
-	db "Release@"
+	db "Caja@"
+	db "Renomb.@"
+	db "Tema@"
+	db "Liberar@"
 	; holding a mail
-	db "Take@"
-	db "Read@"
+	db "Coger@"
+	db "Leer@"
 	; holding an item
-	db "Move@"
-	db "Bag@"
+	db "Mover@"
+	db "Bolso@"
 	; doesn't hold an item
-	db "Give@"
+	db "Dar@"
 
 BillsPC_MenuJumptable:
 	dw DoNothing
@@ -2528,18 +2529,19 @@ BillsPC_UpdateStorage_CheckMewtwo:
 	jmp PopBCDEHL
 
 BillsPC_CantPutMailIntoPackText:
-	text "The Mail would"
-	line "lose its message."
+	text "El Correo perderá"
+	line "su mensaje."
 	prompt
 
 BillsPC_PackFullText:
-	text "The Bag is full…"
+	text "El Bolso está"
+	line "lleno…"
 	prompt
 
 BillsPC_MovedToPackText:
-	text "Moved "
+	text "Se movió "
 	text_ram wStringBuffer1
-	line "to Bag."
+	line "al Bolso."
 	prompt
 
 BillsPC_Menu:
@@ -2600,15 +2602,16 @@ BillsPC_Item:
 	jr BillsPC_Menu
 
 .ItemIsSelected:
+	text "Seleccionaste:"
+	line ""
 	text_ram wStringBuffer2
-	text " is"
-	line "selected."
 	done
 
 .ItCanHoldAnItem:
 	text_ram wTempMonNickname
-	text " can"
-	line "hold an item."
+	text " puede"
+	line "llevar un"
+	cont "objeto."
 	done
 
 .MailMenu:
@@ -2672,8 +2675,9 @@ BillsPC_Item:
 	db -1
 
 BillsPC_EggsCantHoldItemsText:
-	text "Eggs can't hold"
-	line "items."
+	text "Los Huevos no"
+	line "pueden llevar"
+	cont "objetos."
 	prompt
 
 BillsPC_CanReleaseMon:
@@ -2840,35 +2844,39 @@ BillsPC_ReleaseAll:
 	jmp CloseWindow
 
 .ReallyReleaseBox:
-	text "Really release the"
-	line "entire Box?"
+	text "¿Liberar toda"
+	line "la Caja?"
 	done
 
 .CantRecallReleasedMons:
-	text "You can't recall"
-	line "released #mon."
-	cont "Are you sure?"
+	text "No puedes"
+	line "recuperar #mon"
+	cont "liberados."
+	cont "¿Estás seguro?"
 	done
 
 .NothingThere:
-	text "The Box is empty."
+	text "La Caja está"
+	line "vacía."
 	prompt
 
 .NothingReleased:
-	text "You can't release"
-	line "Eggs or #mon"
-	cont "with HM moves."
+	text "No puedes liberar"
+	line "Huevos o #mon"
+	cont "con movimientos"
+	cont "MO."
 	prompt
 
 .ReleasedXMon:
-	text "Released "
+	text "Liberaste "
 	text_decimal wTextDecimalByte, 1, 2
 	line "#mon."
 	prompt
 
 .TheRestWasnt:
-	text "The rest are Eggs"
-	line "or know HM moves."
+	text "El resto son"
+	line "Huevos o saben"
+	cont "movs. de MO."
 	prompt
 
 BillsPC_Release:
@@ -2923,26 +2931,28 @@ BillsPC_Release:
 	jmp BillsPC_PrintText
 
 .CantReleaseEgg:
-	text "You can't release"
-	line "an Egg!"
+	text "¡No puedes"
+	line "liberar un Huevo!"
 	prompt
 
 .CantReleaseHMMons:
-	text "You can't release"
-	line "<PK><MN> with HM moves!"
+	text "No puedes liberar"
+	line "<PK><MN> con movs."
+	cont "de MO!"
 	prompt
 
 .ReallyReleaseMon:
-	text "Really release"
+	text "¿Liberar a"
 	line ""
 	text_ram wTempMonNickname
 	text "?"
 	done
 
 .WasReleasedOutside:
+	text "Se liberó a"
+	line ""
 	text_ram wStringBuffer1
-	text " was"
-	line "released outside."
+	text " fuera."
 	cont "Bye, "
 	text_ram wStringBuffer1
 	text "!"
@@ -2997,8 +3007,8 @@ BillsPC_Theme:
 	jmp BillsPC_RefreshTheme
 
 .PickAThemeText:
-	text "Please"
-	line "pick a theme."
+	text "Por favor,"
+	line "elige un tema."
 	done
 
 .ThemeMenuDataHeader:
@@ -3077,8 +3087,8 @@ BillsPC_Change:
 	jr BillsPC_ChangeBox
 
 .PickABoxToChangeToText:
-	text "Pick a"
-	line "Box to change to."
+	text "Elige la Caja a"
+	line "la que cambiar."
 	done
 
 .ChangeMenuDataHeader:
@@ -3407,31 +3417,34 @@ BillsPC_SwapStorage:
 	ret
 
 .PartyIsFull:
-	text "The party is full."
+	text "El equipo está"
+	line "completo."
 	prompt
 
 .BoxIsFull:
-	text "The Box is full."
+	text "La Caja está"
+	line "llena."
 	prompt
 
 .IsHoldingMail:
-	text "Held Mail must be"
-	line "removed first."
+	text "Primero debes"
+	line "quitar el Correo."
 	prompt
 
 .CantStoreMail:
-	text "Can't place Mail in"
-	line "storage."
+	text "No puedes guardar"
+	line "Correo en la Caja."
 	prompt
 
 BillsPC_LastPartyMon:
-	text "That's your last"
-	line "healthy #mon!"
+	text "¡Es tu último"
+	line "#mon sano!"
 	prompt
 
 BillsPC_MustSaveToContinue:
-	text "Save the game to"
-	line "do this?"
+	text "¿Guardar la"
+	line "partida para"
+	cont "hacer esto?"
 	done
 
 BillsPC_GameSaved:

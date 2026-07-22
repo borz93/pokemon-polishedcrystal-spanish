@@ -22,23 +22,24 @@ Route34Coast_MapScriptHeader:
 GenericTrainerSwimmermFrank:
 	generictrainer SWIMMERM, FRANK, EVENT_BEAT_SWIMMERM_FRANK, .SeenText, .BeatenText
 
-	text "Sea, sand, sun,"
-	line "and #mon!"
+	text "Mar, arena, sol"
+	line "y #mon!"
 
-	para "What more could a"
-	line "guy need?"
+	para "¿Qué más podría"
+	line "querer un tipo?"
 	done
 
 .SeenText:
-	text "I'm vacationing"
-	line "with my wife, but"
-	cont "OK--I'll battle"
-	cont "you."
+	text "Estoy de"
+	line "vacaciones con mi"
+	cont "esposa, pero vale,"
+	cont "te combatiré."
 	done
 
 .BeatenText:
-	text "I don't care,"
-	line "I'm on vacation!"
+	text "No me importa,"
+	line "¡estoy de"
+	cont "vacaciones!"
 	done
 
 TrainerSwimmermNadar:
@@ -48,128 +49,132 @@ TrainerSwimmermNadar:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Practice swimming,"
-	line "or train with my"
+	text "¿Practico natación"
+	line "o entreno con mis"
 	cont "#mon?"
 
-	para "What a dilemma."
+	para "Menudo dilema."
 	done
 
 .SeenText:
-	text "Swimming is my"
-	line "speciality!"
+	text "¡La natación es mi"
+	line "especialidad!"
 
-	para "#mon battles"
-	line "are too!"
+	para "¡Los combates"
+	line "#mon también!"
 	done
 
 .BeatenText:
-	text "I lost at my own"
-	line "speciality?"
+	text "¿Perdí en mi"
+	line "propia"
+	cont "especialidad?"
 	done
 
 GenericTrainerSwimmermConrad:
 	generictrainer SWIMMERM, CONRAD, EVENT_BEAT_SWIMMERM_CONRAD, .SeenText, .BeatenText
 
-	text "UV rays are refle-"
-	line "cted by the waves."
+	text "Los rayos UV se"
+	line "reflejan en las"
+	cont "olas."
 
-	para "Always remember"
-	line "sun lotion."
+	para "Nunca olvides la"
+	line "crema solar."
 	done
 
 .SeenText:
-	text "Lotion on, goggles"
-	line "down… I'm all"
+	text "Crema puesta,"
+	line "gafas listas…"
 
-	para "fired up to hit"
-	line "the waves!"
+	para "¡Estoy motivado"
+	line "para las olas!"
 	done
 
 .BeatenText:
-	text "Oof! The waves"
-	line "hit me this time."
+	text "¡Uf! Esta vez me"
+	line "ganaron las olas."
 	done
 
 GenericTrainerSwimmerfCaroline:
 	generictrainer SWIMMERF, CAROLINE, EVENT_BEAT_SWIMMERF_CAROLINE, .SeenText, .BeatenText
 
-	text "We're staying in"
-	line "Goldenrod, but"
+	text "Nos alojamos en"
+	line "Ciudad Trigal,"
+	cont "pero"
 
-	para "this Route makes"
-	line "for a lovely"
-	cont "excursion!"
+	para "esta Ruta es una"
+	line "excursión"
+	cont "encantadora!"
 	done
 
 .SeenText:
-	text "My husband and I"
-	line "are here on a"
-	cont "vacation."
+	text "Mi esposo y yo"
+	line "estamos aquí de"
+	cont "vacaciones."
 	done
 
 .BeatenText:
-	text "Oh! What a shame."
+	text "¡Oh! Qué pena."
 	done
 
 GenericTrainerSwimmerfNatalia:
 	generictrainer SWIMMERF, NATALIA, EVENT_BEAT_SWIMMERF_NATALIA, .SeenText, .BeatenText
 
-	text "I think I bought"
-	line "the wrong bikini."
+	text "Creo que compré"
+	line "el bikini"
+	cont "equivocado."
 
-	para "This really isn't"
-	line "my color."
+	para "La verdad es que"
+	line "no es mi color."
 	done
 
 .SeenText:
-	text "I bought a new"
-	line "bikini."
+	text "Me compré un"
+	line "bikini nuevo."
 
-	para "It's the latest"
-	line "fashion."
+	para "Es lo último en"
+	line "moda."
 	done
 
 .BeatenText:
-	text "Bah!"
+	text "¡Bah!"
 	done
 
 GenericTrainerFisherFrancis:
 	generictrainer FISHER, FRANCIS, EVENT_BEAT_FISHER_FRANCIS, .SeenText, .BeatenText
 
-	text "It doesn't matter"
-	line "if I win or lose."
+	text "No importa si gano"
+	line "o pierdo."
 
-	para "I just want to"
-	line "have fun and keep"
-	cont "fishing."
+	para "Solo quiero"
+	line "divertirme y"
+	cont "seguir pescando."
 	done
 
 .SeenText:
-	text "I like fishing for"
-	line "#mon in exotic"
-	cont "places."
+	text "Me gusta pescar"
+	line "#mon en lugares"
+	cont "exóticos."
 	done
 
 .BeatenText:
-	text "Oh! What a great"
-	line "hit!"
+	text "¡Oh! ¡Qué gran"
+	line "pesca!"
 	done
 
 GenericTrainerBird_keeperTony:
 	generictrainer BIRD_KEEPER, BIRD_KEEPER_TONY, EVENT_BEAT_BIRD_KEEPER_TONY, .SeenText, .BeatenText
 
-	text "Everybody's heard"
-	line "that the bird is"
-	cont "the word."
+	text "Todo el mundo dice"
+	line "que el pájaro es"
+	cont "la palabra."
 	done
 
 .SeenText:
-	text "Have you heard"
-	line "about the bird?"
+	text "¿Has oído hablar"
+	line "del pájaro?"
 	done
 
 .BeatenText:
-	text "Don't you know"
-	line "about the bird?"
+	text "¿No sabes lo del"
+	line "pájaro?"
 	done

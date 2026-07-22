@@ -442,9 +442,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	text "Call"
-	next "Delete"
-	next "Cancel"
+	text "Llamar"
+	next "Borrar"
+	next "Salir"
 	done
 
 .CallDeleteCancelJumptable:
@@ -455,8 +455,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	text "Call"
-	next "Cancel"
+	text "Llamar"
+	next "Borrar"
 	done
 
 .CallCancelJumptable:

@@ -149,31 +149,34 @@ GruntM28Script:
 GenericTrainerRocketScientistRoss:
 	generictrainer ROCKET_SCIENTIST, ROSS, EVENT_BEAT_ROCKET_SCIENTIST_ROSS, RocketScientistRossSeenText, RocketScientistRossBeatenText
 
-	text "A radio signal"
-	line "that drives #-"
-	cont "mon mad…"
+	text "Una señal de radio"
+	line "que enloquece a"
+	cont "los #mon…"
 
-	para "My experiment is a"
-	line "complete success."
+	para "Mi experimento es"
+	line "un éxito total."
 
-	para "My promotion is"
-	line "assured. This loss"
+	para "Mi ascenso está"
+	line "asegurado. Esta"
 
-	para "means absolutely"
-	line "nothing."
+	para "derrota no"
+	line "significa nada en"
+	cont "absoluto."
 	done
 
 GenericTrainerRocketScientistMitch:
 	generictrainer ROCKET_SCIENTIST, MITCH, EVENT_BEAT_ROCKET_SCIENTIST_MITCH, RocketScientistMitchSeenText, RocketScientistMitchBeatenText
 
-	text "If we turn up the"
-	line "power of our radio"
+	text "Si aumentamos la"
+	line "potencia de"
+	cont "nuestra señal de"
 
-	para "signal for broad-"
-	line "cast nationwide…"
+	para "radio para emitir"
+	line "a nivel"
+	cont "nacional…"
 
-	para "The very thought"
-	line "excites me!"
+	para "¡Solo pensarlo me"
+	line "emociona!"
 	done
 
 BossDoor:
@@ -188,10 +191,12 @@ BossDoor:
 .NeedsPassword:
 	jumpthisopenedtext
 
-	text "The door's closed…"
+	text "La puerta está"
+	line "cerrada…"
 
-	para "It needs two"
-	line "passwords to open."
+	para "Necesita dos"
+	line "contraseñas para"
+	cont "abrirse."
 	done
 
 .OpenSesame:
@@ -297,216 +302,241 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "Lance: It takes"
-	line "two passwords to"
+	text "Lance: Hacen"
+	line "falta dos"
+	cont "contraseñas para"
 
-	para "get into the"
-	line "boss's quarters."
+	para "entrar en los"
+	line "aposentos del"
+	cont "jefe."
 
-	para "Those passwords"
-	line "are known only to"
-	cont "a few Rockets."
+	para "Esas contraseñas"
+	line "solo las conocen"
+	cont "unos pocos del"
+	cont "Team Rocket."
 
-	para "That Rocket there"
-	line "very graciously"
-	cont "told me so."
+	para "Ese del Team"
+	line "Rocket de ahí me"
+	cont "lo dijo muy"
+	cont "amablemente."
 
-	para "<PLAYER>, let's go"
-	line "get the passwords."
+	para "<PLAYER>, vamos a"
+	line "por las"
+	cont "contraseñas."
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… The guy"
-	line "in the cape is"
-	cont "incredibly tough…"
+	text "Urrggh… El tipo"
+	line "de la capa es"
+	cont "increíblemente"
+	cont "duro…"
 	done
 
 RocketBaseRivalText:
 	text "…"
 
-	para "Didn't I tell you"
-	line "that I was going"
+	para "¿No te dije que"
+	line "iba a destruir al"
+	cont "Team Rocket?"
 
-	para "to destroy Team"
-	line "Rocket?"
+	para "…Dime, ¿quién era"
+	line "el tipo de la capa"
 
-	para "…Tell me, who was"
-	line "the guy in the"
+	para "que usaba"
+	line "#mon dragón?"
 
-	para "cape who used"
-	line "dragon #mon?"
+	para "Mis #mon no"
+	line "tuvieron ninguna"
+	cont "oportunidad."
 
-	para "My #mon were no"
-	line "match at all."
+	para "No me importa"
+	line "haber perdido."
+	cont "Puedo vencerlo"
 
-	para "I don't care that"
-	line "I lost. I can beat"
+	para "consiguiendo"
+	line "#mon más"
+	cont "fuertes."
 
-	para "him by getting"
-	line "stronger #mon."
+	para "Es lo que dijo lo"
+	line "que me molesta…"
 
-	para "It's what he said"
-	line "that bothers me…"
+	para "Me dijo que no"
+	line "quiero ni confío"
 
-	para "He told me that"
-	line "I don't love and"
+	para "en mis #mon lo"
+	line "suficiente."
 
-	para "trust my #mon"
-	line "enough."
+	para "Me da rabia haber"
+	line "perdido contra un"
+	cont "blando como él."
 
-	para "I'm furious that I"
-	line "lost to a bleeding"
-	cont "heart like him."
-
-	para "…Humph! I don't"
-	line "have the time for"
-	cont "the likes of you!"
+	para "…¡Já! ¡No tengo"
+	line "tiempo para gente"
+	cont "como tú!"
 	done
 
 ExecutiveM4BeforeText:
-	text "What? Who are you?"
-	line "This is the office"
+	text "¿Qué? ¿Quién"
+	line "eres? Este es el"
 
-	para "of our leader,"
-	line "Giovanni."
+	para "despacho de"
+	line "nuestro líder,"
+	cont "Giovanni."
 
-	para "Since disbanding"
-	line "Team Rocket three"
+	para "Desde que"
+	line "disolvió el Team"
 
-	para "years ago, he has"
-	line "been in training."
+	para "Rocket hace tres"
+	line "años, ha estado"
+	cont "entrenando."
 
-	para "But we're certain"
-	line "he will be back"
+	para "Pero estamos"
+	line "seguros de que"
 
-	para "some day to assume"
-	line "command again."
+	para "volverá algún día"
+	line "a tomar el mando"
+	cont "otra vez."
 
-	para "That's why we're"
-	line "standing guard."
+	para "Por eso estamos"
+	line "de guardia."
 
-	para "I won't let any-"
-	line "one disturb this"
-	cont "place!"
+	para "¡No dejaré que"
+	line "nadie moleste este"
+	cont "lugar!"
 	done
 
 ExecutiveM4BeatenText:
-	text "I… I couldn't do a"
-	line "thing…"
+	text "Yo… No pude hacer"
+	line "nada…"
 
-	para "Giovanni, please"
-	line "forgive me…"
+	para "Giovanni, por"
+	line "favor,"
+	cont "perdóname…"
 	done
 
 ExecutiveM4AfterText:
-	text "No, I can't let"
-	line "this affect me."
+	text "No, no puedo dejar"
+	line "que esto me"
+	cont "afecte."
 
-	para "I have to inform"
-	line "the others…"
+	para "Debo avisar a los"
+	line "demás…"
 	done
 
 RocketBaseMurkrowText:
-	text "Murkrow: The"
-	line "password is…"
+	text "Murkrow: La"
+	line "contraseña es…"
 
-	para "Hail Giovanni."
+	para "Viva Giovanni."
 	done
 
 GruntF5SeenText:
-	text "Do I know the"
-	line "password?"
+	text "¿Que si sé la"
+	line "contraseña?"
 
-	para "Maybe."
+	para "Puede."
 
-	para "But no weakling's"
-	line "going to get it!"
+	para "¡Pero ningún"
+	line "debilucho la va a"
+	cont "conseguir!"
 	done
 
 GruntF5BeatenText:
-	text "All right. Stop."
-	line "I'll tell you."
+	text "Vale. Para."
+	line "Te lo diré."
 	done
 
 GruntF5AfterBattleText:
-	text "The password to"
-	line "the boss's room is"
+	text "La contraseña"
+	line "para la sala del"
+	cont "jefe es"
 
-	para "SlowpokeTail."
+	para "ColaSlowpoke."
 
-	para "But it's useless"
-	line "unless you have"
-	cont "two passwords."
+	para "Pero es inútil a"
+	line "menos que tengas"
+	cont "las dos"
+	cont "contraseñas."
 	done
 
 GruntM28SeenText:
-	text "Hyuck-hyuck-hyuck!"
+	text "¡Jiji-jiji-jiji!"
 
-	para "You're challenging"
-	line "me to a battle?"
+	para "¿Me estás retando"
+	line "a un combate?"
 
-	para "Hah! You're nuts,"
-	line "but you have guts!"
+	para "¡Já! Estás loco,"
+	line "¡pero tienes"
+	cont "agallas!"
 
-	para "I like that!"
+	para "¡Eso me gusta!"
 
-	para "If you can beat"
-	line "me, I'll tell you"
+	para "Si puedes"
+	line "vencerme, ¡te diré"
 
-	para "a password to the"
-	line "boss's room!"
+	para "una contraseña de"
+	line "la sala del jefe!"
 	done
 
 GruntM28BeatenText:
-	text "Hyuck-hyuck-hyuck!"
-	line "You're good!"
+	text "¡Jiji-jiji-jiji!"
+	line "¡Eres bueno!"
 	done
 
 GruntM28AfterBattleText:
-	text "Hyuck-hyuck-hyuck!"
+	text "¡Jiji-jiji-jiji!"
 
-	para "The password to"
-	line "the boss's room…"
+	para "La contraseña"
+	line "para la sala del"
+	cont "jefe…"
 
-	para "Uh…, I think it is"
-	line "Raticate Tail."
+	para "Eh…, creo que es"
+	line "ColaRaticate."
 	done
 
 RocketScientistRossSeenText:
-	text "I used to work for"
-	line "Silph, but now I"
+	text "Antes trabajaba"
+	line "para Silph, pero"
 
-	para "run research for"
-	line "Team Rocket."
+	para "ahora dirijo la"
+	line "investigación del"
+	cont "Team Rocket."
 
-	para "A meddlesome child"
-	line "like you needs to"
-	cont "be punished."
+	para "Un niño"
+	line "entrometido como"
+	cont "tú debe ser"
+	cont "castigado."
 	done
 
 RocketScientistRossBeatenText:
-	text "A mere tactical"
-	line "error cost me…"
+	text "Un simple error"
+	line "táctico me costó"
+	cont "caro…"
 	done
 
 RocketScientistMitchSeenText:
-	text "I don't care that"
-	line "#mon are hurt"
-	cont "by our experiment."
+	text "No me importa que"
+	line "los #mon salgan"
+	cont "heridos por"
+	cont "nuestro"
+	cont "experimento."
 	done
 
 RocketScientistMitchBeatenText:
-	text "Thinking is my"
-	line "strong suit, not"
-	cont "battling."
+	text "Pensar es mi"
+	line "fuerte, no"
+	cont "combatir."
 	done
 
 
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "The door's closed…"
+	text "La puerta está"
+	line "cerrada…"
 
-	para "<PLAYER> entered"
-	line "the two passwords."
+	para "<PLAYER> introdujo"
+	line "las dos"
+	cont "contraseñas."
 
-	para "The door opened!"
+	para "¡La puerta se"
+	line "abrió!"
 	done

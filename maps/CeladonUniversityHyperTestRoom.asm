@@ -143,159 +143,168 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	playsound SFX_WRONG
 	jumpthisopenedtext
 
-	text "I'm sorry, that's"
-	line "incorrect!"
+	text "Lo siento, ¡eso es"
+	line "incorrecto!"
 
-	para "You may try and"
-	line "retake the Hyper"
-	cont "Test tomorrow."
+	para "Puedes volver a"
+	line "hacer el Test"
+	cont "Hiper mañana."
 	done
 
 .GreetingText:
-	text "Prof.Westwood?"
-	line "That would be me."
+	text "¿Prof.Westwood?"
+	line "Ese sería yo."
 	done
 
 .IntroText:
-	text "A researcher"
-	line "extraordinaire!"
+	text "¡Un investigador"
+	line "extraordinario!"
 
-	para "My findings are"
-	line "second to none."
+	para "Mis hallazgos no"
+	line "tienen igual."
 
-	para "No doubt I'll win"
-	line "a commendation"
-	cont "before long…"
+	para "Sin duda ganaré"
+	line "una distinción"
+	cont "pronto…"
 	done
 
 .QuestionText:
-	text "Ahem. What was"
-	line "that?"
+	text "Ejem. ¿Qué fue"
+	line "eso?"
 
-	para "You came to take"
-	line "the Celadon Univ-"
-	cont "ersity Hyper Test?"
+	para "¿Viniste a hacer"
+	line "el Test Hiper de"
+	cont "la Universidad"
+	cont "Azulona?"
 	done
 
 .BeginText:
-	text "Excellent!"
+	text "¡Excelente!"
 
-	para "The Hyper Test is"
-	line "a series of six"
-	cont "questions, testing"
+	para "El Test Hiper es"
+	line "una serie de seis"
+	cont "preguntas, que"
+	cont "ponen a prueba"
 
-	para "all of your senses"
-	line "under pressure!"
+	para "todos tus"
+	line "sentidos bajo"
+	cont "presión."
 
-	para "If you pass, you'll"
-	line "receive a prize"
+	para "Si apruebas,"
+	line "recibirás un"
 
-	para "worthy of our"
-	line "university!"
+	para "premio digno de"
+	line "nuestra"
+	cont "universidad."
 	done
 
 .CorrectText:
-	text "Correct!"
+	text "¡Correcto!"
 	done
 
 .Question1IntroText:
-	text "Question 1:"
-	line "Look closely!"
+	text "Pregunta 1:"
+	line "¡Mira de cerca!"
 	done
 
 .Question1QuestionText:
-	text "What #mon's sil-"
-	line "houette is this?"
+	text "¿De qué #mon es"
+	line "esta silueta?"
 	done
 
 .Question2IntroText:
-	text "Question 2:"
-	line "Listen carefully!"
+	text "Pregunta 2:"
+	line "¡Escucha con"
+	cont "atención!"
 	done
 
 .Question2QuestionText:
-	text "What #mon's cry"
-	line "is this?"
+	text "¿De qué #mon es"
+	line "este grito?"
 	done
 
 .Question3IntroText:
-	text "Question 3:"
+	text "Pregunta 3:"
 	done
 
 .Question3QuestionText:
-	text "Which medicine"
-	line "tastes bitter?"
+	text "¿Qué medicina"
+	line "sabe amarga?"
 	done
 
 .Question4IntroText:
-	text "Question 4:"
+	text "Pregunta 4:"
 	done
 
 .Question4QuestionText:
-	text "Which #mon"
-	line "has Dry Skin?"
+	text "¿Qué #mon tiene"
+	line "Piel Seca?"
 	done
 
 .Question5IntroText:
-	text "Question 5:"
+	text "Pregunta 5:"
 	done
 
 .Question5QuestionText:
-	text "Which Berry"
-	line "smells blue?"
+	text "¿Qué Baya huele a"
+	line "azul?"
 	done
 
 .Question6IntroText:
-	text "Question 6:"
-	line "Think wisely!"
+	text "Pregunta 6:"
+	line "¡Piensa con"
+	cont "sabiduría!"
 	done
 
 .Question6QuestionText:
-	text "Who is the most"
-	line "accomplished"
-	cont "professor?"
+	text "¿Quién es el"
+	line "profesor más"
+	cont "consumado?"
 	done
 
 .CongratulationsText:
-	text "Congratulations!"
+	text "¡Felicidades!"
 
-	para "You passed the"
-	line "Hyper Test with"
-	cont "flying colors!"
+	para "¡Aprobaste el Test"
+	line "Hiper con nota"
+	cont "excelente!"
 
-	para "Here's your prize--"
-	line "a uniquely bred"
+	para "¡Aquí está tu"
+	line "premio: un"
 
-	para "Magikarp that"
-	line "knows Dragon Rage!"
+	para "Magikarp criado de"
+	line "forma única que"
+	cont "sabe Furia Dragón!"
 	done
 
 .TestOverText:
-	text "Our students have"
-	line "the tenacity of a"
+	text "Nuestros"
+	line "estudiantes tienen"
 
-	para "Magikarp strugg-"
-	line "ling to evolve."
-	cont "And so do you!"
+	para "la tenacidad de un"
+	line "Magikarp luchando"
+	cont "por evolucionar."
+	cont "¡Y tú también!"
 	done
 
 .PartyAndBoxFullText:
-	text "Oh no! Your party"
-	line "and Box are full…"
+	text "¡Oh, no! Tu equipo"
+	line "y tu Caja están"
+	cont "llenos…"
 	done
 
 .RefusedText:
-	text "Well, if you're"
-	line "certain."
+	text "Bueno, si estás"
+	line "seguro."
 	done
 
 .AlreadyTookText:
-	text "But you already"
-	line "attempted the test"
-	cont "today!"
+	text "¡Pero ya"
+	line "intentaste el test"
+	cont "hoy!"
 
-	para "You may retake"
-	line "it tomorrow."
+	para "Puedes repetirlo"
+	line "mañana."
 	done
 
 
@@ -337,9 +346,9 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db $81 ; flags
 	db 4 ; items
 	db "Elixir@"
-	db "Calcium@"
-	db "Antidote@"
-	db "Heal Powder@"
+	db "Calcio@"
+	db "Antídoto@"
+	db "Polvo Cura@"
 
 .Question4MenuData:
 	db MENU_BACKUP_TILES
@@ -364,10 +373,10 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 .Question5MenuData2:
 	db $81 ; flags
 	db 4 ; items
-	db "Cheri Berry@"
-	db "Lum Berry@"
-	db "Oran Berry@"
-	db "Pecha Berry@"
+	db "Baya Zreza@"
+	db "Baya Ziuela@"
+	db "Baya Aranja@"
+	db "Baya Meloc@"
 
 .Question6MenuData:
 	db MENU_BACKUP_TILES
@@ -384,27 +393,30 @@ CeladonUniversityHyperTestRoomWestwoodScript:
 	db "Prof.Westwood@"
 
 CeladonUniversityHyperTestRoomScientistText:
-	text "The Hyper Test is"
-	line "a rite of passage"
+	text "El Test Hiper es"
+	line "un rito de paso"
 
-	para "for all Celadon"
-	line "University grad-"
-	cont "uates."
+	para "para todos los"
+	line "graduados de la"
+	cont "Universidad"
+	cont "Azulona."
 
-	para "It tests all of"
-	line "their faculties to"
-	cont "the utmost!"
+	para "¡Pone a prueba"
+	line "todas sus"
+	cont "facultades al"
+	cont "máximo!"
 	done
 
 CeladonUniversityHyperTestRoomTwin1Text:
-	text "I'll pass the Hyper"
-	line "Test before you!"
+	text "¡Pasaré el Test"
+	line "Hiper antes que"
+	cont "tú!"
 	done
 
 CeladonUniversityHyperTestRoomTwin2Text:
-	text "No, I'll pass the"
-	line "Hyper Test before"
-	cont "you!"
+	text "No, ¡pasaré el"
+	line "Test Hiper antes"
+	cont "que tú!"
 	done
 
 CeladonUniversityHyperTestRoomMagikarpSign:
@@ -415,33 +427,35 @@ CeladonUniversityHyperTestRoomMagikarpSign:
 	closepokepic
 	jumpthistext
 
-	text "A Magikarp is"
-	line "swimming around."
+	text "Un Magikarp nada"
+	line "por ahí."
 	done
 
 CeladonUniversityHyperTestRoomBookshelf1Text:
-	text "This book has a"
-	line "bookmark in it."
+	text "Este libro tiene"
+	line "un marcapáginas."
 
-	para "Someone's not done"
-	line "with it yet!"
+	para "¡Alguien no ha"
+	line "terminado con él!"
 	done
 
 CeladonUniversityHyperTestRoomBookshelf2Text:
-	text "It's a copy of"
+	text "¡Es un ejemplar de"
 	line "Nintendo Power!"
 
-	para "A Pikachu picture"
-	line "fills the front"
-	cont "cover."
+	para "Una imagen de"
+	line "Pikachu llena la"
+	cont "portada."
 	done
 
 CeladonUniversityHyperTestRoomComputer:
 	jumpthistext
 
-	text "There's a file on"
-	line "the desktop named"
-	cont "questions.txt."
+	text "Hay un archivo en"
+	line "el escritorio"
+	cont "llamado"
+	cont "preguntas.txt."
 
-	para "Better not cheat!"
+	para "¡Mejor no hacer"
+	line "trampa!"
 	done

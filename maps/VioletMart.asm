@@ -17,27 +17,29 @@ VioletMart_MapScriptHeader:
 	object_event  5,  2, SPRITE_ACE_TRAINER_M, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, VioletMartCooltrainerMText, -1
 
 VioletMartGrannyText:
-	text "When you first"
-	line "catch a #mon,"
-	cont "it may be weak."
+	text "Al principio,"
+	line "un #mon recién"
+	cont "atrapado puede ser"
+	cont "débil."
 
-	para "But it will even-"
-	line "tually grow to be"
-	cont "strong."
+	para "Pero con el tiempo"
+	line "se hará fuerte."
 
-	para "It's important to"
-	line "treat #mon with"
-	cont "love."
+	para "Es importante"
+	line "tratar a los"
+	cont "#mon"
+	cont "con amor."
 	done
 
 VioletMartCooltrainerMText:
-	text "#mon can hold"
-	line "items like Potion"
-	cont "and Antidote."
+	text "Los #mon pueden"
+	line "llevar objetos"
+	cont "como Poción o"
+	cont "Antídoto."
 
-	para "But they don't"
-	line "appear to know how"
+	para "Pero no parecen"
+	line "saber usar"
 
-	para "to use man-made"
-	line "items."
+	para "objetos hechos"
+	line "por personas."
 	done

@@ -24,19 +24,19 @@ PokemonJournalBugsyScript:
 	setflag ENGINE_READ_BUGSY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Bugsy!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Bugsy!"
 
-	para "Bugsy is reported"
-	line "to have won the"
+	para "Dicen que Bugsy"
+	line "ganó tantas veces"
 
-	para "Bug-Catching Con-"
-	line "test so often that"
+	para "el Concurso de"
+	line "Captura que ya no"
 
-	para "he no longer par-"
-	line "ticipates."
+	para "participa."
 	done
 
 AzaleaPokeCenter1FCooltrainermScript:
@@ -44,69 +44,71 @@ AzaleaPokeCenter1FCooltrainermScript:
 	iftrue_jumptextfaceplayer .NiteText
 	jumpthistextfaceplayer
 
-	text "For a guy who"
-	line "makes # Balls,"
+	text "Para alguien que"
+	line "hace # Balls,"
 
-	para "Kurt isn't much of"
-	line "a trainer."
+	para "Kurt no es muy"
+	line "buen entrenador."
 
-	para "He does have a"
-	line "#mon, but he"
+	para "Tiene un #mon,"
+	line "pero casi no"
 
-	para "doesn't use it"
-	line "much."
+	para "lo usa."
 	done
 
 .NiteText:
-	text "Kurt and Prof.Oak"
-	line "are old friends."
+	text "Kurt y el Prof."
+	line "Oak son viejos"
+	cont "amigos."
 
-	para "They're also close"
-	line "with Agatha, a"
+	para "También son"
+	line "cercanos a Agatha,"
 
-	para "former member of"
-	line "the Elite Four."
+	para "antigua miembro"
+	line "del Alto Mando."
 	done
 
 AzaleaPokeCenter1FGentlemanText:
-	text "Do your #mon"
-	line "know HM moves?"
+	text "¿Tus #mon"
+	line "saben movs. MO?"
 
-	para "Those moves can"
-	line "be used even if"
+	para "Esos movs. se"
+	line "usan aunque tu"
 
-	para "your #mon has"
-	line "fainted."
+	para "#mon esté"
+	line "debilitado."
 	done
 
 AzaleaPokeCenter1FSightseermText:
-	text "This Bill guy"
-	line "created the system"
+	text "Ese tal Bill creó"
+	line "el sistema para"
 
-	para "for storing"
-	line "#mon in a PC."
+	para "guardar #mon"
+	line "en un PC."
 
-	para "Bill's PC can"
-	line "store up to 20"
-	cont "#mon per Box."
+	para "El PC de Bill"
+	line "guarda hasta 20"
+	cont "#mon por Caja."
 	done
 
 AzaleaPokeCenter1FPokefanfText:
-	text "Do you know about"
-	line "Apricorns?"
+	text "¿Sabes qué es"
+	line "un Bonguri?"
 
-	para "Crack one open,"
-	line "hollow it out and"
+	para "Se abre, se vacía"
+	line "por dentro y se"
 
-	para "fit it with a"
-	line "special device."
+	para "le pone un"
+	line "dispositivo"
+	cont "especial."
 
-	para "Then you can catch"
-	line "#mon with it."
+	para "Así puedes atrapar"
+	line "#mon con ella."
 
-	para "Before # Balls"
-	line "were invented,"
+	para "Antes de que se"
+	line "inventaran las"
+	cont "# Balls,"
 
-	para "everyone used"
-	line "Apricorns."
+	para "todos usaban"
+	line "Bonguris."
 	done

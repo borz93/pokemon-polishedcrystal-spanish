@@ -16,20 +16,21 @@ CeruleanWaterShowSpeechHouse_MapScriptHeader:
 	object_event  6,  3, SPRITE_POKEMANIAC, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeruleanWaterShowSpeechHouseSuperNerdText, -1
 
 CeruleanWaterShowSpeechHouseCooltrainerMText:
-	text "Misty sometimes"
-	line "performs in water"
-	cont "shows at her Gym."
+	text "Misty a veces hace"
+	line "shows acuáticos"
+	cont "en su Gimnasio."
 
-	para "They're a sight to"
-	line "behold!"
+	para "¡Son dignos de"
+	line "ver!"
 	done
 
 CeruleanWaterShowSpeechHouseSuperNerdText:
-	text "I drew some graff-"
-	line "iti on the roof of"
-	cont "Celadon Condo."
+	text "Hice unas pintadas"
+	line "en el techo del"
+	cont "Condominio"
+	cont "Azulona."
 
-	para "Have you seen it?"
-	line "It's a bit hidden,"
-	cont "hehe…"
+	para "¿Las has visto?"
+	line "Están un poco"
+	cont "escondidas, jeje…"
 	done

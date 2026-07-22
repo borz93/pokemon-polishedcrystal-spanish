@@ -1,3 +1,3 @@
 UnusedPhoneText:
-	text "Hi!"
+	text "¡Hola!"
 	done

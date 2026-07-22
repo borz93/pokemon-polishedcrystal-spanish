@@ -64,17 +64,17 @@ SaffronCityLass1Script:
 	iftrue_jumptextfaceplayer SaffronCityLass1Text_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "A little girl who"
-	line "is an expert at"
+	text "Una niña que es"
+	line "experta en imitar"
 
-	para "mimicking people"
-	line "lives here."
+	para "a la gente vive"
+	line "aquí."
 
-	para "She even mimics"
-	line "the people she's"
+	para "Incluso imita a la"
+	line "persona con quien"
 
-	para "conversing with."
-	line "It's confusing."
+	para "conversa. Es"
+	line "confuso."
 	done
 
 SaffronCityPokefanMScript:
@@ -82,12 +82,13 @@ SaffronCityPokefanMScript:
 	iftrue_jumptextfaceplayer SaffronCityPokefanMText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "You came out from"
+	text "¿Viniste de"
 	line "Johto?"
 
-	para "You can zip back"
-	line "home if the Magnet"
-	cont "Train's running."
+	para "Puedes volver"
+	line "rápido a casa si"
+	cont "el Tren Imán"
+	cont "funciona."
 	done
 
 SaffronCityFisherScript:
@@ -95,232 +96,254 @@ SaffronCityFisherScript:
 	iftrue_jumptextfaceplayer SaffronCityFisherText_ReturnedMachinePart
 	jumpthistextfaceplayer
 
-	text "Chew… Chew…"
+	text "ñam… ñam…"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the Power Plant."
+	para "Oí que se avecinan"
+	line "grandes problemas"
+	cont "en la Central"
+	cont "Eléctrica."
 
-	para "Chew… Chew…"
+	para "ñam… ñam…"
 	done
 
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The Copycat girl"
-	line "looked unhappy."
+	text "La chica Copycat"
+	line "parecía triste."
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "Doll--Clefairy."
+	para "Dijo que perdió"
+	line "su Muñeco #"
+	cont "favorito:"
+	cont "Clefairy."
 	done
 
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
+	text "¿Viniste de"
 	line "Johto?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the Magnet Train."
+	para "Puedes volver"
+	line "rápido a casa"
+	cont "subiéndote al Tren"
+	cont "Imán."
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the Gym,"
-	line "raring for battles"
-	cont "against trainers…"
+	text "Fui al Gimnasio,"
+	line "listo para"
+	cont "combates contra"
+	cont "entrenadores…"
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Resulta que me"
+	line "encontré en el"
 
-	para "Fighting Dojo"
-	line "next door."
+	para "Dojo de Lucha de"
+	line "al lado."
 
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "Vaya, qué"
+	line "bochorno pasé."
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is Silph Co.,"
-	line "famous for #mon"
-	cont "merchandise."
+	text "Esto es Silph Co.,"
+	line "famosa por"
+	cont "mercancía #mon."
 
-	para "In the past, Team"
-	line "Rocket wanted the"
+	para "En el pasado, el"
+	line "Team Rocket quería"
 
-	para "company because of"
-	line "that."
+	para "la compañía por"
+	line "eso."
 	done
 
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "ñam… ñam…"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "Power Plant."
+	para "Oí que hubo"
+	line "grandes problemas"
+	cont "en la Central"
+	cont "Eléctrica."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "ñam… ñam…"
+	line "¡Ah, estoy lleno!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Entrar en un"
+	line "callejón por"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "primera vez me"
+	line "pone algo"
+	cont "ansioso."
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called Trainer"
+	text "Hay un lugar"
+	line "llamado Casa de"
 
-	para "House in Viridian"
-	line "where trainers"
+	para "Entrenadores en"
+	line "Ciudad Verde donde"
 
-	para "gather from all"
-	line "over the place."
+	para "se reúnen"
+	line "entrenadores de"
+	cont "todas partes."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "Nuestra ciudad"
+	line "salió en un"
+	cont "programa de"
+	cont "radio."
 
-	para "It's nice to hear"
-	line "praise for your"
+	para "Es agradable oír"
+	line "elogios de tu"
 
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "ciudad, pero"
+	line "también da un"
+	cont "poco de"
+	cont "bochorno."
 	done
 
 SaffronCityBlackBelt1Text:
-	text "Every morning when"
-	line "I wake up I run"
+	text "Cada mañana al"
+	line "despertar corro"
 
-	para "two laps around"
-	line "the city."
+	para "dos vueltas"
+	line "alrededor de la"
+	cont "ciudad."
 
-	para "It's a great way"
-	line "to start the day!"
+	para "¡Es una gran forma"
+	line "de empezar el"
+	cont "día!"
 	done
 
 SaffronCityBlackBelt2Text:
-	text "If I was an item,"
-	line "I'd be X Attack."
+	text "Si fuera un"
+	line "objeto, sería"
+	cont "Ataque X."
 
-	para "I'm just brimming"
-	line "with power, and"
+	para "Rebosante de"
+	line "poder, y la X lo"
 
-	para "the X makes it"
-	line "sound cool."
+	para "hace sonar guay."
 	done
 
 SaffronCitySuperNerdText:
-	text "There was a time"
-	line "when Psychic-type"
+	text "Hubo un tiempo en"
+	line "que se creía que"
 
-	para "#mon were be-"
-	line "lieved to be the"
+	para "los #mon"
+	line "Psíquico eran los"
+	cont "más fuertes, y los"
+	cont "Bicho los más"
+	cont "débiles."
 
-	para "strongest, and Bug"
-	line "types the weakest."
-
-	para "The irony is, Bug"
-	line "is super effective"
-	cont "against Psychic!"
+	para "¡La ironía es"
+	line "que Bicho es"
+	cont "supereficaz"
+	cont "contra Psíquico!"
 	done
 
 SaffronCityScientistText:
-	text "The original Silph"
-	line "Scope had some"
-	cont "bugs, so we've been"
+	text "El Scope Silph"
+	line "original tenía"
+	cont "fallos, así que"
 
-	para "working tirelessly"
-	line "on its successor--"
-	cont "the SilphScope2!"
+	para "hemos trabajado"
+	line "sin descanso en su"
+	cont "sucesor: ¡el"
+	cont "Scope Silph 2!"
 	done
 
 SaffronCitySilphEmployeeText:
-	text "Silph is named"
-	line "after a mythical"
-	cont "spirit of the air."
+	text "Silph lleva el"
+	line "nombre de un"
+	cont "espíritu mítico"
+	cont "del aire."
 
-	para "What that has to"
-	line "do with the com-"
+	para "Qué tiene que ver"
+	line "eso con el negocio"
 
-	para "pany's business,"
-	line "I have no idea."
+	para "de la compañía, no"
+	line "tengo ni idea."
 	done
 
 SaffronCitySignText:
-	text "Saffron City"
+	text "Ciudad Azafrán"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Reluciente Tierra"
+	line "Dorada del"
+	cont "Comercio"
 	done
 
 SaffronGymSignText:
-	text "Saffron City"
-	line "#mon Gym"
-	cont "Leader: Sabrina"
+	text "Gimnasio #mon"
+	line "de Ciudad Azafrán"
+	cont "Líder: Sabrina"
 
-	para "The Mistress of"
-	line "Psychic #mon!"
+	para "¡La Maestra de los"
+	line "#mon Psíquico!"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "Fighting Dojo"
+	text "¡Todos"
+	line "Bienvenidos!"
+	cont "Dojo de Lucha"
 	done
 
 SilphCoSignText:
 	text "Silph Co."
-	line "Office Building"
+	line "Edificio de"
+	cont "Oficinas"
 	done
 
 MrPsychicsHouseSignText:
-	text "Mr.Psychic's"
-	line "House"
+	text "Casa del"
+	line "Sr.Psíquico"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "Saffron City"
-	line "Magnet Train"
-	cont "Station"
+	text "Estación del Tren"
+	line "Imán de Ciudad"
+	cont "Azafrán"
 	done
 
 PokemonTrainerFanClubSignText:
-	text "#mon Trainer"
-	line "Fan Club"
+	text "Club de Fans de"
+	line "Entrenadores"
+	cont "#mon"
 
-	para "Many trainers have"
-	line "scribbled their"
-	cont "names here…"
+	para "Muchos"
+	line "entrenadores han"
+	cont "garabateado sus"
+	cont "nombres aquí…"
 	done
 
 SaffronTrainerTips1Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "New SilphScope2"
-	line "identifies even"
+	para "¡El nuevo Scope"
+	line "Silph 2 identifica"
 
-	para "the most well-"
-	line "disguised #mon!"
+	para "incluso a los"
+	line "#mon mejor"
+	cont "disfrazados!"
 	done
 
 SaffronTrainerTips2Text:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "Use Quick Balls"
-	line "early during a"
-	cont "battle. Later,"
-	cont "use Timer Balls."
+	para "Usa Cebo Balls"
+	line "al principio de"
+	cont "un combate. Luego,"
+	cont "usa Turno Balls."
 
-	para "They cost more"
-	line "than # Balls,"
+	para "Cuestan más que"
+	line "las Poké Balls,"
 
-	para "but they're more"
-	line "convenient."
+	para "pero son más"
+	line "convenientes."
 	done

@@ -163,785 +163,785 @@ AbilityDescriptions:
 	assert_table_length NUM_ABILITIES
 
 NoAbilityDescription:
-	text "Abilities are"
-	next "disabled."
+	text "Las habilidades"
+	next "están desactivadas."
 	done
 
 StenchDescription:
-	text "May cause the foe"
-	next "to flinch."
+	text "Puede hacer que"
+	next "el rival retroceda."
 	done
 
 DrizzleDescription:
-	text "Summons rain when"
-	next "switched in."
+	text "Invoca lluvia al"
+	next "salir al combate."
 	done
 
 SpeedBoostDescription:
-	text "Its Speed stat is"
-	next "gradually boosted."
+	text "Su Velocidad sube"
+	next "gradualmente."
 	done
 
 BattleArmorDescription:
 ShellArmorDescription:
-	text "Protects from"
-	next "critical hits."
+	text "Protege de los"
+	next "golpes críticos."
 	done
 
 SturdyDescription:
-	text "Cannot be knocked"
-	next "out with one hit."
+	text "No puede caer"
+	next "de un solo golpe."
 	done
 
 DampDescription:
-	text "Prevents self-"
-	next "destructing moves."
+	text "Evita movimientos"
+	next "autodestructivos."
 	done
 
 LimberDescription:
-	text "Protects from"
-	next "paralysis."
+	text "Protege de la"
+	next "parálisis."
 	done
 
 SandVeilDescription:
-	text "Boosts evasion in"
-	next "a sandstorm."
+	text "Sube la evasión en"
+	next "tormentas de arena."
 	done
 
 StaticDescription:
-	text "Contact may cause"
-	next "paralysis."
+	text "El contacto puede"
+	next "paralizar."
 	done
 
 VoltAbsorbDescription:
-	text "Restores HP if hit"
-	next "by Electric moves."
+	text "Restaura PS con"
+	next "ataques Eléctricos."
 	done
 
 WaterAbsorbDescription:
-	text "Restores HP if hit"
-	next "by Water moves."
+	text "Restaura PS con"
+	next "ataques de Agua."
 	done
 
 ObliviousDescription:
-	text "Prevents it from"
-	next "being infatuated."
+	text "Evita que se"
+	next "enamore del rival."
 	done
 
 CloudNineDescription:
-	text "Eliminates effects"
-	next "of weather."
+	text "Elimina los"
+	next "efectos del clima."
 	done
 
 CompoundEyesDescription:
-	text "Boosts the Poké-"
-	next "mon's accuracy."
+	text "Sube la precisión"
+	next "del #mon."
 	done
 
 InsomniaDescription:
 VitalSpiritDescription:
-	text "Prevents it from"
-	next "falling asleep."
+	text "Evita que se"
+	next "quede dormido."
 	done
 
 ImmunityDescription:
 PastelVeilDescription:
-	text "Prevents it from"
-	next "getting poisoned."
+	text "Evita que se"
+	next "envenene."
 	done
 
 FlashFireDescription:
-	text "Boosts Fire moves"
-	next "if hit by one."
+	text "Potencia el Fuego"
+	next "si recibe uno."
 	done
 
 ShieldDustDescription:
-	text "Blocks additional"
-	next "attack effects."
+	text "Bloquea efectos"
+	next "secundarios."
 	done
 
 OwnTempoDescription:
-	text "Prevents it from"
-	next "becoming confused."
+	text "Evita que se"
+	next "confunda."
 	done
 
 SuctionCupsDescription:
-	text "Negates forced"
-	next "switch-outs."
+	text "Evita ser"
+	next "forzado a cambiar."
 	done
 
 IntimidateDescription:
-	text "Lowers the foe's"
-	next "Attack stat."
+	text "Reduce el Ataque"
+	next "del rival."
 	done
 
 ShadowTagDescription:
-	text "Prevents the foe"
-	next "from escaping."
+	text "Evita que el"
+	next "rival escape."
 	done
 
 LevitateDescription:
-	text "Gives immunity to"
-	next "Ground-type moves."
+	text "Da inmunidad a"
+	next "movs. de Tierra."
 	done
 
 EffectSporeDescription:
-	text "Contact may cause"
-	next "Par, Psn, or Slp."
+	text "El contacto puede"
+	next "causar Par/Ven/Sue."
 	done
 
 SynchronizeDescription:
-	text "Passes Psn, Par,"
-	next "or Brn to foes."
+	text "Pasa Ven, Par o"
+	next "Quem al rival."
 	done
 
 ClearBodyDescription:
 WhiteSmokeDescription:
-	text "Prevents foes from"
-	next "lowering stats."
+	text "Evita que bajen"
+	next "sus estadísticas."
 	done
 
 NaturalCureDescription:
-	text "Switch-outs heal"
-	next "status problems."
+	text "Cura el estado"
+	next "al ser retirado."
 	done
 
 LightningRodDescription:
-	text "Electric moves"
-	next "boost Sp.Atk."
+	text "Movs. Eléctricos"
+	next "suben su At. Esp."
 	done
 
 SereneGraceDescription:
-	text "Boosts the rate of"
-	next "added effects."
+	text "Aumenta la prob."
+	next "de efectos extra."
 	done
 
 SwiftSwimDescription:
-	text "Boosts its Speed"
-	next "in rain."
+	text "Sube su Velocidad"
+	next "con lluvia."
 	done
 
 ChlorophyllDescription:
-	text "Boosts its Speed"
-	next "in sunshine."
+	text "Sube su Velocidad"
+	next "con sol fuerte."
 	done
 
 IlluminateDescription:
-	text "Raises the rate"
-	next "of wild #mon."
+	text "Sube la frec. de"
+	next "#mon salvajes."
 	done
 
 TraceDescription:
-	text "Copies the foe's"
-	next "Ability."
+	text "Copia la habilidad"
+	next "del rival."
 	done
 
 HugePowerDescription:
-	text "Boosts its Attack"
-	next "stat."
+	text "Sube mucho el"
+	next "Ataque."
 	done
 
 PoisonPointDescription:
-	text "Contact may poison"
-	next "the foe."
+	text "El contacto puede"
+	next "envenenar al rival."
 	done
 
 InnerFocusDescription:
-	text "Protects it from"
-	next "flinching."
+	text "Evita que"
+	next "se amedrente."
 	done
 
 MagmaArmorDescription:
-	text "Prevents it from"
-	next "becoming frozen."
+	text "Evita que se"
+	next "congele."
 	done
 
 WaterVeilDescription:
-	text "Prevents it from"
-	next "getting a burn."
+	text "Evita que se"
+	next "queme."
 	done
 
 MagnetPullDescription:
-	text "Prevents escape by"
-	next "Steel-type foes."
+	text "Evita que huyan"
+	next "rivales de Acero."
 	done
 
 SoundproofDescription:
-	text "Gives immunity to"
-	next "sound-based moves."
+	text "Da inmunidad a"
+	next "movs. de sonido."
 	done
 
 RainDishDescription:
-	text "Gradually regains"
-	next "HP in rain."
+	text "Recupera PS poco"
+	next "a poco con lluvia."
 	done
 
 SandStreamDescription:
-	text "Summons sandstorm"
-	next "when switched in."
+	text "Invoca una"
+	next "tormenta de arena."
 	done
 
 PressureDescription:
-	text "Raises the foe's"
-	next "PP usage."
+	text "Gasta más PP"
+	next "al rival."
 	done
 
 ThickFatDescription:
-	text "Ups resistance to"
-	next "Fire and Ice."
+	text "Sube la resist."
+	next "a Fuego y Hielo."
 	done
 
 EarlyBirdDescription:
-	text "Awakens quickly"
-	next "from sleep."
+	text "Se despierta"
+	next "rápido si duerme."
 	done
 
 FlameBodyDescription:
-	text "Contact may burn"
-	next "the foe."
+	text "El contacto puede"
+	next "quemar al rival."
 	done
 
 RunAwayDescription:
-	text "Sure getaway from"
-	next "wild #mon."
+	text "Huida segura de"
+	next "#mon salvajes."
 	done
 
 KeenEyeDescription:
-	text "Prevents foes from"
-	next "lowering accuracy."
+	text "Evita que bajen"
+	next "su precisión."
 	done
 
 HyperCutterDescription:
-	text "Prevents foes from"
-	next "lowering Attack."
+	text "Evita que bajen"
+	next "su Ataque."
 	done
 
 PickupDescription:
-	text "The #mon may"
-	next "pick up items."
+	text "El #mon puede"
+	next "recoger objetos."
 	done
 
 HustleDescription:
-	text "Boosts Attack, but"
-	next "lowers accuracy."
+	text "Sube Ataque, pero"
+	next "baja precisión."
 	done
 
 CuteCharmDescription:
-	text "Contact may cause"
-	next "infatuation."
+	text "El contacto puede"
+	next "enamorar al rival."
 	done
 
 StickyHoldDescription:
-	text "Protects it from"
-	next "item theft."
+	text "Evita que le"
+	next "roben el objeto."
 	done
 
 ShedSkinDescription:
-	text "May heal its own"
-	next "status problems."
+	text "Puede curarse su"
+	next "propio estado."
 	done
 
 GutsDescription:
-	text "Boosts Attack on"
-	next "status problems."
+	text "Sube el Ataque"
+	next "con mal estado."
 	done
 
 MarvelScaleDescription:
-	text "Boosts Defense on"
-	next "status problems."
+	text "Sube la Defensa"
+	next "con mal estado."
 	done
 
 LiquidOozeDescription:
-	text "Damages foes using"
-	next "draining moves."
+	text "Daña a quien use"
+	next "movs. de drenaje."
 	done
 
 OvergrowDescription:
-	text "Boosts Grass moves"
-	next "in a pinch."
+	text "Potencia Planta"
+	next "en apuros."
 	done
 
 BlazeDescription:
-	text "Boosts Fire moves"
-	next "in a pinch."
+	text "Potencia Fuego"
+	next "en apuros."
 	done
 
 TorrentDescription:
-	text "Boosts Water moves"
-	next "in a pinch."
+	text "Potencia Agua"
+	next "en apuros."
 	done
 
 SwarmDescription:
-	text "Boosts Bug moves"
-	next "in a pinch."
+	text "Potencia Bicho"
+	next "en apuros."
 	done
 
 RockHeadDescription:
-	text "Protects it from"
-	next "recoil damage."
+	text "Evita el daño"
+	next "por retroceso."
 	done
 
 DroughtDescription:
-	text "Summons sunlight"
-	next "when switched in."
+	text "Invoca sol fuerte"
+	next "al entrar."
 	done
 
 ArenaTrapDescription:
-	text "Prevents the foe"
-	next "from fleeing."
+	text "Evita que el"
+	next "rival huya."
 	done
 
 TangledFeetDescription:
-	text "Boosts evasion if"
-	next "it is confused."
+	text "Sube la evasión"
+	next "si está confuso."
 	done
 
 MotorDriveDescription:
-	text "Electric moves"
-	next "boost Speed."
+	text "Movs. Eléctricos"
+	next "suben Velocidad."
 	done
 
 RivalryDescription:
-	text "Boosts damage to"
-	next "same-gender foes."
+	text "Más daño a rivales"
+	next "de su mismo sexo."
 	done
 
 SteadfastDescription:
-	text "Boosts Speed when"
-	next "it flinches."
+	text "Sube Velocidad"
+	next "si se amedrenta."
 	done
 
 SnowCloakDescription:
-	text "Boosts evasion in"
-	next "hailstorms."
+	text "Sube la evasión"
+	next "con granizo."
 	done
 
 GluttonyDescription:
-	text "Encourages early"
-	next "Berry use."
+	text "Usa antes las"
+	next "Bayas."
 	done
 
 AngerPointDescription:
-	text "Maxes Attack after"
-	next "a critical hit."
+	text "Ataque al máximo"
+	next "tras golpe crítico."
 	done
 
 UnburdenDescription:
-	text "Boosts Speed when"
-	next "held item is lost."
+	text "Sube Velocidad si"
+	next "pierde su objeto."
 	done
 
 DrySkinDescription:
-	text "Reduces HP in sun."
-	next "Water restores HP."
+	text "Pierde PS con sol,"
+	next "gana PS con Agua."
 	done
 
 DownloadDescription:
-	text "Adjusts stats based"
-	next "on foe's defenses."
+	text "Ajusta estad. según"
+	next "defensas rivales."
 	done
 
 IronFistDescription:
-	text "Boosts power of"
-	next "punching moves."
+	text "Potencia los movs."
+	next "de puño."
 	done
 
 PoisonHealDescription:
-	text "Restores HP if"
-	next "it is poisoned."
+	text "Restaura PS si"
+	next "está envenenado."
 	done
 
 AdaptabilityDescription:
-	text "Powers up same-"
-	next "type moves."
+	text "Potencia movs. del"
+	next "mismo tipo."
 	done
 
 SkillLinkDescription:
-	text "Increases multi-"
-	next "strike move hits."
+	text "Sube los golpes de"
+	next "movs. multigolpe."
 	done
 
 HydrationDescription:
-	text "Heals status"
-	next "problems in rain."
+	text "Cura el estado"
+	next "con lluvia."
 	done
 
 SolarPowerDescription:
-	text "Boosts Sp.Atk but"
-	next "lowers HP in sun."
+	text "Sube At. Esp. pero"
+	next "baja PS con sol."
 	done
 
 QuickFeetDescription:
-	text "Boosts Speed with"
-	next "status problems."
+	text "Sube Velocidad"
+	next "con mal estado."
 	done
 
 SniperDescription:
-	text "Powers up critical"
-	next "hits."
+	text "Potencia los"
+	next "golpes críticos."
 	done
 
 MagicGuardDescription:
-	text "Only takes damage"
-	next "from attacks."
+	text "Solo recibe daño"
+	next "por ataques."
 	done
 
 NoGuardDescription:
-	text "Ensures attacks by"
-	next "or against it hit."
+	text "Ningún ataque"
+	next "falla nunca."
 	done
 
 TechnicianDescription:
-	text "Powers up its"
-	next "weaker moves."
+	text "Potencia sus"
+	next "movs. más débiles."
 	done
 
 LeafGuardDescription:
-	text "Prevents status"
-	next "problems in sun."
+	text "Evita el mal"
+	next "estado con sol."
 	done
 
 MoldBreakerDescription:
-	text "Moves disregard"
-	next "the foe's ability."
+	text "Ignora la"
+	next "habilidad rival."
 	done
 
 SuperLuckDescription:
-	text "Boosts the rate"
-	next "of critical hits."
+	text "Sube la prob. de"
+	next "golpes críticos."
 	done
 
 AftermathDescription:
-	text "Damages the foe on"
-	next "fainting."
+	text "Daña al rival"
+	next "si es debilitado."
 	done
 
 AnticipationDescription:
-	text "Senses the foe's"
-	next "dangerous moves."
+	text "Detecta movs."
+	next "peligrosos rivales."
 	done
 
 ForewarnDescription:
-	text "Determines the"
-	next "foe's moves."
+	text "Descubre los"
+	next "movs. rivales."
 	done
 
 UnawareDescription:
-	text "Ignores the foe's"
-	next "stat changes."
+	text "Ignora los cambios"
+	next "de estad. rivales."
 	done
 
 TintedLensDescription:
-	text "Powers up not very"
-	next "effective moves."
+	text "Potencia movs. poco"
+	next "eficaces."
 	done
 
 FilterDescription:
 SolidRockDescription:
-	text "Reduces super"
-	next "effective damage."
+	text "Reduce el daño"
+	next "supereficaz."
 	done
 
 ScrappyDescription:
-	text "Enables moves to"
-	next "hit Ghost-types."
+	text "Permite golpear a"
+	next "tipo Fantasma."
 	done
 
 IceBodyDescription:
-	text "Gradually regains"
-	next "HP in hail."
+	text "Recupera PS poco"
+	next "a poco con granizo."
 	done
 
 SnowWarningDescription:
-	text "Summons hailstorm"
-	next "when switched in."
+	text "Invoca granizo"
+	next "al entrar."
 	done
 
 HoneyGatherDescription:
-	text "The #mon may"
+	text "El #mon puede"
 if DEF(FAITHFUL)
-	next "gather Honey."
+	next "recoger Miel."
 else
-	next "find Sweet Honey."
+	next "hallar Miel Dulce."
 endc
 	done
 
 FriskDescription:
-	text "Checks the foe's"
-	next "held item."
+	text "Revela el objeto"
+	next "que lleva el rival."
 	done
 
 RecklessDescription:
-	text "Powers up moves"
-	next "that recoil."
+	text "Potencia movs."
+	next "con retroceso."
 	done
 
 BadDreamsDescription:
-	text "Reduces a sleeping"
-	next "foe's HP."
+	text "Reduce el PS"
+	next "del rival dormido."
 	done
 
 PickpocketDescription:
-	text "Steals foe's item"
-	next "when contacted."
+	text "Roba el objeto"
+	next "al ser tocado."
 	done
 
 SheerForceDescription:
-	text "Removes effects to"
-	next "increase damage."
+	text "Quita efectos para"
+	next "aumentar el daño."
 	done
 
 ContraryDescription:
-	text "Inverts the effect"
-	next "of stat changes."
+	text "Lo que sube, baja"
+	next "y viceversa."
 	done
 
 UnnerveDescription:
-	text "Prevents foes from"
-	next "eating Berries."
+	text "Evita que coman"
+	next "Bayas rivales."
 	done
 
 DefiantDescription:
-	text "Boosts Attack when"
-	next "stats are lowered."
+	text "Sube Ataque si le"
+	next "bajan estad."
 	done
 
 CursedBodyDescription:
-	text "May disable a move"
-	next "used on it."
+	text "Puede anular un"
+	next "movimiento rival."
 	done
 
 WeakArmorDescription:
-	text "Physical attacks"
-	next "trade Def for Spe."
+	text "El golpe físico"
+	next "baja Def, sube Vel."
 	done
 
 LightMetalDescription:
-	text "Halves the Poké-"
-	next "mon's weight."
+	text "El #mon pesa"
+	next "la mitad."
 	done
 
 MultiscaleDescription:
-	text "Reduces damage"
-	next "when HP is full."
+	text "Reduce el daño"
+	next "con PS al máximo."
 	done
 
 HarvestDescription:
-	text "May recreate a"
-	next "Berry after use."
+	text "Puede recrear una"
+	next "Baya tras usarla."
 	done
 
 MoodyDescription:
-	text "Raises a stat and"
-	next "lowers another."
+	text "Sube una estad. y"
+	next "baja otra."
 	done
 
 OvercoatDescription:
-	text "Protects it from"
-	next "weather damage."
+	text "Evita daños del"
+	next "clima."
 	done
 
 PoisonTouchDescription:
-	text "May poison the foe"
-	next "on contact."
+	text "Puede envenenar"
+	next "al tocar al rival."
 	done
 
 RegeneratorDescription:
-	text "Restores HP when"
-	next "withdrawn."
+	text "Restaura PS al"
+	next "ser retirado."
 	done
 
 BigPecksDescription:
-	text "Prevents foes from"
-	next "lowering Defense."
+	text "Evita que bajen"
+	next "su Defensa."
 	done
 
 SandRushDescription:
-	text "Boosts Speed in"
-	next "a sandstorm."
+	text "Sube Velocidad en"
+	next "tormenta de arena."
 	done
 
 WonderSkinDescription:
-	text "Makes status moves"
-	next "miss more often."
+	text "Los movs. de estado"
+	next "fallan más."
 	done
 
 AnalyticDescription:
-	text "Boosts move power"
-	next "when moving last."
+	text "Sube el poder si"
+	next "actúa el último."
 	done
 
 ImposterDescription:
-	text "Transforms itself"
-	next "into the foe."
+	text "Se transforma"
+	next "en el rival."
 	done
 
 InfiltratorDescription:
-	text "Attacks bypass the"
-	next "foe's barriers."
+	text "Los ataques evitan"
+	next "barreras rivales."
 	done
 
 MoxieDescription:
-	text "Boosts Attack when"
-	next "knocking out foes."
+	text "Sube Ataque al"
+	next "debilitar rivales."
 	done
 
 JustifiedDescription:
-	text "Boosts Attack when"
-	next "hit by Dark moves."
+	text "Sube Ataque con"
+	next "movs. Siniestros."
 	done
 
 RattledDescription:
-	text "Dark, Ghost or Bug"
-	next "moves boost Speed."
+	text "Sinies., Fant. o"
+	next "Bicho suben Vel."
 	done
 
 MagicBounceDescription:
-	text "Reflects status-"
-	next "changing moves."
+	text "Refleja movs. que"
+	next "cambian el estado."
 	done
 
 SapSipperDescription:
-	text "Boosts Attack when"
-	next "hit by Grass."
+	text "Sube Ataque con"
+	next "movs. de Planta."
 	done
 
 PranksterDescription:
-	text "Gives priority to"
-	next "a status move."
+	text "Da prioridad a"
+	next "movs. de estado."
 	done
 
 SandForceDescription:
-	text "Ups Rock, Ground,"
-	next "and Steel in sand."
+	text "Sube Roca, Tierra"
+	next "y Acero en arena."
 	done
 
 IronBarbsDescription:
-	text "Hurts foes who"
-	next "make contact."
+	text "Hiere a quien lo"
+	next "toque."
 	done
 
 FurCoatDescription:
-	text "Halves damage from"
-	next "physical moves."
+	text "Reduce a la mitad"
+	next "el daño físico."
 	done
 
 BulletproofDescription:
-	text "Protects from ball"
-	next "and bomb moves."
+	text "Protege de movs."
+	next "bola y bomba."
 	done
 
 CompetitiveDescription:
-	text "Boosts Sp.Atk on"
-	next "stat reduction."
+	text "Sube At. Esp. si"
+	next "bajan sus estad."
 	done
 
 MegaLauncherDescription:
-	text "Powers up aura"
-	next "and pulse moves."
+	text "Potencia movs. de"
+	next "aura y pulso."
 	done
 
 ToughClawsDescription:
-	text "Boosts moves that"
-	next "makes contact."
+	text "Potencia movs. de"
+	next "contacto."
 	done
 
 PixilateDescription:
-	text "Normal-type moves"
-	next "become Fairy-type."
+	text "Movs. Normales"
+	next "pasan a Hada."
 	done
 
 ParentalBondDescription:
-	text "Parent and child"
-	next "attack together."
+	text "El padre y la cría"
+	next "atacan juntos."
 	done
 
 BerserkDescription:
-	text "Boosts Sp.Atk when"
-	next "damaged over half."
+	text "Sube At. Esp. con"
+	next "poco PS restante."
 	done
 
 SlushRushDescription:
-	text "Boosts Speed in"
-	next "a hailstorm."
+	text "Sube Velocidad"
+	next "con granizo."
 	done
 
 GalvanizeDescription:
-	text "Normal-type moves"
-	next "become Electric."
+	text "Movs. Normales"
+	next "pasan a Eléctrico."
 	done
 
 CorrosionDescription:
-	text "Foes of any type"
-	next "can be poisoned."
+	text "Puede envenenar a"
+	next "cualquier tipo."
 	done
 
 FluffyDescription:
-	text "Resists contact,"
-	next "but weak to Fire."
+	text "Resiste contacto,"
+	next "débil a Fuego."
 	done
 
 TanglingHairDescription:
-	text "Contact may lower"
-	next "the foe's Speed."
-	done
-
-GorillaTacticsDescription:
-	text "Boosts Attack, but"
-	next "allows one move."
-	done
-
-NeutralizingGasDescription:
-	text "Suppresses all"
-	next "other Abilities."
-	done
-
-QuickDrawDescription:
-	text "Moves first"
-	next "occasionally."
-	done
-
-WindRiderDescription:
-	text "Gives immunity to"
-	next "wind-based moves."
-	done
-
-SteelySpiritDescription:
-	text "Boosts Steel-type"
-	next "moves."
-	done
-
-PerishBodyDescription:
-	text "Contact causes Pe-"
-	next "rish Song status."
+	text "El contacto puede"
+	next "bajar la Velocidad."
 	done
 
 ScreenCleanerDescription:
-	text "Removes screens"
-	next "when switched in."
+	text "Elimina pantallas"
+	next "al entrar."
+	done
+
+SteelySpiritDescription:
+	text "Potencia movs."
+	next "de tipo Acero."
+	done
+
+PerishBodyDescription:
+	text "El contacto causa"
+	next "Canto Mortal."
+	done
+
+GorillaTacticsDescription:
+	text "Sube Ataque, pero"
+	next "solo permite 1 mov."
+	done
+
+NeutralizingGasDescription:
+	text "Anula todas las"
+	next "demás habilidades."
+	done
+
+QuickDrawDescription:
+	text "A veces actúa"
+	next "primero."
+	done
+
+WindRiderDescription:
+	text "Da inmunidad a"
+	next "movs. de viento."
 	done
 
 CudChewDescription:
-	text "Eats a Berry again"
-	next "after first use."
+	text "Come otra vez la"
+	next "Baya tras usarla."
 	done
 
 SharpnessDescription:
-	text "Boosts power of"
-	next "slicing moves."
+	text "Potencia movs."
+	next "cortantes."
 	done
 
 ArmorTailDescription:
-	text "Stops foes using"
-	next "priority moves."
+	text "Evita movs. con"
+	next "prioridad rival."
 	done
 
 MindsEyeDescription:
-	text "Bypass evasion and"
-	next "Ghost immunity."
+	text "Ignora evasión e"
+	next "inmunidad Fantasma."
 	done
 
 MegaSolDescription:
-	text "Uses moves as if"
-	next "harsh sun is up."
+	text "Usa movs. como si"
+	next "hubiera sol fuerte."
 	done

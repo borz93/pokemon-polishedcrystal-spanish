@@ -19,27 +19,28 @@ LyrasHouse2F_MapScriptHeader:
 	object_event  6,  2, SPRITE_N64, SPRITEMOVEDATA_STILL, 0, 0, -1, PAL_NPC_N64, OBJECTTYPE_COMMAND, jumptext, LyrasHouseN64Text, -1
 
 LyrasHouseLyraText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lyra: ¡Hola,"
+	line "<PLAYER>!"
 
-	para "Hmm… My #mon"
-	line "may be putting"
+	para "Mmm… Creo que mi"
+	line "#mon está"
 
-	para "on some weight"
-	line "lately…"
+	para "engordando"
+	line "últimamente…"
 	done
 
 LyrasHousePidgeotText:
-	text "Pidgeot: Pijiii!"
+	text "Pidgeot: ¡Pijiii!"
 	done
 
 LyrasHousePCText:
-	text "You shouldn't mess"
-	line "with someone"
-	cont "else's PC!"
+	text "No deberías tocar"
+	line "el PC de otra"
+	cont "persona!"
 	done
 
 LyrasHouseN64Text:
-	text "It's a limited-"
-	line "edition Pikachu"
-	cont "N64!"
+	text "¡Es una N64"
+	line "Pikachu edición"
+	cont "limitada!"
 	done

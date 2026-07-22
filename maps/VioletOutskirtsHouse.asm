@@ -84,41 +84,42 @@ VioletOutskirtsHouseCaretakerScript:
 
 	text "…… ……"
 
-	para "You found my"
-	line "friend…"
+	para "Encontraste a mi"
+	line "amigo…"
 
-	para "It would guide"
-	line "departed spirits"
-	cont "to the next life…"
+	para "Guiaba a los"
+	line "espíritus"
+	cont "difuntos a la"
+	cont "siguiente vida…"
 
-	para "As I tended to"
-	line "their graves…"
-
-	para "…… ……"
-
-	para "That was so"
-	line "long ago…"
-
-	para "No one visits"
-	line "any more…"
-
-	para "The graves are"
-	line "left untended…"
-
-	para "But you… still"
-	line "came here…"
+	para "Mientras yo"
+	line "cuidaba sus"
+	cont "tumbas…"
 
 	para "…… ……"
 
-	para "Thank you…"
+	para "Eso fue hace"
+	line "tanto tiempo…"
 
-	para "Please take care"
-	line "of my… friend…"
+	para "Ya nadie viene…"
+
+	para "Las tumbas están"
+	line "descuidadas…"
+
+	para "Pero tú… aun así"
+	line "viniste…"
+
+	para "…… ……"
+
+	para "Gracias…"
+
+	para "Por favor, cuida"
+	line "de mi… amigo…"
 	done
 
 VioletOutskirtsHouseOldShrineText:
-	text "It's a very old"
-	line "shrine."
+	text "Es un santuario"
+	line "muy antiguo."
 	done
 
 VioletOutskirtsHouseAhText:
@@ -126,42 +127,43 @@ VioletOutskirtsHouseAhText:
 
 	para "…… …… ……"
 
-	para "Ah!"
+	para "¡Ah!"
 	done
 
 VioletOutskirtsHouseCaretakerThankYouText:
 	text "…… ……"
 
-	para "Thank you…"
-	line "dear…"
+	para "Gracias…"
+	line "cielo…"
 	done
 
 VioletOutskirtsHouseStillAPresenceText:
-	text "The spirit is"
-	line "gone, but there's"
-	cont "still a presence…"
+	text "El espíritu se"
+	line "fue, pero aún hay"
+	cont "una presencia…"
 	done
 
 VioletOutskirtsHouseNotSafeHereText:
-	text "There's still a"
-	line "strong presence."
+	text "Aún hay una"
+	line "presencia fuerte."
 
-	para "It's not safe here!"
+	para "¡No es seguro"
+	line "aquí!"
 	done
 
 VioletOutskirtsHouseRadioText:
-	text "It doesn't seem"
-	line "to work."
+	text "No parece"
+	line "funcionar."
 	done
 
 VioletOutskirtsHouseDustText:
-	text "It's covered in a"
-	line "thick layer of"
-	cont "dust."
+	text "Está cubierto de"
+	line "una gruesa capa"
+	cont "de polvo."
 	done
 
 VioletOutskirtsHouseNotAloneText:
-	text "You have a sense"
-	line "that something"
-	cont "is watching you…"
+	text "Sientes que algo"
+	line "te está"
+	cont "observando…"
 	done

@@ -53,33 +53,35 @@ GoldenRodDeptStoreUnblockCallback:
 	endcallback
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Hey, kid! You're"
-	line "holding us up!"
+	text "¡Eh, crío! Nos"
+	line "estás"
+	cont "entreteniendo!"
 
-	para "Our policy is to"
-	line "work behind the"
+	para "Nuestra política"
+	line "es trabajar"
 
-	para "scenes where no"
-	line "one can see us!"
+	para "entre bambalinas"
+	line "donde nadie"
+	cont "nos vea!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
-	text "I lose my passion"
-	line "for work if some-"
-	cont "one's watching."
+	text "Pierdo la pasión"
+	line "por el trabajo"
+	cont "si alguien mira."
 
-	para "Come on, kid,"
-	line "scoot!"
+	para "Venga, crío,"
+	line "¡lárgate!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
-	text "Oohah! Oohah!"
+	text "¡Ooah! ¡Ooah!"
 
-	para "The stuff on the"
-	line "ground's junk."
+	para "Lo que hay en el"
+	line "suelo es basura."
 
-	para "Take it if you"
-	line "want it!"
+	para "¡Cógelo si lo"
+	line "quieres!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

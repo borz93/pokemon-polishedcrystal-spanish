@@ -63,12 +63,12 @@ CeladonEusine:
 .OwnSuicune
 	jumpthistext
 
-	text "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	text "Si atrapas alguno,"
+	line "espero que me"
+	cont "avises."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "¡Cuento contigo,"
+	line "<PLAYER>!"
 	done
 
 .HoOh:
@@ -108,13 +108,13 @@ EusinesHouseGrampsScript:
 	iftruefwd .AfterHoOhFight
 	jumpthistextfaceplayer
 
-	text "My grandson Eusine"
-	line "is on another"
-	cont "adventure."
+	text "Mi nieto Eusine"
+	line "está en otra"
+	cont "aventura."
 
-	para "He left to visit"
-	line "Bell Tower in"
-	cont "Ecruteak City."
+	para "Se fue a visitar"
+	line "la Torre Campana"
+	cont "en Ciudad Iris."
 	done
 
 .AfterHoOhFight:
@@ -133,116 +133,119 @@ EusinesHouseGrampsScript:
 	end
 
 ReceivedAbraDollText:
-	text "<PLAYER> received"
-	line "Abra Doll."
+	text "<PLAYER> recibió"
+	line "un Muñeco Abra."
 	done
 
 AbraDollSentHomeText:
-	text "Abra Doll"
-	line "was sent home."
+	text "El Muñeco Abra"
+	line "fue enviado a"
+	cont "casa."
 	done
 
 CeladonEusineText1:
-	text "Eusine: Hi!"
+	text "Eusine: ¡Hola!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "He vuelto a"
+	line "visitar mi ciudad"
+	cont "natal."
 
-	para "It's been quite a"
-	line "while."
+	para "Ha pasado bastante"
+	line "tiempo."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, ¿te has"
+	line "enterado?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Hay nuevos rumores"
+	line "de un #mon de"
+	cont "colores del"
+	cont "arcoíris en la"
+	cont "Torre Campana."
 
-	para "rainbow-colored"
-	line "#mon appearing"
-	cont "at Bell Tower."
+	para "Acabo de curar a"
+	line "mi equipo, así que"
 
-	para "I've just had my"
-	line "party healed, so"
+	para "ahora me dirijo a"
+	line "Ciudad Iris."
 
-	para "now I'm headed to"
-	line "Ecruteak."
-
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "¡Nos vemos,"
+	line "<PLAYER>!"
 	done
 
 EusineNoBeastsText:
-	text "Oh, by the way,"
+	text "Ah, por cierto,"
 	line "<PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
-	cont "beast #mon?"
+	para "¿Has atrapado a"
+	line "las bestias"
+	cont "legendarias?"
 
 	para "………………"
 
-	para "OK…"
+	para "Vale…"
 
-	para "Let me give you"
-	line "my research notes."
+	para "Deja que te dé mis"
+	line "notas de"
+	cont "investigación."
 	done
 
 EusineShowsRaikouText:
-	text "This is Raikou:"
+	text "Este es Raikou:"
 	done
 
 EusineShowsEnteiText:
-	text "This is Entei:"
+	text "Este es Entei:"
 	done
 
 EusineShowsSuicuneText:
-	text "This, of course,"
-	line "is Suicune:"
+	text "Y esta, por"
+	line "supuesto, es"
+	cont "Suicune:"
 	done
 
 
 EusinesHouseGrampsGrandsonHomeText:
-	text "My grandson came"
-	line "home!"
-	cont "I'm overjoyed!"
+	text "¡Mi nieto ha"
+	line "vuelto a casa!"
+	cont "¡Qué alegría!"
 	done
 
 EusinesHouseGrampsEusineSearchingForSuicuneText:
-	text "My grandson Eusine"
-	line "is in Johto,"
+	text "Mi nieto Eusine"
+	line "está en Johto,"
 
-	para "searching far and"
-	line "wide for Suicune."
+	para "buscando a Suicune"
+	line "por todas partes."
 
-	para "I taught him all"
-	line "about the legend-"
-	cont "ary #mon!"
+	para "¡Le enseñé todo"
+	line "sobre esos #mon"
+	cont "legendarios!"
 	done
 
 
 EusinesHouseGrampsThankYouGiftText:
-	text "My grandson Eusine"
-	line "called."
+	text "Mi nieto Eusine"
+	line "llamó."
 
-	para "He's doing well."
-	line "I'm happy for him!"
+	para "Le va bien."
+	line "¡Me alegro por él!"
 
-	para "Thank you for"
-	line "checking on me,"
-	cont "<PLAYER>!"
+	para "¡Gracias por"
+	line "preocuparte por"
+	cont "mí, <PLAYER>!"
 
-	para "Please take this"
-	line "to show my"
-	cont "appreciation."
+	para "Por favor, toma"
+	line "esto como muestra"
+	cont "de mi gratitud."
 	done
 
 EusinesHouseGrampsEusineTravelingWorldText:
-	text "Eusine is out"
-	line "traveling the"
-	cont "world."
+	text "Eusine está"
+	line "viajando por el"
+	cont "mundo."
 
-	para "I'm so proud of"
-	line "him!"
+	para "¡Estoy muy"
+	line "orgulloso de él!"
 	done

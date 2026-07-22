@@ -1491,16 +1491,16 @@ Text_Mart_HowMayIHelpYou:
 	text_farend _MartWelcomeText
 MenuDataHeader_BuySell:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 7, 8
+	menu_coords 0, 0, 9, 8
 	dw .menudata2
 	db 1 ; default option
 
 .menudata2
 	db $80 ; strings
 	db 3 ; items
-	db "Buy@"
-	db "Sell@"
-	db "Quit@"
+	db "Comprar@"
+	db "Vender@"
+	db "Salir@"
 
 Text_Mart_HereYouGo:
 Text_BTMart_HereYouGo:

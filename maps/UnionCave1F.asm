@@ -31,135 +31,140 @@ UnionCave1F_MapScriptHeader:
 GenericTrainerPokemaniacLarry:
 	generictrainer POKEMANIAC, POKEMANIAC_LARRY, EVENT_BEAT_POKEMANIAC_LARRY, PokemaniacLarrySeenText, PokemaniacLarryBeatenText
 
-	text "Every Friday, you"
-	line "can hear #mon"
+	text "Cada viernes se"
+	line "oyen rugidos de"
 
-	para "roars from deep"
-	line "inside the cave."
+	para "#mon desde el"
+	line "fondo de la cueva."
 	done
 
 GenericTrainerHikerRussell:
 	generictrainer HIKER, RUSSELL, EVENT_BEAT_HIKER_RUSSELL, HikerRussellSeenText, HikerRussellBeatenText
 
-	text "All right, then!"
-	line "I've decided."
+	text "¡Muy bien,"
+	line "entonces!"
+	cont "Decidido."
 
-	para "I'm not leaving"
-	line "until my #mon"
-	cont "get tougher!"
+	para "No me iré hasta"
+	line "que mis #mon se"
+	cont "vuelvan más"
+	cont "fuertes!"
 	done
 
 GenericTrainerHikerDaniel:
 	generictrainer HIKER, DANIEL, EVENT_BEAT_HIKER_DANIEL, HikerDanielSeenText, HikerDanielBeatenText
 
-	text "I was conned into"
-	line "buying a Slowpoke-"
-	cont "Tail."
+	text "Me estafaron"
+	line "vendiéndome una"
+	cont "ColaSlowpoke."
 
-	para "I feel sorry for"
-	line "the poor #mon."
+	para "Me da pena ese"
+	line "pobre #mon."
 	done
 
 GenericTrainerFirebreatherBill:
 	generictrainer FIREBREATHER, BILL, EVENT_BEAT_FIREBREATHER_BILL, FirebreatherBillSeenText, FirebreatherBillBeatenText
 
-	text "On weekends, you"
-	line "can hear strange"
+	text "Los fines de"
+	line "semana se oyen"
 
-	para "roars from deep in"
-	line "the cave."
+	para "rugidos extraños"
+	line "en lo profundo de"
+	cont "la cueva."
 	done
 
 GenericTrainerFirebreatherRay:
 	generictrainer FIREBREATHER, RAY, EVENT_BEAT_FIREBREATHER_RAY, FirebreatherRaySeenText, FirebreatherRayBeatenText
 
-	text "It's my #mon's"
-	line "fire that lights"
-	cont "up this cave."
+	text "Es el fuego de mi"
+	line "#mon el que"
+	cont "ilumina esta"
+	cont "cueva."
 	done
 
 GenericTrainerRuin_maniacJones:
 	generictrainer RUIN_MANIAC, JONES, EVENT_BEAT_RUIN_MANIAC_JONES, Ruin_maniacJonesSeenText, Ruin_maniacJonesBeatenText
 
-	text "The Ruins are hid-"
-	line "ing something…"
-	cont "I just know it!"
+	text "Las Ruinas"
+	line "esconden algo…"
+	cont "¡Lo sé!"
 	done
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "Azalea, are you?"
+	text "¿Vas hacia"
+	line "Azalea, verdad?"
 
-	para "Let my #mon see"
-	line "if you are good"
-	cont "enough to battle."
+	para "Que mis #mon"
+	line "vean si eres"
+	cont "bueno para"
+	cont "combatir."
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "¡Oh, oh, oh!"
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
-	cont "#mon."
+	text "Viajo lejos"
+	line "buscando #mon."
 
-	para "Are you looking"
-	line "for #mon too?"
+	para "¿Tú también"
+	line "buscas #mon?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "¡Entonces eres mi"
+	line "rival de"
+	cont "colección!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "mon…"
+	text "Ugh. Mi pobre"
+	line "#mon…"
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
+	text "¡Vaya! ¡Qué"
+	line "sorpresa!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "¡No esperaba ver"
+	line "a nadie aquí!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "¡Vaya! ¡Me"
+	line "vencieron mucho!"
 	done
 
 FirebreatherBillSeenText:
-	text "Zubat's Supersonic"
-	line "keeps confusing"
-	cont "my #mon."
+	text "El Ultrasonido de"
+	line "Zubat confunde a"
+	cont "mi #mon."
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "¡Estoy muy"
+	line "molesto por eso!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "¡Me apagué!"
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Si hay luz, una"
+	line "cueva no da miedo."
 
-	para "If you're strong,"
-	line "#mon aren't"
-	cont "scary."
+	para "Si eres fuerte,"
+	line "los #mon no dan"
+	cont "miedo."
 	done
 
 FirebreatherRayBeatenText:
-	text "Flash!"
+	text "¡Destello!"
 	done
 
 Ruin_maniacJonesSeenText:
-	text "Have you explored"
-	line "the Ruins of Alph?"
+	text "¿Has explorado"
+	line "las Ruinas Alfa?"
 	done
 
 Ruin_maniacJonesBeatenText:
-	text "Gahahah!"
+	text "¡Gajajá!"
 	done

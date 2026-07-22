@@ -37,7 +37,7 @@ def main():
 			print(error, file=sys.stderr)
 			sys.exit(1)
 
-	num_banks = 0x80
+	num_banks = 0x100
 	bank_size = 0x4000 # bytes
 	total_size = num_banks * bank_size
 

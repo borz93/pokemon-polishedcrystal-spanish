@@ -70,68 +70,72 @@ ScaryCave1FMiraScript:
 	end
 
 .ChallengeText:
-	text "I'm Mira…"
-	line "I was catching"
+	text "Soy Mira…"
+	line "Estaba atrapando"
 
-	para "#mon, but this"
-	line "cave is too scary…"
+	para "#mon, pero esta"
+	line "cueva da mucho"
+	cont "miedo…"
 
-	para "I want to get"
-	line "tougher so I won't"
-	cont "be such a scaredy-"
-	cont "cat."
+	para "Quiero volverme"
+	line "más fuerte para"
+	cont "no ser tan"
+	cont "miedica."
 
-	para "Please! Please"
-	line "battle with me!"
+	para "¡Por favor!"
+	line "¡Combate conmigo!"
 	done
 
 .YesText:
-	text "Yes! Mira will"
-	line "show you her #-"
-	cont "mon!"
+	text "¡Sí! Mira te"
+	line "mostrará a sus"
+	cont "¡#mon!"
 	done
 
 .NoText:
-	text "Mira is sad…"
+	text "Mira está"
+	line "triste…"
 	done
 
 .BeatenText:
-	text "Mira wants to get"
-	line "a lot, lot strong-"
-	cont "er, like <PLAYER>!"
+	text "Mira quiere"
+	line "volverse mucho,"
+	cont "mucho más fuerte,"
+	cont "¡como <PLAYER>!"
 	done
 
 .ItemText:
-	text "<PLAYER>, did you"
-	line "get to be so good"
+	text "<PLAYER>, ¿te"
+	line "volviste tan"
+	cont "fuerte porque"
 
-	para "because you're al-"
-	line "ways with your"
-	cont "#mon?"
+	para "siempre estás con"
+	line "tus #mon?"
 
-	para "Yes! That has to"
-	line "be it!"
+	para "¡Sí! ¡Debe ser"
+	line "eso!"
 
-	para "Mira is beginning"
-	line "to understand!"
+	para "¡Mira empieza a"
+	line "entender!"
 
-	para "Thank you,"
+	para "¡Gracias,"
 	line "<PLAYER>!"
 
-	para "Mira wants you to"
-	line "have this!"
+	para "¡Mira quiere que"
+	line "tengas esto!"
 	done
 
 .GoodbyeText:
-	text "Mira will try like"
-	line "you, <PLAYER>!"
+	text "¡Mira lo"
+	line "intentará como tú,"
+	cont "<PLAYER>!"
 
-	para "I'll get stronger"
-	line "at the Battle"
-	cont "Tower!"
+	para "¡Me haré más"
+	line "fuerte en la Torre"
+	cont "Batalla!"
 
 	para "<PLAYER>,"
-	line "bye-bye!"
+	line "¡adiós!"
 	done
 
 ScaryCave1FPharmacistScript:
@@ -155,94 +159,99 @@ ScaryCave1FPharmacistScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "It's your funeral."
+	text "Es tu funeral."
 	done
 
 .IntroText:
-	text "Ghosts are masters"
-	line "of the cheap shot."
+	text "Los fantasmas son"
+	line "maestros del golpe"
+	cont "barato."
 
-	para "The way to deal"
-	line "with them is to"
-	cont "hit them first!"
+	para "La forma de"
+	line "lidiar con ellos"
+	cont "es golpear"
+	cont "primero."
 
-	para "Give 'em a good"
-	line "surprise Sucker"
-	cont "Punch!"
+	para "¡Dales un buen"
+	line "Golpe Bajo"
+	cont "sorpresa!"
 	done
 
 .QuestionText:
-	text "I'll teach you to"
-	line "Sucker Punch, but"
+	text "Te enseñaré Golpe"
+	line "Bajo, pero quiero"
 
-	para "I want a Silver"
-	line "Leaf."
+	para "una Hoja"
+	line "Plateada."
 	done
 
 .NoSilverLeaf
 	waitbutton
 	jumpthisopenedtext
 
-	text "No Silver Leaf?"
-	line "Forget it then."
+	text "¿No tienes Hoja"
+	line "Plateada? Olvídalo"
+	cont "entonces."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now you can use"
-	line "Sucker Punch!"
+	text "¡Ahora puedes usar"
+	line "Golpe Bajo!"
 
-	para "If a foe is about"
-	line "to hit you, you"
-	cont "hit them first!"
+	para "Si un rival está a"
+	line "punto de"
+	cont "golpearte, ¡tú"
+	cont "golpeas primero!"
 	done
 
 GenericTrainerRuin_maniacSmilte:
 	generictrainer RUIN_MANIAC, SMILTE, EVENT_BEAT_RUIN_MANIAC_SMILTE, .SeenText, .BeatenText
 
-	text "I hear an echo."
-	line "There's a deeper"
-	cont "cave nearby!"
+	text "Oigo un eco."
+	line "¡Hay una cueva más"
+	cont "profunda cerca!"
 
-	para "I wonder if that"
-	line "is where I'll find"
-	cont "my big discovery…"
+	para "Me pregunto si ahí"
+	line "encontraré mi gran"
+	cont "descubrimiento…"
 	done
 
 .SeenText:
-	text "I'm on the edge of"
-	line "a big discovery!"
+	text "¡Estoy a punto de"
+	line "un gran"
+	cont "descubrimiento!"
 
-	para "I can just feel"
-	line "it!"
+	para "¡Puedo sentirlo!"
 	done
 
 .BeatenText:
-	text "Are you after my"
-	line "discovery?!"
+	text "¿¡Vas tras mi"
+	line "descubrimiento!?"
 	done
 
 GenericTrainerSuper_nerdKouta:
 	generictrainer SUPER_NERD, KOUTA, EVENT_BEAT_SUPER_NERD_KOUTA, .SeenText, .BeatenText
 
-	text "I guess even the"
-	line "best-laid plans"
-	cont "can be ruined."
+	text "Supongo que hasta"
+	line "los mejores planes"
+	cont "pueden arruinarse."
 	done
 
 .SeenText:
-	text "You can't beat me!"
-	line "I've got the per-"
-	cont "fect plan!"
+	text "¡No puedes"
+	line "vencerme! ¡Tengo"
+	cont "el plan perfecto!"
 	done
 
 .BeatenText:
-	text "My plan failed?!"
+	text "¿¡Mi plan"
+	line "falló!?"
 
-	para "Back to the draw-"
-	line "ing board…"
+	para "Vuelta a la mesa"
+	line "de dibujo…"
 	done
 
 TrainerCoupleJoeandjo1:
@@ -252,23 +261,25 @@ TrainerCoupleJoeandjo1:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Joe: We're on a"
-	line "ghost hunt, but"
+	text "Joe: Estamos de"
+	line "caza de fantasmas,"
 
-	para "I'm not scared as"
-	line "long as I have my"
-	cont "Jo beside me!"
+	para "pero no tengo"
+	line "miedo mientras"
+	cont "tenga a mi Jo a mi"
+	cont "lado."
 	done
 
 .SeenText:
-	text "Joe: A ghost!"
-	line "Stay close, my"
-	cont "dear Jo!"
+	text "Joe: ¡Un"
+	line "fantasma! ¡Quédate"
+	cont "cerca, mi querida"
+	cont "Jo!"
 	done
 
 .BeatenText:
-	text "Joe: Oh. It was"
-	line "just a trainer."
+	text "Joe: Oh. Solo era"
+	line "un entrenador."
 	done
 
 TrainerCoupleJoeandjo2:
@@ -278,62 +289,64 @@ TrainerCoupleJoeandjo2:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Jo: I'm so lucky"
-	line "to have my wonder-"
-	cont "ful Joe to ward"
+	text "Jo: Qué suerte"
+	line "tengo de tener a"
+	cont "mi maravilloso Joe"
 
-	para "off any creepy"
-	line "ghosts."
+	para "para ahuyentar"
+	line "fantasmas"
+	cont "espeluznantes."
 	done
 
 .SeenText:
-	text "Jo: Eek! Hold me"
-	line "tight, Joe!"
+	text "Jo: ¡Eek!"
+	line "¡Abrázame fuerte,"
+	cont "Joe!"
 	done
 
 .BeatenText:
-	text "Jo: Aren't you"
-	line "scared?"
+	text "Jo: ¿No tienes"
+	line "miedo?"
 	done
 
 GenericTrainerHex_maniacBethany:
 	generictrainer HEX_MANIAC, BETHANY, EVENT_BEAT_HEX_MANIAC_BETHANY, .SeenText, .BeatenText
 
-	text "The aura of fear"
-	line "in this cave is"
-	cont "delightful…"
+	text "El aura de miedo"
+	line "en esta cueva es"
+	cont "deliciosa…"
 	cont "Fufufufu…"
 	done
 
 .SeenText: ; text > text
-	text "BOO!"
+	text "¡BU!"
 	done
 
 .BeatenText:
-	text "Did I scare you?"
+	text "¿Te asusté?"
 	done
 
 GenericTrainerScientistPiotr:
 	generictrainer SCIENTIST, PIOTR, EVENT_BEAT_SCIENTIST_PIOTR, .SeenText, .BeatenText
 
-	text "Algae grow here"
-	line "and release a"
+	text "Aquí crecen algas"
+	line "que liberan un"
 
-	para "cloudy pigment"
-	line "in the water."
+	para "pigmento turbio en"
+	line "el agua."
 
-	para "It's nothing to"
-	line "be afraid of!"
-	cont "…Right?"
+	para "¡No hay nada que"
+	line "temer!"
+	cont "…¿Verdad?"
 	done
 
 .SeenText:
-	text "Do you know why"
-	line "the water here is"
-	cont "so dark?"
+	text "¿Sabes por qué el"
+	line "agua de aquí es"
+	cont "tan oscura?"
 	done
 
 .BeatenText:
-	text "Fine, I'll tell"
-	line "you!"
+	text "Vale, ¡te lo"
+	line "diré!"
 	done

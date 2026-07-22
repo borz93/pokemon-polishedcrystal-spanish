@@ -14,24 +14,24 @@ InitialOptionNames:
 	assert_table_length NUM_INITIAL_MENU_OPTIONS
 
 .Natures:
-	db "Natures@"
+	db "Naturalezas@"
 .Abilities:
-	db "Abilities@"
+	db "Habilidades@"
 .PSS:
-	db "Phys/Spcl split@"
+	db "Div. Fís./Esp.@"
 .EVs:
-	db "EV gain@"
+	db "Ganancia EV@"
 .Experience:
-	db "Experience gain@"
+	db "Ganancia exp.@"
 .Affection:
-	db "Affection bonus@"
+	db "Bonus cariño@"
 .RTC:
-	db "Real-time clock@"
+	db "Reloj real@"
 .PerfectStats:
-	db "Perfect stats@"
+	db "Estadí. perfectas@"
 .TradedMon:
-	db "Traded <PK><MN> obey@"
+	db "Intercambiados@"
 .EvolveInBattle:
-	db "Evolve in battle@"
+	db "Evol. en batalla@"
 .ColorVariation:
-	db "Color variation@"
+	db "Var. de color@"

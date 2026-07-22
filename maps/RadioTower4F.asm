@@ -36,11 +36,11 @@ RadioTower4FDJMaryScript:
 	iftruefwd .ClearedRockets
 	jumpthisopenedtext
 
-	text "Mary: Why? Why do"
-	line "I have to suffer"
-	cont "through this?"
+	text "Mary: ¿Por qué?"
+	line "¿Por qué tengo que"
+	cont "sufrir esto?"
 
-	para "Meowth, help me!"
+	para "¡Meowth, ayúdame!"
 	done
 
 .ClearedRockets:
@@ -51,141 +51,151 @@ RadioTower4FDJMaryScript:
 	setevent EVENT_GOT_FAIRYFEATHER_FROM_MARY
 	jumpthisopenedtext
 
-	text "Mary: It's just"
-	line "right for #mon"
+	text "Mary: Es perfecta"
+	line "para #mon que"
 
-	para "that know Fairy-"
-	line "type moves."
+	para "conocen"
+	line "movimientos de"
+	cont "tipo Hada."
 	done
 
 GenericTrainerGruntM10:
 	generictrainer GRUNTM, 10, EVENT_BEAT_ROCKET_GRUNTM_10, GruntM10SeenText, GruntM10BeatenText
 
-	text "I don't believe"
-	line "it! I was beaten!"
+	text "¡No me lo creo!"
+	line "¡Me vencieron!"
 	done
 
 GenericTrainerProton1:
 	generictrainer PROTON, PROTON1, EVENT_BEAT_PROTON_1, Proton1SeenText, Proton1BeatenText
 
-	text "You've earned my"
-	line "respect, so here's"
-	cont "some advice."
+	text "Te has ganado mi"
+	line "respeto, así que"
+	cont "un consejo."
 
-	para "It's not too late."
-	line "You can still turn"
-	cont "back."
+	para "No es tarde. Aún"
+	line "puedes dar marcha"
+	cont "atrás."
 	done
 
 GenericTrainerGruntF4:
 	generictrainer GRUNTF, 4, EVENT_BEAT_ROCKET_GRUNTF_4, GruntF4SeenText, GruntF4BeatenText
 
-	text "I love my"
-	line "beautiful self!"
+	text "¡Adoro lo bella"
+	line "que soy!"
 
-	para "Who cares about"
-	line "#mon?"
+	para "¿A quién le"
+	line "importan los"
+	cont "#mon?"
 	done
 
 GenericTrainerRocketScientistRich:
 	generictrainer ROCKET_SCIENTIST, RICH, EVENT_BEAT_ROCKET_SCIENTIST_RICH, RocketScientistRichSeenText, RocketScientistRichBeatenText
 
-	text "Do you honestly"
-	line "believe you can"
-	cont "stop Team Rocket?"
+	text "¿De verdad crees"
+	line "que puedes detener"
+	cont "al Team Rocket?"
 	done
 
 RadioTower4FFisherText:
-	text "I listened to the"
-	line "radio while I was"
-	cont "at the ruins."
+	text "Escuché la radio"
+	line "mientras estaba en"
+	cont "las ruinas."
 
-	para "I heard a strange"
-	line "broadcast there."
+	para "Oí una transmisión"
+	line "extraña ahí."
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "Mary: Oh! You're"
-	line "my little savior!"
+	text "Mary: ¡Oh! ¡Eres"
+	line "mi pequeño"
+	cont "salvador!"
 
-	para "Will you take this"
-	line "as my thanks?"
+	para "¿Aceptas esto"
+	line "como mi"
+	cont "agradecimiento?"
 	done
 
 RadioTower4FDJMaryText_After:
-	text "Mary: Please tune"
-	line "into me on Prof."
+	text "Mary: Sintoniza"
+	line "mi programa en el"
 
-	para "Oak's #mon Talk"
-	line "show."
+	para "Show #mon del"
+	line "Prof. Oak."
 	done
 
 RadioTowerMeowthText:
-	text "Meowth: Meowth…"
+	text "Meowth: ¡Meowth!"
 	done
 
 GruntM10SeenText:
-	text "You plan to rescue"
-	line "the Director?"
+	text "¿Planeas rescatar"
+	line "al Director?"
 
-	para "That won't be pos-"
-	line "sible because I'm"
-	cont "going to beat you!"
+	para "¡Eso no será"
+	line "posible porque"
+	cont "voy a vencerte!"
 	done
 
 GruntM10BeatenText:
-	text "No! Unbelievable!"
+	text "¡No! ¡No puede"
+	line "ser!"
 	done
 
 Proton1SeenText:
-	text "Stop! I'm known as"
-	line "the Team Rocket"
-	cont "fortress!"
+	text "¡Alto! ¡Se me"
+	line "conoce como la"
+	cont "fortaleza del Team"
+	cont "Rocket!"
 
-	para "You're not taking"
-	line "another step!"
+	para "¡No darás ni un"
+	line "paso más!"
 	done
 
 Proton1BeatenText:
-	text "The fortress came"
-	line "down!"
+	text "¡La fortaleza"
+	line "cayó!"
 	done
 
 GruntF4SeenText:
-	text "Don't I think"
-	line "#mon are cute?"
+	text "¿No crees que mis"
+	line "#mon son"
+	cont "monos?"
 
-	para "I'll think my"
-	line "#mon are cute--"
+	para "Pensaré que mis"
+	line "#mon son"
+	cont "monos…"
 
-	para "after they beat"
-	line "yours!"
+	para "¡después de que"
+	line "venzan a los"
+	cont "tuyos!"
 	done
 
 GruntF4BeatenText:
-	text "Oh, no! They're so"
-	line "useless!"
+	text "¡Oh, no! ¡Son tan"
+	line "inútiles!"
 	done
 
 RocketScientistRichSeenText:
-	text "Most excellent."
+	text "Excelente."
 
-	para "This Radio Tower"
-	line "will fulfill our"
-	cont "grand design."
+	para "Esta Torre Radio"
+	line "cumplirá nuestro"
+	cont "gran diseño."
 	done
 
 RocketScientistRichBeatenText:
 	text "Hmmm…"
 
-	para "All grand plans"
-	line "come with snags."
+	para "Todo gran plan"
+	line "tiene sus"
+	cont "tropiezos."
 	done
 
 RadioTower4FProductionSignText:
-	text "4F Production"
+	text "4F Producción"
 	done
 
 RadioTower4FStudio2SignText:
-	text "4F Studio 2"
+	text "4F Estudio 2"
 	done

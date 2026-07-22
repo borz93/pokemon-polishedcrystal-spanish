@@ -111,12 +111,11 @@ Route29CooltrainerMScript:
 	iftrue_jumptextfaceplayer Text_WaitingForMorning
 	jumpthistextfaceplayer
 
-	text "I'm waiting for"
-	line "#mon that"
+	text "Espero a #mon"
+	line "que solo salen"
 
-	para "appear only in"
-	line "the evening or"
-	cont "at night."
+	para "por la tarde"
+	line "o de noche."
 	done
 
 TuscanyScript:
@@ -139,23 +138,24 @@ TuscanyScript:
 	setevent EVENT_GOT_SILK_SCARF_FROM_TUSCANY
 	jumpthisopenedtext
 
-	text "Tuscany: Wouldn't"
-	line "you agree that it"
-	cont "is most elegant?"
+	text "Marta: ¿No crees"
+	line "que es de lo más"
+	cont "elegante?"
 
-	para "It strengthens"
-	line "Normal-type moves."
+	para "Potencia los"
+	line "movimientos"
+	cont "de tipo Normal."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Estoy segura de"
+	line "que te será útil."
 	done
 
 TuscanyNotTuesdayScript:
 	jumpthisopenedtext
 
-	text "Tuscany: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "Marta: Hoy no es"
+	line "martes. Qué"
+	cont "lástima…"
 	done
 
 LyraMovementData1a:
@@ -196,140 +196,142 @@ LyraMovementData3:
 CatchingTutorialIntroText:
 	text "Lyra: <PLAYER>!"
 
-	para "You can catch wild"
-	line "#mon with #"
+	para "Puedes atrapar"
+	line "#mon salvajes"
+	cont "con # Balls."
 
-	para "Balls. Follow me"
-	line "and I'll show you!"
+	para "¡Ven conmigo y te"
+	line "lo enseño!"
 	done
 
 CatchingTutorialDebriefText:
-	text "Lyra: See? Just"
-	line "like that!"
+	text "Lyra: ¿Ves? ¡Así"
+	line "de fácil!"
 
-	para "If you weaken them"
-	line "first, #mon are"
-	cont "easier to catch."
+	para "Si los debilitas"
+	line "antes, es más"
+	cont "fácil atraparlos."
 
-	para "I'll give you"
-	line "these. Good luck!"
+	para "Te daré estas."
+	line "¡Buena suerte!"
 	done
 
 CatchingTutorialRefusedText:
-	text "Aww… I wanted to"
-	line "show off my cap-"
-	cont "turing skills a"
-	cont "little…"
+	text "Vaya… quería"
+	line "presumir un poco"
+	cont "de mis dotes"
+	cont "para atrapar…"
 
-	para "Anyway, I'll give"
-	line "you these."
-	cont "Good luck!"
+	para "En fin, te daré"
+	line "estas."
+	cont "¡Buena suerte!"
 	done
 
 CatchingTutorialGoodbyeText:
-	text "Lyra: See you!"
+	text "Lyra: ¡Nos vemos!"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#mon?"
+	text "Oye, ¿cómo están"
+	line "tus #mon?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Si están débiles"
+	line "y no listos para"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "el combate, no"
+	line "vayas a la hierba."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "¿Ves esos"
+	line "salientes? Da"
+	cont "miedo saltar."
 
-	para "But you can go to"
-	line "New Bark without"
+	para "Pero puedes ir a"
+	line "Pueblo Primavera"
 
-	para "walking through"
-	line "the grass."
+	para "sin caminar por"
+	line "la hierba."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Quería tomarme un"
+	line "descanso, así que"
 
-	para "to record my"
-	line "progress."
+	para "guardé para grabar"
+	line "mi progreso."
 	done
 
 
 Text_WaitingForMorning:
-	text "I'm waiting for"
-	line "#mon that"
-
-	para "appear only in the"
-	line "morning."
+	text "Espero a #mon"
+	line "que solo aparecen"
+	cont "por la mañana."
 	done
 
 MeetTuscanyText:
-	text "Tuscany: I do be-"
-	line "lieve that this is"
+	text "Marta: Creo que"
+	line "es la primera vez"
 
-	para "the first time"
-	line "we've met?"
+	para "que nos"
+	line "conocemos, ¿no?"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Permíteme"
+	line "presentarme."
 
-	para "I am Tuscany of"
-	line "Tuesday."
+	para "Soy Marta,"
+	line "la del martes."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Como muestra de"
+	line "presentación,"
 
-	para "accept this gift,"
-	line "a Silk Scarf."
+	para "acepta este regalo"
+	line "un Pañuelo Seda."
 	done
 
 
 TuscanyTuesdayText:
-	text "Tuscany: Have you"
-	line "met Monica, my"
-	cont "older sister?"
+	text "Marta: ¿Conoces a"
+	line "Luna, mi hermana"
+	cont "mayor?"
 
-	para "Or my younger"
-	line "brother, Wesley?"
+	para "¿O a mi hermano"
+	line "pequeño, Marcial?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Soy la segunda de"
+	line "siete hermanos."
 	done
 
 
 Route29Sign1Text:
-	text "Route 29"
+	text "Ruta 29"
 
-	para "New Bark Town -"
-	line "Cherrygrove City"
+	para "Pueblo Primavera -"
+	line "Ciudad Cerezo"
 	done
 
 Route29Sign2Text:
-	text "Route 29"
+	text "Ruta 29"
 
-	para "Cherrygrove City -"
-	line "New Bark Town"
+	para "Ciudad Cerezo -"
+	line "Pueblo Primavera"
 	done
 
 Route29AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "Press Down+B at"
-	line "the title screen"
+	para "Pulsa Abajo+B en"
+	line "la pantalla de"
+	cont "título"
 
-	para "to reset the"
-	line "clock!"
+	para "para reiniciar"
+	line "el reloj."
 
-	para "Press Left+B to"
-	line "reset the initial"
-	cont "game options!"
+	para "Pulsa Izquierda+B"
+	line "para restablecer"
+	cont "las opciones"
+	cont "iniciales."
 	done

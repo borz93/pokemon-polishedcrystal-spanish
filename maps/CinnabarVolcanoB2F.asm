@@ -108,58 +108,61 @@ CinnabarVolcanoMoltres:
 	end
 
 MoltresText:
-	text "Gyaoo!"
+	text "¡Gyaoo!"
 	done
 
 CinnabarVolcanoB2FLawrenceSpeechText:
-	text "Lawrence: Hello"
-	line "again, <PLAYER>."
+	text "Lawrence: Hola de"
+	line "nuevo, <PLAYER>."
 
-	para "So you are search-"
-	line "ing for Moltres"
-	cont "here too."
-	cont "Did I inspire you?"
+	para "Así que también"
+	line "buscas a Moltres"
+	cont "aquí."
+	cont "¿Te inspiré yo?"
 
-	para "…What?! You caught"
-	line "it already?"
-	cont "Impossible."
+	para "…¡¿Qué?! ¿Ya lo"
+	line "atrapaste?"
+	cont "Imposible."
 
-	para "I spent years"
-	line "hunting through"
+	para "Pasé años"
+	line "explorando el"
 
-	para "Victory Road, and"
-	line "the islands south"
-	cont "of Kanto…"
+	para "Camino de la"
+	line "Victoria y las"
+	cont "islas al sur de"
+	cont "Kanto…"
 
-	para "Why have you"
-	line "succeeded where I"
-	cont "failed?"
+	para "¿Por qué tuviste"
+	line "éxito donde yo"
+	cont "fallé?"
 
-	para "Can you appreciate"
-	line "the majesty of the"
-	cont "winged mirages?"
+	para "¿Puedes apreciar"
+	line "la majestad de los"
+	cont "espejismos"
+	cont "alados?"
 
-	para "Have you even"
-	line "heard of the"
+	para "¿Siquiera habías"
+	line "oído hablar del"
 
-	para "guardian of the"
-	line "sea before?"
+	para "guardián del mar"
+	line "antes?"
 
-	para "This is unaccept-"
-	line "able."
+	para "Esto es"
+	line "inaceptable."
 
-	para "Meet me at the"
-	line "ruined shrine on"
-	cont "Shamouti Island."
+	para "Reúnete conmigo en"
+	line "el santuario en"
+	cont "ruinas de la Isla"
+	cont "Shamouti."
 
-	para "I'll show you that"
-	line "I deserve to own"
-	cont "those #mon."
+	para "Te demostraré que"
+	line "merezco poseer a"
+	cont "esos #mon."
 	done
 
 CinnabarVolcanoB2FLawrenceEscapeRopeText:
-	text "Lawrence used an"
-	line "Escape Rope!"
+	text "¡Lawrence usó una"
+	line "Cuerda Huida!"
 	done
 
 CinnabarVolcanoB2FMovementData_LawrenceApproachUp:

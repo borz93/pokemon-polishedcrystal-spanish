@@ -20,27 +20,28 @@ CeruleanBikeShopClerkScript:
 	end
 
 CeruleanBikeShopClerkText:
-	text "A long time ago,"
-	line "this cool boy rode"
-	cont "my Bike around,"
+	text "Hace mucho, un"
+	line "chico genial montó"
+	cont "mi Bici por ahí,"
 
-	para "and that started"
-	line "a Bicycle boom."
+	para "y eso empezó un"
+	line "boom de bicis."
 
-	para "Then I decided to"
-	line "open a branch at"
-	cont "Goldenrod City."
+	para "Entonces decidí"
+	line "abrir una sucursal"
+	cont "en Ciudad Trigal."
 
-	para "And they sold"
-	line "like the wind!"
+	para "¡Y se vendían"
+	line "como churros!"
 
-	para "But no one comes"
-	line "to this shop"
-	cont "anymore."
+	para "Pero ya nadie"
+	line "viene a esta"
+	cont "tienda."
 
-	para "All I have left"
-	line "is a bicycle pump…"
+	para "Solo me queda"
+	line "un inflador de"
+	cont "bicis…"
 
-	para "Should I sell"
-	line "inflatable tubes?"
+	para "¿Debería vender"
+	line "cámaras de aire?"
 	done

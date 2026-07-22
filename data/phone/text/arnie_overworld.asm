@@ -1,59 +1,61 @@
 ArnieAskNumber1Text:
-	text "Do you get the"
-	line "feeling that there"
+	text "¿No sientes que"
+	line "hay más #mon"
+	cont "raros por ahí?"
 
-	para "are more rare"
-	line "#mon around?"
+	para "Estoy seguro,"
+	line "así que"
+	cont "siempre miro."
 
-	para "I'm positive there"
-	line "are, so I look all"
-	cont "the time."
+	para "Si encuentro"
+	line "uno, quiero"
+	cont "compartir la"
 
-	para "If I find one, I"
-	line "want to share the"
+	para "buena noticia"
+	line "con todos los"
+	cont "que conozco."
 
-	para "good news with"
-	line "everyone I know."
-
-	para "I know! Give me"
-	line "your phone number."
+	para "¡Ya sé! Dame tu"
+	line "número de"
+	cont "teléfono."
 	done
 
 ArnieAskNumber2Text:
-	text "I want to let"
-	line "people know if I"
-	cont "see rare #mon."
+	text "Quiero avisar a"
+	line "la gente si veo"
+	cont "#mon raros."
 
-	para "Please give me"
-	line "your phone number!"
+	para "¡Dame tu número"
+	line "de teléfono!"
 	done
 
 ArnieNumberAcceptedText:
-	text "If I spot any"
-	line "awesome #mon,"
+	text "Si veo algún"
+	line "#mon increíble,"
 
-	para "I'll be sure to"
-	line "give you a call!"
+	para "¡Seguro que te"
+	line "llamo!"
 	done
 
 ArnieNumberDeclinedText:
-	text "Aww! I want to"
-	line "tell someone about"
-	cont "my discoveries!"
+	text "¡Vaya! Quiero"
+	line "contarle a"
+	cont "alguien mis"
+	cont "descubrimientos!"
 	done
 
 ArniePhoneFullText:
-	text "There's no space"
-	line "for my number."
+	text "No hay sitio"
+	line "para mi número."
 
-	para "If you make room,"
-	line "register me!"
+	para "Si haces hueco,"
+	line "¡apúntame!"
 	done
 
 ArnieRematchText:
-	text "It's my turn to"
-	line "win now!"
+	text "¡Ahora me toca"
+	line "ganar a mí!"
 
-	para "I've turned over a"
-	line "new leaf!"
+	para "¡He cambiado"
+	line "de actitud!"
 	done

@@ -16,22 +16,24 @@ UragaChannelWest_MapScriptHeader:
 	object_event 13,  9, SPRITE_ENGINEER, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, UragaChannelWestEngineerText, -1
 
 UragaChannelWestEngineerText:
-	text "The currents wash"
-	line "up all kinds of"
-	cont "debris here."
+	text "Las corrientes"
+	line "traen todo tipo"
+	cont "de restos aquí."
 
-	para "I'm using a metal"
-	line "detector to find"
-	cont "hidden items."
+	para "Uso un detector"
+	line "de metales para"
+	cont "hallar objetos"
+	cont "ocultos."
 
-	para "But an Itemfinder"
-	line "would work better…"
+	para "Pero un Buscador"
+	line "funcionaría mejor…"
 	done
 
 ScaryCaveWestSignText:
-	text "Uraga Channel"
-	line "Ahead"
+	text "Canal Uraga"
+	line "más adelante"
 
-	para "Enter west from"
-	line "Route 18 only!"
+	para "¡Solo se entra"
+	line "por el oeste"
+	cont "desde la Ruta 18!"
 	done

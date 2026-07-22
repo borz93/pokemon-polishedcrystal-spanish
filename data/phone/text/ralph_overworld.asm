@@ -1,58 +1,62 @@
 RalphAskNumber1Text:
-	text "Don't young people"
-	line "fish anymore?"
+	text "¿Los jóvenes ya"
+	line "no pescan?"
 
-	para "I've seen rare"
-	line "#mon while I've"
-	cont "been fishing…"
+	para "He visto #mon"
+	line "raros mientras"
+	cont "pescaba…"
 
-	para "You young people"
-	line "like that, right?"
+	para "A los jóvenes"
+	line "os gusta eso,"
+	cont "¿no?"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "¿Intercambiamos"
+	line "números?"
 
-	para "I'll let you know"
-	line "if I see anything."
+	para "Te avisaré si"
+	line "veo algo."
 	done
 
 RalphAskNumber2Text:
-	text "Hm? So you do want"
-	line "me to phone if I"
-	cont "see rare #mon?"
+	text "¿Eh? ¿Quieres"
+	line "que te llame si"
+	cont "veo #mon raros?"
 	done
 
 RalphNumberAcceptedText:
-	text "Yep, phone if I"
-	line "see rare #mon."
+	text "Sí, llamaré si"
+	line "veo #mon raros."
 
-	para "Don't worry, I"
-	line "won't forget!"
+	para "No te preocupes,"
+	line "¡no lo olvidaré!"
 	done
 
 RalphNumberDeclinedText:
-	text "Oh…"
-	line "My own kids won't"
+	text "Vaya… Ni mis"
+	line "propios hijos"
 
-	para "even give me their"
-	line "phone numbers…"
+	para "me dan su"
+	line "número de"
+	cont "teléfono…"
 
-	para "Is that how young"
-	line "people are today?"
+	para "¿Así son los"
+	line "jóvenes de hoy?"
 	done
 
 RalphPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "A tu teléfono"
+	line "no le queda"
+	cont "memoria."
 
-	para "It seems that"
-	line "young people all"
-	cont "have #gear."
+	para "Parece que"
+	line "todos los"
+	cont "jóvenes tienen"
+	cont "#gear."
 	done
 
 RalphRematchText:
-	text "Hey, kid!"
+	text "¡Eh, chaval!"
 
-	para "No losing for me"
-	line "this day!"
+	para "¡Hoy no pienso"
+	line "perder!"
 	done

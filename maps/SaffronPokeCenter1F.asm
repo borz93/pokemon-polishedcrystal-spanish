@@ -23,18 +23,17 @@ PokemonJournalSabrinaScript:
 	setflag ENGINE_READ_SABRINA_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Sabrina!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Sabrina!"
 
-	para "People say that"
-	line "Sabrina can com-"
-	cont "municate with her"
-
-	para "#mon during"
-	line "battle without"
-	cont "speaking."
+	para "Dicen que Sabrina"
+	line "puede comunicarse"
+	cont "con sus #mon"
+	cont "en combate sin"
+	cont "hablar."
 	done
 
 SaffronPokeCenter1FFisherScript:
@@ -42,53 +41,53 @@ SaffronPokeCenter1FFisherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "I just happened to"
-	line "come through Rock"
+	text "Pasé por el"
+	line "Túnel Roca por"
+	cont "casualidad."
 
-	para "Tunnel. There was"
-	line "some commotion at"
-	cont "the Power Plant."
+	para "Había jaleo en"
+	line "la Central"
+	cont "Eléctrica."
 	done
 
 .Text2:
-	text "Caves collapse"
-	line "easily."
+	text "Las cuevas se"
+	line "derrumban fácil."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "Varias han"
+	line "desaparecido en"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side Cerulean."
+	para "los últimos años,"
+	line "como la de las"
+	cont "afueras de"
+	cont "Celeste."
 
-	para "As a pro Hiker,"
-	line "that's common"
-	cont "knowledge."
+	para "Como senderista"
+	line "profesional, eso"
+	cont "lo sé de sobra."
 	done
 
 SaffronPokeCenter1FTeacherText:
-	text "What are Johto's"
-	line "#mon Centers"
-	cont "like?"
+	text "¿Cómo son los"
+	line "Centros #mon"
+	cont "de Johto?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "…Ah, ya veo. No"
+	line "son muy"
+	cont "distintos de los"
+	cont "de Kanto."
 
-	para "different from the"
-	line "ones in Kanto."
-
-	para "I can go to Johto"
-	line "without worrying,"
-	cont "then!"
+	para "¡Entonces puedo"
+	line "ir a Johto sin"
+	cont "preocuparme!"
 	done
 
 SaffronPokeCenter1FYoungsterText:
-	text "Silph Co.'s Head"
-	line "Office and the"
+	text "La sede de Silph"
+	line "Co. y la"
+	cont "estación del"
+	cont "Tren Imán,"
 
-	para "Magnet Train Sta-"
-	line "tion--they're the"
-
-	para "places to see in"
-	line "Saffron."
+	para "eso hay que ver"
+	line "en Azafrán."
 	done

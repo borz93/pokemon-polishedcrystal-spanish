@@ -28,53 +28,54 @@ SeafoamIslandsB2F_MapScriptHeader:
 GenericTrainerSkierCady:
 	generictrainer SKIER, CADY, EVENT_BEAT_SKIER_CADY, SkierCadySeenText, SkierCadyBeatenText
 
-	text "That was a hot"
-	line "battle!"
+	text "¡Menudo"
+	line "combatazo!"
 	done
 
 GenericTrainerBoarderShaun:
 	generictrainer BOARDER, SHAUN, EVENT_BEAT_BOARDER_SHAUN, BoarderShaunSeenText, BoarderShaunBeatenText
 
-	text "All right, please"
-	line "pass through!"
+	text "¡Vale, pasa"
+	line "cuando quieras!"
 	done
 
 GenericTrainerBoarderBryce:
 	generictrainer BOARDER, BRYCE, EVENT_BEAT_BOARDER_BRYCE, BoarderBryceSeenText, BoarderBryceBeatenText
 
-	text "Trainers are"
-	line "everywhere."
+	text "Hay entrenadores"
+	line "por todas partes."
 	done
 
 SkierCadySeenText:
-	text "To beat the cold,"
-	line "try warm clothes"
-	cont "and a hot drink!"
+	text "Para el frío,"
+	line "prueba ropa de"
+	cont "abrigo y algo"
+	cont "caliente!"
 	done
 
 SkierCadyBeatenText:
-	text "Argh, all the way"
-	line "out here!"
+	text "¡Argh, hasta"
+	line "aquí he llegado!"
 	done
 
 BoarderShaunSeenText:
-	text "Hey, hey, you're"
-	line "in my way! Right!"
+	text "¡Eh, eh, me"
+	line "estorbas! ¡Vale!"
 	done
 
 BoarderShaunBeatenText:
-	text "I got kicked"
-	line "around…"
+	text "Me han dado"
+	line "una paliza…"
 	done
 
 BoarderBryceSeenText:
-	text "What did you"
-	line "come all the way"
-	cont "out here for,"
-	cont "I wonder."
+	text "Me pregunto"
+	line "para qué habrás"
+	cont "venido hasta"
+	cont "aquí."
 	done
 
 BoarderBryceBeatenText:
-	text "I lost all the"
-	line "way out here…"
+	text "He perdido hasta"
+	line "aquí…"
 	done

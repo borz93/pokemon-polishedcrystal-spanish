@@ -103,132 +103,139 @@ Route43SightseerfScript:
 	jumpthisopenedtext
 
 .AfterText2:
-	text "I love visiting"
-	line "new places and"
+	text "Me encanta"
+	line "visitar lugares"
+	cont "nuevos y"
 
-	para "challenging every"
-	line "trainer there."
+	para "retar a cada"
+	line "entrenador de"
+	cont "allí."
 
-	para "I'll keep looking"
-	line "for strong train-"
-	cont "ers like you."
+	para "Seguiré buscando"
+	line "entrenadores"
+	cont "fuertes como tú."
 	done
 
 .IntroText:
-	text "I'm seeking out"
-	line "strong trainers"
+	text "Busco"
+	line "entrenadores"
+	cont "fuertes en Johto,"
+	cont "pero no he"
+	cont "encontrado a"
+	cont "ninguno."
 
-	para "in Johto, but I"
-	line "haven't found any."
+	para "Mmm… Pareces"
+	line "prometedor."
 
-	para "Hmmm… You seem"
-	line "promising."
+	para "Lo veo en tus"
+	line "ojos."
 
-	para "I can see it in"
-	line "your eyes."
+	para "Luchemos, pero"
+	line "antes quiero"
 
-	para "Let's battle--but"
-	line "first, I want to"
+	para "que conquistes"
+	line "esta ruta"
 
-	para "see you conquer"
-	line "this route by"
-
-	para "beating everyone"
-	line "else."
+	para "venciendo a"
+	line "todos los demás."
 	done
 
 .QuestionText:
-	text "Excellent! Time to"
-	line "test my new stra-"
-	cont "tegy…"
+	text "¡Genial! Hora de"
+	line "probar mi nueva"
+	cont "estrategia…"
 
-	para "Ready for a"
-	line "battle?"
+	para "¿Lista para"
+	line "luchar?"
 	done
 
 .RefusedText:
-	text "Aw… I was so"
-	line "anxious!"
+	text "Ay… ¡Estaba tan"
+	line "ansiosa!"
 
-	para "Don't make me"
-	line "wait!"
+	para "¡No me hagas"
+	line "esperar!"
 	done
 
 .SeenText:
-	text "Let's see how"
-	line "strong Johto's"
-	cont "trainers can be."
+	text "Veamos qué tan"
+	line "fuertes son los"
+	cont "entrenadores de"
+	cont "Johto."
 
-	para "Face my Flame Orb"
-	line "strategy!"
+	para "¡Enfrenta mi"
+	line "estrategia de la"
+	cont "Esfera Llama!"
 	done
 
 .BeatenText:
-	text "Awesome! ♥"
+	text "¡Genial! ♥"
 	done
 
 .AfterText1:
-	text "Wow! I've finally"
-	line "found what I was"
-	cont "looking for!"
+	text "¡Vaya! ¡Al fin"
+	line "encontré lo que"
+	cont "buscaba!"
 
-	para "I'll give you a"
-	line "Flame Orb, but"
+	para "Te daré una"
+	line "Esfera Llama,"
 
-	para "please be careful"
-	line "if you give it to"
-	cont "a #mon."
+	para "pero ten cuidado"
+	line "si se la das a"
+	cont "un #mon."
 	done
 
 GenericTrainerBreederJody:
 	generictrainer BREEDER, JODY, EVENT_BEAT_BREEDER_JODY, BreederJodySeenText, BreederJodyBeatenText
 
-	text "A baby #mon"
-	line "can sometimes"
+	text "Un #mon bebé"
+	line "a veces puede"
 
-	para "inherit a move"
-	line "from its father,"
+	para "heredar un"
+	line "movimiento de su"
+	cont "padre,"
 
-	para "even one that it"
-	line "wouldn't normally"
-	cont "learn."
+	para "incluso uno que"
+	line "normalmente no"
+	cont "aprendería."
 	done
 
 GenericTrainerSrandjrIvyandamy1:
 	generictrainer SR_AND_JR, IVYANDAMY1, EVENT_BEAT_SR_AND_JR_IVY_AND_AMY, SrandjrIvyandamy1SeenText, SrandjrIvyandamy1BeatenText
 
-	text "Ivy: I don't want"
-	line "my junior to think"
-	cont "I can't help her."
+	text "Ivy: No quiero"
+	line "que mi junior"
+	cont "piense que no"
+	cont "puedo ayudarla."
 	done
 
 GenericTrainerSrandjrIvyandamy2:
 	generictrainer SR_AND_JR, IVYANDAMY2, EVENT_BEAT_SR_AND_JR_IVY_AND_AMY, SrandjrIvyandamy2SeenText, SrandjrIvyandamy2BeatenText
 
-	text "Amy: I hope my"
-	line "senior noticed"
-	cont "how hard I tried."
+	text "Amy: Espero que"
+	line "mi senior notara"
+	cont "mi esfuerzo."
 	done
 
 GenericTrainerCamperSpencer:
 	generictrainer CAMPER, SPENCER, EVENT_BEAT_CAMPER_SPENCER, CamperSpencerSeenText, CamperSpencerBeatenText
 
-	text "What is going on"
-	line "at Lake of Rage?"
+	text "¿Qué pasa en el"
+	line "Lago de la Furia?"
 
-	para "We were planning"
-	line "to camp there."
+	para "Queríamos acampar"
+	line "ahí."
 	done
 
 GenericTrainerPokemaniacBen:
 	generictrainer POKEMANIAC, BEN, EVENT_BEAT_POKEMANIAC_BEN, PokemaniacBenSeenText, PokemaniacBenBeatenText
 
-	text "What else do I"
-	line "like besides"
-	cont "#mon?"
+	text "¿Qué más me"
+	line "gusta aparte"
+	cont "de los #mon?"
 
-	para "Mary on the radio."
-	line "I bet she's cute!"
+	para "Mary de la radio."
+	line "¡Seguro es linda!"
 	done
 
 TrainerPokemaniacBrent1:
@@ -331,26 +338,29 @@ PokemaniacBrent1Script:
 GenericTrainerPokemaniacRon:
 	generictrainer POKEMANIAC, RON, EVENT_BEAT_POKEMANIAC_RON, PokemaniacRonSeenText, PokemaniacRonBeatenText
 
-	text "It's OK for people"
-	line "to like different"
-	cont "types of #mon."
+	text "Está bien que a"
+	line "la gente le"
+	cont "gusten distintos"
+	cont "tipos de #mon."
 
-	para "#mon isn't just"
-	line "about having the"
-	cont "most powerful one."
+	para "Lo importante no"
+	line "es tener el"
+	cont "#mon más"
+	cont "poderoso."
 	done
 
 GenericTrainerFisherMarvin:
 	generictrainer FISHER, MARVIN, EVENT_BEAT_FISHER_MARVIN, FisherMarvinSeenText, FisherMarvinBeatenText
 
-	text "Kurt's Lure Ball"
-	line "is the best for"
+	text "La Cebo Ball de"
+	line "Kurt es la mejor"
 
-	para "catching hooked"
-	line "#mon."
+	para "para atrapar"
+	line "#mon"
+	cont "pescados."
 
-	para "It's much more"
-	line "effective than a"
+	para "Es mucho más"
+	line "efectiva que una"
 	cont "Ultra Ball."
 	done
 
@@ -448,9 +458,9 @@ PicnickerTiffany1Script:
 .NoClefairy:
 	jumpthisopenedtext
 
-	text "Isn't my Clefairy"
-	line "just the most"
-	cont "adorable thing?"
+	text "¿No es mi"
+	line "Clefairy lo más"
+	cont "adorable?"
 	done
 
 .AskNumber1:
@@ -481,192 +491,199 @@ PicnickerTiffany1Script:
 	jumpstd packfullf
 
 PokemaniacBenSeenText:
-	text "I love #mon!"
+	text "¡Amo a los #mon!"
 
-	para "That's why I"
-	line "started--and why"
+	para "¡Por eso"
+	line "empecé... y por"
+	cont "eso seguiré"
 
-	para "I'll keep on col-"
-	line "lecting #mon!"
+	para "coleccionando"
+	line "#mon!"
 	done
 
 PokemaniacBenBeatenText:
-	text "How could you do"
-	line "this to me?"
+	text "¿Cómo pudiste"
+	line "hacerme esto?"
 	done
 
 PokemaniacBrent1SeenText:
-	text "Hey! Do you have"
-	line "any rare #mon?"
+	text "¡Oye! ¿Tienes"
+	line "algún #mon raro?"
 	done
 
 PokemaniacBrent1BeatenText:
-	text "Oh, my poor #-"
-	line "mon! Darlings!"
+	text "¡Ay, mis pobres"
+	line "#mon! ¡Cariños!"
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #mon."
+	text "Sería feliz con"
+	line "tener un solo"
+	cont "#mon raro."
 	done
 
 PokemaniacRonSeenText:
-	text "Would you get"
-	line "this?"
+	text "¿Puedes creerlo?"
 
-	para "Some <RIVAL> guy"
-	line "made fun of my"
+	para "¡Un tal <RIVAL>"
+	line "se burló de mis"
 	cont "#mon!"
 
-	para "Darn it! My #-"
-	line "mon's great!"
+	para "¡Rayos! ¡Mis"
+	line "#mon son"
+	cont "geniales!"
 	done
 
 PokemaniacRonBeatenText:
-	text "My Nidoking did"
-	line "pretty right on!"
+	text "¡Mi Nidoking lo"
+	line "hizo genial!"
 	done
 
 FisherMarvinSeenText:
-	text "I'm in a slump."
+	text "Estoy en racha"
+	line "mala."
 
-	para "Maybe it's the"
-	line "gear I'm using."
+	para "Quizás es el"
+	line "equipo que uso."
 
-	para "Let's battle for a"
-	line "change of pace!"
+	para "¡Luchemos para"
+	line "variar!"
 	done
 
 FisherMarvinBeatenText:
-	text "I lost, but I feel"
-	line "better anyway."
+	text "Perdí, pero aun"
+	line "así me siento"
+	cont "mejor."
 	done
 
 CamperSpencerSeenText:
-	text "I can do so much"
-	line "with my #mon--"
-	cont "it's super fun!"
+	text "Puedo hacer tanto"
+	line "con mis #mon,"
+	cont "¡es genial!"
 	done
 
 CamperSpencerBeatenText:
-	text "Losing isn't fun"
-	line "at all…"
+	text "Perder no es"
+	line "nada divertido…"
 	done
 
 PicnickerTiffany1SeenText:
-	text "Are you going to"
-	line "Lake of Rage too?"
+	text "¿También vas al"
+	line "Lago de la Furia?"
 
-	para "Let's play for a"
-	line "little while!"
+	para "¡Juguemos un"
+	line "rato!"
 	done
 
 PicnickerTiffany1BeatenText:
-	text "I played too much!"
+	text "¡Jugué demasiado!"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "I'm having a pic-"
-	line "nic with #mon."
+	text "Estoy de pic-"
+	line "nic con #mon."
 
-	para "Won't you join us?"
+	para "¿No te unes?"
 	done
 
 
 BreederJodySeenText:
-	text "I bred my #mon"
-	line "so they know"
-	cont "special moves!"
+	text "¡Crié a mis #mon"
+	line "para que sepan"
+	cont "movimientos"
+	cont "especiales!"
 	done
 
 BreederJodyBeatenText:
-	text "I lost anyway!"
+	text "¡Perdí igual!"
 	done
 
 SrandjrIvyandamy1SeenText:
-	text "Ivy: I'll show my"
-	line "junior how it's"
-	cont "done!"
+	text "¡Ivy: Le mostraré"
+	line "a mi junior cómo"
+	cont "se hace!"
 	done
 
 SrandjrIvyandamy1BeatenText:
-	text "Ivy: You embarass-"
-	line "ed me in front of"
-	cont "my junior…"
+	text "Ivy: Me"
+	line "avergonzaste"
+	cont "frente a mi"
+	cont "junior…"
 	done
 
 SrandjrIvyandamy2SeenText:
-	text "Amy: A trainer!"
-	line "Senior, please"
-	cont "help me win!"
+	text "Amy: ¡Un"
+	line "entrenador!"
+	cont "Senior, ¡ayúdame"
+	cont "a ganar!"
 	done
 
 SrandjrIvyandamy2BeatenText:
-	text "Amy: We couldn't"
-	line "do it…"
+	text "Amy: No pudimos…"
 	done
 
 Route43Sign1Text:
-	text "Route 43"
+	text "Ruta 43"
 
-	para "Lake of Rage -"
-	line "Mahogany Town"
+	para "Lago de la Furia -"
+	line "Pueblo Mahogany"
 	done
 
 Route43Sign2Text:
-	text "Route 43"
+	text "Ruta 43"
 
-	para "Lake of Rage -"
-	line "Mahogany Town"
+	para "Lago de la Furia -"
+	line "Pueblo Mahogany"
 	done
 
 Route43TrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "Entrenador"
 
-	para "All #mon have"
-	line "pros and cons"
+	para "Todos los #mon"
+	line "tienen pros y"
+	cont "contras según"
+	cont "su tipo."
 
-	para "depending on their"
-	line "types."
+	para "Si los tipos"
+	line "difieren, un"
+	cont "#mon de más"
+	cont "nivel puede"
+	cont "perder."
 
-	para "If their types"
-	line "differ, a higher-"
-
-	para "level #mon may"
-	line "lose in battle."
-
-	para "Learn which types"
-	line "are strong and"
-
-	para "weak against your"
-	line "#mon's type."
+	para "Aprende qué tipos"
+	line "son fuertes y"
+	cont "débiles contra el"
+	cont "tipo de tu #mon."
 	done
 
 Route43AdvancedTipsText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "A #mon can pass"
-	line "down its nature"
-	cont "via inheritance"
+	para "¡Un #mon puede"
+	line "heredar su"
+	cont "naturaleza"
 
-	para "if it is holding"
-	line "an Everstone!"
+	para "si lleva una"
+	line "Piedra Eterna!"
 
-	para "A Destiny Knot can"
-	line "pass down all of"
-	cont "its potential!"
+	para "¡Un Lazo Fatal"
+	line "transmite todo"
+	cont "su potencial!"
 
-	para "The six Power"
-	line "items can pass"
+	para "¡Los seis"
+	line "objetos Poder"
 
-	para "down potential in"
-	line "their one stat!"
+	para "transmiten"
+	line "potencial en"
+	cont "una stat!"
 
-	para "And an Ability"
-	line "Cap can increase"
+	para "¡Y un Tope de"
+	line "Habilidad"
 
-	para "the chances of"
-	line "offspring with a"
-	cont "hidden Ability!"
+	para "aumenta las"
+	line "posibilidades"
+	cont "de una habilidad"
+	cont "oculta!"
 	done

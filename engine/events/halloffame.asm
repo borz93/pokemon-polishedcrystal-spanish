@@ -115,7 +115,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "New Hall of Famer!@"
+	db "¡Nuevo Hall Fama!@"
 
 GetHallOfFameParty:
 	ld hl, wOverworldMapBlocks

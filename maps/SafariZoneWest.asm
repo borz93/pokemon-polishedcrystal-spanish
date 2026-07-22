@@ -31,99 +31,104 @@ SafariZoneWest_MapScriptHeader:
 GenericTrainerLassDuplica:
 	generictrainer LASS, DUPLICA, EVENT_BEAT_LASS_DUPLICA, LassDuplicaSeenText, LassDuplicaBeatenText
 
-	text "I'm really good at"
-	line "impressions!"
+	text "¡Se me dan genial"
+	line "las imitaciones!"
 
-	para "Someday I'll become"
-	line "a Fuchsia Gym"
-
-	para "Trainer and mimic"
-	line "Janine."
+	para "Algún día seré"
+	line "entrenadora del"
+	cont "Gimnasio de"
+	cont "Fucsia e imitaré"
+	cont "a Janine."
 	done
 
 GenericTrainerCamperAmos:
 	generictrainer CAMPER, AMOS, EVENT_BEAT_CAMPER_AMOS, CamperAmosSeenText, CamperAmosBeatenText
 
-	text "I'll search far"
-	line "and wide for new"
+	text "Buscaré por todas"
+	line "partes nuevos"
 	cont "#mon."
 	done
 
 GenericTrainerTamerBrett:
 	generictrainer TAMER, BRETT, EVENT_BEAT_TAMER_BRETT, TamerBrettSeenText, TamerBrettBeatenText
 
-	text "You have to com-"
-	line "mand #mon with"
-	cont "confidence."
+	text "Hay que mandar a"
+	line "los #mon con"
+	cont "confianza."
 
-	para "Earning Badges can"
-	line "help with that."
+	para "Ganar Medallas"
+	line "ayuda con eso."
 	done
 
 LassDuplicaSeenText:
-	text "To truly use"
-	line "Ditto, you must"
-	cont "know all #mon!"
+	text "Para usar bien a"
+	line "Ditto, debes"
+	cont "conocer todos los"
+	cont "#mon!"
 	done
 
 LassDuplicaBeatenText:
-	text "I've got a lot"
-	line "to learn."
+	text "Tengo mucho que"
+	line "aprender."
 	done
 
 CamperAmosSeenText:
-	text "Plenty of #mon"
-	line "live in the Safari"
-	cont "Zone."
+	text "Muchos #mon"
+	line "viven en la Zona"
+	cont "Safari."
 
-	para "I'm here to catch"
-	line "'em all!"
+	para "¡Vine a"
+	line "atraparlos a"
+	cont "todos!"
 	done
 
 CamperAmosBeatenText:
-	text "I lost 'cause I"
-	line "have to train"
-	cont "them!"
+	text "Perdí porque"
+	line "tengo que"
+	cont "entrenarlos más!"
 	done
 
 TamerBrettSeenText:
-	text "Do you know how to"
-	line "handle aggressive"
-	cont "#mon?"
+	text "¿Sabes cómo"
+	line "tratar con #mon"
+	cont "agresivos?"
 	done
 
 TamerBrettBeatenText:
-	text "Yeah, you do!"
+	text "¡Sí, sabes!"
 	done
 
 SafariZoneWestAreaSignText:
-	text "Safari Zone"
-	line "West Area"
+	text "Zona Safari"
+	line "Zona Oeste"
 	done
 
 SafariZoneWestRestHouseSignText:
-	text "Rest House"
+	text "Casa de Descanso"
 	done
 
 SafariZoneWestTrainerTips1SignText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "Fire-type #mon"
-	line "cannot be burnt,"
+	para "Los #mon de"
+	line "tipo Fuego no se"
+	cont "queman,"
 
-	para "Electric types"
-	line "can't be paralyzed,"
+	para "los de tipo"
+	line "Eléctrico no se"
+	cont "paralizan,"
 
-	para "and Ice types can't"
-	line "be frozen solid."
+	para "y los de tipo"
+	line "Hielo no se"
+	cont "congelan."
 	done
 
 SafariZoneWestTrainerTips2SignText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "In a sandstorm,"
-	line "Rock-type #mon"
-
-	para "get a boost to"
-	line "their Sp.Def."
+	para "En una tormenta"
+	line "de arena, los"
+	cont "#mon de tipo"
+	cont "Roca mejoran su"
+	cont "Def. Esp."
 	done

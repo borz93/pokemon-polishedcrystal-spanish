@@ -40,34 +40,35 @@ OfficerfJamieScript:
 	endtext
 
 OfficerfJamieSeenText:
-	text "Hey you! Are you"
-	line "causing trouble?"
+	text "¡Eh, tú! ¿Estás"
+	line "causando"
+	cont "problemas?"
 	done
 
 OfficerfJamieBeatenText:
-	text "Hmph!"
+	text "¡Hmp!"
 	done
 
 OfficerfJamieAfterText:
-	text "Riding around late"
-	line "at night just"
-	cont "looks suspicious."
+	text "Montar en bici"
+	line "de noche resulta"
+	cont "sospechoso."
 	done
 
 OfficerfJamieDaytimeText:
-	text "Bikers and"
-	line "Roughnecks like"
+	text "A ciclistas y"
+	line "camorristas"
 
-	para "to make trouble"
-	line "on this road."
+	para "les gusta liarla"
+	line "en esta ruta."
 
-	para "Don't you get"
-	line "involved, got it?"
+	para "No te metas en"
+	line "líos, ¿vale?"
 	done
 
 CyclingRoadSignText:
-	text "Cycling Road"
+	text "Ciclocarril"
 
-	para "Downhill coasting"
-	line "all the way!"
+	para "¡Cuesta abajo"
+	line "todo el camino!"
 	done

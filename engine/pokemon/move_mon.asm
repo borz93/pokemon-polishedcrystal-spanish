@@ -734,51 +734,56 @@ Special_HyperTrain:
 	dbw BANK(.MenuData), 0
 
 .Strings:
-	db "HP@"
-	db "Speed@"
-	db "Attack@"
-	db "Sp.Atk@"
-	db "Defense@"
-	db "Sp.Def@"
+	db "PS@"
+	db "Velocidad@"
+	db "Ataque@"
+	db "At. Esp.@"
+	db "Defensa@"
+	db "Def. Esp.@"
 
 .TrainWhichStat:
-	text "Train which of"
-	line ""
+	text "¿Qué estadística"
+	line "de"
+	cont ""
 	text_ram wStringBuffer1
-	text "'s stats?"
+	cont "quieres"
+	cont "entrenar?"
 	done
 
 .TextCantTrainEgg:
-	text "An Egg? I get that"
-	line "you're hyped to"
-	cont "have it, but I"
-	cont "can't train it yet!"
+	text "¿Un Huevo? Sé que"
+	line "estás ilusionado"
+	cont "por tenerlo, pero"
+	cont "no puedo"
+	cont "entrenarlo aún!"
 	prompt
 
 .TextNotEnoughLevels:
-	text "Oh no… No, no, no!"
-	line ""
+	text "¡Oh no! ¡No, no,"
+	line "no!"
+	cont ""
 	text_ram wStringBuffer1
-	text " hasn't"
-	cont "leveled up enough"
-	cont "to be ready!"
+	cont "no ha subido"
+	cont "de nivel lo"
+	cont "suficiente!"
 	prompt
 
 .TextNotMaxEffort:
-	text "Oh no… No, no, no!"
-	line ""
+	text "¡Oh no! ¡No, no,"
+	line "no!"
+	cont ""
 	text_ram wStringBuffer1
-	text " hasn't"
-	cont "maxed their effort"
-	cont "in that stat!"
+	cont "no ha maximizado"
+	cont "su esfuerzo en"
+	cont "esa estad.!"
 	prompt
 
 .TextAlreadyHypedUp:
-	text "But "
+	text "Pero "
 	text_ram wStringBuffer1
-	text " is"
-	line "already hyped up"
-	cont "in that stat!"
+	text " ya está"
+	line "maximizado en"
+	cont "esa estad.!"
 	prompt
 
 RecalculatePartyMonStats:

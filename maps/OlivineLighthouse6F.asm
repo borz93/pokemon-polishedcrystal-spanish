@@ -34,9 +34,10 @@ OlivineLighthouseJasmine:
 .ExplainedSickness:
 	jumpthisopenedtext
 
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "…¿Podría pedirte"
+	line "que me consigas"
+	cont "medicina? ¿Por"
+	cont "favor?"
 	done
 
 .BroughtSecretpotion:
@@ -94,7 +95,7 @@ OlivineLighthouseJasmine:
 	pause 15
 	jumpthistext
 
-	text "…Amphy, hang on!"
+	text "…¡Aguanta, Amphy!"
 	done
 
 OlivineLighthouseAmphy:
@@ -108,8 +109,9 @@ OlivineLighthouseAmphy:
 	promptbutton
 	jumpthisopenedtext
 
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Su respiración es"
+	line "terriblemente"
+	cont "forzada…"
 	done
 
 .HealthyNow:
@@ -154,85 +156,87 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "Jasmine: …This"
-	line "#mon always"
+	text "Jasmine: …Este"
+	line "#mon siempre"
 
-	para "kept the sea lit"
-	line "at night."
+	para "mantuvo el mar"
+	line "iluminado de"
+	cont "noche."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Pero de repente"
+	line "enfermó… Le cuesta"
+	cont "respirar…"
 
-	para "…I understand"
-	line "that there is a"
+	para "…Sé que hay una"
+	line "farmacia"
 
-	para "wonderful Pharmacy"
-	line "in Cianwood…"
+	para "maravillosa en"
+	line "Ciudad Orquídea…"
 
-	para "But that's across"
-	line "the sea…"
+	para "Pero está al otro"
+	line "lado del mar…"
 
-	para "And I can't leave"
-	line "Amphy unattended…"
+	para "Y no puedo dejar a"
+	line "Amphy sola…"
 	done
 
 
 JasmineCureAmphyText:
-	text "Jasmine: …Will"
-	line "that medicine cure"
+	text "Jasmine: …¿Esa"
+	line "medicina curará a"
 	cont "Amphy?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SecretPotion to"
+	text "<PLAYER> le entregó"
+	line "la SecretPotion a"
 	cont "Jasmine."
 	done
 
 JasmineDontBeOffendedText:
-	text "Jasmine: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "Jasmine: …Um, no"
+	line "te ofendas,"
+	cont "por favor…"
 
-	para "…Amphy will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…Amphy no acepta"
+	line "nada de nadie"
+	cont "excepto de mí…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
 	text "Jasmine: …"
 
-	para "Amphy, how are you"
-	line "feeling?"
+	para "Amphy, ¿cómo te"
+	line "sientes?"
 	done
 
 JasmineThankYouText:
-	text "Jasmine: …Oh, I'm"
-	line "so relieved…"
+	text "Jasmine: …Oh, qué"
+	line "alivio…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Esto es tan"
+	line "maravilloso…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Muchísimas"
+	line "gracias."
 
-	para "…I will return to"
-	line "the Gym…"
+	para "…Volveré al"
+	line "Gimnasio…"
 	done
 
 JasmineISeeText:
-	text "Jasmine: …I see…"
+	text "Jasmine: …Ya"
+	line "veo…"
 	done
 
 
 AmphyPalPalooText:
 	text "Amphy: …"
-	line "…Pa… paloo…"
+	line "…Pa… palu…"
 	done
 
 
 AmphyPaluPaluluText:
-	text "Amphy: Palu!"
-	line "Palulu!"
+	text "Amphy: ¡Palu!"
+	line "¡Palulu!"
 	done

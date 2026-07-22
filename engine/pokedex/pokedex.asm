@@ -1617,7 +1617,7 @@ Pokedex_Main:
 	jmp Pokedex_ScheduleScreenUpdateWithHBlank
 
 .ResultString:
-	db " Results/  @"
+	db " Resultados/@"
 
 Pokedex_Bio:
 	ld a, DEXDISP_BIO
@@ -2205,20 +2205,20 @@ _Pokedex_Mode:
 	jr .change_menu
 
 .UnownMode:
-	db "Unown Mode@"
+	db "Modo Unown@"
 
 .MenuDescriptions:
-	db   "<PK><MN> are listed in"
-	next "regional order.@"
+	db   "<PK><MN> aparecen en"
+	next "orden regional.@"
 
-	db   "<PK><MN> are listed in"
-	next "national order.@"
+	db   "<PK><MN> aparecen en"
+	next "orden nacional.@"
 
-	db   "Display Unown"
-	next "information.@"
+	db   "Muestra info"
+	next "sobre Unown.@"
 
-	db   "Return to the <PK><MN>"
-	next "list.@"
+	db   "Vuelve a la lista"
+	next "de <PK><MN>.@"
 
 Pokedex_Search:
 ; Call to fully initialize Search page and reset cursor pos
@@ -2540,7 +2540,7 @@ _Pokedex_Search:
 	dr .byNameString
 
 .byNameString:
-	db "by Name  @"
+	db "por nombre"
 
 .BlankDefaultString:
 	; Blanks the default "----" string.

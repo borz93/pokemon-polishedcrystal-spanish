@@ -23,22 +23,21 @@ PokemonJournalLtSurgeScript:
 	setflag ENGINE_READ_LT_SURGE_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Lt.Surge!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Teniente Surge!"
 
-	para "Lt.Surge is rumor-"
-	line "ed to have been a"
+	para "Dicen que fue"
+	line "piloto en su"
+	cont "país, América."
 
-	para "pilot while home"
-	line "in America."
-
-	para "He used the elec-"
-	line "tricity generated"
-
-	para "by #mon to pow-"
-	line "er his plane."
+	para "Usaba la"
+	line "electricidad"
+	cont "generada por"
+	cont "#mon para su"
+	cont "avión."
 	done
 
 VermilionPokeCenter1FSightseerMScript:
@@ -46,41 +45,46 @@ VermilionPokeCenter1FSightseerMScript:
 	iftrue_jumptextfaceplayer .SnorlaxText
 	jumpthistextfaceplayer
 
-	text "A sleeping #mon"
-	line "is lying in front"
-	cont "of Diglett's Cave."
+	text "Hay un #mon"
+	line "dormido tumbado"
+	cont "frente a la"
+	cont "Cueva Diglett."
 
-	para "It's a fantastic"
-	line "opportunity to get"
+	para "Es una"
+	line "oportunidad"
+	cont "fantástica,"
 
-	para "it, but how do you"
-	line "wake it up?"
+	para "¿pero cómo lo"
+	line "despiertas?"
 	done
 
 .SnorlaxText:
-	text "There used to be a"
-	line "sleeping #mon"
+	text "Antes había un"
+	line "#mon dormido"
 
-	para "lying in front of"
-	line "Diglett's Cave."
+	para "tumbado frente a"
+	line "la Cueva Diglett."
 
-	para "But it seems to"
-	line "have disappeared."
+	para "Pero parece"
+	line "haber"
+	cont "desaparecido."
 	done
 
 VermilionPokeCenter1FSailorText:
-	text "The Fast Ship is a"
-	line "great place to"
+	text "El Barco Rápido"
+	line "es un buen sitio"
 
-	para "meet and battle"
-	line "trainers."
+	para "para conocer y"
+	line "combatir."
 	done
 
 VermilionPokeCenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "Badges I've never"
-	cont "seen before."
+	text "¿Eh? Tienes"
+	line "medallas que"
+	cont "nunca había visto"
+	cont "antes."
 
-	para "Oh, I get it. You"
-	line "got them in Johto."
+	para "Ah, ya veo. Las"
+	line "conseguiste en"
+	cont "Johto."
 	done

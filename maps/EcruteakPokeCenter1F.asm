@@ -28,27 +28,28 @@ PokemonJournalMortyScript:
 	setflag ENGINE_READ_MORTY_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Leader Morty!"
+	para "Reportaje"
+	line "especial: ¡El"
+	cont "Líder Morty!"
 
-	para "Morty claims to"
-	line "have once seen"
-	cont "Entei. He says:"
+	para "Morty afirma haber"
+	line "visto a Entei una"
+	cont "vez. Dice:"
 
-	para "“It was amazing."
-	line "Entei looked me"
-	cont "in the eyes."
+	para "“Fue increíble."
+	line "Entei me miró a"
+	cont "los ojos."
 
-	para "I'll never forget"
-	line "its eyes. It was"
+	para "Nunca olvidaré sus"
+	line "ojos. Era como si"
 
-	para "like it could see"
-	line "right through me,"
+	para "pudiera ver a"
+	line "través de mí,"
 
-	para "down into the dep-"
-	line "ths of my heart…”"
+	para "hasta el fondo de"
+	line "mi corazón…”"
 	done
 
 EcruteakPokeCenter1FBillScript:
@@ -90,78 +91,85 @@ EcruteakPokeCenter1FBillScript:
 .NoRoom:
 	jumpthisopenedtext
 
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #mon."
+	text "¡Vaya, espera! No"
+	line "puedes llevar más"
+	cont "#mon."
 	done
 
 .IntroText:
-	text "Hi, I'm Bill. And"
-	line "who are you?"
+	text "Hola, soy Bill."
+	line "¿Y tú quién eres?"
 
-	para "Hmm, <PLAYER>, huh?"
-	line "You've come at the"
-	cont "right time."
+	para "Hmm, <PLAYER>,"
+	line "¿eh? Has llegado"
+	cont "en buen momento."
 
-	para "The Time Capsules"
-	line "are totally fried,"
+	para "Las Cápsulas del"
+	line "Tiempo están"
+	cont "totalmente"
+	cont "estropeadas,"
 
-	para "and I could use"
-	line "your help."
+	para "y me vendría bien"
+	line "tu ayuda."
 	done
 
 .QuestionText:
-	text "Bill: This Eevee"
-	line "came over just"
+	text "Bill: Este Eevee"
+	line "llegó justo antes"
 
-	para "before the Time"
-	line "Capsule shut down."
+	para "de que la Cápsula"
+	line "del Tiempo se"
+	cont "apagara."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Alguien tiene que"
+	line "cuidarlo,"
 
-	para "but I don't like"
-	line "being outside."
+	para "pero a mí no me"
+	line "gusta estar al"
+	cont "aire libre."
 
-	para "Can I count on you"
-	line "to play with it,"
+	para "¿Puedo contar"
+	line "contigo para"
+	cont "jugar con él,"
 	cont "<PLAYER>?"
 	done
 
 .YesText:
-	text "Bill: I knew you'd"
-	line "come through!"
+	text "Bill: ¡Sabía que"
+	line "no me fallarías!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "¡Genial! ¡Eres de"
+	line "los buenos!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "Vale, cuento"
+	line "contigo."
 
-	para "Take good care of"
-	line "it!"
+	para "¡Cuida bien de"
+	line "él!"
 	done
 
 .GoodbyeText:
-	text "Bill: Prof.Elm"
-	line "claims Eevee may"
+	text "Bill: El Prof.Elm"
+	line "dice que Eevee"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "podría evolucionar"
+	line "de formas nuevas y"
+	cont "desconocidas."
 
-	para "I have to hurry on"
-	line "back to Goldenrod"
-	cont "and see my folks,"
+	para "Tengo que volver"
+	line "corriendo a Ciudad"
+	cont "Trigal a ver a mi"
+	cont "familia,"
 
-	para "and then it's back"
-	line "to Kanto for me."
+	para "y luego vuelvo a"
+	line "Kanto."
 
-	para "Buh-bye!"
+	para "¡Hasta luego!"
 	done
 
 .NoText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Oh… ¿Y ahora qué"
+	line "hago?"
 	done
 
 .LeaveMovement:
@@ -174,8 +182,8 @@ EcruteakPokeCenter1FBillScript:
 .GiftEeveeMail:
 	db   EON_MAIL
 	setcharmap no_ngrams
-	db   "Please keep this"
-	next "Pokémon safe!@@"
+	db   "¡Por favor, cuida"
+	next "de este Pokémon!@@"
 	setcharmap default
 
 .SetEeveeMailOT:
@@ -203,27 +211,29 @@ EcruteakPokeCenter1FPokefanMScript:
 	iftrue_jumptextfaceplayer .SurfText
 	jumpthistextfaceplayer
 
-	text "The way the Kimono"
-	line "Girls dance is"
-
-	para "marvelous. Just"
-	line "like the way they"
-	cont "use their #mon."
+	text "El modo en que"
+	line "bailan las Chicas"
+	cont "Kimono es"
+	cont "maravilloso. Igual"
+	cont "que como usan a"
+	cont "sus #mon."
 	done
 
 .SurfText:
-	text "You must be hoping"
-	line "to battle more"
-	cont "people, right?"
+	text "Debes de querer"
+	line "combatir contra"
+	cont "más gente, ¿no?"
 
-	para "There's apparently"
-	line "some place where"
-	cont "trainers gather."
+	para "Al parecer hay un"
+	line "lugar donde se"
+	cont "reúnen los"
+	cont "entrenadores."
 
-	para "Where, you ask?"
+	para "¿Que dónde?"
 
-	para "It's a little past"
-	line "Olivine City."
+	para "Está un poco más"
+	line "allá de Ciudad"
+	cont "Olivo."
 	done
 
 EcruteakPokeCenter1FLassScript:
@@ -236,14 +246,14 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "I once heard that"
-	line "Bill's mother used"
+	text "Una vez oí que la"
+	line "madre de Bill fue"
 
-	para "to be a Kimono"
-	line "Girl. Maybe that's"
+	para "una Chica Kimono."
+	line "Quizá por eso"
 
-	para "why he visits"
-	line "here so often."
+	para "visita aquí tan a"
+	line "menudo."
 	done
 
 .No:
@@ -251,36 +261,42 @@ EcruteakPokeCenter1FLassScript:
 	iffalse_jumpopenedtext .HereText
 	jumpthisopenedtext
 
-	text "Oh… Never mind"
-	line "then."
+	text "Oh… Da igual,"
+	line "entonces."
 	done
 
 .QuestionText:
-	text "Do you know who"
-	line "Bill is?"
+	text "¿Sabes quién es"
+	line "Bill?"
 	done
 
 .HereText:
-	text "Then go talk to"
-	line "him! He's right"
-	cont "by the counter!"
+	text "¡Entonces ve a"
+	line "hablar con él!"
+	cont "¡Está justo al"
+	cont "lado del"
+	cont "mostrador!"
 	done
 
 EcruteakPokeCenter1FCooltrainerFText:
-	text "Morty, the Gym"
-	line "Leader, is soooo"
-	cont "cool."
+	text "Morty, el Líder"
+	line "del Gimnasio, es"
+	cont "buenísimo."
 
-	para "His #mon are"
-	line "really tough too."
+	para "Sus #mon"
+	line "también son muy"
+	cont "fuertes."
 	done
 
 EcruteakPokeCenter1FGymGuyText:
-	text "Lake of Rage…"
+	text "Lago de la"
+	line "Furia…"
 
-	para "The appearance of"
-	line "a Gyarados swarm…"
+	para "La aparición de un"
+	line "enjambre de"
+	cont "Gyarados…"
 
-	para "I smell a conspir-"
-	line "acy. I know it!"
+	para "Huelo una"
+	line "conspiración. ¡Lo"
+	cont "sé!"
 	done

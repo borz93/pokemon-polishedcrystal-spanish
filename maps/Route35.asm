@@ -37,14 +37,16 @@ Route35_MapScriptHeader:
 GenericTrainerBreederTheresa:
 	generictrainer BREEDER, THERESA, EVENT_BEAT_BREEDER_THERESA, BreederTheresaSeenText, BreederTheresaBeatenText
 
-	text "I take my #mon"
-	line "to get haircuts"
+	text "Llevo a mis"
+	line "#mon a cortarse"
+	cont "el pelo en Ciudad"
+	cont "Trigal,"
 
-	para "in Goldenrod City,"
-	line "and blessings in"
-	cont "Ecruteak City."
+	para "y a bendecirse en"
+	line "Ciudad Iris."
 
-	para "They're so happy!"
+	para "¡Están tan"
+	line "contentos!"
 	done
 
 TrainerJugglerIrwin:
@@ -97,33 +99,36 @@ Route35RematchM:
 GenericTrainerCamperIvan:
 	generictrainer CAMPER, IVAN, EVENT_BEAT_CAMPER_IVAN, CamperIvanSeenText, CamperIvanBeatenText
 
-	text "Music on the radio"
-	line "changes the moods"
-	cont "of wild #mon."
+	text "La música de la"
+	line "radio cambia el"
+	cont "ánimo de los"
+	cont "#mon salvajes."
 	done
 
 GenericTrainerCoupleGailandeli1:
 	generictrainer COUPLE, GAILANDELI1, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli1SeenText, CoupleGailandeli1BeatenText
 
-	text "Eli: I was humili-"
-	line "ated in front of"
-	cont "my girlfriend…"
+	text "Eli: Me humillaron"
+	line "delante de mi"
+	cont "novia…"
 	done
 
 GenericTrainerCoupleGailandeli2:
 	generictrainer COUPLE, GAILANDELI2, EVENT_BEAT_COUPLE_GAIL_AND_ELI, CoupleGailandeli2SeenText, CoupleGailandeli2BeatenText
 
-	text "Gail: I can count"
-	line "on my #mon more"
-	cont "than my boyfriend."
+	text "Gail: Puedo"
+	line "contar con mis"
+	cont "#mon más que"
+	cont "con mi novio."
 	done
 
 GenericTrainerPicnickerKim:
 	generictrainer PICNICKER, KIM, EVENT_BEAT_PICNICKER_KIM, PicnickerKimSeenText, PicnickerKimBeatenText
 
-	text "The Gym Badges are"
-	line "pretty. I collect"
-	cont "them."
+	text "Las Medallas de"
+	line "Gimnasio son"
+	cont "bonitas. Las"
+	cont "colecciono."
 	done
 
 TrainerBug_catcherArnie1:
@@ -220,19 +225,21 @@ TrainerBug_catcherArnie1:
 .YanmaSwarming:
 	jumpthisopenedtext
 
-	text "Wow… Look at all"
-	line "those Yanma!"
+	text "Vaya… ¡Mira todos"
+	line "esos Yanma!"
 
-	para "I'm so blown away,"
-	line "I can't move."
+	para "Estoy tan"
+	line "alucinado que no"
+	cont "puedo moverme."
 	done
 
 GenericTrainerFirebreatherWalt:
 	generictrainer FIREBREATHER, WALT, EVENT_BEAT_FIREBREATHER_WALT, FirebreatherWaltSeenText, FirebreatherWaltBeatenText
 
-	text "The #mon March"
-	line "on the radio lures"
-	cont "wild #mon."
+	text "La Marcha #mon"
+	line "de la radio atrae"
+	cont "a #mon"
+	cont "salvajes."
 	done
 
 TrainerOfficerDirk:
@@ -257,149 +264,161 @@ TrainerOfficerDirk:
 .AfterBattle:
 	jumpthisopenedtext
 
-	text "You know, night-"
-	line "time is fun in its"
-	cont "own ways."
+	text "Sabes, la noche"
+	line "es divertida a su"
+	cont "manera."
 
-	para "But don't overdo"
-	line "it, OK?"
+	para "Pero no te pases,"
+	line "¿vale?"
 	done
 
 .NotNight:
 	jumpthisopenedtext
 
-	text "Your #mon look"
-	line "pretty tough."
+	text "Tus #mon se ven"
+	line "bastante fuertes."
 
-	para "You could go any-"
-	line "where safely."
+	para "Podrías ir a"
+	line "cualquier sitio"
+	cont "con seguridad."
 	done
 
 CamperIvanSeenText:
-	text "I've been getting"
-	line "#mon data off"
+	text "He estado"
+	line "sacando datos de"
 
-	para "my radio. I think"
-	line "I'm good."
+	para "#mon de mi"
+	line "radio. Creo que"
+	cont "voy bien."
 	done
 
 CamperIvanBeatenText:
-	text "I give!"
+	text "¡Me rindo!"
 	done
 
 CoupleGailandeli1SeenText:
-	text "Eli: I'm gonna"
-	line "show my girlfriend"
-	cont "I'm hot stuff!"
+	text "Eli: Le voy a"
+	line "demostrar a mi"
+	cont "novia que soy"
+	cont "genial."
 	done
 
 CoupleGailandeli1BeatenText:
-	text "Eli: I wish you'd"
-	line "have lost for me…"
+	text "Eli: Ojalá"
+	line "hubieras perdido"
+	cont "por mí…"
 	done
 
 CoupleGailandeli2SeenText:
-	text "Gail: My boy-"
-	line "friend's weak, so I"
-	cont "can't rely on him."
+	text "Gail: Mi novio es"
+	line "débil, así que no"
+	cont "puedo contar con"
+	cont "él."
 	done
 
 CoupleGailandeli2BeatenText:
-	text "Gail: Oh, my!"
-	line "You're so strong!"
+	text "Gail: ¡Vaya!"
+	line "¡Eres muy fuerte!"
 	done
 
 PicnickerKimSeenText:
-	text "Are you going to"
-	line "the Gym? Me too!"
+	text "¿Vas al Gimnasio?"
+	line "¡Yo también!"
 	done
 
 PicnickerKimBeatenText:
-	text "Oh. I couldn't"
-	line "win…"
+	text "Oh. No pude"
+	line "ganar…"
 	done
 
 BreederTheresaSeenText:
-	text "How do you care"
-	line "for your #mon?"
+	text "¿Cómo cuidas a"
+	line "tus #mon?"
 	done
 
 BreederTheresaBeatenText:
-	text "Ah! You take good"
-	line "care of them!"
+	text "¡Ah! ¡Los cuidas"
+	line "muy bien!"
 	done
 
 JugglerIrwin1SeenText:
-	text "Behold my graceful"
-	line "Ball dexterity!"
+	text "¡Mira mi elegante"
+	line "destreza con las"
+	cont "Balls!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Whew! That was a"
-	line "jolt!"
+	text "¡Uf! ¡Vaya"
+	line "sacudida!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "I was going to"
-	line "dazzle you with my"
-	cont "prize #mon."
+	text "Iba a"
+	line "deslumbrarte con"
+	cont "mi #mon"
+	cont "premiado."
 
-	para "But your prowess"
-	line "electrified me!"
+	para "¡Pero tu destreza"
+	line "me electrizó!"
 	done
 
 Bug_catcherArnie1SeenText:
-	text "I'll go anywhere"
-	line "if bug #mon"
-	cont "appear there."
+	text "Voy a donde sea si"
+	line "aparecen #mon"
+	cont "bicho."
 	done
 
 Bug_catcherArnie1BeatenText:
-	text "Huh? I shouldn't"
-	line "have lost that…"
+	text "¿Eh? No debí"
+	line "haber perdido"
+	cont "eso…"
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My Venonat won me"
-	line "the Bug-Catching"
+	text "Mi Venonat me hizo"
+	line "ganar el Concurso"
 
-	para "Contest at the"
-	line "National Park."
+	para "de Captura de"
+	line "Bichos del Parque"
+	cont "Nacional."
 	done
 
 
 FirebreatherWaltSeenText:
-	text "I'm practicing my"
-	line "fire breathing."
+	text "Estoy practicando"
+	line "a echar fuego."
 	done
 
 FirebreatherWaltBeatenText:
-	text "Ow! I scorched the"
-	line "tip of my nose!"
+	text "¡Ay! ¡Me chamusqué"
+	line "la punta de la"
+	cont "nariz!"
 	done
 
 OfficerDirkSeenText:
-	text "Danger lurks in"
-	line "the night!"
+	text "¡El peligro acecha"
+	line "de noche!"
 	done
 
 OfficerDirkBeatenText:
-	text "Whoops!"
+	text "¡Vaya!"
 	done
 
 
 
 Route35SignText:
-	text "Route 35"
+	text "Ruta 35"
 	done
 
 Route35AdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "You can register"
-	line "up to four Key"
+	para "Puedes registrar"
+	line "hasta cuatro"
 
-	para "Items for quick"
-	line "use via the"
-	cont "Select button!"
+	para "¡Objetos Clave"
+	line "para uso rápido"
+	cont "con el botón"
+	cont "Select!"
 	done

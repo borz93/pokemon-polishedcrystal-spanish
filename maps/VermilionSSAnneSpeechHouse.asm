@@ -16,29 +16,29 @@ VermilionSSAnneSpeechHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_BEAUTY, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_PURPLE, OBJECTTYPE_COMMAND, jumptextfaceplayer, VermilionSSAnneSpeechHouseBeautyText, -1
 
 VermilionSSAnneSpeechHouseGrampsText:
-	text "Once a year, a"
-	line "cruise ship named"
+	text "Una vez al año,"
+	line "un crucero"
+	cont "llamado S.S.Anne"
 
-	para "the S.S.Anne used"
-	line "to dock here in"
-	cont "Vermilion."
+	para "atracaba aquí, en"
+	line "Carmín."
 
-	para "That is, until one"
-	line "year, when tragedy"
-	cont "struck."
+	para "Así fue, hasta que"
+	line "un año ocurrió"
+	cont "una tragedia."
 
-	para "Something went"
-	line "wrong and the ship"
+	para "Algo salió mal"
+	line "y el barco"
 
-	para "sank deep into the"
-	line "ocean, never to be"
-	cont "seen again."
+	para "se hundió en el"
+	line "mar, para no"
+	cont "volver jamás."
 	done
 
 VermilionSSAnneSpeechHouseBeautyText:
-	text "I've seen a model"
-	line "of the S.S.Anne"
+	text "Vi una maqueta"
+	line "del S.S.Anne"
 
-	para "in an Oceanic"
-	line "Museum far away."
+	para "en un Museo"
+	line "Oceánico lejano."
 	done

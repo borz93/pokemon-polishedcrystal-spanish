@@ -105,7 +105,8 @@ CeladonGameCornerFisherScript:
 	iffalsefwd .NoCoinCase
 	checkcoins MAX_COINS - 18
 	ifequalfwd HAVE_MORE, .FullCoinCase
-	writetext CeladonGameCornerReceived18CoinsText ; TODO load coins icon
+	writetext CeladonGameCornerReceived18CoinsText
+	special ShowCoinsIcon
 	playsound SFX_ITEM
 	waitsfx
 	givecoins 18
@@ -185,18 +186,17 @@ CeladonGameCornerRichBoyTobin:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "What're you doing"
-	line "snooping around"
-	cont "here?"
+	text "¿Qué haces"
+	line "curioseando por"
+	cont "aquí?"
 
-	para "You better not be"
-	line "messing with Team"
-	cont "Valor!"
+	para "¡Más te vale no"
+	line "meterte con el"
+	cont "Team Valor!"
 	done
 
 .BeatenText:
-	text "I didn't see that"
-	line "coming…"
+	text "No me lo esperaba…"
 	done
 
 .AfterScript
@@ -218,12 +218,13 @@ CeladonGameCornerRichBoyTobin:
 	end
 
 .AfterText
-	text "Fine! There's"
-	line "nothing here"
-	cont "anyway!"
+	text "¡Bien! ¡De todos"
+	line "modos aquí no hay"
+	cont "nada!"
 
-	para "The poster? Ha!"
-	line "It's just decor!"
+	para "¿El póster? ¡Já!"
+	line "¡Es solo"
+	cont "decoración!"
 	done
 
 .LeaveMovementPlayerUp
@@ -246,129 +247,137 @@ endr
 
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "¡Bienvenido!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Puedes cambiar tus"
+	line "monedas por"
 
-	para "fabulous prizes"
-	line "next door."
+	para "premios"
+	line "fabulosos en la"
+	cont "puerta de al lado."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Las tragaperras"
+	line "son todas de"
+	cont "última"
+	cont "generación."
 	done
 
 CeladonGameCornerTeacherText:
-	text "It's this machine"
-	line "I want."
+	text "Es esta máquina la"
+	line "que quiero."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "Ayer me dejó sin"
+	line "blanca, así que"
 
-	para "should pay out"
-	line "today."
+	para "hoy debería"
+	line "pagar."
 	done
 
 CeladonGameCornerFishingGuruText:
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Creo que esta"
+	line "tragaperras va a"
+	cont "pagar…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Las probabilidades"
+	line "varían entre"
+	cont "máquinas."
 	done
 
 CeladonGameCornerFisherText1:
-	text "Gahahaha!"
+	text "¡Gajajajá!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "¡Las monedas no"
+	line "paran de salir!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "¿Hm? ¿Qué, chaval?"
+	line "¿Quieres jugar?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "¡Compartiré mi"
+	line "suerte contigo!"
 	done
 
 CeladonGameCornerFisherText2:
-	text "Gahahaha!"
+	text "¡Gajajajá!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Me hace sentir"
+	line "bien hacer cosas"
 
-	para "things for other"
-	line "people!"
+	para "buenas por los"
+	line "demás."
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a Coin Case."
+	text "Oye, no tienes"
+	line "Monedero."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "¿Cómo se supone"
+	line "que te doy"
+	cont "monedas, chaval?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
-	text "Hey, your Coin"
-	line "Case is full, kid."
+	text "Oye, tu Monedero"
+	line "está lleno,"
+	cont "chaval."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Debes de estar en"
+	line "una racha ganadora"
+	cont "tú también."
 	done
 
 CeladonGameCornerReceived18CoinsText:
-	text "<PLAYER> received"
-	line "18 Coins!"
+	text "<PLAYER> recibió"
+	line "¡18 Monedas!"
 	done
 
 FisherOfferText:
-	text "Hm? What, kid? You"
-	line "still want to"
-	cont "play?"
+	text "¿Hm? ¿Qué, chaval?"
+	line "¿Todavía quieres"
+	cont "jugar?"
 
-	para "I know! I'll let"
-	line "you play for 50"
-	cont "coins."
+	para "¡Ya sé! Te dejo"
+	line "jugar por 50"
+	cont "monedas."
 
-	para "How about it?"
+	para "¿Qué me dices?"
 	done
 
 FisherNotEnoughText:
-	text "Hey, your Coin"
-	line "Case is almost"
-	cont "empty, kid."
+	text "Oye, tu Monedero"
+	line "está casi vacío,"
+	cont "chaval."
 
-	para "Your luck must"
-	line "be running dry."
+	para "Tu suerte se debe"
+	line "estar agotando."
 	done
 
 CeladonGymGuyText:
-	text "Hey! Champ in"
-	line "making!"
+	text "¡Oye! ¡Futuro"
+	line "campeón!"
 
-	para "Are you playing"
-	line "the slots too?"
+	para "¿También juegas a"
+	line "las tragaperras?"
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #mon."
+	para "Intento conseguir"
+	line "monedas para un"
+	cont "#mon premiado."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Pero aún no tengo"
+	line "suficientes"
+	cont "monedas…"
 	done
 
 CeladonGameCornerGrampsText:
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hmmm… Las"
+	line "probabilidades"
 
-	para "Pikachu's line,"
-	line "but… What to do?"
+	para "seguro que son"
+	line "mejores para la"
+
+	para "línea de Pikachu,"
+	line "pero… ¿qué hago?"
 	done
 
 CeladonGameCornerPosterScript:
@@ -386,29 +395,31 @@ CeladonGameCornerPosterScript:
 	end
 
 .AlreadyPushedText
-	text "The switch has"
-	line "already been"
-	cont "pushed."
+	text "El interruptor ya"
+	line "ha sido pulsado."
 	done
 
 .PushSwitchText
-	text "Hey!"
+	text "¡Oye!"
 
-	para "A switch behind"
-	line "the poster!?"
-	cont "Let's push it!"
+	para "¿¡Un interruptor"
+	line "detrás del"
+	cont "póster!? ¡Vamos a"
+	cont "pulsarlo!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Hay un mechero"
+	line "aquí."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Una lata de"
+	line "refresco…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Alguien debe estar"
+	line "a punto de"
+	cont "volver…"
 
-	para "Huh? It's empty!"
+	para "¿Eh? ¡Está vacía!"
 	done

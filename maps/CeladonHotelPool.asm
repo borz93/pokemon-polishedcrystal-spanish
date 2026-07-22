@@ -31,31 +31,32 @@ CeladonHotelPoolSwimmerMScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "This is quite a"
-	line "relaxing swim…"
+	text "Es un baño bien"
+	line "relajante…"
 	done
 
 .Text1:
-	text "For a slow back-"
-	line "stroke, I don't"
-	cont "need my goggles."
+	text "Para nadar a"
+	line "espalda lento,"
+	cont "no necesito mis"
+	cont "gafas."
 
-	para "You can have them."
+	para "Quédatelas."
 	done
 
 CeladonHotelPoolPokefanMText:
-	text "Well, color me"
-	line "impressed."
+	text "Vaya, estoy"
+	line "impresionado."
 
-	para "This hotel's"
-	line "facilities are"
-	cont "second-to-none!"
+	para "Las instalaciones"
+	line "de este hotel son"
+	cont "insuperables!"
 	done
 
 CeladonHotelPoolChildText:
-	text "Whee!"
+	text "¡Yuju!"
 	done
 
 CeladonHotelPoolSwimRingText:
-	text "It's a swim ring."
+	text "Es un flotador."
 	done

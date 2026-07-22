@@ -16,9 +16,10 @@ PewterNidoranSpeechHouse_MapScriptHeader:
 	pokemon_event  4,  5, NIDORAN_M, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PURPLE, PewterNidoranText, -1
 
 PewterNidoranSpeechHouseSuperNerdText:
-	text "Nidoran, shake!"
+	text "¡Nidoran, dame"
+	line "la pata!"
 	done
 
 PewterNidoranText:
-	text "Nidoran: Gau gau!"
+	text "Nidoran: ¡Gua gua!"
 	done

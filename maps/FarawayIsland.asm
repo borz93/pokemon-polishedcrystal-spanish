@@ -138,91 +138,96 @@ FarawayIslandSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryFarawayToVermilionQuestionText:
-	text "Ready to head back"
-	line "to Vermilion City?"
+	text "¿Listo para volver"
+	line "a Ciudad Carmín?"
 	done
 
 SeagallopFerryFarawayToVermilionText:
-	text "All right!"
+	text "¡Muy bien!"
 
-	para "All aboard the"
-	line "Seagallop Ferry!"
+	para "¡Todos a bordo del"
+	line "Ferry Seagallop!"
 	done
 
 SeagallopFerryFarawayIslandRefusedText:
-	text "I'll be waiting"
-	line "right here."
+	text "Estaré esperando"
+	line "aquí mismo."
 	done
 
 FarawayIslandLawrenceText1:
-	text "Lawrence: Well,"
-	line "this certainly is"
+	text "Lawrence: Vaya,"
+	line "esto sí que es un"
 
-	para "a pleasure, though"
-	line "an unexpected one."
+	para "placer, aunque"
+	line "inesperado."
 
-	para "I came here to"
-	line "remember how my"
-	cont "collection began…"
+	para "Vine a recordar"
+	line "cómo empezó mi"
+	cont "colección…"
 
-	para "with a Mew carving"
-	line "found on this very"
-	cont "island."
+	para "con una talla de"
+	line "Mew hallada en"
+	cont "esta misma isla."
 
-	para "…I have been"
-	line "thinking about our"
-	cont "last battle."
+	para "…He estado"
+	line "pensando en"
+	cont "nuestro último"
+	cont "combate."
 
-	para "I want to under-"
-	line "stand the bond"
+	para "Quiero entender"
+	line "el vínculo que"
 
-	para "you have with your"
-	line "collection."
+	para "tienes con tu"
+	line "colección."
 
-	para "Will you battle"
-	line "me again?"
+	para "¿Combatirás"
+	line "conmigo de nuevo?"
 	done
 
 FarawayIslandLawrenceYesText:
-	text "Excellent!"
+	text "¡Excelente!"
 	done
 
 FarawayIslandLawrenceNoText:
-	text "…Very well."
+	text "…Muy bien."
 	done
 
 FarawayIslandLawrenceBeatenText:
-	text "You beat me once"
-	line "again…"
+	text "Me venciste una"
+	line "vez más…"
 	done
 
 FarawayIslandLawrenceText2:
-	text "Lawrence: …I see."
-	line "I still have far"
-	cont "to go before I"
+	text "Lawrence: …Ya"
+	line "veo. Aún me queda"
+	cont "mucho camino"
 
-	para "can build an even"
-	line "better collection."
+	para "antes de poder"
+	line "crear una"
+	cont "colección aún"
+	cont "mejor."
 
-	para "Farewell."
+	para "Adiós."
 	done
 
 FarawayIslandSignText:
-	text "The writing is"
-	line "fading as if it"
+	text "La escritura se"
+	line "desvanece como si"
 
-	para "was written a long"
-	line "time ago…"
+	para "hubiera sido"
+	line "escrita hace"
+	cont "mucho tiempo…"
 
-	para "“…ber, 6th day"
+	para "“…embre, día 6"
 
-	para "If any human…sets"
-	line "foot here…"
-	cont "again…et it be a"
-	cont "kindhearted pers…"
+	para "Si algún humano…"
+	line "pone pie aquí…"
+	cont "de nuevo…que sea"
+	cont "una persona de"
+	cont "buen coraz…"
 
-	para "…ith that hope,"
-	line "I depar…"
+	para "…on esa esperanza,"
+	line "yo par…"
 
 	para "…ji”"
 	done

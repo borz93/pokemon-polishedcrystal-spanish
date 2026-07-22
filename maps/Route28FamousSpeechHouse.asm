@@ -27,28 +27,28 @@ Celebrity:
 	endtext
 
 CelebrityText1:
-	text "Oh, dear."
-	line "You've found me."
+	text "Vaya."
+	line "Me has encontrado."
 
-	para "Please don't tell"
-	line "anyone about me."
+	para "Por favor, no le"
+	line "digas a nadie."
 
-	para "I'll give you this"
-	line "for keeping my"
-	cont "secret. Please?"
+	para "Te daré esto por"
+	line "guardar el"
+	cont "secreto. ¿Vale?"
 	done
 
 CelebrityText2:
-	text "It's tough being a"
-	line "top celebrity."
+	text "Es duro ser una"
+	line "gran celebridad."
 
-	para "Everywhere I go,"
-	line "people chase me."
+	para "Vaya donde vaya,"
+	line "la gente me sigue."
 
-	para "I just want to be"
-	line "left alone…"
+	para "Solo quiero que"
+	line "me dejen en paz…"
 	done
 
 CelebritysSkarmoryText:
-	text "Skarmory: Scree!"
+	text "Skarmory: ¡Scree!"
 	done

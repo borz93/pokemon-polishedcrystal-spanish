@@ -51,3 +51,33 @@ CheckBattleCaughtResult:
 	xor a
 	ldh [hScriptVar], a
 	ret
+
+CheckPartyNotFull::
+; Return true (room to spare) in hScriptVar if the party isn't full yet.
+	ld a, [wPartyCount]
+	cp PARTY_LENGTH
+	jr nc, .full
+	ld a, 1
+	ldh [hScriptVar], a
+	ret
+
+.full
+	xor a
+	ldh [hScriptVar], a
+	ret
+
+MarkLastCaughtPartymonShiny::
+; The wild encounter's shininess is rolled inside the shared battle engine,
+; with no script-level hook to force it beforehand. Since CheckPartyNotFull
+; guarantees a caught mon always lands in the party (never the PC box), we
+; can safely patch its Shiny bit here afterward using the existing shiny
+; palette instead - same idea as the mid-battle personality byte, just
+; edited a few frames later than usual.
+	ld a, [wPartyCount]
+	dec a
+	ld hl, wPartyMon1
+	call GetPartyLocation
+	ld bc, wPartyMon1Shiny - wPartyMon1
+	add hl, bc
+	set 7, [hl] ; SHINY_MASK
+	ret

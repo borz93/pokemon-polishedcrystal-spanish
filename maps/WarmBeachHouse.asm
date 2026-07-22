@@ -37,65 +37,68 @@ WarmBeachHouseBookScript:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "From the trio of"
-	line "islands, ancient"
-	cont "spheres shall you"
-	cont "take."
+	text "Del trío de"
+	line "islas, esferas"
+	cont "antiguas"
+	cont "tomarás."
 
-	para "For between life"
-	line "and death, all the"
-	cont "difference you'll"
-	cont "make."
+	para "Pues entre la"
+	line "vida y la muerte,"
+	cont "toda la"
+	cont "diferencia harás."
 
-	para "Climb to the"
-	line "shrine to right"
-	cont "what is wrong,"
+	para "Sube al"
+	line "santuario para"
+	cont "enderezar lo que"
+	cont "está mal,"
 
-	para "and the world"
-	line "shall be healed"
-	cont "by the guardian's"
-	cont "song…"
+	para "y el mundo"
+	line "sanará con la"
+	cont "canción del"
+	cont "guardián…"
 	done
 
 .Text0:
-	text "The Shamouti"
-	line "Prophecy"
+	text "La Profecía de"
+	line "Shamouti"
 
-	para "Want to read it?"
+	para "¿Quieres leerla?"
 	done
 
 .Text1:
-	text "Disturb not the"
-	line "harmony of fire,"
-	cont "ice, or lightning,"
+	text "No perturbes la"
+	line "armonía del"
+	cont "fuego, hielo o"
+	cont "rayo,"
 
-	para "lest these titans"
-	line "wreak destruction"
-	cont "upon the world in"
-	cont "which they clash."
+	para "no sea que estos"
+	line "titanes traigan"
+	cont "destrucción al"
+	cont "mundo donde"
+	cont "combaten."
 
-	para "Though the water's"
-	line "great guardian sh-"
-	cont "all arise to quell"
-	cont "the fighting,"
+	para "Aunque el gran"
+	line "guardián del agua"
+	cont "surja para calmar"
+	cont "la lucha,"
 
-	para "alone its song"
-	line "will fail, and"
-	cont "thus the earth"
-	cont "shall turn to ash."
+	para "su canto fallará,"
+	line "y así la tierra"
+	cont "se volverá"
+	cont "ceniza."
 
-	para "Keep reading?"
+	para "¿Sigo leyendo?"
 	done
 
 .Text2:
-	text "O Chosen One,"
-	line "into thine hands"
-	cont "bring together"
-	cont "all three."
+	text "Oh, Elegido, en"
+	line "tus manos reúne"
+	cont "a los tres."
 
-	para "Their treasures"
-	line "combined tame the"
-	cont "beast of the sea."
+	para "Sus tesoros"
+	line "unidos doman"
+	cont "a la bestia"
+	cont "del mar."
 
-	para "Keep reading?"
+	para "¿Sigo leyendo?"
 	done

@@ -276,25 +276,25 @@ FisherTully1Script:
 GenericTrainerHikerBenjamin:
 	generictrainer HIKER, BENJAMIN, EVENT_BEAT_HIKER_BENJAMIN, HikerBenjaminSeenText, HikerBenjaminBeatenText
 
-	text "Losing feels in-"
-	line "significant if you"
+	text "¡Perder se siente"
+	line "insignificante si"
 
-	para "look up at the big"
-	line "sky!"
+	para "miras al gran"
+	line "cielo!"
 	done
 
 GenericTrainerPokemaniacShane:
 	generictrainer POKEMANIAC, SHANE, EVENT_BEAT_POKEMANIAC_SHANE, PokemaniacShaneSeenText, PokemaniacShaneBeatenText
 
-	text "You're working on"
-	line "a #dex?"
+	text "¿Estás trabajando"
+	line "en una #dex?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#mon!"
+	para "Vaya, ¡debes"
+	line "conocer #mon"
+	cont "muy raros!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "¿Puedo verla, por"
+	line "favor?"
 	done
 
 MovementData_Route42LyraApproach4:
@@ -333,151 +333,159 @@ Route42SuicuneMovement:
 	step_end
 
 Route42LyraGreetingText:
-	text "Lyra: Hi, <PLAYER>!"
+	text "Lyra: ¡Hola,"
+	line "<PLAYER>!"
 
-	para "What a coinci-"
-	line "dence. I was just"
+	para "Qué casualidad."
+	line "Estaba estudiando"
 
-	para "studying the eff-"
-	line "ects of the recent"
+	para "los efectos de la"
+	line "reciente"
+	cont "avalancha en los"
+	cont "#mon salvajes."
 
-	para "avalanche on wild"
-	line "#mon."
+	para "¿Así que vas hacia"
+	line "Pueblo Caoba por"
 
-	para "So you're heading"
-	line "to Mahogany Town"
+	para "otra Medalla de"
+	line "Gimnasio?"
 
-	para "for another Gym"
-	line "Badge?"
+	para "¡Entonces tengo un"
+	line "regalo para ti!"
 
-	para "Then I have a"
-	line "present for you!"
-
-	para "But you'll have to"
-	line "beat me first!"
+	para "¡Pero primero"
+	line "tendrás que"
+	cont "vencerme!"
 	done
 
 Route42LyraWinText:
-	text "You've earned this"
-	line "gift!"
+	text "¡Te has ganado"
+	line "este regalo!"
 	done
 
 Route42LyraLossText:
-	text "Better luck next"
-	line "time…"
+	text "Mejor suerte la"
+	line "próxima vez…"
 	done
 
 Route42LyraPresentText:
-	text "Lyra: Wow, you're"
-	line "getting really"
-	cont "strong, <PLAYER>!"
+	text "Lyra: Vaya, ¡te"
+	line "estás volviendo"
+	cont "muy fuerte,"
+	cont "<PLAYER>!"
 
-	para "I'm sure you can"
-	line "beat the Mahogany"
-	cont "Gym Leader."
+	para "Seguro que puedes"
+	line "vencer al Líder de"
+	cont "Gimnasio de"
+	cont "Caoba."
 
-	para "And then you can"
-	line "use this!"
+	para "¡Y entonces podrás"
+	line "usar esto!"
 	done
 
 Route42LyraWhirlpoolText:
-	text "Lyra: That's"
-	line "Whirlpool."
+	text "Lyra: Eso es"
+	line "Remolino."
 
-	para "Teach it to a"
-	line "#mon to get"
-	cont "across wild water."
+	para "Enséñaselo a un"
+	line "#mon para"
+	cont "cruzar aguas"
+	cont "bravas."
 
-	para "I should get"
-	line "going. It was"
+	para "Debería irme. Fue"
+	line "un placer"
 
-	para "nice seeing you,"
-	line "<PLAYER>!"
+	para "¡verte, <PLAYER>!"
 
-	para "Bye now!"
+	para "¡Hasta luego!"
 	done
 
 FisherTully1SeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#mon I caught!"
+	text "¡Deja que te"
+	line "muestre el poder"
+	cont "del #mon que"
+	cont "atrapé!"
 	done
 
 FisherTully1BeatenText:
-	text "What? That's not"
-	line "right."
+	text "¿Qué? Eso no está"
+	line "bien."
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the trainer Champ"
+	text "Quiero llegar a"
+	line "ser Campeón"
 
-	para "using the #mon"
-	line "I caught."
+	para "usando el #mon"
+	line "que atrapé."
 
-	para "That's the best"
-	line "part of fishing!"
+	para "¡Esa es la mejor"
+	line "parte de pescar!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "Ah, ¡qué bien"
+	line "sienta estar al"
+	cont "aire libre! ¡Me"
+	cont "siento tan libre!"
 	done
 
 HikerBenjaminBeatenText:
-	text "Gahahah!"
+	text "¡Gajajajá!"
 	done
 
 PokemaniacShaneSeenText:
-	text "HEY!"
+	text "¡EY!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "¡Este es mi lugar"
+	line "secreto!"
+	cont "¡Piérdete,"
+	cont "forastero!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my Moon Stone…"
+	text "Debí haber usado"
+	line "mi Piedra Lunar…"
 	done
 
 Route42OfficerText:
-	text "Sorry, you can't"
-	line "come this way."
+	text "Lo siento, no"
+	line "puedes pasar por"
+	cont "aquí."
 
-	para "There's been an"
-	line "avalanche on"
-	cont "Mt.Mortar."
+	para "Ha habido una"
+	line "avalancha en el"
+	cont "Monte Mortero."
 
-	para "We're still clear-"
-	line "ing the rubble."
+	para "Aún estamos"
+	line "despejando los"
+	cont "escombros."
 	done
 
 Route42Sign1Text:
-	text "Route 42"
+	text "Ruta 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Ciudad Iris -"
+	line "Pueblo Caoba"
 	done
 
 MtMortarSign1Text:
-	text "Mt.Mortar"
+	text "Monte Mortero"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Interior de la"
+	line "Cueva Cascada"
 	done
 
 MtMortarSign2Text:
-	text "Mt.Mortar"
+	text "Monte Mortero"
 
-	para "Waterfall Cave"
-	line "Inside"
+	para "Interior de la"
+	line "Cueva Cascada"
 	done
 
 Route42Sign2Text:
-	text "Route 42"
+	text "Ruta 42"
 
-	para "Ecruteak City -"
-	line "Mahogany Town"
+	para "Ciudad Iris -"
+	line "Pueblo Caoba"
 	done

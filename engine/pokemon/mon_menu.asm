@@ -216,7 +216,7 @@ GiveTakePartyMonItem:
 	ret
 
 .noItemString
-	db "No held item@"
+	db "Objeto no equipado@"
 
 .GiveItem:
 	call GetItemToGive
@@ -518,7 +518,7 @@ GiveTakeItemMenuData:
 .Items:
 	db %10000000 ; x padding
 	db 3 ; # items
-	db "Give@"
+	db "Dar@"
 	db "Take@"
 	db "Swap@"
 
@@ -632,9 +632,9 @@ MonMailAction:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Read@"
-	db "Take@"
-	db "Quit@"
+	db "Leer@"
+	db "Coger@"
+	db "Salir@"
 
 TakeMail:
 	ld hl, .sendmailtopctext
@@ -1432,7 +1432,7 @@ GetForgottenMoves::
 	ret
 
 String_MoveSwap:
-	db "Switch with?@"
+	db "¿Cambiar por?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes

@@ -207,9 +207,9 @@ Special_DisplayMoneyAndCoinBalance:
 	jmp PrintNum
 
 MoneyString:
-	db "Money@"
+	db "Dinero@"
 CoinString:
-	db "Coin@"
+	db "Moneda@"
 
 StartMenu_DrawBugContestStatusBox:
 	hlcoord 0, 0
@@ -263,10 +263,10 @@ StartMenu_PrintBugContestStatus:
 	ret
 
 .Caught:
-	db "Caught@"
+	db "Capturado@"
 .Balls:
 	db "Balls:@"
 .None:
 	db "None@"
 .Level:
-	db "Level@"
+	db "Nivel@"

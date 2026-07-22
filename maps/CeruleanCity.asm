@@ -59,18 +59,19 @@ CeruleanCityCooltrainerMScript:
 	iftrue_jumptextfaceplayer CeruleanCityCooltrainerMText2
 	jumpthistextfaceplayer
 
-	text "Kanto's Power"
-	line "Plant?"
+	text "¿La Central"
+	line "Eléctrica de"
+	cont "Kanto?"
 
-	para "It's near the end"
-	line "of Route 9, the"
+	para "Está cerca del"
+	line "final de la Ruta"
+	cont "9, el camino que"
+	cont "va al este desde"
+	cont "aquí."
 
-	para "road that heads"
-	line "east from here."
-
-	para "I think there was"
-	line "an accident of"
-	cont "some sort there."
+	para "Creo que hubo"
+	line "algún tipo de"
+	cont "accidente allí."
 	done
 
 CeruleanCityCooltrainerFScript:
@@ -121,44 +122,49 @@ CeruleanCityYoungsterScript:
 	turnobject CERULEANCITY_YOUNGSTER, LEFT
 	jumpthistext
 
-	text "Ayuh?"
+	text "¿Ayuh?"
 
-	para "My Itemfinder is"
-	line "responding…"
+	para "Mi Buscaobjetos"
+	line "está respondiendo…"
 	done
 
 
 CeruleanCityCooltrainerMText2:
-	text "You're collecting"
-	line "every single kind"
-	cont "of #mon?"
+	text "¿Estás"
+	line "coleccionando"
+	cont "cada especie de"
+	cont "#mon?"
 
-	para "That must be quite"
-	line "a challenge, but"
-	cont "it sounds fun too."
+	para "Eso debe de ser"
+	line "todo un desafío,"
+	cont "pero suena"
+	cont "divertido."
 	done
 
 CeruleanCitySuperNerdText:
-	text "The Cape in the"
-	line "north is a good"
+	text "El Cabo del norte"
+	line "es un buen lugar"
 
-	para "place for dates."
-	line "Girls like it!"
+	para "para citas."
+	line "¡A las chicas les"
+	cont "encanta!"
 	done
 
 CeruleanCitySlowbroText:
-	text "Slowbro: Yarah?"
+	text "Slowbro: ¿Yarah?"
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "My Slowbro and I"
-	line "make an awesome"
-	cont "combination!"
+	text "¡Mi Slowbro y yo"
+	line "hacemos una"
+	cont "combinación"
+	cont "increíble!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "Slowbro, show me"
-	line "your Confusion!"
+	text "Slowbro,"
+	line "¡muéstrame tu"
+	cont "Confusión!"
 	done
 
 CeruleanCityCooltrainerFText3: ; text > text
@@ -166,106 +172,116 @@ CeruleanCityCooltrainerFText3: ; text > text
 	done
 
 CeruleanCityFisherText:
-	text "I'm a huge fan of"
-	line "Cerulean Gym's"
-	cont "Misty."
+	text "Soy un gran fan de"
+	line "Misty, del"
+	cont "Gimnasio de"
+	cont "Cerulean."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "I saw this shady"
-	line "guy go off toward"
-	cont "Cerulean Cape."
+	text "Vi a un tipo"
+	line "sospechoso ir"
+	cont "hacia el Cabo"
+	cont "Celeste."
 	done
 
 CeruleanCityYoungsterText1:
-	text "There's a cave"
-	line "here with scary-"
-	cont "powerful #mon"
-	cont "in it."
+	text "Hay una cueva aquí"
+	line "con #mon"
+	cont "aterradoramente"
+	cont "poderosos."
 	done
 
 
 CeruleanCityYoungsterText:
-	text "My Itemfinder"
-	line "stopped respond-"
-	cont "ing…"
+	text "Mi Buscaobjetos"
+	line "dejó de"
+	cont "responder…"
 
-	para "Someone must have"
-	line "beat me to it."
+	para "Alguien debió"
+	line "ganarme."
 	done
 
 CeruleanCaveGuardText:
-	text "This is…"
+	text "Esto es…"
 
-	para "The notorious"
-	line "Cerulean Cave!"
+	para "¡La famosa Cueva"
+	line "Celeste!"
 
-	para "Horribly powerful"
-	line "#mon live here."
+	para "Aquí viven #mon"
+	line "terriblemente"
+	cont "poderosos."
 
-	para "Only those who"
-	line "have defeated all"
+	para "Solo quienes han"
+	line "vencido a los"
 
-	para "eight Kanto Gym"
-	line "Leaders are allow-"
-	cont "ed inside."
+	para "ocho Líderes de"
+	line "Gimnasio de Kanto"
+	cont "pueden entrar."
 	done
 
 CeruleanCitySignText:
-	text "Cerulean City"
+	text "Ciudad Celeste"
 
-	para "A Mysterious Blue"
-	line "Aura Surrounds It"
+	para "Un Aura Azul"
+	line "Misteriosa la"
+	cont "Rodea"
 	done
 
 CeruleanGymSignText:
-	text "Cerulean City"
-	line "#mon Gym"
-	cont "Leader: Misty"
+	text "Gimnasio #mon"
+	line "de Ciudad Celeste"
+	cont "Líder: Misty"
 
-	para "The Tomboyish"
-	line "Mermaid"
+	para "La Sirena"
+	line "Marimacho"
 	done
 
 CeruleanBikeShopSignText:
-	text "Trendsetter of"
-	line "the Bicycle Boom"
+	text "Precursora del"
+	line "Boom de la"
+	cont "Bicicleta"
 
-	para "Miracle Cycle"
+	para "Ciclo Milagro"
 	done
 
 CeruleanPoliceSignText:
-	text "There's a notice"
-	line "here…"
+	text "Hay un aviso"
+	line "aquí…"
 
-	para "Stamp out thievery"
-	line "and make the city"
+	para "¡Acabemos con los"
+	line "robos y hagamos"
 
-	para "a friendlier, more"
-	line "cheerful place!"
+	para "de la ciudad un"
+	line "lugar más"
+	cont "acogedor y"
+	cont "alegre!"
 
-	para "Cerulean Police"
+	para "Policía de"
+	line "Ciudad Celeste"
 	done
 
 CeruleanCapeSignText:
-	text "Cerulean Cape"
-	line "Ahead"
+	text "Cabo Celeste"
+	line "Adelante"
 	done
 
 CeruleanBubblerText:
-	text "The water"
-	line "tastes good!"
+	text "¡El agua sabe"
+	line "bien!"
 	done
 
 CeruleanTrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "Even without an"
-	line "Itemfinder, you"
+	para "Incluso sin"
+	line "Buscaobjetos,"
 
-	para "can find useful"
-	line "items in trees,"
+	para "puedes encontrar"
+	line "objetos útiles en"
 
-	para "beneath rocks,"
-	line "or under water."
+	para "árboles, bajo"
+	line "rocas, o bajo el"
+	cont "agua."
 	done

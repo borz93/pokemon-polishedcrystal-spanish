@@ -439,7 +439,7 @@ CardFlip_PrintCoinBalance:
 	jmp PrintNum
 
 .CoinStr:
-	db "Coin@"
+	db "Moneda@"
 
 CardFlip_InitTilemap:
 	xor a

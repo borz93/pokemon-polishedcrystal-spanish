@@ -16,27 +16,29 @@ CherrygroveGymSpeechHouse_MapScriptHeader:
 	object_event  5,  5, SPRITE_CHILD, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, CherrygroveGymSpeechHouseBugCatcherText, -1
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "You're trying to"
-	line "see how good you"
+	text "¿Intentas ver"
+	line "qué tal se te da"
 
-	para "are as a #mon"
-	line "trainer?"
+	para "ser entrenador"
+	line "#mon?"
 
-	para "You better visit"
-	line "the #mon Gyms"
+	para "Mejor visita los"
+	line "Gimnasios #mon"
 
-	para "all over Johto and"
-	line "collect Badges."
+	para "de todo Johto y"
+	line "consigue Medallas."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
-	text "When I get older,"
-	line "I'm going to be a"
-	cont "Gym Leader!"
+	text "Cuando sea mayor,"
+	line "seré Líder de"
+	cont "Gimnasio!"
 
-	para "I make my #mon"
-	line "battle with my"
+	para "Hago que mis"
+	line "#mon combatan"
+	cont "con los de mi"
+	cont "amigo para"
 
-	para "friend's to make"
-	line "them tougher!"
+	para "hacerlos más"
+	line "fuertes!"
 	done

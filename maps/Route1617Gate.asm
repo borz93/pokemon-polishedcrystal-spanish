@@ -67,26 +67,25 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route1617GateOfficerText:
-	text "Cycling Road"
-	line "starts here."
+	text "El Ciclocarril"
+	line "empieza aquí."
 
-	para "It's all downhill,"
-	line "so it's totally"
-	cont "exhilarating."
+	para "Todo es cuesta"
+	line "abajo, así que es"
+	cont "emocionante."
 
-	para "It's a great sort"
-	line "of feeling that"
+	para "Es una sensación"
+	line "que no consigues"
 
-	para "you can't get from"
-	line "a ship or train."
+	para "en barco"
+	line "o en tren."
 	done
 
 Route16GateCannotPassText:
-	text "Hey! Whoa! Stop!"
+	text "¡Eh! ¡Para!"
 
-	para "You can't go out"
-	line "on the Cycling"
+	para "No puedes salir"
+	line "al Ciclocarril"
 
-	para "Road without a"
-	line "Bicycle."
+	para "sin una Bici."
 	done

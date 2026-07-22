@@ -27,188 +27,194 @@ Route35CoastSouth_MapScriptHeader:
 GenericTrainerSwimmermWalter:
 	generictrainer SWIMMERM, WALTER, EVENT_BEAT_SWIMMERM_WALTER, SwimmermWalterSeenText, SwimmermWalterBeatenText
 
-	text "The sun reflects"
-	line "off the water"
+	text "El sol se refleja"
+	line "en el agua"
 
-	para "and it burned me"
-	line "anyway!"
+	para "¡y aun así me"
+	line "quemé!"
 	done
 
 GenericTrainerSwimmerfLisa:
 	generictrainer SWIMMERF, LISA, EVENT_BEAT_SWIMMERF_LISA, SwimmerfLisaSeenText, SwimmerfLisaBeatenText
 
-	text "There's enough"
-	line "room in the sea"
+	text "Hay sitio de"
+	line "sobra en el mar"
 
-	para "for fishing and"
-	line "battling."
+	para "para pescar y"
+	line "combatir."
 	done
 
 GenericTrainerSwimmerfJill:
 	generictrainer SWIMMERF, JILL, EVENT_BEAT_SWIMMERF_JILL, SwimmerfJillSeenText, SwimmerfJillBeatenText
 
-	text "I'll forget my"
-	line "loss with a swim."
+	text "Olvidaré mi"
+	line "derrota nadando."
 	done
 
 GenericTrainerBird_keeperBryan:
 	generictrainer BIRD_KEEPER, BRYAN, EVENT_BEAT_BIRD_KEEPER_BRYAN, Bird_keeperBryanSeenText, Bird_keeperBryanBeatenText
 
-	text "Some #mon flee"
-	line "right away."
+	text "Algunos #mon"
+	line "huyen enseguida."
 
-	para "Try catching them"
-	line "with Kurt's Fast"
-	cont "Ball."
+	para "Intenta atraparlos"
+	line "con la Veloz Ball"
+	cont "de Kurt."
 
-	para "Whenever I find a"
-	line "Wht Apricorn, I"
-	cont "take it to Kurt."
+	para "Cuando encuentro"
+	line "una Bell. Blanca,"
+	cont "se la llevo a"
+	cont "Kurt."
 
-	para "He turns it into a"
-	line "custom Ball."
+	para "Él lo convierte en"
+	line "una Ball"
+	cont "personalizada."
 	done
 
 GenericTrainerSrandjrBeaandmay1:
 	generictrainer SR_AND_JR, BEAANDMAY1, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay1SeenText, SrandjrBeaandmay1BeatenText
 
-	text "Bea: I'll teach"
-	line "May how to become"
-	cont "stronger."
+	text "Bea: Le enseñaré"
+	line "a May a hacerse"
+	cont "más fuerte."
 	done
 
 GenericTrainerSrandjrBeaandmay2:
 	generictrainer SR_AND_JR, BEAANDMAY2, EVENT_BEAT_SR_AND_JR_BEA_AND_MAY, SrandjrBeaandmay2SeenText, SrandjrBeaandmay2BeatenText
 
-	text "May: I'll ask Bea"
-	line "how to become"
-	cont "stronger."
+	text "May: Le pediré a"
+	line "Bea cómo hacerme"
+	cont "más fuerte."
 	done
 
 GenericTrainerSailorHarvey:
 	generictrainer SAILOR, HARVEY, EVENT_BEAT_SAILOR_HARVEY, SailorHarveySeenText, SailorHarveyBeatenText
 
-	text "On the sea, the"
-	line "only thing you can"
+	text "En el mar, lo"
+	line "único en lo que"
 
-	para "count on is your"
-	line "own good self!"
+	para "¡puedes confiar es"
+	line "en ti mismo!"
 
-	para "I'm so proud of my"
-	line "buff bod!"
+	para "¡Estoy muy"
+	line "orgulloso de mi"
+	cont "cuerpazo!"
 	done
 
 GenericTrainerLassRose:
 	generictrainer LASS, ROSE, EVENT_BEAT_LASS_ROSE, LassRoseSeenText, LassRoseBeatenText
 
-	text "You hurt my poor"
-	line "worldly #mon!"
+	text "¡Heriste a mis"
+	line "pobres #mon"
+	cont "mundanos!"
 
-	para "I demand that you"
-	line "heal them at a"
-	cont "#mon Center!"
+	para "¡Exijo que los"
+	line "cures en un"
+	cont "Centro #mon!"
 	done
 
 SwimmermWalterSeenText:
-	text "I forgot to wear"
-	line "sunscreen, so I'm"
+	text "Olvidé ponerme"
+	line "protector solar,"
 
-	para "hiding by these"
-	line "shady rocks."
+	para "así que me"
+	line "escondo junto a"
+	cont "estas rocas con"
+	cont "sombra."
 	done
 
 SwimmermWalterBeatenText:
-	text "Ouch!"
+	text "¡Ay!"
 	done
 
 SwimmerfLisaSeenText:
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "Los pescadores me"
+	line "gritaron por"
+	cont "molestarlos…"
 	done
 
 SwimmerfLisaBeatenText:
-	text "I only wanted"
-	line "to battle…"
+	text "Solo quería"
+	line "combatir…"
 	done
 
 SwimmerfJillSeenText:
-	text "Don't I look good"
-	line "in this bikini?"
+	text "¿No me veo bien"
+	line "en este bikini?"
 	done
 
 SwimmerfJillBeatenText:
-	text "Hmph!"
+	text "¡Já!"
 	done
 
 Bird_keeperBryanSeenText:
-	text "What kinds of"
-	line "Balls do you use?"
+	text "¿Qué tipo de Ball"
+	line "usas?"
 	done
 
 Bird_keeperBryanBeatenText:
-	text "Yikes! Not fast"
-	line "enough!"
+	text "¡Vaya! ¡No fui"
+	line "bastante rápido!"
 	done
 
 SrandjrBeaandmay1SeenText:
-	text "Bea: I like strong"
-	line "#mon better"
+	text "Bea: Prefiero los"
+	line "#mon fuertes"
 
-	para "than cute"
-	line "#mon."
+	para "antes que los"
+	line "monos."
 
-	para "But together, we"
-	line "have cute and"
-	cont "strong #mon!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "monos y fuertes!"
 	done
 
 SrandjrBeaandmay1BeatenText:
-	text "Bea: Strength and"
-	line "cuteness weren't"
-	cont "enough!"
+	text "Bea: ¡La fuerza y"
+	line "lo mono no"
+	cont "bastaron!"
 	done
 
 SrandjrBeaandmay2SeenText:
-	text "May: I like cute"
-	line "#mon better"
+	text "May: Prefiero los"
+	line "#mon monos"
 
-	para "than strong"
-	line "#mon."
+	para "antes que los"
+	line "fuertes."
 
-	para "But together, we"
-	line "have strong and"
-	cont "cute #mon!"
+	para "¡Pero juntas"
+	line "tenemos #mon"
+	cont "fuertes y monos!"
 	done
 
 SrandjrBeaandmay2BeatenText:
-	text "May: Cuteness and"
-	line "strength weren't"
-	cont "enough!"
+	text "May: ¡Lo mono y la"
+	line "fuerza no"
+	cont "bastaron!"
 	done
 
 SailorHarveySeenText:
-	text "Hah! Your #mon"
-	line "sure look like"
-	cont "lightweights!"
+	text "¡Já! ¡Tus #mon"
+	line "parecen"
+	cont "livianos!"
 	done
 
 SailorHarveyBeatenText:
-	text "What power!"
-	line "How would you like"
+	text "¡Qué poder!"
+	line "¿Qué tal si"
 
-	para "to sail the seas"
-	line "with me?"
+	para "navegas los mares"
+	line "conmigo?"
 	done
 
 LassRoseSeenText:
-	text "I collected these"
-	line "#mon from all"
-	cont "around the world!"
+	text "¡Reuní estos"
+	line "#mon de todo el"
+	cont "mundo!"
 	done
 
 LassRoseBeatenText:
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "¡Oh, no!"
+	line "¡Recorrí el mundo"
+	cont "por ellos!"
 	done

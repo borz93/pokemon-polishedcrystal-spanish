@@ -12,9 +12,7 @@ JoeyPhoneScript1:
 
 .NotMonday:
 	special RandomPhoneMon
-	farwritetext JoeyDevisingStrategiesText
-	promptbutton
-	farsjump PhoneScript_HangupText_Male
+	farsjump JoeyHangUpScript
 
 .WantsBattle:
 	getlandmarkname ROUTE_30, STRING_BUFFER_5

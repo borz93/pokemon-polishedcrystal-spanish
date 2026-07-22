@@ -251,9 +251,9 @@ BugCatchingContestant1BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant1BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Don: Wow, you beat"
-	line "me. You're pretty"
-	cont "good."
+	text "Don: Vaya, me"
+	line "venciste. Eres"
+	cont "bastante bueno."
 	done
 
 BugCatchingContestant2BScript:
@@ -261,9 +261,9 @@ BugCatchingContestant2BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant2BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Lou: I envy you."
-	line "I just couldn't"
-	cont "do it this time."
+	text "Lou: Te envidio."
+	line "Yo no lo logré"
+	cont "esta vez."
 	done
 
 BugCatchingContestant3BScript:
@@ -271,9 +271,10 @@ BugCatchingContestant3BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant3BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Nick: Well done!"
-	line "I'm going to raise"
-	cont "my #mon better."
+	text "Nick: ¡Bien"
+	line "hecho! Voy a criar"
+	cont "mejor a mis"
+	cont "#mon."
 	done
 
 BugCatchingContestant4BScript:
@@ -281,9 +282,9 @@ BugCatchingContestant4BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant4BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "William: You're"
-	line "the winner? What"
-	cont "did you catch?"
+	text "William: ¿Eres el"
+	line "ganador? ¿Qué"
+	cont "atrapaste?"
 	done
 
 BugCatchingContestant5BScript:
@@ -291,9 +292,10 @@ BugCatchingContestant5BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant5BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Benny: Congrats!"
-	line "You have earned my"
-	cont "respect!"
+	text "Benny: ¡Felicida-"
+	line "des! ¡Te has"
+	cont "ganado mi"
+	cont "respeto!"
 	done
 
 BugCatchingContestant6BScript:
@@ -301,9 +303,9 @@ BugCatchingContestant6BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant6BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Barry: That #-"
-	line "mon you caught…"
-	cont "it's awesome!"
+	text "Barry: Ese #mon"
+	line "que atrapaste…"
+	cont "¡es genial!"
 	done
 
 BugCatchingContestant7BScript:
@@ -311,12 +313,12 @@ BugCatchingContestant7BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant7BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Cindy: You won?"
-	line "That's great!"
+	text "Cindy: ¿Ganaste?"
+	line "¡Genial!"
 
-	para "Do you feel like"
-	line "looking for bug"
-	cont "#mon with me?"
+	para "¿Te apetece"
+	line "buscar #mon"
+	cont "bicho conmigo?"
 	done
 
 BugCatchingContestant8BScript:
@@ -324,9 +326,10 @@ BugCatchingContestant8BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant8BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Josh: I… I can't"
-	line "believe I lost at"
-	cont "bug-catching…"
+	text "Josh: Yo… no"
+	line "puedo creer que"
+	cont "perdí atrapando"
+	cont "bichos…"
 	done
 
 BugCatchingContestant9BScript:
@@ -334,8 +337,8 @@ BugCatchingContestant9BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant9BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Johnny: Next time,"
-	line "I'm going to win."
+	text "Johnny: La próxima"
+	line "vez, voy a ganar."
 	done
 
 BugCatchingContestant10BScript:
@@ -343,11 +346,11 @@ BugCatchingContestant10BScript:
 	iffalse_jumptextfaceplayer BugCatchingContestant10BStillCompetingText
 	jumpthistextfaceplayer
 
-	text "Kipp: Could you"
-	line "give me some tips?"
+	text "Kipp: ¿Me das"
+	line "algún consejo?"
 
-	para "I want to study"
-	line "your style."
+	para "Quiero estudiar"
+	line "tu estilo."
 	done
 
 Route36NationalParkGatePlayerWaitWithContestantsMovement:
@@ -357,118 +360,121 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
-	text "OK. Please wait"
-	line "here for the"
+	text "Vale. Espera aquí"
+	line "para el anuncio"
 
-	para "announcement of"
-	line "the winners."
+	para "de los ganadores."
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #mon can"
-	line "only be seen in"
-	cont "the Park."
+	text "Algunos #mon"
+	line "solo se ven en el"
+	cont "Parque."
 	done
 
 
 BugCatchingContestant1BStillCompetingText:
-	text "Don: Luck plays a"
-	line "big part in this."
+	text "Don: La suerte"
+	line "cuenta mucho en"
+	cont "esto."
 
-	para "You never know"
-	line "what #mon will"
-	cont "appear."
+	para "Nunca sabes qué"
+	line "#mon"
+	cont "aparecerá."
 	done
 
 
 BugCatchingContestant2BStillCompetingText:
-	text "Lou: Maybe you win"
-	line "with big #mon?"
+	text "Lou: ¿Ganas con"
+	line "#mon grandes?"
 	done
 
 
 BugCatchingContestant3BStillCompetingText:
-	text "Nick: Maybe you"
-	line "get a higher score"
+	text "Nick: Quizás"
+	line "consigas más"
+	cont "puntos por un"
 
-	para "for a #mon of"
-	line "an unusual color."
+	para "#mon de color"
+	line "poco común."
 	done
 
 
 BugCatchingContestant4BStillCompetingText:
-	text "William: Well, I'm"
-	line "satisfied because"
+	text "William: Bueno,"
+	line "estoy contento"
 
-	para "I caught a #mon"
-	line "that I wanted."
+	para "porque atrapé el"
+	line "#mon que quería."
 	done
 
 
 BugCatchingContestant5BStillCompetingText:
-	text "Benny: I caught a"
-	line "Scyther before,"
-	cont "but I didn't win."
+	text "Benny: Atrapé un"
+	line "Scyther antes,"
+	cont "pero no gané."
 	done
 
 
 BugCatchingContestant6BStillCompetingText:
-	text "Barry: It's easier"
-	line "to win if you get"
+	text "Barry: Es más"
+	line "fácil ganar si"
 
-	para "a high-level bug"
-	line "#mon."
+	para "consigues un"
+	line "#mon bicho de"
+	cont "nivel alto."
 
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Pero creo que"
+	line "también cuentan"
+	cont "otros puntos."
 	done
 
 
 BugCatchingContestant7BStillCompetingText:
-	text "Cindy: I really"
-	line "love bug #mon!"
+	text "Cindy: ¡Me"
+	line "encantan los"
+	cont "#mon bicho!"
 	done
 
 
 BugCatchingContestant8BStillCompetingText:
-	text "Josh: I heard that"
-	line "somebody won with"
-	cont "a Caterpie!"
+	text "Josh: ¡Oí que"
+	line "alguien ganó con"
+	cont "un Caterpie!"
 	done
 
 
 BugCatchingContestant9BStillCompetingText:
-	text "Johnny: Darn."
-	line "I thought I would"
-	cont "score higher…"
+	text "Johnny: Vaya."
+	line "Pensé que"
+	cont "puntuaría más…"
 	done
 
 
 BugCatchingContestant10BStillCompetingText:
-	text "Kipp: I study a"
-	line "lot, but that's"
+	text "Kipp: Estudio"
+	line "mucho, pero no"
 
-	para "not good enough to"
-	line "win."
+	para "es suficiente para"
+	line "ganar."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
-	text "Uh-oh… Your Bag"
-	line "is full."
+	text "Vaya… Tu Mochila"
+	line "está llena."
 
-	para "We'll hold on to"
-	line "your prize, but"
-	cont "only for today."
+	para "Guardaremos tu"
+	line "premio, pero solo"
+	cont "por hoy."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Haz hueco, y luego"
+	line "ven a verme."
 	done
 
 Route36NationalParkGateOfficer1HeresThePrizeText:
-	text "<PLAYER>?"
+	text "¿<PLAYER>?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Aquí está el"
+	line "premio que te"
+	cont "guardábamos."
 	done

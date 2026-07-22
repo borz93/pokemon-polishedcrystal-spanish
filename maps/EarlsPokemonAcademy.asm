@@ -43,24 +43,26 @@ AcademyEarl:
 	iffalse_jumpopenedtext AcademyEarlNoMoreToTeachText
 	jumpthisopenedtext
 
-	text "Fine! Teach you,"
-	line "I will!"
+	text "¡Bien! ¡Enseñar"
+	line "te voy!"
 
-	para "If #mon come"
-	line "out in battle even"
+	para "Si #mon salen"
+	line "en combate aunque"
 
-	para "briefly, some Exp."
-	line "Points it gets."
+	para "sea un momento,"
+	line "algo de Exp."
+	cont "reciben."
 
-	para "At top of list put"
-	line "weak #mon."
+	para "En lo alto de la"
+	line "lista pon a"
+	cont "#mon débiles."
 
-	para "Switch in battle"
-	line "quick!"
+	para "¡Cambiar en"
+	line "combate rápido!"
 
-	para "This way, weak"
-	line "#mon strong"
-	cont "become!"
+	para "¡Así, débiles"
+	line "#mon fuertes"
+	cont "se vuelven!"
 	done
 
 EarlsPokemonAcademyGameboyKid1Script:
@@ -153,17 +155,18 @@ PokemonJournalWalkerScript:
 	setflag ENGINE_READ_WALKER_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Ex-Leader Walker!"
+	para "Reportaje"
+	line "especial: ¡El"
+	cont "Ex-Líder Walker!"
 
-	para "Falkner's father"
-	line "Walker is rumored"
+	para "Se rumorea que"
+	line "Walker, el padre"
 
-	para "to be wandering"
-	line "around Johto as"
-	cont "a vagabond."
+	para "de Falkner,"
+	line "vagabundea por"
+	cont "Johto."
 	done
 
 AcademyEarlSpinMovement:
@@ -183,217 +186,244 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "Earl, I am!"
+	text "¡Earl, yo ser!"
 
-	para "Wonderful are"
-	line "#mon, yes!"
+	para "¡Maravillosos son"
+	line "los #mon, sí!"
 
-	para "Teach you I will"
-	line "to be a better"
-	cont "trainer!"
+	para "¡Enseñar te voy a"
+	line "ser mejor"
+	cont "entrenador!"
 
-	para "What you want to"
-	line "know? Want to be"
-	cont "a winner is you?"
+	para "¿Qué saber tú"
+	line "quieres? ¿Ser"
+	cont "ganador tú"
+	cont "quieres?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Good! Teach you,"
-	line "I will!"
+	text "¡Bien! ¡Enseñar"
+	line "te voy!"
 
-	para "In battle, #mon"
-	line "top on list jump"
-	cont "out first!"
+	para "¡En combate,"
+	line "#mon arriba en"
+	cont "lista salir"
+	cont "primero!"
 
-	para "Change order in"
-	line "list, make battle"
-	cont "easy, maybe!"
+	para "¡Cambiar orden en"
+	line "lista, combate"
+	cont "fácil hacer,"
+	cont "quizás!"
 
-	para "More from me you"
-	line "want to hear?"
+	para "¿Más de mí quieres"
+	line "oír?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "So, want to know"
-	line "how to raise"
-	cont "#mon well?"
+	text "Entonces, ¿saber"
+	line "quieres cómo"
+	cont "criar bien a"
+	cont "#mon?"
 	done
 
 
 AcademyEarlNoMoreToTeachText:
-	text "Oh! Smart student"
-	line "you are! Nothing"
-	cont "more do I teach!"
+	text "¡Oh! ¡Estudiante"
+	line "listo tú eres!"
+	cont "¡Nada más enseñar"
+	cont "yo puedo!"
 
-	para "Good to #mon"
-	line "you must be!"
+	para "¡Bueno con #mon"
+	line "tú debes ser!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "I'm taking notes"
-	line "of the teacher's"
-	cont "lecture."
+	text "Tomo notas de la"
+	line "lección del"
+	cont "profesor."
 
-	para "I'd better copy"
-	line "the stuff on the"
-	cont "blackboard too."
+	para "Mejor copio lo"
+	line "de la pizarra"
+	cont "también."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "I traded my best"
-	line "#mon to the"
-	cont "guy beside me."
+	text "Cambié a mi"
+	line "mejor #mon con"
+	cont "el tipo de al"
+	cont "lado."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Huh? The #mon I"
-	line "just got is hold-"
-	cont "ing something!"
+	text "¿Eh? ¡El #mon"
+	line "que acabo de"
+	cont "conseguir lleva"
+	cont "algo!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "A #mon holding"
-	line "a Berry will heal"
-	cont "itself in battle."
+	text "Un #mon que"
+	line "lleve una Baya"
+	cont "se curará solo en"
+	cont "combate."
 
-	para "Many other items"
-	line "can be held by"
+	para "Muchos otros"
+	line "objetos pueden"
+	cont "llevar los"
 	cont "#mon…"
 
-	para "It sure is tough"
-	line "taking notes…"
+	para "Vaya que cuesta"
+	line "tomar notas…"
 	done
 
 AcademyBlackboardText:
-	text "The blackboard"
-	line "describes #mon"
+	text "La pizarra"
+	line "describe cambios"
 
-	para "status changes in"
-	line "battle."
+	para "de estado #mon"
+	line "en combate."
 	done
 
 AcademyPoisonText:
-	text "If poisoned, a"
-	line "#mon steadily"
-	cont "loses HP."
+	text "Si está"
+	line "envenenado, un"
+	cont "#mon pierde PS"
+	cont "poco a poco."
 
-	para "Poison lingers"
-	line "after the battle,"
+	para "El veneno"
+	line "persiste tras el"
+	cont "combate,"
 
-	para "and HP is lost as"
-	line "you walk."
+	para "y pierdes PS al"
+	line "caminar."
 
-	para "To cure it, use an"
-	line "Antidote."
+	para "Para curarlo, usa"
+	line "un Antídoto."
 	done
 
 AcademyParalysisText:
-	text "Paralysis reduces"
-	line "speed and may"
-	cont "prevent movement."
+	text "La parálisis"
+	line "reduce la"
+	cont "velocidad y puede"
+	cont "impedir el"
+	cont "movimiento."
 
-	para "It remains after"
-	line "battle, so use"
-	cont "a ParalyzeHeal."
+	para "Persiste tras el"
+	line "combate, así que"
+	cont "usa un"
+	cont "Antiparál."
 	done
 
 AcademySleepText:
-	text "If asleep, your"
-	line "#mon can't make"
-	cont "a move."
+	text "Si está dormido,"
+	line "tu #mon no"
+	cont "puede hacer un"
+	cont "movimiento."
 
-	para "A sleeping #mon"
-	line "doesn't wake up"
-	cont "after battle."
+	para "Un #mon dormido"
+	line "no despierta tras"
+	cont "el combate."
 
-	para "Wake it up with"
-	line "an Awakening."
+	para "Despiértalo con un"
+	line "Despertar."
 	done
 
 AcademyBurnText:
-	text "A burn steadily"
-	line "consumes HP."
+	text "Una quemadura"
+	line "consume PS poco a"
+	cont "poco."
 
-	para "It also reduces"
-	line "attack power."
+	para "También reduce el"
+	line "poder de ataque."
 
-	para "A burn lingers"
-	line "after battle."
+	para "Persiste tras el"
+	line "combate."
 
-	para "Use a Burn Heal as"
-	line "the cure."
+	para "Usa un Antiquemad."
+	line "como cura."
 	done
 
 AcademyFreezeText:
-	text "If your #mon is"
-	line "frozen, it can't"
-	cont "do a thing."
+	text "Si tu #mon está"
+	line "congelado, no"
+	cont "puede hacer nada."
 
-	para "It remains frozen"
-	line "after battle."
+	para "Sigue congelado"
+	line "tras el combate."
 
-	para "Thaw it out with"
-	line "an Ice Heal."
+	para "Descongélalo con"
+	line "un Antihielo."
 	done
 
 AcademyNotebookText:
-	text "It's this kid's"
-	line "notebook…"
+	text "Es el cuaderno de"
+	line "este niño…"
 
-	para "Catch #mon"
-	line "using # Balls."
+	para "Atrapa #mon"
+	line "usando Poké"
+	cont "Balls."
 
-	para "Up to six can be"
-	line "in your party."
+	para "Hasta seis pueden"
+	line "estar en tu"
+	cont "equipo."
 
-	para "Keep reading?"
+	para "¿Sigo leyendo?"
 	done
 
 AcademyNotebookText1:
-	text "Before throwing a"
-	line "# Ball, weaken"
-	cont "the target first."
+	text "Antes de lanzar"
+	line "una Poké Ball,"
+	cont "debilita primero"
+	cont "al objetivo."
 
-	para "A poisoned or"
-	line "burned #mon is"
-	cont "easier to catch."
+	para "Un #mon"
+	line "envenenado o"
+	cont "quemado es más"
+	cont "fácil de atrapar."
 
-	para "Keep reading?"
+	para "¿Sigo leyendo?"
 	done
 
 AcademyNotebookText2:
-	text "Some moves may"
-	line "cause confusion."
+	text "Algunos"
+	line "movimientos"
+	cont "pueden causar"
+	cont "confusión."
 
-	para "Confusion may make"
-	line "a #mon attack"
-	cont "itself."
+	para "La confusión"
+	line "puede hacer que"
+	cont "un #mon se"
+	cont "ataque a sí"
+	cont "mismo."
 
-	para "Leaving battle"
-	line "clears up any"
-	cont "confusion."
+	para "Salir del combate"
+	line "elimina cualquier"
+	cont "confusión."
 
-	para "Keep reading?"
+	para "¿Sigo leyendo?"
 	done
 
 AcademyNotebookText3:
-	text "People who catch"
-	line "and use #mon"
+	text "Quienes atrapan y"
+	line "usan #mon en"
 
-	para "in battle are"
-	line "#mon trainers."
+	para "combate son"
+	line "entrenadores"
+	cont "#mon."
 
-	para "They are expected"
-	line "to visit #mon"
+	para "Se espera que"
+	line "visiten Gimnasios"
 
-	para "Gyms and defeat"
-	line "other trainers."
+	para "#mon y venzan a"
+	line "otros"
+	cont "entrenadores."
 
-	para "The next page"
-	line "is… Blank!"
+	para "La siguiente"
+	line "página está…"
+	cont "¡En blanco!"
 
-	para "Boy: E-he-he…"
+	para "Niño: E-je-je…"
 
-	para "I haven't written"
-	line "any more…"
+	para "No he escrito"
+	line "nada más…"
 	done

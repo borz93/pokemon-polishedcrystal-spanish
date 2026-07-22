@@ -52,5 +52,5 @@ TinTowerHoOh:
 	end
 
 HoOhText:
-	text "Shaoooh!"
+	text "¡Shaoooh!"
 	done

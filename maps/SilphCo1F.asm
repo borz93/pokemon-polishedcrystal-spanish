@@ -37,66 +37,69 @@ SilphCoOfficerScript:
 	iftruefwd .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Solo los"
+	line "empleados pueden"
+	cont "subir."
 
-	para "The main power"
-	line "isn't working,"
+	para "La energía"
+	line "principal no"
 
-	para "and the CEO wants"
-	line "high security in"
+	para "funciona, y el"
+	line "director quiere"
 
-	para "case of an"
-	line "emergency."
+	para "máxima seguridad"
+	line "por si hay una"
 
-	para "We learned our"
-	line "lesson about that"
-	cont "three years ago."
+	para "emergencia."
+
+	para "Aprendimos la"
+	line "lección hace"
+	cont "tres años."
 	done
 
 .OfficerScriptAfterPowerRestored
 	jumpthisopenedtext
 
-	text "You're responsible"
-	line "for restoring the"
-	cont "power supply?"
+	text "¿Fuiste tú"
+	line "quien restauró"
+	cont "la energía?"
 
-	para "Thank you! Now"
-	line "R&D can continue."
+	para "¡Gracias! Ahora"
+	line "I+D puede seguir."
 
-	para "Feel free to take"
-	line "a tour upstairs."
+	para "Puedes subir a"
+	line "hacer un tour."
 	done
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "Silph Co.'s Head"
-	cont "Office Building."
+	text "Bienvenido. Este"
+	line "es el Edificio"
+	cont "Central de"
+	cont "Silph Co."
 	done
 
 
 SilphCo1FGentlemanText:
-	text "I have an appoint-"
-	line "ment with the"
-
-	para "chief engineer"
-	line "here at Silph Co."
+	text "Tengo una cita"
+	line "con el ingeniero"
+	cont "jefe aquí en"
+	cont "Silph Co."
 	done
 
 SilphCo1FCooltrainerfText:
-	text "I'm trying to"
-	line "pluck up the"
-	cont "courage to ask"
+	text "Intento reunir"
+	line "el valor para"
+	cont "invitar a salir"
 
-	para "the receptionist"
-	line "out on a date."
+	para "a la"
+	line "recepcionista."
 
-	para "Just as soon as"
-	line "she's done on the"
-	cont "phone…"
+	para "En cuanto"
+	line "termine de"
+	cont "hablar por"
+	cont "teléfono…"
 	done
 
 SilphCoElevatorText:
-	text "Out Of Order"
+	text "Fuera de Servicio"
 	done

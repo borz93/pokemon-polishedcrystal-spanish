@@ -31,100 +31,104 @@ StormyBeach_MapScriptHeader:
 GenericTrainerSwimmerfBarbara:
 	generictrainer SWIMMERF, BARBARA, EVENT_BEAT_SWIMMERF_BARBARA, .SeenText, .BeatenText
 
-	text "I'm being dragged"
-	line "by the tides…"
+	text "Las corrientes me"
+	line "arrastran…"
 	done
 
 .SeenText:
-	text "I was resting for"
-	line "a while, but I am"
-
-	para "always ready to"
-	line "fight!"
+	text "Descansaba un"
+	line "rato, pero"
+	cont "siempre estoy"
+	cont "lista para"
+	cont "luchar!"
 	done
 
 .BeatenText:
-	text "It was a good"
-	line "battle, even if"
-	cont "I lost."
+	text "Fue un buen"
+	line "combate, aunque"
+	cont "perdí."
 	done
 
 GenericTrainerBird_keeperJulian:
 	generictrainer BIRD_KEEPER, JULIAN, EVENT_BEAT_BIRD_KEEPER_JULIAN, .SeenText, .BeatenText
 
-	text "It's harder to fly"
-	line "in stormy places"
-	cont "like this."
+	text "Es más difícil"
+	line "volar en sitios"
+	cont "tormentosos como"
+	cont "este."
 	done
 
 .SeenText:
-	text "I'm training my"
-	line "Flying-type #-"
-	cont "mon here."
+	text "Entreno a mis"
+	line "#mon de tipo"
+	cont "Volador aquí."
 
-	para "Want to help me?"
+	para "¿Quieres"
+	line "ayudarme?"
 	done
 
 .BeatenText:
-	text "I lost…"
-	line "What a pity!"
+	text "Perdí…"
+	line "¡Qué pena!"
 	done
 
 GenericTrainerCamperFelix:
 	generictrainer CAMPER, FELIX, EVENT_BEAT_CAMPER_FELIX, .SeenText, .BeatenText
 
-	text "We're having a"
-	line "barbecue later!"
+	text "¡Vamos a hacer"
+	line "una barbacoa"
+	cont "luego!"
 
-	para "All I need is some"
-	line "firewood for my"
-	cont "#mon to light."
+	para "Solo necesito leña"
+	line "para mi #mon"
+	cont "la encienda."
 	done
 
 .SeenText:
-	text "I'm searching for"
-	line "firewood."
-	cont "Wanna help?"
+	text "Busco leña."
+
+	para "¿Quieres ayudar?"
 	done
 
 .BeatenText:
-	text "I'll take that as"
-	line "a no…"
+	text "Lo tomaré como"
+	line "un no…"
 	done
 
 GenericTrainerPicnickerLily:
 	generictrainer PICNICKER, LILY, EVENT_BEAT_PICNICKER_LILY, .SeenText, .BeatenText
 
-	text "I came here for a"
-	line "picnic, but forgot"
-	cont "the food!"
-	cont "How embarrassing!"
+	text "Vine a hacer un"
+	line "picnic, ¡pero"
+	cont "olvidé la"
+	cont "comida!"
+	cont "¡Qué bochorno!"
 	done
 
 .SeenText:
-	text "I'm hungry!"
+	text "¡Tengo hambre!"
 	done
 
 .BeatenText:
-	text "I was battling on"
-	line "an empty stomach!"
+	text "¡Combatía con el"
+	line "estómago vacío!"
 	done
 
 StormyBeachSwimmermText:
-	text "We're here on a"
-	line "camping trip,"
+	text "Estamos de"
+	line "acampada,"
 
-	para "but the weather"
-	line "doesn't look great…"
+	para "pero el tiempo no"
+	line "pinta muy bien…"
 	done
 
 StormyBeachGrampsText:
-	text "Can you feel it in"
-	line "the air? A storm"
-	cont "is brewing."
+	text "¿Lo sientes en el"
+	line "aire? Se acerca"
+	cont "una tormenta."
 
-	para "A befitting omen"
-	line "for those looking"
-	cont "to explore the"
-	cont "swamp."
+	para "Un buen augurio"
+	line "para quien quiera"
+	cont "explorar el"
+	cont "pantano."
 	done

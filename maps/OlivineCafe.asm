@@ -45,11 +45,13 @@ OlivineCafeStrengthSailorScript:
 	jumpthisopenedtext
 
 BakerChelsieAfterText:
-	text "I always add vita-"
-	line "mins to my bread."
+	text "Siempre añado"
+	line "vitaminas a mi"
+	cont "pan."
 
-	para "They make my #-"
-	line "mon stronger."
+	para "Hacen a mis"
+	line "#mon más"
+	cont "fuertes."
 	done
 
 OlivineCafeLyraScript:
@@ -80,117 +82,120 @@ OlivineCafeMovementData_LyraLeaves:
 	step_end
 
 OlivineCafeFishingGuruText:
-	text "Olivine Café's"
-	line "menu is chock full"
+	text "El menú del Café"
+	line "Olivo está repleto"
 
-	para "of hearty fare for"
-	line "beefy sailors!"
+	para "de platos"
+	line "contundentes para"
+	cont "marineros"
+	cont "fornidos!"
 	done
 
 OlivineCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Cada vez que"
+	line "vengo a este"
+	cont "pueblo, siempre"
 
-	para "always visit the"
-	line "Olivine Café."
+	para "visito el Café"
+	line "Olivo."
 
-	para "Everything on the"
-	line "menu makes me feel"
+	para "Todo en el menú me"
+	line "hace sentir más"
 
-	para "stronger. I can't"
-	line "stop eating!"
+	para "fuerte. ¡No puedo"
+	line "dejar de comer!"
 	done
 
 BakerChelsieGreetingText:
-	text "My #mon are on"
-	line "the rise!"
+	text "¡Mis #mon están"
+	line "en racha!"
 
-	para "I raised them with"
-	line "my special yeast"
-	cont "bread!"
+	para "¡Los crié con mi"
+	line "pan especial de"
+	cont "levadura!"
 
-	para "Want to battle"
-	line "them?"
+	para "¿Quieres"
+	line "combatirlos?"
 	done
 
 BakerChelsieSeenText:
-	text "You'll see what my"
-	line "bread can do!"
+	text "¡Verás lo que mi"
+	line "pan puede hacer!"
 	done
 
 BakerChelsieBeatenText:
-	text "You are strong."
-	line "Are you eating my"
-	cont "special bread?"
+	text "Eres fuerte."
+	line "¿Comes mi pan"
+	cont "especial?"
 	done
 
 BakerChelsieNoBattleText:
-	text "My bread-raised"
-	line "#mon are un-"
-	cont "beatable!"
+	text "¡Mis #mon"
+	line "criados con pan"
+	cont "son invencibles!"
 	done
 
 OlivineCafeLyraText1:
-	text "Lyra: Hi, <PLAYER>!"
-	line "You should try the"
+	text "Lyra: ¡Hola,"
+	line "<PLAYER>! Deberías"
+	cont "probar la comida"
+	cont "de aquí. ¡Está muy"
+	cont "buena!"
 
-	para "food here. It's"
-	line "really good!"
+	para "Aunque no quiero"
+	line "comer demasiado…"
 
-	para "Although I don't"
-	line "want to eat too"
-	cont "much…"
+	para "¡Ah, es verdad!"
+	line "Encontré un"
 
-	para "Oh, that's right!"
-	line "I found an item"
-
-	para "that you might"
-	line "like. Here!"
+	para "objeto que quizá"
+	line "te guste. ¡Toma!"
 	done
 
 OlivineCafeLyraText2:
-	text "Isn't it pretty?"
-	line "And useful, too."
+	text "¿A que es bonito?"
+	line "Y útil, también."
 
-	para "Well, I should"
-	line "get going."
+	para "Bueno, debería"
+	line "irme."
 
-	para "I want to see the"
-	line "Yellow Forest in"
+	para "Quiero ver el"
+	line "Bosque Amarillo"
+	cont "en Ciudad Orquídea"
+	cont "antes de volver a"
+	cont "casa."
 
-	para "Cianwood before I"
-	line "go back home."
-
-	para "See you,"
+	para "¡Nos vemos,"
 	line "<PLAYER>!"
 	done
 
 OlivineCafeOfficerText:
-	text "I know it's cli-"
-	line "ché, but I always"
+	text "Sé que es un"
+	line "tópico, pero"
+	cont "siempre vengo a"
+	cont "este sitio por"
+	cont "dónuts."
 
-	para "come to this place"
-	line "for doughnuts."
-
-	para "I can't get enough!"
+	para "¡No me canso de"
+	line "ellos!"
 	done
 
 OlivineCafeYoungsterText:
-	text "These doughnuts"
-	line "are great."
+	text "Estos dónuts son"
+	line "geniales."
 
-	para "Jelly-filled ones"
-	line "are my favorite!"
+	para "¡Los de mermelada"
+	line "son mis favoritos!"
 
-	para "Nothing beats a"
-	line "jelly-filled"
-	cont "doughnut."
+	para "Nada supera a un"
+	line "dónut de"
+	cont "mermelada."
 	done
 
 OlivineCafeFisherText:
-	text "I'd go for a run,"
-	line "but I wouldn't"
+	text "Iría a correr,"
+	line "pero no querría"
 
-	para "want to ruin my"
-	line "physique."
+	para "arruinar mi"
+	line "físico."
 	done

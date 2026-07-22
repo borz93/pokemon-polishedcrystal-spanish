@@ -18,41 +18,41 @@ PlayersNeighborsHouse_MapScriptHeader:
 	object_event  5,  4, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, (1 << EVE) | (1 << NITE), 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, PlayersNeighborsHusbandText, -1
 
 PlayersNeighborsDaughterText:
-	text "Pikachu is an"
-	line "evolved #mon."
+	text "Pikachu es un"
+	line "Pokémon"
+	cont "evolucionado."
 
-	para "I was amazed by"
-	line "Prof.Elm's find-"
-	cont "ings."
+	para "Me asombraron"
+	line "los hallazgos"
+	cont "del Prof. Elm."
 
-	para "He's so famous for"
-	line "his research on"
-	cont "#mon evolution."
+	para "Es famoso por"
+	line "su investigación"
+	cont "Pokémon."
 
-	para "…sigh…"
+	para "…suspiro…"
 
-	para "I wish I could be"
-	line "a researcher like"
-	cont "him…"
+	para "Ojalá pudiera"
+	line "ser investiga-"
+	cont "dora como él…"
 	done
 
 PlayersNeighborsHusbandText:
-	text "This town is the"
-	line "farthest south-"
+	text "Este pueblo es"
+	line "el más al sureste"
 
-	para "east one in all"
-	line "of Johto."
+	para "de Johto."
 	done
 
 PlayersNeighborText:
-	text "My daughter is"
-	line "adamant about"
+	text "Mi hija está"
+	line "empeñada en"
 
-	para "becoming Prof."
-	line "Elm's assistant."
+	para "ser ayudante"
+	line "del Prof. Elm."
 
-	para "She really loves"
-	line "#mon!"
+	para "¡Le encantan"
+	line "los Pokémon!"
 
-	para "But then, so do I!"
+	para "¡Pero a mí también!"
 	done

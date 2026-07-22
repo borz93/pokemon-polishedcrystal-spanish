@@ -1,72 +1,77 @@
 DanaAskNumber1Text:
-	text "You're really good"
-	line "at #mon!"
+	text "¡Se te dan muy"
+	line "bien los #mon!"
 
-	para "Boys give me items"
-	line "after battles, but"
+	para "Los chicos me"
+	line "dan objetos"
+	cont "tras combatir,"
+	cont "pero a veces"
+	cont "me dan de más."
 
-	para "sometimes they"
-	line "give me too much."
+	para "La próxima vez"
+	line "puedo darte"
+	cont "algunos si"
+	cont "quieres."
 
-	para "Next time, I can"
-	line "share some if you"
-
-	para "want. Let me get"
-	line "your phone number."
+	para "Dame tu número"
+	line "de teléfono."
 	done
 
 DanaAskNumber2Text:
-	text "I'll share my"
-	line "gifts with you."
+	text "Compartiré mis"
+	line "regalos contigo."
 
-	para "Let me get your"
-	line "phone number."
+	para "Dame tu número"
+	line "de teléfono."
 	done
 
 DanaNumberAcceptedText:
-	text "Next time a boy"
-	line "gives me something"
+	text "La próxima vez"
+	line "que un chico"
+	cont "me dé algo tras"
+	cont "combatir,"
 
-	para "after a battle,"
-	line "I'll share some!"
+	para "¡lo compartiré!"
 
-	para "Does that make me"
-	line "bad?"
+	para "¿Eso me hace"
+	line "mala persona?"
 	done
 
 DanaNumberDeclinedText:
-	text "Aww, you don't"
-	line "want anything?"
+	text "Vaya, ¿no"
+	line "quieres nada?"
 
-	para "But it's all for"
-	line "free…"
+	para "Pero es todo"
+	line "gratis…"
 	done
 
 DanaPhoneFullText:
-	text "But your phone's"
-	line "out of memory!"
+	text "¡Pero a tu"
+	line "teléfono no le"
+	cont "queda memoria!"
 	done
 
 DanaRematchText:
-	text "You're really"
-	line "late!"
+	text "¡Llegas muy"
+	line "tarde!"
 
-	para "I'm eager to get"
-	line "going!"
+	para "¡Tengo ganas de"
+	line "empezar!"
 	done
 
 DanaGiftText:
-	text "Hi! Are you here"
-	line "for your gift?"
+	text "¡Hola! ¿Vienes"
+	line "por tu regalo?"
 
-	para "This should really"
-	line "make your day!"
+	para "¡Esto te"
+	line "alegrará el día!"
 	done
 
 DanaPackFullText:
-	text "Where are you"
-	line "going to put this?"
+	text "¿Dónde vas a"
+	line "poner esto?"
 
-	para "I'll keep it, so"
-	line "come get it later!"
+	para "Te lo guardo,"
+	line "ven a por él"
+	cont "luego!"
 	done

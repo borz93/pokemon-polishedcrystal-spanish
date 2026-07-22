@@ -24,19 +24,20 @@ PokemonJournalRedScript:
 	setflag ENGINE_READ_RED_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "<PK><MN> Trainer Red!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Entrenador Red!"
 
-	para "Red is said to"
-	line "have defeated his"
+	para "Dicen que Red"
+	line "venció a su rival"
 
-	para "rival Blue for the"
-	line "title of #mon"
-
-	para "League Champion in"
-	line "record time."
+	para "Blue por el título"
+	line "de Campeón de la"
+	cont "Liga #mon"
+	cont "en récord de"
+	cont "tiempo."
 	done
 
 CherrygrovePokeCenter1FTeacherScript:
@@ -44,48 +45,50 @@ CherrygrovePokeCenter1FTeacherScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "El Centro de"
+	line "Comunicación de"
+	cont "arriba se acaba"
+	cont "de construir."
 
-	para "But they're still"
-	line "finishing it up."
+	para "Pero todavía lo"
+	line "están terminando."
 	done
 
 .Text2:
-	text "The Communication"
-	line "Center upstairs"
-	cont "was just built."
+	text "El Centro de"
+	line "Comunicación de"
+	cont "arriba se acaba"
+	cont "de construir."
 
-	para "I traded #mon"
-	line "there already!"
+	para "¡Ya he"
+	line "intercambiado"
+	cont "#mon allí!"
 	done
 
 CherrygrovePokeCenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
-
-	para "of #mon, and"
-	line "it's all free."
+	text "Es genial. Puedo"
+	line "guardar cualquier"
+	cont "cantidad de"
+	cont "#mon, y es"
+	cont "todo gratis."
 	done
 
 CherrygrovePokeCenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "Ese PC es gratis"
+	line "para cualquier"
+	cont "entrenador."
 	done
 
 CherrygrovePokeCenter1FLadyText:
-	text "#mon Journal"
-	line "has such fascin-"
-	cont "ating stories!"
+	text "La Revista #mon"
+	line "tiene historias"
+	cont "fascinantes!"
 
-	para "I come to #mon"
-	line "Centers for the"
+	para "Vengo a los"
+	line "Centros #mon"
+	cont "por los últimos"
+	cont "números, pero no"
 
-	para "latest issues, but"
-	line "they're not the"
-
-	para "only place with"
-	line "a subscription."
+	para "es el único sitio"
+	line "con suscripción."
 	done

@@ -9,9 +9,9 @@ StatStrings:
 	dr .sp_def
 	assert_table_length NUM_STATS
 
-.health:  db "Health@"
-.attack:  db "Attack@"
-.defense: db "Defense@"
-.speed:   db "Speed@"
-.sp_atk:  db "Sp.Atk@"
-.sp_def:  db "Sp.Def@"
+.health:  db "PS@"
+.attack:  db "Ataque@"
+.defense: db "Defensa@"
+.speed:   db "Velocidad@"
+.sp_atk:  db "At. Esp.@"
+.sp_def:  db "Def. Esp.@"

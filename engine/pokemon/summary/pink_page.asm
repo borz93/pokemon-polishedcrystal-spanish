@@ -257,18 +257,18 @@ INCLUDE "gfx/stats/pink_page.pal"
 	done
 
 .Rental_OT:
-	text  "Rental"
+	text  "Equipo"
 	next1 "  #mon"
 	done
 
 .ExpPointStr:
-	db "Exp.Points@"
+	db "Experiencia@"
 
 .LevelUpStr:
-	db "Level Up@"
+	db "Subir@"
 
 .ToStr:
-	db "to@"
+	db "al@"
 
 CopyNickname:
 	ld de, wStringBuffer1

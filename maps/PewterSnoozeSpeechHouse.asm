@@ -17,15 +17,17 @@ PewterSnoozeSpeechHouse_MapScriptHeader:
 	object_event  2,  4, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, PewterSnoozeSpeechHouseGrannyText, -1
 
 PewterSnoozeSpeechHouseGrampsText:
-	text "I like snoozing"
-	line "with the radio on…"
+	text "Me gusta echar"
+	line "una siesta con la"
+	cont "radio puesta…"
 	cont "…Zzzz…"
 	done
 
 PewterSnoozeSpeechHouseGrannyText:
-	text "Brock is the old-"
-	line "est of ten kids."
+	text "Brock es el mayor"
+	line "de diez hermanos."
 
-	para "I don't know how"
-	line "his parents coped!"
+	para "¡No sé cómo sus"
+	line "padres se las"
+	cont "arreglaron!"
 	done

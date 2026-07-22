@@ -23,26 +23,30 @@ ViridianSchoolHouse_MapScriptHeader:
 	object_event  3,  6, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, ViridianSchoolHouseGameBoyKidScript, -1
 
 ViridianSchoolHouseTeacherText:
-	text "I know this is a"
-	line "lot of material,"
+	text "Sé que es mucho"
+	line "contenido, pero"
 
-	para "but please pay"
-	line "attention!"
+	para "¡prestad"
+	line "atención, por"
+	cont "favor!"
 	done
 
 ViridianSchoolHouseNotesText:
-	text "The page is cover-"
-	line "ed in doodles."
-	para "A maze, flowers,"
-	line "the letter S…"
+	text "La página está"
+	line "llena de"
+	cont "garabatos."
+	para "Un laberinto,"
+	line "flores, la letra"
+	cont "S…"
 	done
 
 ViridianSchoolHouseLass1Text:
-	text "Wait! I thought"
-	line "that, like, all"
+	text "¡Espera! Pensaba"
+	line "que, tipo, todos"
 
-	para "Fire-type moves"
-	line "were special?"
+	para "los movimientos de"
+	line "tipo Fuego eran"
+	cont "especiales?"
 	done
 
 ViridianSchoolHouseYoungsterScript:
@@ -58,20 +62,21 @@ ViridianSchoolHouseYoungsterScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "“What doesn't KO"
-	line "a #mon makes"
-	cont "it stronger.”"
+	text "“Lo que no deja"
+	line "K.O. a un #mon"
+	cont "lo hace más"
+	cont "fuerte.”"
 
-	para "That's the effect"
-	line "of a Weak Policy."
+	para "Ese es el efecto"
+	line "del Seguro Débil."
 	done
 
 .Text1:
-	text "The teacher gave"
-	line "me extra copies of"
+	text "La profesora me"
+	line "dio copias extra"
 
-	para "these. Here,"
-	line "take one."
+	para "de esto. Ten,"
+	line "toma una."
 	done
 
 ViridianSchoolHouseGameBoyKidScript:
@@ -80,51 +85,56 @@ ViridianSchoolHouseGameBoyKidScript:
 	end
 
 ViridianSchoolHouseGameBoyKidText:
-	text "I'm taking notes"
-	line "on my phone!"
+	text "¡Tomo notas en"
+	line "mi teléfono!"
 
-	para "I'm not goofing"
-	line "off! Really!"
+	para "¡No estoy"
+	line "vagueando! ¡De"
+	cont "verdad!"
 	done
 
 ViridianSchoolHouseLass2Text:
-	text "I'm in the pro-"
-	line "tagonist's seat!"
+	text "¡Estoy en el"
+	line "asiento de la"
+	cont "protagonista!"
 
-	para "So why is my life"
-	line "so boring?"
+	para "¿Por qué mi vida"
+	line "es tan aburrida?"
 	done
 
 ViridianSchoolHouseBlackboardText:
-	text "Physical moves use"
-	line "the Attack and"
-	cont "Defense stats."
+	text "Los movimientos"
+	line "físicos usan"
+	cont "Ataque y Defensa."
 
-	para "Special moves use"
-	line "the Sp.Atk and"
-	cont "Sp.Def stats."
+	para "Los especiales"
+	line "usan At. Esp. y"
+	cont "Def. Esp."
 
-	para "Status moves do"
-	line "not cause damage"
-	cont "directly."
+	para "Los de estado no"
+	line "hacen daño"
+	cont "directo."
 	done
 
 PokemonJournalKiyoScript:
 	setflag ENGINE_READ_KIYO_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Karate King Kiyo!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Rey del Kárate"
+	cont "Kiyo!"
 
-	para "Kiyo is said to"
-	line "have studied under"
+	para "Dicen que Kiyo"
+	line "estudió con Chuck,"
+	cont "de Ciudad"
+	cont "Orquídea."
 
-	para "Chuck of Cianwood"
-	line "City. He is"
-
-	para "rumored to still"
-	line "be training some-"
-	cont "where in Johto."
+	para "Se rumorea que"
+	line "sigue"
+	cont "entrenando en"
+	cont "algún lugar de"
+	cont "Johto."
 	done

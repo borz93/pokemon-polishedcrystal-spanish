@@ -1,245 +1,243 @@
 ChadObservingWildText:
-	text "I recently began"
-	line "observing wild"
+	text "Hace poco empecé"
+	line "a observar"
 	cont ""
 	text_ram wStringBuffer4
-	text "."
+	text " salvajes."
 
-	para "I've been learning"
-	line "all sorts of new"
+	para "He aprendido todo"
+	line "tipo de cosas con"
+	cont "mis observaciones."
 
-	para "things through my"
-	line "observations."
+	para "Ojalá pudiera ser"
+	line "un investigador"
 
-	para "I wish I could"
-	line "become a #mon"
-
-	para "researcher like"
-	line "Prof.Oak soon."
+	para "#mon como el"
+	line "Prof. Oak pronto."
 	done
 
 ChadDefeatedMonText:
-	text "Oh yes, I managed"
-	line "to knock out a"
+	text "Ah sí, logré"
+	line "dejar K.O. a un"
 
-	para "wild "
+	para ""
 	text_ram wStringBuffer4
-	text " a"
-	line "while back."
+	text " salvaje"
+	line "hace tiempo."
 
-	para "Well, considering"
-	line "all the studying I"
+	para "Bueno, con todo lo"
+	line "que estudio cada"
 
-	para "do every day, it"
-	line "was inevitable."
+	para "día, era"
+	line "inevitable."
 	done
 
 ChadLostAMonText:
-	text "Oh yes, I came"
-	line "close to catching"
+	text "Ah sí, estuve a"
+	line "punto de atrapar"
 
-	para "a wild "
+	para "un "
 	text_ram wStringBuffer4
-	text ","
-	line "but it got away."
+	text " salvaje,"
+	line "pero se escapó."
 
-	para "For the longest"
-	line "time, I've been"
-
-	para "wanting to observe"
-	line ""
+	para "Llevaba mucho"
+	line "tiempo queriendo"
+	cont "observar a "
 	text_ram wStringBuffer4
-	text ". Rats…"
+	text "."
+
+	para "¡Vaya!"
 	done
 
 ChadBattleRematchText:
-	text "Want to battle?"
-	line "I have to battle"
+	text "¿Quieres"
+	line "combatir? Debo"
+	cont "combatir de vez en"
+	cont "cuando para no"
+	cont "oxidarme."
 
-	para "every so often to"
-	line "avoid rusting out."
-
-	para "I'll be on"
+	para "¡Estaré en"
 	line ""
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ChadHangUpText:
-	text "See you later!"
+	text "¡Hasta luego!"
 	done
 
 ChadBlueGossipText:
-	text "Do you know Blue?"
+	text "¿Conoces a Blue?"
 
-	para "He's Prof.Oak's"
-	line "grandson and a"
+	para "Es el nieto del"
+	line "Prof. Oak y ex"
+	cont "Campeón de la"
+	cont "Liga #mon!"
 
-	para "former #mon"
-	line "League Champion!"
-
-	para "He's one super"
-	line "#mon trainer!"
+	para "¡Es un"
+	line "entrenador #mon"
+	cont "increíble!"
 	done
 
 ChadDaisyGossipText:
-	text "Prof.Oak has a"
-	line "granddaughter"
-	cont "named Daisy."
+	text "El Prof. Oak"
+	line "tiene una nieta"
+	cont "llamada Daisy."
 
-	para "When she's around,"
-	line "even the most"
+	para "Cuando está cerca,"
+	line "hasta los #mon"
 
-	para "ferocious #mon"
-	line "calm right down."
+	para "más feroces se"
+	line "calman."
 	done
 
 ChadProfElmGossipText:
-	text "Everyone's talking"
-	line "about Prof.Elm."
+	text "Todos hablan"
+	line "del Prof. Elm."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great Prof.Oak!"
+	para "¡Fue ayudante del"
+	line "gran Prof. Oak!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "¡Qué guay! ¡Le"
+	line "envidio!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "Prof.Oak's dream"
-	line "is to compile a"
+	text "El sueño del"
+	line "Prof. Oak es"
+	cont "completar una"
 
-	para "comprehensive"
-	line "#dex."
+	para "#dex"
+	line "exhaustiva."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project…"
+	para "Te envidio por"
+	line "formar parte de"
+	cont "ese proyecto…"
 	done
 
 ChadKurtGossipText:
-	text "Do you know Kurt,"
-	line "the Ball creator?"
+	text "¿Conoces a Kurt,"
+	line "el creador de"
+	cont "Balls?"
 
-	para "He and Prof.Oak go"
-	line "back a long way."
+	para "Él y el Prof. Oak"
+	line "se conocen de"
+	cont "hace mucho."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "¡Supongo que la"
+	line "gente grande se"
+	cont "atrae entre sí!"
 	done
 
 ChadLeagueGossipText:
-	text "#mon League is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "La Liga #mon es"
+	line "el gran lugar de"
+	cont "encuentro para"
 
-	para "trainers who wish"
-	line "to become Champ."
+	para "todos los que"
+	line "quieren ser"
+	cont "Campeones."
 
-	para "Prof.Oak acts as"
-	line "an advisor to the"
+	para "El Prof. Oak"
+	line "asesora a la sede"
+	cont "de la Liga"
+	cont "#mon."
 
-	para "#mon League's"
-	line "headquarters."
-
-	para "He really is a"
-	line "great man."
+	para "De verdad es un"
+	line "gran hombre."
 	done
 
 ChadPokemonTalkGossipText:
-	text "Prof.Oak's #mon"
-	line "Talk is a popular"
-	cont "radio show, right?"
+	text "El programa"
+	line "#mon Talk del"
+	cont "Prof. Oak es muy"
+	cont "popular, ¿no?"
 
-	para "Did you know that"
-	line "he was going to"
+	para "¿Sabías que al"
+	line "principio iba a"
+	cont "rechazarlo?"
 
-	para "turn down the show"
-	line "at first?"
+	para "Pero la energía y"
+	line "persistencia de"
+	cont "Mary lo"
+	cont "convencieron."
 
-	para "But Mary's energy"
-	line "and persistence"
-	cont "wore him down."
-
-	para "So we have Mary to"
-	line "thank for it!"
+	para "¡Así que se lo"
+	line "debemos a Mary!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "Prof.Oak used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "El Prof. Oak fue"
+	line "entrenador hace"
+	cont "mucho tiempo."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Pero en vez de"
+	line "combatir, le"
+	cont "interesaban más"
+	cont "los #mon en sí."
 
-	para "#mon themselves"
-	line "to be interesting."
+	para "Así que dejó su"
+	line "entrenamiento"
 
-	para "So he abandoned"
-	line "his training to"
-
-	para "focus on becoming"
-	line "a researcher."
+	para "para centrarse en"
+	line "ser investigador."
 	done
 
 ChadDaisyTeaGossipText:
-	text "Prof.Oak has a"
-	line "granddaughter"
-	cont "named Daisy."
+	text "El Prof. Oak"
+	line "tiene una nieta"
+	cont "llamada Daisy."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Toma té cada día"
+	line "durante una hora"
 
-	para "from three in the"
-	line "afternoon."
+	para "desde las tres de"
+	line "la tarde."
 
-	para "I wish I could"
-	line "join her for tea"
+	para "Ojalá pudiera"
+	line "tomar té con ella"
 
-	para "and chat about"
-	line "Prof.Oak."
+	para "y hablar del"
+	line "Prof. Oak."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Did you know?"
-	line "Prof.Oak traveled"
+	text "¿Sabías que…?"
+	line "El Prof. Oak viajó"
 
-	para "all over the world"
-	line "when he was young."
+	para "por todo el mundo"
+	line "de joven."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Viajando, debió"
+	line "aprender sobre"
+	cont "#mon de forma"
+	cont "natural."
 
-	para "about #mon"
-	line "naturally."
+	para "Le envidio… A mí"
+	line "también me"
 
-	para "I envy him…"
-	line "I'd like to travel"
-
-	para "and learn about"
-	line "things too…"
+	para "gustaría viajar y"
+	line "aprender cosas…"
 	done
 
 ChadGoingToStudyHardText:
-	text "I'm going to study"
-	line "hard so Prof.Oak"
+	text "¡Voy a estudiar"
+	line "mucho para que el"
 
-	para "will make me his"
-	line "assistant!"
+	para "Prof. Oak me haga"
+	line "su ayudante!"
 	done
 
 ChadReminderText:
-	text "Do you remember"
-	line "about our battle?"
+	text "¿Recuerdas"
+	line "nuestro combate?"
 
-	para "The place is"
+	para "El lugar es"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 
-	para "Hurry over--I'm"
-	line "waiting."
+	para "Ven rápido, te"
+	line "espero."
 	done

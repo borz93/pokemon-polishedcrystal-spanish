@@ -45,8 +45,8 @@ DimCave5FSetUpStoneTable:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through."
+	text "¡La roca cayó al"
+	line "vacío!"
 	done
 
 DimCave5FRileyScript:
@@ -84,151 +84,165 @@ DimCave5FRileyScript:
 	end
 
 .ChallengeText:
-	text "…You are?"
+	text "…¿Y tú eres?"
 
-	para "OK, you're"
+	para "Vale, eres"
 	line "<PLAYER>."
 
-	para "I'm Riley. I'm a"
-	line "trainer, yes."
+	para "Soy Riley. Sí, soy"
+	line "entrenador."
 
-	para "I own a mine like"
-	line "this one, so it's"
-	cont "a good training"
-	cont "spot for me."
+	para "Tengo una mina"
+	line "como esta, así que"
+	cont "es un buen lugar"
+	cont "de entrenamiento"
+	cont "para mí."
 
-	para "If you'd like, we"
-	line "could have a"
-	cont "battle."
+	para "Si quieres,"
+	line "podríamos"
+	cont "combatir."
 	done
 
 .YesText:
-	text "We're pulling out"
-	line "all the stops to"
+	text "Sacaremos todo lo"
+	line "que tenemos para"
 
-	para "put your #mon"
-	line "down."
+	para "derribar a tus"
+	line "#mon."
 	done
 
 .NoText:
-	text "Oh, all right."
-	line "Then we'll continue"
-	cont "training here."
+	text "Oh, está bien."
+	line "Entonces"
+	cont "seguiremos"
+	cont "entrenando aquí."
 	done
 
 .BeatenText:
-	text "At times we bat-"
-	line "tle, and sometimes"
-	cont "we team up."
+	text "A veces"
+	line "combatimos, y a"
+	cont "veces nos"
+	cont "aliamos."
 
-	para "It's great how"
-	line "trainers can"
-	cont "interact."
+	para "Es genial cómo"
+	line "interactúan los"
+	cont "entrenadores."
 	done
 
 .ItemText:
-	text "Know your enemy."
+	text "Conoce a tu"
+	line "enemigo."
 
-	para "If you know your"
-	line "opponent's #mon"
-	cont "and moves, your"
+	para "Si conoces a los"
+	line "#mon y"
+	cont "movimientos de tu"
 
-	para "chances of winning"
-	line "are much improved."
+	para "rival, tus"
+	line "posibilidades de"
+	cont "ganar mejoran"
+	cont "mucho."
 
-	para "But strengthening"
-	line "your own team is"
-	cont "also important."
+	para "Pero fortalecer tu"
+	line "propio equipo"
+	cont "también es"
+	cont "importante."
 
-	para "This will help you"
-	line "to do so."
+	para "Esto te ayudará a"
+	line "lograrlo."
 	done
 
 .GoodbyeText:
-	text "Battling with you"
-	line "was very enjoy-"
-	cont "able."
+	text "Combatir contigo"
+	line "fue muy"
+	cont "agradable."
 
-	para "I intend to test"
-	line "my skills in the"
-	cont "Battle Tower now."
+	para "Pienso poner a"
+	line "prueba mis"
+	cont "habilidades en la"
+	cont "Torre Batalla."
 
-	para "Let's meet again!"
+	para "¡Nos veremos de"
+	line "nuevo!"
 
-	para "Take care on the"
-	line "way out."
+	para "Ten cuidado al"
+	line "salir."
 	done
 
 GenericTrainerSuper_nerdFoote:
 	generictrainer SUPER_NERD, FOOTE, EVENT_BEAT_SUPER_NERD_FOOTE, .SeenText, .BeatenText
 
-	text "Save one life or"
-	line "save five?"
+	text "¿Salvar una vida o"
+	line "salvar cinco?"
 
-	para "As a #mon"
-	line "trainer, you may"
-
-	para "have the power to"
-	line "save all six!"
+	para "Como entrenador"
+	line "#mon, ¡puede"
+	cont "que tengas el"
+	cont "poder de salvar"
+	cont "los seis!"
 	done
 
 .SeenText:
-	text "I have a conundrum"
-	line "for you!"
+	text "¡Tengo un dilema"
+	line "para ti!"
 
-	para "Would you push one"
-	line "#mon in front"
+	para "¿Empujarías a un"
+	line "#mon frente a"
 
-	para "of a mine cart to"
-	line "save five?"
+	para "una vagoneta para"
+	line "salvar a cinco?"
 	done
 
 .BeatenText:
-	text "You answered"
-	line "without words…"
-	cont "How Zen!"
+	text "Respondiste sin"
+	line "palabras…"
+	cont "¡Qué Zen!"
 	done
 
 GenericTrainerEngineerHoward:
 	generictrainer ENGINEER, HOWARD, EVENT_BEAT_ENGINEER_HOWARD, .SeenText, .BeatenText
 
-	text "Water flows south"
-	line "from Cerulean Cape"
+	text "El agua fluye al"
+	line "sur desde el Cabo"
+	cont "Celeste"
 
-	para "and follows a"
-	line "steady course to"
-	cont "the Power Plant."
+	para "y sigue un curso"
+	line "constante hacia la"
+	cont "Central"
+	cont "Eléctrica."
 	done
 
 .SeenText:
-	text "This waterfall"
-	line "provides energy"
-	cont "throughout Kanto!"
+	text "¡Esta cascada da"
+	line "energía a todo"
+	cont "Kanto!"
 	done
 
 .BeatenText:
-	text "No! A blackout…"
+	text "¡No! Un apagón…"
 	done
 
 GenericTrainerSuper_nerdDave:
 	generictrainer SUPER_NERD, DAVE, EVENT_BEAT_SUPER_NERD_DAVE, .SeenText, .BeatenText
 
-	text "You need a mining"
-	line "pick to mine."
+	text "Necesitas un pico"
+	line "minero para"
+	cont "minar."
 
-	para "But you can't get"
-	line "them around here."
+	para "Pero no puedes"
+	line "conseguir uno por"
+	cont "aquí."
 	done
 
 .SeenText:
-	text "I've maxed out my"
-	line "mining, jeweling,"
+	text "¡Maximicé mis"
+	line "habilidades de"
+	cont "minería, joyería,"
 
-	para "smelting, and"
-	line "crafting skills!"
+	para "fundición y"
+	line "artesanía!"
 	done
 
 .BeatenText:
-	text "But not"
-	line "battling…"
+	text "Pero no de"
+	line "combate…"
 	done

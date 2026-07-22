@@ -37,5 +37,5 @@ FarawayJungleMew:
 	end
 
 MewText:
-	text "Mew!"
+	text "¡Mew!"
 	done

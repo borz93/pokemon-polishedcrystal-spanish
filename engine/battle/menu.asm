@@ -49,10 +49,10 @@ BattleMenuDataHeader:
 	dbw BANK(.MenuData2), 0
 
 .Strings:
-	db "Fight@"
+	db "Lucha@"
 	db "<PK><MN>@"
-	db "Bag@"
-	db "Run@"
+	db "Bolso@"
+	db "Esc@"
 
 ContestBattleMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -68,10 +68,10 @@ ContestBattleMenuDataHeader:
 	dba ShowParkBallsRemaining
 
 .Strings:
-	db "Fight@"
+	db "Lucha@"
 	db "<PK><MN>@"
 	db "Ball×  @"
-	db "Run@"
+	db "Esc@"
 
 ShowParkBallsRemaining:
 	hlcoord 12, 16
@@ -94,9 +94,9 @@ SafariBattleMenuDataHeader:
 
 .Strings:
 	db "Ball×  @"
-	db "Bait@"
-	db "Rock@"
-	db "Run@"
+	db "Cebo@"
+	db "Piedra@"
+	db "Esc@"
 
 ShowSafariBallsRemaining:
 	hlcoord 11, 14

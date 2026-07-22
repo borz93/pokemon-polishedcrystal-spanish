@@ -35,32 +35,32 @@ SafariZoneNorth_MapScriptHeader:
 GenericTrainerBattleGirlPadma:
 	generictrainer BATTLE_GIRL, PADMA, EVENT_BEAT_BATTLE_GIRL_PADMA, BattleGirlPadmaSeenText, BattleGirlPadmaBeatenText
 
-	text "If you throw your"
-	line "emotions into"
+	text "Si vuelcas tus"
+	line "emociones en el"
 
-	para "training, you'll"
-	line "become strong!"
+	para "entrenamiento,"
+	line "¡te harás fuerte!"
 	done
 
 GenericTrainerYoungsterTyler:
 	generictrainer YOUNGSTER, TYLER, EVENT_BEAT_YOUNGSTER_TYLER, YoungsterTylerSeenText, YoungsterTylerBeatenText
 
-	text "#mon leap out"
-	line "when you least"
-	cont "expect it."
+	text "Los #mon saltan"
+	line "cuando menos te"
+	cont "lo esperas."
 	done
 
 GenericTrainerBeautyRachael:
 	generictrainer BEAUTY, RACHAEL, EVENT_BEAT_BEAUTY_RACHAEL, BeautyRachaelSeenText, BeautyRachaelBeatenText
 
-	text "I was a Black Belt"
-	line "just one year ago."
+	text "Hace solo un año"
+	line "era Cinturón N."
 
-	para "The power of med-"
-	line "ical science is"
+	para "El poder de la"
+	line "ciencia médica es"
 
-	para "amazing, wouldn't"
-	line "you say?"
+	para "increíble,"
+	line "¿no crees?"
 	done
 
 SafariZoneNorthCooltrainerFScript:
@@ -86,128 +86,137 @@ SafariZoneNorthTutorDoubleEdgeScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "Oh well."
+	text "Bueno, vale."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have any"
-	line "Silver Leaves…"
+	text "No tienes ninguna"
+	line "Hoja Plata…"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "There!"
-	line "Now your #mon"
+	text "¡Ya está!"
+	line "Ahora tu #mon"
 
-	para "knows how to use"
-	cont "Double-Edge!"
+	para "sabe usar Doble"
+	cont "Filo!"
 	done
 
 BattleGirlPadmaSeenText:
-	text "I spar with my"
-	line "#mon to improve"
-	cont "as a team!"
+	text "¡Entreno con mis"
+	line "#mon para"
+	cont "mejorar como"
+	cont "equipo!"
 	done
 
 BattleGirlPadmaBeatenText:
-	text "We'll have to"
-	line "train harder!"
+	text "¡Tendremos que"
+	line "entrenar más!"
 	done
 
 YoungsterTylerSeenText:
-	text "You can find #-"
-	line "mon anywhere!"
+	text "¡Puedes encontrar"
+	line "#mon en"
+	cont "cualquier sitio!"
 
-	para "In grass, in"
-	line "water, in caves,"
-	cont "or up a tree!"
+	para "¡En hierba, en"
+	line "agua, en cuevas,"
+	cont "o en un árbol!"
 	done
 
 YoungsterTylerBeatenText:
-	text "I need to keep"
-	line "looking!"
+	text "¡Debo seguir"
+	line "buscando!"
 	done
 
 BeautyRachaelSeenText:
-	text "My sundress is"
-	line "perfect for a day"
-	cont "in the Safari"
-	cont "Zone!"
+	text "¡Mi vestido de sol"
+	line "es perfecto para"
+	cont "un día en la Zona"
+	cont "Safari!"
 	done
 
 BeautyRachaelBeatenText:
-	text "It's not great"
-	line "for battling…"
+	text "No es genial"
+	line "para combatir…"
 	done
 
 SafariZoneNorthCooltrainerFText:
-	text "I caught a"
+	text "¡Atrapé un"
 	line "Chansey!"
 
-	para "I'm so lucky!"
-	line "I'm going to teach"
+	para "¡Qué suerte!"
+	line "Voy a enseñarle"
 
-	para "it to do a really"
-	line "powerful tackle."
+	para "a hacer un"
+	line "placaje muy"
+	cont "poderoso."
 
-	para "Let me share my"
-	line "luck with you!"
+	para "¡Deja que"
+	line "comparta mi"
+	cont "suerte contigo!"
 	done
 
 Text_SafariZoneNorthTutorDoubleEdge:
-	text "I'll teach your"
-	line "#mon how to"
+	text "Enseñaré a tu"
+	line "#mon a usar"
 
-	para "use Double-Edge"
-	line "for a Silver Leaf."
+	para "Doble Filo a"
+	line "cambio de una"
+	cont "Hoja Plata."
 	done
 
 
 Text_SafariZoneNorthTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Double-Edge?"
+	text "¿Debería enseñar"
+	line "a tu #mon"
+	cont "Doble Filo?"
 	done
 
 
 
 SafariZoneNorthAreaSignText:
-	text "Safari Zone"
-	line "North Area"
+	text "Zona Safari"
+	line "Zona Norte"
 	done
 
 SafariZoneNorthRestHouseSignText:
-	text "Rest House"
+	text "Casa de Descanso"
 	done
 
 SafariZoneNorthTrainerTips1SignText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "Moves of the same"
-	line "type can be"
-	cont "physical, special,"
-	cont "or status-based."
+	para "Los movimientos"
+	line "del mismo tipo"
+	cont "pueden ser"
+	cont "físicos,"
+	cont "especiales o de"
+	cont "estado."
 	done
 
 SafariZoneNorthTrainerTips2SignText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "#mon hide in"
-	line "tall grass!"
+	para "¡Los #mon se"
+	line "esconden en la"
+	cont "hierba alta!"
 
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	para "Muévete en"
+	line "zigzag por la"
+	cont "hierba para"
+	cont "sacarlos."
 	done
 
 SafariZoneNorthTrainerTips3SignText:
-	text "Trainer Tips"
+	text "Consejos"
 
-	para "The rest of the"
-	line "sign has been"
-	cont "torn away…"
+	para "El resto del"
+	line "cartel se ha"
+	cont "roto…"
 	done

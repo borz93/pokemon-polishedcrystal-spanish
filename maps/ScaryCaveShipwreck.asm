@@ -22,6 +22,6 @@ ScaryCaveShipwreck_MapScriptHeader:
 	itemball_event  7,  8, RARE_BONE, 1, EVENT_SCARY_CAVE_SHIPWRECK_RARE_BONE
 
 ScaryCaveShipwreckText:
-	text "It's a rusty,"
-	line "broken shipwreck."
+	text "Es un naufragio"
+	line "oxidado y roto."
 	done

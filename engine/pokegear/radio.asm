@@ -515,7 +515,7 @@ OaksPkmnTalk12:
 	jr PlaceRadioString
 
 .pokemon_channel_string
-	db "#mon Channel@"
+	db "#mon Canal@"
 
 OaksPkmnTalk13:
 	ld hl, wRadioTextDelay
@@ -1078,7 +1078,7 @@ RocketRadioText8:
 	; hear?@  We did it!
 	text_farend _RocketRadioText8
 RocketRadioText9:
-	; @ Where is our boss?
+	; @ ¿Donde está nuestro jefe?
 	text_farend _RocketRadioText9
 RocketRadioText10:
 	; @ Is he listening?
@@ -1384,7 +1384,7 @@ BuenasPasswordCheckTime:
 	ret
 
 BuenasPasswordChannelName:
-	db "Buena's Password@"
+	db "Contraseñas Buena@"
 
 BuenaRadioText1:
 	; BUENA: BUENA here!

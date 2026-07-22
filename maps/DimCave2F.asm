@@ -40,52 +40,56 @@ DimCave2FBouldersLand:
 GenericTrainerEngineerLang:
 	generictrainer ENGINEER, LANG, EVENT_BEAT_ENGINEER_LANG, .SeenText, .BeatenText
 
-	text "Three years ago"
-	line "the Power Plant"
-	cont "was a wreck."
+	text "Hace tres años"
+	line "la Central"
+	cont "estaba"
+	cont "destrozada."
 
-	para "We got it up and"
-	line "running to power"
+	para "La reparamos"
+	line "para alimentar"
 
-	para "the Magnet Train"
-	line "to Johto."
+	para "el Tren Imán"
+	line "a Johto."
 	done
 
 .SeenText:
-	text "We mined ore from"
-	line "this mountain to"
+	text "Extrajimos"
+	line "mineral de esta"
+	cont "montaña"
 
-	para "refurbish the"
-	line "Power Plant!"
+	para "para renovar la"
+	line "Central"
+	cont "Eléctrica!"
 	done
 
 .BeatenText:
-	text "A power failure!"
+	text "¡Un apagón!"
 	done
 
 GenericTrainerHikerDerrick:
 	generictrainer HIKER, DERRICK, EVENT_BEAT_HIKER_DERRICK, .SeenText, .BeatenText
 
-	text "It goes without"
-	line "saying, but I love"
+	text "No hace falta"
+	line "decirlo, pero"
+	cont "amo el"
+	cont "senderismo"
 
-	para "hiking with my"
-	line "#mon."
+	para "con mis #mon."
 	done
 
 .SeenText:
-	text "♪ A-hiking we"
-	line "will go, a-hiking"
-	cont "we will go… ♪"
+	text "♪ De paseo"
+	line "iremos, de"
+	cont "paseo iremos… ♪"
 	done
 
 .BeatenText:
-	text "♪ Eee-iiii-ah-"
-	line "dee-oh, a-hiking"
-	cont "we will go! ♪"
+	text "♪ Ii-ai-ai-oh,"
+	line "de paseo"
+	cont "iremos! ♪"
 	done
 
 DimCaveFallenBoulderText:
-	text "It's stuck on the"
-	line "button."
+	text "Está atascada"
+	line "en el botón."
 	done

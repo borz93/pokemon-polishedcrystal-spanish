@@ -18,13 +18,13 @@ Route31VioletGate_MapScriptHeader:
 	object_event  1,  2, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_COMMAND, jumptextfaceplayer, Route31VioletGateCooltrainerFText, -1
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "Sprout Tower?"
+	text "¡Hola!"
+	line "¿Visitaste la"
+	cont "Torre Bellsprout?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Me alejé"
+	line "demasiado. ¡Mejor"
+	cont "llamo a casa!"
 	done

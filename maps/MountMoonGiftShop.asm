@@ -18,7 +18,7 @@ MountMoonGiftShop_MapScriptHeader:
 	object_event  5,  4, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, (1 << DAY), PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, MountMoonGiftShopLassText, -1
 
 MountMoonGiftShopLassText:
-	text "When the sun goes"
-	line "down, Clefairy"
-	cont "come out to play."
+	text "Cuando se pone el"
+	line "sol, salen los"
+	cont "Clefairy a jugar."
 	done

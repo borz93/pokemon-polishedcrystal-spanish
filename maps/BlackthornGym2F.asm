@@ -58,50 +58,55 @@ BlackthornGym2FBoulders:
 	earthquake 80
 	jumpthistext
 
-	text "The boulder fell"
-	line "through!"
+	text "¡La roca cayó"
+	line "por el agujero!"
 	done
 
 GenericTrainerCooltrainermCody:
 	generictrainer COOLTRAINERM, CODY, EVENT_BEAT_COOLTRAINERM_CODY, .SeenText, .BeatenText
 
-	text "Members of our"
-	line "dragon-user clan"
+	text "Los miembros de"
+	line "nuestro clan de"
+	cont "usuarios de"
+	cont "dragón solo"
 
-	para "can use dragon"
-	line "#mon only after"
-
-	para "our Master allows"
-	line "it."
+	para "podemos usar"
+	line "#mon dragón"
+	cont "cuando el"
+	cont "Maestro lo"
+	cont "permite."
 	done
 
 .SeenText:
-	text "It's not as if we"
-	line "all use Dragon-"
-	cont "type #mon."
+	text "No es que todos"
+	line "usemos #mon"
+	cont "de tipo Dragón."
 	done
 
 .BeatenText:
-	text "Rats! If only I"
-	line "had a dragon!"
+	text "¡Rayos! ¡Ojalá"
+	line "tuviera un"
+	cont "dragón!"
 	done
 
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Uh-oh… Clair is"
-	line "going to be mad…"
+	text "Uy-oh… Clair se"
+	line "va a enfadar…"
 	done
 
 .SeenText:
-	text "I can't allow a"
-	line "nameless trainer"
-	cont "past me!"
+	text "¡No puedo dejar"
+	line "pasar a un"
+	cont "entrenador"
+	cont "anónimo!"
 
-	para "Clair would be"
-	line "livid if I did!"
+	para "¡Clair se pondría"
+	line "furiosa si lo"
+	cont "hiciera!"
 	done
 
 .BeatenText:
-	text "Awww… I lost…"
+	text "Vaya… Perdí…"
 	done

@@ -81,8 +81,9 @@ VermilionPortSailorAtGangwayScript:
 VermilionPortAlreadyRodeScript:
 	jumpthisopenedtext
 
-	text "Sorry. You can't"
-	line "board now."
+	text "Lo siento. No"
+	line "puedes embarcar"
+	cont "ahora."
 	done
 
 VermilionPortWalkUpToShipScript:
@@ -205,67 +206,72 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Partimos pronto."
+	line "Por favor, sube a"
+	cont "bordo."
 	done
 
 
 VermilionPortAskBoardingText:
-	text "Welcome to Fast"
-	line "Ship S.S.Aqua."
+	text "Bienvenido al"
+	line "Barco Rápido"
+	cont "S.S.Aqua."
 
-	para "Will you be board-"
-	line "ing today?"
+	para "¿Vas a embarcar"
+	line "hoy?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.Ticket?"
+	text "¿Puedo ver tu"
+	line "Billete S.S.?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "¡Esperamos verte"
+	line "de nuevo!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.Ticket."
+	text "<PLAYER> mostró"
+	line "el Billete S.S."
 
-	para "That's it."
-	line "Thank you!"
+	para "Eso es todo."
+	line "¡Gracias!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "Ticket…"
+	text "<PLAYER> intentó"
+	line "mostrar el"
+	cont "Billete S.S…"
 
-	para "…But no Ticket!"
+	para "…¡Pero no tenía"
+	line "billete!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "¡Lo siento!"
+	line "Solo puedes"
 
-	para "if you have an"
-	line "S.S.Ticket."
+	para "embarcar si"
+	line "tienes un Billete"
+	cont "S.S."
 	done
 
 VermilionPortSailMondayText:
-	text "The Fast Ship will"
-	line "sail on Wednesday."
+	text "El Barco Rápido"
+	line "zarpará el"
+	cont "miércoles."
 	done
 
 VermilionPortSailSundayText:
-	text "The Fast Ship will"
-	line "sail next Sunday."
+	text "El Barco Rápido"
+	line "zarpará el"
+	cont "próximo domingo."
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
+	text "¿Viniste de"
 	line "Johto?"
 
-	para "I hear many rare"
-	line "#mon live over"
-	cont "there."
+	para "Oí que muchos"
+	line "#mon raros"
+	cont "viven allí."
 	done

@@ -1,56 +1,66 @@
 BethAskNumber1Text:
-	text "It's been a while"
-	line "since I lost…"
+	text "Hace tiempo que"
+	line "no perdía…"
 
-	para "You're very good"
-	line "at battling."
+	para "Combates muy"
+	line "bien."
 
-	para "We should battle"
-	line "again sometime."
+	para "Deberíamos"
+	line "combatir otra"
+	cont "vez algún día."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "Al retar a un"
+	line "entrenador tan"
 
-	para "you, I think I can"
-	line "get better too."
+	para "fuerte como tú,"
+	line "creo que puedo"
 
-	para "So how about it?"
+	para "mejorar también."
 
-	para "Would you give me"
-	line "your phone number?"
+	para "¿Qué te parece?"
+
+	para "¿Me darías tu"
+	line "número de"
+	cont "teléfono?"
 	done
 
 BethAskNumber2Text:
-	text "By challenging a"
-	line "tough trainer like"
+	text "Al retar a un"
+	line "entrenador tan"
 
-	para "you, I think I can"
-	line "get better too."
+	para "fuerte como tú,"
+	line "creo que puedo"
 
-	para "So how about it?"
+	para "mejorar también."
 
-	para "Would you give me"
-	line "your phone number?"
+	para "¿Qué te parece?"
+
+	para "¿Me darías tu"
+	line "número de"
+	cont "teléfono?"
 	done
 
 BethNumberAcceptedText:
-	text "Let's battle again"
-	line "sometime!"
+	text "¡Combatamos otra"
+	line "vez algún día!"
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "Qué pena…"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Avísame si"
+	line "cambias de"
+	cont "idea."
 	done
 
 BethPhoneFullText:
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Vaya no. A tu"
+	line "teléfono no le"
+	cont "queda memoria."
 	done
 
 BethRematchText:
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "¡Vaya que me"
+	line "hiciste esperar!"
+	cont "¡Vamos!"
 	done

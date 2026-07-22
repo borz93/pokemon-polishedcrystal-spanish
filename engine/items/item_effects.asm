@@ -1815,21 +1815,21 @@ WingCase_MonSelected:
 	done
 
 .CancelStr:
-	db "Don't use.         @"
+	db "No usar.           @"
 
 .YouDontHaveAny:
-	db "You don't have any."
+	db "No tienes ninguno.@"
 	prompt
 
 .UseHowManyText:
-	db "Use how many?     @"
+	db "¿Cuantos usar?    @"
 
 OnlyXWillBeAppliedText:
-	db "Only "
+	db "Solo "
 XWillBeAppliedText:
 	text_decimal wItemQuantityChangeBuffer, 1, 3
-	text " will be"
-	line "applied. Proceed?"
+	text " serán"
+	line "aplicado. ¿Vale?"
 	done
 
 INCLUDE "data/items/wing_names.asm"

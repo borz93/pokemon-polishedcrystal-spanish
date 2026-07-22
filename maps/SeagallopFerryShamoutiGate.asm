@@ -90,9 +90,9 @@ VermilionValenciaMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Vermilion City@"
-	db "Valencia Island@"
-	db "Cancel@"
+	db "Ciudad Carmín@"
+	db "Isla Valencia@"
+	db "Salir@"
 
 SeagallopFerryShamoutiGatePlayerDepartMovementData:
 	step_down
@@ -119,30 +119,34 @@ SeagallopFerryShamoutiGateSailorArrive2MovementData:
 	step_end
 
 SeagallopFerryShamoutiWhichIslandText:
-	text "Welcome back!"
-	line "Where to now?"
+	text "¡Bienvenido!"
+	line "¿A dónde ahora?"
 	done
 
 SeagallopFerryShamoutiToVermilionQuestionText:
-	text "Ready to head back"
-	line "to Vermilion City?"
+	text "¿Listo para"
+	line "volver a Ciudad"
+	cont "Carmín?"
 	done
 
 SeagallopFerryShamoutiDepartureText:
-	text "All right!"
+	text "¡Muy bien!"
 
-	para "All aboard the"
-	line "Seagallop Ferry!"
+	para "¡Todos a bordo"
+	line "del Ferry"
+	cont "Seagallop!"
 	done
 
 SeagallopFerryShamoutiIslandRefusedText:
-	text "I'll be waiting"
-	line "right here."
+	text "Estaré esperando"
+	line "aquí mismo."
 	done
 
 SeagallopFerryShamoutiGateTwinText:
-	text "I'm here to greet"
-	line "the tourists."
+	text "Estoy aquí para"
+	line "recibir a los"
+	cont "turistas."
 
-	para "Have a nice stay!"
+	para "¡Que disfrutes tu"
+	line "estancia!"
 	done

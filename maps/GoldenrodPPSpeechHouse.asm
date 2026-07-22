@@ -17,28 +17,30 @@ GoldenrodPPSpeechHouse_MapScriptHeader:
 	object_event  5,  3, SPRITE_CUTE_GIRL, SPRITEMOVEDATA_STANDING_LEFT, 1, 0, -1, PAL_NPC_RED, OBJECTTYPE_COMMAND, jumptextfaceplayer, GoldenrodPPSpeechHouseLassText, -1
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "Una vez, en pleno"
+	line "combate, mi"
 
-	para "#mon couldn't"
-	line "make any moves."
+	para "#mon no podía"
+	line "usar movimientos."
 
-	para "The Power Points,"
-	line "or PP, of its"
+	para "Los Puntos de"
+	line "Poder, o PP, de"
 
-	para "moves were all"
-	line "gone."
+	para "sus movimientos"
+	line "se habían"
+	cont "agotado."
 	done
 
 GoldenrodPPSpeechHouseLassText:
-	text "Sometimes, a"
-	line "healthy #mon"
+	text "A veces, un"
+	line "#mon sano no"
+	cont "puede"
 
-	para "may be unable to"
-	line "use its moves."
+	para "usar sus"
+	line "movimientos."
 
-	para "If that happens,"
-	line "heal it at a #-"
-	cont "mon Center or use"
-	cont "an item."
+	para "Si pasa eso,"
+	line "cúralo en un"
+	cont "Centro #mon o"
+	cont "usa un objeto."
 	done

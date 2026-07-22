@@ -163,8 +163,8 @@ DEF FIRST_REGULAR_TEXT_CHAR EQU $7f
 	ctxtmap "♀",        $bf, 1000011101101000001
 
 	ctxtmap "'",        $c0, 0011010000111
-	ctxtmap "'d",       $c1, 100001100110
-	ctxtmap "'l",       $c2, 1000011010
+	ctxtmap "ñ",        $c1, 100001100110
+	ctxtmap "ú",        $c2, 1000011010
 	ctxtmap "'m",       $c3, 1000011100
 	ctxtmap "'r",       $c4, 0011011111
 	ctxtmap "'s",       $c5, 00101111

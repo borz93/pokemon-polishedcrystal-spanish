@@ -1,115 +1,115 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hey listen, my"
-	line ""
+	text "Oye, escucha, el"
+	line "palo de mi "
 	text_ram wStringBuffer4
-	text "'s stick"
 
-	para "has this really"
-	line "delicious aroma."
+	para "tiene un aroma"
+	line "delicioso."
 
-	para "That aroma gets my"
-	line "appetite going!"
+	para "¡Ese aroma me"
+	line "abre el apetito!"
 	done
 
 JoseDefeatedMonText:
-	text "A while ago, my"
-	line "Farfetch'd KO'd"
-	cont "this "
+	text "Hace tiempo, mi"
+	line "Farfetch'd dejó"
+	cont "K.O. a este "
 	text_ram wStringBuffer4
 	text "."
 
-	para "You should have"
-	line "seen Farfetch'd"
+	para "Deberías haber"
+	line "visto a Farfetch'd"
 
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "blandir ese palo."
+	line "¡Increíble!"
 	done
 
 JoseLostAMonText:
-	text "I ran into a wild"
-	line ""
+	text "Me encontré con"
+	line "un "
 	text_ram wStringBuffer4
-	text "…"
+	text " salvaje…"
 
-	para "I was trying to"
-	line "catch it, but it"
+	para "Intentaba"
+	line "atraparlo, pero"
 
-	para "took off faster"
-	line "than I thought it"
+	para "salió más rápido"
+	line "de lo que"
 
-	para "would. It was a"
-	line "bit disappointing."
+	para "pensaba. Fue un"
+	line "poco decepción."
 	done
 
 JoseBattleRematchText:
-	text "Want to battle"
-	line "again?"
+	text "¿Quieres"
+	line "combatir de"
+	cont "nuevo?"
 
-	para "For some reason,"
-	line "my Farfetch'd is"
+	para "Por algún"
+	line "motivo, mi"
+	cont "Farfetch'd está"
 
-	para "all worked up and"
-	line "raring to go."
+	para "emocionado y"
+	line "listo para todo."
 
-	para ""
+	para "Estoy en:"
+	line ""
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm at."
+	text "."
 
-	para "Keep an eye out"
-	line "for me, OK?"
+	para "Búscame bien,"
+	line "¿vale?"
 	done
 
 JoseHangUpText:
-	text "Be seeing you!"
+	text "¡Nos vemos!"
 	done
 
 JoseFoundItemText:
-	text "My Farfetch'd had"
-	line "something pretty"
-	cont "in its beak."
+	text "Mi Farfetch'd"
+	line "tenía algo"
+	cont "bonito en el"
+	cont "pico."
 
-	para "Like I promised,"
-	line "you can have it."
+	para "Como prometí,"
+	line "puedes tenerlo."
 
-	para "Catch up to me on"
-	line ""
+	para "Alcánzame en "
 	text_ram wStringBuffer5
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "y te lo daré."
 	done
 
 JoseHaventGottenItemYetText:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Aún no tengo"
+	line "lo que te"
+	cont "prometí."
 
-	para "I'll call you as"
-	line "soon as I get it,"
+	para "Te llamaré en"
+	line "cuanto lo tenga,"
 
-	para "so could you wait"
-	line "a little longer?"
+	para "¿podrías esperar"
+	line "un poco más?"
 	done
 
 JoseReminderText:
-	text "<PLAYER>, could you"
-	line "hurry over?"
+	text "<PLAYER>, ¿podrías"
+	line "venir ya?"
 
-	para "Farfetch'd is"
-	line "agitated."
+	para "Farfetch'd está"
+	line "agitado."
 
-	para "If you don't come"
-	line "soon, it might"
+	para "Si no vienes"
+	line "pronto, podría"
 
-	para "smack me with its"
-	line "stick!"
+	para "golpearme con su"
+	line "palo!"
 
 	para ""
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Please come as"
-	line "soon as you can!"
+	para "¡Ven en cuanto"
+	line "puedas!"
 	done

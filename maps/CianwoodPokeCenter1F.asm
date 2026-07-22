@@ -24,21 +24,22 @@ PokemonJournalChuckScript:
 	setflag ENGINE_READ_CHUCK_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Diario #mon"
 
-	para "Special Feature:"
-	line "Leader Chuck!"
+	para "Reportaje"
+	line "especial: ¡el"
+	cont "Líder Chuck!"
 
-	para "Chuck is said to"
-	line "really like sweet"
-	cont "desserts."
+	para "Dicen que a Chuck"
+	line "le encantan los"
+	cont "postres dulces."
 
-	para "However, he has"
-	line "also been seen"
+	para "Pero también lo"
+	line "han visto"
 
-	para "training under a"
-	line "heavy waterfall"
-	cont "to work them off."
+	para "entrenando bajo"
+	line "una gran cascada"
+	cont "para quemarlos."
 	done
 
 CianwoodGymGuyScript:
@@ -61,91 +62,91 @@ CianwoodGymGuyScript:
 	waitendtext
 
 .Text:
-	text "The #mon Gym"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Los entrenadores"
+	line "del Gimnasio"
+	cont "#mon de aquí"
+	cont "son unos"
+	cont "machotes."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Si me quedo por"
+	line "aquí, podrían ir"
+	cont "a por mí."
 
-	para "Here's some ad-"
-	line "vice: the Gym"
+	para "Un consejo: el"
+	line "Líder usa tipo"
+	cont "Lucha."
 
-	para "Leader uses the"
-	line "Fighting-type."
+	para "Así que confúndelo"
+	line "con #mon"
+	cont "Psíquicos."
 
-	para "So you should"
-	line "confound him with"
-	cont "Psychic #mon."
+	para "Elimina a sus"
+	line "#mon antes de"
+	cont "que usen su fuerza"
+	cont "física."
 
-	para "Wipe out his #-"
-	line "mon before they"
+	para "¿Y esas rocas en"
+	line "medio del"
+	cont "Gimnasio?"
 
-	para "can use their"
-	line "physical strength."
+	para "Si no las mueves"
+	line "bien, no llegarás"
+	cont "al Líder."
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the Gym?"
-
-	para "If you don't move"
-	line "them correctly,"
-
-	para "you won't reach"
-	line "the Gym Leader."
-
-	para "If you get stuck,"
-	line "go outside."
+	para "Si te atascas, sal"
+	line "afuera."
 	done
 
 .StrengthText1:
-	text "You can't move the"
-	line "boulders aside?"
+	text "¿No puedes mover"
+	line "las rocas?"
 
-	para "Here, use this"
-	line "and teach your"
-	cont "#mon Strength!"
+	para "Ten, ¡usa esto y"
+	line "enséñale Fuerza a"
+	cont "tu #mon!"
 	done
 
 .StrengthText2:
-	text "Good luck!"
+	text "¡Buena suerte!"
 	done
 
 .WinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "¡<PLAYER>!"
+	line "¡Ganaste! ¡Lo supe"
+	cont "con solo mirarte!"
 	done
 
 CianwoodPokeCenter1FLassText:
-	text "Did you meet the"
-	line "#Maniac?"
+	text "¿Conociste al"
+	line "#Maníaco?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #mon."
+	para "Siempre presume"
+	line "de sus #mon"
+	cont "raros."
 	done
 
 CianwoodPokeCenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #mon that"
+	text "Me encanta"
+	line "presumir de los"
+	cont "#mon que crié."
 
-	para "I've raised."
-	line "Don't you?"
+	para "¿A ti no?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Voy a meterme en"
+	line "un montón de"
+	cont "combates,"
 
-	para "battles, and show"
-	line "off my #mon!"
+	para "¡y presumir de mis"
+	line "#mon!"
 	done
 
 CianwoodPokeCenter1FRichBoyText:
-	text "There's no #"
-	line "Mart in this town,"
+	text "No hay Tienda #"
+	line "aquí en el"
+	cont "pueblo,"
 
-	para "so we have to im-"
-	line "port products from"
-	cont "across the sea."
+	para "así que"
+	line "importamos"
+	cont "productos de"
+	cont "allende el mar."
 	done

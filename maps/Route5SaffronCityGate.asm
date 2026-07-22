@@ -18,12 +18,12 @@ Route5SaffronCityGate_MapScriptHeader:
 	object_event  6,  4, SPRITE_BLACK_BELT, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, Route5SaffronCityGateBlackBeltScript, -1
 
 Route5SaffronCityGateOfficerText:
-	text "You're from Johto,"
-	line "aren't you?"
+	text "Eres de Johto,"
+	line "¿verdad?"
 
-	para "How do you like"
-	line "Kanto? It's nice,"
-	cont "don't you agree?"
+	para "¿Qué te parece"
+	line "Kanto? Es bonito,"
+	cont "¿no crees?"
 	done
 
 Route5SaffronCityGateBlackBeltScript:
@@ -39,22 +39,22 @@ Route5SaffronCityGateBlackBeltScript:
 	jumpthisopenedtext
 
 .Text2:
-	text "Eat lots of Pro-"
-	line "tein and see your"
-	cont "strength grow!"
+	text "¡Come mucha"
+	line "Proteína y verás"
+	cont "crecer tu fuerza!"
 	done
 
 .Text1:
-	text "Get a load of"
-	line "these muscles!"
+	text "¡Mira estos"
+	line "músculos!"
 
-	para "Impressive, I"
-	line "know!"
+	para "¡Impresionante,"
+	line "lo sé!"
 
-	para "You're pretty puny,"
-	line "so if you wanna"
-	cont "get big like me"
+	para "Eres bastante"
+	line "canijo. Si quieres"
+	cont "ser grande como yo"
 
-	para "you'll need some"
-	line "of this."
+	para "necesitarás algo"
+	line "de esto."
 	done

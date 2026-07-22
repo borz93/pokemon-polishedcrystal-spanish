@@ -41,7 +41,8 @@ Route23North_MapScriptHeader:
 	const ROUTE23NORTH_OFFICER8
 
 VictoryRoadSignText:
-	text "Victory Road"
+	text "Camino de la"
+	line "Victoria"
 	done
 
 Route23NorthHealOfficerScript:
@@ -55,23 +56,23 @@ Route23NorthHealOfficerScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "The #mon League"
-	line "awaits you!"
+	text "La Liga #mon"
+	line "te espera!"
 
-	para "Just don't give up,"
-	line "OK?"
+	para "Solo no te rindas,"
+	line "¿vale?"
 	done
 
 .IntroText:
-	text "You need to be"
-	line "ready to face"
+	text "Debes estar listo"
+	line "para afrontar"
 
-	para "anything on"
-	line "Victory Road."
+	para "cualquier cosa en"
+	line "el Camino de la"
+	cont "Victoria."
 
-	para "Let me give you a"
-	line "bit of encourage-"
-	cont "ment!"
+	para "¡Deja que te dé"
+	line "ánimos!"
 	done
 
 Route23NorthMineralBadgeOfficerScript:
@@ -90,7 +91,7 @@ Route23NorthMineralBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .MineralBadgeText:
-	db "Mineral Badge@"
+	db "Medalla Mineral@"
 
 Route23NorthGlacierBadgeOfficerScript:
 Route23NorthGlacierBadgeTriggerScript:
@@ -108,7 +109,7 @@ Route23NorthGlacierBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .GlacierBadgeText:
-	db "Glacier Badge@"
+	db "Medalla Glaciar@"
 
 Route23NorthRisingBadgeOfficerScript:
 Route23NorthRisingBadgeTriggerScript:
@@ -126,7 +127,7 @@ Route23NorthRisingBadgeTriggerScript:
 	sjumpfwd Route23OfficerHaveBadgeScript
 
 .RisingBadgeText:
-	db "Rising Badge@"
+	db "Medalla Alba@"
 
 Route23OfficerNoBadgeScript:
 	writetext .NoBadgeText
@@ -136,14 +137,14 @@ Route23OfficerNoBadgeScript:
 	end
 
 .NoBadgeText:
-	text "You don't have the"
+	text "Aún no tienes la"
 	line ""
 	text_ram wStringBuffer3
-	text " yet!"
+	text "!"
 
-	para "You have to have"
-	line "it to get to the"
-	cont "#mon League!"
+	para "La necesitas para"
+	line "llegar a la Liga"
+	cont "#mon!"
 	done
 
 Route23OfficerHaveBadgeScript:
@@ -152,21 +153,21 @@ Route23OfficerHaveBadgeScript:
 	promptbutton
 	jumpthisopenedtext
 
-	text "OK then! Please,"
-	line "go right ahead!"
+	text "¡Muy bien! ¡Puedes"
+	line "pasar!"
 	done
 
 .SeeBadgeText:
-	text "Oh! That is the"
+	text "¡Oh! ¡Esa es la"
 	line ""
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Route23OfficerNeedBadgeText:
-	text "You can pass here"
-	line "only if you have"
-	cont "the "
+	text "Solo puedes pasar"
+	line "si tienes la"
+	cont ""
 	text_ram wStringBuffer3
 	text "."
 	done

@@ -41,47 +41,50 @@ Route39RuggedRoadGateSwimmerScript:
 	setevent EVENT_GOT_RARE_CANDY_FROM_RUGGED_ROAD_GATE
 	jumpthisopenedtext
 
-	text "Keep the goggles."
-	line "Thanks again!"
+	text "Quédate las"
+	line "gafas. ¡Gracias"
+	cont "de nuevo!"
 	done
 
 .LovelyDay:
-	text "Lovely day today,"
-	line "isn't it?"
+	text "Bonito día hoy,"
+	line "¿verdad?"
 
-	para "I heard that the"
-	line "mountaintop view"
-	cont "is great!"
+	para "Oí que la vista"
+	line "desde la cima es"
+	cont "genial!"
 	done
 
 .BadDay:
-	text "Argh! A boat guard"
-	line "chased me off the"
+	text "¡Argh! Un guardia"
+	line "me echó del"
 
-	para "harbor when I swam"
-	line "near the boat."
+	para "puerto cuando nadé"
+	line "cerca del barco."
 
-	para "And I lost my Go-"
-	line "Goggles too…"
+	para "Y también perdí"
+	line "mis Gafas Aisl.…"
 
-	para "Man, this is not"
-	line "my day!"
+	para "¡Vaya, no es mi"
+	line "día!"
 	prompt
 
 .FoundGoggles:
-	text "Oh, you found"
-	line "them!"
+	text "¡Ah, las"
+	line "encontraste!"
 
-	para "I already bought"
-	line "new ones, though…"
+	para "Ya compré unas"
+	line "nuevas, aunque…"
 
-	para "Here, take this as"
-	line "thanks!"
+	para "Ten, ¡toma esto"
+	line "como agradecimien-"
+	cont "to!"
 	prompt
 
 .NoRoom:
-	text "Uh-oh, your Bag"
-	line "looks rather full…"
+	text "Uy, tu Bolso"
+	line "parece bastante"
+	cont "lleno…"
 	done
 
 
@@ -126,24 +129,25 @@ Route39RuggedRoadGateCannotPassMovement:
 	step_end
 
 Route39RuggedRoadGateOfficerCannotPassText:
-	text "Whoa, where are"
-	line "you going?"
+	text "¡Vaya! ¿A dónde"
+	line "vas?"
 
-	para "The Rugged Road to"
-	line "Snowtop Mountain"
-	cont "is really harsh!"
+	para "¡El Camino"
+	line "Escarpado al Monte"
+	cont "Nevado es muy"
+	cont "duro!"
 
-	para "I can't let you"
-	line "risk it without"
-	cont "any Go-Goggles."
+	para "No puedo dejar que"
+	line "te arriesgues sin"
+	cont "Gafas Aisl."
 	done
 
 Route39RuggedRoadGateOfficerText:
-	text "The trek to Snow-"
-	line "top Mountain can"
-	cont "be dangerous!"
+	text "¡La ruta al Monte"
+	line "Nevado puede ser"
+	cont "peligrosa!"
 
-	para "That's why a #-"
-	line "mon Center was"
-	cont "built there."
+	para "Por eso hay un"
+	line "Centro #mon"
+	cont "construido ahí."
 	done

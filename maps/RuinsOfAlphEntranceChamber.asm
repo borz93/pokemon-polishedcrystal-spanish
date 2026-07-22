@@ -16,7 +16,7 @@ RuinsOfAlphEntranceChamber_MapScriptHeader:
 	def_object_events
 
 RuinsofAlphStatueText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "mon."
+	text "Es una réplica de"
+	line "un #mon"
+	cont "antiguo."
 	done

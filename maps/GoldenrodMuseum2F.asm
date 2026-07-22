@@ -40,8 +40,8 @@ LugiaPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "  The Leviathan"
-	line "     Awakens"
+	text "  El Leviatán"
+	line "    Despierta"
 	done
 
 HoOhPaintingScript:
@@ -51,8 +51,8 @@ HoOhPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "   The Phoenix"
-	line "    Ascending"
+	text "   El Fénix"
+	line "   Ascendiendo"
 	done
 
 BellTowerPaintingScript:
@@ -62,8 +62,8 @@ BellTowerPaintingScript:
 	closepokepic
 	jumpthistext
 
-	text "    Friendship"
-	line "     and Hope"
+	text "    Amistad"
+	line "   y Esperanza"
 	done
 
 KabutoPuzzleScript:
@@ -76,8 +76,9 @@ KabutoPuzzleScript:
 	end
 
 .Text:
-	text "It's the completed"
-	line "Kabuto panel!"
+	text "¡Es el panel"
+	line "completo de"
+	cont "Kabuto!"
 	done
 
 OmanytePuzzleScript:
@@ -90,8 +91,9 @@ OmanytePuzzleScript:
 	end
 
 .Text:
-	text "It's the completed"
-	line "Omanyte panel!"
+	text "¡Es el panel"
+	line "completo de"
+	cont "Omanyte!"
 	done
 
 AerodactylPuzzleScript:
@@ -104,8 +106,9 @@ AerodactylPuzzleScript:
 	end
 
 .Text:
-	text "It's the completed"
-	line "Aerodactyl panel!"
+	text "¡Es el panel"
+	line "completo de"
+	cont "Aerodactyl!"
 	done
 
 HoOhPuzzleScript:
@@ -118,8 +121,9 @@ HoOhPuzzleScript:
 	end
 
 .Text:
-	text "It's the completed"
-	line "Ho-Oh panel!"
+	text "¡Es el panel"
+	line "completo de"
+	cont "Ho-Oh!"
 	done
 
 EmptyPuzzleText:
@@ -131,24 +135,25 @@ EmptyPuzzleText:
 	done
 
 TowerRelicText:
-	text "An ancient mural"
-	line "depicting a mys-"
-	cont "terious #mon."
+	text "Un mural antiguo"
+	line "que representa"
+	cont "un #mon"
+	cont "misterioso."
 	done
 
 GoldenrodMuseum2FSightseerMText:
-	text "These paintings"
-	line "are beautiful!"
+	text "¡Estas pinturas"
+	line "son hermosas!"
 
-	para "One day, I hope my"
-	line "art is hung in a"
-
-	para "museum for all to"
-	line "see too."
+	para "Algún día, espero"
+	line "que mi arte"
+	cont "cuelgue en un"
+	cont "museo para que"
+	cont "todos lo vean."
 	done
 
 GoldenrodMuseum2FSmeargleText:
-	text "Smeargle: Smeer!"
+	text "Smeargle: ¡Smeer!"
 	done
 
 GoldenrodMuseum2FScientistScript:
@@ -171,15 +176,16 @@ GoldenrodMuseum2FScientistScript:
 	done
 
 GoldenrodMuseum2FScientistSomeArtifactsText:
-	text "These artifacts"
-	line "are fascinating!"
+	text "¡Estos artefactos"
+	line "son fascinantes!"
 
-	para "Its a shame they're"
-	line "just replicas…"
+	para "Es una pena que"
+	line "sean solo"
+	cont "réplicas…"
 
-	para "I'd love to study"
-	line "the real thing"
-	cont "up close."
+	para "Me encantaría"
+	line "estudiar el"
+	cont "original de cerca."
 	done
 
 GoldenrodMuseum2FTeacherScript:
@@ -206,64 +212,65 @@ GoldenrodMuseum2FTutorBatonPassScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "If you say so."
+	text "Como quieras."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "You don't have a"
-	line "Silver Leaf!"
+	text "¡No tienes una"
+	line "Hoja Plateada!"
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "Now your #mon"
-	line "knows how to use"
-	cont "Baton Pass!"
+	text "¡Listo! ¡Tu"
+	line "#mon aprendió a"
+	cont "usar Relevo!"
 	done
 
 GoldenrodMuseum2FTutorIntroText:
-	text "Before the con-"
-	line "struction of the"
+	text "Antes de la"
+	line "construcción de la"
 
-	para "new Radio Tower,"
-	line "there once stood"
+	para "nueva Torre Radio,"
+	line "una vez hubo una"
 
-	para "an ancient wooden"
-	line "tower."
+	para "antigua torre de"
+	line "madera."
 
-	para "This mural was"
-	line "originally in"
-	cont "that tower."
+	para "Este mural estaba"
+	line "originalmente en"
+	cont "esa torre."
 
-	para "Moving it here"
-	line "was necessary"
+	para "Trasladarlo aquí"
+	line "fue necesario"
 
-	para "to preserve a"
-	line "piece of Johto's"
-	cont "history."
+	para "para preservar un"
+	line "trozo de la"
+	cont "historia de Johto."
 
-	para "Even #mon"
-	line "can understand"
+	para "¡Incluso los"
+	line "#mon pueden"
 
-	para "the value of"
-	line "preservation!"
+	para "entender el valor"
+	line "de la"
+	cont "preservación!"
 	done
 
 GoldenrodMuseum2FTutorBatonPassText:
-	text "I can teach your"
-	line "#mon to use"
+	text "Le enseñaré a tu"
+	line "#mon a usar"
 
-	para "Baton Pass for one"
-	line "Silver Leaf."
+	para "Relevo a cambio de"
+	line "una Hoja Plateada."
 	done
 
 
 GoldenrodMuseum2FTutorQuestion:
-	text "Should I teach"
-	line "your #mon"
-	cont "Baton Pass?"
+	text "¿Debería"
+	line "enseñarle Relevo"
+	cont "a tu #mon?"
 	done

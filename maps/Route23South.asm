@@ -62,7 +62,7 @@ Route23SouthZephyrBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .ZephyrBadgeText:
-	db "Zephyr Badge@"
+	db "Medalla Céfiro@"
 
 Route23SouthHiveBadgeOfficerScript:
 Route23SouthHiveBadgeTriggerScript:
@@ -80,7 +80,7 @@ Route23SouthHiveBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .HiveBadgeText:
-	db "Hive Badge@"
+	db "Medalla Colmena@"
 
 Route23SouthPlainBadgeOfficerScript:
 Route23SouthPlainBadgeTriggerScript:
@@ -98,7 +98,7 @@ Route23SouthPlainBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .PlainBadgeText:
-	db "Plain Badge@"
+	db "Medalla Planicie@"
 
 Route23SouthFogBadgeOfficerScript:
 Route23SouthFogBadgeTriggerScript:
@@ -116,7 +116,7 @@ Route23SouthFogBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .FogBadgeText:
-	db "Fog Badge@"
+	db "Medalla Niebla@"
 
 Route23SouthStormBadgeOfficerScript:
 Route23SouthStormBadgeTriggerScript:
@@ -134,4 +134,4 @@ Route23SouthStormBadgeTriggerScript:
 	sjump Route23OfficerHaveBadgeScript
 
 .StormBadgeText:
-	db "Storm Badge@"
+	db "Medalla Tormenta@"

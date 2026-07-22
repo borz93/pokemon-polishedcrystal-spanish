@@ -31,29 +31,31 @@ EcruteakItemfinderGuy:
 	jumpthisopenedtext
 
 ItemfinderExplanationText:
-	text "There are many"
-	line "items lying about"
+	text "Hay muchos"
+	line "objetos por ahí"
 
-	para "that aren't ob-"
-	line "vious."
+	para "que no son"
+	line "obvios."
 
-	para "Use Itemfinder to"
-	line "check if there is"
+	para "Usa el Buscatesoro"
+	line "para ver si hay"
 
-	para "an item on the"
-	line "ground near you."
+	para "un objeto en el"
+	line "suelo cerca de"
+	cont "ti."
 
-	para "It doesn't show"
-	line "the exact spot,"
+	para "No muestra el"
+	line "punto exacto,"
 
-	para "so you'll have to"
-	line "look yourself."
+	para "así que tendrás"
+	line "que buscar tú"
+	cont "mismo."
 
-	para "Oh yeah--I heard"
-	line "there are items"
+	para "Ah sí--oí que hay"
+	line "objetos en la"
 
-	para "in Ecruteak's"
-	line "Burned Tower."
+	para "Torre Quemada de"
+	line "Ciudad Iris."
 	done
 
 EcruteakHistoryBook:
@@ -66,80 +68,82 @@ EcruteakHistoryBook:
 	iffalse_endtext
 	jumpthisopenedtext
 
-	text "Ecruteak was also"
-	line "home to three"
+	text "Ciudad Iris"
+	line "también fue hogar"
 
-	para "#mon that raced"
-	line "around the town."
+	para "de tres #mon"
+	line "que corrían por"
+	cont "la ciudad."
 
-	para "They were said to"
-	line "have been born of"
+	para "Se decía que"
+	line "nacieron del"
 
-	para "water, lightning"
-	line "and fire."
+	para "agua, el rayo y"
+	line "el fuego."
 
-	para "But they could not"
-	line "contain their"
-	cont "excessive power."
+	para "Pero no podían"
+	line "contener su"
+	cont "poder excesivo."
 
-	para "So they say the"
-	line "three ran like the"
+	para "Así que dicen que"
+	line "los tres corrieron"
 
-	para "wind off into the"
-	line "grassland."
+	para "como el viento"
+	line "hacia la pradera."
 	done
 
 EcruteakItemfinderAdventureText:
-	text "Ah. You're on an"
-	line "adventure with"
-	cont "your #mon?"
+	text "Ah. ¿Estás de"
+	line "aventura con tu"
+	cont "#mon?"
 
-	para "Well, what's an"
-	line "adventure without"
-	cont "treasure hunting?"
+	para "¿Qué es una"
+	line "aventura sin"
+	cont "buscar tesoros?"
 
-	para "Am I right, or am"
-	line "I right?"
+	para "¿A que sí, o a"
+	line "que sí?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Good! You under-"
-	line "stand the true"
+	text "¡Bien! Entiendes"
+	line "el verdadero"
 
-	para "spirit of adven-"
-	line "ture."
+	para "espíritu de la"
+	line "aventura."
 
-	para "I like that! Take"
-	line "this with you."
+	para "¡Me gusta eso!"
+	line "Toma esto."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Oh… To each his"
-	line "own, I suppose…"
+	text "Ah… Cada cual a"
+	line "lo suyo, supongo…"
 	done
 
 EcruteakHistoryBookText:
-	text "History of"
-	line "Ecruteak"
+	text "Historia de"
+	line "Ciudad Iris"
 
-	para "Want to read it?"
+	para "¿Quieres leerla?"
 	done
 
 EcruteakTwoTowersText:
-	text "In Ecruteak, there"
-	line "were two towers."
+	text "En Ciudad Iris"
+	line "había dos torres."
 
-	para "Each tower was the"
-	line "roost of powerful"
-	cont "flying #mon."
+	para "Cada torre era"
+	line "hogar de #mon"
+	cont "voladores"
+	cont "poderosos."
 
-	para "But one of the"
-	line "towers burned to"
-	cont "the ground."
+	para "Pero una de las"
+	line "torres se quemó"
+	cont "por completo."
 
-	para "The two #mon"
-	line "haven't been seen"
-	cont "since…"
+	para "Los dos #mon no"
+	line "se han visto"
+	cont "desde entonces…"
 
-	para "Keep reading?"
+	para "¿Sigues leyendo?"
 	done

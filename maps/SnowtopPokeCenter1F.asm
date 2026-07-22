@@ -20,20 +20,21 @@ PokemonJournalProfWillowScript:
 	setflag ENGINE_READ_PROF_WILLOW_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Prof.Willow!"
+	para "Reportaje"
+	line "especial: ¡la"
+	cont "Prof. Willow!"
 
-	para "It's been said that"
-	line "Prof.Willow's dream"
+	para "Dicen que el sueño"
+	line "de la Prof. Willow"
 
-	para "is to explore un-"
-	line "charted lands and"
+	para "es explorar"
+	line "tierras inexplo-"
+	cont "radas y documentar"
 
-	para "document undis-"
-	line "covered #mon"
-
-	para "species in their"
-	line "natural habitat."
+	para "especies de"
+	line "#mon sin"
+	cont "descubrir en su"
+	cont "hábitat natural."
 	done

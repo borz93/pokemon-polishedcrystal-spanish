@@ -50,12 +50,12 @@ GoldenrodGymWhitneyScript:
 	iffalsefwd .StoppedCrying
 	jumpthisopenedtext
 
-	text "Waaaaah!"
+	text "¡Buaaaaa!"
 
-	para "Waaaaah!"
+	para "¡Buaaaaa!"
 
-	para "…Snivel, hic…"
-	line "…You meanie!"
+	para "…Sniff, hip…"
+	line "…¡Eres malo!"
 	done
 
 .StoppedCrying:
@@ -74,15 +74,16 @@ GoldenrodGymWhitneyScript:
 	setevent EVENT_GOT_TM45_ATTRACT
 	jumpthisopenedtext
 
-	text "It's Attract!"
-	line "It makes full use"
+	text "¡Es Atracción!"
+	line "Aprovecha al"
 
-	para "of a #mon's"
-	line "charm."
+	para "máximo el"
+	line "encanto de un"
+	cont "#mon."
 
-	para "Isn't it just per-"
-	line "fect for a cutie"
-	cont "like me? ♥"
+	para "¿No es perfecto"
+	line "para una"
+	cont "monada como yo? ♥"
 	done
 
 TrainerLassCathy:
@@ -92,8 +93,8 @@ TrainerLassCathy:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Do my #mon"
-	line "think I'm cute?"
+	text "¿Mis #mon creen"
+	line "que soy mona?"
 	done
 
 WhitneyCriesScript:
@@ -109,42 +110,48 @@ WhitneyCriesScript:
 GenericTrainerSrandjrJoandcath1:
 	generictrainer SR_AND_JR, JOANDCATH1, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath1SeenText, SrandjrJoandcath1BeatenText
 
-	text "Jo: I'm helping my"
-	line "junior Cath to"
+	text "Jo: Estoy"
+	line "ayudando a mi"
+	cont "junior Cath a"
 
-	para "earn a Badge"
-	line "from Whitney."
+	para "ganar una Medalla"
+	line "de Whitney."
 
-	para "She's improving"
-	line "gradually."
+	para "Está mejorando"
+	line "poco a poco."
 	done
 
 GenericTrainerSrandjrJoandcath2:
 	generictrainer SR_AND_JR, JOANDCATH2, EVENT_BEAT_SR_AND_JR_JO_AND_CATH, SrandjrJoandcath2SeenText, SrandjrJoandcath2BeatenText
 
-	text "Cath: I keep on"
-	line "losing to Whitney."
-	cont "It's depressing."
+	text "Cath: Sigo"
+	line "perdiendo contra"
+	cont "Whitney. Es"
+	cont "deprimente."
 
-	para "I'm OK! If I lose,"
-	line "I'll just try"
-	cont "harder next time!"
+	para "¡Estoy bien! Si"
+	line "pierdo, ¡lo"
+	cont "intentaré más"
+	cont "duro la próxima"
+	cont "vez!"
 	done
 
 GenericTrainerBeautyVictoria:
 	generictrainer BEAUTY, VICTORIA, EVENT_BEAT_BEAUTY_VICTORIA, BeautyVictoriaSeenText, BeautyVictoriaBeatenText
 
-	text "Wow, you must be"
-	line "good to beat me!"
-	cont "Keep it up!"
+	text "Vaya, ¡debes ser"
+	line "buena para"
+	cont "vencerme! ¡Sigue"
+	cont "así!"
 	done
 
 GenericTrainerBeautySamantha:
 	generictrainer BEAUTY, SAMANTHA, EVENT_BEAT_BEAUTY_SAMANTHA, BeautySamanthaSeenText, BeautySamanthaBeatenText
 
-	text "I taught Meowth"
-	line "moves for taking"
-	cont "on any type…"
+	text "Le enseñé a Meowth"
+	line "movimientos para"
+	cont "enfrentar"
+	cont "cualquier tipo…"
 	done
 
 GoldenrodGymGuyScript:
@@ -152,25 +159,28 @@ GoldenrodGymGuyScript:
 	iftrue_jumptextfaceplayer GoldenrodGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo! Champ in"
-	line "making!"
+	text "¡Eh! ¡Futuro"
+	line "Campeón!"
 
-	para "This Gym is home"
-	line "to Normal-type"
-	cont "#mon trainers."
+	para "Este Gimnasio es"
+	line "hogar de"
+	cont "entrenadores de"
+	cont "#mon tipo"
+	cont "Normal."
 
-	para "I recommend you"
-	line "use Fighting-type"
-	cont "#mon."
+	para "Te recomiendo usar"
+	line "#mon de tipo"
+	cont "Lucha."
 
-	para "But be careful--"
-	line "Fairy #mon"
+	para "Pero cuidado: los"
+	line "#mon tipo Hada"
 
-	para "resist Fighting-"
-	line "type moves,"
+	para "resisten los"
+	line "movimientos de"
+	cont "tipo Lucha,"
 
-	para "and they're used"
-	line "here too!"
+	para "¡y también se usan"
+	line "aquí!"
 	done
 
 GoldenrodGymStatue:
@@ -196,142 +206,154 @@ JoWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Hi! I'm Whitney!"
+	text "¡Hola! ¡Soy"
+	line "Whitney!"
 
-	para "Everyone was into"
-	line "#mon, so I got"
-	cont "into it too!"
+	para "A todos les"
+	line "gustaban los"
+	cont "#mon, ¡así que"
+	cont "a mí también!"
 
-	para "#mon are"
-	line "super cute!"
+	para "¡Los #mon son"
+	line "supermonos!"
 
-	para "You want to bat-"
-	line "tle? I'm warning"
-	cont "you--I'm good!"
+	para "¿Quieres"
+	line "combatir? Te"
+	cont "aviso, ¡soy"
+	cont "buena!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
 	text "Sob…"
 
-	para "…Waaaaaaah!"
-	line "You're mean!"
+	para "…¡Buaaaaaaa!"
+	line "¡Eres malo!"
 
-	para "You shouldn't be"
-	line "so serious! You…"
-	cont "you child, you!"
+	para "¡No deberías ser"
+	line "tan serio! ¡Eres"
+	cont "un crío!"
 	done
 
 
 WhitneyWhatDoYouWantText:
 	text "…Sniff…"
 
-	para "What? What do you"
-	line "want? A Badge?"
+	para "¿Qué? ¿Qué"
+	line "quieres? ¿Una"
+	cont "Medalla?"
 
-	para "Oh, right."
-	line "I forgot. Here's"
-	cont "the Plain Badge."
+	para "Ah, cierto."
+	line "Se me olvidó."
+	cont "Toma la Medalla"
+	cont "Planicie."
 	done
 
 WhitneyPlainBadgeText:
-	text "The Plain Badge"
-	line "lets your #mon"
+	text "La Medalla"
+	line "Planicie deja"
+	cont "que tus"
 
-	para "use Strength out-"
-	line "side of battle."
+	para "#mon usen"
+	line "Fuerza fuera de"
+	cont "combate."
 
-	para "Oh, you can have"
-	line "this too!"
+	para "Oh, ¡también"
+	line "puedes quedarte"
+	cont "esto!"
 	done
 
 WhitneyGoodCryText:
-	text "Ah, that was a"
-	line "good cry!"
+	text "Ah, ¡ese fue un"
+	line "buen llanto!"
 
-	para "Come for a visit"
-	line "again! Bye-bye!"
+	para "¡Vuelve a"
+	line "visitarme! ¡Adiós!"
 	done
 
 LassCathySeenText:
-	text "Don't let my"
-	line "#mon's cute"
+	text "No dejes que el"
+	line "aspecto mono de"
 
-	para "looks fool you."
-	line "They can whip you!"
+	para "mis #mon te"
+	line "engañe. ¡Pueden"
+	cont "darte una paliza!"
 	done
 
 LassCathyBeatenText:
-	text "Darn… I thought"
-	line "you were weak…"
+	text "Vaya… Pensé que"
+	line "eras débil…"
 	done
 
 SrandjrJoandcath1SeenText:
-	text "Jo: If you want to"
-	line "face Whitney,"
+	text "Jo: Si quieres"
+	line "enfrentarte a"
+	cont "Whitney,"
 
-	para "you'll have to go"
-	line "through me!"
+	para "¡tendrás que"
+	line "pasar por mí!"
 
-	para "Cath, did that"
-	line "sound cool?"
+	para "Cath, ¿sonó eso"
+	line "guay?"
 	done
 
 SrandjrJoandcath1BeatenText:
-	text "Jo: Losing isn't"
-	line "cool at all!"
+	text "Jo: ¡Perder no es"
+	line "nada guay!"
 	done
 
 SrandjrJoandcath2SeenText:
-	text "Cath: I'm trying"
-	line "to beat Whitney,"
-	cont "but my senior and"
+	text "Cath: Intento"
+	line "vencer a Whitney,"
+	cont "pero mi senior y"
 
-	para "I can beat you"
-	line "first!"
+	para "yo podemos"
+	line "¡vencerte primero!"
 	done
 
 SrandjrJoandcath2BeatenText:
-	text "Cath: Oh, no,"
+	text "Cath: Oh, ¡no,"
 	line "no, no!"
 	done
 
 JoWhitneyCriesText:
-	text "Oh, no. You made"
-	line "Whitney cry."
+	text "Oh, no. Hiciste"
+	line "llorar a Whitney."
 
-	para "It's OK. She'll"
-	line "stop soon. She"
+	para "Está bien. Parará"
+	line "pronto. Siempre"
 
-	para "always cries when"
-	line "she loses."
+	para "llora cuando"
+	line "pierde."
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, you are a cute"
-	line "little trainer! ♥"
+	text "Oh, ¡eres una"
+	line "entrenadora"
+	cont "mona! ♥"
 
-	para "I like you, but I"
-	line "won't hold back!"
+	para "Me caes bien, pero"
+	line "¡no me contendré!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Let's see… Oops,"
-	line "it's over?"
+	text "Veamos… Vaya,"
+	line "¿ya se acabó?"
 	done
 
 BeautySamanthaSeenText:
-	text "Give it your best"
-	line "shot, or I'll take"
-	cont "you down!"
+	text "¡Da todo lo que"
+	line "tienes, o te"
+	cont "venceré!"
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, Meowth,"
-	line "I'm so sorry!"
+	text "¡No! Oh, Meowth,"
+	line "lo siento mucho."
 	done
 
 GoldenrodGymGuyWinText:
-	text "You won? Great! I"
-	line "was busy admiring"
-	cont "the ladies here."
+	text "¿Ganaste? ¡Genial!"
+	line "Estaba ocupado"
+	cont "admirando a las"
+	cont "chicas de aquí."
 	done

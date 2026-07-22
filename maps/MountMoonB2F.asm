@@ -32,116 +32,115 @@ MountMoonB2F_MapScriptHeader:
 GenericTrainerYoungsterJosh:
 	generictrainer YOUNGSTER, YOUNGSTER_JOSH, EVENT_BEAT_YOUNGSTER_JOSH, YoungsterJoshSeenText, YoungsterJoshBeatenText
 
-	text "With that team of"
-	line "#mon, you must"
+	text "Con ese equipo de"
+	line "#mon, debes"
 
-	para "have explored a"
-	line "lot of places."
+	para "haber explorado"
+	line "muchos lugares."
 
-	para "Getting lost is"
-	line "your everyday"
-	cont "fare, huh?"
+	para "Perderte es tu"
+	line "pan de cada día,"
+	cont "¿eh?"
 	done
 
 GenericTrainerBird_keeperMick:
 	generictrainer BIRD_KEEPER, MICK, EVENT_BEAT_BIRD_KEEPER_MICK, Bird_keeperMickSeenText, Bird_keeperMickBeatenText
 
-	text "Birds of a feather"
-	line "flock together."
+	text "Pájaros del mismo"
+	line "plumaje vuelan"
+	cont "juntos."
 
-	para "I should go hang"
-	line "out with other"
-
-	para "Bird Keepers some-"
-	line "where sensible."
+	para "Debería salir con"
+	line "otros Cetreros en"
+	cont "un lugar más"
+	cont "sensato."
 	done
 
 GenericTrainerHexManiacEsther:
 	generictrainer HEX_MANIAC, ESTHER, EVENT_BEAT_HEX_MANIAC_ESTHER, HexManiacEstherSeenText, HexManiacEstherBeatenText
 
-	text "Magic mirror,"
-	line "great and wise,"
+	text "Espejo mágico,"
+	line "grande y sabio,"
 
-	para "failed to see my"
-	line "swift demise."
+	para "no viste venir"
+	line "mi rápido fin."
 	done
 
 GenericTrainerCooltrainermConnor:
 	generictrainer COOLTRAINERM, CONNOR, EVENT_BEAT_COOLTRAINERM_CONNOR, CooltrainermConnorSeenText, CooltrainermConnorBeatenText
 
-	text "Style and charm"
-	line "go hand in hand."
+	text "Estilo y encanto"
+	line "van de la mano."
 
-	para "They're the cool-"
-	line "est combination."
+	para "Es la combinación"
+	line "más genial."
 	done
 
 GenericTrainerSuperNerdMiguel:
 	generictrainer SUPER_NERD, MIGUEL, EVENT_BEAT_SUPER_NERD_MIGUEL, SuperNerdMiguelSeenText, SuperNerdMiguelBeatenText
 
-	text "Maybe if I had"
-	line "an Aerodactyl…"
+	text "Ojalá tuviera un"
+	line "Aerodactyl…"
 	done
 
 YoungsterJoshSeenText:
-	text "You came to ex-"
-	line "plore the cave,"
-	cont "right?"
+	text "Viniste a"
+	line "explorar la"
+	cont "cueva, ¿no?"
 
-	para "Be careful, you"
-	line "may get lost."
+	para "Ten cuidado, te"
+	line "puedes perder."
 	done
 
 YoungsterJoshBeatenText:
-	text "You're not lost"
-	line "at all."
+	text "No estás perdido"
+	line "para nada."
 	done
 
 Bird_keeperMickSeenText:
-	text "I'm not sure why"
-	line "I came here."
+	text "No sé por qué"
+	line "vine aquí."
 
-	para "My birds can't fly"
-	line "in this cave!"
+	para "¡Mis aves no"
+	line "pueden volar en"
+	cont "esta cueva!"
 	done
 
 Bird_keeperMickBeatenText:
-	text "Yeah, this was a"
-	line "bad idea."
+	text "Sí, fue una mala"
+	line "idea."
 	done
 
 HexManiacEstherSeenText:
-	text "Mirror, mirror,"
-	line "on the wall,"
+	text "Espejito, espejito"
+	line "en la pared,"
 
-	para "who will throw"
-	line "their # Ball?"
+	para "¿quién lanzará su"
+	line "# Ball?"
 	done
 
 HexManiacEstherBeatenText:
-	text "You will!"
+	text "¡Tú lo harás!"
 	done
 
 CooltrainermConnorSeenText:
-	text "You've either got"
-	line "it or you don't."
+	text "O lo tienes, o no"
+	line "lo tienes."
 	done
 
 CooltrainermConnorBeatenText:
-	text "Whoa!"
-	line "You've got it!"
+	text "¡Vaya! ¡Lo tienes!"
 	done
 
 SuperNerdMiguelSeenText:
-	text "I found these"
-	line "fossils and re-"
-	cont "vived them!"
+	text "¡Encontré estos"
+	line "fósiles y los"
+	cont "reviví!"
 
-	para "Now they're both"
-	line "mine!"
+	para "¡Ahora son míos!"
 	done
 
 SuperNerdMiguelBeatenText:
-	text "My fossils were"
-	line "crushed!"
+	text "¡Mis fósiles se"
+	line "rompieron!"
 	done

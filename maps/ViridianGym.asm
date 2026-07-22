@@ -52,46 +52,49 @@ ViridianGymBlueScript:
 	setevent EVENT_GOT_TM71_STONE_EDGE
 	jumpthisopenedtext
 
-	text "It contains Stone"
-	line "Edge. It's not only"
+	text "Contiene Roca"
+	line "Afilada. No solo"
 
-	para "for Rock-type"
-	line "#mon, got it?"
+	para "sirve para #mon"
+	line "de tipo Roca,"
+	cont "¿entendido?"
 
 	para "…"
 
-	para "All right, I was"
-	line "wrong. You're the"
+	para "Está bien, me"
+	line "equivoqué. Eres"
 
-	para "real deal. You are"
-	line "a good trainer."
+	para "de verdad. Eres"
+	line "un buen"
+	cont "entrenador."
 
-	para "With eight Badges"
-	line "from Kanto, you"
+	para "Con ocho Medallas"
+	line "de Kanto, puedes"
 
-	para "can challenge the"
-	line "Elite Four again."
+	para "retar al Alto"
+	line "Mando de nuevo."
 
-	para "They won't go easy"
-	line "on a trainer who"
-	cont "beat two regions."
+	para "No se lo pondrán"
+	line "fácil a un"
+	cont "entrenador que"
+	cont "venció dos"
+	cont "regiones."
 
-	para "You can practice"
-	line "with me at the"
+	para "Puedes practicar"
+	line "conmigo en el"
 
-	para "Fighting Dojo in"
-	line "Saffron City on"
-	cont "Mondays."
+	para "Dojo de Lucha en"
+	line "Ciudad Azafrán"
+	cont "los lunes."
 
-	para "All of the Gym"
-	line "Leaders show up"
-	cont "there to train."
+	para "Todos los Líderes"
+	line "de Gimnasio van"
+	cont "allí a entrenar."
 
-	para "I'm going to beat"
-	line "you someday."
+	para "Algún día te"
+	line "venceré."
 
-	para "Don't you forget"
-	line "it!"
+	para "¡No lo olvides!"
 	done
 
 ViridianGymGuyScript:
@@ -99,76 +102,84 @@ ViridianGymGuyScript:
 	iftrue_jumptextfaceplayer ViridianGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Yo, Champ in"
-	line "making!"
+	text "¡Eh, futuro"
+	line "Campeón!"
 
-	para "How's it going?"
-	line "Looks like you're"
-	cont "on a roll."
+	para "¿Qué tal? Parece"
+	line "que estás en"
+	cont "racha."
 
-	para "The Gym Leader is"
-	line "a guy who battled"
+	para "El Líder de"
+	line "Gimnasio es un"
 
-	para "the Champion three"
-	line "years ago."
+	para "tipo que combatió"
+	line "contra el Campeón"
+	cont "hace tres años."
 
-	para "He's no pushover."
+	para "No es fácil de"
+	line "vencer."
 
-	para "Give it everything"
-	line "you've got!"
+	para "¡Da todo lo que"
+	line "tengas!"
 	done
 
 GenericTrainerAceDuoAraandbela1:
 	generictrainer ACE_DUO, ARAANDBELA1, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela1SeenText, AceDuoAraandbela1BeatenText
 
-	text "Ara: Me, I should"
-	line "be a pretty good"
-	cont "practice partner…"
+	text "Ara: Yo debería"
+	line "ser una buena"
+	cont "compañera de"
+	cont "práctica…"
 	done
 
 GenericTrainerAceDuoAraandbela2:
 	generictrainer ACE_DUO, ARAANDBELA2, EVENT_BEAT_ACE_DUO_ARA_AND_BELA, AceDuoAraandbela2SeenText, AceDuoAraandbela2BeatenText
 
-	text "Bela: Our practice"
-	line "battles didn't pre-"
-	cont "pare us for this."
+	text "Bela: Nuestros"
+	line "combates de"
+	cont "práctica no nos"
+	cont "prepararon para"
+	cont "esto."
 	done
 
 GenericTrainerCooltrainerfSalma:
 	generictrainer COOLTRAINERF, SALMA, EVENT_BEAT_COOLTRAINERF_SALMA, CooltrainerfSalmaSeenText, CooltrainerfSalmaBeatenText
 
-	text "There are many"
-	line "Gyms in the world,"
+	text "Hay muchos"
+	line "Gimnasios en el"
+	cont "mundo,"
 
-	para "but I really like"
-	line "this one!"
+	para "¡pero este me"
+	line "encanta de"
+	cont "verdad!"
 	done
 
 GenericTrainerCooltrainerfBonita:
 	generictrainer COOLTRAINERF, BONITA, EVENT_BEAT_COOLTRAINERF_BONITA, CooltrainerfBonitaSeenText, CooltrainerfBonitaBeatenText
 
-	text "Looks like you've"
-	line "still got some"
-	cont "energy left."
+	text "Parece que aún te"
+	line "queda algo de"
+	cont "energía."
 	done
 
 GenericTrainerAceDuoElanandida1:
 	generictrainer ACE_DUO, ELANANDIDA1, EVENT_BEAT_ACE_DUO_ELAN_AND_IDA, AceDuoElanandida1SeenText, AceDuoElanandida1BeatenText
 
-	text "Elan: You're"
-	line "stronger than we"
-	cont "anticipated!"
+	text "Elan: ¡Eres más"
+	line "fuerte de lo que"
+	cont "esperábamos!"
 	done
 
 GenericTrainerAceDuoElanandida2:
 	generictrainer ACE_DUO, ELANANDIDA2, EVENT_BEAT_ACE_DUO_ELAN_AND_IDA, AceDuoElanandida2SeenText, AceDuoElanandida2BeatenText
 
-	text "Ida: If all you"
-	line "have is strength,"
-	cont "you won't do well."
+	text "Ida: Si solo"
+	line "tienes fuerza,"
+	cont "no te irá bien."
 
-	para "Strategy is also"
-	line "important!"
+	para "¡La estrategia"
+	line "también es"
+	cont "importante!"
 	done
 
 ViridianGymStatue:
@@ -180,146 +191,158 @@ ViridianGymStatue:
 	jumpstd gymstatue2
 
 LeaderBlueBeforeText:
-	text "Blue: Yo! Finally"
-	line "got here, huh?"
+	text "Blue: ¡Eh! Por fin"
+	line "llegaste, ¿eh?"
 
-	para "I wasn't in the"
-	line "mood at Cinnabar,"
+	para "No tenía ganas en"
+	line "Isla Canela,"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "pero ahora estoy"
+	line "listo para"
+	cont "combatir."
 
 	para "…"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the Gyms in Johto?"
+	para "¿Me dices que"
+	line "conquistaste todos"
+	cont "los Gimnasios de"
+	cont "Johto?"
 
-	para "Heh! Johto's Gyms"
-	line "must be pretty"
-	cont "pathetic then."
+	para "¡Já! Los Gimnasios"
+	line "de Johto deben ser"
+	cont "bastante"
+	cont "patéticos."
 
-	para "Hey, don't worry"
-	line "about it."
+	para "Oye, no te"
+	line "preocupes."
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Sabré si eres"
+	line "bueno o no"
 
-	para "battling you right"
-	line "now."
+	para "combatiendo"
+	line "contigo ahora"
+	cont "mismo."
 
-	para "Ready, Johto"
-	line "Champ?"
+	para "¿Listo, Campeón"
+	line "de Johto?"
 	done
 
 LeaderBlueWinText:
-	text "Blue: What?"
+	text "Blue: ¿Qué?"
 
-	para "How the heck did I"
-	line "lose to you?"
+	para "¿Cómo diablos"
+	line "perdí contigo?"
 
 	para "…"
 
-	para "Tch, all right…"
-	line "Here, take this--"
+	para "Tch, está bien…"
+	line "Toma esto,"
 
-	para "it's the Earth"
-	line "Badge."
+	para "es la Medalla"
+	line "Tierra."
 	done
 
 LeaderBlueAfterText:
-	text "Blue: Here! Take"
-	line "this as well!"
+	text "Blue: ¡Toma! ¡Toma"
+	line "esto también!"
 	done
 
 
 LeaderBlueEpilogueText:
-	text "Blue: Listen, you."
+	text "Blue: Escucha,"
+	line "tú."
 
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	para "Más te vale no"
+	line "perder hasta que"
+	cont "te venza. ¿Vale?"
 	done
 
 
 ViridianGymGuyWinText:
-	text "Man, you are truly"
-	line "tough…"
+	text "Vaya, eres de"
+	line "verdad duro…"
 
-	para "That was a heck of"
-	line "an inspirational"
+	para "Ese fue un combate"
+	line "de lo más"
 
-	para "battle. It brought"
-	line "tears to my eyes."
+	para "inspirador. Se me"
+	line "saltaron las"
+	cont "lágrimas."
 	done
 
 AceDuoAraandbela1SeenText:
-	text "Ara: Come on,"
-	line "fight us and see"
-	cont "how good we are!"
+	text "Ara: ¡Vamos,"
+	line "lucha contra"
+	cont "nosotras y verás"
+	cont "lo buenas que"
+	cont "somos!"
 	done
 
 AceDuoAraandbela1BeatenText:
-	text "Ara: We were"
-	line "deceived!"
+	text "Ara: ¡Nos"
+	line "engañaron!"
 	done
 
 AceDuoAraandbela2SeenText:
-	text "Bela: Come on,"
-	line "fight us and see"
-	cont "how good we are!"
+	text "Bela: ¡Vamos,"
+	line "lucha contra"
+	cont "nosotras y verás"
+	cont "lo buenas que"
+	cont "somos!"
 	done
 
 AceDuoAraandbela2BeatenText:
-	text "Bela: We were"
-	line "deceived!"
+	text "Bela: ¡Nos"
+	line "engañaron!"
 	done
 
 CooltrainerfSalmaSeenText:
-	text "What do you think?"
+	text "¿Qué te parece?"
 
-	para "You've never seen"
-	line "such a wonderful"
-	cont "Gym, have you?"
+	para "Nunca habías visto"
+	line "un Gimnasio tan"
+	cont "maravilloso,"
+	cont "¿verdad?"
 	done
 
 CooltrainerfSalmaBeatenText:
-	text "Whatever!"
+	text "¡Lo que sea!"
 	done
 
 CooltrainerfBonitaSeenText:
-	text "Looking around the"
-	line "room, doesn't it"
-	cont "make you dizzy?"
+	text "Al mirar por la"
+	line "sala, ¿no te da"
+	cont "mareo?"
 	done
 
 CooltrainerfBonitaBeatenText:
-	text "All of my #mon…"
+	text "Todos mis #mon…"
 
-	para "All dizzy and"
-	line "fainting…"
+	para "Todos mareados y"
+	line "desmayados…"
 	done
 
 AceDuoElanandida1SeenText:
-	text "Elan: All right,"
-	line "let's get this"
-	cont "fight started!"
+	text "Elan: Muy bien,"
+	line "¡que empiece la"
+	cont "lucha!"
 	done
 
 AceDuoElanandida1BeatenText:
-	text "Elan: Well, this"
-	line "is surprising."
+	text "Elan: Vaya, esto"
+	line "es sorprendente."
 	done
 
 AceDuoElanandida2SeenText:
-	text "Ida: I'm Ida! Next"
-	line "to me is Elan!"
+	text "Ida: ¡Soy Ida!"
+	line "¡Junto a mí está"
+	cont "Elan!"
 
-	para "Together, we're an"
-	line "Ace Duo!"
+	para "¡Juntos somos un"
+	line "Dúo Élite!"
 	done
 
 AceDuoElanandida2BeatenText:
-	text "Ida: Wow. You're"
-	line "really something."
+	text "Ida: Vaya. Eres"
+	line "realmente bueno."
 	done

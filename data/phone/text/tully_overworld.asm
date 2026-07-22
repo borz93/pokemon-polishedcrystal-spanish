@@ -1,73 +1,77 @@
 TullyAskNumber1Text:
-	text "Hey, you're trying"
-	line "to be the ultimate"
+	text "Oye, ¿tú"
+	line "también quieres"
+	cont "ser el mejor"
+	cont "entrenador?"
 
-	para "trainer too? Then"
-	line "we're comrades!"
+	para "¡Entonces somos"
+	line "camaradas!"
 
-	para "If I find any more"
-	line "items by the"
+	para "Si encuentro más"
+	line "objetos junto"
+	cont "al agua,"
+	cont "te daré algunos."
 
-	para "water, I'll give"
-	line "you some."
-
-	para "Just give me your"
-	line "phone number."
+	para "Solo dame tu"
+	line "número de"
+	cont "teléfono."
 	done
 
 TullyAskNumber2Text:
-	text "If I find any more"
-	line "items by the"
+	text "Si encuentro más"
+	line "objetos junto"
+	cont "al agua,"
+	cont "te daré algunos."
 
-	para "water, I'll give"
-	line "you some."
-
-	para "Just give me your"
-	line "phone number."
+	para "Solo dame tu"
+	line "número de"
+	cont "teléfono."
 	done
 
 TullyNumberAcceptedText:
-	text "You'll be hearing"
-	line "from me if I find"
-	cont "something good."
+	text "Sabrás de mí si"
+	line "encuentro"
+	cont "algo bueno."
 	done
 
 TullyNumberDeclinedText:
-	text "Is that so? Then"
-	line "I'll just have to"
-	cont "use them myself."
+	text "¿En serio? Pues"
+	line "tendré que"
+	cont "usarlos yo."
 	done
 
 TullyPhoneFullText:
-	text "Your phone list is"
-	line "all filled up."
+	text "Tu lista está"
+	line "toda llena."
 
-	para "Come back if you"
-	line "make room for me."
+	para "Vuelve si haces"
+	line "sitio para mí."
 	done
 
 TullyRematchText:
-	text "I've been doing"
-	line "more than just"
+	text "He hecho más que"
+	line "pescar desde"
+	cont "que nos vimos."
 
-	para "fishing since we"
-	line "last met."
-
-	para "You're in for a"
-	line "big surprise!"
+	para "¡Te vas a"
+	line "llevar una gran"
+	cont "sorpresa!"
 	done
 
 TullyGiftText:
-	text "Hey, there you"
-	line "are!"
+	text "¡Eh, aquí"
+	line "estás!"
 
-	para "Here's a gift, as"
-	line "promised!"
+	para "¡Aquí tienes un"
+	line "regalo, como"
+	cont "prometí!"
 	done
 
 TullyPackFullText:
-	text "Your Bag's full?"
+	text "¿Tu Bolso está"
+	line "lleno?"
 
-	para "Come back later--"
-	line "that'll do it."
+	para "Vuelve más"
+	line "tarde, con eso"
+	cont "basta."
 	done

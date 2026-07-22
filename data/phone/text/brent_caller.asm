@@ -1,162 +1,169 @@
 BrentRareTradeText:
-	text "Oh yeah, I got an"
-	line "extremely rare"
+	text "Ah sí, conseguí un"
+	line "#mon"
 
-	para "#mon in a trade"
-	line "a while back."
+	para "muy raro en un"
+	line "intercambio hace"
+	cont "tiempo."
 
-	para "Do you want to"
-	line "know what it is?"
+	para "¿Quieres saber"
+	line "cuál es?"
 
-	para "Hehe, I'm keeping"
-	line "it a secret!"
+	para "Jeje, ¡es un"
+	line "secreto!"
 	done
 
 BrentDefeatedMonText:
-	text "Oh yeah, I took"
-	line "down this wild"
-
-	para ""
+	text "Ah sí, vencí a"
+	line "este "
 	text_ram wStringBuffer4
-	text "."
-	line "It wasn't rare"
+	text " salvaje."
 
-	para "enough to bother"
-	line "catching."
+	para "No era lo bastante"
+	line "raro para"
+	cont "molestarme en"
+	cont "atraparlo."
 	done
 
 BrentLostAMonText:
-	text "Oh yeah, I saw a"
-	line "rare #mon about"
-	cont "an hour ago."
+	text "Ah sí, vi un"
+	line "#mon raro hace"
+	cont "una hora."
 
-	para "It was my first"
-	line "sighting. But I"
+	para "Fue mi primer"
+	line "avistamiento. Pero"
 
-	para "didn't have any"
-	line "# Balls…"
+	para "no tenía #"
+	line "Balls…"
 
-	para "Would Bill laugh"
-	line "at my mistakes?"
+	para "¿Se reiría Bill de"
+	line "mis errores?"
 	done
 
 BrentBattleRematchText:
-	text "You've got time"
-	line "like usual, right?"
+	text "Tienes tiempo"
+	line "como siempre,"
+	cont "¿no?"
 
-	para "Feel like having a"
-	line "battle?"
+	para "¿Te apetece un"
+	line "combate?"
 
-	para "It'll be a chance"
-	line "to see my rare"
+	para "Será tu ocasión"
+	line "de ver mi #mon"
 
-	para "#mon. It'll be"
-	line "worth your time!"
+	para "raro. ¡Valdrá la"
+	line "pena!"
 
-	para "You know where--"
+	para "Ya sabes dónde:"
 	line ""
 	text_ram wStringBuffer5
 	text "."
 	done
 
 BrentHangUpText:
-	text "So that's it then."
+	text "Bueno, eso es"
+	line "todo."
 	done
 
 BrentFatherGossipText:
-	text "Did you know…?"
-	line "Bill's father is"
+	text "¿Sabías que…?"
+	line "Se dice que el"
 
-	para "supposed to be a"
-	line "great #Maniac."
+	para "padre de Bill es"
+	line "un gran"
+	cont "#Maníaco."
 	done
 
 BrentGrandpaGossipText:
-	text "Did you know…?"
-	line "Apparently Bill's"
+	text "¿Sabías que…?"
+	line "Al parecer, el"
 
-	para "grandpa isn't a"
-	line "#Maniac."
+	para "abuelo de Bill no"
+	line "es un"
+	cont "#Maníaco."
 	done
 
 BrentGoldenrodGossipText:
-	text "Did you know…?"
-	line "Bill's originally"
-	cont "from Goldenrod."
+	text "¿Sabías que…?"
+	line "Bill es"
+	cont "originario de"
+	cont "Trigal."
 	done
 
 BrentRoute25GossipText:
-	text "Did you know…?"
-	line "Bill evidently"
+	text "¿Sabías que…?"
+	line "Al parecer, Bill"
 
-	para "lives on Route 25"
-	line "in Kanto."
+	para "vive en la Ruta 25"
+	line "de Kanto."
 	done
 
 BrentAbraGossipText:
-	text "Did you know…?"
-	line "Abra was the first"
+	text "¿Sabías que…?"
+	line "Abra fue el"
 
-	para "#mon that Bill"
-	line "ostensibly caught."
+	para "primer #mon que"
+	line "Bill supuestamente"
+	cont "atrapó."
 	done
 
 BrentSisterGossipText:
-	text "Did you know…?"
-	line "Bill's younger"
+	text "¿Sabías que…?"
+	line "La hermana pequeña"
 
-	para "sister apparently"
-	line "can't wink."
+	para "de Bill, al"
+	line "parecer, no sabe"
+	cont "guiñar el ojo."
 	done
 
 BrentMilkGossipText:
-	text "Did you know…?"
-	line "Bill supposedly"
+	text "¿Sabías que…?"
+	line "Al parecer, Bill"
 
-	para "hates milk and"
-	line "can't drink it."
+	para "odia la leche y no"
+	line "puede beberla."
 	done
 
 BrentBattlingGossipText:
-	text "Did you know…?"
-	line "Evidently, Bill"
+	text "¿Sabías que…?"
+	line "Al parecer, Bill"
 
-	para "isn't very good at"
-	line "battling."
+	para "no se le da muy"
+	line "bien combatir."
 	done
 
 BrentFlowerShopGossipText:
-	text "Did you know…?"
-	line "Bill appears to"
+	text "¿Sabías que…?"
+	line "Parece que a Bill"
 
-	para "like the lady at"
-	line "the Flower Shop."
+	para "le gusta la chica"
+	line "de la Floristería."
 	done
 
 BrentKimonoGirlGossipText:
-	text "Did you know…?"
-	line "Bill's mother is"
+	text "¿Sabías que…?"
+	line "Dicen que la"
 
-	para "said to have been"
-	line "a Kimono Girl."
+	para "madre de Bill fue"
+	line "una Chica Kimono."
 	done
 
 BrentSorryImTooBusyText:
-	text "You wanted to hear"
-	line "about Bill?"
+	text "¿Querías oír"
+	line "hablar de Bill?"
 
-	para "Sorry, but I'm too"
-	line "busy for you."
+	para "Perdona, pero"
+	line "estoy muy ocupado."
 
-	para "I'll call when I"
-	line "have time."
+	para "Te llamaré cuando"
+	line "tenga tiempo."
 	done
 
 BrentReminderText:
-	text "You want to see my"
-	line "rare #mon."
+	text "Quieres ver mi"
+	line "#mon raro."
 
-	para "Hurry over to"
+	para "Ven rápido a"
 	line ""
 	text_ram wStringBuffer5
 	text "."

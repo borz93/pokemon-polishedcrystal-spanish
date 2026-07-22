@@ -38,78 +38,82 @@ Route1617Gate2FTutorTrickRoomScript:
 .TutorRefused
 	jumpthisopenedtext
 
-	text "What a pity."
+	text "Qué pena."
 	done
 
 .NoSilverLeaf
 	jumpthisopenedtext
 
-	text "But I'll need a"
-	line "Silver Leaf first,"
+	text "Pero antes"
+	line "necesitaré una"
+	cont "Hoja Plata,"
 
-	para "so come back when"
-	line "you get one."
+	para "así que vuelve"
+	line "cuando consigas"
+	cont "una."
 	done
 
 .TeachMove
 	takeitem SILVER_LEAF
 	jumpthisopenedtext
 
-	text "My technique is"
-	line "pretty clever,"
-	cont "don't you think?"
+	text "Mi técnica es"
+	line "bastante astuta,"
+	cont "¿no crees?"
 	done
 
 Route1617Gate2FBinoculars1:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "It's Celadon Dept."
-	line "Store!"
+	para "¡Son los Grandes"
+	line "Almacenes de"
+	cont "Azulona!"
 	done
 
 Route1617Gate2FBinoculars2:
 	jumpthistext
 
-	text "Looked into the"
-	line "binoculars."
+	text "Miraste por los"
+	line "prismáticos."
 
-	para "There's a long"
-	line "path over water!"
+	para "¡Hay un camino"
+	line "largo sobre el"
+	cont "agua!"
 	done
 
 Route1617Gate2FPsychicText:
-	text "There's a Psychic"
-	line "not far from here"
+	text "Hay un Psíquico"
+	line "no muy lejos de"
+	cont "aquí"
 
-	para "who has the power"
-	line "to change his"
+	para "que puede cambiar"
+	line "su entorno en un"
+	cont "combate #mon."
 
-	para "surroundings in a"
-	line "#mon battle."
-
-	para "He's an inspiration"
-	line "of mine, so I've"
-
-	para "worked on my own"
-	line "technique."
+	para "Es una inspiración"
+	line "para mí, así que"
+	cont "trabajé en mi"
+	cont "propia técnica."
 	done
 
 Text_Route1617Gate2FTutorTrickRoom:
-	text "I can teach your"
-	line "#mon the move"
-	cont "Trick Room."
+	text "Puedo enseñar a"
+	line "tu #mon el"
+	cont "movimiento Zona"
+	cont "Extraña."
 
-	para "This will let"
-	line "slower #mon"
-
-	para "outspeed faster"
-	line "ones for a time."
+	para "Esto deja que los"
+	line "#mon lentos"
+	cont "superen en"
+	cont "velocidad a los"
+	cont "rápidos un rato."
 	done
 
 Text_Route1617Gate2FTutorQuestion:
-	text "Is a Silver Leaf"
-	line "a fair price?"
+	text "¿Una Hoja Plata"
+	line "es un precio"
+	cont "justo?"
 	done

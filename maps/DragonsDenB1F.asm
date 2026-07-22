@@ -89,24 +89,24 @@ DragonsDenB1FClairTrigger:
 	end
 
 .WaitText:
-	text "Wait!"
+	text "¡Espera!"
 	done
 
 .GiveTMText:
-	text "Clair: I'm sorry"
-	line "about this."
+	text "Clair: Siento"
+	line "esto."
 
-	para "Here, take this as"
-	line "my apology."
+	para "Toma, acéptalo"
+	line "como disculpa."
 	done
 
 .DescribeDragonPulseText:
-	text "That contains"
-	line "Dragon Pulse."
+	text "Eso contiene"
+	line "Pulso Dragón."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Si no lo quieres,"
+	line "no tienes que"
+	cont "aceptarlo."
 	done
 
 .WalksToYouMovement:
@@ -124,13 +124,15 @@ DragonsDenB1FClairTrigger:
 	step_end
 
 DragonsDenShrineSignText:
-	text "Dragon Shrine"
+	text "Santuario Dragón"
 
-	para "A shrine honoring"
-	line "the dragon #mon"
+	para "Un santuario en"
+	line "honor al #mon"
+	cont "dragón"
 
-	para "said to have lived"
-	line "in Dragon's Den."
+	para "que dicen que"
+	line "vivió en la"
+	cont "Guarida Dragón."
 	done
 
 DragonsDenB1FRivalScript:
@@ -193,190 +195,204 @@ DragonsDenB1FRivalScript:
 
 .GiveEggText:
 	text "…"
-	line "Listen."
+	line "Escucha."
 
-	para "The #mon I…"
-	line "took from the Lab…"
+	para "El #mon que…"
+	line "me llevé del"
+	cont "Laboratorio…"
 
-	para "It had an Egg."
-	line "I don't need it."
-	cont "Here. Take it."
+	para "Tenía un Huevo."
+	line "No lo necesito."
+	cont "Toma. Cógelo."
 	done
 
 .DescribeEggText:
-	text "Humph. Are you"
-	line "through here?"
+	text "Já. ¿Ya has"
+	line "terminado aquí?"
 
-	para "Then stay out of"
-	line "my way."
+	para "Pues no te metas"
+	line "en mi camino."
 	done
 
 .PartyAndBoxFullText:
-	text "Humph. You don't"
-	line "have any room…"
-	cont "Even in your Box…"
+	text "Já. No te queda"
+	line "espacio…"
+	cont "Ni siquiera en tu"
+	cont "Caja…"
 	done
 
 .Training1Text:
 	text "…"
-	line "What? <PLAYER>?"
+	line "¿Qué? ¿<PLAYER>?"
 
-	para "…No, I won't"
-	line "battle you now…"
+	para "…No, no voy a"
+	line "luchar contigo"
+	cont "ahora…"
 
-	para "My #mon aren't"
-	line "ready to beat you."
+	para "Mis #mon no"
+	line "están listos para"
+	cont "vencerte."
 
-	para "I can't push them"
-	line "too hard now."
+	para "No puedo"
+	line "exigirles tanto"
+	cont "ahora mismo."
 
-	para "I have to be dis-"
-	line "ciplined to become"
+	para "Tengo que ser"
+	line "disciplinado para"
 
-	para "the greatest #-"
-	line "mon trainer…"
+	para "convertirme en el"
+	line "mejor entrenador"
+	cont "#mon…"
 	done
 
 .Training2Text:
 	text "…"
 
-	para "Whew…"
+	para "Uf…"
 
-	para "Learn to stay out"
-	line "of my way…"
+	para "Aprende a no"
+	line "meterte en mi"
+	cont "camino…"
 	done
 
 GenericTrainerDragonTamerDarin:
 	generictrainer DRAGON_TAMER, DARIN, EVENT_BEAT_DRAGON_TAMER_DARIN, .SeenText, .BeatenText
 
-	text "The Shrine ahead"
-	line "is home to the"
+	text "El Santuario de"
+	line "ahí delante es el"
 
-	para "Master of our"
-	line "dragon-user clan."
+	para "hogar del Maestro"
+	line "de nuestro clan de"
+	cont "dragones."
 
-	para "You're not allowed"
-	line "to just go in!"
+	para "¡No puedes entrar"
+	line "así como así!"
 	done
 
 .SeenText:
-	text "You! How dare you"
-	line "enter uninvited!"
+	text "¡Tú! ¡Cómo te"
+	line "atreves a entrar"
+	cont "sin invitación!"
 	done
 
 .BeatenText:
-	text "S-strong!"
+	text "¡F-fuerte!"
 	done
 
 GenericTrainerDragonTamerAdam:
 	generictrainer DRAGON_TAMER, ADAM, EVENT_BEAT_DRAGON_TAMER_ADAM, .SeenText, .BeatenText
 
-	text "Not even the power"
-	line "of dragons could"
-	cont "stop you."
+	text "Ni el poder de los"
+	line "dragones podría"
+	cont "detenerte."
 
-	para "You may be the"
-	line "kind of trainer"
+	para "Puede que seas el"
+	line "tipo de entrenador"
 
-	para "our Master is"
-	line "looking for."
+	para "que busca nuestro"
+	line "Maestro."
 	done
 
 .SeenText:
-	text "You shouldn't be"
-	line "in here!"
+	text "¡No deberías estar"
+	line "aquí!"
 	done
 
 .BeatenText:
-	text "No! I was"
-	line "defeated!"
+	text "¡No! ¡Me han"
+	line "derrotado!"
 	done
 
 GenericTrainerAceDuoDanandcara1:
 	generictrainer ACE_DUO, DANANDCARA1, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Dan: Soon I'll"
-	line "get permission"
+	text "Dan: Pronto"
+	line "tendré permiso"
 
-	para "from our Master to"
-	line "use dragons."
+	para "de nuestro Maestro"
+	line "para usar"
+	cont "dragones."
 
-	para "When I do, I'm"
-	line "going to become an"
+	para "Cuando lo tenga,"
+	line "me convertiré en"
 
-	para "admirable dragon"
-	line "trainer and gain"
+	para "un admirable"
+	line "entrenador de"
+	cont "dragones y ganaré"
 
-	para "our Master's"
-	line "approval."
+	para "la aprobación de"
+	line "nuestro Maestro."
 	done
 
 .SeenText:
-	text "Dan: I may not"
-	line "use dragons, but"
-	cont "I'm still strong!"
+	text "Dan: No puedo usar"
+	line "dragones, ¡pero"
+	cont "sigo siendo"
+	cont "fuerte!"
 	done
 
 .BeatenText:
-	text "Dan: You were"
-	line "even stronger!"
+	text "Dan: ¡Tú eras aún"
+	line "más fuerte!"
 	done
 
 GenericTrainerAceDuoDanandcara2:
 	generictrainer ACE_DUO, DANANDCARA2, EVENT_BEAT_ACE_DUO_DAN_AND_CARA, .SeenText, .BeatenText
 
-	text "Cara: Dragons are"
-	line "difficult to"
+	text "Cara: Los dragones"
+	line "son difíciles de"
 
-	para "raise, and very"
-	line "powerful."
+	para "criar, y muy"
+	line "poderosos."
 
-	para "They're not for"
-	line "everyone."
+	para "No son para"
+	line "cualquiera."
 	done
 
 .SeenText:
-	text "Cara: Do you want"
-	line "to train dragons"
-	cont "too?"
+	text "Cara: ¿Tú también"
+	line "quieres entrenar"
+	cont "dragones?"
 	done
 
 .BeatenText:
-	text "Cara: Oh yikes,"
-	line "I lost!"
+	text "Cara: ¡Vaya,"
+	line "perdí!"
 	done
 
 GenericTrainerTwinsLeaandpia1:
 	generictrainer TWINS, LEAANDPIA1, EVENT_BEAT_TWINS_LEA_AND_PIA, .SeenText, .BeatenText
 
-	text "It was like having"
-	line "to battle Lance."
+	text "Fue como tener que"
+	line "luchar contra"
+	cont "Lance."
 	done
 
 .SeenText:
-	text "It's a stranger we"
-	line "don't know."
+	text "Es un desconocido"
+	line "para nosotras."
 	done
 
 .BeatenText:
-	text "Ouchies."
+	text "Ay, ay."
 	done
 
 GenericTrainerTwinsLeaandpia2:
 	generictrainer TWINS, LEAANDPIA1, EVENT_BEAT_TWINS_LEA_AND_PIA, .SeenText, .BeatenText
 
-	text "We'll tell on you."
+	text "Te vamos a"
+	line "delatar."
 
-	para "Master will be"
-	line "angry with you."
+	para "El Maestro se"
+	line "enfadará contigo."
 	done
 
 .SeenText:
-	text "Who are you?"
+	text "¿Quién eres?"
 	done
 
 .BeatenText:
-	text "Meanie."
+	text "Qué malo."
 	done
 
 KimonoGirlMinaScript:
@@ -412,54 +428,53 @@ KimonoGirlMinaScript:
 	jumpthisopenedtext
 
 .OutroText:
-	text "Coming here from"
-	line "Ecruteak City"
+	text "Venir aquí desde"
+	line "Ciudad Iris"
 
-	para "was worth the"
-	line "trouble."
+	para "mereció la pena."
 
-	para "Dragon's Den is an"
-	line "ideal place for me"
-	cont "to train."
+	para "La Guarida Dragón"
+	line "es un lugar ideal"
+	cont "para entrenar."
 	done
 
 .BagFullText:
-	text "…That is, once you"
-	line "have freed up some"
-	cont "space in your Bag."
+	text "…Bueno, cuando"
+	line "hayas hecho hueco"
+	cont "en tu Mochila."
 	done
 
 .IntroText:
-	text "I am a Kimono"
+	text "Soy una Kimono"
 	line "Girl."
 
-	para "Haven't you met my"
-	line "five dancing cou-"
-	cont "sins in Ecruteak?"
+	para "¿No has conocido a"
+	line "mis cinco primas"
+	cont "bailarinas en"
+	cont "Ciudad Iris?"
 
-	para "Let me know if"
-	line "you do."
+	para "Avísame si es"
+	line "así."
 	done
 
 .SeenText:
-	text "She who knows the"
-	line "most speaks the"
-	cont "least!"
+	text "¡La que más sabe,"
+	line "menos habla!"
 
-	para "Allow me to cha-"
-	line "llenge you and"
-	cont "your #mon!"
+	para "¡Permíteme"
+	line "desafiarte a ti y"
+	cont "a tus #mon!"
 	done
 
 .BeatenText:
-	text "Oh, you are"
-	line "wonderful…"
+	text "Oh, eres"
+	line "maravilloso…"
 	done
 
 .AfterText:
-	text "You are quite the"
-	line "Trainer."
+	text "Eres todo un"
+	line "Entrenador."
 
-	para "You are worthy of"
-	line "this item!"
+	para "¡Mereces este"
+	line "objeto!"
 	done

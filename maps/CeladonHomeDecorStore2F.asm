@@ -94,68 +94,69 @@ CeladonHomeDecorStore2FClerkScript:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Pink      ¥62000@"
-	db "PolkaDot  ¥94000@"
+	db "Rosa     ¥62000@"
+	db "Lunares  ¥94000@"
 	db "Pikachu  ¥126000@"
-	db "Cancel@"
+	db "Salir@"
 
 CeladonHomeDecorStore2FClerkText:
-	text "Welcome! Are you"
-	line "in the market for"
-	cont "a new bed?"
+	text "¡Bienvenido!"
+	line "¿Buscas una cama"
+	cont "nueva?"
 	done
 
 BoughtPinkBedText:
-	text "<PLAYER> bought"
-	line "Pink Bed."
+	text "<PLAYER> compró"
+	line "la Cama Rosa."
 	done
 
 PinkBedSentText:
-	text "Pink Bed"
-	line "was sent home."
+	text "La Cama Rosa"
+	line "se envió a casa."
 	done
 
 BoughtPolkaDotBedText:
-	text "<PLAYER> bought"
-	line "PolkaDot Bed."
+	text "<PLAYER> compró"
+	line "la Cama Lunares."
 	done
 
 PolkaDotBedSentText:
-	text "PolkaDot Bed"
-	line "was sent home."
+	text "La Cama Lunares"
+	line "se envió a casa."
 	done
 
 BoughtPikachuBedText:
-	text "<PLAYER> bought"
-	line "Pikachu Bed."
+	text "<PLAYER> compró"
+	line "la Cama Pikachu."
 	done
 
 PikachuBedSentText:
-	text "Pikachu Bed"
-	line "was sent home."
+	text "La Cama Pikachu"
+	line "se envió a casa."
 	done
 
 CeladonHomeDecorStore2FNoMoneyText:
-	text "You can't afford"
-	line "that!"
+	text "¡No puedes"
+	line "pagar eso!"
 	done
 
 CeladonHomeDecorStore2FAlreadyBoughtText:
-	text "You already have"
-	line "that!"
+	text "¡Ya tienes eso!"
 	done
 
 CeladonHomeDecorStore2FPokefanfText:
-	text "Brand-name items"
-	line "cost more than"
-	cont "generic ones."
+	text "Los de marca"
+	line "cuestan más que"
+	cont "los genéricos."
 
-	para "But the Pikachu"
-	line "Bed is so cute…"
+	para "Pero la Cama"
+	line "Pikachu es tan"
+	cont "mona…"
 	done
 
 CeladonHomeDecorStore2FDirectoryText:
-	text "Soft and Fluffy!"
+	text "¡Suave y"
+	line "Esponjoso!"
 
-	para "2F: Beds"
+	para "Piso 2: Camas"
 	done

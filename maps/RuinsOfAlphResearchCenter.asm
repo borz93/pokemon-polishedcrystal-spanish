@@ -80,15 +80,15 @@ RuinsOfAlphResearchCenterScientist3Script:
 .Conclusion:
 	jumpthisopenedtext
 
-	text "We're going to"
-	line "gradually study"
+	text "Vamos a estudiar"
+	line "poco a poco"
 
-	para "the chamber that"
-	line "opened up."
+	para "la cámara que se"
+	line "abrió."
 
-	para "We have to take"
-	line "care not to"
-	cont "disturb the site."
+	para "Tenemos que tener"
+	line "cuidado de no"
+	cont "alterar el lugar."
 	done
 
 .PrinterAvailable:
@@ -163,34 +163,37 @@ RuinsOfAlphResearchCenterScientist1Script:
 	iftruefwd .UnownAppeared
 	jumpthisopenedtext
 
-	text "The ruins are"
-	line "about 1,500 years"
-	cont "old."
+	text "Las ruinas tienen"
+	line "unos 1.500 años"
+	cont "de vida."
 
-	para "But it's not known"
-	line "why they were"
-	cont "built--or by whom."
+	para "Pero no se sabe"
+	line "por qué ni quién"
+	cont "las construyó."
 	done
 
 .UnownAppeared:
 	jumpthisopenedtext
 
-	text "#mon appeared"
-	line "in the ruins?"
+	text "¿#mon"
+	line "aparecieron en"
+	cont "las ruinas?"
 
-	para "That's incredible"
-	line "news!"
+	para "¡Eso es una"
+	line "noticia"
+	cont "increíble!"
 
-	para "We'll need to"
-	line "investigate this."
+	para "Tendremos que"
+	line "investigar esto."
 	done
 
 .GotUnownDex:
 	jumpthisopenedtext
 
-	text "I wonder how many"
-	line "kinds of #mon"
-	cont "are in the ruins?"
+	text "Me pregunto"
+	line "cuántos tipos de"
+	cont "#mon hay en las"
+	cont "ruinas."
 	done
 
 .GotAllUnown:
@@ -209,36 +212,38 @@ RuinsOfAlphResearchCenterScientist2Script:
 	iftruefwd .UnownAppeared
 	jumpthisopenedtext
 
-	text "There are odd pat-"
-	line "terns drawn on the"
+	text "Hay patrones"
+	line "extraños dibujados"
+	cont "en las paredes"
 
-	para "walls of the"
-	line "ruins."
+	para "de las ruinas."
 
-	para "They must be the"
-	line "keys for unravel-"
-	cont "ing the mystery"
-	cont "of the ruins."
+	para "Deben ser las"
+	line "claves para"
+	cont "resolver el"
+	cont "misterio de las"
+	cont "ruinas."
 	done
 
 .UnownAppeared:
 	jumpthisopenedtext
 
-	text "The strange #-"
-	line "mon you saw in the"
-	cont "ruins?"
+	text "¿Los extraños"
+	line "#mon que viste"
+	cont "en las ruinas?"
 
-	para "They appear to be"
-	line "very much like the"
+	para "Parece que se"
+	line "parecen mucho a"
 
-	para "drawings on the"
-	line "walls there."
+	para "los dibujos de las"
+	line "paredes de allí."
 
 	para "Hmm…"
 
-	para "That must mean"
-	line "there are many"
-	cont "kinds of them…"
+	para "Eso debe"
+	line "significar que hay"
+	cont "muchos tipos de"
+	cont "ellos…"
 	done
 
 .GotAllUnown:
@@ -248,14 +253,14 @@ RuinsOfAlphResearchCenterScientist2Script:
 	ifgreater 10, .ResearchOngoing
 	jumpthisopenedtext
 
-	text "Why did those"
-	line "ancient patterns"
+	text "¿Por qué"
+	line "aparecieron esos"
 
-	para "appear on the wall"
-	line "now?"
+	para "patrones antiguos"
+	line "en la pared ahora?"
 
-	para "The mystery"
-	line "deepens…"
+	para "El misterio se"
+	line "profundiza…"
 	done
 
 .ResearchComplete:
@@ -268,14 +273,16 @@ RuinsOfAlphResearchCenterScientist2Script:
 .ResearchOngoing:
 	jumpthisopenedtext
 
-	text "We think something"
-	line "caused the cryptic"
+	text "Creemos que algo"
+	line "causó que esos"
 
-	para "patterns to appear"
-	line "in the ruins."
+	para "patrones crípticos"
+	line "aparecieran en las"
+	cont "ruinas."
 
-	para "We've focused our"
-	line "studies on that."
+	para "Hemos centrado"
+	line "nuestros estudios"
+	cont "en eso."
 	done
 
 MapRuinsofAlphResearchCenterSignpost1Script:
@@ -286,10 +293,10 @@ MapRuinsofAlphResearchCenterSignpost1Script:
 	iftruefwd .SkipChecking
 	jumpthisopenedtext
 
-	text "Ruins of Alph"
+	text "Ruinas Alfa"
 
-	para "Exploration"
-	line "Year 10"
+	para "Año 10 de"
+	line "exploración"
 	done
 
 .SkipChecking:
@@ -304,79 +311,81 @@ RuinsOfAlphResearchCenterApproachesComputerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Done!"
+	text "¡Listo!"
 
-	para "I modified your"
+	para "Modifiqué tu"
 	line "#dex."
 
-	para "I added an"
-	line "optional #dex"
+	para "Añadí una #dex"
+	line "opcional"
 
-	para "to store Unown"
-	line "data."
+	para "para guardar"
+	line "datos de Unown."
 
-	para "It records them"
-	line "in alphabetical"
-	cont "order."
+	para "Los registra en"
+	line "orden"
+	cont "alfabético."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "<PLAYER>'s #dex"
-	line "was upgraded."
+	text "La #dex de"
+	line "<PLAYER> se"
+	cont "actualizó."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "The Unown you"
-	line "catch will all be"
-	cont "recorded."
+	text "Todos los Unown"
+	line "que atrapes se"
+	cont "registrarán."
 
-	para "Check to see how"
-	line "many kinds exist."
+	para "Comprueba cuántos"
+	line "tipos existen."
 
-	para "You're doing a"
-	line "favor for us, so"
+	para "Nos estás haciendo"
+	line "un favor, así que"
 
-	para "I'll give you some-"
-	line "thing nice if you"
-	cont "find all of them."
+	para "te daré algo"
+	line "bonito si los"
+	cont "encuentras todos."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "You caught all the"
-	line "Unown variations?"
+	text "¿Atrapaste todas"
+	line "las variantes de"
+	cont "Unown?"
 
-	para "That's a great"
-	line "achievement!"
+	para "¡Eso es un gran"
+	line "logro!"
 
-	para "You've been very"
-	line "helpful to our"
-	cont "research."
+	para "Nos has ayudado"
+	line "mucho con nuestra"
+	cont "investigación."
 
-	para "Let me give you"
-	line "this."
+	para "Deja que te dé"
+	line "esto."
 	done
 
 GotUnownDollText:
-	text "<PLAYER> received"
-	line "Unown Doll."
+	text "<PLAYER> recibió"
+	line "el Muñeco Unown."
 	done
 
 UnownDollSentText:
-	text "Unown Doll"
-	line "was sent home."
+	text "El Muñeco Unown"
+	line "se envió a casa."
 	done
 
 RuinsofAlphResearchCenterScientistRewardText:
-	text "I designed that"
-	line "doll myself!"
+	text "¡Yo diseñé ese"
+	line "muñeco!"
 	done
 
 RuinsofAlphResearchCenterScientistInterruptedText:
-	text "You can--"
+	text "Puedes--"
 	done
 
 RuinsofAlphResearchCenterScientistShockedText:
-	text "What was THAT?!"
+	text "¡¿QUÉ FUE ESO?!"
 	done
 
 
@@ -384,72 +393,76 @@ RuinsofAlphResearchCenterScientistShockedText:
 
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Our investigation,"
-	line "with your help, is"
+	text "Nuestra"
+	line "investigación, con"
+	cont "tu ayuda, nos está"
 
-	para "giving us insight"
-	line "into the ruins."
+	para "dando información"
+	line "sobre las ruinas."
 
-	para "The ruins appear"
-	line "to have been built"
+	para "Parece que las"
+	line "ruinas se"
 
-	para "as a habitat for"
-	line "#mon."
+	para "construyeron como"
+	line "hábitat para"
+	cont "#mon."
 	done
 
 
 
 
 RuinsOfAlphResearchCenterScientist2Text_RadioWaves:
-	text "According to my"
-	line "research…"
+	text "Según mi"
+	line "investigación…"
 
-	para "Those mysterious"
-	line "patterns appeared"
+	para "Esos patrones"
+	line "misteriosos"
 
-	para "when the #Com"
-	line "Center was built."
+	para "aparecieron cuando"
+	line "se construyó el"
+	cont "Centro #Com."
 
-	para "It must mean that"
-	line "radio waves have"
-
-	para "some sort of a"
-	line "link…"
+	para "Debe significar"
+	line "que las ondas de"
+	cont "radio tienen algún"
+	cont "tipo de conexión…"
 	done
 
 
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "Mystery #mon"
-	line "Name: Unown"
+	text "#mon misterioso"
+	line "Nombre: Unown"
 
-	para "A total of "
+	para "Un total de "
 	text_decimal hScriptVar, 1, 2
-	line "kinds found."
+	line "tipos"
+	cont "encontrados."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "It's a printer."
-	line "The display says"
+	text "Es una impresora."
+	line "La pantalla dice"
 	cont "“PC LOAD LETTER”."
 
-	para "…What does that"
-	line "mean?"
+	para "…¿Qué"
+	line "significará?"
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "It's a photo of"
-	line "the Research"
+	text "Es una foto del"
+	line "fundador del"
 
-	para "Center's founder,"
-	line "Prof.Silktree."
+	para "Centro de"
+	line "Investigación, el"
+	cont "Prof.Silktree."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "There are many"
-	line "academic books."
+	text "Hay muchos libros"
+	line "académicos."
 
-	para "Ancient Ruins…"
-	line "Mysteries of the"
-	cont "Ancients…"
+	para "Ruinas Antiguas…"
+	line "Misterios de los"
+	cont "Antiguos…"
 	done

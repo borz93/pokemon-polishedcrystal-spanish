@@ -19,10 +19,10 @@ Route16Gate_MapScriptHeader:
 	end
 
 Route16GateOfficerText:
-	text "Route 16 is a bit"
-	line "untamed."
+	text "La Ruta 16 es un"
+	line "poco salvaje."
 
-	para "You'll need HM"
-	line "moves to get"
-	cont "through."
+	para "Necesitarás"
+	line "movimientos MO"
+	cont "para pasar."
 	done

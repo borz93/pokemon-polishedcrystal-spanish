@@ -41,11 +41,12 @@ RocketHideoutB1FBlackBeltRylan:
 	jumpthistextfaceplayer
 
 .SeenText:
-	text "In Team Valor, we"
-	line "push our limits."
+	text "En Team Valor,"
+	line "superamos"
+	cont "nuestros límites."
 
-	para "Strength is all"
-	line "that matters!"
+	para "¡Solo importa la"
+	line "fuerza!"
 	done
 
 .AfterScript
@@ -63,111 +64,120 @@ RocketHideoutB1FBlackBeltRylan:
 	end
 
 .Text
-	text "You've got guts…"
+	text "Tienes agallas…"
 
-	para "Perhaps you should"
-	line "join Team Valor."
+	para "Quizá deberías"
+	line "unirte a Team"
+	cont "Valor."
 	done
 
 .BeatenText:
-	text "Your strength is"
+	text "Tu fuerza es"
 	line "superior…"
 	done
 
 RocketHideoutB1FScientistSanders:
 	generictrainer SCIENTIST, SANDERS, EVENT_BEAT_SCIENTIST_SANDERS, .SeenText, .BeatenText
 
-	text "Leader Blanche ex-"
-	line "cels in strategy."
+	text "La Líder Blanche"
+	line "destaca en"
+	cont "estrategia."
 
-	para "They decide where"
-	line "we are stationed."
+	para "Ella decide dónde"
+	line "nos apostamos."
 	done
 
 .SeenText:
 	text "Team Mystic"
-	line "values strategy."
+	line "valora la"
+	cont "estrategia."
 
-	para "Only a strong mind"
-	line "could win here."
+	para "Solo una mente"
+	line "fuerte podría"
+	cont "ganar aquí."
 	done
 
 .BeatenText:
-	text "Your tactics are"
-	line "flawless!"
+	text "Tu táctica es"
+	line "impecable!"
 	done
 
 RocketHideoutB1FPicnickerZane:
 	generictrainer PICNICKER, ZANE, EVENT_BEAT_PICNICKER_ZANE, .SeenText, .BeatenText
 
-	text "Spark would be"
-	line "impressed."
+	text "Spark estaría"
+	line "impresionado."
 
-	para "Let's see if you"
-	line "can keep going!"
+	para "¡Veamos si puedes"
+	line "seguir así!"
 	done
 
 .SeenText:
-	text "Team Instinct is"
-	line "all about trusting"
-	cont "your gut."
+	text "Team Instinct"
+	line "confía en el"
+	cont "instinto."
 
-	para "No time to think,"
-	line "just act!"
+	para "¡No hay tiempo"
+	line "para pensar, solo"
+	cont "para actuar!"
 	done
 
 .BeatenText:
-	text "You've got that"
-	line "“spark”, alright."
+	text "Sí que tienes esa"
+	line "“chispa”."
 
-	para "Keep it alive!"
+	para "¡No la pierdas!"
 	done
 
 RocketHideoutB1FBattleGirlSasha:
 	generictrainer BATTLE_GIRL, SASHA, EVENT_BEAT_BATTLE_GIRL_SASHA, .SeenText, .BeatenText
 
-	text "The flame of Valor"
-	line "burns within you."
+	text "La llama de Valor"
+	line "arde dentro de ti."
 
-	para "Candela's trial"
-	line "will test your"
-	cont "limits."
+	para "La prueba de"
+	line "Candela pondrá a"
+	cont "prueba tus"
+	cont "límites."
 	done
 
 .SeenText:
-	text "Team Valor's all"
-	line "about passion and"
-	cont "taking risks."
+	text "Team Valor es"
+	line "pasión y arriesgar"
+	cont "el todo por el"
+	cont "todo."
 
-	para "Think you can"
-	line "match my in-"
-	cont "tensity?"
+	para "¿Crees que puedes"
+	line "igualar mi"
+	cont "intensidad?"
 	done
 
 .BeatenText:
-	text "Your flame…"
-	line "Too bright!"
+	text "Tu llama…"
+	line "¡Demasiado"
+	cont "brillante!"
 	done
 
 RocketHideoutB1FLassMavis:
 	generictrainer LASS, MAVIS, EVENT_BEAT_LASS_MAVIS, .SeenText, .BeatenText
 
-	text "Spark's battles"
-	line "are unpredictable."
+	text "Los combates de"
+	line "Spark son"
+	cont "impredecibles."
 
-	para "Thats why I mix"
-	line "things up!"
+	para "¡Por eso yo"
+	line "también innovo!"
 	done
 
 .SeenText:
-	text "My strategy?"
+	text "¿Mi estrategia?"
 
-	para "Pure instinct and"
-	line "nothing more!"
+	para "¡Puro instinto y"
+	line "nada más!"
 	done
 
 .BeatenText:
-	text "I guess your in-"
-	line "stinct is better"
-	cont "than mine."
+	text "Supongo que tu"
+	line "instinto es mejor"
+	cont "que el mío."
 	done

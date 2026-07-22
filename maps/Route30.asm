@@ -183,24 +183,24 @@ TrainerYoungsterJoey:
 GenericTrainerYoungsterMikey:
 	generictrainer YOUNGSTER, MIKEY, EVENT_BEAT_YOUNGSTER_MIKEY, YoungsterMikeySeenText, YoungsterMikeyBeatenText
 
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Ser un buen"
+	line "entrenador es muy"
+	cont "difícil."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Voy a combatir"
+	line "contra otros para"
+	cont "mejorar."
 	done
 
 GenericTrainerBug_catcherDon:
 	generictrainer BUG_CATCHER, DON, EVENT_BEAT_BUG_CATCHER_DON, Bug_catcherDonSeenText, Bug_catcherDonBeatenText
 
-	text "I ran out of #"
-	line "Balls while I was"
-	cont "catching #mon."
+	text "Me quedé sin #"
+	line "Balls mientras"
+	cont "atrapaba #mon."
 
-	para "I should've bought"
-	line "some more…"
+	para "Debí comprar"
+	line "más…"
 	done
 
 Route30_JoeysRattataAttacksMovement:
@@ -214,153 +214,158 @@ Route30_MikeysPidgeyAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, Rattata!"
+	text "¡Ve, Rattata!"
 
-	para "Tackle!"
+	para "¡Placaje!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "¿Qué? ¡Esto es un"
+	line "gran combate!"
+	cont "¡Déjame en paz!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #mon."
+	text "Acabo de perder,"
+	line "así que busco"
+	cont "más #mon."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "¡Espera! Te veo"
+	line "débil. ¡Vamos,"
+	cont "a combatir!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "¡Ay! ¡He perdido"
+	line "otra vez!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #mon in"
+	text "¿Necesito más"
+	line "#mon para"
 
-	para "order to battle"
-	line "better?"
+	para "combatir mejor?"
 
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "¡No! Me quedo con"
+	line "este pase lo que"
+	cont "pase!"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #mon"
-	line "trainer, right?"
+	text "Eres entrenador"
+	line "de #mon, ¿no?"
 
-	para "Then you have to"
-	line "battle!"
+	para "¡Pues tienes que"
+	line "combatir!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Qué raro."
+	line "Antes gané."
 	done
 
 Bug_catcherDonSeenText:
-	text "Instead of a bug"
-	line "#mon, I found"
-	cont "a trainer!"
+	text "En vez de #mon"
+	line "Bicho, encontré"
+	cont "a un entrenador!"
 	done
 
 Bug_catcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "¡Argh! ¡Eres muy"
+	line "fuerte!"
 	done
 
 Route30YoungsterText:
-	text "These train tracks"
-	line "lead all the way"
-	cont "to Goldenrod City!"
+	text "Estas vías del"
+	line "tren llevan hasta"
+	cont "Ciudad Trigal!"
 
-	para "I'm having fun"
-	line "balancing on them."
+	para "Me divierto"
+	line "haciendo equilib-"
+	cont "rio sobre ellas."
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "No soy entrenadora"
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Pero si miras a"
+	line "uno a los ojos,"
+	cont "prepárate a"
+	cont "combatir."
 	done
 
 Route30SignText:
-	text "Route 30"
+	text "Ruta 30"
 
-	para "Cherrygrove City -"
-	line "Violet City"
+	para "Ciudad Cerezo -"
+	line "Ciudad Malva"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "Mr.#mon's House"
-	line "Straight Ahead!"
+	text "Casa Sr. #mon"
+	line "¡Todo recto!"
 	done
 
 MrPokemonsHouseSignText:
-	text "Mr.#mon's House"
+	text "Casa Sr. #mon"
 	done
 
 BerryMastersHouseSignText:
-	text "Berry Master's"
-	line "House"
+	text "Casa del Maestro"
+	line "de las Bayas"
 	done
 
 Route30TrainerTipsText:
-	text "Trainer Tips"
+	text "Consejos de"
+	line "entrenador"
 
-	para "No stealing other"
-	line "people's #mon!"
+	para "¡No robes #mon"
+	line "ajenos!"
 
-	para "# Balls are to"
-	line "be thrown only at"
-	cont "wild #mon!"
+	para "La # Ball solo"
+	line "se lanza a"
+	cont "#mon salvajes!"
 	done
 
 Route30AdvancedTipsText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "avanzados!"
 
-	para "During a battle,"
-	line "press Select to"
-	cont "switch #mon!"
+	para "En combate, pulsa"
+	line "Select para"
+	cont "cambiar #mon!"
 
-	para "Press Start to"
-	line "reuse an item!"
+	para "Pulsa Start para"
+	line "reusar un objeto!"
 
-	para "Or press B to"
-	line "run away or"
-	cont "forfeit!"
+	para "O pulsa B para"
+	line "huir o"
+	cont "rendirte!"
 
-	para "When you're choos-"
-	line "ing a move to use,"
+	para "Al elegir un"
+	line "movimiento a usar,"
 
-	para "press Select to"
-	line "swap it with an-"
-	cont "other one, or"
+	para "pulsa Select para"
+	line "cambiarlo por"
+	cont "otro, o"
 
-	para "press Start to see"
-	line "its description!"
+	para "pulsa Start para"
+	line "ver su"
+	cont "descripción!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Perdí otra vez…"
+	line "¡Vaya, eres duro!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "Ah, casi se me"
+	line "olvida darte"
+	cont "esto."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Para ser aún más"
+	line "fuerte, úsalo,"
+	cont "¿vale?"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Yo también voy a"
+	line "ser más fuerte."
 	done

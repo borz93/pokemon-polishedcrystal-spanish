@@ -18,14 +18,14 @@ CopycatsHouse1F_MapScriptHeader:
 	pokemon_event  4,  5, BLISSEY, SPRITEMOVEDATA_POKEMON, -1, PAL_MON_PINK, CopycatsHouse1FBlisseyText, -1
 
 CopycatsHouse1FPokefanMText:
-	text "My daughter likes"
-	line "to mimic people."
+	text "A mi hija le gusta"
+	line "imitar a la gente."
 
-	para "Her mimicry has"
-	line "earned her the"
+	para "Por eso, aquí le"
+	line "pusieron el"
 
-	para "nickname Copycat"
-	line "around here."
+	para "apodo de"
+	line "Copiona."
 	done
 
 CopycatsHouse1FPokefanFScript:
@@ -33,25 +33,25 @@ CopycatsHouse1FPokefanFScript:
 	iftrue_jumptextfaceplayer .Text2
 	jumpthistextfaceplayer
 
-	text "My daughter is so"
-	line "self-centered…"
+	text "Mi hija es tan"
+	line "egocéntrica…"
 
-	para "She only has a few"
-	line "friends."
+	para "Solo tiene unas"
+	line "pocas amigas."
 	done
 
 .Text2:
-	text "She recently lost"
-	line "the # Doll that"
+	text "Hace poco perdió"
+	line "el # Muñeco que"
 
-	para "a boy gave her"
-	line "three years ago."
+	para "le dio un chico"
+	line "hace tres años."
 
-	para "Ever since then,"
-	line "she's gotten even"
-	cont "better at mimicry…"
+	para "Desde entonces,"
+	line "se le da aún"
+	cont "mejor imitar…"
 	done
 
 CopycatsHouse1FBlisseyText:
-	text "Blissey: Bliisii!"
+	text "Blissey: ¡Bliisii!"
 	done

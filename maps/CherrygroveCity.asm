@@ -157,9 +157,9 @@ CherrygroveYoungsterScript:
 	iftrue_jumptextfaceplayer CherrygroveYoungsterText_HavePokedex
 	jumpthistextfaceplayer
 
-	text "Mr.#mon's house"
-	line "is still farther"
-	cont "up ahead."
+	text "La casa del Sr."
+	line "#mon está más"
+	cont "adelante."
 	done
 
 MysticWaterGuy:
@@ -175,8 +175,8 @@ MysticWaterGuy:
 	jumpthisopenedtext
 
 MysticWaterGuyTextAfter:
-	text "Back to fishing"
-	line "for me, then."
+	text "Pues vuelvo a"
+	line "pescar."
 	done
 
 GuideGentMovement1:
@@ -268,179 +268,192 @@ CherrygroveCity_RivalComesBack:
 	step_end
 
 GuideGentIntroText:
-	text "You're a rookie"
-	line "trainer, aren't"
-	cont "you? I can tell!"
+	text "Eres un"
+	line "entrenador novato,"
+	cont "¿verdad? ¡Se nota!"
 
-	para "That's OK! Every-"
-	line "one is a rookie"
-	cont "at some point!"
+	para "¡No pasa nada!"
+	line "Todos empiezan"
+	cont "siendo novatos!"
 
-	para "I can teach you"
-	line "a few things."
-	cont "Follow me!"
+	para "Puedo enseñarte"
+	line "algunas cosas."
+	cont "¡Sígueme!"
 	done
 
 GuideGentPokeCenterText:
-	text "This is a #mon"
-	line "Center. They heal"
+	text "Esto es un Centro"
+	line "#mon. Curan a"
 
-	para "your #mon in no"
-	line "time at all."
+	para "tus #mon en un"
+	line "abrir y cerrar de"
+	cont "ojos."
 
-	para "You'll be relying"
-	line "on them a lot, so"
+	para "Vas a depender"
+	line "mucho de ellos,"
 
-	para "you better learn"
-	line "about them."
+	para "así que más vale"
+	line "que aprendas."
 	done
 
 GuideGentMartText:
-	text "This is a #mon"
-	line "Mart, or just"
+	text "Esto es una"
+	line "#mon Mart, o"
+	cont "simplemente"
 	cont "# Mart."
 
-	para "They sell Balls"
-	line "for catching wild"
+	para "Venden Balls para"
+	line "atrapar #mon"
 
-	para "#mon and other"
-	line "useful items."
+	para "salvajes y otros"
+	line "objetos útiles."
 	done
 
 GuideGentRoute30Text:
-	text "Route 30 is out"
-	line "this way."
+	text "La Ruta 30 está"
+	line "por aquí."
 
-	para "Trainers will be"
-	line "battling their"
+	para "Los entrenadores"
+	line "combatirán con"
 
-	para "prized #mon"
-	line "there."
+	para "sus #mon"
+	line "más preciados."
 	done
 
 GuideGentAdvancedTipsText:
-	text "Advanced Tips"
-	line "signs have this"
-	cont "unusual look."
+	text "Los carteles de"
+	line "Consejos"
+	cont "Avanzados tienen"
+	cont "un aspecto raro."
 
-	para "They're full of"
-	line "helpful advice."
+	para "Están llenos de"
+	line "consejos útiles."
 	done
 
 GuideGentSeaText:
-	text "This is the sea,"
-	line "as you can see."
+	text "Esto es el mar,"
+	line "como puedes ver."
 
-	para "Route 32 is just"
-	line "across the bay."
+	para "La Ruta 32 está"
+	line "al otro lado de"
+	cont "la bahía."
 	done
 
 GuideGentGiftText:
-	text "Here…"
+	text "Toma…"
 
-	para "It's my house!"
-	line "Thanks for your"
-	cont "company."
+	para "¡Es mi casa!"
+	line "Gracias por"
+	cont "acompañarme."
 
-	para "Let me give you a"
-	line "small gift."
+	para "Déjame darte un"
+	line "pequeño regalo."
 	done
 
 GotMapCardText:
-	text "<PLAYER>'s #gear"
-	line "now has a Map!"
+	text "El #gear de"
+	line "<PLAYER> ya tiene"
+	cont "un Mapa!"
 	done
 
 GuideGentPokegearText:
-	text "#gear becomes"
-	line "more useful as you"
-	cont "add Cards."
+	text "El #gear es"
+	line "útil cuantas más"
+	cont "Tarjetas añadas."
 
-	para "I wish you luck on"
-	line "your journey!"
+	para "¡Buena suerte en"
+	line "tu viaje!"
 	done
 
 CherrygroveRivalText_Seen:
 	text "…… …… ……"
 
-	para "You got a #mon"
-	line "at the Lab."
+	para "Conseguiste un"
+	line "#mon en el"
+	cont "Laboratorio."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "Qué desperdicio."
+	line "Un blandengue"
+	cont "como tú."
 
 	para "…… …… ……"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "¿No entiendes lo"
+	line "que digo?"
 
-	para "Well, I too, have"
-	line "a good #mon."
+	para "Bueno, yo también"
+	line "tengo un buen"
+	cont "#mon."
 
-	para "I'll show you"
-	line "what I mean!"
+	para "¡Te voy a enseñar"
+	line "lo que quiero"
+	cont "decir!"
 	done
 
 RivalCherrygroveWinText:
-	text "Humph. Are you"
-	line "happy you won?"
+	text "Bah. ¿Contento"
+	line "por ganar?"
 	done
 
 RivalCherrygroveLossText:
-	text "Humph. That was a"
-	line "waste of time."
+	text "Bah. Vaya pérdida"
+	line "de tiempo."
 	done
 
 CherrygroveRivalTextAfter1:
 	text "…… …… ……"
 
-	para "You want to know"
-	line "who I am?"
+	para "¿Quieres saber"
+	line "quién soy?"
 
-	para "I'm going to be"
-	line "the world's great-"
-	cont "est #mon"
-	cont "trainer."
+	para "Voy a ser el"
+	line "mejor entrenador"
+	cont "#mon del"
+	cont "mundo."
 	done
 
 CherrygroveRivalTextAfter2:
-	text "I dropped my"
-	line "Trainer Card…"
+	text "Se me cayó mi"
+	line "Tarjeta de"
+	cont "Entrenador…"
 
-	para "Hey! Give it"
-	line "back!"
+	para "¡Oye! ¡Devuél-"
+	line "vemela!"
 
-	para "Oh no… You saw"
-	line "my name…"
+	para "Oh no… Viste mi"
+	line "nombre…"
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "When you're with"
-	line "#mon, going"
-	cont "anywhere is fun."
+	text "Cuando vas con"
+	line "#mon, ir a"
+	cont "cualquier sitio"
+	cont "es divertido."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "I battled the"
-	line "trainers on the"
-	cont "road."
+	text "Combatí contra"
+	line "los entrenadores"
+	cont "del camino."
 
-	para "My #mon lost."
-	line "They're a mess! I"
+	para "Mis #mon"
+	line "perdieron. ¡Están"
+	cont "hechos polvo!"
 
-	para "must take them to"
-	line "a #mon Center."
+	para "Debo llevarlos a"
+	line "un Centro #mon."
 	done
 
 MysticWaterGuyTextBefore:
-	text "A #mon I caught"
-	line "had an item."
+	text "Un #mon que"
+	line "atrapé tenía un"
+	cont "objeto."
 
-	para "I think it's"
-	line "Mystic Water."
+	para "Creo que es Agua"
+	line "Mística."
 
-	para "I don't need it,"
-	line "so do you want it?"
+	para "No lo necesito,"
+	line "¿lo quieres tú?"
 	done
 
 CherrygrovePidgeyText:
@@ -448,23 +461,25 @@ CherrygrovePidgeyText:
 	done
 
 CherrygroveCitySignText:
-	text "Cherrygrove City"
+	text "Ciudad Cerezo"
 
-	para "The City of Cute,"
-	line "Fragrant Flowers"
+	para "La Ciudad de"
+	line "Flores Bonitas y"
+	cont "Fragantes"
 	done
 
 GuideGentsHouseSignText:
-	text "Guide Gent's House"
+	text "Casa del Guía"
 	done
 
 CherrygroveCityAdvancedTipsSignText:
-	text "Advanced Tips!"
+	text "¡Consejos"
+	line "Avanzados!"
 
-	para "# Marts will"
-	line "give you a free"
+	para "Las # Mart dan"
+	line "una Honor Ball"
+	cont "gratis"
 
-	para "Premier Ball with"
-	line "every purchase of"
-	cont "ten # Balls!"
+	para "por cada compra de"
+	line "diez # Balls!"
 	done

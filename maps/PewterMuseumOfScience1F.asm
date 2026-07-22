@@ -46,8 +46,8 @@ Museum1FFossilScientistScript:
 	iftruefwd .ask_old_amber
 	jumpthisopenedtext
 
-	text "Hey! You don't"
-	line "have any fossils."
+	text "¡Oye! No tienes"
+	line "ningún fósil."
 	done
 
 .own_helix
@@ -110,9 +110,9 @@ Museum1FFossilScientistScript:
 .maybe_later:
 	jumpthisopenedtext
 
-	text "Just talk to me"
-	line "if you change"
-	cont "your mind."
+	text "Solo habla conmigo"
+	line "si cambias de"
+	cont "opinión."
 	done
 
 HelixDomeMenuDataHeader:
@@ -124,9 +124,9 @@ HelixDomeMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Helix Fossil@"
-	db "Dome Fossil@"
-	db "Cancel@"
+	db "Fósil Hélix@"
+	db "Fósil Domo@"
+	db "Salir@"
 
 HelixAmberMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -137,9 +137,9 @@ HelixAmberMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Helix Fossil@"
-	db "Old Amber@"
-	db "Cancel@"
+	db "Fósil Hélix@"
+	db "Ambar Antig.@"
+	db "Salir@"
 
 DomeAmberMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -150,9 +150,9 @@ DomeAmberMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 3 ; items
-	db "Dome Fossil@"
-	db "Old Amber@"
-	db "Cancel@"
+	db "Fósil Domo@"
+	db "Ambar Antig.@"
+	db "Salir@"
 
 HelixDomeAmberMenuDataHeader:
 	db MENU_BACKUP_TILES
@@ -163,10 +163,10 @@ HelixDomeAmberMenuDataHeader:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Helix Fossil@"
-	db "Dome Fossil@"
-	db "Old Amber@"
-	db "Cancel@"
+	db "Fósil Hélix@"
+	db "Fósil Domo@"
+	db "Ambar Antig.@"
+	db "Salir@"
 
 ResurrectHelixFossil:
 	takeitem HELIX_FOSSIL
@@ -188,8 +188,7 @@ FinishResurrect:
 	iffalse_jumpopenedtext NoRoomForFossilPokemonText
 	jumpthisopenedtext
 
-	text "Take good care"
-	line "of it!"
+	text "¡Cuídalo bien!"
 	done
 
 ResurrectAFossilScript:
@@ -219,23 +218,24 @@ Museum1FReceptionistScript:
 	ifequalfwd LEFT, .Sneak
 	jumpthistextfaceplayer
 
-	text "Welcome!"
+	text "¡Bienvenido!"
 
-	para "Thanks to a gene-"
-	line "rous donation"
-	cont "by Silph Co.,"
+	para "Gracias a una"
+	line "generosa donación"
+	cont "de Silph Co.,"
 
-	para "admission is free"
-	line "of charge!"
+	para "¡la entrada es"
+	line "gratuita!"
 
-	para "Please go ahead."
+	para "Adelante, por"
+	line "favor."
 	done
 
 .Sneak:
 	jumpthistextfaceplayer
 
-	text "You can't sneak"
-	line "in the back way!"
+	text "¡No puedes colarte"
+	line "por atrás!"
 	done
 
 KabutopsFossilSignpostScript:
@@ -245,11 +245,11 @@ KabutopsFossilSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Kabutops Fossil"
-	line "(Dome)"
+	text "Fósil Kabutops"
+	line "(Domo)"
 
-	para "A primitive and"
-	line "rare #mon."
+	para "Un #mon"
+	line "primitivo y raro."
 	done
 
 OmastarFossilSignpostScript:
@@ -259,11 +259,11 @@ OmastarFossilSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Omastar Fossil"
-	line "(Helix)"
+	text "Fósil Omastar"
+	line "(Hélix)"
 
-	para "A primitive and"
-	line "rare #mon."
+	para "Un #mon"
+	line "primitivo y raro."
 	done
 
 AerodactylFossilSignpostScript:
@@ -273,98 +273,99 @@ AerodactylFossilSignpostScript:
 	closepokepic
 	jumpthistext
 
-	text "Aerodactyl Fossil"
+	text "Fósil Aerodactyl"
 
-	para "A primitive and"
-	line "rare #mon."
+	para "Un #mon"
+	line "primitivo y raro."
 	done
 
 Museum1FScientistText:
-	text "We are proud of"
-	line "three fossils of"
+	text "Estamos orgullosos"
+	line "de tres fósiles de"
 
-	para "rare, prehistoric"
-	line "#mon."
+	para "#mon raros y"
+	line "prehistóricos."
 
-	para "I helped assemble"
-	line "them!"
+	para "¡Yo ayudé a"
+	line "montarlos!"
 	done
 
 Museum1FFossilScientistText:
-	text "Did you know that"
-	line "you can extract"
+	text "¿Sabías que puedes"
+	line "extraer #mon de"
+	cont "los fósiles?"
 
-	para "#mon from"
-	line "fossils?"
-
-	para "If you ever need"
-	line "to, let me take"
-	cont "care of it!"
+	para "Si alguna vez lo"
+	line "necesitas, ¡deja"
+	cont "que me encargue!"
 	done
 
 Museum1FGrampsText:
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "¡Ese es un fósil"
+	line "magnífico!"
 	done
 
 Museum1FYoungsterText:
-	text "There are two"
-	line "places that I"
-	cont "love!"
+	text "¡Hay dos lugares"
+	line "que me encantan!"
 
-	para "One is the Ruins"
-	line "of Alph in Johto."
+	para "Uno son las Ruinas"
+	line "de Alfa en Johto."
 
-	para "The other is the"
-	line "Pewter Museum!"
+	para "¡El otro es el"
+	line "Museo de Ciencias"
+	cont "de Plateada!"
 
-	para "I get a sense of"
-	line "history from both"
-	cont "of them."
+	para "Ambos me dan una"
+	line "sensación de"
+	cont "historia."
 	done
 
 Museum1FBookshelfSignpostText:
-	text "Thick and well-"
-	line "read books!"
+	text "¡Libros gruesos y"
+	line "bien leídos!"
 
-	para "Archaeology Man-"
-	line "ual, Lost #mon,"
-	cont "#mon Ancestors,"
+	para "Manual de"
+	line "Arqueología,"
+	cont "#mon Perdidos,"
 
-	para "Caring at the"
-	line "Loamy Layer of"
+	para "Ancestros #mon,"
+	line "Cuidados en la"
+	cont "Capa de Marga de"
 	cont "Kanto…"
 	done
 
 AskHelixFossilText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Helix Fossil?"
+	text "¿Quieres"
+	line "resucitar el"
+	cont "Fósil Hélix?"
 	done
 
 AskDomeFossilText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Dome Fossil?"
+	text "¿Quieres"
+	line "resucitar el"
+	cont "Fósil Domo?"
 	done
 
 AskOldAmberText:
-	text "Do you want to"
-	line "resurrect the"
-	cont "Old Amber?"
+	text "¿Quieres"
+	line "resucitar el"
+	cont "ámbar Antig.?"
 	done
 
 
 
 ResurrectingPokemonText:
-	text "OK! I'll resurrect"
-	line "the #mon!"
+	text "¡Vale! ¡Voy a"
+	line "resucitar al"
+	cont "#mon!"
 	done
 
 NoRoomForFossilPokemonText:
-	text "Hey! You can't"
-	line "carry another"
-	cont "#mon, and your"
-	cont "Box is full, too!"
+	text "¡Oye! No puedes"
+	line "llevar otro"
+	cont "#mon, ¡y tu"
+	cont "Caja también"
+	cont "está"
+	cont "llena!"
 	done

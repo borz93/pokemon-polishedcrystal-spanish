@@ -55,135 +55,143 @@ CeladonUniversity2FCooltrainerfScript:
 	jumpthisopenedtext
 
 .Text5:
-	text "Antidotes cure"
-	line "poison in #-"
-	cont "mon, but a person"
+	text "Los Antídotos"
+	line "curan el veneno"
+	cont "en #mon, pero"
 
-	para "would get sick"
-	line "by drinking one."
+	para "una persona se"
+	line "enfermaría al"
+	cont "beber uno."
 	done
 
 .NoRoomForAntidote:
 	giveitem FRESH_WATER
 	jumpthisopenedtext
 
-	text "Oh… Keep your"
-	line "Fresh Water then…"
+	text "Oh… Quédate tu"
+	line "Agua Fresca"
+	cont "entonces…"
 	done
 
 .Text1:
-	text "Wow, I'm thirsty!"
+	text "¡Vaya, qué sed"
+	line "tengo!"
 
-	para "But I don't have"
-	line "change for the"
-	cont "vending machines…"
+	para "Pero no tengo"
+	line "cambio para las"
+	cont "máquinas"
+	cont "expendedoras…"
 
-	para "Do you have any"
-	line "Fresh Water?"
+	para "¿Tienes algo de"
+	line "Agua Fresca?"
 	done
 
 .Text2:
-	text "Give away a"
-	line "Fresh Water?"
+	text "¿Regalar un Agua"
+	line "Fresca?"
 	done
 
 .Text3:
-	text "<PLAYER> gave away"
-	line "the Fresh Water."
+	text "<PLAYER> regaló el"
+	line "Agua Fresca."
 	done
 
 .Text4:
-	text "Thank you so much!"
-	line "Here, take this!"
+	text "¡Muchas gracias!"
+	line "¡Toma esto!"
 	done
 
 .Text6:
-	text "Oh… But I'm so"
-	line "thirsty…"
+	text "Oh… Pero tengo"
+	line "tanta sed…"
 	done
 
 CeladonUniversity2FCooltrainermText:
-	text "The cafeteria gets"
-	line "pretty crowded,"
+	text "La cafetería se"
+	line "llena mucho,"
 
-	para "so I prefer to eat"
-	line "in the hall."
+	para "así que prefiero"
+	line "comer en el"
+	cont "pasillo."
 	done
 
 CeladonUniversity2FYoungster1Text:
-	text "I failed the"
-	line "Hyper Test again…"
+	text "Fallé la Prueba"
+	line "Hiper de nuevo…"
 
-	para "But I won't"
-	line "give up!"
+	para "¡Pero no me"
+	line "rendiré!"
 	done
 
 CeladonUniversity2FCowgirlText:
-	text "My class is going"
-	line "on a field trip to"
-	cont "the Safari Zone!"
+	text "¡Mi clase va de"
+	line "excursión a la"
+	cont "Zona Safari!"
 	done
 
 CeladonUniversity2FBug_catcherText:
-	text "Prof.Willow sends"
-	line "his assistants to"
+	text "El Prof.Willow"
+	line "envía a sus"
 
-	para "wander all over"
-	line "the city and study"
+	para "asistentes por"
+	line "toda la ciudad"
 
-	para "the #mon that"
-	line "live here."
+	para "para estudiar los"
+	line "#mon que viven"
+	cont "aquí."
 	done
 
 CeladonUniversity2FLassText:
-	text "In addition to"
-	line "being the Celadon"
-	cont "Gym Leader,"
+	text "Además de ser la"
+	line "Líder del"
+	cont "Gimnasio Azulona,"
 
-	para "Erika was top of"
-	line "her class here at"
-	cont "the university."
+	para "Erika fue la mejor"
+	line "de su clase aquí"
+	cont "en la"
+	cont "universidad."
 
-	para "I wish I was as"
-	line "cool as her."
+	para "Ojalá fuera tan"
+	line "genial como ella."
 	done
 
 CeladonUniversity2FYoungster2Text:
-	text "Prof.Westwood is a"
-	line "little eccentric."
+	text "El Prof.Westwood"
+	line "es algo"
+	cont "excéntrico."
 
-	para "Sometimes he apol-"
-	line "ogizes to his"
+	para "A veces se"
+	line "disculpa con los"
 
-	para "ancestors' por-"
-	line "traits."
+	para "retratos de sus"
+	line "ancestros."
 	done
 
 CeladonUniversity2FCafeteriaSignText:
-	text "Cafeteria"
+	text "Cafetería"
 	done
 
 CeladonUniversity2FHyperTestSignText:
-	text "Hyper Test Room"
+	text "Sala de Prueba"
+	line "Hiper"
 	done
 
 CeladonUniversity2FPoolSignText:
-	text "Swimming Pool"
+	text "Piscina"
 	done
 
 CeladonUniversity2FWillowsOfficeSignText:
-	text "Prof.Willow's"
-	line "Office"
+	text "Despacho del"
+	line "Prof.Willow"
 	done
 
 CeladonUniversity2FNursesOfficeSignText:
-	text "Nurse's"
-	line "Office"
+	text "Enfermería"
 	done
 
 CeladonUniversity2FWestwoodsOfficeSignText:
-	text "Prof.Westwood's"
-	line "Office"
+	text "Despacho del"
+	line "Prof.Westwood"
 	done
 
 CeladonUniversity2FMagikarpSign:
@@ -194,8 +202,8 @@ CeladonUniversity2FMagikarpSign:
 	closepokepic
 	jumpthistext
 
-	text "A Magikarp is"
-	line "swimming around."
+	text "Un Magikarp está"
+	line "nadando por ahí."
 	done
 
 CeladonUniversity2FCuboneSign:
@@ -205,7 +213,8 @@ CeladonUniversity2FCuboneSign:
 	closepokepic
 	jumpthistext
 
-	text "It's the Thick Club"
-	line "and skull helmet"
-	cont "of a Cubone."
+	text "Es el Hueso Grueso"
+	line "y el casco de"
+	cont "cráneo de un"
+	cont "Cubone."
 	done

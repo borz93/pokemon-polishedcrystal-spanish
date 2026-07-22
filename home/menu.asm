@@ -381,9 +381,9 @@ YesNoMenuDataHeader::
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
 YesString::
-	db "Yes@"
+	db "Si@"
 NoString::
-	db "No @"
+	db "No@"
 
 NoYesMenuDataHeader::
 	db MENU_BACKUP_TILES
@@ -395,7 +395,7 @@ NoYesMenuDataHeader::
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
 	db "No@"
-	db "Yes@"
+	db "Si@"
 
 OffsetMenuDataHeader::
 	call _OffsetMenuDataHeader

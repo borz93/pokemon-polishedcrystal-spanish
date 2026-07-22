@@ -44,8 +44,8 @@ BattleFactory1FContinueChallenge:
 	; We saved in-between rounds. Resume Battle Factory challenge.
 	opentext
 	writethistext
-		text "We've been waiting"
-		line "for you."
+		text "Te hemos estado"
+		line "esperando."
 		prompt
 
 	sdefer Script_ReturnToRentalChallenge
@@ -59,17 +59,18 @@ BattleFactory1FContinueChallenge:
 .LeftWithoutSaving2:
 	opentext
 	writethistext
-		text "Excuse me!"
-		line "You didn't save"
+		text "¡Disculpa!"
+		line "No guardaste"
 
-		para "before exiting"
-		line "the Battle Room."
+		para "antes de salir"
+		line "de la Sala de"
+		cont "Combate."
 
-		para "I'm awfully sorry,"
-		line "but your challenge"
+		para "Lo siento mucho,"
+		line "pero tu desafío"
 
-		para "will be declared"
-		line "invalid."
+		para "será declarado"
+		line "no válido."
 		done
 	waitbutton
 	sjumpfwd Script_CommitBattleFactoryResult
@@ -85,13 +86,13 @@ BattleFactory1FContinueChallenge:
 .WonChallenge2:
 	opentext
 	writethistext
-		text "Congratulations!"
+		text "¡Felicidades!"
 
-		para "You've beaten all"
-		line "the trainers!"
+		para "¡Has vencido a"
+		line "todos!"
 
-		para "For that, you get"
-		line "this great prize!"
+		para "Por eso, toma"
+		line "este gran premio!"
 		prompt
 	verbosegiveitem MINT_LEAF
 	; fallthrough
@@ -101,8 +102,8 @@ Script_CommitBattleFactoryResult:
 	setevent EVENT_BEAT_THORTON
 .WeHopeToServeYouAgain:
 	writethistext
-		text "We hope to serve"
-		line "you again."
+		text "Esperamos verte"
+		line "de nuevo."
 		done
 	waitbutton
 	endtext
@@ -110,53 +111,55 @@ Script_CommitBattleFactoryResult:
 BattleFactory1FRulesScript:
 	opentext
 	writethistext
-		text "Battle Factory"
-		line "rules are written"
-		cont "here."
+		text "Aquí se escriben"
+		line "las reglas de la"
+		cont "Fábrica de Combate"
 
-		para "Read the rules?"
+		para "¿Leerlas?"
 		done
 	yesorno
 	iffalse_endtext
 	jumpthisopenedtext
-		text "You are given six"
-		line "rental #mon."
+		text "Te dan 6 #mon"
+		line "de alquiler."
 
-		para "Three #mon may"
-		line "enter battles."
+		para "3 #mon pueden"
+		line "entrar en combate."
 
-		para "All three must be"
-		line "different."
+		para "Los tres deben ser"
+		line "diferentes."
 
-		para "The items they"
-		line "hold must also be"
-		cont "different."
+		para "Los objetos que"
+		line "llevan también"
+		cont "deben ser"
+		cont "diferentes."
 
-		para "After winning a"
-		line "battle, you may"
-		cont "trade a #mon"
-		cont "with the opponent."
+		para "Tras ganar un"
+		line "combate, puedes"
+		cont "cambiar un #mon"
+		cont "con el rival."
 		done
 
 BattleFactory1FStreakText:
-	text "Streak: "
+	text "Racha: "
 	text_decimal wBattleFactoryCurStreak, 2, 5
-	text " wins"
-	line "Record: "
+	text " vic."
+	line "Récord: "
 	text_decimal wBattleFactoryTopStreak, 2, 5
-	text " wins"
-	cont "Swaps this run: "
+	text " vic."
+	cont "Cambios: "
 	text_decimal wBattleFactorySwapCount, 1, 2
 	done
 
 BattleFactory1FReceptionistScript:
 	opentext
 	writethistext
-		text "Battle Factory"
-		line "welcomes you!"
+		text "¡Bienvenido a la"
+		line "Fábrica de"
+		cont "Combate!"
 
-		para "I can show you to"
-		line "the Battle Floor."
+		para "Puedo llevarte a"
+		line "la Sala de Combate"
 		done
 	promptbutton
 	checkevent EVENT_BATTLE_FACTORY_INTRO
@@ -165,49 +168,52 @@ BattleFactory1FReceptionistScript:
 	; only ask once, so set the flag regardless
 	setevent EVENT_BATTLE_FACTORY_INTRO
 	writethistext
-		text "Would you like to"
-		line "hear about this"
-		cont "facility?"
+		text "¿Quieres saber"
+		line "más sobre esta"
+		cont "instalación?"
 		done
 	yesorno
 	iffalsefwd .BattleFactoryMenu
 
 .Explanation:
 	writethistext
-		text "Battle Factory is"
-		line "a facility where"
-		cont "you battle using"
-		cont "rental #mon."
+		text "La Fábrica de"
+		line "Combate es un"
+		cont "lugar donde"
+		cont "combates con"
+		cont "#mon"
+		cont "de alquiler."
 
-		para "Countless #mon"
-		line "trainers gather"
+		para "Incontables"
+		line "entrenadores"
+		cont "#mon se reúnen"
 
-		para "from all over to"
-		line "hold battles on"
-		cont "the Battle Floor."
+		para "de todas partes"
+		line "para combatir en"
+		cont "la Sala de Combate"
 
-		para "Each challenge"
-		line "has 7 trainers."
+		para "Cada desafío"
+		line "tiene 7 rivales."
 
-		para "Beat them all to"
-		line "get Battle Points."
+		para "Vence a todos y"
+		line "gana PB."
 
-		para "To interrupt a"
-		line "session, you must"
+		para "Para interrumpir"
+		line "una sesión, debes"
 
-		para "save. If not, you"
-		line "won't be able to"
+		para "guardar. Si no,"
+		line "no podrás"
 
-		para "resume your Floor"
-		line "challenge."
+		para "retomar tu"
+		line "desafío."
 		prompt
 	; fallthrough
 .BattleFactoryMenu:
 	; Setscene here in case the player aborted a quicksave prompted by challenge
 	setscene SCENE_BATTLEFACTORY1F_NOOP
 	writethistext
-		text "Want to head onto"
-		line "the Battle Floor?"
+		text "¿Quieres ir a la"
+		line "Sala de Combate?"
 		done
 	loadmenu MenuDataHeader_BattleInfoCancel
 	verticalmenu
@@ -215,18 +221,19 @@ BattleFactory1FReceptionistScript:
 	ifequalfwd $1, .Challenge
 	ifequal $2, .Explanation
 	writethistext
-		text "We hope to serve"
-		line "you again."
+		text "Esperamos verte"
+		line "de nuevo."
 		prompt
 	endtext
 
 .Challenge:
 	writethistext
-		text "Before entering"
-		line "the Battle Floor,"
+		text "Antes de entrar"
+		line "en la Sala de"
+		cont "Combate,"
 
-		para "your progress will"
-		line "be saved."
+		para "se guardará tu"
+		line "progreso."
 		done
 	yesorno
 	iffalse .BattleFactoryMenu
@@ -254,8 +261,8 @@ Script_ReturnToRentalChallenge:
 
 	; Everything ready to go for challenge start
 	writethistext
-		text "Right this way to"
-		line "the Battle Floor."
+		text "Por aquí, hacia"
+		line "la Sala de Combate"
 		done
 	waitbutton
 	closetext
@@ -281,16 +288,16 @@ PokemonJournalThortonScript:
 	setflag ENGINE_READ_THORTON_JOURNAL
 	jumpthistext
 
-	text "#mon Journal"
+	text "Revista #mon"
 
-	para "Special Feature:"
-	line "Factory Head"
-	cont "Thorton!"
+	para "Reportaje"
+	line "especial: ¡Líder"
+	cont "Fábr. Thorton!"
 
-	para "Thorton is said to"
-	line "only believe in"
+	para "Dicen que Thorton"
+	line "solo cree en lo"
 
-	para "what he can prove"
-	line "numerically with"
-	cont "his inventions."
+	para "que puede probar"
+	line "numéricamente con"
+	cont "sus inventos."
 	done
