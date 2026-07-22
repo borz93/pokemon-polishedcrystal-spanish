@@ -28,11 +28,11 @@ PokemonJournalClairScript:
 
 	para "Reportaje"
 	line "especial: ¡la"
-	cont "Líder Clair!"
+	cont "Líder Débora!"
 
 	para "El atuendo azul"
 	line "brillante y la"
-	cont "capa de Clair la"
+	cont "capa de Débora la"
 	cont "han hecho la"
 	cont "última moda."
 	done

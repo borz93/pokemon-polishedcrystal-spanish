@@ -822,10 +822,10 @@ FightingDojoScheduleThursdayPalmerText:
 
 FightingDojoScheduleFridayText:
 	text "Viernes: Lt.Surge,"
-	line "???, Clair"
+	line "???, Débora"
 	done
 
 FightingDojoScheduleFridayYellowText:
 	text "Viernes: Lt.Surge,"
-	line "Yellow, Clair"
+	line "Yellow, Débora"
 	done

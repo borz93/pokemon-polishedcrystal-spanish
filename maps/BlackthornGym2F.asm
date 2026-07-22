@@ -92,7 +92,7 @@ GenericTrainerCooltrainermCody:
 GenericTrainerCooltrainerfFran:
 	generictrainer COOLTRAINERF, FRAN, EVENT_BEAT_COOLTRAINERF_FRAN, .SeenText, .BeatenText
 
-	text "Uy-oh… Clair se"
+	text "Uy-oh… Débora se"
 	line "va a enfadar…"
 	done
 
@@ -102,7 +102,7 @@ GenericTrainerCooltrainerfFran:
 	cont "entrenador"
 	cont "anónimo!"
 
-	para "¡Clair se pondría"
+	para "¡Débora se pondría"
 	line "furiosa si lo"
 	cont "hiciera!"
 	done

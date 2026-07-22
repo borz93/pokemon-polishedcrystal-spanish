@@ -93,7 +93,7 @@ DragonsDenB1FClairTrigger:
 	done
 
 .GiveTMText:
-	text "Clair: Siento"
+	text "Débora: Siento"
 	line "esto."
 
 	para "Toma, acéptalo"

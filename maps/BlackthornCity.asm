@@ -65,7 +65,7 @@ BlackthornCitySignText:
 BlackthornGymSignText:
 	text "Gimnasio #mon"
 	line "de Ciudad Endrino"
-	cont "Líder: Clair"
+	cont "Líder: Débora"
 
 	para "La Bendecida"
 	line "Usuaria de #mon"
@@ -166,7 +166,7 @@ BlackthornDragonTamer1Script:
 
 	text "Lo siento."
 
-	para "Clair, nuestra"
+	para "Débora, nuestra"
 	line "Líder de"
 	cont "Gimnasio, entró"
 
@@ -180,7 +180,7 @@ BlackthornDragonTamer1Script:
 	done
 
 .ClairIsInText:
-	text "Clair, nuestra"
+	text "Débora, nuestra"
 	line "Líder de"
 	cont "Gimnasio, te está"
 	cont "esperando."
@@ -194,7 +194,7 @@ BlackthornDragonTamer1Script:
 
 .ClairIsBeatenText:
 	text "¿Venciste a"
-	line "Clair?"
+	line "Débora?"
 
 	para "¡Eso es"
 	line "asombroso!"
@@ -236,7 +236,7 @@ BlackthornGramps1Text:
 	done
 
 BlackthornGramps2Text:
-	text "Si Clair lo"
+	text "Si Débora lo"
 	line "permite, su"
 	cont "abuelo, nuestro"
 	cont "Maestro, también"

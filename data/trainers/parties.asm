@@ -509,7 +509,7 @@ SECTION "ClairGroup", ROMX
 ClairGroup:
 
 	def_trainer_class CLAIR
-	def_trainer 1, "Clair"
+	def_trainer 1, "Débora"
 	tr_mon 43, GYARADOS, FEMALE
 		tr_extra INTIMIDATE
 		tr_evs 4 Atk, 252 Spe
@@ -540,7 +540,7 @@ endc
 		tr_moves SMOKESCREEN, HYPER_BEAM, DRAGON_PULSE, SURF
 	end_trainer
 
-	def_trainer 2, "Clair"
+	def_trainer 2, "Débora"
 	tr_mon 72, GYARADOS @ LEFTOVERS, FEMALE
 		tr_extra INTIMIDATE, SPE_UP_SATK_DOWN
 		tr_evs 252 Atk, 4 Def, 252 Spe

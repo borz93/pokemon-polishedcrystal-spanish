@@ -76,7 +76,7 @@ BlackthornGymClairScript:
 	end
 
 .IntroText:
-	text "Soy Clair."
+	text "Soy Débora."
 
 	para "La mejor maestra"
 	line "Dragón del mundo."
@@ -200,7 +200,7 @@ BlackthornGymGuyScript:
 	line "terminado! ¡Cuenta"
 	cont "conmigo!"
 
-	para "Clair usa #mon"
+	para "Débora usa #mon"
 	line "de tipo Dragón,"
 	cont "míticos y"
 	cont "sagrados."
@@ -218,7 +218,7 @@ BlackthornGymGuyScript:
 
 .WinText:
 	text "¡Fue genial que"
-	line "vencieras a Clair!"
+	line "ganaste a Débora!"
 
 	para "Solo queda el"
 	line "reto de la Liga"

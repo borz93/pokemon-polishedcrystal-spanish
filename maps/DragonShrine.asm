@@ -178,7 +178,7 @@ DragonShrineElder1Script:
 	iftrue_jumptextfaceplayer DragonShrineSilverIsInTrainingText
 	jumpthistextfaceplayer
 
-	text "Parece que Clair"
+	text "Parece que Débora"
 	line "aprendió una"
 
 	para "lección muy"
@@ -337,7 +337,7 @@ DragonShrineElderGreetingText:
 	line "expliques por qué"
 	cont "viniste."
 
-	para "Clair te envió,"
+	para "Débora te envió,"
 	line "¿verdad?"
 
 	para "Esa chica es un"
@@ -406,7 +406,7 @@ DragonShrinePassedTestText:
 	done
 
 DragonShrineMustIInformLanceText:
-	text "¡Clair!"
+	text "¡Débora!"
 
 	para "¡Este niño es"
 	line "impecable, en"
@@ -423,7 +423,7 @@ DragonShrineMustIInformLanceText:
 	done
 
 DragonShrineElderScoldsClairText:
-	text "Clair…"
+	text "Débora…"
 
 	para "Reflexiona sobre"
 	line "lo que te falta a"
@@ -479,7 +479,7 @@ DragonShrineSilverIsInTrainingText:
 	cont "entrenando aquí."
 
 	para "Se parece mucho a"
-	line "Clair cuando era"
+	line "Débora cuando era"
 
 	para "más joven. Es un"
 	line "poco preocupante…"
