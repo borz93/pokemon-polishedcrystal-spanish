@@ -2529,7 +2529,7 @@ BillsPC_UpdateStorage_CheckMewtwo:
 	jmp PopBCDEHL
 
 BillsPC_CantPutMailIntoPackText:
-	text "El Correo perderá"
+	text "La Carta perderá"
 	line "su mensaje."
 	prompt
 
@@ -2539,9 +2539,10 @@ BillsPC_PackFullText:
 	prompt
 
 BillsPC_MovedToPackText:
-	text "Se movió "
+	text "Se movió"
+	line ""
 	text_ram wStringBuffer1
-	line "al Bolso."
+	cont "al Bolso."
 	prompt
 
 BillsPC_Menu:

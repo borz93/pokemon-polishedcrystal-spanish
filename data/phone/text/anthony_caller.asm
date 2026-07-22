@@ -44,8 +44,8 @@ AnthonyLostAMonText:
 	line "me distraje con"
 	cont "una Belleza."
 
-	para "Aprende de mi"
-	line "error--siempre"
+	para "¡Aprende de mi"
+	line "error y"
 
 	para "concéntrate en"
 	line "lo que haces!"
@@ -53,7 +53,7 @@ AnthonyLostAMonText:
 
 AnthonyBattleRematchText:
 	text "Venga, ¡vamos a"
-	line "combatir ya!"
+	line "combatir!"
 
 	para ""
 	text_ram wStringBuffer5

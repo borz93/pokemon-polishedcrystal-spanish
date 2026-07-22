@@ -193,7 +193,7 @@ VioletPokeCenter1FGentlemanText:
 VioletPokeCenter1FSageText:
 	text "Algunos Bellsprout"
 	line "se encuentran con"
-	cont "Hoja de Oro."
+	cont "Hoja Oro."
 
 	para "Y algunos Oddish"
 	line "se encuentran con"

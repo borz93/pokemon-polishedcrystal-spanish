@@ -43,7 +43,7 @@ HookedPokemonAttackedText:
 	text "¡El"
 	line ""
 	text_ram wEnemyMonNickname
-	cont "enganchado"
+	cont "encarmado"
 	cont "atacó!"
 	prompt
 

@@ -49,7 +49,7 @@ MoveReminderIntroText::
 	cont "un movimiento"
 
 	para "si me das una"
-	line "Hoja de Oro!"
+	line "Hoja Oro!"
 	done
 
 MoveReminderPromptText::
@@ -88,5 +88,5 @@ MoveReminderCancelText::
 
 	para "un movimiento,"
 	line "vuelve con una"
-	cont "Hoja de Oro!"
+	cont "Hoja Oro!"
 	done

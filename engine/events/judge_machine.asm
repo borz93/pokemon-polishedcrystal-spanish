@@ -42,46 +42,49 @@ JudgeMachine:
 	jmp PrintText
 
 NewsMachineOffText:
-	text "It's the #mon"
-	line "Judge Machine!"
+	text "¡Es la Máquina"
+	line "Evaluadora"
+	cont "#mon!"
 
-	para "It's not in"
-	line "operation yet…"
+	para "Aún no está en"
+	line "funcionamiento…"
 	done
 
 NewsMachineIntroText:
-	text "It's the #mon"
-	line "Judge Machine!"
+	text "¡Es la Máquina"
+	line "Evaluadora"
+	cont "#mon!"
 
-	para "Would you like to"
-	line "judge a #mon's"
-	cont "overall power?"
+	para "¿Quieres evaluar"
+	line "el poder general"
+	cont "de un #mon?"
 	done
 
 NewsMachineWhichMonText:
-	text "Please select"
-	line "a #mon."
+	text "Elige un"
+	line "#mon."
 	prompt
 
 NewsMachinePrepText:
-	text "Visualizing your"
-	line "#mon's power…"
+	text "Visualizando el"
+	line "poder de tu"
+	cont "#mon…"
 	prompt
 
 NewsMachineContinueText:
-	text "Would you like"
-	line "to judge another"
-	cont "#mon?"
+	text "¿Quieres evaluar"
+	line "otro #mon?"
 	done
 
 NewsMachineCancelText:
-	text "Goodbye!"
+	text "¡Adiós!"
 	done
 
 NewsMachineEggText:
-	text "An Egg doesn't"
-	line "have any power"
-	cont "yet to judge!"
+	text "¡Un Huevo no"
+	line "tiene ningún"
+	cont "poder que"
+	cont "evaluar aún!"
 	done
 
 JudgeSystem::
@@ -323,10 +326,10 @@ JudgeSystem::
 	jmp .restart
 
 .EVHeading:
-	db "Effort   @"
+	db "Esfuerzo @"
 
 .IVHeading:
-	db "Potential@"
+	db "Potencial@"
 
 .PrintStat:
 ; hl = coords, de = stat
