@@ -289,7 +289,7 @@ EusineLossText:
 	done
 
 EusineAfterText:
-	text "Eres increíble,"
+	text "¡Eres increíble,"
 	line "<PLAYER>!"
 
 	para "No me extraña que"
