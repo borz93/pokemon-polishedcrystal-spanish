@@ -291,12 +291,12 @@ endc
 	li "Cable Enlace"
 
 	li "Hoja Plata"
-	li "Hoja de Oro"
+	li "Hoja Oro"
 	li "Hoja Menta"
 	li "Chapa"
 
 	li "Pepita"
-	li "Pepita Gran."
+	li "Gran Pepita"
 	li "Miniseta"
 	li "Seta Grande"
 	li "Seta Aroma"
