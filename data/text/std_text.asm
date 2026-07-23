@@ -283,7 +283,7 @@ ContestResults_ReadyToJudgeText:
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, puesto"
+	text "<PLAYER>, No."
 	text_ram wStringBuffer3
 	line ", ¡gana"
 	cont ""
