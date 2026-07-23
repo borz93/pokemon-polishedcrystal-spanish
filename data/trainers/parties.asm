@@ -5072,12 +5072,12 @@ SrAndJrGroup:
 	tr_mon 30, FLAAFFY
 	end_trainer
 
-	def_trainer BEAANDMAY1, "Bea & May"
+	def_trainer BEAANDMAY1, "Bea&May"
 	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
 	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
 	end_trainer
 
-	def_trainer BEAANDMAY2, "Bea & May"
+	def_trainer BEAANDMAY2, "Bea&May"
 	tr_mon LEVEL_FROM_BADGES + 0, BULBASAUR
 	tr_mon LEVEL_FROM_BADGES + 4, IVYSAUR
 	end_trainer
@@ -7954,7 +7954,7 @@ SECTION "CynthiaGroup", ROMX
 CynthiaGroup:
 
 	def_trainer_class CYNTHIA
-	def_trainer 1, "Cynthia"
+	def_trainer 1, "Cintia"
 	tr_mon 60, TOGEKISS @ WISE_GLASSES, FEMALE
 		tr_extra SERENE_GRACE
 		tr_evs 252 HP, 164 SAt
@@ -7985,7 +7985,7 @@ endc
 		tr_moves SWORDS_DANCE, NIGHT_SLASH, X_SCISSOR, EARTHQUAKE
 	end_trainer
 
-	def_trainer 2, "Cynthia"
+	def_trainer 2, "Cintia"
 	tr_mon 77, TOGEKISS @ LEFTOVERS, FEMALE
 		tr_extra SERENE_GRACE, DEF_UP_ATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Def

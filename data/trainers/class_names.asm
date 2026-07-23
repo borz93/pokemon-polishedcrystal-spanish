@@ -33,7 +33,7 @@ TrainerClassNames::
 	li "Entrenador"      ; LYRA1
 	li "Entrenador"      ; LYRA2
 	li "Chico"           ; YOUNGSTER
-	li "Insectólogo"     ; BUG_CATCHER
+	li "Cazabichos"      ; BUG_CATCHER
 	li "Campista"        ; CAMPER
 	li "Excursion."      ; PICNICKER
 	li "Gemelas"         ; TWINS
@@ -64,7 +64,7 @@ TrainerClassNames::
 	li "Medium"          ; MEDIUM
 	li "Chica Kimono"    ; KIMONO_GIRL
 	li "Anciano"         ; ELDER
-	li "Sr. y Jr."       ; SR_AND_JR
+	li "Estudiantes"     ; SR_AND_JR
 	li "Pareja"          ; COUPLE
 	li "Señor"           ; GENTLEMAN
 	li "Niño Rico"       ; RICH_BOY
@@ -83,7 +83,7 @@ TrainerClassNames::
 	li "Esquiador"       ; SKIER
 	li "Cinturón N."     ; BLACKBELT_T
 	li "Luchadora"       ; BATTLE_GIRL
-	li "Dom. Dragón"     ; DRAGON_TAMER
+	li "Doma Dragón"     ; DRAGON_TAMER
 	li "Ingeniero"       ; ENGINEER
 	li "Profesora"       ; TEACHER_F
 	li "Profesor"        ; TEACHER_M
