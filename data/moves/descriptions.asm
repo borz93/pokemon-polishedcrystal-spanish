@@ -449,7 +449,7 @@ PlayRoughDescription:
 RockSmashDescription:
 if !DEF(FAITHFUL)
 	text "Elimina Reflejo y"
-	next "Pant. de Luz."
+	next "Pantalla Luz."
 	done
 endc
 CrunchDescription:
