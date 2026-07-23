@@ -57,7 +57,7 @@ SinjohRuinsHouseCynthiaScript:
 	jumpthistext
 
 SinjohRuinsHouseCynthiaAfterText:
-	text "Cynthia: ¡Qué"
+	text "Cintia: ¡Qué"
 	line "combate tan"
 	cont "increíble!"
 
@@ -125,7 +125,7 @@ SinjohRuinsHouseAbraText:
 	done
 
 SinjohRuinsHouseCynthiaChallengeText:
-	text "Cynthia: Hola,"
+	text "Cintia: Hola,"
 	line "<PLAYER>."
 
 	para "¿Has estado bien?"
@@ -145,13 +145,13 @@ SinjohRuinsHouseCynthiaChallengeText:
 	done
 
 SinjohRuinsHouseCynthiaNoText:
-	text "Cynthia: Vuelve"
+	text "Cintia: Vuelve"
 	line "cuando quieras si"
 	cont "cambias de idea."
 	done
 
 SinjohRuinsHouseCynthiaYesText:
-	text "Cynthia: Antes de"
+	text "Cintia: Antes de"
 	line "sacar a mis"
 	cont "#mon,"
 

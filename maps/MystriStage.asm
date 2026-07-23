@@ -119,7 +119,7 @@ MystriStageBeatCynthiaScript:
 	pause 40
 	jumpthistextfaceplayer
 
-	text "Cynthia: ¿Podría"
+	text "Cintia: ¿Podría"
 	line "ser… un Huevo?"
 
 	para "¿Acabamos de"
@@ -154,7 +154,7 @@ MystriStageEggScript:
 
 MystriStageCynthiaIntroText:
 	text "Me llamo"
-	line "Cynthia. Soy"
+	line "Cintia. Soy"
 	cont "entrenadora"
 	cont "#mon."
 
@@ -166,7 +166,7 @@ MystriStageCynthiaIntroText:
 	done
 
 MystriStageCynthiaSpeechText:
-	text "Cynthia: Estas son"
+	text "Cintia: Estas son"
 	line "las Ruinas de"
 	cont "Sinjoh."
 
@@ -192,7 +192,7 @@ MystriStageCynthiaSpeechText:
 	line "celebraba aquí con"
 	cont "música y baile."
 
-	para "Cynthia: Estudio"
+	para "Cintia: Estudio"
 	line "mitos sobre"
 
 	para "sitios antiguos"
@@ -214,7 +214,7 @@ MystriStageCynthiaSpeechText:
 	done
 
 MystriStageCynthiaLeadText2:
-	text "Cynthia: ¿Qué?"
+	text "Cintia: ¿Qué?"
 	line "¿Leíste esa frase"
 
 	para "en las Ruinas"
@@ -229,7 +229,7 @@ MystriStageCynthiaLeadText2:
 	done
 
 MystriStageCynthiaIdeaText:
-	text "Cynthia: …Tengo"
+	text "Cintia: …Tengo"
 	line "una idea. Llámalo"
 
 	para "intuición de"
@@ -243,7 +243,7 @@ MystriStageCynthiaIdeaText:
 	done
 
 MystriStageCynthiaNotNowText:
-	text "Cynthia: Pero no"
+	text "Cintia: Pero no"
 	line "creo que debamos"
 
 	para "combatir ahora."
@@ -255,19 +255,19 @@ MystriStageCynthiaNotNowText:
 	done
 
 MystriStageCynthiaChallengeText:
-	text "Cynthia: ¿Estás"
-	line "preparada para ser"
+	text "Cintia: ¿Estás"
+	line "preparado para ser"
 	cont "mi rival?"
 	done
 
 MystriStageCynthiaNoText:
-	text "Cynthia: Vuelve"
+	text "Cintia: Vuelve"
 	line "cuando estés"
-	cont "lista."
+	cont "listo."
 	done
 
 MystriStageCynthiaYesText:
-	text "Cynthia: Antes de"
+	text "Cintia: Antes de"
 	line "sacar a mi"
 	cont "#mon,"
 
@@ -284,7 +284,7 @@ MystriStageCynthiaWinText:
 	done
 
 MystriStageCynthiaItemText:
-	text "Cynthia: ¡Eso fue"
+	text "Cintia: ¡Eso fue"
 	line "más allá de mis"
 	cont "expectativas!"
 
@@ -299,7 +299,7 @@ MystriStageCynthiaItemText:
 	done
 
 MystriStageCynthiaAfterText:
-	text "Cynthia: ¿Pero"
+	text "Cintia: ¿Pero"
 	line "nuestro combate"
 	cont "afectó al Estrado"
 	cont "Mistrío?"
@@ -307,7 +307,7 @@ MystriStageCynthiaAfterText:
 
 
 MystriStageCynthiaFinalText:
-	text "Cynthia: Un Huevo"
+	text "Cintia: Un Huevo"
 	line "es la cuna de todo"
 	cont "ser."
 

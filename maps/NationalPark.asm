@@ -74,7 +74,7 @@ GenericTrainerBugManiacLou:
 	generictrainer BUG_MANIAC, LOU, EVENT_BEAT_BUG_MANIAC_LOU, BugManiacLouSeenText, BugManiacLouBeatenText
 
 	text "Antes era solo un"
-	line "Insectólogo,"
+	line "Cazabichos,"
 
 	para "pero evolucioné a"
 	line "Entomólogo!"

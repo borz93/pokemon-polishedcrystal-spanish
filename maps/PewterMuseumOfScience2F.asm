@@ -222,10 +222,10 @@ PokemonJournalCynthiaScript: ; TODO: move to Goldenrod Museum
 	para "Reportaje"
 	line "especial:"
 	cont "¡Investigadora"
-	cont "Cynthia!"
+	cont "Cintia!"
 
 	para "Se dice que"
-	line "Cynthia aprendió"
+	line "Cintia aprendió"
 
 	para "muchas leyendas y"
 	line "mitos de su"
