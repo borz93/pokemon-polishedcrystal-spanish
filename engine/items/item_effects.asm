@@ -2177,20 +2177,20 @@ CandyJar_MonSelected:
 	assert_table_length NUM_CANDIES
 
 .GivesExp:
-	text "Gives "
+	text "Da "
 	text_decimal wStringBuffer2, 2, 5
 	text " Exp."
 	done
 
 .CancelStr:
-	db "Don't use.         @"
+	db "No usar.          @"
 
 .YouDontHaveAny:
-	db "You don't have any."
+	db "No tienes ninguno. "
 	prompt
 
 .UseHowManyText:
-	db "Use how many?     @"
+	db "¿Usar cuantos?    @"
 
 CalcCandies:
 ; input:
