@@ -51,7 +51,7 @@ ItemfinderExplanationText:
 	line "que buscar tú"
 	cont "mismo."
 
-	para "Ah sí--oí que hay"
+	para "¡Ah sí! Oí que hay"
 	line "objetos en la"
 
 	para "Torre Quemada de"
