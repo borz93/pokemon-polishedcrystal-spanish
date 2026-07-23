@@ -137,7 +137,7 @@ MoveNames::
 	li "Tentempié"
 	li "Patada Alta"
 	li "Deslumbrar"
-	li "Sueño Real"
+	li "Comesueños"
 	li "Puya Nociva"
 	li "Puño Bala"
 	li "Chupavidas"

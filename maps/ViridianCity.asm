@@ -104,7 +104,7 @@ ViridianCityTutorDreamEaterScript:
 
 	text "Ahora tu #mon"
 	line "sabe usar"
-	cont "Sueño Real…"
+	cont "Comesueños…"
 
 	para "…Zzzzz…"
 	done
@@ -184,7 +184,7 @@ Text_ViridianCityTutorDreamEater:
 
 Text_ViridianCityTutorQuestion:
 	text "¿Debería enseñarle"
-	line "Sueño Real a tu"
+	line "Comesueños a tu"
 	cont "#mon?"
 	done
 
