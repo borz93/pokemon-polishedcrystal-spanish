@@ -1043,4 +1043,4 @@ DayCare_GenerateEgg:
 	ret
 
 .String_EGG:
-	rawchar "Egg@"
+	rawchar "Huevo@"
