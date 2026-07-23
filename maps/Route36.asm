@@ -565,18 +565,18 @@ Route36SuicuneMovement:
 
 UseSquirtbottleText:
 	text "Es un árbol raro."
-	line "¿Usar Rociador?"
+	line "¿Usar Regadera?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> usó el"
-	line "Rociador."
+	text "<PLAYER> usó la"
+	line "Regadera."
 	done
 
 SudowoodoAttackedText:
 	text "¡Al árbol raro no"
-	line "le gusta el"
-	cont "Rociador!"
+	line "le gusta la"
+	cont "Regadera!"
 
 	para "¡El árbol raro"
 	line "atacó!"

@@ -115,7 +115,7 @@ Route35GoldenrodGatePokefanFScript:
 
 	para "alguien lo regó"
 	line "con una"
-	cont "Rociadora."
+	cont "Regadera."
 	done
 
 .aftersudowoodo

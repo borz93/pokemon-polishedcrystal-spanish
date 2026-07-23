@@ -13,7 +13,7 @@ KeyItemNames::
 	li "Tabla Tipos"
 	li "Sonido GBC"
 	li "Tarjeta Azul"
-	li "Rociador"
+	li "Regadera"
 	li "SilphScope2"
 	li "Huevo Enigma"
 	li "Poc. Secreta"
