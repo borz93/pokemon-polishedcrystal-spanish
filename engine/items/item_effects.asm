@@ -2183,7 +2183,7 @@ CandyJar_MonSelected:
 	done
 
 .CancelStr:
-	db "No usar.          @"
+	db "No usar.           @"
 
 .YouDontHaveAny:
 	db "No tienes ninguno. "
