@@ -263,10 +263,10 @@ StartMenu_PrintBugContestStatus:
 	ret
 
 .Caught:
-	db "Capturado@"
+	db "Capt.:@"
 .Balls:
 	db "Balls:@"
 .None:
-	db "None@"
+	db "Nada@"
 .Level:
-	db "Nivel@"
+	db "Nivel:@"
