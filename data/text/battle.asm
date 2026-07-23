@@ -728,7 +728,7 @@ FireSpinTrapText:
 
 WrappedByText:
 	text "¡<TARGET>"
-	line "fue ATRAPADO por"
+	line "fue atrapado por"
 	cont "<USER>!"
 	prompt
 

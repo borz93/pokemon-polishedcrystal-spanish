@@ -306,7 +306,8 @@ InfoSignScript:
 	cont "Milagroso"
 
 	para "Derecha:"
-	line "Máquina Juez"
+	line "Máquina"
+	cont "Evaluadora"
 	cont "<PK><MN>"
 	done
 
@@ -401,8 +402,9 @@ JudgeMachineEngineerScript:
 	end
 
 JudgeMachineEngineerWorkingText:
-	text "La Máquina Juez"
-	line "#mon…"
+	text "La Máquina"
+	line "Evaluadora"
+	cont "#mon…"
 
 	para "Ha sido mi sueño"
 	line "durante mucho"
@@ -429,8 +431,9 @@ JudgeMachineEngineerWorkingText:
 	done
 
 JudgeMachineEngineerFinishedText:
-	text "La Máquina Juez"
-	line "#mon…"
+	text "La Máquina"
+	line "Evaluadora"
+	cont "#mon…"
 
 	para "¡Por fin está"
 	line "lista! ¡Mi sueño"
