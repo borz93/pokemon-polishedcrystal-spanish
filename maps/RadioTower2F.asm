@@ -533,13 +533,13 @@ RadioTower2FBuenaCardIsFullText:
 	done
 
 RadioTower2FBuenaTuneInAfterSixText:
-	text "Buena: Sintoniza"
+	text "Buena: ¡Sintoniza"
 	line "Contraseña cada"
 
 	assert EVE_HOUR == 12 + 5
-	para "¡Noche de las"
-	line "cinco a media-"
-	cont "noche!"
+	para "noche desde las"
+	line "cinco hasta"
+	cont "medianoche!"
 
 	para "¡Sintoniza y"
 	line "luego visítame!"
