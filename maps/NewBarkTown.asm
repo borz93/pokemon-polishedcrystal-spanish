@@ -262,9 +262,9 @@ Text_WhatDoYouThinkYoureDoing:
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "Es peligroso salir"
+	text "¡Es peligroso salir"
 	line "sin un #mon"
-	cont "¡contigo!"
+	cont "contigo!"
 
 	para "Los #mon"
 	line "salvajes saltan"
@@ -372,15 +372,15 @@ Text_LyraGoodbye1:
 	para "¿Qué tal una"
 	line "batalla más?"
 
-	para "Quiero ver en qué"
+	para "¡Quiero ver en qué"
 	line "clase de"
 	cont "entrenador te has"
-	cont "¡convertido!"
+	cont "convertido!"
 	done
 
 Text_LyraGoodbyeWin:
-	text "Eres tan bueno"
-	line "¡como esperaba!"
+	text "¡Eres tan bueno"
+	line "como esperaba!"
 	done
 
 Text_LyraGoodbyeLoss:

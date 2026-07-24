@@ -109,10 +109,10 @@ GenericTrainerCoupleMoeandlulu2:
 	generictrainer COUPLE, MOEANDLULU2, EVENT_BEAT_COUPLE_MOE_AND_LULU, CoupleMoeandlulu2SeenText, CoupleMoeandlulu2BeatenText
 
 	text "Lulu: No es que"
-	line "Moe sea débil, es"
+	line "Moe sea débil, ¡es"
 
 	para "que tú eres"
-	line "¡demasiado fuerte!"
+	line "demasiado fuerte!"
 	done
 
 GenericTrainerLassMeadow:

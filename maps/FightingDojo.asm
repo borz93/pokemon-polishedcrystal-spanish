@@ -444,9 +444,9 @@ SabrinaText_Greeting:
 BlaineText_Greeting:
 	text "Mi Gimnasio"
 	line "sigue destruido,"
-	cont "así que"
+	cont "¡así que"
 
-	para "¡hagamos nuestra"
+	para "hagamos nuestra"
 	line "revancha aquí"
 	cont "mismo!"
 	done
@@ -647,8 +647,8 @@ ErikaText_WinLoss:
 	done
 
 JanineText_WinLoss:
-	text "Hoy perdí, pero"
-	line "¡ganaré la"
+	text "Hoy perdí, ¡pero"
+	line "ganaré la"
 	cont "próxima!"
 	done
 

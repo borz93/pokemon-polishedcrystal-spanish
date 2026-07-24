@@ -213,8 +213,8 @@ GenericTrainerHikerDevin:
 	generictrainer HIKER, DEVIN, EVENT_BEAT_HIKER_DEVIN, HikerDevinSeenText, HikerDevinBeatenText
 
 	text "Tras una batalla,"
-	line "debes despedirte"
-	cont "¡con una risa!"
+	line "¡debes despedirte"
+	cont "con una risa!"
 	done
 
 TrainerCamperGrant:
@@ -230,9 +230,9 @@ TrainerCamperGrant:
 GenericTrainerAceDuoThomandkae1:
 	generictrainer ACE_DUO, THOMANDKAE1, EVENT_BEAT_ACE_DUO_THOM_AND_KAE, AceDuoThomandkae1SeenText, AceDuoThomandkae1BeatenText
 
-	text "Thom: Tu poder es"
+	text "Thom: ¡Tu poder es"
 	line "imposible de"
-	cont "¡predecir!"
+	cont "predecir!"
 	done
 
 GenericTrainerAceDuoThomandkae2:
@@ -303,8 +303,8 @@ GenericTrainerGruntM26:
 
 HikerDevinSeenText:
 	text "Las batallas son"
-	line "batallas, así"
-	cont "¡que vamos!"
+	line "batallas, ¡así"
+	cont "que vamos!"
 	done
 
 HikerDevinBeatenText:
@@ -346,8 +346,8 @@ AceDuoThomandkae2SeenText:
 	done
 
 AceDuoThomandkae2BeatenText:
-	text "Kae: Tú también"
-	line "¡eres especial!"
+	text "Kae: ¡Tú también"
+	line "eres especial!"
 	done
 
 CoupleDuffandeda1SeenText:
@@ -453,10 +453,10 @@ Route47AdvancedTipsSignText:
 	line "movimiento único"
 	cont "de esa zona!"
 
-	para "Esos movimientos"
+	para "¡Esos movimientos"
 	line "no se pueden"
 	cont "reaprender"
 
-	para "¡ni heredar por"
+	para "ni heredar por"
 	line "cría!"
 	done

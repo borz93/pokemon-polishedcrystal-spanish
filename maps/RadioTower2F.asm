@@ -75,8 +75,8 @@ GenericTrainerGruntM6:
 GenericTrainerGruntF2:
 	generictrainer GRUNTF, 2, EVENT_BEAT_ROCKET_GRUNTF_2, GruntF2SeenText, GruntF2BeatenText
 
-	text "Me has vencido, y"
-	line "¡no lo olvidaré!"
+	text "Me has vencido, ¡y"
+	line "no lo olvidaré!"
 	done
 
 Buena:

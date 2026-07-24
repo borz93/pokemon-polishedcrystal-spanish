@@ -323,7 +323,7 @@ BattleTowerPharmacistScript:
 
 		para "Pero tengo un"
 		line "truco bajo la"
-		cont "manga--¡cambiaré"
+		cont "manga: ¡Cambiaré"
 		cont "sus objetos"
 
 		para "por los míos con"
@@ -376,9 +376,9 @@ BattleTowerTutorTrickScript:
 
 Text_BattleTowerCooltrainerF:
 	text "Hay muchas Salas"
-	line "de Combate, pero"
+	line "de Combate, ¡pero"
 
-	para "¡voy a ganarlas"
+	para "voy a ganarlas"
 	line "todas!"
 	done
 

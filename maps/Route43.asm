@@ -614,7 +614,7 @@ SrandjrIvyandamy1BeatenText:
 SrandjrIvyandamy2SeenText:
 	text "Amy: ¡Un"
 	line "entrenador!"
-	cont "Senior, ¡ayúdame"
+	cont "Maestro, ¡ayúdame"
 	cont "a ganar!"
 	done
 

@@ -156,8 +156,8 @@ HallOfFameEnterScene:
 	line "necesario para la"
 	cont "grandeza!"
 
-	para "<PLAYER> ¡permíteme"
-	line "registraros a ti"
+	para "¡<PLAYER>, permite"
+	line "que registre a ti"
 
 	para "y a tus"
 	line "compañeros como"

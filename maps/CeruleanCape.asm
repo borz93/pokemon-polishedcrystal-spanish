@@ -185,9 +185,9 @@ GenericTrainerSwimmermArmand:
 
 	text "Esa chica de la"
 	line "orilla… Su música"
-	cont "es buena, pero"
+	cont "es buena, ¡pero"
 
-	para "¡distrae a los"
+	para "distrae a los"
 	line "#mon!"
 	done
 
@@ -289,8 +289,8 @@ GenericTrainerGentlemanGeoffrey:
 
 .SeenText:
 	text "Quería un cambio,"
-	line "así que me metí"
-	cont "¡en los #mon!"
+	line "¡así que me metí"
+	cont "en los #mon!"
 	done
 
 .BeatenText:

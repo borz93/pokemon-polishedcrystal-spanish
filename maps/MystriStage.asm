@@ -277,10 +277,10 @@ MystriStageCynthiaYesText:
 	done
 
 MystriStageCynthiaWinText:
-	text "No recuerdo la"
+	text "¡No recuerdo la"
 	line "última vez que me"
 
-	para "¡superaron así!"
+	para "superaron así!"
 	done
 
 MystriStageCynthiaItemText:
@@ -326,15 +326,15 @@ MystriStageCynthiaFinalText:
 	done
 
 MystriStageEggText:
-	text "<PLAYER> encontró"
-	line "¡un Huevo"
+	text "¡<PLAYER> encontró"
+	line "un Huevo"
 	cont "misterioso!"
 	done
 
 MystriStageNoRoomText:
-	text "No tienes"
+	text "¡No tienes"
 	line "espacio para"
-	cont "¡esto, ni en tu"
+	cont "él, ni en la"
 	cont "Caja!"
 	done
 

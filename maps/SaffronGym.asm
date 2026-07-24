@@ -329,7 +329,7 @@ HexManiacNatalieSeenText:
 	done
 
 HexManiacNatalieBeatenText:
-	text "Mwaha… ¡cof!"
+	text "Mwaha… ¡Cof!"
 	done
 
 PsychicFranklinSeenText:

@@ -143,10 +143,10 @@ MahoganyGymGuyScript:
 	line "movimientos de"
 	cont "tipo Hielo."
 
-	para "Eso significa que"
-	line "deberías"
+	para "¡Eso significa que"
+	line "deberás"
 
-	para "¡derretirlo con tu"
+	para "derretirlo con tu"
 	line "ambición ardiente!"
 	done
 

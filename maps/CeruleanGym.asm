@@ -402,8 +402,8 @@ CeruleanGymGuyWinText:
 	done
 
 CeruleanGymFoundMachinePartText:
-	text "<PLAYER> encontró"
-	line "¡una Pieza de"
+	text "¡<PLAYER> encontró"
+	line "una Pieza de"
 	cont "Máquina!"
 	done
 

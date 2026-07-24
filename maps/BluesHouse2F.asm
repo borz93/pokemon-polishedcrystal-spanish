@@ -29,7 +29,7 @@ BluesHouse2FSNESText:
 	text "<PLAYER> jugó a la"
 	line "SNES."
 
-	para "Mejor date prisa--"
-	line "¡no hay tiempo"
+	para "Mejor date prisa…"
+	line "¡No hay tiempo"
 	cont "que perder!"
 	done

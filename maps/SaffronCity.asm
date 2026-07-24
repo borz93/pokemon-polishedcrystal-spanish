@@ -252,7 +252,7 @@ SaffronCityScientistText:
 
 	para "hemos trabajado"
 	line "sin descanso en su"
-	cont "sucesor: ¡el"
+	cont "sucesor: ¡El"
 	cont "Scope Silph 2!"
 	done
 

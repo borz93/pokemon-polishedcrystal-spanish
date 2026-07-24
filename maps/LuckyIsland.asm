@@ -209,6 +209,6 @@ LuckyIslandLuckyEgg:
 	endtext
 
 .Text:
-	text "<PLAYER> encontró"
-	line "¡un Huevo Suerte!"
+	text "¡<PLAYER> encontró"
+	line "un Huevo Suerte!"
 	done

@@ -133,7 +133,7 @@ GenericTrainerGuitaristmGeddy:
 	para "Supongo que por"
 	line "eso me llaman…"
 
-	para "¡me llaman el"
+	para "¡Me llaman el"
 	line "hombre currante!"
 	done
 

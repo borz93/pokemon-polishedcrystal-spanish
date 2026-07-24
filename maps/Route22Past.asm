@@ -241,10 +241,10 @@ Route22PastLyraExplainsTimeTravelText:
 	cont "Celebi?"
 
 	para "¡Eso lo explica!"
-	line "Celebi debió usar"
+	line "¡Celebi debió usar"
 	cont "su poder para"
 
-	para "¡llevarnos atrás"
+	para "viajar atrás"
 	line "en el tiempo!"
 	done
 
@@ -258,7 +258,7 @@ Route22PastLyraHearsSomeoneText:
 
 Route22PastRivalQuestionsGiovanniText:
 	text "<RIVAL>: Me"
-	line "dijiste… ¡que eras"
+	line "dijiste… ¡Que eras"
 
 	para "el número uno del"
 	line "mundo!"

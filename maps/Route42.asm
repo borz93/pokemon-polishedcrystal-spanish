@@ -392,10 +392,10 @@ Route42LyraWhirlpoolText:
 	cont "cruzar aguas"
 	cont "bravas."
 
-	para "Debería irme. Fue"
+	para "Debería irme. ¡Fue"
 	line "un placer"
 
-	para "¡verte, <PLAYER>!"
+	para "verte, <PLAYER>!"
 
 	para "¡Hasta luego!"
 	done

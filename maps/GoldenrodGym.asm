@@ -304,10 +304,10 @@ SrandjrJoandcath1BeatenText:
 SrandjrJoandcath2SeenText:
 	text "Cath: Intento"
 	line "vencer a Blanca,"
-	cont "pero mi senior y"
+	cont "¡pero mi senior y"
 
 	para "yo podemos"
-	line "¡vencerte primero!"
+	line "vencerte primero!"
 	done
 
 SrandjrJoandcath2BeatenText:
@@ -331,8 +331,8 @@ BeautyVictoriaSeenText:
 	line "entrenador"
 	cont "lindo! ♥"
 
-	para "Me caes bien, pero"
-	line "¡no me contendré!"
+	para "Me caes bien, ¡pero"
+	line "no me contendré!"
 	done
 
 BeautyVictoriaBeatenText:

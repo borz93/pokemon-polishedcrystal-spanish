@@ -16,8 +16,8 @@ AnthonyMonAteSomeBerriesText:
 	para "No sé si la"
 	line "gente debería"
 
-	para "comer eso, pero"
-	line "¡estaba delicioso!"
+	para "comer eso, ¡pero"
+	line "estaba delicioso!"
 	done
 
 AnthonyDefeatedMonText:

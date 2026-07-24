@@ -23,7 +23,7 @@ PokemonJournalProfOakScript:
 	text "Revista #mon"
 
 	para "Reportaje"
-	line "especial: ¡el"
+	line "especial: ¡El"
 	cont "Prof. Oak!"
 
 	para "Los nietos de"

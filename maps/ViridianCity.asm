@@ -119,7 +119,7 @@ ViridianCityCoffeeGrampsQuestionText:
 
 	para "Necesito hablar"
 	line "con alguien, ¡así"
-	cont "que servirás tú!"
+	cont "que tú servirás!"
 
 	para "Puede que ahora no"
 	line "lo parezca, pero"

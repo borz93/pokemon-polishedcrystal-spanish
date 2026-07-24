@@ -329,11 +329,11 @@ FisherJonahBeatenText:
 	done
 
 BlackbeltWaiSeenText:
-	text "Estoy"
+	text "¡Estoy"
 	line "fortaleciendo las"
 	cont "piernas"
 
-	para "¡aguantando el"
+	para "aguantando el"
 	line "balanceo del"
 	cont "barco!"
 	done
