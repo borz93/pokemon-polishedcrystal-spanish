@@ -9308,7 +9308,7 @@ SECTION "ReiGroup", ROMX
 ReiGroup:
 
 	def_trainer_class REI
-	def_trainer 1, "Maiden Rei"
+	def_trainer 1, "Rei"
 	tr_mon LEVEL_FROM_BADGES + 3, KADABRA
 		tr_evs 120 Spe
 	tr_mon LEVEL_FROM_BADGES + 3, NOCTOWL
@@ -9319,7 +9319,7 @@ ReiGroup:
 		tr_evs 120 Spe
 	end_trainer
 
-	def_trainer 2, "Maiden Rei"
+	def_trainer 2, "Rei"
 	tr_mon 59, FLAREON @ MUSCLE_BAND, FEMALE
 		tr_extra FLASH_FIRE
 		tr_evs 68 Atk, 252 Spe
@@ -9346,7 +9346,7 @@ ReiGroup:
 		tr_moves NASTY_PLOT, FLAMETHROWER, ENERGY_BALL, SHADOW_BALL
 	end_trainer
 
-	def_trainer 3, "Maiden Rei"
+	def_trainer 3, "Rei"
 	tr_mon 74, FLAREON @ TOXIC_ORB, FEMALE
 		tr_extra GUTS, SPE_UP_SATK_DOWN
 		tr_evs 252 HP, 4 SDf, 252 Atk
