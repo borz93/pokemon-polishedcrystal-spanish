@@ -76,9 +76,9 @@ GenericTrainerPicnickerTanya:
 	generictrainer PICNICKER, TANYA, EVENT_BEAT_PICNICKER_TANYA, PicnickerTanyaSeenText, PicnickerTanyaBeatenText
 
 	text "Vaya, mira todas"
-	line "tus Medallas. No"
+	line "tus Medallas."
 
-	para "¡es de extrañar"
+	para "¡No es de extrañar"
 	line "que no pudiera"
 	cont "ganar!"
 	done

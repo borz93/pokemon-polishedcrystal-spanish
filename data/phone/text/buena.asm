@@ -94,7 +94,7 @@ BuenaPhoneRocketText:
 	para "¡La Torre Radio"
 	line "está en apuros!"
 
-	para "<PLAYER>, ¡ten"
+	para "<PLAYER>, ¡Ten"
 	line "mucho cuidado!"
 	done
 

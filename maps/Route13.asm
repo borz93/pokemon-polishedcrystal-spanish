@@ -306,9 +306,9 @@ Route13TrainerTips2Text:
 	cont "para evolucionar."
 
 	para "Si tienes suerte,"
-	line "un #mon salvaje"
+	line "¡un #mon salvaje"
 
-	para "¡puede llevar su"
+	para "puede llevar su"
 	line "propio objeto de"
 	cont "evolución!"
 	done

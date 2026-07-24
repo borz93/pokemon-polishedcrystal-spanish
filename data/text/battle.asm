@@ -1712,8 +1712,8 @@ SuckedUpOozeText:
 	prompt
 
 BattleText_EnemyWithdrew::
-	text "<ENEMY>"
-	line "¡retiró a"
+	text "!<ENEMY>"
+	line "retiró a"
 	cont ""
 	text_ram wEnemyMonNickname
 	text "!"
@@ -1772,19 +1772,19 @@ WhitneyFinalPkmnText:
 	prompt
 
 MortyFinalPkmnText:
-	text "Aún creo que"
-	line "¡podemos lograrlo!"
+	text "¡Aún creo que"
+	line "podemos lograrlo!"
 	prompt
 
 ChuckFinalPkmnText:
-	text "Aún no hemos"
-	line "¡perdido!"
+	text "¡Aún no hemos"
+	line "perdido!"
 	prompt
 
 JasmineFinalPkmnText:
-	text "El acero bien"
+	text "¡El acero bien"
 	line "templado aguanta"
-	cont "¡hasta el final!"
+	cont "hasta el final!"
 	prompt
 
 PryceFinalPkmnText:
@@ -2165,8 +2165,8 @@ FlanneryFinalPkmnText:
 	prompt
 
 MayleneFinalPkmnText:
-	text "Esto no es el"
-	line "final, ¡amigo!"
+	text "¡Esto no es el"
+	line "final, amigo!"
 	prompt
 
 MarlonFinalPkmnText:

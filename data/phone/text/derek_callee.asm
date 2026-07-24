@@ -26,7 +26,7 @@ DerekGreetText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "¿Pika qué tal?"
+	line "¿Qué Pika tal?"
 	done
 
 DerekGreetDayText:

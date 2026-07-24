@@ -1431,8 +1431,8 @@ _MomStartSavingMoneyText::
 	text "Vale, guardaré tu"
 	line "dinero. ¡Confía!"
 
-	para "<PLAYER>, no"
-	line "¡te rindas!"
+	para "¡<PLAYER>, no"
+	line "te rindas!"
 	done
 
 SECTION "_MomStoredMoneyText", ROMX
@@ -1640,8 +1640,8 @@ SECTION "_FoundAnEggAgainText", ROMX
 _FoundAnEggAgainText::
 	text "¡Ah, eres tú!"
 
-	para "Tu #mon tuvo"
-	line "¡otro Huevo!"
+	para "¡Tu #mon tuvo"
+	line "otro Huevo!"
 
 	para "¿Lo quieres?"
 	done
@@ -1653,8 +1653,8 @@ _FoundAnEggText::
 	para "Estábamos criando"
 	line "a tu #mon, y"
 
-	para "vaya sorpresa"
-	line "¡nos llevamos!"
+	para "¡Vaya sorpresa"
+	line "nos llevamos!"
 
 	para "¡Tu #mon tuvo"
 	line "un Huevo!"
@@ -1668,8 +1668,8 @@ _FoundAnEggText::
 
 SECTION "_ReceivedEggText", ROMX
 _ReceivedEggText::
-	text "<PLAYER> recibió"
-	line "¡el Huevo!"
+	text "¡<PLAYER> recibió"
+	line "el Huevo!"
 	done
 
 SECTION "_TakeGoodCareOfEggText", ROMX
@@ -3453,8 +3453,8 @@ SECTION "_StoppedEvolvingText", ROMX
 _StoppedEvolvingText::
 	text "¿Eh? "
 	text_ram wStringBuffer2
-	line "dejó de"
-	cont "¡evolucionar!"
+	line "¡Dejó de"
+	cont "evolucionar!"
 	prompt
 
 SECTION "_EvolvingText", ROMX
@@ -4227,8 +4227,8 @@ _ItemWontHaveEffectText::
 
 SECTION "_BallBlockedText", ROMX
 _BallBlockedText::
-	text "El Entrenador"
-	line "¡bloqueó la Ball!"
+	text "¡El Entrenador"
+	line "bloqueó la Ball!"
 	prompt
 
 SECTION "_BallDontBeAThiefText", ROMX
@@ -4254,14 +4254,14 @@ _BallDatabaseFullText::
 
 SECTION "Text_MonIsHiddenFromBall", ROMX
 Text_MonIsHiddenFromBall::
-	text "El #mon no se"
-	line "¡puede ver!"
+	text "¡El #mon no se"
+	line "puede ver!"
 	prompt
 
 SECTION "Text_MonCantBeCaught", ROMX
 Text_MonCantBeCaught::
-	text "El #mon no se"
-	line "¡puede atrapar!"
+	text "¡El #mon no se"
+	line "puede atrapar!"
 	prompt
 
 SECTION "_ItemUsedText", ROMX
@@ -4457,9 +4457,9 @@ WonderTradeReadyText::
 
 SECTION "SilphMartIntroText", ROMX
 SilphMartIntroText::
-	text "Los empleados"
+	text "¡Los empleados"
 	line "tenemos acceso a"
-	cont "¡merchandising!"
+	cont "merchandising!"
 
 	para "¿Quieres comprar?"
 	done

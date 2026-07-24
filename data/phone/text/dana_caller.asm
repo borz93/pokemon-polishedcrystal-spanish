@@ -45,8 +45,8 @@ DanaBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Si estás cerca,"
-	line "¡combatamos!"
+	para "¡Si estás cerca,"
+	line "combatamos!"
 
 	para "¡Te estaré"
 	line "esperando!"

@@ -476,9 +476,9 @@ KurtsHouseKurtMakingBallsMustWaitText:
 	cont "tres años."
 
 	para "En fin, están en"
-	line "el pozo, cortando"
+	line "el pozo, ¡cortando"
 
-	para "¡colas de"
+	para "colas de"
 	line "Slowpoke para"
 	cont "venderlas!"
 

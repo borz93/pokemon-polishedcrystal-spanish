@@ -278,9 +278,9 @@ CeruleanGymGruntByeText:
 
 
 MistyIntroText:
-	text "Misty: Te estaba"
+	text "Misty: ¡Te estaba"
 	line "esperando,"
-	cont "¡pesado!"
+	cont "pesado!"
 
 	para "Puede que tengas"
 	line "muchas Medallas"

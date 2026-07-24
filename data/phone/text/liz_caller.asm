@@ -273,7 +273,7 @@ LizFawningOverMonText:
 	para "y… jiji… tan"
 	line "genial… sí… pero…"
 
-	para "muchísimo… ¡ay!"
+	para "muchísimo… ¡Ay!"
 	line "Y… precioso…"
 
 	para "…Abrazarlo…"

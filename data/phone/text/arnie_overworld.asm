@@ -48,8 +48,8 @@ ArniePhoneFullText:
 	text "No hay sitio"
 	line "para mi número."
 
-	para "Si haces hueco,"
-	line "¡apúntame!"
+	para "¡Si haces hueco,"
+	line "apúntame!"
 	done
 
 ArnieRematchText:

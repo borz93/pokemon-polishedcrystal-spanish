@@ -765,12 +765,12 @@ Route36AdvancedTips1Text:
 	text "¡Consejos"
 	line "avanzados!"
 
-	para "Puedes elegir"
+	para "¡Puedes elegir"
 	line "entre veinte"
 	cont "marcos de"
 	cont "diálogo y ocho"
 
-	para "¡tipos de letra"
+	para "tipos de letra"
 	line "distintos en"
 	cont "las Opciones!"
 	done
@@ -779,12 +779,12 @@ Route36AdvancedTips2Text:
 	text "¡Consejos"
 	line "avanzados!"
 
-	para "Cuidar a tus"
+	para "¡Cuidar a tus"
 	line "#mon con cortes"
 	cont "de pelo,"
 	cont "bendiciones o"
 
-	para "¡masajes puede"
+	para "masajes puede"
 	line "hacer que te"
 
 	para "ayuden en batalla"

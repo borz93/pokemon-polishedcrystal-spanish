@@ -352,9 +352,9 @@ Text_PowerPlantTutorZapCannon:
 	line "Electrocañón!"
 
 	para "No es que sea muy"
-	line "preciso, pero"
+	line "preciso, ¡pero"
 
-	para "¡pega como un"
+	para "pega como un"
 	line "camión!"
 
 	para "Solo necesito una"

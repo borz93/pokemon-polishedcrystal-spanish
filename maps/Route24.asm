@@ -215,13 +215,13 @@ Route24AdvancedTipsSignText:
 
 	para "anula los efectos"
 	line "secundarios de"
-	cont "movimientos, pero"
+	cont "movimientos, ¡pero"
 
-	para "¡también anula"
+	para "también anula"
 	line "otros efectos!"
 
 	para "¡En concreto, se"
 	line "ignora el daño"
-	cont "por llevar un"
-	cont "Vidorbe!"
+	cont "por llevar una"
+	cont "Vidasfera!"
 	done

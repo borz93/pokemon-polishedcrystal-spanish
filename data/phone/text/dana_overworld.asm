@@ -31,7 +31,7 @@ DanaNumberAcceptedText:
 	cont "me dé algo tras"
 	cont "combatir,"
 
-	para "¡lo compartiré!"
+	para "¡Lo compartiré!"
 
 	para "¿Eso me hace"
 	line "mala persona?"

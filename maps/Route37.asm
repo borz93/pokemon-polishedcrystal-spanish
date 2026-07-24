@@ -119,7 +119,7 @@ SunnyNotSundayScript:
 
 	text "Dominga: ¿No es"
 	line "hoy domingo?"
-	cont "Um… ¡lo olvidé!"
+	cont "Um… ¡Lo olvidé!"
 	done
 
 GenericTrainerBeautyCallie:
@@ -207,7 +207,7 @@ SunnySundayText:
 BeautyCallieSeenText:
 	text "Oh, ¡eres un"
 	line "entrenador"
-	cont "pequeñ y lindo!"
+	cont "joven y lindo!"
 
 	para "¿Por qué no"
 	line "combates conmigo?"
@@ -218,9 +218,9 @@ BeautyCallieBeatenText:
 	done
 
 BeautyCassandraSeenText:
-	text "Oye, oye,"
-	line "¡entrenador"
-	cont "joven!"
+	text "¡Oye, oye,"
+	line "joven"
+	cont "entrenador!"
 
 	para "¿No quieres"
 	line "combatir conmigo?"
