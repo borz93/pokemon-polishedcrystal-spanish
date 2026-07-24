@@ -94,9 +94,9 @@ BlackthornGymClairScript:
 	line "¡Hagámoslo!"
 
 	para "Como Líder de"
-	line "Gimnasio, usaré"
+	line "Gimnasio, ¡Usaré"
 
-	para "¡todo mi poder"
+	para "todo mi poder"
 	line "contra cualquier"
 	cont "rival!"
 	done

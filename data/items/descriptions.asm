@@ -1252,7 +1252,7 @@ SweetHoneyDesc:
 
 EvioliteDesc:
 	text "Sube Def./Def.Esp."
-	next "al evolucionar."
+	next "si aun evoluciona."
 	done
 
 MuscleBandDesc:

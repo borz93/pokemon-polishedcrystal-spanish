@@ -328,13 +328,15 @@ BattleText_LightScreenFell:
 	line "de"
 	cont ""
 	text_ram wStringBuffer1
-	text " cayó!"
+	text " #mon"
+	cont "ha caído!"
 	prompt
 
 BattleText_ReflectFaded:
-	text "¡El Reflejo de"
+	text "¡Reflejo de"
 	line ""
 	text_ram wStringBuffer1
+    text " #mon"
 	cont "se disipó!"
 	prompt
 

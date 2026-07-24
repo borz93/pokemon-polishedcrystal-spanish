@@ -204,7 +204,7 @@ BurnedTowerB1FEusineText:
 	para "¡Estoy muy"
 	line "emocionado!"
 
-	para "<PLAYER>, ¡todo"
+	para "<PLAYER>, ¡Todo"
 	line "esto te lo debo a"
 	cont "ti!"
 

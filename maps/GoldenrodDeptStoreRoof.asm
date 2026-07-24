@@ -284,7 +284,7 @@ GoldenrodDeptStoreRoofPokefanMText:
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, ¡todo es tan"
+	text "Oh, ¡Todo es tan"
 	line "barato!"
 
 	para "¡Compré tanto que"

@@ -116,7 +116,7 @@ TrainerHouseSign2Text:
 	line "práctica. Como en"
 	cont "el campo,"
 
-	para "¡todo vale!"
+	para "¡Todo vale!"
 	done
 
 TrainerHouseIllegibleText:
