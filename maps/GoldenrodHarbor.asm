@@ -316,15 +316,15 @@ Text_GoldenrodHarborTutorHyperVoice:
 	text "Puedo enseñarle a"
 	line "tu #mon a usar"
 
-	para "Voz Cautivadora"
+	para "Vozarrón"
 	line "por una Hoja"
 	cont "Plateada."
 	done
 
 
 Text_GoldenrodHarborTutorQuestion:
-	text "¿Le enseño Voz"
-	line "Cautivadora a tu"
+	text "¿Le enseño"
+	line "Vozarrón a tu"
 	cont "#mon?"
 	done
 
