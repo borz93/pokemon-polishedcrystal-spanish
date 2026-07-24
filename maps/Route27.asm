@@ -548,8 +548,8 @@ Bird_keeperJose1BeatenText:
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "Los Cetreros como"
-	line "yo imitamos"
+	text "Los Ornitólogos"
+	line "como yo imitamos"
 	cont "silbidos de aves"
 	cont "para dar órdenes a"
 	cont "los #mon."

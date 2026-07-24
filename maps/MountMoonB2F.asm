@@ -51,8 +51,8 @@ GenericTrainerBird_keeperMick:
 	cont "juntos."
 
 	para "Debería salir con"
-	line "otros Cetreros en"
-	cont "un lugar más"
+	line "otros Ornitólogos"
+	cont "en un lugar más"
 	cont "sensato."
 	done
 

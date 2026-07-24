@@ -304,10 +304,10 @@ RuinsOfAlphAdvancedTipsSignText:
 	line "herramienta"
 	cont "poderosa!"
 
-	para "Su mapa de área"
+	para "El mapa de área"
 	line "muestra un icono"
 
-	para "¡amarillo si hay"
+	para "amarillo si hay"
 	line "un #mon justo"
 	cont "donde estás!"
 	done

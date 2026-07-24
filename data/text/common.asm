@@ -1955,7 +1955,7 @@ _UsedSurfText::
 	text "¡"
 	text_ram wStringBuffer2
 	text_start
-	line "usó SURF!"
+	line "usó Surf!"
 	done
 
 SECTION "_CantSurfText", ROMX

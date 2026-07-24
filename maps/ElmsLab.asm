@@ -1775,8 +1775,9 @@ ElmsLabTravelTip2Text:
 
 	para "Consejo de viaje 2"
 
-	para "¡Guarda tu progreso"
-	line "con Guardar!"
+	para "¡Guarda tu"
+	line "progreso guardando"
+	cont "desde el menú!"
 	done
 
 ElmsLabTravelTip3Text:

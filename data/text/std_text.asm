@@ -110,7 +110,7 @@ NurseTheUsualText:
 	done
 
 NurseTakePokemonText:
-	text "Vale, ¿Puedo ver"
+	text "Vale, ¿uedo ver"
 	line "tus #mon?"
 	done
 

@@ -230,7 +230,7 @@ CianwoodCityFisherText:
 
 	para "Eso debe ser todo"
 	line "un récord,"
-	cont "¿Verdad?"
+	cont "¿verdad?"
 	done
 
 EusineSuicuneText:
@@ -262,7 +262,7 @@ EusineSuicuneText:
 	para "Quiero verlo"
 	line "de cerca…"
 
-	para "Ya lo he decidido."
+	para "Lo he decidido."
 
 	para "¡Voy a combatir"
 	line "contigo como"
@@ -272,7 +272,7 @@ EusineSuicuneText:
 	cont "Suicune!"
 
 	para "Vamos, <PLAYER>."
-	line "¡Combatamos ya!"
+	line "¡Combatamos!"
 	done
 
 EusineBeatenText:
@@ -283,7 +283,7 @@ EusineBeatenText:
 EusineLossText:
 	text "¡Sí!"
 
-	para "Seguro que ahora"
+	para "¡Seguro que ahora"
 	line "Suicune reconoce"
 	cont "mi grandeza!"
 	done
@@ -321,7 +321,7 @@ CianwoodGymSignText:
 
 	para "Líder: Aníbal"
 
-	para "Sus Puños Rugen"
+	para "Sus Puños Hablan"
 	line "Más que Palabras"
 	done
 
