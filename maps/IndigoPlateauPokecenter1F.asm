@@ -217,7 +217,7 @@ PlateauRivalText1:
 PlateauRivalWinText:
 	text "…"
 
-	para "Vale--perdí…"
+	para "Vale… Perdí…"
 	done
 
 PlateauRivalText2:
@@ -305,8 +305,8 @@ PlateauLyraText3:
 	line "contigo dando lo"
 	cont "mejor de mí."
 
-	para "¡Me venciste--"
-	line "ahora ve a vencer"
+	para "¡Me venciste!"
+	line "¡Ahora toca vencer"
 	cont "a la"
 	cont "Liga #mon!"
 	done

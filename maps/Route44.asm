@@ -388,7 +388,7 @@ GenericTrainerCooltrainerfCybil:
 
 	para "Combatí mucho"
 	line "para llegar a ser"
-	cont "lo que soy hoy--"
+	cont "lo que soy hoy:"
 	cont "una élite."
 	done
 

@@ -25,9 +25,9 @@ CeladonUniversityClassroom3_MapScriptHeader:
 
 CeladonUniversityClassroom3SparkText:
 	text "¡Oye! Soy Spark."
-	line "Enseño Ciencias--"
+	line "Enseño Ciencias."
 
-	para "ahora mismo,"
+	para "Ahora mismo,"
 	line "#biología."
 
 	para "Estudiamos cómo"

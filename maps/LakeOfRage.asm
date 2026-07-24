@@ -384,7 +384,7 @@ GenericTrainerCooltrainerfLois:
 	line "¿Vine aquí para"
 	cont "nada?"
 
-	para "Ya sé--¡vamos a"
+	para "Ya sé… ¡Vamos a"
 	line "combatir!"
 	done
 

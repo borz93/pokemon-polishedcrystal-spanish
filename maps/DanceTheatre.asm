@@ -185,7 +185,7 @@ Kimono_girlZukiBeatenText:
 
 Kimono_girlKuniSeenText:
 	text "Oh, eres una"
-	line "entrenadora mona."
+	line "entrenador lindo."
 	cont "¿Quieres combatir?"
 	done
 

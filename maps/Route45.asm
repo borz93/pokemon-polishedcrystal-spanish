@@ -504,8 +504,8 @@ HikerParryGivesIronText:
 
 	para "¡Sigue así!"
 
-	para "Oh, y toma esto"
-	line "--es el regalo"
+	para "Oh, y toma esto,"
+	line "es el regalo"
 
 	para "que no pudiste"
 	line "llevarte la última"

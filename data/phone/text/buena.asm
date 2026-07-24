@@ -201,7 +201,7 @@ BuenaPhoneProfessorOakText:
 	para "Así que fui y me"
 	line "presenté."
 
-	para "Fíjate--¡escucha"
+	para "¡Fíjate! ¡Escucha"
 	line "mi programa!"
 
 	para "¡Ah! ¡Aquí viene"

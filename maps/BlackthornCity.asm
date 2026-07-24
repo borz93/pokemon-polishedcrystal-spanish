@@ -262,8 +262,8 @@ BlackthornCooltrainerF1Text:
 	text "Vaya, ¿viniste por"
 	line "la Ruta Helada?"
 
-	para "¡Debes ser una"
-	line "entrenadora de"
+	para "¡Debes ser un"
+	line "entrenador de"
 	cont "verdad!"
 	done
 

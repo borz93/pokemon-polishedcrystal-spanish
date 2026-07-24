@@ -33,9 +33,9 @@ ViridianNicknameSpeechHousePokefanMText:
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "Son Hooty--un"
-	line "Hoothoot--y"
-	cont "Rattey--un"
+	text "Son Hooty, un"
+	line "Hoothoot, y"
+	cont "Rattey, un"
 	cont "Rattata."
 	done
 

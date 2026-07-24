@@ -327,9 +327,9 @@ JoWhitneyCriesText:
 	done
 
 BeautyVictoriaSeenText:
-	text "Oh, ¡eres una"
-	line "entrenadora"
-	cont "mona! ♥"
+	text "Oh, ¡eres un"
+	line "entrenador"
+	cont "lindo! ♥"
 
 	para "Me caes bien, pero"
 	line "¡no me contendré!"

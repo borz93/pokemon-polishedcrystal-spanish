@@ -145,7 +145,7 @@ RocketHideoutB4FMeetLeadersScript:
 	cont "lo importante!"
 
 	para "El instinto es la"
-	line "clave--¡confiad en"
+	line "clave… ¡Confiad en"
 	cont "vuestro olfato!"
 	done
 
@@ -172,7 +172,7 @@ RocketHideoutB4FMeetLeadersScript:
 
 .SparkIntro2Text:
 	text "Spark: ¡Cierto! El"
-	line "gran cerezo--"
+	line "gran cerezo…"
 	done
 
 .SparkIntro3Text:
@@ -468,7 +468,7 @@ RocketHideoutB4FYoungsterArdenScript:
 	text "El Team Valor"
 	line "es…"
 
-	para "¡Espera--no!"
+	para "¡Espera… No!"
 
 	para "Digo, ¡creo que"
 	line "estoy perdido!"

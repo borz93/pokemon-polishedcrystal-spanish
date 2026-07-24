@@ -191,7 +191,7 @@ Route39CowgirlAnnieScript:
 	line "con las faenas de"
 	cont "la granja…"
 
-	para "Te digo una cosa--"
+	para "Te digo una cosa:"
 	line "vence a todos los"
 
 	para "demás de Iris a"

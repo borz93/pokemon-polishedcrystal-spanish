@@ -130,7 +130,7 @@ KarenScript:
 	line "estilo. Entiendes"
 	cont "lo importante."
 
-	para "Sigue--el Campeón"
+	para "Sigue… El Campeón"
 	line "te espera."
 	done
 

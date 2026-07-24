@@ -140,7 +140,7 @@ OlivineCityYoungster1Script:
 	iffalse_jumptextfaceplayer OlivineCityStandingYoungsterPokedexText
 	jumpthistextfaceplayer
 
-	text "Eso que llevas--"
+	text "Eso que llevas"
 	line "es un #gear,"
 	cont "¿verdad? Vaya,"
 	cont "qué guay."
@@ -334,7 +334,7 @@ OlivineCitySailor3Text:
 	text "Ver al Faro"
 	line "iluminar el mar"
 
-	para "de noche--¡es"
+	para "de noche… ¡Es"
 	line "precioso!"
 	done
 

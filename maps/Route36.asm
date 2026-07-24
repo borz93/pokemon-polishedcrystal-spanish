@@ -597,8 +597,8 @@ FloriaTextAfterSquirtBottle:
 	para "¿Te prestó su"
 	line "botella de agua?"
 
-	para "¡Debes ser una"
-	line "buena entrenadora"
+	para "¡Debes ser un"
+	line "buen entrenador"
 	cont "entonces!"
 
 	para "Te dejo el árbol"

@@ -381,7 +381,7 @@ RuinsofAlphResearchCenterScientistRewardText:
 	done
 
 RuinsofAlphResearchCenterScientistInterruptedText:
-	text "Puedes--"
+	text "Puedes…"
 	done
 
 RuinsofAlphResearchCenterScientistShockedText:

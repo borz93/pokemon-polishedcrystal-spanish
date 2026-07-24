@@ -61,8 +61,8 @@ SinjohRuinsHouseCynthiaAfterText:
 	line "combate tan"
 	cont "increíble!"
 
-	para "Eres una gran"
-	line "entrenadora, y me"
+	para "Eres un gran"
+	line "entrenador, y me"
 
 	para "haría feliz"
 	line "verte de nuevo"

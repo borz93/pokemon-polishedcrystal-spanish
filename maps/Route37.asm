@@ -205,9 +205,9 @@ SunnySundayText:
 
 
 BeautyCallieSeenText:
-	text "Oh, ¡eres una"
-	line "entrenadora"
-	cont "pequeña y linda!"
+	text "Oh, ¡eres un"
+	line "entrenador"
+	cont "pequeñ y lindo!"
 
 	para "¿Por qué no"
 	line "combates conmigo?"
@@ -219,7 +219,7 @@ BeautyCallieBeatenText:
 
 BeautyCassandraSeenText:
 	text "Oye, oye,"
-	line "¡entrenadora"
+	line "¡entrenador"
 	cont "joven!"
 
 	para "¿No quieres"

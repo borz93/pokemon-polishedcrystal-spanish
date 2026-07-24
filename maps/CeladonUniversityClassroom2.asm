@@ -49,8 +49,8 @@ CeladonUniversityClassroom2TeacherText:
 CeladonUniversityClassroom2YoungsterText:
 	text "Pasando mis"
 	line "apuntes a toda"
-	cont "velocidad--¡AY!"
-	cont "Corte de papel…"
+	cont "velocidad ¡AY!"
+	cont "Corte con papel…"
 	done
 
 CeladonUniversityClassroom2ChildText:
@@ -90,7 +90,7 @@ CeladonUniversityClassroom2CooltrainermScript:
 .Text2:
 	text "Ejem."
 
-	para "Perdona--me"
+	para "Perdona… Me"
 	line "asustaste."
 
 	para "Me quedé despierto"

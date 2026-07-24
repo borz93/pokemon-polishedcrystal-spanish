@@ -105,7 +105,7 @@ KogaScript:
 	para "Los #mon no son"
 	line "solo fuerza"
 
-	para "bruta--¡lo verás"
+	para "bruta. ¡Lo verás"
 	line "pronto!"
 	done
 
