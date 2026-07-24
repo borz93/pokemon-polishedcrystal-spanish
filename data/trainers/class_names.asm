@@ -35,10 +35,10 @@ TrainerClassNames::
 	li "Chico"           ; YOUNGSTER
 	li "Cazabichos"      ; BUG_CATCHER
 	li "Campista"        ; CAMPER
-	li "Excursion."      ; PICNICKER
+	li "Dominguera"      ; PICNICKER
 	li "Gemelas"         ; TWINS
 	li "Pescador"        ; FISHER
-	li "Cetrero"         ; BIRD_KEEPER
+	li "Ornitólogo"      ; BIRD_KEEPER
 	li "Montañero"       ; HIKER
 	li "Rocket"          ; GRUNTM
 	li "Rocket"          ; GRUNTF
@@ -69,7 +69,7 @@ TrainerClassNames::
 	li "Señor"           ; GENTLEMAN
 	li "Niño Rico"       ; RICH_BOY
 	li "Dama"            ; LADY
-	li "Criador"         ; BREEDER
+	li "Cria#mon"        ; BREEDER
 	li "Pastelera"       ; BAKER
 	li "Vaquera"         ; COWGIRL
 	li "Marinero"        ; SAILOR
@@ -81,7 +81,7 @@ TrainerClassNames::
 	li "Científico"      ; ROCKET_SCIENTIST
 	li "Snowboarder"     ; BOARDER
 	li "Esquiador"       ; SKIER
-	li "Cinturón N."     ; BLACKBELT_T
+	li "Cint. Negro"     ; BLACKBELT_T
 	li "Luchadora"       ; BATTLE_GIRL
 	li "Doma Dragón"     ; DRAGON_TAMER
 	li "Ingeniero"       ; ENGINEER
@@ -113,7 +113,7 @@ TrainerClassNames::
 	li "Prof #mon"       ; PROF_OAK
 	li "Prof #mon"       ; PROF_ELM
 	li "Prof #mon"       ; PROF_IVY
-	li "Hombre Mist."    ; MYSTICALMAN
+	li "Místico"         ; MYSTICALMAN
 	li "Rey Kárate"      ; KARATE_KING
 	li "Magnate"         ; TOWERTYCOON
 	li "Líder Fábr."     ; FACTORYHEAD
