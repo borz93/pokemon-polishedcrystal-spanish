@@ -232,7 +232,7 @@ MenuDataHeader_SortTMs:
 .MenuData2:
 	db $c0 ; flags
 	db 3 ; items
-	db "número@"
+	db "Número@"
 	db "Nombre@"
 	db "Salir@"
 
