@@ -284,7 +284,7 @@ BattleText_MegaSolCharged:
 	prompt
 
 BattleText_UserChargedWithItem:
-	text "<USER>"
+	text "¡<USER>"
 	line "se cargó"
 	cont "usando"
 	cont ""
@@ -369,18 +369,17 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "¡fue derrotado!"
+	line "¡ha perdido!"
 	prompt
 
 BattleText_EnemyWereDefeated:
 	text "<ENEMY>"
-	line "¡fueron"
-	cont "derrotados!"
+	line "¡han perdido!"
 	prompt
 
 TiedAgainstText:
-	text "¡Empate contra"
-	line "<ENEMY>!"
+	text "Empate contra"
+	line "<ENEMY>"
 	prompt
 
 SentSomeToMomText:
@@ -397,7 +396,7 @@ SentHalfToMomText:
 	prompt
 
 SentAllToMomText:
-	text "¡Le envié todo"
+	text "¡Envié todo"
 	line "a mamá!"
 	prompt
 
@@ -413,8 +412,8 @@ BattleText_UseNextMon:
 	done
 
 LostAgainstText:
-	text "¡Perdiste contra"
-	line "<ENEMY>!"
+	text "Perdiste contra"
+	line "<ENEMY>"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerSwitchPkmn:
