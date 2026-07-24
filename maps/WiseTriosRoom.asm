@@ -233,9 +233,9 @@ WiseTriosRoomSage3BlocksExitText:
 	line "que Suicune,"
 
 	para "Raikou y Entei han"
-	line "despertado, te"
+	line "despertado, ¡te"
 
-	para "¡pido que te"
+	para "pido que te"
 	line "abstengas de"
 	cont "entrar!"
 	done
