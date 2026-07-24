@@ -431,8 +431,8 @@ FlameChargeDescription:
 	done
 
 AncientpowerDescription:
-	text "Ataque que puede"
-	next "subir todo."
+	text "Puede subir todas"
+	next "las caract."
 	done
 
 CloseCombatDescription:
@@ -443,7 +443,7 @@ CloseCombatDescription:
 AuroraBeamDescription:
 PlayRoughDescription:
 	text "Ataque que puede"
-	next "bajar Ataque."
+	next "reducir Ataque."
 	done
 
 RockSmashDescription:
@@ -455,7 +455,7 @@ endc
 CrunchDescription:
 IronTailDescription:
 	text "Ataque que puede"
-	next "bajar Defensa."
+	next "bajar la Defensa."
 	done
 
 BubbleBeamDescription:
@@ -528,7 +528,7 @@ WillOWispDescription:
 
 ThunderWaveDescription:
 	db   "Paraliza al"
-	next "rival.@"
+	next "rival."
 	done
 
 StunSporeDescription:
@@ -540,18 +540,18 @@ GlareDescription:
 SingDescription:
 SleepPowderDescription:
 HypnosisDescription:
-	text "Puede hacer que"
-	next "el rival duerma."
-	done
-
-SporeDescription:
-	text "Movim. que duerme"
+	text "Puede dormir"
 	next "al rival."
 	done
 
+SporeDescription:
+	text "Ataque que produce"
+	next "sueño."
+	done
+
 ToxicDescription:
-	text "Movim. Veneno con"
-	next "daño creciente."
+	text "Envenena grave"
+	next "al rival."
 	done
 
 ConfuseRayDescription:
@@ -632,24 +632,24 @@ HoneClawsDescription:
 	done
 
 GrowlDescription:
-	text "Movim. que baja"
-	next "el Ataque rival."
+	text "Baja el Ataque"
+	next "del rival."
 	done
 
 LeerDescription:
-	text "Movim. que baja"
-	next "la Defensa rival."
+	text "Baja la Defensa"
+	next "del rival."
 	done
 
 StringShotDescription:
-	text "Movim. que baja"
-	next "la Veloc. rival."
+	text "Baja la Velocidad"
+	next "del rival."
 	done
 
 SmokescreenDescription:
 FlashDescription:
-	text "Baja la"
-	next "precisión rival."
+	text "Baja la precisión"
+	next "del rival."
 	done
 
 CharmDescription:
@@ -668,13 +668,13 @@ ScaryFaceDescription:
 	done
 
 HazeDescription:
-	text "Elimina cambios"
-	next "de estad."
+	text "Elimina cambios de"
+	next "estadísticas."
 	done
 
 SafeguardDescription:
-	text "Evita todos los"
-	next "males de estado."
+	text "Evita problemas"
+	next "de estado."
 	done
 
 ReflectDescription:
@@ -689,7 +689,7 @@ LightScreenDescription:
 
 RecoverDescription:
 	text "Restaura la mitad"
-	next "del PS máx."
+	next "de los PS máx."
 	done
 
 FreshSnackDescription:
@@ -723,7 +723,7 @@ TrickRoomDescription:
 
 ExplosionDescription:
 	text "Muy potente, pero"
-	next "te deja fuera."
+	next "te debilita."
 	done
 
 EndureDescription:
@@ -733,28 +733,28 @@ EndureDescription:
 
 FalseSwipeDescription:
 	text "Deja al rival"
-	next "con 1 PS."
+	next "con al menos 1 PS."
 	done
 
 SolarBeamDescription:
-	text "Turno 1: prepara"
-	next "turno 2: ataca"
+	text "1 turno: Prepara"
+	next "2 turno: Ataca"
 	done
 
 FlyDescription:
-	text "Turno 1: vuela"
-	next "turno 2: ataca"
+	text "1 turno: Vuela"
+	next "2 turno: Ataca"
 	done
 
 HyperBeamDescription:
 GigaImpactDescription:
-	text "Turno 1: ataca"
-	next "turno 2: descansa"
+	text "1 Turno: Ataca"
+	next "2 turno: Descansa"
 	done
 
 DigDescription:
-	text "Turno 1: excava"
-	next "turno 2: ataca"
+	text "1 Turno: Cava"
+	next "2 Turno: Ataca"
 	done
 
 AcrobaticsDescription:
@@ -992,7 +992,7 @@ RageDescription:
 	done
 
 TeleportDescription:
-	text "Movim. para huir"
+	text "Sirve para huir"
 	next "del combate."
 	done
 
@@ -1057,8 +1057,8 @@ TriAttackDescription:
 	done
 
 SuperFangDescription:
-	text "Corta el PS rival"
-	next "a la mitad."
+	text "Reduce a la mitad"
+	next "los PS del rival."
 	done
 
 SubstituteDescription:
@@ -1088,7 +1088,7 @@ FacadeDescription:
 
 HyperVoiceDescription:
 	text "Ataca al rival"
-	next "con ondas de son."
+	next "con ondas de voz."
 	done
 
 CurseDescription:
@@ -1187,8 +1187,8 @@ PsystrikeDescription:
 	done
 
 PainSplitDescription:
-	text "Suma el PS de"
-	next "ambos, repartido."
+	text "Suma los PS de"
+	next "ambos, los divide."
 	done
 
 MagnitudeDescription:
