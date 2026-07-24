@@ -289,7 +289,7 @@ BillsMom:
 	iffalse_jumptextfaceplayer BillsMomText_AfterEcruteak
 	jumpthistextfaceplayer
 
-	text "Oh, ¿coleccionas"
+	text "Oh, ¿Coleccionas"
 	line "#mon? Mi hijo"
 	cont "Bill es un"
 	cont "experto."
@@ -363,7 +363,7 @@ BillsGrandpaIntroText:
 
 BillsGrandpaAskToSeeMonText:
 	text "Si tienes ese"
-	line "#mon, ¿me lo"
+	line "#mon, ¿Me lo"
 	cont "enseñas, por"
 	cont "favor?"
 	done
@@ -380,7 +380,7 @@ BillsGrandpaYouDontHaveItTextText:
 	done
 
 BillsGrandpaShownPokemonText:
-	text "Ah, ¿así que ese"
+	text "Ah, ¿Así que ese"
 	line "es "
 	text_ram wStringBuffer3
 	text "?"

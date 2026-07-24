@@ -69,7 +69,7 @@ Route38EcruteakGateOfficerText:
 	line "Primavera?"
 
 	para "El Prof. Elm vive"
-	line "por allí, ¿no?"
+	line "por allí, ¿No?"
 
 	para "Has recorrido un"
 	line "largo camino."
@@ -87,7 +87,7 @@ ProfOaksAide2HiText:
 	line "darte un objeto."
 
 	para "Así que, <PLAYER>,"
-	line "¿atrapaste al"
+	line "¿Atrapaste al"
 
 	para "menos 30 tipos de"
 	line "#mon?"

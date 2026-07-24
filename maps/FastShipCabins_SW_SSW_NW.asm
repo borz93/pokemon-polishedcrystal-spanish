@@ -77,7 +77,7 @@ GuitaristmClydeScript:
 	text "Hablando de la"
 	line "Emisora de Radio,"
 
-	para "¿cuál es el número"
+	para "¿Cuál es el número"
 	line "de la suerte de"
 	cont "esta semana?"
 	done

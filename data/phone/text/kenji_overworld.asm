@@ -21,7 +21,7 @@ KenjiAskNumber2Text:
 	line "hace difícil"
 	cont "hablar,"
 
-	para "pero ¿tomarías"
+	para "pero ¿Tomarías"
 	line "mi número?"
 	done
 

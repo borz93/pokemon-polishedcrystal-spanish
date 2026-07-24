@@ -176,7 +176,7 @@ RocketHideoutB4FMeetLeadersScript:
 	done
 
 .SparkIntro3Text:
-	text "Espera, ¿quién es"
+	text "Espera, ¿Quién es"
 	line "ese?"
 	done
 
@@ -436,7 +436,7 @@ RocketHideoutB4FBlancheScript:
 	done
 
 .RefusedText:
-	text "Hmm, ¿no te"
+	text "Hmm, ¿No te"
 	line "sientes seguro?"
 
 	para "Vuelve cuando"

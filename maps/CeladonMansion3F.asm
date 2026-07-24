@@ -181,7 +181,7 @@ GameFreakGraphicArtistPrintDiplomaText:
 	text "Soy el Artista"
 	line "Gráfico."
 
-	para "Oh, ¿completaste"
+	para "Oh, ¿Completaste"
 	line "tu #dex?"
 
 	para "¿Quieres que"

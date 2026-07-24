@@ -61,7 +61,7 @@ QuietCaveB3FMarleyScript:
 	line "…¿Y tú eres?"
 
 	para "Ah… <PLAYER>,"
-	line "¿combatirías"
+	line "¿Combatirías"
 	cont "conmigo, por"
 	cont "favor?"
 	done

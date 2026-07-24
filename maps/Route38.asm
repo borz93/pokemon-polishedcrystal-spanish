@@ -319,7 +319,7 @@ LassDana1SeenText:
 	line "dan bien los"
 	cont "#mon."
 
-	para "Si es así, ¿me"
+	para "Si es así, ¿Me"
 	line "das algún"
 	cont "consejo?"
 	done

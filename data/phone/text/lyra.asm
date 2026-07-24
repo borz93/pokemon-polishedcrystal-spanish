@@ -16,7 +16,7 @@ LyraPhoneGreetingText_Eve:
 LyraPhoneGreetingText_Nite:
 	text "…¡<PLAYER>!"
 	line "¡Buenas noches!"
-	cont "Trasnochando, ¿eh?"
+	cont "Trasnochando, ¿Eh?"
 	prompt
 
 LyraPhoneLandmarkText:
@@ -42,7 +42,7 @@ LyraPhoneIslandsText:
 
 LyraPhoneJohtoText_Generic:
 	text "Cuéntamelo todo"
-	line "luego, ¿vale?"
+	line "luego, ¿Vale?"
 	prompt
 
 LyraPhoneNextMoveQuestionText:
@@ -144,7 +144,7 @@ LyraPhoneSpecialText_FirstBadge:
 	line "contártelo,"
 	cont "<PLAYER>."
 
-	para "Ah, ¿tú tienes tu"
+	para "Ah, ¿Tú tienes tu"
 	line "primera Medalla de"
 	cont "Kanto? ¡Muy bien!"
 

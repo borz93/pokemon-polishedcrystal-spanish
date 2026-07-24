@@ -56,7 +56,7 @@ HikerJimBeatenText:
 
 PokefanmRobertSeenText:
 	text "Te gustan los"
-	line "#mon, ¿verdad?"
+	line "#mon, ¿Verdad?"
 
 	para "¡A mí también!"
 	done

@@ -136,7 +136,7 @@ CinnabarVolcano1FBuckScript:
 	line "aquí."
 
 	para "Entonces,"
-	line "<PLAYER>, ¿qué tal"
+	line "<PLAYER>, ¿Qué tal"
 	cont "si combatimos por"
 	cont "él?"
 	done

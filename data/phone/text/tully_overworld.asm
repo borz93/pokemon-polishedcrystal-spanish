@@ -1,5 +1,5 @@
 TullyAskNumber1Text:
-	text "Oye, ¿tú"
+	text "Oye, ¿Tú"
 	line "también quieres"
 	cont "ser el mejor"
 	cont "entrenador?"

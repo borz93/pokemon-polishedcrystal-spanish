@@ -255,7 +255,7 @@ BoarderBradSeenText:
 	cont "resbaladizo."
 
 	para "Es divertido,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "Pero oye, ¡no"
 	line "estamos jugando"

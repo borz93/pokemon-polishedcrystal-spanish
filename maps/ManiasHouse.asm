@@ -102,7 +102,7 @@ ManiaScript:
 	jumpthisopenedtext
 
 	text "Si recupero a mi"
-	line "#mon, ¿qué vas"
+	line "#mon, ¿Qué vas"
 
 	para "a usar en"
 	line "combate?"
@@ -139,7 +139,7 @@ ManiaText_AskLookAfterShuckie:
 	cont "preciado!"
 
 	para "Aún me queda uno,"
-	line "pero ¿y si"
+	line "pero ¿Y si"
 	cont "vuelve?"
 
 	para "Te ves fuerte."
@@ -180,7 +180,7 @@ ManiaText_CanIHaveMyMonBack:
 	line "mi #mon?"
 
 	para "Creo que ya estoy"
-	line "a salvo, ¿me lo"
+	line "a salvo, ¿Me lo"
 	cont "devuelves?"
 	done
 

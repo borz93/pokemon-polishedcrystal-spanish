@@ -432,7 +432,7 @@ IndigoPlateauYellowScript:
 
 .QuestionText:
 	text "Yellow: <PLAYER>,"
-	line "¿me haces un"
+	line "¿Me haces un"
 	cont "favor?"
 
 	para "Tengo un #mon"

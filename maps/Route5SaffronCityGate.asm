@@ -19,11 +19,11 @@ Route5SaffronCityGate_MapScriptHeader:
 
 Route5SaffronCityGateOfficerText:
 	text "Eres de Johto,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "¿Qué te parece"
 	line "Kanto? Es bonito,"
-	cont "¿no crees?"
+	cont "¿No crees?"
 	done
 
 Route5SaffronCityGateBlackBeltScript:

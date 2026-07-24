@@ -755,7 +755,7 @@ RocketBaseLanceMonMasterText:
 	cont "difícil."
 
 	para "Sabiendo eso,"
-	line "¿seguirás"
+	line "¿Seguirás"
 	cont "adelante?"
 
 	para "…"

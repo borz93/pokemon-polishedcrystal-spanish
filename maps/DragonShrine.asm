@@ -338,7 +338,7 @@ DragonShrineElderGreetingText:
 	cont "viniste."
 
 	para "Débora te envió,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "Esa chica es un"
 	line "buen lío…"

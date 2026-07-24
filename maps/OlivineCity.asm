@@ -142,7 +142,7 @@ OlivineCityYoungster1Script:
 
 	text "Eso que llevas"
 	line "es un #gear,"
-	cont "¿verdad? Vaya,"
+	cont "¿Verdad? Vaya,"
 	cont "qué guay."
 	done
 

@@ -217,7 +217,7 @@ endr
 
 RuinsOfAlphOutsideScientistText:
 	text "¿Hm? Eso es una"
-	line "#dex, ¿verdad?"
+	line "#dex, ¿Verdad?"
 	cont "¿Puedo verla?"
 
 	para "Hay tantos tipos"

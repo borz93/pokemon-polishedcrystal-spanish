@@ -9,7 +9,7 @@ ToddLooksCuteLikeMeText:
 	done
 
 ToddDefeatedMonText:
-	text "Y, ¿sabes?"
+	text "Y, ¿Sabes?"
 
 	para "Ahora podemos"
 	line "dejar K.O. a un"
@@ -23,7 +23,7 @@ ToddDefeatedMonText:
 	done
 
 ToddLostAMonText:
-	text "Y, ¿sabes? No"
+	text "Y, ¿Sabes? No"
 	line "logramos vencer"
 
 	para "a "
@@ -41,7 +41,7 @@ ToddLostAMonText:
 ToddBattleRematchText:
 	text "Debes de estar"
 	line "mucho mejor"
-	cont "ahora, ¿no?"
+	cont "ahora, ¿No?"
 
 	para "¿Qué tal si me"
 	line "enseñas tu"

@@ -1107,7 +1107,7 @@ _JustSawSomeRareMonText::
 
 	para "Avísame si veo"
 	line "otro #mon raro,"
-	cont "¿vale?"
+	cont "¿Vale?"
 	prompt
 
 SECTION "_SavingRecordText", ROMX
@@ -1190,7 +1190,7 @@ _NPCTradeCompleteText1::
 
 SECTION "_NPCTradeAfterText1", ROMX
 _NPCTradeAfterText1::
-	text "Hola, ¿cómo está"
+	text "Hola, ¿Cómo está"
 	line "mi "
 	text_ram wStringBuffer2
 	text "?"
@@ -1206,7 +1206,7 @@ _NPCTradeIntroText2::
 	text_ram wStringBuffer1
 	text ","
 
-	para "¿lo cambiarías"
+	para "¿Lo cambiarías"
 	line "por "
 	text_ram wStringBuffer2
 	text "?"
@@ -1333,7 +1333,7 @@ _MomLeavingText1::
 	para "¡Vale!"
 	line "Yo también ayudo."
 
-	para "Pero, ¿qué puedo"
+	para "Pero, ¿Qué puedo"
 	line "hacer por ti?"
 
 	para "¡Ya sé! Yo te"
@@ -1468,7 +1468,7 @@ _DayCareManIntroEggText::
 
 	para "Criaba #mon"
 	line "con mi esposa,"
-	cont "¿sabes?"
+	cont "¿Sabes?"
 
 	para "¡Nos sorprendió"
 	line "hallar un Huevo!"
@@ -1476,7 +1476,7 @@ _DayCareManIntroEggText::
 	para "¿A que es"
 	line "increíble?"
 
-	para "Bueno, ¿y si"
+	para "Bueno, ¿Y si"
 	line "cuido un #mon?"
 	done
 
@@ -1497,7 +1497,7 @@ _DayCareLadyIntroEggText::
 
 	para "Mi esposo y yo"
 	line "criábamos #mon,"
-	cont "¿sabes?"
+	cont "¿Sabes?"
 
 	para "¡Nos sorprendió"
 	line "hallar un Huevo!"
@@ -1536,7 +1536,7 @@ _RemoveMailText::
 SECTION "_LastHealthyMonText", ROMX
 _LastHealthyMonText::
 	text "Si me lo das,"
-	line "¿con qué"
+	line "¿Con qué"
 	cont "vas a luchar?"
 	prompt
 
@@ -1720,7 +1720,7 @@ _NameRaterBetterNameText::
 	line "Es un nombre"
 	cont "bastante decente."
 
-	para "Pero, ¿qué tal"
+	para "Pero, ¿Qué tal"
 	line "uno un poco"
 	cont "mejor?"
 
@@ -3253,7 +3253,7 @@ _ElmText6::
 
 SECTION "_ElmText7", ROMX
 _ElmText7::
-	text "<PLAYER>, ¿ya"
+	text "<PLAYER>, ¿Ya"
 	line "podemos empezar?"
 
 if !DEF(DEBUG)
@@ -4341,13 +4341,13 @@ _DeleterAskWhichMonText::
 SECTION "Text_DSTIsThatOK", ROMX
 Text_DSTIsThatOK::
 	text " (verano),"
-	line "¿está bien?"
+	line "¿Está bien?"
 	done
 
 SECTION "_TimeAskOkayText", ROMX
 _TimeAskOkayText::
 	text ","
-	line "¿está bien?"
+	line "¿Está bien?"
 	done
 
 SECTION "_TimesetAskDSTText", ROMX

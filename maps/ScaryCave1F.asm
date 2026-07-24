@@ -105,7 +105,7 @@ ScaryCave1FMiraScript:
 	done
 
 .ItemText:
-	text "<PLAYER>, ¿te"
+	text "<PLAYER>, ¿Te"
 	line "volviste tan"
 	cont "fuerte porque"
 

@@ -377,7 +377,7 @@ CeladonGameCornerGrampsText:
 	line "mejores para la"
 
 	para "línea de Pikachu,"
-	line "pero… ¿qué hago?"
+	line "pero… ¿Qué hago?"
 	done
 
 CeladonGameCornerPosterScript:

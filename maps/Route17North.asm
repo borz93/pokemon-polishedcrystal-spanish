@@ -63,7 +63,7 @@ OfficerfJamieDaytimeText:
 	line "en esta ruta."
 
 	para "No te metas en"
-	line "líos, ¿vale?"
+	line "líos, ¿Vale?"
 	done
 
 CyclingRoadSignText:

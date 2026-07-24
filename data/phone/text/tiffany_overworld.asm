@@ -4,7 +4,7 @@ TiffanyAskNumber1Text:
 	cont "gusta Clefairy?"
 
 	para "Son monísimos,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "¡Creo que"
 	line "podemos ser"

@@ -116,7 +116,7 @@ KukuiScript:
 	line "pareces más"
 	cont "fuerte!"
 
-	para "Oye, ¿qué tal una"
+	para "Oye, ¿Qué tal una"
 	line "revancha?"
 	done
 

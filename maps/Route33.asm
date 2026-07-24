@@ -158,7 +158,7 @@ HikerAnthony1AfterText:
 	done
 
 HikerAnthonyDunsparceText:
-	text "Oye, ¿conseguiste"
+	text "Oye, ¿Conseguiste"
 	line "un Dunsparce?"
 
 	para "Yo también atrapé"

@@ -74,7 +74,7 @@ GenericTrainerBakerMargaret:
 	text "Si un huevo rueda"
 	line "cuesta abajo,"
 
-	para "¿se convierte en"
+	para "¿Se convierte en"
 	line "huevo frito?"
 	done
 

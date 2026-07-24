@@ -401,7 +401,7 @@ Route31MailRecipientScript:
 	text "Si te quito ese"
 	line "#mon,"
 
-	para "¿qué usarás en"
+	para "¿Qué usarás en"
 	line "combate?"
 	done
 

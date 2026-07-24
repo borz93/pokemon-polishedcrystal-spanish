@@ -460,7 +460,7 @@ GenericTrainerEngineerNicolas:
 
 	para "Así que ten"
 	line "cuidado aquí,"
-	cont "¿vale, chaval?"
+	cont "¿Vale, chaval?"
 	done
 
 .SeenText:

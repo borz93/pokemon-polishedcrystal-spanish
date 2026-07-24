@@ -59,7 +59,7 @@ Route1617Gate2FTutorTrickRoomScript:
 
 	text "Mi técnica es"
 	line "bastante astuta,"
-	cont "¿no crees?"
+	cont "¿No crees?"
 	done
 
 Route1617Gate2FBinoculars1:

@@ -214,7 +214,7 @@ GiovannisCaveLyraRecognizesGiovanniText:
 	para "¡Su jefe,"
 	line "Giovanni!"
 
-	para "<PLAYER>, ¿cuándo"
+	para "<PLAYER>, ¿Cuándo"
 	line "conociste a"
 	cont "Giovanni antes…?"
 	done

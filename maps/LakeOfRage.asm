@@ -195,7 +195,7 @@ LakeOfRageLanceScript:
 	line "talento."
 
 	para "Si no te importa,"
-	line "¿podrías ayudarme"
+	line "¿Podrías ayudarme"
 	cont "a investigar?"
 	done
 
@@ -310,7 +310,7 @@ WesleyScript:
 
 .MeetText:
 	text "Marcial: Bueno,"
-	line "¿cómo estás?"
+	line "¿Cómo estás?"
 
 	para "Ya que hoy es"
 	line "miércoles,"

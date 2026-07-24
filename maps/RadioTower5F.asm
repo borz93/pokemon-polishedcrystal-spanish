@@ -68,7 +68,7 @@ Petrel1Script:
 GenericTrainerAriana1:
 	generictrainer ARIANA, ARIANA1, EVENT_BEAT_ARIANA_1, Ariana1SeenText, Ariana1BeatenText
 
-	text "<PLAYER>, ¿verdad?"
+	text "<PLAYER>, ¿Verdad?"
 
 	para "Un mocoso como tú"
 	line "no apreciará"

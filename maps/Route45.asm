@@ -472,7 +472,7 @@ HikerParry1BeatenText:
 
 HikerParryAfterBattleText:
 	text "No se me da bien"
-	line "pensar, ¿sabes?"
+	line "pensar, ¿Sabes?"
 
 	para "Así que avanzo con"
 	line "pura fuerza."

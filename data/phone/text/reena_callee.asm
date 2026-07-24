@@ -15,7 +15,7 @@ ReenaAnswerPhoneDayText:
 	text "…"
 
 	para "Ah, hola,"
-	line "<PLAYER>, ¿qué tal?"
+	line "<PLAYER>, ¿Qué tal?"
 	done
 
 ReenaAnswerPhoneNiteText:
@@ -25,7 +25,7 @@ ReenaAnswerPhoneNiteText:
 	text "…"
 
 	para "Ah, hola,"
-	line "<PLAYER>, ¿qué tal?"
+	line "<PLAYER>, ¿Qué tal?"
 	done
 
 ReenaGreetText:
@@ -56,7 +56,7 @@ ReenaGreetNiteText:
 	done
 
 ReenaGenericText:
-	text "Oye, ¿cómo"
+	text "Oye, ¿Cómo"
 	line "están tus"
 	cont "#mon?"
 

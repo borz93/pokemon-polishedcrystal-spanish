@@ -270,7 +270,7 @@ CherrygroveCity_RivalComesBack:
 GuideGentIntroText:
 	text "Eres un"
 	line "entrenador novato,"
-	cont "¿verdad? ¡Se nota!"
+	cont "¿Verdad? ¡Se nota!"
 
 	para "¡No pasa nada!"
 	line "Todos empiezan"
@@ -453,7 +453,7 @@ MysticWaterGuyTextBefore:
 	line "Mística."
 
 	para "No lo necesito,"
-	line "¿lo quieres tú?"
+	line "¿Lo quieres tú?"
 	done
 
 CherrygrovePidgeyText:

@@ -250,7 +250,7 @@ RadioTower1FReceptionistNoToursText:
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
-	text "Hola, ¿vienes por"
+	text "Hola, ¿Vienes por"
 	line "el Show del"
 	cont "Número de la"
 	cont "Suerte?"

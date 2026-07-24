@@ -974,7 +974,7 @@ Text_HeadbuttIntro:
 	done
 
 Text_HeadbuttIntro2:
-	text "Ah, ¿y si ninguno"
+	text "Ah, ¿Y si ninguno"
 	line "de tus #mon"
 	cont "sabe Golpe Cabeza?"
 

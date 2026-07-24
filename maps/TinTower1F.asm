@@ -570,7 +570,7 @@ TinTowerEusineHoOhText:
 	line "estás en Ciudad"
 	cont "Azulona,"
 
-	para "¿le dirás hola a"
+	para "¿Le dirás hola a"
 	line "mi abuelo?"
 
 	para "Seguro que"

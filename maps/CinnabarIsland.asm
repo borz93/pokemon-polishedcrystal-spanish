@@ -83,7 +83,7 @@ if !DEF(DEBUG)
 	para "Ese entrometido de"
 	line "Red me venció…"
 
-	para "Bueno, ¿qué"
+	para "Bueno, ¿Qué"
 	line "quieres? ¿Quieres"
 	cont "retarme o algo?"
 

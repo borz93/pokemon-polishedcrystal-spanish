@@ -29,7 +29,7 @@ Route1ViridianGateRockerText:
 	text "Si lo piensas"
 	line "bien,"
 
-	para "¿no vamos TODOS"
+	para "¿No vamos TODOS"
 	line "camino a Ciudad"
 	cont "Verde?"
 	done

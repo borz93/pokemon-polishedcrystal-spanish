@@ -145,7 +145,7 @@ Museum2FTeacherText:
 	cont "museo tanto como"
 	cont "esperaba."
 
-	para "Niños, ¿eh?"
+	para "Niños, ¿Eh?"
 	done
 
 Museum2FPokefanMMetricText:

@@ -126,7 +126,7 @@ GenericTrainerAromaLadyHeather:
 
 .BeatenText:
 	text "Un combate"
-	line "precioso, ¿pero"
+	line "precioso, ¿Pero"
 	cont "qué hay de las"
 	cont "flores?"
 	done
@@ -201,6 +201,6 @@ RockyBeachWilhomenaScript:
 	line "encontraré entre"
 	cont "los árboles…"
 
-	para "Oh, ¿qué debería"
+	para "Oh, ¿Qué debería"
 	line "hacer…?"
 	done

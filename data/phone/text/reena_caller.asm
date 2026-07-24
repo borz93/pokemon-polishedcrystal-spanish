@@ -59,7 +59,7 @@ ReenaBattleRematchText:
 	text "!"
 
 	para "No me hagas"
-	line "esperar, ¿vale?"
+	line "esperar, ¿Vale?"
 	done
 
 ReenaHangUpText:

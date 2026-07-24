@@ -47,7 +47,7 @@ ShamoutiIslandAlolanExeggutorScript:
 
 	text "El árbol raro"
 	line "está…"
-	cont "¿profundamente"
+	cont "¿Profundamente"
 	cont "dormido?"
 
 	para "¿Será un #mon?"

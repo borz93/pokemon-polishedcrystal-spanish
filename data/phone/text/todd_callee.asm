@@ -41,7 +41,7 @@ ToddGreetDayText:
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAYER>, ¿qué"
+	para "<PLAYER>, ¿Qué"
 	line "haces?"
 	done
 

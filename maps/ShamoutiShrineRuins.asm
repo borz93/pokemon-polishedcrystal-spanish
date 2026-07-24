@@ -102,7 +102,7 @@ ShamoutiShrineRuinsLawrenceScript:
 	line "#mon no son"
 	cont "solo una"
 	cont "colección para"
-	cont "ti, ¿verdad?"
+	cont "ti, ¿Verdad?"
 
 	para "Los tratas casi"
 	line "como amigos."

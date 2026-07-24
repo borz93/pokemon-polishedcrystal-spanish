@@ -74,7 +74,7 @@ ShamoutiHotel1FArtistScript:
 	line "no es lo más"
 	cont "guay que hay?"
 
-	para "Bueno, ¿qué es lo"
+	para "Bueno, ¿Qué es lo"
 	line "más guay ahora?"
 	done
 

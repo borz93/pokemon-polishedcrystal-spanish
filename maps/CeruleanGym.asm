@@ -244,7 +244,7 @@ CeruleanGymGruntBacksAwayMovement:
 CeruleanGymGruntIntroText:
 	text "¡Uy! ¡Yo lo"
 	line "siento mucho! Tú"
-	cont "no herido, ¿ok?"
+	cont "no herido, ¿Ok?"
 
 	para "Yo muy ocupado."
 	line "No hay tiempo"
@@ -262,12 +262,12 @@ CeruleanGymGruntBigMistakeText:
 
 CeruleanGymGruntByeText:
 	text "¡Oye, tú! Olvidar"
-	line "que me viste, ¿ok?"
+	line "que me viste, ¿Ok?"
 
 	para "Tú no ver, no oír,"
 	line "no saber nada,"
 
-	para "¿ok?"
+	para "¿Ok?"
 	line "¡Adiós, niño!"
 	cont "¡Nada de nada!"
 

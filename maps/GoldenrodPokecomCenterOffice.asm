@@ -65,7 +65,7 @@ AdminLunaText:
 
 	para "alguien de otra"
 	line "región por"
-	cont "primera vez, ¿no"
+	cont "primera vez, ¿No"
 	cont "te impresionó?"
 
 	para "¡Yo construí el"

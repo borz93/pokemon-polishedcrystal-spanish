@@ -386,7 +386,7 @@ MrPokemonText_GimmeTheScale:
 	line "único en su tipo!"
 	cont "Lo, lo quiero…"
 
-	para "<PLAYER>, ¿te"
+	para "<PLAYER>, ¿Te"
 	line "importaría"
 	cont "cambiármela?"
 

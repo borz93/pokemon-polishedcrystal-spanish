@@ -490,6 +490,6 @@ Text_Route35NationalParkGateTutorQuestion:
 	text "Solo necesito una"
 	line "Hoja Plateada,"
 
-	para "¿puedo enseñar"
+	para "Ppuedo enseñar"
 	line "Encanto? ¿Porfa?"
 	done

@@ -72,7 +72,7 @@ CeladonUniversityCafeteriaCoreyScript:
 	cont "matricularas aquí."
 
 	para "Pero tienes otras"
-	line "metas, ¿verdad?"
+	line "metas, ¿Verdad?"
 	done
 
 .IntroText1:

@@ -253,7 +253,7 @@ YoungsterJoey1AfterText:
 
 YoungsterMikeySeenText:
 	text "Eres entrenador"
-	line "de #mon, ¿no?"
+	line "de #mon, ¿No?"
 
 	para "¡Pues tienes que"
 	line "combatir!"
@@ -364,7 +364,7 @@ YoungsterJoeyText_GiveHPUpAfterBattle:
 
 	para "Para ser aún más"
 	line "fuerte, úsalo,"
-	cont "¿vale?"
+	cont "¿Vale?"
 
 	para "Yo también voy a"
 	line "ser más fuerte."

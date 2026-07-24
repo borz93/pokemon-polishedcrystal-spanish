@@ -269,7 +269,7 @@ TrainerOfficerDirk:
 	cont "manera."
 
 	para "Pero no te pases,"
-	line "¿vale?"
+	line "¿Vale?"
 	done
 
 .NotNight:

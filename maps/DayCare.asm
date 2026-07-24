@@ -298,7 +298,7 @@ DayCareManText_GiveOddEgg:
 
 	para "Estaba criando"
 	line "#mon con mi"
-	cont "esposa, ¿sabes?"
+	cont "esposa, ¿Sabes?"
 
 	para "¡Nos sorprendimos"
 	line "al encontrar un"
@@ -307,7 +307,7 @@ DayCareManText_GiveOddEgg:
 	para "¿No es"
 	line "increíble?"
 
-	para "Bueno, ¿no"
+	para "Bueno, ¿No"
 	line "querrías este"
 	cont "Huevo?"
 

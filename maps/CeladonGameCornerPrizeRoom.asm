@@ -238,14 +238,14 @@ CeladonPrizeRoom_AskWhichPrizeText:
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "Vale, ¿querías un"
+	text "Vale, ¿Quieres un"
 	line ""
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_ConfirmTMPurchaseText:
-	text "Vale, ¿querías"
+	text "Vale, ¿Querías"
 	line ""
 	text_ram wStringBuffer3
 	text "?"

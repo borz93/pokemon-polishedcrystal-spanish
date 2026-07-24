@@ -256,7 +256,7 @@ SSAquaGrandpaTravellingText:
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "Capitán, ¿juegas"
+	text "Capitán, ¿Juegas"
 	line "conmigo, por"
 	cont "favor?"
 
@@ -338,7 +338,7 @@ PsychicRodneyBeatenText:
 PokefanmJeremySeenText:
 	text "¿Qué te parece?"
 	line "Mis #mon son"
-	cont "preciosos, ¿no?"
+	cont "preciosos, ¿No?"
 	done
 
 PokefanmJeremyBeatenText:

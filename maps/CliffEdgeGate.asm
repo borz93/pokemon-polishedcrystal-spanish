@@ -89,7 +89,7 @@ ProfOaksAide3HiText:
 	line "darte un objeto."
 
 	para "Así que, <PLAYER>,"
-	line "¿atrapaste al"
+	line "¿Atrapaste al"
 
 	para "menos 45 tipos de"
 	line "#mon?"

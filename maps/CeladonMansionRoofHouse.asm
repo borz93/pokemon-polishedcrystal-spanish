@@ -56,7 +56,7 @@ CeladonMansionRoofHousePharmacistScript:
 
 	para "Vuelve después"
 	line "del atardecer,"
-	cont "¿vale?"
+	cont "¿Vale?"
 	done
 
 .StoryText:

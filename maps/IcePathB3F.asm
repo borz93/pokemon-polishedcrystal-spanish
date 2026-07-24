@@ -104,7 +104,7 @@ LoreleiGiveIcyRock:
 
 LoreleiRematchAfterText:
 	text "Tu viaje no ha"
-	line "terminado, ¿sabes?"
+	line "terminado, ¿Sabes?"
 
 	para "Puedes ganar más"
 	line "Medallas en Kanto,"

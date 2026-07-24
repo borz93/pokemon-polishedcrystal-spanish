@@ -67,7 +67,7 @@ TrainerSwimmerfMarina:
 .SeenText:
 	text "Si quedaras varado"
 	line "en una isla"
-	cont "desierta, ¿qué"
+	cont "desierta, ¿Qué"
 
 	para "tres cosas te"
 	line "llevarías?"

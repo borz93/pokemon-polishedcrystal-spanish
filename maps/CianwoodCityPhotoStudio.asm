@@ -51,7 +51,7 @@ CianwoodPhotoStudioFishingGuruScript:
 	jumpthisopenedtext
 
 	text "Vuelve pronto,"
-	line "¿vale?"
+	line "¿Vale?"
 	done
 
 .NoPicture:

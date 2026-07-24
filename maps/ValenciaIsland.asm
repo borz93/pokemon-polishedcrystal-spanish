@@ -48,7 +48,7 @@ ValenciaIslandYoungsterScript:
 
 	text "La Prof. Ivy"
 	line "está buenísima,"
-	cont "¿no crees?"
+	cont "¿No crees?"
 	done
 
 .Text2:

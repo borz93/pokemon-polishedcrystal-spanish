@@ -60,7 +60,7 @@ GenericTrainerBeautyRachael:
 	line "ciencia médica es"
 
 	para "increíble,"
-	line "¿no crees?"
+	line "¿No crees?"
 	done
 
 SafariZoneNorthCooltrainerFScript:

@@ -29,7 +29,7 @@ FishingDudeText:
 	cont "grande del mundo."
 
 	para "Si no te importa,"
-	line "¿podrías"
+	line "¿Podrías"
 	cont "enseñarle los"
 
 	para "Magikarp que"

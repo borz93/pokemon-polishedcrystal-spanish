@@ -196,7 +196,7 @@ SoulHouseSignText:
 
 LavenderTownPokefanMText:
 	text "Menudo edificio,"
-	line "¿eh?"
+	line "¿Eh?"
 
 	para "Es la Torre Radio"
 	line "de Kanto."

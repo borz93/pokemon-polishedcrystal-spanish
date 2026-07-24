@@ -128,7 +128,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	done
 
 .Text4:
-	text "Aunque perdí, ¿es"
+	text "Aunque perdí, ¿Es"
 	line "tan malo?"
 	done
 
@@ -140,7 +140,7 @@ CeladonUniversityClassroom1ImakuniScript:
 	line "así que no le"
 
 	para "digas a nadie que"
-	line "perdí, ¿vale?"
+	line "perdí, ¿Vale?"
 	done
 
 CeladonUniversityClassroom1AndyText:

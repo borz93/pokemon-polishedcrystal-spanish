@@ -179,7 +179,7 @@ SaffronGymGuyScript:
 
 	para "con #mon de"
 	line "tipo Psíquico,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "¡Espero grandes"
 	line "cosas de ti!"

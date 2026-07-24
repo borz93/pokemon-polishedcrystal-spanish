@@ -62,11 +62,11 @@ BeautyCharlotteScript:
 .AfterText:
 	text "Qué guay tener"
 	line "un #mon tan"
-	cont "especial, ¿no?"
+	cont "especial, ¿No?"
 	done
 
 .GreetingText:
-	text "Ah, ¿eres"
+	text "Ah, ¿Eres"
 	line "entrenador?"
 
 	para "¡Llegas en el"

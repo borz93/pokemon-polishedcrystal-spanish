@@ -164,7 +164,7 @@ TrainerSwimmermMalcolm:
 	line "visitas muchos"
 
 	para "Gimnasios"
-	line "#mon, ¿verdad?"
+	line "#mon, ¿Verdad?"
 	done
 
 .SeenText:
@@ -247,7 +247,7 @@ GenericTrainerBeautyVeronica:
 .BeatenText:
 	text "Trátalos mal para"
 	line "que sigan"
-	cont "interesados, ¿no?"
+	cont "interesados, ¿No?"
 	done
 
 GenericTrainerGentlemanCamus:

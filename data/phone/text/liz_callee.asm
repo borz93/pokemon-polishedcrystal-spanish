@@ -60,7 +60,7 @@ LizGenericText:
 	line "así que te"
 	cont "llamé."
 
-	para "Bueno, ¿cómo"
+	para "Bueno, Cómo"
 	line "están tus #mon?"
 
 	para "Yo llevo a mi"

@@ -73,7 +73,7 @@ FarmerMScript_SellMilk:
 
 	text "¿No lo quieres?"
 	line "Vuelve otro día,"
-	cont "¿eh?"
+	cont "¿Eh?"
 	done
 
 .NotEnoughMoney:

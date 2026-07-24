@@ -7,7 +7,7 @@ MomPhoneGreetingText:
 	done
 
 MomPhoneLandmarkText:
-	text "Ah, ¿estás en"
+	text "Ah, ¿Estás en"
 	line ""
 	text_ram wStringBuffer3
 	text "…"

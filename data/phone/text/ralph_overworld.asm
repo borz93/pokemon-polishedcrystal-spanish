@@ -8,7 +8,7 @@ RalphAskNumber1Text:
 
 	para "A los jóvenes"
 	line "os gusta eso,"
-	cont "¿no?"
+	cont "¿No?"
 
 	para "¿Intercambiamos"
 	line "números?"

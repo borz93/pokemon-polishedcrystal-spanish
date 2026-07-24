@@ -155,7 +155,7 @@ CeladonEusineText1:
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, ¿te has"
+	text "<PLAYER>, ¿Te has"
 	line "enterado?"
 
 	para "Hay nuevos rumores"

@@ -54,7 +54,7 @@ VermilionPokeCenter1FSightseerMScript:
 	line "oportunidad"
 	cont "fantástica,"
 
-	para "¿pero cómo lo"
+	para "¿Pero cómo lo"
 	line "despiertas?"
 	done
 

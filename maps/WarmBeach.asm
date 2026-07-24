@@ -173,7 +173,7 @@ WarmBeachLadyText:
 	para "Eso es lo que dice"
 	line "este folleto,"
 
-	para "¿pero para qué"
+	para "¿Pero para qué"
 	line "sirven?"
 	done
 

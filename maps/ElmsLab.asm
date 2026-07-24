@@ -1027,7 +1027,7 @@ ElmText_MissionFromMrPokemon:
 
 	para "¡Ya sé!"
 
-	para "<PLAYER>, ¿podéis"
+	para "<PLAYER>, ¿Podéis"
 	line "ir en nuestro"
 	cont "lugar?"
 	done
@@ -1153,7 +1153,7 @@ ElmAfterTheftText1:
 	text "Elm: <PLAYER>, esto"
 	line "es terrible…"
 
-	para "Ah, sí, ¿cuál era"
+	para "Ah, sí, ¿Cuál era"
 	line "el gran descubri-"
 	cont "miento del Sr."
 	cont "#mon?"
@@ -1184,7 +1184,7 @@ if !DEF(DEBUG)
 	para "¿El Prof. Oak te"
 	line "dio una #dex?"
 
-	para "<PLAYER>, ¿es eso"
+	para "<PLAYER>, ¿Ss eso"
 	line "cierto? ¡E-eso es"
 	cont "increíble!"
 
@@ -1269,7 +1269,7 @@ ElmAideHasEggText:
 	done
 
 ElmWaitingEggHatchText:
-	text "Elm: Oye, ¿ha"
+	text "Elm: Oye, ¿Ha"
 	line "cambiado el Huevo?"
 	done
 

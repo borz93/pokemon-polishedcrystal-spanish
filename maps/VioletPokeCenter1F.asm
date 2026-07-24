@@ -122,7 +122,7 @@ VioletPokeCenter1FElmsAideScript:
 	done
 
 .QuestionText:
-	text "<PLAYER>, ¿aceptas"
+	text "<PLAYER>, ¿Aceptas"
 	line "el Huevo?"
 	done
 

@@ -141,7 +141,7 @@ CeladonMansionManagerScript:
 	done
 
 .LikedFlavorText:
-	text "Ahora, ¿qué sabor"
+	text "Ahora, ¿Qué sabor"
 	line "le gusta a "
 	text_ram wStringBuffer1
 	cont "?"

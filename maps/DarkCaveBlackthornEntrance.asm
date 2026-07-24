@@ -55,5 +55,5 @@ DarkCaveBlackthornEntrancePharmacistScript:
 	para "Te daré unas"
 	line "Gafas Negras,"
 	cont "así que olvida"
-	cont "que me viste, ¿ok?"
+	cont "que me viste, ¿Ok?"
 	done

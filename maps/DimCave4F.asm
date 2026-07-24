@@ -106,7 +106,7 @@ GenericTrainerScientistNigel:
 	cont "en eléctrica."
 
 	para "Fascinante,"
-	line "¿verdad?"
+	line "¿Verdad?"
 	done
 
 .SeenText:

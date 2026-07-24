@@ -89,7 +89,7 @@ GenericTrainerGruntM2:
 	generictrainer GRUNTM, 2, EVENT_BEAT_ROCKET_GRUNTM_2, GruntM2SeenText, GruntM2BeatenText
 
 	text "Necesitamos el"
-	line "dinero, ¿pero"
+	line "dinero, ¿Pero"
 	cont "vender Colas de"
 	cont "Slowpoke?"
 

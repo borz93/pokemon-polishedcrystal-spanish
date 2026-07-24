@@ -292,7 +292,7 @@ SrandjrJoandcath1SeenText:
 	para "¡tendrás que"
 	line "pasar por mí!"
 
-	para "Cath, ¿sonó eso"
+	para "Cath, ¿Sonó eso"
 	line "guay?"
 	done
 
@@ -337,7 +337,7 @@ BeautyVictoriaSeenText:
 
 BeautyVictoriaBeatenText:
 	text "Veamos… Vaya,"
-	line "¿ya se acabó?"
+	line "¿Ya se acabó?"
 	done
 
 BeautySamanthaSeenText:

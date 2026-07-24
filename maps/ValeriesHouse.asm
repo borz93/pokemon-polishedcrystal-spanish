@@ -79,7 +79,7 @@ ValeriesHouseValerieText:
 
 	para "Siempre he querido"
 	line "ser un #mon,"
-	cont "¿sabes?"
+	cont "¿Sabes?"
 
 	para "Ese deseo es mi"
 	line "inspiración y lo"

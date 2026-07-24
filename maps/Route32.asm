@@ -335,7 +335,7 @@ Route32LyraIntroducesHiddenGrottoesMainScript:
 	done
 
 .QuestionText:
-	text "<PLAYER>, ¿oíste"
+	text "<PLAYER>, ¿Oíste"
 	line "eso?"
 
 	para "Vino de algún"
@@ -792,7 +792,7 @@ Route32CooltrainerMText_WhatsTheHurry:
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, ¿verdad?"
+	text "<PLAYER>, ¿Verdad?"
 	line "Un tipo con gafas"
 
 	para "te estaba"

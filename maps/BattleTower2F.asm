@@ -54,7 +54,7 @@ BattleTower2FCherylScript:
 		line "<PLAYER>."
 
 		para "Ha pasado mucho"
-		line "tiempo… ¿verdad?"
+		line "tiempo… ¿Verdad?"
 
 		para "¿Te gustaría"
 		line "tener un combate"
@@ -97,7 +97,7 @@ BattleTower2FCherylScript:
 	line "combates, más"
 	cont "descubres."
 
-	para "Pero, ¿sabes? ¡Por"
+	para "Pero, ¿Sabes? ¡Por"
 	line "eso también amo a"
 	cont "los #mon!"
 	done
@@ -119,7 +119,7 @@ BattleTower2FCherylScript:
 	line "agotarían si"
 
 	para "combatiéramos todo"
-	line "el rato, ¿no"
+	line "el rato, ¿No"
 	cont "crees?"
 	done
 
@@ -174,7 +174,7 @@ BattleTower2FRileyScript:
 	line "hubiéramos"
 	cont "conocido."
 
-	para "O, ¿nos hubiéramos"
+	para "O, ¿Nos hubiéramos"
 	line "encontrado en otro"
 	cont "lugar?"
 	done
@@ -396,7 +396,7 @@ BattleTower2FAnabelScript:
 	setflag ENGINE_ANABEL_DONE_TODAY
 	writethistext
 		text "Empecemos,"
-		line "¿te parece?"
+		line "¿Te parece?"
 		done
 	waitbutton
 	closetext
@@ -457,7 +457,7 @@ BattleTower2FTwinText:
 
 	para "No es que yo tenga"
 	line "que combatir en"
-	cont "persona, ¿sabes?"
+	cont "persona, ¿Sabes?"
 	done
 
 BattleTower2FSuperNerdText:

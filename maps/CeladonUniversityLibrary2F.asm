@@ -101,7 +101,7 @@ CeladonUniversityLibrary2FSuper_nerdText:
 	line "todos los"
 	cont "ordenadores!"
 
-	para "Mmm, ¿qué"
+	para "Mmm, ¿Qué"
 	line "envío…?"
 
 	para "“¡Pizza gratis en"

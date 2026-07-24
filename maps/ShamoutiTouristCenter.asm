@@ -123,7 +123,7 @@ endc
 	line "impresionado."
 
 	para "De todos modos,"
-	line "¿empezamos?"
+	line "¿Empezamos?"
 	done
 
 .SeenText:

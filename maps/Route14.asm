@@ -88,7 +88,7 @@ GenericTrainerBird_keeperRoy:
 	text "Tienes #mon que"
 	line "conocen la MO"
 
-	para "Vuelo, ¿verdad?"
+	para "Vuelo, ¿Verdad?"
 	line "Te envidio."
 	done
 

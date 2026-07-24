@@ -463,7 +463,7 @@ RadioTower2FBuenaComeBackAfterListeningText:
 	text "Buena: Vuelve"
 	line "cuando escuches"
 
-	para "mi programa, ¿va?"
+	para "mi programa, ¿Ok?"
 	line "¡Hasta luego!"
 	done
 
@@ -580,7 +580,7 @@ RadioTower2FBuenaOfferPhoneNumberText:
 
 RadioTower2FBuenaOfferNumberAgainText:
 	text "Buena: <PLAYER>,"
-	line "¿quieres"
+	line "¿Quieres"
 	cont "registrar mi"
 
 	para "número de"

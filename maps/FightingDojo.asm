@@ -514,7 +514,7 @@ JasmineText_Greeting:
 	line "¿Cómo estás?"
 	cont "Yo estoy bien…"
 
-	para "Bueno, ¿estás"
+	para "Bueno, ¿Estás"
 	line "lista para"
 	cont "luchar de nuevo?"
 	done

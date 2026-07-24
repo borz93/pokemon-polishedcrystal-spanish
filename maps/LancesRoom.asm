@@ -346,7 +346,7 @@ LanceScript:
 	line "está volviendo un"
 	cont "poco ruidoso…"
 
-	para "<PLAYER>, ¿podrías"
+	para "<PLAYER>, ¿Podrías"
 	line "venir conmigo?"
 	done
 

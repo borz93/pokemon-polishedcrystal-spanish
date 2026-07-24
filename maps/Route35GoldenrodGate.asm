@@ -173,8 +173,8 @@ Route35GoldenrodGateRandySomethingForYourTroubleText:
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
 	text "Mi amigo estaba"
-	line "dormitando, ¿a que"
-	cont "sí? Je, ¿qué te"
+	line "dormitando, ¿A que"
+	cont "sí? Je, ¿Qué te"
 	cont "dije?"
 	done
 

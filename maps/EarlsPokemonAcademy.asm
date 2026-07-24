@@ -220,7 +220,7 @@ AcademyEarlTeachHowToWinText:
 	done
 
 AcademyEarlTeachMoreText:
-	text "Entonces, ¿saber"
+	text "Entonces, ¿Saber"
 	line "quieres cómo"
 	cont "criar bien a"
 	cont "#mon?"

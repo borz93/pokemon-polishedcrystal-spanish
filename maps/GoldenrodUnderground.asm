@@ -800,7 +800,7 @@ GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "Bien, ¿en qué"
+	text "Bien, ¿En qué"
 	line "#mon trabajo?"
 	done
 

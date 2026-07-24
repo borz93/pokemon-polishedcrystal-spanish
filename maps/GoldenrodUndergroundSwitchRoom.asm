@@ -359,7 +359,7 @@ UndergroundRivalBeforeText:
 	para "…Espera un"
 	line "momento. Me"
 	cont "venciste antes,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "Eso fue solo"
 	line "chiripa."
@@ -379,7 +379,7 @@ UndergroundRivalWinText:
 	para "No aflojé el"
 	line "ritmo."
 
-	para "Entonces, ¿por qué"
+	para "Entonces, ¿Por qué"
 	line "pierdo?"
 	done
 
@@ -463,7 +463,7 @@ GruntM13SeenText:
 	done
 
 GruntM13BeatenText:
-	text "¡Argh! Sí, ¿te"
+	text "¡Argh! Sí, ¿Te"
 	line "crees muy chulo?"
 	done
 

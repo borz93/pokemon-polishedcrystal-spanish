@@ -20,7 +20,7 @@ Route11Gate_MapScriptHeader:
 Route11GateOfficerText:
 	text "Cuando atrapas"
 	line "muchos #mon,"
-	cont "¿no es difícil"
+	cont "¿No es difícil"
 	cont "pensar nombres?"
 
 	para "En Pueblo Lavanda"

@@ -73,7 +73,7 @@ TrainerSwimmermLucas:
 	line "opuestos al sol en"
 	cont "el cielo."
 
-	para "Interesante, ¿eh?"
+	para "Interesante, ¿Eh?"
 	done
 
 .SeenText:
@@ -120,7 +120,7 @@ GenericTrainerSwimmerfStephanie:
 	cont "agua que en el"
 	cont "aire."
 
-	para "Curioso, ¿verdad?"
+	para "Curioso, ¿Verdad?"
 	done
 
 .SeenText:
@@ -145,7 +145,7 @@ TrainerBird_keeperPowell:
 	line "que puedo llegar"
 	cont "a casa igual."
 
-	para "Conveniente, ¿eh?"
+	para "Conveniente, ¿Eh?"
 	done
 
 .SeenText:
@@ -232,7 +232,7 @@ GenericTrainerLassLayla:
 
 .SeenText:
 	text "Si tuvieras un"
-	line "deseo, ¿cuál"
+	line "deseo, ¿Cuál"
 	cont "sería?"
 	done
 
@@ -270,7 +270,7 @@ GenericTrainerCoupleFoxandrae2:
 	done
 
 .SeenText:
-	text "Rae: Oye Fox, ¿por"
+	text "Rae: Oye Fox, ¿Por"
 	line "qué no combatimos?"
 	done
 

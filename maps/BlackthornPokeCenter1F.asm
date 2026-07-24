@@ -96,7 +96,7 @@ ProfOaksAide4Script:
 	line "darte un objeto."
 
 	para "Así que, <PLAYER>,"
-	line "¿atrapaste al"
+	line "¿Atrapaste al"
 
 	para "menos 60 tipos de"
 	line "#mon?"

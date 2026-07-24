@@ -96,7 +96,7 @@ NurseTrainerStarText:
 	cont "impresionante."
 
 	para "Por favor,"
-	line "<PLAYER>, ¿puedo"
+	line "<PLAYER>, ¿Puedo"
 	cont "curar a tu"
 	cont "#mon?"
 	done
@@ -106,11 +106,11 @@ NurseTheUsualText:
 	line "verte, <PLAYER>!"
 
 	para "Lo de siempre,"
-	line "¿verdad?"
+	line "¿Verdad?"
 	done
 
 NurseTakePokemonText:
-	text "Vale, ¿puedo ver"
+	text "Vale, ¿Puedo ver"
 	line "tus #mon?"
 	done
 

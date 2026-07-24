@@ -339,7 +339,7 @@ RocketBaseRivalText:
 	line "iba a destruir al"
 	cont "Team Rocket?"
 
-	para "…Dime, ¿quién era"
+	para "…Dime, ¿Quién era"
 	line "el tipo de la capa"
 
 	para "que usaba"

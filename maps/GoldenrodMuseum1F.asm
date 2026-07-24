@@ -129,7 +129,7 @@ GoldenrodMuseum1FRocketScoutText1:
 	line "costaría bastante"
 	cont "caro."
 
-	para "Ahora… ¿cómo lo"
+	para "Ahora… ¿Cómo lo"
 	line "saco de aquí"
 
 	para "sin que me"

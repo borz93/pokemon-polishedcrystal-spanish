@@ -141,7 +141,7 @@ PokemonFanClubChairmanRapidashText:
 	cont "insoportablemente…"
 	cont "y además…"
 	cont "increíble… oh…"
-	cont "¿verdad que sí?…"
+	cont "¿Verdad que sí?…"
 	cont "Demasiado…"
 	cont "salvaje…"
 	cont "precioso… tierno…"

@@ -229,7 +229,7 @@ MomRunningShoesText:
 	para "por el horario"
 	line "de verano."
 
-	para "Por cierto, ¿sabes"
+	para "Por cierto, ¿Sabes"
 	line "cómo usar tus"
 
 	para "Zapatillas"
@@ -253,7 +253,7 @@ MomInstructionsText:
 
 MomOutroText:
 	text "Vaya, son muy"
-	line "prácticas, ¿no?"
+	line "prácticas, ¿No?"
 	done
 
 MomErrandText:
@@ -331,7 +331,7 @@ NeighborScript:
 	done
 
 .NeighborText:
-	text "<PLAYER>, ¿te has"
+	text "<PLAYER>, ¿Te has"
 	line "enterado?"
 
 	para "Mi hija está"

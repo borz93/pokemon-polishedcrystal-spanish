@@ -232,7 +232,7 @@ CatchingTutorialGoodbyeText:
 	done
 
 Route29YoungsterText:
-	text "Oye, ¿cómo están"
+	text "Oye, ¿Cómo están"
 	line "tus #mon?"
 
 	para "Si están débiles"

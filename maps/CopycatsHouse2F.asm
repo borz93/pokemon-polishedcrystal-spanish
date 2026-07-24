@@ -382,7 +382,7 @@ CopycatsDodrioScript:
 	jumpthisopenedtext
 
 	text "Espejito,"
-	line "espejito, ¿quién"
+	line "espejito, ¿Quién"
 	cont "es la más hermosa"
 	cont "de todas?"
 	done

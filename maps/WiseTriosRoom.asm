@@ -73,7 +73,7 @@ TrainerElderGaku:
 	endifjustbattled
 	jumpthistextfaceplayer
 
-	text "Ah, ¿así que eres"
+	text "Ah, ¿Así que eres"
 	line "tú quien afirma"
 
 	para "haber visto a"

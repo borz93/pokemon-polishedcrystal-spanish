@@ -135,7 +135,7 @@ BattleTowerOutsideAnabelScript:
 
 .YesText:
 	text "Empecemos,"
-	line "¿de acuerdo?"
+	line "¿De acuerdo?"
 	done
 
 .NoText:

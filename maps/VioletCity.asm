@@ -169,7 +169,7 @@ Text_EarlAsksIfYouBeatFalkner:
 	cont "entrenador?"
 
 	para "Combate Líder de"
-	line "Gimnasio, ¿ganar"
+	line "Gimnasio, ¿Ganar"
 	cont "tú hiciste?"
 	done
 
@@ -216,7 +216,7 @@ VioletCityLassText:
 	done
 
 VioletCityCooltrainerM1Text:
-	text "Oye, ¿eres"
+	text "Oye, ¿Eres"
 	line "entrenador"
 	cont "#mon?"
 

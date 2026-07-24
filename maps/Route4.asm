@@ -36,7 +36,7 @@ GenericTrainerYoungsterOliver:
 
 	para "eso es lo que"
 	line "hacen los niños,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 	done
 
 GenericTrainerLassJennifer:

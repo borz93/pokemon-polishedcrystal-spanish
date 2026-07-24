@@ -210,7 +210,7 @@ PicnickerTanyaSeenText:
 	done
 
 PicnickerTanyaBeatenText:
-	text "Oh, ¿eso es todo?"
+	text "Oh, ¿Eso es todo?"
 	done
 
 BeautyJuliaSeenText:

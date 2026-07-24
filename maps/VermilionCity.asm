@@ -317,7 +317,7 @@ LawrenceIntroText:
 	line "pero no encontré"
 	cont "el que buscaba."
 
-	para "Oh, ¿te has"
+	para "Oh, ¿Te has"
 	line "encontrado con"
 	cont "#mon fuera de"
 	cont "las leyendas de"

@@ -2,7 +2,7 @@ TiffanyMonIsAdorableText:
 	text "Mi "
 	text_ram wStringBuffer4
 	text " es"
-	line "adorable, ¿no"
+	line "adorable, ¿No"
 
 	para "crees? Siempre"
 	line "duermo con él,"
@@ -56,7 +56,7 @@ TiffanyBattleRematchText:
 	text "Sé que esto te"
 	line "sorprenderá,"
 
-	para "pero ¿quieres"
+	para "pero ¿Quieres"
 	line "combatir?"
 
 	para "Te espero con"

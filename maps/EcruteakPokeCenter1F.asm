@@ -101,7 +101,7 @@ EcruteakPokeCenter1FBillScript:
 	line "¿Y tú quién eres?"
 
 	para "Hmm, <PLAYER>,"
-	line "¿eh? Has llegado"
+	line "¿Eh? Has llegado"
 	cont "en buen momento."
 
 	para "Las Cápsulas del"
@@ -222,7 +222,7 @@ EcruteakPokeCenter1FPokefanMScript:
 .SurfText:
 	text "Debes de querer"
 	line "combatir contra"
-	cont "más gente, ¿no?"
+	cont "más gente, ¿No?"
 
 	para "Al parecer hay un"
 	line "lugar donde se"

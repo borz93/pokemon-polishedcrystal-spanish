@@ -259,7 +259,7 @@ BlackthornYoungsterText:
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Vaya, ¿viniste por"
+	text "Vaya, ¿Viniste por"
 	line "la Ruta Helada?"
 
 	para "¡Debes ser un"

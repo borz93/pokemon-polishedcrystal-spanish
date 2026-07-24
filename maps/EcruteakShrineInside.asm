@@ -133,7 +133,7 @@ EcruteakShrineInsideReiGreetingText:
 	done
 
 EcruteakShrineInsideReiBlessText:
-	text "Rei: Vale, ¿a qué"
+	text "Rei: Vale, ¿A qué"
 	line "#mon debería"
 	cont "bendecir?"
 	done

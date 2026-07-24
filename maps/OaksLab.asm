@@ -208,11 +208,11 @@ OakWelcomeKantoText:
 	line "los entrenadores"
 
 	para "de aquí? Son"
-	line "duros, ¿eh?"
+	line "duros, ¿Eh?"
 	done
 
 OakLabGiveStarterText:
-	text "Oak: Vaya, ¿la"
+	text "Oak: Vaya, ¿La"
 	line "Prof. Ivy te"
 	cont "envía saludos?"
 
@@ -284,7 +284,7 @@ OakLabSeenAllText:
 	line "conociendo #mon"
 	cont "nuevos a buen"
 
-	para "ritmo, ¿verdad?"
+	para "ritmo, ¿Verdad?"
 
 	para "Toma esto como"
 	line "recompensa por"
@@ -540,7 +540,7 @@ OaksLabPCText:
 
 	para "…"
 
-	para "Prof. Oak, ¿cómo"
+	para "Prof. Oak, ¿Cómo"
 	line "va su"
 	cont "investigación?"
 
@@ -563,7 +563,7 @@ OaksLabPCText:
 
 ProfOakEeveeDollTradeText:
 	text "Oak: Vaya,"
-	line "¿admiras mi"
+	line "¿Admiras mi"
 	cont "Muñeco Eevee?"
 
 	para "Te lo cambio"

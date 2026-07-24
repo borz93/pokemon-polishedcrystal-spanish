@@ -40,7 +40,7 @@ VanceBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ya sabes, ¿dónde"
+	para "Ya sabes, ¿Dónde"
 	line "te conocí?"
 
 	para "¿Combatimos?"

@@ -1768,7 +1768,7 @@ WhitneyFinalPkmnText:
 	line "queda? Pero…"
 
 	para "No pienso perder,"
-	line "¿te enteras?"
+	line "¿Te enteras?"
 	prompt
 
 MortyFinalPkmnText:
@@ -1937,7 +1937,7 @@ Lyra1_1FinalPkmnText:
 	text "Nunca habías"
 	line "tenido una"
 	cont "batalla #mon,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "Podría explicarte,"
 	line "pero aprenderás"
@@ -2013,7 +2013,7 @@ Ariana1FinalPkmnText:
 	prompt
 
 Ariana2FinalPkmnText:
-	text "Oye, ¿qué te"
+	text "Oye, ¿Qué te"
 	line "crees que"
 	cont "estás haciendo?!"
 	prompt
@@ -2160,7 +2160,7 @@ SparkFinalPkmnText:
 	prompt
 
 FlanneryFinalPkmnText:
-	text "Um… ¿qué debería"
+	text "Um… ¿Qué debería"
 	line "hacer ahora?"
 	prompt
 
@@ -2188,7 +2188,7 @@ KukuiFinalPkmnText:
 
 PiersFinalPkmnText:
 	text "Yo no hago Otra"
-	line "Vez, ¿entiendes?"
+	line "Vez, ¿Entiendes?"
 
 	para "Ni canciones…"
 	line "ni movimientos…"

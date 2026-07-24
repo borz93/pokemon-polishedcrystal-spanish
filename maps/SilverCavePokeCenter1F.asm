@@ -47,7 +47,7 @@ SilverCavePokeCenterGrampsScript:
 	ifequalfwd NUM_POKEMON_JOURNALS, .ReadThemAll
 	jumpthisopenedtext
 
-	text "Ah, ¿leíste "
+	text "Ah, ¿Leíste "
 	text_decimal hScriptVar, 1, 2
 	line "de ellos?"
 

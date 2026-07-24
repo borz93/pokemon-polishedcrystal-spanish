@@ -116,7 +116,7 @@ GenericTrainerHikerLeonard:
 	cont "quisieras."
 
 	para "Hay sitio de"
-	line "sobra, ¿sabes?"
+	line "sobra, ¿Sabes?"
 	done
 
 HikerLeonardSeenText:

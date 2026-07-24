@@ -216,7 +216,7 @@ GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Vaya, ¿venciste a"
+	text "Vaya, ¿Venciste a"
 	line "Blanca? ¡Genial!"
 
 	para "Quizá puedas"

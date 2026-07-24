@@ -156,7 +156,7 @@ VermilionGymGuyScript:
 	para "Pero ya se te dan"
 	line "bien los"
 	cont "rompecabezas de"
-	cont "Gimnasio, ¿no?"
+	cont "Gimnasio, ¿No?"
 
 	para "No tendrás ningún"
 	line "problema en"
@@ -258,10 +258,10 @@ LtSurgeThunderBadgeText:
 
 	para "Queda bien en tu"
 	line "Tarjeta de"
-	cont "Entrenador, ¿eh?"
+	cont "Entrenador, ¿Eh?"
 
 	para "Llévala con"
-	line "orgullo, ¿oíste?"
+	line "orgullo, ¿Oíste?"
 
 	para "¡Y aquí tienes un"
 	line "gran TM!"

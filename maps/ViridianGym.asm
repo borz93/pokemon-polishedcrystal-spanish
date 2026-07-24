@@ -57,7 +57,7 @@ ViridianGymBlueScript:
 
 	para "sirve para #mon"
 	line "de tipo Roca,"
-	cont "¿entendido?"
+	cont "¿Entendido?"
 
 	para "…"
 
@@ -192,7 +192,7 @@ ViridianGymStatue:
 
 LeaderBlueBeforeText:
 	text "Blue: ¡Eh! Por fin"
-	line "llegaste, ¿eh?"
+	line "llegaste, ¿Eh?"
 
 	para "No tenía ganas en"
 	line "Isla Canela,"
@@ -302,7 +302,7 @@ CooltrainerfSalmaSeenText:
 	para "Nunca habías visto"
 	line "un Gimnasio tan"
 	cont "maravilloso,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 	done
 
 CooltrainerfSalmaBeatenText:
@@ -311,7 +311,7 @@ CooltrainerfSalmaBeatenText:
 
 CooltrainerfBonitaSeenText:
 	text "Al mirar por la"
-	line "sala, ¿no te da"
+	line "sala, ¿No te da"
 	cont "mareo?"
 	done
 

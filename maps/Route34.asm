@@ -671,7 +671,7 @@ Route34LyraIntroductionText:
 	done
 
 Route34LyraChallengeText:
-	text "<PLAYER>, ¿por qué"
+	text "<PLAYER>, ¿Por qué"
 	line "no le mostramos"
 	cont "al abuelo lo"
 	cont "buena que eres?"

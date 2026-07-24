@@ -367,7 +367,7 @@ PsychicRichardSeenText:
 	line "conformas solo con"
 
 	para "coleccionarlas,"
-	line "¿verdad?"
+	line "¿Verdad?"
 	done
 
 PsychicRichardBeatenText:

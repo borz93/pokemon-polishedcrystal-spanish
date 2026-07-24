@@ -131,7 +131,7 @@ EmbeddedTowerSteven1ChallengeText:
 
 	para "Ya que ambos"
 	line "estamos aquí,"
-	cont "¿combatimos?"
+	cont "¿Combatimos?"
 	done
 
 EmbeddedTowerSteven1NoText:

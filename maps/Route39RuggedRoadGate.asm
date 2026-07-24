@@ -48,7 +48,7 @@ Route39RuggedRoadGateSwimmerScript:
 
 .LovelyDay:
 	text "Bonito día hoy,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "¡Oí que la vista"
 	line "desde la cima es"

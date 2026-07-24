@@ -230,7 +230,7 @@ CianwoodCityFisherText:
 
 	para "Eso debe ser todo"
 	line "un récord,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 	done
 
 EusineSuicuneText:

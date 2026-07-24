@@ -206,7 +206,7 @@ JasmineDontBeOffendedText:
 JasmineAmphyHowAreYouFeelingText:
 	text "Yasmina: …"
 
-	para "Amphy, ¿cómo te"
+	para "Amphy, ¿Cómo te"
 	line "sientes?"
 	done
 

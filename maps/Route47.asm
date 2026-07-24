@@ -280,7 +280,7 @@ GenericTrainerGruntF6:
 	line "bien a cada"
 	cont "#mon,"
 
-	para "¿cómo"
+	para "¿Cómo"
 	line "ganaríamos"
 	cont "dinero?"
 	done
@@ -400,7 +400,7 @@ GruntF6BeatenText:
 	done
 
 GruntM23SeenText:
-	text "Ay, ¿vienes a"
+	text "Ay, ¿Vienes a"
 	line "salvar a los"
 	cont "lindos #mon?"
 	done

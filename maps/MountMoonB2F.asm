@@ -40,7 +40,7 @@ GenericTrainerYoungsterJosh:
 
 	para "Perderte es tu"
 	line "pan de cada día,"
-	cont "¿eh?"
+	cont "¿Eh?"
 	done
 
 GenericTrainerBird_keeperMick:
@@ -86,7 +86,7 @@ GenericTrainerSuperNerdMiguel:
 YoungsterJoshSeenText:
 	text "Viniste a"
 	line "explorar la"
-	cont "cueva, ¿no?"
+	cont "cueva, ¿No?"
 
 	para "Ten cuidado, te"
 	line "puedes perder."
@@ -115,7 +115,7 @@ HexManiacEstherSeenText:
 	text "Espejito, espejito"
 	line "en la pared,"
 
-	para "¿quién lanzará su"
+	para "¿Quién lanzará su"
 	line "# Ball?"
 	done
 

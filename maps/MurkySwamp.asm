@@ -87,7 +87,7 @@ MurkySwampCherylScript:
 	line "fantasmas de este"
 	cont "pantano, así que"
 
-	para "¿qué tal un"
+	para "¿Qué tal un"
 	line "combate para"
 	cont "ahuyentarlos?"
 	done
@@ -280,7 +280,7 @@ GenericTrainerFirebreatherOleg:
 
 .SeenText:
 	text "Quiero encender"
-	line "un fuego… ¿pero"
+	line "un fuego… ¿Pero"
 
 	para "encendería el gas"
 	line "del pantano y"

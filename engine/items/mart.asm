@@ -75,7 +75,7 @@ ExpCandyMart:
 .Text_ExpCandyMart_ComeAgain
 	text "No digas a nadie"
 	line "de dónde los"
-	cont "sacaste, ¿vale?"
+	cont "sacaste, ¿Vale?"
 	done
 
 INCLUDE "data/items/exp_candy_shop.asm"

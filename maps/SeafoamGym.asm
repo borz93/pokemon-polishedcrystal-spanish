@@ -181,7 +181,7 @@ ScientistDennettBeatenText:
 	done
 
 SupernerdCarySeenText:
-	text "Vaya, ¿un"
+	text "Vaya, ¿Un"
 	line "Gimnasio en una"
 	cont "cueva como esta?"
 

@@ -165,7 +165,7 @@ PewterCityBugCatcherText:
 	done
 
 PewterCityGrampsText:
-	text "Ah, ¿viniste hasta"
+	text "Ah, ¿Viniste hasta"
 	line "aquí desde Johto?"
 
 	para "Eso trae"

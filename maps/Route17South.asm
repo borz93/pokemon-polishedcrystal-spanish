@@ -179,7 +179,7 @@ BikerDanSeenText:
 	line "para-parara!"
 
 	para "Mi bocina suena"
-	line "genial, ¿no"
+	line "genial, ¿No"
 	cont "crees?"
 	done
 
@@ -215,7 +215,7 @@ GenericTrainerRoughneckBrian:
 	done
 
 RoughneckBrianSeenText:
-	text "Eh, ¿quién te dijo"
+	text "Eh, ¿Quién te dijo"
 	line "que podías montar"
 	cont "en este camino?"
 	done

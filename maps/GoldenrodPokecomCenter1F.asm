@@ -146,7 +146,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 
 	para "Podrías"
 	line "desprenderte de"
-	cont "uno, ¿no?"
+	cont "uno, ¿No?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
