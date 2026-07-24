@@ -27,10 +27,10 @@ PokemonJournalPryceScript:
 
 	para "Reportaje"
 	line "especial: ¡Líder"
-	cont "Pryce!"
+	cont "Fredo!"
 
 	para "El segundo"
-	line "nombre de Pryce"
+	line "nombre de Fredo"
 	cont "es Willow."
 
 	para "Dicen que su"

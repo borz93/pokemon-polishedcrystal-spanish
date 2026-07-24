@@ -211,7 +211,7 @@ MahoganyTownSouvenirShopSignText1:
 MahoganyGymSignText:
 	text "Pueblo Caoba"
 	line "Gimnasio #mon"
-	cont "Líder: Pryce"
+	cont "Líder: Fredo"
 
 	para "El Maestro de la"
 	line "Dureza del"

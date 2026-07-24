@@ -796,12 +796,12 @@ FightingDojoScheduleMondayWalkerText:
 	done
 
 FightingDojoScheduleTuesdayText:
-	text "Martes: Pryce,"
+	text "Martes: Fredo,"
 	line "Blaine, ???"
 	done
 
 FightingDojoScheduleTuesdayLoreleiText:
-	text "Martes: Pryce,"
+	text "Martes: Fredo,"
 	line "Blaine, Lorelei"
 	done
 

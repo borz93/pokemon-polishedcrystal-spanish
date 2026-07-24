@@ -117,7 +117,7 @@ GenericTrainerBoarderDouglas:
 
 	text "El secreto detrás"
 	line "del poder de"
-	cont "Pryce…"
+	cont "Fredo…"
 
 	para "Medita bajo una"
 	line "cascada a diario"
@@ -131,7 +131,7 @@ MahoganyGymGuyScript:
 	iftrue_jumptextfaceplayer MahoganyGymGuyWinText
 	jumpthistextfaceplayer
 
-	text "Pryce es un"
+	text "Fredo es un"
 	line "veterano que ha"
 	cont "entrenado #mon"
 	cont "durante 50 años."
@@ -187,11 +187,11 @@ PryceText_Intro:
 	para "No pierdo"
 	line "fácilmente."
 
-	para "Yo, Pryce, el"
-	line "entrenador del"
-	cont "invierno,"
+	para "Yo, Fredo, el"
+	line "entrenador"
+	cont "invernal,"
 
-	para "¡demostraré mi"
+	para "¡Demostraré mi"
 	line "poder!"
 	done
 
@@ -269,18 +269,18 @@ BoarderBradBeatenText:
 
 BoarderDouglasSeenText:
 	text "Conozco el secreto"
-	line "de Pryce."
+	line "de Fredo."
 	done
 
 BoarderDouglasBeatenText:
 	text "Vale. Te contaré"
 	line "el secreto de"
-	cont "Pryce."
+	cont "Fredo."
 	done
 
 SkierRoxanneSeenText:
 	text "Para llegar a"
-	line "Pryce, nuestro"
+	line "Fredo, nuestro"
 	cont "Líder de Gimnasio,"
 
 	para "tienes que pensar"
@@ -305,8 +305,8 @@ SkierClarissaBeatenText:
 
 
 MahoganyGymGuyWinText:
-	text "Pryce es algo,"
-	line "¡pero tú eres otra"
+	text "Fredo es único,"
+	line "¡Pero tú eres otra"
 	cont "cosa!"
 
 	para "¡Ese fue un"

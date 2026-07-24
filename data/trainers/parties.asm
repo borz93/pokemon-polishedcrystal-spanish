@@ -444,7 +444,7 @@ SECTION "PryceGroup", ROMX
 PryceGroup:
 
 	def_trainer_class PRYCE
-	def_trainer 1, "Pryce"
+	def_trainer 1, "Fredo"
 	tr_mon 39, DEWGONG @ CHESTO_BERRY, MALE
 		tr_extra HYDRATION
 		tr_evs 224 HP
@@ -467,7 +467,7 @@ PryceGroup:
 		tr_moves MAGNITUDE, ANCIENTPOWER, AVALANCHE, FURY_STRIKES
 	end_trainer
 
-	def_trainer 2, "Pryce"
+	def_trainer 2, "Fredo"
 	tr_mon 73, NINETALES @ ICY_ROCK, MALE | ALOLAN_FORM
 		tr_extra SNOW_WARNING, SPE_UP_ATK_DOWN
 		tr_evs 252 SAt, 4 Def, 252 Spe
