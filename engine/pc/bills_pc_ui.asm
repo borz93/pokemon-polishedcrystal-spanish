@@ -1534,7 +1534,7 @@ BillsPC_MenuStrings:
 	db "Sacar@"
 	db "Guardar@"
 	db "Estado@"
-	db "Cambiar@"
+	db "Mover@"
 	db "Objeto@"
 	db "Liberar@"
 	; box options
