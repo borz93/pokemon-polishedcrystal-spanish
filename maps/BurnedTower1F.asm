@@ -302,7 +302,7 @@ BurnedTower1FEusineText:
 BurnedTower1FMortyText:
 	text "Morty: El Líder de"
 	line "Gimnasio de"
-	cont "Ecruteak debe"
+	cont "Iris debe"
 
 	para "estudiar a los que"
 	line "dicen ser los"
