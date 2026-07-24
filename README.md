@@ -1,3 +1,28 @@
+# Pokémon Polished Crystal — Traducción al Español
+
+Este repositorio es una **traducción al español (España)** del hack **[Polished Crystal](https://github.com/Rangi42/polishedcrystal)**, un proyecto personal y sin ánimo de lucro para poder disfrutar el hack en español. El objetivo, igual que el del hack original, es ofrecer una experiencia de juego mejorada pero cercana a la del juego original — sin desviarse del espíritu de Pokémon Crystal.
+
+## Agradecimientos
+
+Todo el mérito del hack original —diseño, mecánicas, mapas, gráficos, balance, y años de mantenimiento— es de **Rangi42** y su equipo de colaboradores. Este repositorio no pretende sustituir ni competir con el proyecto original, solo traducirlo. Repo original: https://github.com/Rangi42/polishedcrystal
+
+## Qué se ha hecho aquí
+
+- Traducción completa de los textos del juego (diálogos, menús, objetos, movimientos, habilidades, nombres, etc.), cuidando el ancho de línea del cuadro de texto y las convenciones del español (¡¿, tildes, ñ).
+- Textos localizados (no solo traducidos literalmente), mejorando en algunos casos frases y expresiones respecto a la traducción oficial antigua de la época de Cristal.
+- Aumentado el tamaño de la ROM de los 2MB originales del hack para que los textos traducidos tuvieran más margen; más adelante se recuperó también el soporte de reloj real (RTC) manteniendo ese tamaño mayor.
+- Corrección de varios bugs encontrados durante la traducción (p. ej. el reloj interno en modo sin RTC, y el mapper del cartucho para que el RTC real funcione en emulador).
+- Una mazmorra nueva y opcional: la Torre de Radio encantada de Ciudad Lavanda, con su propia historia, acertijos y jefes.
+- Renombrados los Líderes de Gimnasio (y otros personajes) a sus nombres de la versión oficial en español (p. ej. Whitney → Blanca), cotejando cada nombre contra la localización oficial en la medida de lo posible.
+
+**Aviso:** este es un proyecto en curso (WIP) hecho en ratos libres. Puede haber textos sin traducir, errores de traducción, desajustes de ancho de línea u otros fallos — cualquier reporte o corrección es bienvenido.
+
+**Limitación de caracteres:** al estar el hack basado en la versión en inglés, la fuente del juego no incluye todos los símbolos del español. Faltan algunas mayúsculas acentuadas (Á, Í, Ó, Ú) y la ü con diéresis, por lo que ciertas palabras se han tenido que adaptar (p. ej. escribir la vocal en minúscula, o buscar un sinónimo) para evitar esos caracteres.
+
+Esta rama (`spanish-translation`) vive en [mi propio repositorio](https://github.com/borz93/pokemon-polishedcrystal-spanish); `master` se mantiene sincronizada con el repositorio original para poder traer actualizaciones cuando se publican.
+
+---
+
 # Pokémon Polished Crystal
 
 This is a custom Pokémon game based on [the Pokémon Crystal disassembly](https://github.com/pret/pokecrystal).
