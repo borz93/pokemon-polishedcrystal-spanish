@@ -65,7 +65,7 @@ DerekBugCatchingContestText:
 	cont "Captura es hoy."
 
 	para "Vas a ir,"
-	line "¿verdad?"
+	line "¿Verdad?"
 
 	para "Creo que"
 	line "participaré con"

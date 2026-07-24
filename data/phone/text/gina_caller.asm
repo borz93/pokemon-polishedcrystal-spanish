@@ -24,7 +24,7 @@ GinaDefeatedMonText:
 	done
 
 GinaLostAMonText:
-	text "Pero, ¿sabes?"
+	text "Pero, ¿Sabes?"
 
 	para "Aún no he"
 	line "atrapado a "
@@ -78,7 +78,7 @@ GinaFoundItemText:
 	cont "te llamé!"
 
 	para "Vendrás a por"
-	line "ello, ¿verdad?"
+	line "ello, ¿Verdad?"
 
 	para ""
 	text_ram wStringBuffer5

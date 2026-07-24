@@ -6,7 +6,7 @@ IrwinHangUpText:
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAYER>, ¿te"
+	text "<PLAYER>, ¿Te"
 	line "enteraste?"
 
 	para "¡El Team Rocket"

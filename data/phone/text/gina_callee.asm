@@ -15,7 +15,7 @@ GinaAnswerPhoneDayText:
 	text "…"
 
 	para "¡Ay, <PLAYER>!"
-	line "Hola, ¿qué tal?"
+	line "Hola, ¿Qué tal?"
 	done
 
 GinaAnswerPhoneNiteText:

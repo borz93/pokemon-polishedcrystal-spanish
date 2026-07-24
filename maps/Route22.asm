@@ -135,7 +135,7 @@ KukuiScript:
 .RefusedText:
 	text "Muy centrado en tu"
 	line "propia misión,"
-	cont "¿eh?"
+	cont "¿Eh?"
 
 	para "¡Eso lo respeto!"
 	done

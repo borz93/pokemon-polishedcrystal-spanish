@@ -281,7 +281,7 @@ BurnedTower1FEusineIntroText:
 	line "Quemada, así que"
 	cont "vine a mirar."
 
-	para "Pero, ¿dónde"
+	para "Pero, ¿Dónde"
 	line "podría estar"
 	cont "exactamente?"
 	done
@@ -294,7 +294,7 @@ BurnedTower1FEusineText:
 	line "Quemada, así que"
 	cont "vine a mirar."
 
-	para "Pero, ¿dónde"
+	para "Pero, ¿Dónde"
 	line "podría estar"
 	cont "exactamente?"
 	done

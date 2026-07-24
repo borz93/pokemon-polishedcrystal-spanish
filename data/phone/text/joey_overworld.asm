@@ -1,5 +1,5 @@
 JoeyAskNumber1Text:
-	text "Oye, ¿me das tu"
+	text "Oye, ¿Me das tu"
 	line "número de"
 	cont "teléfono?"
 
@@ -22,7 +22,7 @@ JoeyAskNumber2Text:
 
 	para "Tenemos que"
 	line "combatir de"
-	cont "nuevo, ¿vale?"
+	cont "nuevo, ¿Vale?"
 	done
 
 JoeyNumberAcceptedText:
@@ -47,7 +47,7 @@ JoeyPhoneFullText:
 	done
 
 JoeyTopPercentageText:
-	text "Oye, ¿recuerdas a"
+	text "Oye, ¿Recuerdas a"
 	line "mi "
 	text_ram wStringBuffer4
 	text " tan"

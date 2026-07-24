@@ -43,7 +43,7 @@ BrentLostAMonText:
 BrentBattleRematchText:
 	text "Tienes tiempo"
 	line "como siempre,"
-	cont "¿no?"
+	cont "¿No?"
 
 	para "¿Te apetece un"
 	line "combate?"

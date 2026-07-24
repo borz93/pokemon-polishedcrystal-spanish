@@ -274,7 +274,7 @@ MeetTuscanyText:
 	line "es la primera vez"
 
 	para "que nos"
-	line "conocemos, ¿no?"
+	line "conocemos, ¿No?"
 
 	para "Permíteme"
 	line "presentarme."

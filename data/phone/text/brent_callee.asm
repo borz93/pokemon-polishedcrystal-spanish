@@ -37,7 +37,7 @@ BrentGreetText:
 
 BrentGreetDayText:
 	text "Hola, <PLAYER>,"
-	line "¿qué tal estás?"
+	line "¿Qué tal estás?"
 
 	para "Eh, soy yo,"
 	line ""
@@ -47,7 +47,7 @@ BrentGreetDayText:
 
 BrentGreetNiteText:
 	text "Hola, <PLAYER>,"
-	line "¿qué tal estás?"
+	line "¿Qué tal estás?"
 
 	para "Eh, soy yo,"
 	line ""
@@ -64,7 +64,7 @@ BrentGenericText:
 
 	para "Curas a tus"
 	line "#mon a menudo,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "Me impresiona."
 

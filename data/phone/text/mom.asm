@@ -55,7 +55,7 @@ MomPhoneCherrygroveText:
 	done
 
 MomOtherAreaText:
-	text "Vaya, ¿estás en"
+	text "Vaya, ¿Estás en"
 	line ""
 	text_ram wStringBuffer3
 	text "?"

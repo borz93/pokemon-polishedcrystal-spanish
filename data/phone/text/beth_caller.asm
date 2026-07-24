@@ -74,7 +74,7 @@ BethBattleRematchText:
 	para ""
 	text_ram wStringBuffer5
 	text "."
-	line "Búscame, ¿vale?"
+	line "Búscame, ¿Vale?"
 	done
 
 BethHangUpText:

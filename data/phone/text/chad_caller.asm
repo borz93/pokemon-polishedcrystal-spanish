@@ -152,7 +152,7 @@ ChadPokemonTalkGossipText:
 	text "El programa"
 	line "#mon Talk del"
 	cont "Prof. Oak es muy"
-	cont "popular, ¿no?"
+	cont "popular, ¿No?"
 
 	para "¿Sabías que al"
 	line "principio iba a"

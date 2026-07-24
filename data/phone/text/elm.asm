@@ -166,7 +166,7 @@ ElmPhoneEggAssistantText:
 	done
 
 ElmPhoneRocketText:
-	text "<PLAYER>, ¿cómo"
+	text "<PLAYER>, ¿Cómo"
 	line "va todo?"
 
 	para "Te llamo porque"
@@ -176,7 +176,7 @@ ElmPhoneRocketText:
 	para "Hablaban del"
 	line "Team Rocket."
 
-	para "<PLAYER>, ¿sabes"
+	para "<PLAYER>, ¿Sabes"
 	line "algo de eso?"
 
 	para "Quizá el Team"
@@ -205,7 +205,7 @@ ElmPhoneGiftText:
 
 ElmPhoneEvolutionQuestionText:
 	text "Por cierto,"
-	line "<PLAYER>, ¿quieres"
+	line "<PLAYER>, ¿Quieres"
 
 	para "saber cómo"
 	line "evoluciona tu"

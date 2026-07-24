@@ -44,7 +44,7 @@ JackNumberDeclinedText:
 	para "Bueno, si algún"
 	line "día quieres mi"
 	cont "número, ven a"
-	cont "verme, ¿vale?"
+	cont "verme, ¿Vale?"
 	done
 
 JackPhoneFullText:

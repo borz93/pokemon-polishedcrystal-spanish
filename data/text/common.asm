@@ -242,7 +242,7 @@ _OakTimeWhatDayIsItText::
 
 SECTION "_OakTimeIsItText", ROMX
 _OakTimeIsItText::
-	text ", ¿verdad?"
+	text ", ¿Verdad?"
 	done
 
 SECTION "_NothingToChooseText", ROMX
@@ -866,7 +866,7 @@ _PnP_mytype::
 
 SECTION "_PnP_cool", ROMX
 _PnP_cool::
-	line "es tan guay, ¿no?"
+	line "es tan guay, ¿No?"
 	done
 
 SECTION "_PnP_inspiring", ROMX

@@ -3,7 +3,7 @@ KenjiAnswerPhoneText:
 	text " al habla…"
 
 	para "¡<PLAYER>! Bonita"
-	line "mañana, ¿eh?"
+	line "mañana, ¿Eh?"
 	done
 
 KenjiAnswerPhoneDayText:
@@ -11,7 +11,7 @@ KenjiAnswerPhoneDayText:
 	text " al habla…"
 
 	para "¡<PLAYER>! Buen"
-	line "tiempo, ¿eh?"
+	line "tiempo, ¿Eh?"
 	done
 
 KenjiAnswerPhoneNiteText:
@@ -19,7 +19,7 @@ KenjiAnswerPhoneNiteText:
 	text " al habla…"
 
 	para "¡<PLAYER>! Bonita"
-	line "luz de luna, ¿eh?"
+	line "luz de luna, ¿Eh?"
 	done
 
 KenjiGreetText:

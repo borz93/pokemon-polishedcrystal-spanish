@@ -96,7 +96,7 @@ GenericTrainerSwimmerfLeona:
 	generictrainer SWIMMERF, LEONA, EVENT_BEAT_SWIMMERF_LEONA, .SeenText, .BeatenText
 
 	text "Tus #mon,"
-	line "¿sigues la última"
+	line "¿Sigues la última"
 	cont "moda en equipos?"
 	done
 

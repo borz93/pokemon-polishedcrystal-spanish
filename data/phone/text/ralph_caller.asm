@@ -121,7 +121,7 @@ RalphReminderText:
 	done
 
 RalphHurryText:
-	text "Oye, ¿qué te"
+	text "Oye, ¿Qué te"
 	line "pasa?"
 
 	para "¿No vienes a"

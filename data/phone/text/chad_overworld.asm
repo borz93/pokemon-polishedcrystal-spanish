@@ -42,7 +42,7 @@ ChadNumberAcceptedText:
 	text "Seguro que"
 	line "escuchas el"
 	cont "#mon Talk del"
-	cont "Prof. Oak, ¿no?"
+	cont "Prof. Oak, ¿No?"
 	done
 
 ChadNumberDeclinedText:

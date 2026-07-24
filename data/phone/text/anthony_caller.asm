@@ -77,7 +77,7 @@ AnthonySwarmText:
 	para "Fui de excursión"
 	line "a "
 	text_ram wStringBuffer5
-	cont "ayer, ¿sabes?"
+	cont "ayer, ¿Sabes?"
 
 	para "Pues había"
 	line "montones de "

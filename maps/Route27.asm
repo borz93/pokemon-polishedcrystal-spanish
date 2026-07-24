@@ -466,7 +466,7 @@ CooltrainermBlakeBeatenText: ; text > text
 
 AceDuoJakeandbri1SeenText:
 	text "Jake: ¿Hm? Eres"
-	line "bueno, ¿verdad?"
+	line "bueno, ¿Verdad?"
 	done
 
 AceDuoJakeandbri1BeatenText:

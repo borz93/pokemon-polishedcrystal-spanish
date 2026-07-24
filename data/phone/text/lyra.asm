@@ -119,7 +119,7 @@ LyraPhoneSpecialText_YellowForest:
 	line "enfrentado al"
 	cont "Team Rocket antes,"
 
-	para "¿verdad,"
+	para "¿Verdad,"
 	line "<PLAYER>?"
 
 	para "¡Qué valiente"

@@ -219,7 +219,7 @@ GenericTrainerHikerDwight:
 	cont "montaña, solo"
 
 	para "quieres paz,"
-	line "¿verdad?"
+	line "¿Verdad?"
 	done
 
 .BeatenText:

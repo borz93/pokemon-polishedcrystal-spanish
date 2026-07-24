@@ -23,7 +23,7 @@ ArnieDefeatedMonText:
 
 ArnieLostAMonText:
 	text "Me preguntaba,"
-	line "¿tienes por"
+	line "¿Tienes por"
 	cont "casualidad un "
 	text_ram wStringBuffer4
 	text "?"
@@ -84,7 +84,7 @@ ArnieHaventSeenRareMonText:
 	done
 
 ArnieReminderText:
-	text "Oye, ¿dónde"
+	text "Oye, ¿Dónde"
 	line "estás?"
 
 	para "Vamos a"

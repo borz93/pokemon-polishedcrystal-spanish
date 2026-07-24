@@ -77,7 +77,7 @@ DanaFoundItemText:
 DanaCanYouWaitABitLongerText:
 	text "¡Ah! Querías"
 	line "un regalo,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "Tengo uno, pero"
 	line "quiero quedármelo."

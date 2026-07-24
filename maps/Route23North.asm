@@ -60,7 +60,7 @@ Route23NorthHealOfficerScript:
 	line "te espera!"
 
 	para "Solo no te rindas,"
-	line "¿vale?"
+	line "¿Vale?"
 	done
 
 .IntroText:

@@ -14,7 +14,7 @@ AnthonyAnswerPhoneDayText:
 	line "el Senderista."
 
 	para "¡Ah, <PLAYER>,"
-	line "¿verdad?"
+	line "¿Verdad?"
 	done
 
 AnthonyAnswerPhoneNiteText:
@@ -24,7 +24,7 @@ AnthonyAnswerPhoneNiteText:
 	line "el Senderista."
 
 	para "¡Ah, eres"
-	line "<PLAYER>, ¿no?"
+	line "<PLAYER>, ¿No?"
 	done
 
 AnthonyGreetText:
@@ -47,7 +47,7 @@ AnthonyGreetDayText:
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, ¿sigues"
+	text "<PLAYER>, ¿Sigues"
 	line "despierto?"
 
 	para "¡Soy "

@@ -131,7 +131,7 @@ HikerTimSeenText:
 
 	para "El Monte Plateado"
 	line "está en Johto,"
-	cont "¿no?"
+	cont "¿No?"
 	done
 
 HikerTimBeatenText:

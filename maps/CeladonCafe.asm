@@ -205,7 +205,7 @@ MayleneText3:
 	line "sentirme llena…"
 
 	para "Oye, como"
-	line "descanso, ¿quieres"
+	line "descanso, ¿Quieres"
 	cont "combatir conmigo?"
 	done
 

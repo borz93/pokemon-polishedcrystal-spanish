@@ -76,5 +76,5 @@ ParryRematchGiftText:
 	line "triunfes por"
 
 	para "los dos."
-	line "Toma esto, ¿vale?"
+	line "Toma esto, ¿Vale?"
 	done

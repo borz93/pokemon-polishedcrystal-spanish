@@ -90,7 +90,7 @@ AlanComePickUpGiftText:
 	text "Tengo que hacer"
 	line "los deberes,"
 
-	para "¿puedes venir a"
+	para "¿Puedes venir a"
 	line "por tu regalo"
 	cont "ya?"
 

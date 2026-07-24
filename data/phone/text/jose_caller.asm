@@ -58,7 +58,7 @@ JoseBattleRematchText:
 	text "."
 
 	para "Búscame bien,"
-	line "¿vale?"
+	line "¿Vale?"
 	done
 
 JoseHangUpText:
@@ -89,12 +89,12 @@ JoseHaventGottenItemYetText:
 	para "Te llamaré en"
 	line "cuanto lo tenga,"
 
-	para "¿podrías esperar"
+	para "¿Podrías esperar"
 	line "un poco más?"
 	done
 
 JoseReminderText:
-	text "<PLAYER>, ¿podrías"
+	text "<PLAYER>, ¿Podrías"
 	line "venir ya?"
 
 	para "Farfetch'd está"

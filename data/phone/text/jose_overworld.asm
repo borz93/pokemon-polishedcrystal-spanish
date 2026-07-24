@@ -18,7 +18,7 @@ JoseAskNumber1Text:
 	cont "llamaré."
 
 	para "No esperes"
-	line "mucho, ¿vale?"
+	line "mucho, ¿Vale?"
 	done
 
 JoseAskNumber2Text:

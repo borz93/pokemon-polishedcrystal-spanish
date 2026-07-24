@@ -46,7 +46,7 @@ AlanGreetNiteText:
 	done
 
 AlanGenericText:
-	text "<PLAYER>, ¿estás"
+	text "<PLAYER>, ¿Estás"
 	line "criando bien a"
 	cont "tus #mon?"
 

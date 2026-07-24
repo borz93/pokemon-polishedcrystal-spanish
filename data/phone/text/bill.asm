@@ -31,7 +31,7 @@ BillPhoneNiteGreetingText:
 BillPhoneGenericText:
 	text "¿Quién llama?"
 
-	para "<PLAYER>, ¿verdad?"
+	para "<PLAYER>, ¿Verdad?"
 	line "Espera un segundo…"
 
 	para "……"

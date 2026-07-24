@@ -37,7 +37,7 @@ Bug_maniacEdSeenText:
 	line "hierba alta con"
 
 	para "pantalón corto,"
-	line "¿te arañas?"
+	line "¿Te arañas?"
 	done
 
 Bug_maniacEdBeatenText:

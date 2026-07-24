@@ -130,7 +130,7 @@ ErikaBeforeBattleText:
 	text "Erika: Hola…"
 	line "Qué tiempo tan"
 	cont "agradable,"
-	cont "¿verdad?"
+	cont "¿Verdad?"
 
 	para "Es tan"
 	line "placentero…"
@@ -204,7 +204,7 @@ LassMichelleBeatenText:
 	done
 
 PicnickerTanyaSeenText:
-	text "Oh, ¿un combate?"
+	text "Oh, ¿Un combate?"
 	line "Da un poco de"
 	cont "miedo, ¡pero vale!"
 	done

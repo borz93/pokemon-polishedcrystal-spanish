@@ -9,14 +9,14 @@ DerekAnswerPhoneDayText:
 	text "¿Hola, <PLAYER>?"
 
 	para "Buen pika día,"
-	line "¿qué pika tal?"
+	line "¿Qué pika tal?"
 	done
 
 DerekAnswerPhoneNiteText:
 	text "¿Hola, <PLAYER>?"
 
 	para "Buenas noches"
-	line "pika, ¿qué tal?"
+	line "pika, ¿Qué tal?"
 	done
 
 DerekGreetText:
@@ -26,7 +26,7 @@ DerekGreetText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "¿pika qué tal?"
+	line "¿Pika qué tal?"
 	done
 
 DerekGreetDayText:
@@ -36,7 +36,7 @@ DerekGreetDayText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "¿pika qué tal?"
+	line "¿Pika qué tal?"
 	done
 
 DerekGreetNiteText:
@@ -46,7 +46,7 @@ DerekGreetNiteText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text "."
-	line "¿pika, despierto?"
+	line "¿Pika, despierto?"
 	done
 
 DerekGenericText:

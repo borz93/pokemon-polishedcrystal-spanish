@@ -78,7 +78,7 @@ GavenHangUpNotThursdayText:
 	done
 
 GavenReminderText:
-	text "<PLAYER>, ¿por qué"
+	text "<PLAYER>, ¿Por qué"
 	line "no estás aquí?"
 
 	para "¡Te venceré en:"

@@ -49,7 +49,7 @@ LizBattleRematchText:
 	para "Yo tengo de sobra."
 	line "Si estás libre,"
 
-	para "¿quieres"
+	para "¿Quieres"
 	line "combatir?"
 
 	para "Te espero en"

@@ -198,7 +198,7 @@ Route24RocketDisappearsText:
 	line "Team Rocket"
 	cont "adiós-adiós"
 
-	para "¿se va? ¿Roto"
+	para "¿Se va? ¿Roto"
 	line "está dices tú?"
 
 	para "¡Oh, no! ¿Qué debo"

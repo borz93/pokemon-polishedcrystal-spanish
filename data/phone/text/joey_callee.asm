@@ -32,7 +32,7 @@ JoeyGreetText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "¿tienes un"
+	line "¿Tienes un"
 	cont "minuto?"
 	done
 
@@ -54,7 +54,7 @@ JoeyGreetNiteText:
 	para "Soy "
 	text_ram wStringBuffer3
 	text ","
-	line "¿tienes un"
+	line "¿Tienes un"
 	cont "minuto?"
 	done
 

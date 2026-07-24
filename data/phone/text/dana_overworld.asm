@@ -38,7 +38,7 @@ DanaNumberAcceptedText:
 	done
 
 DanaNumberDeclinedText:
-	text "Vaya, ¿no"
+	text "Vaya, ¿No"
 	line "quieres nada?"
 
 	para "Pero es todo"

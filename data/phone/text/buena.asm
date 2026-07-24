@@ -242,7 +242,7 @@ BuenaPhoneRadioCardQuestionsText:
 
 	para "Tarjeta Radio en"
 	line "el concurso de"
-	cont "recepción, ¿no?"
+	cont "recepción, ¿No?"
 
 	para "¡Adivina! ¡Yo hice"
 	line "las preguntas!"
@@ -347,7 +347,7 @@ BuenaPhoneWhenDoYouRelaxText:
 	done
 
 BuenaPhoneStarterPokemonText:
-	text "<PLAYER>, ¿cuál"
+	text "<PLAYER>, ¿Cuál"
 	line "fue el primer"
 	cont "#mon que"
 	cont "atrapaste?"
@@ -483,7 +483,7 @@ BuenaPhonePokegearAnswerText:
 	text "Oye, <PLAYER>. Usas"
 	line "el #gear para"
 	cont "escuchar la radio,"
-	cont "¿no?"
+	cont "¿No?"
 
 	para "Oí que hasta"
 	line "puedes ver mapas"
