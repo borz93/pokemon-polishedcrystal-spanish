@@ -135,7 +135,7 @@ GenericTrainerSailorParker:
 	cont "últimos años."
 
 	para "No bajes la"
-	line "guardia, ¡o te"
+	line "guardia, ¡O te"
 	cont "aplastará!"
 	done
 

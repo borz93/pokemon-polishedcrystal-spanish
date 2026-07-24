@@ -377,9 +377,9 @@ ElmPhoneEvoText_Party:
 	prompt
 
 ElmPhoneEvoText_Egg:
-	text "Los Huevos no"
+	text "¡Los Huevos no"
 	line "evolucionan,"
-	cont "¡eclosionan!"
+	cont "eclosionan!"
 	prompt
 
 ElmPhoneEvoText_Pikachu:
@@ -387,7 +387,7 @@ ElmPhoneEvoText_Pikachu:
 	line "evoluciona al"
 
 	para "exponerse a"
-	line "Piedra Truen o"
+	line "Piedra Trueno"
 	cont "un Suvenir Raro."
 	prompt
 

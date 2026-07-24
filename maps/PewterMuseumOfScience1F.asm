@@ -364,7 +364,7 @@ ResurrectingPokemonText:
 NoRoomForFossilPokemonText:
 	text "¡Oye! No puedes"
 	line "llevar otro"
-	cont "#mon, ¡y tu"
+	cont "#mon, ¡Y tu"
 	cont "Caja también"
 	cont "está"
 	cont "llena!"

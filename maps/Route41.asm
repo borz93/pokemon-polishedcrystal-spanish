@@ -137,7 +137,7 @@ Route41MarlonScript:
 	cont "¡lo eres de"
 	cont "verdad!"
 
-	para "Ey, ¡a mí también"
+	para "Ey, ¡A mí también"
 	line "me arrastró la"
 	cont "marea!"
 	done

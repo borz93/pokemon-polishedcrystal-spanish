@@ -185,7 +185,7 @@ CeladonUniversityCafeteriaYoungster1Text:
 	cont "Casteliaconos."
 
 	para "Me recuerdan a mi"
-	line "hogar, ¡y además"
+	line "hogar, ¡Y además"
 	cont "están ricos!"
 	done
 

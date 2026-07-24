@@ -57,7 +57,7 @@ LyraPhoneNextMoveQuestionText:
 	done
 
 LyraPhoneNextMoveRefusedText:
-	text "Jaja, ¡entonces no"
+	text "Jaja, ¡Entonces no"
 	line "te lo diré!"
 	prompt
 
@@ -138,7 +138,7 @@ LyraPhoneSpecialText_FirstBadge:
 
 	para "El Pidgeot de"
 	line "Pegaso es fuerte,"
-	cont "¡pero le gané!"
+	cont "¡Pero le gané!"
 
 	para "Tenía que"
 	line "contártelo,"
@@ -172,7 +172,7 @@ LyraPhoneSpecialText_LyrasEgg:
 	cont "Guardería"
 
 	para "con la abuela y el"
-	line "abuelo, ¡y"
+	line "abuelo, ¡Y"
 	cont "encontraron un"
 	cont "Huevo!"
 

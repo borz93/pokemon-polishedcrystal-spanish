@@ -72,7 +72,7 @@ JoeyDevisingStrategiesText:
 
 	para "Cuando tenga una"
 	line "buena,"
-	cont "¡combatimos!"
+	cont "¡Combatimos!"
 	done
 
 JoeyReminderText:

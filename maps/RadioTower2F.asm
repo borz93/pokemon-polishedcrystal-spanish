@@ -559,7 +559,7 @@ RadioTower2FBuenaOfferPhoneNumberText:
 	text "Buena: ¡Oh! Tu"
 	line "Tarjeta Azul llegó"
 
-	para "¡a {d:BLUE_CARD_POINT_CAP} puntos hoy!"
+	para "a {d:BLUE_CARD_POINT_CAP} puntos hoy."
 	line "¡Es increíble!"
 
 	para "Mmm… No hay premio"

@@ -230,7 +230,7 @@ NoisyForestPikabluScript:
 
 	para "¿No se ve raro?"
 
-	para "Adiós, ¡y gracias"
+	para "Adiós, ¡Y gracias"
 	line "de nuevo!"
 	done
 

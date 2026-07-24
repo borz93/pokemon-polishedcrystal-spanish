@@ -30,7 +30,7 @@ GenericTrainerSwimmermWalter:
 	text "El sol se refleja"
 	line "en el agua"
 
-	para "¡y aun así me"
+	para "¡Y aun así me"
 	line "quemé!"
 	done
 

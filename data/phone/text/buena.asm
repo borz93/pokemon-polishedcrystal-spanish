@@ -302,7 +302,7 @@ BuenaPhoneRadioTowerDirectorText:
 	para "Pero es un secreto"
 	line "que sea fan de la"
 
-	para "tele, ¡así que no"
+	para "tele, ¡Así que no"
 	line "se te ocurra"
 	cont "mencionarlo!"
 
@@ -405,7 +405,7 @@ BuenaPhoneCompanyVacationText:
 	para "¡Preferiría ir a"
 	line "la playa!"
 
-	para "<PLAYER>, ¡espero"
+	para "<PLAYER>, ¡Espero"
 	line "que te diviertas"
 
 	para "por los dos en tu"
@@ -450,7 +450,7 @@ BuenaPhoneGoingShoppingText:
 	line "Trigal tengan"
 	cont "rebajas…"
 
-	para "<PLAYER>, ¡a lo"
+	para "<PLAYER>, ¡A lo"
 	line "mejor quedamos"
 	cont "también!"
 
@@ -469,7 +469,7 @@ BuenaPhoneFavoriteSlotMachineAnswerText:
 	para "¡Paga muchísimo,"
 	line "te lo juro!"
 
-	para "¿Eh? No, no, ¡es"
+	para "¿Eh? No, no, ¡Es"
 	line "mi secreto!"
 
 	para "¡Tienes que"

@@ -40,7 +40,7 @@ AlanBattleRematchText:
 	line "bastante desde"
 	cont "entonces,"
 
-	para "¡y he mejorado"
+	para "¡Y he mejorado"
 	line "mucho!"
 
 	para "Estoy en:"

@@ -161,7 +161,7 @@ ProfIvyScript:
 
 .SeenText:
 	text "Profesora contra"
-	line "Campeón, ¡vamos!"
+	line "Campeón, ¡Vamos!"
 	done
 
 .BeatenText:

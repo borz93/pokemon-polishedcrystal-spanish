@@ -179,7 +179,7 @@ GoldenrodGymGuyScript:
 	line "movimientos de"
 	cont "tipo Lucha,"
 
-	para "¡y también se usan"
+	para "¡Y también se usan"
 	line "aquí!"
 	done
 

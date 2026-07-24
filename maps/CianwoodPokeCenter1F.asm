@@ -136,7 +136,7 @@ CianwoodPokeCenter1FSuperNerdText:
 	line "un montón de"
 	cont "combates,"
 
-	para "¡y presumir de mis"
+	para "¡Y presumir de mis"
 	line "#mon!"
 	done
 

@@ -460,7 +460,7 @@ Text_Route31ReadingMail:
 	line "traérmelo."
 
 	para "Mi amigo es buena"
-	line "gente, ¡y tú"
+	line "gente, ¡Y tú"
 	cont "también!"
 
 	para "Me gustaría hacer"

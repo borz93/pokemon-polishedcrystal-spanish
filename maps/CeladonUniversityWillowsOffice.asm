@@ -59,7 +59,7 @@ CeladonUniversityWillowsOfficeScientistText:
 	para "Hoy vi 42"
 	line "Raticate y"
 	cont "37 Pidgeotto…"
-	cont "¡y un Vulpix!"
+	cont "¡Y un Vulpix!"
 	done
 
 CeladonUniversityWillowsOfficeBlackboardText:

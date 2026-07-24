@@ -77,7 +77,7 @@ IrwinRisingBadgeGossipText:
 	para "¡Seguro que"
 	line "pasaste! No hace"
 	cont "falta ser"
-	cont "modesto, ¡no"
+	cont "modesto, ¡No"
 	cont "puedes fallar!"
 	done
 
@@ -106,7 +106,7 @@ IrwinEliteFourGossipText:
 
 	para "estaría orgullosa"
 	line "si fuera tu"
-	cont "madre, ¡de"
+	cont "madre, ¡De"
 	cont "verdad!"
 	done
 
@@ -190,7 +190,7 @@ IrwinMtSilverGossipText:
 	done
 
 IrwinCalledRightAwayText:
-	text "Jeje, ¡te llamé"
+	text "Jeje, ¡Te llamé"
 	line "enseguida!"
 
 	para "¡Creo que podemos"

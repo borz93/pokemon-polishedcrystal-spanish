@@ -80,6 +80,6 @@ VictoryRoadGateRightBlackBeltText:
 	line "miedo de lo"
 	cont "fuerte que es,"
 
-	para "¡y están listos"
+	para "¡Y están listos"
 	line "para ti!"
 	done

@@ -602,7 +602,7 @@ OPT_Frightening::
 
 SECTION "OPT_SuaveDebonair", ROMX
 OPT_SuaveDebonair::
-	line "¡suave y elegante!"
+	line "¡Suave y elegante!"
 	done
 
 SECTION "OPT_Powerful", ROMX
@@ -617,7 +617,7 @@ OPT_Exciting::
 
 SECTION "OPT_Groovy", ROMX
 OPT_Groovy::
-	line "¡genial!"
+	line "¡Genial!"
 	done
 
 SECTION "OPT_Inspiring", ROMX
@@ -632,7 +632,7 @@ OPT_Friendly::
 
 SECTION "OPT_HotHotHot", ROMX
 OPT_HotHotHot::
-	line "¡fuego, fuego!"
+	line "¡Fuego, fuego!"
 	done
 
 SECTION "OPT_Stimulating", ROMX
@@ -696,7 +696,7 @@ _BenFernText1::
 
 SECTION "_BenFernText2A", ROMX
 _BenFernText2A::
-	line "¡vamos a bailar"
+	line "¡Vamos a bailar"
 	done
 
 SECTION "_BenFernText2B", ROMX
@@ -738,12 +738,12 @@ _LC_Text4::
 
 SECTION "_LC_Text5", ROMX
 _LC_Text5::
-	line "¡no os perdáis el"
+	line "¡No os perdáis el"
 	done
 
 SECTION "_LC_Text6", ROMX
 _LC_Text6::
-	line "N. de la Suerte!"
+	line "No. de la Suerte!"
 	done
 
 SECTION "_LC_Text7", ROMX
@@ -917,7 +917,7 @@ _RocketRadioText4::
 
 SECTION "_RocketRadioText5", ROMX
 _RocketRadioText5::
-	line "¡hemos resurgido"
+	line "¡Hemos resurgido"
 	done
 
 SECTION "_RocketRadioText6", ROMX
@@ -1048,7 +1048,7 @@ _BuenaOffTheAirText::
 SECTION "Text_EnemyUsed", ROMX
 Text_EnemyUsed::
 	text "<ENEMY>"
-	line "¡usó "
+	line "¡Usó "
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	prompt
@@ -1056,7 +1056,7 @@ Text_EnemyUsed::
 SECTION "Text_EnemyUsedOn", ROMX
 Text_EnemyUsedOn::
 	text "<ENEMY>"
-	line "¡usó "
+	line "¡Usó "
 	text_ram wMonOrItemNameBuffer
 	cont "en "
 	text_ram wEnemyMonNickname
@@ -1776,7 +1776,7 @@ _NameRaterSameNameText::
 	line "igual que antes,"
 
 	para "pero este nombre"
-	line "¡es mucho mejor!"
+	line "¡Es mucho mejor!"
 
 	para "¡Bien hecho!"
 	done
@@ -2288,9 +2288,9 @@ SECTION "_UseSweetHoneyText", ROMX
 _UseSweetHoneyText::
 	text "<PLAYER> untó"
 if DEF(FAITHFUL)
-	line "¡la Miel!"
+	line "¡Miel!"
 else
-	line "¡la Miel Dulce!"
+	line "¡Miel Dulce!"
 endc
 	done
 
@@ -2407,17 +2407,17 @@ Text_BattleUser::
 
 SECTION "_BattleTookSunlightText", ROMX
 _BattleTookSunlightText::
-	line "¡absorbe el sol!"
+	line "¡Absorbe el sol!"
 	prompt
 
 SECTION "_BattleFlewText", ROMX
 _BattleFlewText::
-	line "¡voló muy alto!"
+	line "¡Voló muy alto!"
 	prompt
 
 SECTION "_BattleDugText", ROMX
 _BattleDugText::
-	line "¡cavó un hoyo!"
+	line "¡Cavó un hoyo!"
 	prompt
 
 SECTION "Text_BreedHuh", ROMX
@@ -3022,7 +3022,7 @@ _OakPCText4::
 
 SECTION "_MemoryGameYeahText", ROMX
 _MemoryGameYeahText::
-	text ", ¡bien!"
+	text ", ¡Bien!"
 	done
 
 SECTION "_MemoryGameDarnText", ROMX
@@ -3461,7 +3461,7 @@ SECTION "_EvolvingText", ROMX
 _EvolvingText::
 	text "¿Qué? "
 	text_ram wStringBuffer2
-	line "¡está"
+	line "¡Está"
 	cont "evolucionando!"
 	done
 

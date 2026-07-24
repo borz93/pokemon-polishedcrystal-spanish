@@ -403,8 +403,8 @@ YellowForestWalkerFinalText:
 	done
 
 YellowForestWalkerFlyText:
-	text "Skarmory,"
-	line "¡a volar!"
+	text "¡Skarmory,"
+	line "a volar!"
 	done
 
 YellowForestYellowGreetingText:

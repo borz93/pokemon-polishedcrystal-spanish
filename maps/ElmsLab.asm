@@ -1360,7 +1360,7 @@ AideText_ThiefReturnedMon:
 	line "llevó al #mon"
 	cont "del Profesor…"
 
-	para "…¡volvió a"
+	para "…¡Volvió a"
 	line "devolverlo!"
 
 	para "Pero el Prof. Elm"
@@ -1402,8 +1402,8 @@ ElmGiveMasterBallText1:
 	done
 
 ElmGiveMasterBallText2:
-	text "La Master Ball es"
-	line "¡la mejor!"
+	text "¡La Master Ball"
+	line "es la mejor!"
 
 	para "Es la Ball"
 	line "definitiva. ¡Atra-"
@@ -1713,7 +1713,7 @@ ElmsLabLyraThankYouText:
 	done
 
 ElmsLabLyraSeeYouText:
-	text "<PLAYER>, ¡nos"
+	text "<PLAYER>, ¡Nos"
 	line "vemos luego!"
 
 	para "¡Disfruta de tu"
@@ -1742,7 +1742,7 @@ ElmsLabLyraTheftGoodbyeText:
 	cont "devuelva el"
 	cont "#mon…"
 
-	para "Bueno, ¡nos"
+	para "Bueno, ¡Nos"
 	line "vemos luego!"
 	done
 
@@ -1775,8 +1775,8 @@ ElmsLabTravelTip2Text:
 
 	para "Consejo de viaje 2"
 
-	para "Guarda tu progreso"
-	line "¡con Guardar!"
+	para "¡Guarda tu progreso"
+	line "con Guardar!"
 	done
 
 ElmsLabTravelTip3Text:

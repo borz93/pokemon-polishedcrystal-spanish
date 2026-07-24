@@ -155,7 +155,7 @@ Archer2SeenText:
 	para "Vendemos esos"
 	line "#mon,"
 
-	para "¡y no hay nada que"
+	para "¡Y no hay nada que"
 	line "puedas hacer al"
 	cont "respecto!"
 	done

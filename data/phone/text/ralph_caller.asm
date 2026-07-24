@@ -86,7 +86,7 @@ RalphItemText:
 	para "¡Ay! ¡Auch!"
 	line "¡Uno me picó!"
 
-	para "Jeje, ¡son algo"
+	para "Jeje, ¡Son algo"
 	line "salvajes!"
 
 	para "<PLAYER>, tienes"

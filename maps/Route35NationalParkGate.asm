@@ -465,7 +465,7 @@ Route35NationalParkGatePokefanFText:
 	para "Nacional con sus"
 	line "entrenadores,"
 
-	para "¡y todos son tan,"
+	para "¡Y todos son tan,"
 	line "tan monos!"
 
 	para "¡Sí, los #mon"

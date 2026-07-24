@@ -406,7 +406,7 @@ OlivineCityYoungster2Text:
 	line "campistas tenemos"
 	cont "algo en común:"
 
-	para "¡a ambos nos"
+	para "¡A ambos nos"
 	line "encanta cantar!"
 
 	para "Pero las canciones"

@@ -23,8 +23,9 @@ WildPokemonAppearedText:
 	prompt
 
 LegendaryAppearedText:
+    text "¡"
 	text_ram wEnemyMonNickname
-	line "¡ha aparecido!"
+	line "ha aparecido!"
 	prompt
 
 GhostAppearedText:
@@ -54,12 +55,12 @@ PokemonFellFromTreeText:
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "¡quiere luchar!"
+	line "¡Quiere luchar!"
 	prompt
 
 WantToBattleText::
 	text "<ENEMY>"
-	line "¡quieren luchar!"
+	line "¡Quieren luchar!"
 	prompt
 
 BattleText_WildFled:
@@ -70,8 +71,9 @@ BattleText_WildFled:
 	prompt
 
 BattleText_LegendaryFled:
+    text "¡"
 	text_ram wEnemyMonNickname
-	line "¡huyó!"
+	line "huyó!"
 	prompt
 
 BattleText_EnemyFled:
@@ -369,12 +371,12 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "¡ha perdido!"
+	line "¡Ha perdido!"
 	prompt
 
 BattleText_EnemyWereDefeated:
 	text "<ENEMY>"
-	line "¡han perdido!"
+	line "¡Han perdido!"
 	prompt
 
 TiedAgainstText:
@@ -458,7 +460,7 @@ BattleText_EnemyAreAboutToSwitchWillPlayerSwitchPkmn:
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "¡sacó a"
+	line "¡Sacó a"
 	cont ""
 	text_ram wEnemyMonNickname
 	text "!"
@@ -585,7 +587,7 @@ BattleText_TheMoveIsDisabled:
 	prompt
 
 BattleText_PkmnHasNoMovesLeft:
-    text "¡A @"
+    text "¡A "
 	text_ram wBattleMonNickname
 	line "no le quedan"
 	cont "más movimientos!"
@@ -870,8 +872,8 @@ RegainedHealthText:
 	prompt
 
 IsHurtText:
-	text "<USER>"
-	line "¡está dañado!"
+	text "¡<USER>"
+	line "está dañado!"
 	prompt
 
 IsTormentedText:
@@ -1957,7 +1959,7 @@ Lyra1_3FinalPkmnText:
 
 Lyra1_4FinalPkmnText:
 	text "Gane o pierda,"
-	line "¡me lo he"
+	line "¡Me lo he"
 	cont "pasado genial!"
 	prompt
 
@@ -2188,7 +2190,7 @@ PiersFinalPkmnText:
 
 	para "Ni canciones…"
 	line "ni movimientos…"
-	cont "¡ni #mon!"
+	cont "¡Ni #mon!"
 	prompt
 
 LarryFinalPkmnText:
