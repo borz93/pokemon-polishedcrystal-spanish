@@ -452,11 +452,11 @@ RadioTower2FBuenaEveryoneSayPasswordText:
 	text "Buena: ¿Todos"
 	line "listos?"
 
-	para "Quiero oíros"
+	para "¡Quiero oíros"
 	line "gritar la"
 
 	para "contraseña de hoy"
-	line "¡para <PLAYER>!"
+	line "para <PLAYER>!"
 	done
 
 RadioTower2FBuenaComeBackAfterListeningText:
@@ -508,11 +508,11 @@ RadioTower2FBuenaThanksForComingText:
 	line "¡Gracias por"
 	cont "venir!"
 
-	para "Espero que"
+	para "¡Espero que"
 	line "todos los"
 	cont "oyentes"
 
-	para "¡también vengan!"
+	para "también vengan!"
 	line "¡Os espero!"
 	done
 

@@ -50,7 +50,7 @@ Route39RuggedRoadGateSwimmerScript:
 	text "Bonito día hoy,"
 	line "¿verdad?"
 
-	para "Oí que la vista"
+	para "¡Oí que la vista"
 	line "desde la cima es"
 	cont "genial!"
 	done
@@ -77,7 +77,7 @@ Route39RuggedRoadGateSwimmerScript:
 	para "Ya compré unas"
 	line "nuevas, aunque…"
 
-	para "Ten, ¡toma esto"
+	para "Ten, ¡Toma esto"
 	line "como agradecimien-"
 	cont "to!"
 	prompt
@@ -134,9 +134,9 @@ Route39RuggedRoadGateOfficerCannotPassText:
 	line "vas?"
 
 	para "¡El Camino"
-	line "Escarpado al Monte"
-	cont "Nevado es muy"
-	cont "duro!"
+	line "Escarpado hacia"
+	cont "Monte Nevado"
+	cont "es muy duro!"
 
 	para "No puedo dejar que"
 	line "te arriesgues sin"
