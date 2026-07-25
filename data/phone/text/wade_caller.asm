@@ -32,7 +32,8 @@ WadeDefeatedMonText:
 	done
 
 WadeLostAMonText:
-	text "Ah sí, un "
+	text "Ah sí, un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje"
 	line "se me escapó"
