@@ -51,8 +51,8 @@ jobs:
         run: |
           make -j$(nproc)
           mkdir build
-          mv polishedcrystal-${{ env.PC_VERSION }}.gbc build/polishedcrystal-dev-spanish-translation.gbc
-          mv polishedcrystal-${{ env.PC_VERSION }}.sym build/polishedcrystal-dev-spanish-translation.sym
+          mv polishedcrystal-dev-spanish-translation-${{ env.PC_VERSION }}.gbc build/polishedcrystal-dev-spanish-translation.gbc
+          mv polishedcrystal-dev-spanish-translation-${{ env.PC_VERSION }}.sym build/polishedcrystal-dev-spanish-translation.sym
           make tidy
 
       # UPLOAD ARTIFACT
