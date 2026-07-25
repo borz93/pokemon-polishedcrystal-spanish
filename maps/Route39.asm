@@ -482,11 +482,11 @@ Route39AdvancedTips2Text:
 	cont "Compuesto, o uno"
 
 	para "que lleve una"
-	line "Moneda Amuleto,"
-	cont "tiene más"
+	line "Mon. Amuleto,"
+	cont "¡tiene más"
 	cont "probabilidad de"
 
-	para "¡encontrar un"
+	para "encontrar un"
 	line "#mon salvaje"
 	cont "con un objeto!"
 	done

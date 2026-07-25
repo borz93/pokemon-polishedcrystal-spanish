@@ -810,9 +810,9 @@ CooltrainerfIreneAfterText2:
 	text "Irene: ¿A que esta"
 	line "playa es genial?"
 
-	para "¡Es nuestra"
-	line "pequeña escapada"
-	cont "secreta!"
+	para "¡Es nuestro"
+	line "pequeño rincon"
+	cont "secreto!"
 	done
 
 CooltrainerfJennSeenText:
@@ -900,6 +900,6 @@ Route34AdvancedTipsSignText:
 DayCareSignText:
 	text "Guardería"
 
-	para "¡Déjanos Criar a"
+	para "¡Déjanos criar a"
 	line "tus #mon!"
 	done
