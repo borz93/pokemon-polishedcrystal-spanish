@@ -743,7 +743,7 @@ _LC_Text5::
 
 SECTION "_LC_Text6", ROMX
 _LC_Text6::
-	line "No. de la Suerte!"
+	line "№. de la Suerte!"
 	done
 
 SECTION "_LC_Text7", ROMX

@@ -61,7 +61,7 @@ BattleFactoryHallwayEnterScene:
 .AskNextBattle:
 	writethistext
 		text "Siguiente rival"
-		line "Núm. "
+		line "№. "
 		text_decimal wStringBuffer3, 2, 5
 		text ". ¿Listo?"
 		done
