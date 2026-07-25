@@ -77,7 +77,7 @@ GenericTrainerBugManiacLou:
 	line "Cazabichos,"
 
 	para "pero evolucioné a"
-	line "Entomólogo!"
+	line "Bichomaníaco!"
 	done
 
 GenericTrainerSchoolgirlEliza:

@@ -51,8 +51,8 @@ TrainerClassNames::
 	li "Cosplayer"       ; COSPLAYER
 	li "Empollón"        ; SUPER_NERD
 	li "Srta."           ; LASS
-	li "Beldad"          ; BEAUTY
-	li "Entomólogo"      ; BUG_MANIAC
+	li "Bella"           ; BEAUTY
+	li "Bichomaníaco"    ; BUG_MANIAC
 	li "Arqueólogo"      ; RUIN_MANIAC
 	li "Tragafuego"      ; FIREBREATHER
 	li "Malabarista"     ; JUGGLER
