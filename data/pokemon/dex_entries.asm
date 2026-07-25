@@ -1929,12 +1929,12 @@ SunfloraPokedexEntry::
 SECTION "YanmaPokedexEntry", ROMX
 YanmaPokedexEntry::
 	db "Ala Clara@"
-	text "Ve en todas"
+	text "Puede ver en todas"
 	next "direcciones sin"
-	next "mover sus grandes"
-	page "ojos, y así"
-	next "detecta peligros"
-	next "y comida ya.@"
+	next "mover los ojos."
+	page "Así localiza a sus"
+	next "rivales y la comi-"
+	next "da que necesite.@"
 
 SECTION "WooperPlainPokedexEntry", ROMX
 WooperPlainPokedexEntry::
