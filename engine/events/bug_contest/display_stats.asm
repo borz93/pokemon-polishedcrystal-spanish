@@ -80,11 +80,11 @@ DisplayCaughtContestMonStats:
 	jmp SetDefaultBGPAndOBP
 
 .Health:
-	db "Health@"
+	db "Salud @"
 .Stock:
 	db " Stock <PK><MN> @"
 .This:
-	db " This <PK><MN>  @"
+	db " Nuevo <PK><MN> @"
 
 SwitchMonText:
 	; Switch #MON?
