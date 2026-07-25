@@ -275,18 +275,18 @@ ContestResults_ReadyToJudgeText:
 	para "……"
 	line "……"
 
-	para "¡Ya hemos elegido"
+	para "¡Hemos elegido"
 	line "a los ganadores!"
 
-	para "¿Estás listo"
-	line "para esto?"
+	para "Aquí van…"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, No."
+	text "<PLAYER> gana el"
+	line "premio No."
 	text_ram wStringBuffer3
-	line ", ¡Gana"
-	cont ""
+	text ":"
+	cont "¡una "
 	text_ram wStringBuffer4
 	text "!"
 	done
