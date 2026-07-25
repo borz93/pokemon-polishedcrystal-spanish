@@ -4,37 +4,33 @@ name: "Dev Rolling Release"
 on:
   push:
     branches:
-      - master
+      - spanish-translation
   workflow_dispatch:
-  # Uncomment to enable scheduled runs, if desired:
-  # schedule:
-  #   - cron: '0 5 * * *'
+
+permissions:
+  contents: write
 
 env:
   DEV_TAG: "do-not-checkout"
-  DEV_NAME: "Development Rolling Release"
+  DEV_NAME: "Development Rolling Release (traducción al español)"
   DEV_BODY: |
-    This is the current Polished Crystal development rolling release – **strictly for testing and development purposes.** These builds are experimental and are provided to help developers and testers verify the latest changes and features. **Do not use these builds for regular gameplay.** The assets all have an 8-character commit hash at the end to identify the exact code they're built from.
+    Esta es la versión de desarrollo más reciente de la traducción al español de Polished Crystal, generada automáticamente en cada cambio subido a la rama `spanish-translation`. **Solo para pruebas** — puede contener textos sin traducir o fallos aún no corregidos.
 
-    **Important:** Save game compatibility is not guaranteed in these builds, and the official save patcher will not support them upon release.
+    El nombre del archivo incluye el hash corto (8 caracteres) del commit exacto con el que se compiló.
 
-    The **.gbc** assets are ROMs. If you just want to play the game, download one (regular, `-faithful` which omits some non-canon changes, or `noir` which is in grayscale) and load it in [BGB](https://bgb.bircd.org/), [mGBA](https://mgba.io/), [Gambatte](https://github.com/sinamas/gambatte), or another accurate Game Boy Color emulator. (***Do not use VBA*** or VBA-M.)
+    El **.gbc** es el ROM. Cárgalo en [mGBA](https://mgba.io/), [BGB](https://bgb.bircd.org/) u otro emulador de Game Boy Color preciso.
 
-    The **.sym** assets are "symbol files". They're useful for debugging or for [discovering cheat codes](https://github.com/pret/pokecrystal/wiki/Discovering-GameShark-cheat-codes), although cheats are *not* officially supported and may cause bugs or crashes. (Do ***not*** ask the developers for cheat codes.)
+    El **.sym** es el archivo de símbolos, útil solo para depuración.
 
-    The **.patch** assets are 3DS Virtual Console patches to enable trading and battling over Wi-Fi. You can bundle the .gbc and corresponding .patch into a playable .cia file using [poke-cia](https://github.com/vulcandth/poke-cia).
-
-    The **debug** assets are ROMs and symbol files with extra features to help debug the game. Do ***not*** download these just to play; use them to help the developers diagnose and fix bugs, or to create new features.
+    Hack original: [Polished Crystal, de Rangi42](https://github.com/Rangi42/polishedcrystal).
 
 jobs:
   build:
     name: "Dev Rolling Release Build"
-    uses: Rangi42/polishedcrystal/.github/workflows/build.yml@master
+    uses: ./.github/workflows/build.yml
 
   release:
     name: "Dev Rolling Release / Release"
-    # Only proceed with the release job if this is the official repository (not a fork)
-    if: ${{ github.repository_owner == 'Rangi42' }}
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -44,45 +40,17 @@ jobs:
         run: |
           echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
 
-      # INSTALL DEPENDENCIES
-      - id: apt-get-depends
-        name: "Install dependencies"
-        run: |
-          sudo apt-get update
-          sudo apt-get install bison gcc git make -y;
-
       # CHECKOUT REPOSITORY
       - id: checkout-polishedcrystal
-        name: "Checkout Rangi42/polishedcrystal"
+        name: "Checkout repository"
         uses: actions/checkout@v7
 
-      # DOWNLOAD ALL BUILD ARTIFACTS
+      # DOWNLOAD BUILD ARTIFACT
       - id: download-polishedcrystal
         name: "Download polishedcrystal"
         uses: actions/download-artifact@v8
         with:
           name: "polishedcrystal"
-          path: "./build"
-
-      - id: download-polishedcrystal-faithful
-        name: "Download polishedcrystal-faithful"
-        uses: actions/download-artifact@v8
-        with:
-          name: "polishedcrystal-faithful"
-          path: "./build"
-
-      - id: download-polisheddebug
-        name: "Download polisheddebug"
-        uses: actions/download-artifact@v8
-        with:
-          name: "polisheddebug"
-          path: "./build"
-
-      - id: download-polisheddebug-faithful
-        name: "Download polisheddebug-faithful"
-        uses: actions/download-artifact@v8
-        with:
-          name: "polisheddebug-faithful"
           path: "./build"
 
       # DELETE OLD RELEASE (if any)
@@ -92,11 +60,13 @@ jobs:
         with:
           tag: ${{ env.DEV_TAG }}
 
-      # ADVANCE DEV TAG TO MASTER
-      - name: Advance dev tag to master
+      # ADVANCE DEV TAG TO CURRENT COMMIT
+      - name: Advance dev tag
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git tag ${{ env.DEV_TAG }} -f
-          git push --tags -f "https://Rangi42:$GITHUB_TOKEN@github.com/Rangi42/polishedcrystal.git"
+          git push --tags -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
 
       # CREATE NEW RELEASE
       - name: Create new release
@@ -109,46 +79,12 @@ jobs:
           draft: false
           prerelease: true
 
-      # UPLOAD REGULAR ASSETS
-      - name: Upload regular assets
+      # UPLOAD ASSETS
+      - name: Upload assets
         id: upload
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.DEV_TAG }}
           files: |
-            ./build/polishedcrystal-dev-${{ env.SHORT_SHA }}.gbc
-            ./build/polishedcrystal-dev-${{ env.SHORT_SHA }}.patch
-            ./build/polishedcrystal-dev-${{ env.SHORT_SHA }}.sym
-
-      # UPLOAD FAITHFUL ASSETS
-      - name: Upload faithful assets
-        id: upload-faithful
-        uses: softprops/action-gh-release@v3
-        with:
-          tag_name: ${{ env.DEV_TAG }}
-          files: |
-            ./build/polishedcrystal-faithful-dev-${{ env.SHORT_SHA }}.gbc
-            ./build/polishedcrystal-faithful-dev-${{ env.SHORT_SHA }}.patch
-            ./build/polishedcrystal-faithful-dev-${{ env.SHORT_SHA }}.sym
-
-      # UPLOAD DEBUG ASSETS
-      - name: Upload debug assets
-        id: upload-debug
-        uses: softprops/action-gh-release@v3
-        with:
-          tag_name: ${{ env.DEV_TAG }}
-          files: |
-            ./build/polishedcrystal-debug-dev-${{ env.SHORT_SHA }}.gbc
-            ./build/polishedcrystal-debug-dev-${{ env.SHORT_SHA }}.patch
-            ./build/polishedcrystal-debug-dev-${{ env.SHORT_SHA }}.sym
-
-      # UPLOAD FAITHFUL DEBUG ASSETS
-      - name: Upload faithful debug assets
-        id: upload-faithful-debug
-        uses: softprops/action-gh-release@v3
-        with:
-          tag_name: ${{ env.DEV_TAG }}
-          files: |
-            ./build/polishedcrystal-faithful-debug-dev-${{ env.SHORT_SHA }}.gbc
-            ./build/polishedcrystal-faithful-debug-dev-${{ env.SHORT_SHA }}.patch
-            ./build/polishedcrystal-faithful-debug-dev-${{ env.SHORT_SHA }}.sym
+            ./build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.gbc
+            ./build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.sym
