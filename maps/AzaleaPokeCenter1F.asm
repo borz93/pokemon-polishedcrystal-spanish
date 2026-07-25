@@ -28,9 +28,9 @@ PokemonJournalBugsyScript:
 
 	para "Reportaje"
 	line "especial: ¡Líder"
-	cont "Bugsy!"
+	cont "Antón!"
 
-	para "Dicen que Bugsy"
+	para "Dicen que Antón"
 	line "ganó tantas veces"
 
 	para "el Concurso de"

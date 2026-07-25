@@ -105,7 +105,7 @@ AzaleaGymBugsyScript:
 	done
 
 .SeenText:
-	text "¡Soy Bugsy!"
+	text "¡Soy Antón!"
 	line "Nunca pierdo con"
 
 	para "#mon tipo"
@@ -154,7 +154,7 @@ AzaleaGymGuyScript:
 
 	text "¡Eh, aspirante!"
 
-	para "Bugsy es joven,"
+	para "Antón es joven,"
 	line "pero su conocim."
 	cont "de #mon Bicho"
 	cont "es real."

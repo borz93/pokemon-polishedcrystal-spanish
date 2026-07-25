@@ -251,7 +251,7 @@ KurtsHouseSignText:
 AzaleaGymSignText:
 	text "Pueblo Azalea"
 	line "Gimnasio #mon"
-	cont "Líder: Bugsy"
+	cont "Líder: Antón"
 
 	para "La Enciclopedia"
 	line "Andante de"

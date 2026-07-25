@@ -153,7 +153,7 @@ SECTION "BugsyGroup", ROMX
 BugsyGroup:
 
 	def_trainer_class BUGSY
-	def_trainer 1, "Bugsy"
+	def_trainer 1, "Antón"
 	tr_mon 17, SCYTHER, FEMALE
 		tr_extra SWARM
 		tr_evs 64 Atk
@@ -171,7 +171,7 @@ BugsyGroup:
 		tr_moves FORESIGHT, QUICK_ATTACK, DOUBLE_TEAM, SONIC_BOOM
 	end_trainer
 
-	def_trainer 2, "Bugsy"
+	def_trainer 2, "Antón"
 	tr_mon 71, LEDIAN @ LIGHT_CLAY, FEMALE
 		tr_extra IRON_FIST, DEF_UP_SATK_DOWN
 		tr_evs 252 HP, 252 Def, 4 SDf

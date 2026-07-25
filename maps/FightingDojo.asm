@@ -811,12 +811,12 @@ FightingDojoScheduleWednesdayText:
 	done
 
 FightingDojoScheduleThursdayText:
-	text "Jueves: Bugsy,"
+	text "Jueves: Antón,"
 	line "???, Morty"
 	done
 
 FightingDojoScheduleThursdayPalmerText:
-	text "Jueves: Bugsy,"
+	text "Jueves: Antón,"
 	line "Palmer, Morty"
 	done
 

@@ -58,5 +58,5 @@ GoldenrodNetBallHouseBugCatcherText:
 	cont "Ruta 35."
 
 	para "A veces hasta"
-	line "compite Bugsy."
+	line "compite Antón."
 	done
