@@ -154,7 +154,7 @@ BeedrillPokedexEntry::
 
 SECTION "PidgeyPokedexEntry", ROMX
 PidgeyPokedexEntry::
-	db "Ave Peque.@"
+	db "Pajarito@"
 	text "Agita rápido las"
 	next "alas entre la"
 	next "hierba, alzando"
@@ -838,7 +838,7 @@ FarfetchDPlainPokedexEntry::
 
 SECTION "DoduoPokedexEntry", ROMX
 DoduoPokedexEntry::
-	db "Pájaro Dob.@"
+	db "Ave Doble.@"
 	text "Al subir y bajar"
 	next "alternadamente"
 	next "sus dos cabezas,"
@@ -848,7 +848,7 @@ DoduoPokedexEntry::
 
 SECTION "DodrioPokedexEntry", ROMX
 DodrioPokedexEntry::
-	db "Pájaro Tri.@"
+	db "Ave Triple@"
 	text "Si apartas la"
 	next "vista de sus"
 	next "tres cabezas,"
@@ -1268,7 +1268,7 @@ MagmarPokedexEntry::
 
 SECTION "PinsirPokedexEntry", ROMX
 PinsirPokedexEntry::
-	db "Ciervo Vol.@"
+	db "Escarabajo@"
 	text "Cuando baja la"
 	next "temperatura de"
 	next "noche, duerme"
@@ -1278,7 +1278,7 @@ PinsirPokedexEntry::
 
 SECTION "TaurosPlainPokedexEntry", ROMX
 TaurosPlainPokedexEntry::
-	db "Toro Salv.@"
+	db "Toro Bravo@"
 	text "Estos violentos"
 	next "#mon luchan"
 	next "contra otros"
@@ -1298,7 +1298,7 @@ MagikarpPokedexEntry::
 
 SECTION "GyaradosPlainPokedexEntry", ROMX
 GyaradosPlainPokedexEntry::
-	db "Atroz@"
+	db "Atrocidad@"
 	text "Aparece siempre"
 	next "que hay"
 	next "conflictos"
@@ -1618,7 +1618,7 @@ SentretPokedexEntry::
 
 SECTION "FurretPokedexEntry", ROMX
 FurretPokedexEntry::
-	db "Cuerpo Lar.@"
+	db "Alargado@"
 	text "Vive en"
 	next "madrigueras"
 	next "estrechas que"
@@ -1648,7 +1648,7 @@ NoctowlPokedexEntry::
 
 SECTION "LedybaPokedexEntry", ROMX
 LedybaPokedexEntry::
-	db "Cinco Est.@"
+	db "5 Estrellas@"
 	text "Es tímido y se"
 	next "junta con otros."
 	next "El líquido de"
@@ -1868,7 +1868,7 @@ PolitoedPokedexEntry::
 
 SECTION "HoppipPokedexEntry", ROMX
 HoppipPokedexEntry::
-	db "Malahierba@"
+	db "Algodón@"
 	text "Hasta la brisa"
 	next "más suave puede"
 	next "llevárselo."
@@ -1878,7 +1878,7 @@ HoppipPokedexEntry::
 
 SECTION "SkiploomPokedexEntry", ROMX
 SkiploomPokedexEntry::
-	db "Malahierba@"
+	db "Algodón@"
 	text "En cuanto llueve,"
 	next "cierra su flor y"
 	next "se esconde bajo"
@@ -1888,7 +1888,7 @@ SkiploomPokedexEntry::
 
 SECTION "JumpluffPokedexEntry", ROMX
 JumpluffPokedexEntry::
-	db "Malahierba@"
+	db "Algodón@"
 	text "Incluso con el"
 	next "viento más"
 	next "fuerte, controla"
@@ -2268,7 +2268,7 @@ MantinePokedexEntry::
 
 SECTION "SkarmoryPokedexEntry", ROMX
 SkarmoryPokedexEntry::
-	db "Ave Blind.@"
+	db "Ave Coraza@"
 	text "Las plumas que"
 	next "suelta son muy"
 	next "afiladas."
