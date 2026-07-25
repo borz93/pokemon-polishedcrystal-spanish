@@ -17,12 +17,6 @@ jobs:
     name: "Build"
     runs-on: ubuntu-latest
     steps:
-      # SET ENVIRONMENT VARIABLES
-      - id: set-env-var
-        name: "Set environment variables"
-        run: |
-          echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
-
       # INSTALL DEPENDENCIES
       - id: apt-get-depends
         name: "Install build dependencies"
@@ -57,8 +51,8 @@ jobs:
         run: |
           make -j$(nproc)
           mkdir build
-          mv polishedcrystal-${{ env.PC_VERSION }}.gbc build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.gbc
-          mv polishedcrystal-${{ env.PC_VERSION }}.sym build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.sym
+          mv polishedcrystal-${{ env.PC_VERSION }}.gbc build/polishedcrystal-dev-spanish-translation.gbc
+          mv polishedcrystal-${{ env.PC_VERSION }}.sym build/polishedcrystal-dev-spanish-translation.sym
           make tidy
 
       # UPLOAD ARTIFACT
@@ -69,4 +63,4 @@ jobs:
           name: "polishedcrystal"
           retention-days: 1
           path: |
-            build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.*
+            build/polishedcrystal-dev-spanish-translation.*

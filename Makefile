@@ -1,5 +1,5 @@
 NAME := polishedcrystal
-MODIFIERS :=
+MODIFIERS := -dev-spanish-translation
 VERSION := 3.2.3
 AUTHOR := RANGI42
 

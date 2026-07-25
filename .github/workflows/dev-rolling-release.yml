@@ -16,7 +16,7 @@ env:
   DEV_BODY: |
     Esta es la versión de desarrollo más reciente de la traducción al español de Polished Crystal, generada automáticamente en cada cambio subido a la rama `spanish-translation`. **Solo para pruebas** — puede contener textos sin traducir o fallos aún no corregidos.
 
-    El nombre del archivo incluye el hash corto (8 caracteres) del commit exacto con el que se compiló.
+    El nombre del archivo es siempre el mismo (`polishedcrystal-dev-spanish-translation.gbc`) para que tu partida guardada (`.sav`) no cambie de nombre entre versiones. Eso no garantiza que la partida siga siendo compatible si en algún momento cambia cómo se guardan los datos — mira el commit exacto de esta release para eso.
 
     El **.gbc** es el ROM. Cárgalo en [mGBA](https://mgba.io/), [BGB](https://bgb.bircd.org/) u otro emulador de Game Boy Color preciso.
 
@@ -34,12 +34,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      # SET ENVIRONMENT VARIABLES
-      - id: set-env-var
-        name: "Set environment variables"
-        run: |
-          echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
-
       # CHECKOUT REPOSITORY
       - id: checkout-polishedcrystal
         name: "Checkout repository"
@@ -74,7 +68,7 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.DEV_TAG }}
-          name: ${{ env.DEV_NAME }}
+          name: "${{ env.DEV_NAME }} (${{ github.sha }})"
           body: ${{ env.DEV_BODY }}
           draft: false
           prerelease: true
@@ -86,5 +80,5 @@ jobs:
         with:
           tag_name: ${{ env.DEV_TAG }}
           files: |
-            ./build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.gbc
-            ./build/polishedcrystal-dev-spanish-translation-${{ env.SHORT_SHA }}.sym
+            ./build/polishedcrystal-dev-spanish-translation.gbc
+            ./build/polishedcrystal-dev-spanish-translation.sym
