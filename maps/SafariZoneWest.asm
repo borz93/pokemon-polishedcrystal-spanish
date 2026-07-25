@@ -38,7 +38,7 @@ GenericTrainerLassDuplica:
 	line "entrenadora del"
 	cont "Gimnasio de"
 	cont "Fucsia e imitaré"
-	cont "a Janine."
+	cont "a Sachiko."
 	done
 
 GenericTrainerCamperAmos:

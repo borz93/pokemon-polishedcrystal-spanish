@@ -107,10 +107,10 @@ FuchsiaCitySignText:
 FuchsiaGymSignText:
 	text "Ciudad Fucsia"
 	line "Gimnasio #mon"
-	cont "Líder: Janine"
+	cont "Líder: Sachiko"
 
-	para "La Ninja Maestra"
-	line "Venenosa"
+	para "La Venenosa"
+	line "Maestra Ninja"
 	done
 
 SafariZoneOfficeSignText:

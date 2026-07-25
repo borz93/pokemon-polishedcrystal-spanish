@@ -787,12 +787,12 @@ FightingDojoScheduleSundayText:
 
 FightingDojoScheduleMondayText:
 	text "Lunes: Pegaso,"
-	line "Janine, ???"
+	line "Sachiko, ???"
 	done
 
 FightingDojoScheduleMondayWalkerText:
 	text "Lunes: Pegaso,"
-	line "Janine, Walker"
+	line "Sachiko, Walker"
 	done
 
 FightingDojoScheduleTuesdayText:

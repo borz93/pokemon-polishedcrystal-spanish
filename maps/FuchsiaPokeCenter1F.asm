@@ -30,7 +30,7 @@ PokemonJournalJanineScript:
 
 	para "Reportaje"
 	line "especial: ¡Líder"
-	cont "Janine!"
+	cont "Sachiko!"
 
 	para "Dicen que de niña"
 	line "era fan del zoo"
@@ -52,7 +52,7 @@ JanineImpersonatorScript:
 	end
 
 .Text1:
-	text "¡Soy Janine!"
+	text "¡Soy Sachiko!"
 	line "Abracadabra…"
 	cont "¡Puf!"
 	done

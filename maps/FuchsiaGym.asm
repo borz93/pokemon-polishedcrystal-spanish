@@ -186,10 +186,10 @@ FuchsiaGymGuyScript:
 	para "Todas las"
 	line "entrenadoras"
 	cont "parecen la Líder,"
-	cont "Janine."
+	cont "Sachiko."
 
 	para "¿Cuál de ellas es"
-	line "la Janine real?"
+	line "la Sachiko real?"
 	done
 
 FuchsiaGymStatue:
@@ -224,18 +224,18 @@ JanineText_DisappointYou:
 
 	para "¡Solo bromeaba!"
 
-	para "¡Soy la de"
-	line "verdad!"
+	para "¡Soy la"
+	line "verdadera!"
 
-	para "¡Janine del"
+	para "¡Sachiko del"
 	line "Gimnasio de"
 	cont "Fucsia, esa soy"
 	cont "yo!"
 	done
 
 JanineText_ToughOne:
-	text "Janine: Eres"
-	line "dura. Sin duda"
+	text "Sachiko: Eres"
+	line "duro. Sin duda"
 	cont "ganaste…"
 
 if DEF(FAITHFUL)
@@ -248,13 +248,13 @@ endc
 	done
 
 JanineText_ToxicSpeech:
-	text "Janine: ¡Eres tan"
-	line "dura! ¡Tengo un"
+	text "Sachiko: ¡Eres tan"
+	line "duro! ¡Tengo un"
 	cont "regalo especial!"
 	done
 
 JanineText_ApplyMyself:
-	text "Janine: Voy a"
+	text "Sachiko: Voy a"
 	line "esforzarme de"
 
 	para "verdad y mejorar"
@@ -267,13 +267,13 @@ JanineText_ApplyMyself:
 LassAmandaBeforeText:
 	text "¡Fufufu!"
 
-	para "¡Soy Janine, la"
+	para "¡Soy Sachiko, la"
 	line "Líder de"
 	cont "Gimnasio!"
 
 	para "¡No, no lo soy!"
 	line "¡Te engañé,"
-	cont "incauta!"
+	cont "incauto!"
 	done
 
 LassAmandaBeatenText:
@@ -305,7 +305,7 @@ LassLindaAfterText:
 	done
 
 PicnickerCindyBeforeText:
-	text "¡Soy Janine!"
+	text "¡Soy Sachiko!"
 
 	para "¿Cómo sabías que"
 	line "era la real?"
@@ -327,7 +327,7 @@ CamperBarryBeforeText:
 	text "¡Wajajaja!"
 
 	para "¡Claro que sí!"
-	line "¡Soy Janine!"
+	line "¡Soy Sachiko!"
 	done
 
 CamperBarryBeatenText:
