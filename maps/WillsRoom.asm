@@ -84,7 +84,7 @@ WillScript:
 
 	para "Permíteme"
 	line "presentarme. Soy"
-	cont "Will."
+	cont "Mento."
 
 	para "He entrenado por"
 	line "todo el mundo,"

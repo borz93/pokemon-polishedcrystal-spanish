@@ -274,9 +274,9 @@ PokemonJournalWillScript:
 
 	para "Reportaje"
 	line "especial: ¡El"
-	cont "Alto Mando Will!"
+	cont "Alto Mando Mento!"
 
-	para "Will no habla de"
+	para "Mento no habla de"
 	line "su pasado antes"
 
 	para "de unirse al Alto"
