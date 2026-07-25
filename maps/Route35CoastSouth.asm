@@ -62,7 +62,7 @@ GenericTrainerBird_keeperBryan:
 	cont "de Kurt."
 
 	para "Cuando encuentro"
-	line "una Bell. Blanca,"
+	line "un Bonguri Blanco,"
 	cont "se la llevo a"
 	cont "Kurt."
 
