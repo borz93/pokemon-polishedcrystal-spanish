@@ -503,7 +503,7 @@ Continue_LoadMenuHeader:
 
 .MenuDataHeader_Dex:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData2_Dex
 	db 1 ; default option
 
@@ -517,7 +517,7 @@ Continue_LoadMenuHeader:
 
 .MenuDataHeader_NoDex:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 15, 9
+	menu_coords 0, 0, 17, 9
 	dw .MenuData2_NoDex
 	db 1 ; default option
 
