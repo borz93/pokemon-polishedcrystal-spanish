@@ -337,8 +337,8 @@ TraceDescription:
 	done
 
 HugePowerDescription:
-	text "Sube mucho el"
-	next "Ataque."
+	text "Aumenta la esta-"
+	next "distica de Ataque."
 	done
 
 PoisonPointDescription:
