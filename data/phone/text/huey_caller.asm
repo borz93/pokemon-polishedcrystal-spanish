@@ -10,8 +10,7 @@ HueyBattleRematchText:
 	text_ram wStringBuffer5
 	text "."
 
-	para "¡Ven aquí"
-	line "corriendo!"
+	para "¡Ven cuanto antes!"
 	done
 
 HueyHangUpText:
