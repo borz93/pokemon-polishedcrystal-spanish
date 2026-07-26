@@ -1373,7 +1373,7 @@ PutACurseText:
 	prompt
 
 ProtectedItselfText:
-	text "'<USER>"
+	text "¡<USER>"
 	line "se protegió!"
 	prompt
 
