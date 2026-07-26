@@ -202,7 +202,7 @@ MahoganyTownSouvenirShopSignText1:
 	line "de Recuerdos"
 
 	para "Nada Sospechoso"
-	line "en Ella"
+	line "Aquí"
 
 	para "No Hay Necesidad"
 	line "de Alarmarse"
@@ -213,7 +213,6 @@ MahoganyGymSignText:
 	line "Gimnasio #mon"
 	cont "Líder: Fredo"
 
-	para "El Maestro de la"
-	line "Dureza del"
-	cont "Invierno"
+	para "El Maestro del"
+	line "crudo invierno"
 	done
