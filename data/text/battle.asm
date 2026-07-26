@@ -373,12 +373,12 @@ GotMoneyForWinningText:
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "¡Ha perdido!"
+	line "¡ha perdido!"
 	prompt
 
 BattleText_EnemyWereDefeated:
 	text "<ENEMY>"
-	line "¡Han perdido!"
+	line "¡han perdido!"
 	prompt
 
 TiedAgainstText:
