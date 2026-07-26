@@ -7073,32 +7073,32 @@ SECTION "AceDuoGroup", ROMX
 AceDuoGroup:
 
 	def_trainer_class ACE_DUO
-	def_trainer ELANANDIDA1, "Elan & Ida"
+	def_trainer ELANANDIDA1, "Elan&Ida"
 	tr_mon 65, PORYGON2, MALE
 	tr_mon 65, AZUMARILL, FEMALE
 	end_trainer
 
-	def_trainer ELANANDIDA2, "Elan & Ida"
+	def_trainer ELANANDIDA2, "Elan&Ida"
 	tr_mon 65, AZUMARILL, FEMALE
 	tr_mon 65, PORYGON2, MALE
 	end_trainer
 
-	def_trainer ARAANDBELA1, "Ara & Bela"
+	def_trainer ARAANDBELA1, "Ara&Bela"
 	tr_mon 64, TAUROS, MALE
 	tr_mon 64, GIRAFARIG, FEMALE
 	end_trainer
 
-	def_trainer ARAANDBELA2, "Ara & Bela"
+	def_trainer ARAANDBELA2, "Ara&Bela"
 	tr_mon 64, GIRAFARIG, FEMALE
 	tr_mon 64, TAUROS, MALE
 	end_trainer
 
-	def_trainer THOMANDKAE1, "Thom & Kae"
+	def_trainer THOMANDKAE1, "Thom&Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	end_trainer
 
-	def_trainer THOMANDKAE2, "Thom & Kae"
+	def_trainer THOMANDKAE2, "Thom&Kae"
 	tr_mon LEVEL_FROM_BADGES + 2, ELECTABUZZ, FEMALE
 	tr_mon LEVEL_FROM_BADGES + 2, MAGMAR, MALE
 	end_trainer
@@ -7113,28 +7113,28 @@ AceDuoGroup:
 	tr_mon 62, DUGTRIO, MALE
 	end_trainer
 
-	def_trainer JAKEANDBRI1, "Jake & Bri"
+	def_trainer JAKEANDBRI1, "Jake&Bri"
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	end_trainer
 
-	def_trainer JAKEANDBRI2, "Jake & Bri"
+	def_trainer JAKEANDBRI2, "Jake&Bri"
 	tr_mon 37, PARASECT, FEMALE
 	tr_mon 39, VAPOREON, FEMALE
 	tr_mon 37, SANDSLASH, MALE
 	tr_mon 39, GOLDUCK, MALE
 	end_trainer
 
-	def_trainer DANANDCARA1, "Dan & Cara"
+	def_trainer DANANDCARA1, "Dan&Cara"
 	tr_mon 38, SEADRA, MALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WATERFALL
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	end_trainer
 
-	def_trainer DANANDCARA2, "Dan & Cara"
+	def_trainer DANANDCARA2, "Dan&Cara"
 	tr_mon 38, SEADRA, FEMALE
 		tr_moves SMOKESCREEN, WATER_PULSE, OUTRAGE, WHIRLPOOL
 	tr_mon 38, SEADRA, MALE
