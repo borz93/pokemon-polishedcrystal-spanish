@@ -503,31 +503,31 @@ Continue_LoadMenuHeader:
 
 .MenuDataHeader_Dex:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 17, 9
+	menu_coords 0, 0, 15, 9
 	dw .MenuData2_Dex
 	db 1 ; default option
 
 .MenuData2_Dex:
 	db $00 ; flags
 	db 4 ; items
-	db "Jugad.@"
+	db "Ent.@"
 	db "Medallas@"
 	db "#dex@"
-	db "Tiempo j.@"
+	db "Tiempo@"
 
 .MenuDataHeader_NoDex:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 17, 9
+	menu_coords 0, 0, 15, 9
 	dw .MenuData2_NoDex
 	db 1 ; default option
 
 .MenuData2_NoDex:
 	db $00 ; flags
 	db 4 ; items
-	db "Jugad. <PLAYER>@"
+	db "Ent. <PLAYER>@"
 	db "Medallas@"
 	db " @"
-	db "Tiempo j.@"
+	db "Tiempo@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
