@@ -440,14 +440,14 @@ HappinessText1:
 
 RegisteredNumber1Text:
 	text "<PLAYER> guardó"
-	line "núm. de "
+	line "№. de "
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RegisteredNumber2Text:
 	text "<PLAYER> guardó"
-	line "núm. de "
+	line "№. de "
 	text_ram wStringBuffer3
 	text "."
 	done
