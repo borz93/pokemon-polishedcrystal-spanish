@@ -93,13 +93,13 @@ LakeOfRageAdvancedTipsSignText:
 	cont "puede ser de"
 if DEF(FAITHFUL)
 	cont "cualquier tipo,"
-	cont "salvo del nuevo"
+	cont "¡salvo del nuevo"
 else
 	cont "cualquier tipo,"
-	cont "incluso del nuevo"
+	cont "¡incluso del nuevo"
 endc
 
-	para "¡tipo Hada"
+	para "tipo Hada"
 	line "descubierto!"
 	done
 

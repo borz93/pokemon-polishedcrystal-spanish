@@ -491,10 +491,11 @@ PicnickerTiffany1Script:
 	jumpstd packfullf
 
 PokemaniacBenSeenText:
-	text "¡Amo a los #mon!"
+	text "¡Adoro los "
+	line '#mon!'
 
 	para "¡Por eso"
-	line "empecé... y por"
+	line "empecé… y por"
 	cont "eso seguiré"
 
 	para "coleccionando"
@@ -513,12 +514,12 @@ PokemaniacBrent1SeenText:
 
 PokemaniacBrent1BeatenText:
 	text "¡Ay, mis pobres"
-	line "#mon! ¡Cariños!"
+	line "y amados #mon!"
 	done
 
 PokemaniacBrentAfterBattleText:
 	text "Sería feliz con"
-	line "tener un solo"
+	line "tener algún"
 	cont "#mon raro."
 	done
 
@@ -588,9 +589,9 @@ PicnickerTiffanyWantsPicnicText:
 
 
 BreederJodySeenText:
-	text "¡Crié a mis #mon"
-	line "para que sepan"
-	cont "movimientos"
+	text "¡Crié a mis"
+	line "#mon para que"
+	cont "sepan movimientos"
 	cont "especiales!"
 	done
 
@@ -600,7 +601,7 @@ BreederJodyBeatenText:
 
 SrandjrIvyandamy1SeenText:
 	text "¡Ivy: Le mostraré"
-	line "a mi junior cómo"
+	line "a mi aprendiz cómo"
 	cont "se hace!"
 	done
 
@@ -608,7 +609,7 @@ SrandjrIvyandamy1BeatenText:
 	text "Ivy: Me"
 	line "avergonzaste"
 	cont "frente a mi"
-	cont "junior…"
+	cont "aprendiz…"
 	done
 
 SrandjrIvyandamy2SeenText:
@@ -626,14 +627,14 @@ Route43Sign1Text:
 	text "Ruta 43"
 
 	para "Lago de la Furia -"
-	line "Pueblo Mahogany"
+	line "Pueblo Caoba"
 	done
 
 Route43Sign2Text:
 	text "Ruta 43"
 
 	para "Lago de la Furia -"
-	line "Pueblo Mahogany"
+	line "Pueblo Caoba"
 	done
 
 Route43TrainerTipsText:
@@ -653,8 +654,8 @@ Route43TrainerTipsText:
 
 	para "Aprende qué tipos"
 	line "son fuertes y"
-	cont "débiles contra el"
-	cont "tipo de tu #mon."
+	cont "débiles contra"
+	cont "tu #mon."
 	done
 
 Route43AdvancedTipsText:
