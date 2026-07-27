@@ -214,7 +214,7 @@ PryceText_GlacierBadgeSpeech:
 	text "Esa Medalla dejará"
 	line "que tus #mon"
 
-	para "usen Remolino"
+	para "usen Torbellino"
 	line "para cruzar"
 	cont "torbellinos."
 

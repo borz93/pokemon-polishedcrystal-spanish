@@ -253,7 +253,7 @@ if DEF(FAITHFUL)
 else
 	li "Demolición"
 endc
-	li "Remolino"
+	li "Torbellino"
 	li "Pulso Umbrío"
 	li "Lunazo"
 	li "Truco Sucio"

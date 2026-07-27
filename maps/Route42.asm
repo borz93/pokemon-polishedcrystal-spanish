@@ -385,7 +385,7 @@ Route42LyraPresentText:
 
 Route42LyraWhirlpoolText:
 	text "Lyra: Eso es"
-	line "Remolino."
+	line "Torbellino."
 
 	para "Enséñaselo a un"
 	line "#mon para"

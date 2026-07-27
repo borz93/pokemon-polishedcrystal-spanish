@@ -2080,11 +2080,11 @@ _MayPassWhirlpoolText::
 
 SECTION "_AskWhirlpoolText", ROMX
 _AskWhirlpoolText::
-	text "Hay un remolino"
+	text "Hay un torbellino"
 	line "en el camino."
 
 	para "¿Quieres usar"
-	line "Remolino?"
+	line "Torbellino?"
 	done
 
 SECTION "_UseHeadbuttText", ROMX
