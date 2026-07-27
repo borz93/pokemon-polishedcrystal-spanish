@@ -491,8 +491,8 @@ PicnickerTiffany1Script:
 	jumpstd packfullf
 
 PokemaniacBenSeenText:
-	text "¡Adoro los "
-	line '#mon!'
+	text "¡Adoro a los"
+	line "#mon!"
 
 	para "¡Por eso"
 	line "empecé… y por"
