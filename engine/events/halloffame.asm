@@ -583,4 +583,4 @@ HOF_AnimatePlayerPic:
 	jmp DelayFrames
 
 .PlayTime:
-	db "Play Time@"
+	db "Tiempo@"

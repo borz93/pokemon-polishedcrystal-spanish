@@ -410,9 +410,9 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime_BP:
 	text "#dex"
-	next "Play Time"
-	next "Battle Pts"
-	next "          Badges"
+	next "Tiempo"
+	next "Pts Bat."
+	next "        Medallas"
 	done
 
 TrainerCard_Page1_PrintGameTime:
