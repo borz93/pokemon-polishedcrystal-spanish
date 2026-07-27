@@ -696,12 +696,12 @@ _BenFernText1::
 
 SECTION "_BenFernText2A", ROMX
 _BenFernText2A::
-	line "¡Vamos a bailar"
+	line "¡disfrutemos con"
 	done
 
 SECTION "_BenFernText2B", ROMX
 _BenFernText2B::
-	line "vamos a relajarnos"
+	line "relajémonos con"
 	done
 
 SECTION "_BenFernText3A", ROMX
@@ -811,7 +811,7 @@ _PnP_Text4::
 
 SECTION "_PnP_cute", ROMX
 _PnP_cute::
-	line "es adorable."
+	line "me encanta."
 	done
 
 SECTION "_PnP_lazy", ROMX
@@ -821,7 +821,7 @@ _PnP_lazy::
 
 SECTION "_PnP_happy", ROMX
 _PnP_happy::
-	line "siempre es feliz."
+	line "es alegre."
 	done
 
 SECTION "_PnP_noisy", ROMX
@@ -836,17 +836,17 @@ _PnP_precocious::
 
 SECTION "_PnP_bold", ROMX
 _PnP_bold::
-	line "es algo audaz."
+	line "es inimitable."
 	done
 
 SECTION "_PnP_picky", ROMX
 _PnP_picky::
-	line "es muy exigente!"
+	line "es muy especial."
 	done
 
 SECTION "_PnP_sortofok", ROMX
 _PnP_sortofok::
-	line "está más o menos."
+	line "es interesante."
 	done
 
 SECTION "_PnP_soso", ROMX
@@ -856,7 +856,7 @@ _PnP_soso::
 
 SECTION "_PnP_great", ROMX
 _PnP_great::
-	line "es genial."
+	line "es una maravilla."
 	done
 
 SECTION "_PnP_mytype", ROMX
@@ -871,7 +871,7 @@ _PnP_cool::
 
 SECTION "_PnP_inspiring", ROMX
 _PnP_inspiring::
-	line "es inspirador!"
+	line "es inspirador."
 	done
 
 SECTION "_PnP_weird", ROMX
