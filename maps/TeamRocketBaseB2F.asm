@@ -609,7 +609,7 @@ RocketBaseBossWinText:
 	line "Team Rocket,"
 
 	para "podrías llegar a"
-	line "ser Ejecutiva."
+	line "ser Ejecutivo."
 	done
 
 RocketBaseBossRetreatText:
