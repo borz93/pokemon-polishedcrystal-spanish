@@ -448,8 +448,8 @@ HyperPotionDesc:
 	done
 
 MaxPotionDesc:
-	text "Restaura del todo"
-	next "el PS del #mon."
+	text "Restaura todos los"
+	next "PS del #mon."
 	done
 
 AntidoteDesc:
