@@ -3464,29 +3464,29 @@ GruntMGroup:
 
 	; unused
 	def_trainer_class GRUNTM
-	def_trainer 1, "Grunt"
+	def_trainer 1, "Rocket"
 	end_trainer
 
-	def_trainer 2, "Grunt"
+	def_trainer 2, "Rocket"
 	tr_mon 8, RATTATA
 	tr_mon 10, ZUBAT
 	tr_mon 10, GASTLY
 	end_trainer
 
 
-	def_trainer 3, "Grunt"
+	def_trainer 3, "Rocket"
 	tr_mon 33, RATICATE, MALE | ALOLAN_FORM
 		tr_extra GLUTTONY
 	tr_mon 33, SNEASEL, MALE
 	end_trainer
 
-	def_trainer 4, "Grunt"
+	def_trainer 4, "Rocket"
 	tr_mon 32, GRIMER, MALE
 	tr_mon 33, HOUNDOUR, MALE
 	tr_mon 34, MUK, MALE | ALOLAN_FORM
 	end_trainer
 
-	def_trainer 5, "Grunt"
+	def_trainer 5, "Rocket"
 	tr_mon 31, RATTATA, MALE
 	tr_mon 33, HOUNDOUR, MALE
 	tr_mon 32, RATICATE, MALE
@@ -3494,140 +3494,140 @@ GruntMGroup:
 	tr_mon 33, MEOWTH, MALE
 	end_trainer
 
-	def_trainer 6, "Grunt"
+	def_trainer 6, "Rocket"
 	tr_mon 34, GOLBAT
 	tr_mon 34, VENOMOTH
 	end_trainer
 
-	def_trainer 7, "Grunt"
+	def_trainer 7, "Rocket"
 	tr_mon 33, KOFFING
 	tr_mon 33, GRIMER
 	tr_mon 34, GOLBAT
 	tr_mon 34, RATICATE
 	end_trainer
 
-	def_trainer 8, "Grunt"
+	def_trainer 8, "Rocket"
 	tr_mon 36, WEEZING
 	end_trainer
 
-	def_trainer 9, "Grunt"
+	def_trainer 9, "Rocket"
 	tr_mon 35, RATICATE
 	tr_mon 36, WEEZING
 	end_trainer
 
-	def_trainer 10, "Grunt"
+	def_trainer 10, "Rocket"
 	tr_mon 32, ZUBAT
 	tr_mon 35, GOLBAT
 	tr_mon 33, MUK
 	end_trainer
 
-	def_trainer 11, "Grunt"
+	def_trainer 11, "Rocket"
 	tr_mon 34, MUK
 	tr_mon 35, HAUNTER
 	tr_mon 36, RATICATE
 	end_trainer
 
-	def_trainer 12, "Grunt"
+	def_trainer 12, "Rocket"
 	tr_mon 23, RATICATE, MALE
 	tr_mon 24, PERSIAN, MALE | ALOLAN_FORM
 	end_trainer
 
-	def_trainer 13, "Grunt"
+	def_trainer 13, "Rocket"
 	tr_mon 37, RATICATE
 	end_trainer
 
-	def_trainer 14, "Grunt"
+	def_trainer 14, "Rocket"
 	tr_mon 35, RATICATE
 	tr_mon 35, GOLBAT
 	end_trainer
 
-	def_trainer 15, "Grunt"
+	def_trainer 15, "Rocket"
 	tr_mon 35, MUK
 	tr_mon 35, WEEZING
 	end_trainer
 
-	def_trainer 16, "Grunt"
+	def_trainer 16, "Rocket"
 	tr_mon 26, MEOWTH, MALE | ALOLAN_FORM
 	tr_mon 26, GASTLY, MALE
 	tr_mon 27, RATICATE, MALE
 	tr_mon 26, RATTATA, MALE | ALOLAN_FORM
 	end_trainer
 
-	def_trainer 17, "Grunt"
+	def_trainer 17, "Rocket"
 	tr_mon 32, GOLBAT
 	end_trainer
 
-	def_trainer 18, "Grunt"
+	def_trainer 18, "Rocket"
 	tr_mon 27, HOUNDOUR
 	tr_mon 28, GOLBAT
 	tr_mon 28, RATICATE
 	end_trainer
 
-	def_trainer 19, "Grunt"
+	def_trainer 19, "Rocket"
 	tr_mon 28, VENONAT
 	tr_mon 28, VENOMOTH
 	end_trainer
 
-	def_trainer 20, "Grunt"
+	def_trainer 20, "Rocket"
 	tr_mon 26, ZUBAT
 	tr_mon 27, GRIMER
 	tr_mon 28, MEOWTH
 	end_trainer
 
-	def_trainer 21, "Grunt"
+	def_trainer 21, "Rocket"
 	tr_mon 26, DROWZEE
 	tr_mon 27, ZUBAT
 	tr_mon 28, HAUNTER
 	end_trainer
 
-	def_trainer 22, "Grunt"
+	def_trainer 22, "Rocket"
 	tr_mon 23, GOLBAT
 	tr_mon 23, HAUNTER
 	tr_mon 23, GOLBAT
 	end_trainer
 
-	def_trainer 23, "Grunt"
+	def_trainer 23, "Rocket"
 	tr_mon 23, KOFFING
 	tr_mon 25, HOUNDOUR
 	tr_mon 23, TENTACOOL
 	end_trainer
 
-	def_trainer 24, "Grunt"
+	def_trainer 24, "Rocket"
 	tr_mon 37, HAUNTER
 	tr_mon 36, WEEZING
 	end_trainer
 
-	def_trainer 25, "Grunt"
+	def_trainer 25, "Rocket"
 	tr_mon 36, TENTACRUEL
 	tr_mon 35, MUK
 	end_trainer
 
-	def_trainer 26, "Grunt"
+	def_trainer 26, "Rocket"
 	tr_mon 23, ZUBAT
 	tr_mon 24, RATICATE
 	tr_mon 25, MURKROW
 	end_trainer
 
 	; unused
-	def_trainer 27, "Grunt"
+	def_trainer 27, "Rocket"
 	end_trainer
 
-	def_trainer 28, "Grunt"
+	def_trainer 28, "Rocket"
 	tr_mon 33, RATICATE
 	end_trainer
 
-	def_trainer 29, "Grunt"
+	def_trainer 29, "Rocket"
 	tr_mon 10, RATTATA
 	tr_mon 10, MEOWTH
 	end_trainer
 
-	def_trainer 30, "Grunt"
+	def_trainer 30, "Rocket"
 	tr_mon 25, GOLBAT
 	tr_mon 25, GOLBAT
 	tr_mon 30, ARBOK
 	end_trainer
 
-	def_trainer 31, "Grunt"
+	def_trainer 31, "Rocket"
 	tr_mon 51, GOLBAT
 	tr_mon 52, WEEZING
 	tr_mon 51, MUK
@@ -3638,28 +3638,28 @@ SECTION "GruntFGroup", ROMX
 GruntFGroup:
 
 	def_trainer_class GRUNTF
-	def_trainer 1, "Grunt"
+	def_trainer 1, "Rocket"
 	tr_mon 10, ZUBAT
 	tr_mon 12, EKANS
 	end_trainer
 
-	def_trainer 2, "Grunt"
+	def_trainer 2, "Rocket"
 	tr_mon 35, ARBOK
 	end_trainer
 
-	def_trainer 3, "Grunt"
+	def_trainer 3, "Rocket"
 	tr_mon 36, UMBREON
 	tr_mon 35, GLOOM
 	end_trainer
 
-	def_trainer 4, "Grunt"
+	def_trainer 4, "Rocket"
 	tr_mon 33, EKANS
 	tr_mon 34, ODDISH
 	tr_mon 35, ARBOK
 	tr_mon 36, GLOOM
 	end_trainer
 
-	def_trainer 5, "Grunt"
+	def_trainer 5, "Rocket"
 	tr_mon 29, ARBOK
 		tr_moves GLARE, SCREECH, ACID, CRUNCH
 	tr_mon 28, QWILFISH
@@ -3668,7 +3668,7 @@ GruntFGroup:
 		tr_moves GROWTH, STUN_SPORE, SLEEP_POWDER, MEGA_DRAIN
 	end_trainer
 
-	def_trainer 6, "Grunt"
+	def_trainer 6, "Rocket"
 	tr_mon 22, EKANS
 	tr_mon 23, ARBOK
 	tr_mon 23, GLOOM
@@ -3890,7 +3890,7 @@ PokemaniacGroup:
 	tr_mon 20, NIDORINO
 	end_trainer
 
-	def_trainer BEN, "Beckett" ; MISMATCH
+	def_trainer BEN, "Becket" ; MISMATCH
 	tr_mon 30, SLOWBRO
 	end_trainer
 
@@ -5052,22 +5052,22 @@ SECTION "SrAndJrGroup", ROMX
 SrAndJrGroup:
 
 	def_trainer_class SR_AND_JR
-	def_trainer JOANDCATH1, "Jo & Cath"
+	def_trainer JOANDCATH1, "Jo&Cath"
 	tr_mon 18, TEDDIURSA
 	tr_mon 16, JIGGLYPUFF
 	end_trainer
 
-	def_trainer JOANDCATH2, "Jo & Cath"
+	def_trainer JOANDCATH2, "Jo&Cath"
 	tr_mon 16, JIGGLYPUFF
 	tr_mon 18, TEDDIURSA
 	end_trainer
 
-	def_trainer IVYANDAMY1, "Ivy & Amy"
+	def_trainer IVYANDAMY1, "Ivy&Amy"
 	tr_mon 30, FLAAFFY
 	tr_mon 28, GLOOM
 	end_trainer
 
-	def_trainer IVYANDAMY2, "Ivy & Amy"
+	def_trainer IVYANDAMY2, "Ivy&Amy"
 	tr_mon 28, GLOOM
 	tr_mon 30, FLAAFFY
 	end_trainer

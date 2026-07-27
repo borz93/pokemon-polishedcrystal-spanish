@@ -187,7 +187,7 @@ TeamRocketOathText:
 	text "Juramento del"
 	line "Team Rocket"
 
-	para "Robar #mon"
+	para "Robar #mon para"
 	line "enriquecernos."
 
 	para "Explotarlos para"

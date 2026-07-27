@@ -40,8 +40,8 @@ TrainerClassNames::
 	li "Pescador"        ; FISHER
 	li "Ornitólogo"      ; BIRD_KEEPER
 	li "Montañero"       ; HIKER
-	li "Rocket"          ; GRUNTM
-	li "Rocket"          ; GRUNTF
+	li "Soldado"         ; GRUNTM
+	li "Soldado"         ; GRUNTF
 	li "#fan"            ; POKEFANM
 	li "#fan"            ; POKEFANF
 	li "Oficial"         ; OFFICERM
