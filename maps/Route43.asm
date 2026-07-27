@@ -164,8 +164,8 @@ Route43SightseerfScript:
 	cont "Johto."
 
 	para "¡Enfrenta mi"
-	line "estrategia de la"
-	cont "Esfera Llama!"
+	line "estrategia con la"
+	cont "Llamasfera!"
 	done
 
 .BeatenText:
@@ -178,7 +178,7 @@ Route43SightseerfScript:
 	cont "buscaba!"
 
 	para "Te daré una"
-	line "Esfera Llama,"
+	line "Llamasfera,"
 
 	para "pero ten cuidado"
 	line "si se la das a"

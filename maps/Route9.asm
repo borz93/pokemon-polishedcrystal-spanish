@@ -164,11 +164,11 @@ Route9AdvancedTipsSignText:
 	line "avanzado!"
 
 	para "Un #mon con una"
-	line "Esfera Tóx. se"
+	line "Toxisfera se"
 	cont "envenena, y uno"
 
-	para "con una Esfera"
-	line "Llama se quema."
+	para "con una Llamasfera"
+	line "se quema."
 
 	para "Pero la Habilidad"
 	line "Agallas convierte"

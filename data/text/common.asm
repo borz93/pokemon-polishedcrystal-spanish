@@ -936,7 +936,7 @@ SECTION "_RocketRadioText8", ROMX
 _RocketRadioText8::
 	line "oyes?"
 	text_pause
-	text " ¡Lo logramos!"
+	text " ¡Lo hicimos!"
 	done
 
 SECTION "_RocketRadioText9", ROMX

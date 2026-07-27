@@ -148,7 +148,7 @@ MoveNames::
 	li "Puño Mareo"
 	li "Espora"
 	li "Destello"
-	li "Extrasensor."
+	li "Paranormal"
 	li "Salpicadura"
 	li "Danza Dragón"
 	li "Martillazo"
