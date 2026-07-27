@@ -721,7 +721,7 @@ RocketBaseLanceElectrodeDoneText:
 	line "volver a la"
 	cont "normalidad."
 
-	para "¡Eres el héroe!"
+	para "¡Eres un héroe!"
 	line "Déjame"
 	cont "agradecerte"
 
@@ -738,7 +738,7 @@ RocketBaseLanceElectrodeDoneText:
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "Eso es Ladrón."
+	text "Es la MT Ladrón."
 	line "Confío en que no"
 
 	para "abusarás de él"
@@ -765,7 +765,7 @@ RocketBaseLanceMonMasterText:
 
 	para "Si fueras a"
 	line "rendirte tan"
-	cont "fácil,"
+	cont "facilmente,"
 
 	para "nunca habrías"
 	line "perseguido ese"

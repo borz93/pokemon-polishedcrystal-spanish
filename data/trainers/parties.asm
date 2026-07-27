@@ -5929,7 +5929,7 @@ SECTION "BoarderGroup", ROMX
 BoarderGroup:
 
 	def_trainer_class BOARDER
-	def_trainer RONALD, "Ronald"
+	def_trainer RONALD, "Ron"
 	tr_mon 33, SEEL
 	tr_mon 35, DEWGONG
 	tr_mon 33, SNEASEL
@@ -5940,7 +5940,7 @@ BoarderGroup:
 	tr_mon 35, SWINUB
 	end_trainer
 
-	def_trainer DOUGLAS, "Douglas"
+	def_trainer DOUGLAS, "Doug"
 	tr_mon 33, SHELLDER
 	tr_mon 35, CLOYSTER
 	tr_mon 33, SHELLDER
