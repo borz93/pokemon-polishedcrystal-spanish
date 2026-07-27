@@ -212,7 +212,7 @@ LakeOfRageLanceScript:
 	line "emisión de radio"
 
 	para "que viene de"
-	line "Mahogany es la"
+	line "Caoba es la"
 	cont "causa."
 
 	para "Te estaré"

@@ -243,7 +243,7 @@ FakeDirectorTextAfter:
 Ariana1SeenText:
 	text "¿Te acuerdas de mí"
 	line "del escondite en"
-	cont "Pueblo Mahogany?"
+	cont "Pueblo Caoba?"
 
 	para "Perdí entonces,"
 	line "pero esta vez no."
