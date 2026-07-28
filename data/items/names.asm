@@ -148,9 +148,9 @@ endc
 	li "Precisión X"
 	li "Directo"
 if DEF(FAITHFUL)
-	li "Prot. Equipo"
+	li "Protección X"
 else
-	li "Prot. Equipo"
+	li "Protección X"
 endc
 
 	li "Tope Habil."
@@ -177,7 +177,7 @@ endc
 	li "Piedra Dura"
 	li "Polvo Plata"
 	li "Hechizo"
-	li "Rev.Metálico."
+	li "Rev.Metálico"
 	li "Carbón"
 	li "Agua Mística"
 	li "Sem. Milagro"
@@ -211,7 +211,7 @@ endc
 	li "Metrónomo"
 	li "Bola Hierro"
 	li "Cola Plúmbea"
-	li "Lazo Fatal"
+	li "Lazo Destino"
 	li "Garra Garfio"
 	li "Muda"
 	li "Raíz Grande"
@@ -236,7 +236,7 @@ endc
 	li "Servicio Hab"
 
 	li "Amuleto Puro"
-	li "Hier. Espejo"
+	li "Hierba Copia"
 	li "Guante Boxeo"
 	li "Capa Sigilo"
 	li "Dado Trucado"
@@ -315,7 +315,7 @@ endc
 
 	li "Carta Flor"
 	li "Carta Surf"
-	li "Carta Celes."
+	li "Car. Celeste"
 	li "Car. Retrato"
 	li "Carta Bonita"
 	li "Carta Eón"

@@ -669,7 +669,7 @@ Route43AdvancedTipsText:
 	para "si lleva una"
 	line "Piedra Eterna!"
 
-	para "¡Un Lazo Fatal"
+	para "¡Un Lazo Destino"
 	line "transmite todo"
 	cont "su potencial!"
 
