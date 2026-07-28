@@ -379,8 +379,8 @@ UndergroundRivalWinText:
 	para "No aflojé el"
 	line "ritmo."
 
-	para "Entonces, ¿Por qué"
-	line "pierdo?"
+	para "Entonces, ¿por qué"
+	line "siempre pierdo?"
 	done
 
 UndergroundRivalLossText:
