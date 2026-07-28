@@ -251,7 +251,7 @@ endc
 
 	li "Lupa Enfoque"
 	li "Lupa Amplia"
-	li "Lupa Zoom"
+	li "Telescopio"
 
 	li "Hier. Mental"
 	li "Hierba Poder"

@@ -1136,8 +1136,8 @@ WideLensDesc:
 	done
 
 ZoomLensDesc:
-	text "Sube la precisión"
-	next "si es segundo."
+	text "Sube precisión si"
+	next "actua segundo."
 	done
 
 MentalHerbDesc:

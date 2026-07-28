@@ -439,7 +439,7 @@ Route47QuietCaveSignText:
 	text "Ruta 47"
 
 	para "Al oeste,"
-	line "Cueva Tranquila"
+	line "Cueva Calma"
 	done
 
 Route47AdvancedTipsSignText:
