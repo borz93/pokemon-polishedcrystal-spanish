@@ -1207,8 +1207,8 @@ PowerWhipDescription:
 	done
 
 DragonbreathDescription:
-	text "Ataque de aliento"
-	next "potente."
+	text "Ráfaga de aliento,"
+	next "puede paralizar."
 	done
 
 BatonPassDescription:

@@ -224,7 +224,7 @@ MoveNames::
 	li "Magnitud"
 	li "Puño Dinám."
 	li "Megacuerno"
-	li "Aliento Drag"
+	li "Dragoaliento"
 	li "Relevo"
 	li "Otra Vez"
 	li "Persecución"
