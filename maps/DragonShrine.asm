@@ -215,7 +215,7 @@ DragonShrineQuestion1_MenuHeader:
 	db $81 ; flags
 	db 3 ; items
 	db "Aliados@"
-	db "Sirvientes@"
+	db "Secuaz@"
 	db "Amigos@"
 
 DragonShrineQuestion2_MenuHeader:
@@ -229,7 +229,7 @@ DragonShrineQuestion2_MenuHeader:
 	db 3 ; items
 	db "Estrategia@"
 	db "Entrenar@"
-	db "Hacer trampa@"
+	db "Trampas@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES
@@ -240,8 +240,8 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db $81 ; flags
 	db 3 ; items
-	db "Alguien débil@"
-	db "Alguien duro@"
+	db "Débil@"
+	db "Duro@"
 	db "Cualquiera@"
 
 DragonShrineQuestion4_MenuHeader:
@@ -255,7 +255,7 @@ DragonShrineQuestion4_MenuHeader:
 	db 3 ; items
 	db "Amor@"
 	db "Violencia@"
-	db "Conocimiento@"
+	db "Sabiduría@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES
