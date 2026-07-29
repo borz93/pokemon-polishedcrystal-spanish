@@ -127,11 +127,11 @@ HoOhPuzzleScript:
 	done
 
 EmptyPuzzleText:
-	text "Ruins of Alph"
-	line "panel replica"
+	text "Réplica del panel"
+	line "de Ruinas Alph"
 
-	para "(restoration"
-	line "in progress)"
+	para "(en proceso de"
+	line "restauración)"
 	done
 
 TowerRelicText:
@@ -167,12 +167,12 @@ GoldenrodMuseum2FScientistScript:
 	iftrue_jumptextfaceplayer GoldenrodMuseum2FScientistSomeArtifactsText
 	jumpthistextfaceplayer
 
-	text "I was expecting"
-	line "there to be more"
-	cont "exhibits…"
+	text "Esperaba que"
+	line "hubiera más"
+	cont "exhibiciones…"
 
-	para "Where are the"
-	line "Alph carvings?"
+	para "¿Dónde están los"
+	line "grabados de Alph?"
 	done
 
 GoldenrodMuseum2FScientistSomeArtifactsText:
