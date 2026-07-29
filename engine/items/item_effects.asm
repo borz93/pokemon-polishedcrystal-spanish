@@ -1809,13 +1809,13 @@ WingCase_MonSelected:
 	jmp PlaceWholeStringInBoxAtOnce
 
 .RaisesStat:
-	text "Raises "
+	text "Sube "
 	text_ram wStringBuffer2
 	text "."
 	done
 
 .CancelStr:
-	db "No usar.           @"
+	db "No usar.          @"
 
 .YouDontHaveAny:
 	db "No tienes ninguno.@"
@@ -2183,14 +2183,14 @@ CandyJar_MonSelected:
 	done
 
 .CancelStr:
-	db "No usar.           @"
+	db "No usar.         @"
 
 .YouDontHaveAny:
-	db "No tienes ninguno. "
+	db "No tienes ninguno."
 	prompt
 
 .UseHowManyText:
-	db "¿Usar cuantos?    @"
+	db "¿Usar cuantos?   @"
 
 CalcCandies:
 ; input:
