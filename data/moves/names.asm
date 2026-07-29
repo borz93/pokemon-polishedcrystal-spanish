@@ -28,7 +28,7 @@ MoveNames::
 	li "Roca Afilada"
 	li "Onda Certera"
 	li "Púas Tóxicas"
-	li "Golpe Cabeza"
+	li "GolpeCabeza"
 	li "Cornada"
 	li "Truco"
 	li "Infortunio"

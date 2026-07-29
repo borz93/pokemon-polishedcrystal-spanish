@@ -2068,7 +2068,7 @@ DunsparcePokedexEntry::
 
 SECTION "GligarPokedexEntry", ROMX
 GligarPokedexEntry::
-	db "Vuela Esc.@"
+	db "Escorpiala@"
 	text "Construye su"
 	next "nido en un"
 	next "acantilado"
@@ -2728,7 +2728,7 @@ GlaceonPokedexEntry::
 
 SECTION "GliscorPokedexEntry", ROMX
 GliscorPokedexEntry::
-	db "Alacrán@"
+	db "Colmicorpio@"
 	text "Vuela sin ruido."
 	next "Usa su larga"
 	next "cola para"
