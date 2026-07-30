@@ -125,10 +125,10 @@ CinnabarVolcanoB2FLawrenceSpeechText:
 	cont "Imposible."
 
 	para "Pasé años"
-	line "explorando el"
+	line "explorando la"
 
-	para "Camino de la"
-	line "Victoria y las"
+	para "Calle Victoria"
+	line "y las"
 	cont "islas al sur de"
 	cont "Kanto…"
 

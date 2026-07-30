@@ -84,8 +84,7 @@ GenericTrainerVeteranfJoanne:
 
 	text "¡Te ganaste el"
 	line "derecho a estar en"
-	cont "el Camino de la"
-	cont "Victoria!"
+	cont "la Calle Victoria!"
 	done
 
 GenericTrainerVeteranfJonet:
@@ -189,7 +188,7 @@ VictoryRoadRivalVictoryText:
 	done
 
 VeteranfJoanneSeenText:
-	text "¡El Camino de la"
+	text "¡La Calle"
 	line "Victoria es la"
 	cont "prueba final para"
 	cont "entrenadores!"

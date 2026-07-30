@@ -41,8 +41,7 @@ Route23North_MapScriptHeader:
 	const ROUTE23NORTH_OFFICER8
 
 VictoryRoadSignText:
-	text "Camino de la"
-	line "Victoria"
+	text "Calle Victoria"
 	done
 
 Route23NorthHealOfficerScript:
@@ -68,11 +67,10 @@ Route23NorthHealOfficerScript:
 	line "para afrontar"
 
 	para "cualquier cosa en"
-	line "el Camino de la"
-	cont "Victoria."
+	line "la Calle Victoria."
 
-	para "¡Deja que te dé"
-	line "ánimos!"
+	para "¡Deja que te "
+	line "anime!"
 	done
 
 Route23NorthMineralBadgeOfficerScript:
