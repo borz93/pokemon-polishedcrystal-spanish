@@ -19,8 +19,8 @@ ElmsHouse_MapScriptHeader:
 	object_event  4,  5, SPRITE_CHILD, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, PAL_NPC_BROWN, OBJECTTYPE_COMMAND, jumptextfaceplayer, ElmsSonText, -1
 
 ElmsWifeText:
-	text "Hola, <PLAYER>! Mi"
-	line "marido siempre"
+	text "¡Hola, <PLAYER>!"
+	line "Mi marido siempre"
 	cont "está muy liado,"
 
 	para "espero que esté"

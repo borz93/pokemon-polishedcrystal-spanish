@@ -182,8 +182,8 @@ BattleText_UserHurtByItem:
 BattleText_UserItemLetItMoveFirst::
 	text "El "
 	text_ram wStringBuffer1
-	line "de <USER> le"
-	cont "permitió ir"
+	line "de <USER>"
+	cont "le permitió ir"
 	cont "primero."
 	prompt
 
