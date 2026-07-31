@@ -80,11 +80,11 @@ RuggedRoadSouthAdvancedTipsSignText:
 	cont "el esfuerzo,"
 
 	para "todo #mon que"
-	line "participó en"
+	line "participe en"
 
 	para "el combate, o que"
 	line "lleve"
 
-	para "Compart. Exp,"
-	line "¡ganará de eso!"
+	para "Repartir Exp,"
+	line "¡ganará esfuerzo!"
 	done

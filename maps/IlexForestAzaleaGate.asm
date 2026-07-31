@@ -40,7 +40,7 @@ ProfOaksAide1Script:
 .Explain
 	jumpthisopenedtext
 
-	text "El Compart. Exp"
+	text "El Repartir Exp"
 	line "ayuda a un #mon"
 	cont "a ganar"
 	cont "experiencia sin"

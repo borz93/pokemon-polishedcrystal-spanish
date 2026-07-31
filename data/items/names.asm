@@ -167,7 +167,7 @@ endc
 	li "Piedra Alba"
 	li "Pied. Eterna"
 
-	li "Compart. Exp"
+	li "Repartir Exp"
 
 	li "Pañuelo Seda"
 	li "Cinta Negra"
