@@ -23,7 +23,8 @@ DerekDefeatedMonText:
 
 	para "¡Un "
 	text_ram wStringBuffer4
-	text " salvaje,"
+	line ""
+	text "salvaje,"
 	line "te lo juro!"
 
 	para "¿No crees que"

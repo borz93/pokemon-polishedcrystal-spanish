@@ -272,7 +272,7 @@ Options_Nicknames:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Ask:
-	db "Ask   @"
+	db "Sugerir@"
 .Always:
 	db "Siempre@"
 .Never:
@@ -302,9 +302,9 @@ Options_RunningShoes:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 OffString:
-	db "Off@"
+	db "Si @"
 OnString:
-	db "On @"
+	db "No @"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -396,9 +396,9 @@ Options_ClockFormat:
 	jmp OptionsShared_PlaceStringAtValueCoord
 
 .Twelve:
-	db "12-hour@"
+	db "12-hora@"
 .TwentyFour:
-	db "24-hour@"
+	db "24-hora@"
 
 Options_PokedexUnits:
 	ld hl, wOptions2
@@ -426,7 +426,7 @@ Options_PokedexUnits:
 .Imperial:
 	db "Imperial@"
 .Metric:
-	db "Metrico @"
+	db "Métrico @"
 
 Options_TextAutoscroll:
 	ldh a, [hJoyPressed]
@@ -470,7 +470,7 @@ endr
 	assert_table_length (AUTOSCROLL_MASK >> TZCOUNT(AUTOSCROLL_MASK)) + 1
 
 .None:
-	db "None  @"
+	db "Nada  @"
 .Start:
 	db "Start @"
 .B:

@@ -14,7 +14,7 @@ DecorationNames:
 	li "Wii"
 	li "Trofeo de Oro"
 	li "Trofeo de Plata"
-	li "Muñeco Pikachu Surf"
+	li "Muñeco PikaSurf"
 	li " Cama"
 	li " Alfombra"
 	li " Póster"

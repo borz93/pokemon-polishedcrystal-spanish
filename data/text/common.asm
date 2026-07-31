@@ -2537,6 +2537,7 @@ SECTION "_ReceivedGiftMonText", ROMX
 _ReceivedGiftMonText::
 	text "¡<PLAYER> recibió"
 	line "a"
+	cont ""
 	text_ram wMonOrItemNameBuffer
 	text "!"
 	done

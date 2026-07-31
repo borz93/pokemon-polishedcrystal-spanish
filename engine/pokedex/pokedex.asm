@@ -2540,7 +2540,7 @@ _Pokedex_Search:
 	dr .byNameString
 
 .byNameString:
-	db "por nombre"
+	db "Nombre"
 
 .BlankDefaultString:
 	; Blanks the default "----" string.
