@@ -39,7 +39,7 @@ ChadLostAMonText:
 	para "un "
 	text_ram wStringBuffer4
 	line ""
-	text " salvaje,"
+	cont "salvaje,"
 	line "pero se escapó."
 
 	para "Llevaba mucho"
