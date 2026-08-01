@@ -1,660 +1,660 @@
 _BTGreetingM1Text:
-	text "Hello, glad to"
-	line "meet you!"
+	text "¡Hola, encantado"
+	line "de conocerte!"
 
-	para "I do hope we have"
-	line "a good battle."
+	para "Ojalá tengamos"
+	line "un buen combate."
 	done
 
 _BTLossM1Text:
-	text "Thank you! A most"
-	line "enjoyable battle!"
+	text "¡Gracias! ¡Fue un"
+	line "combate genial!"
 	done
 
 _BTWinM1Text:
-	text "Thank you. You are"
+	text "Gracias. Eres"
 	line "formidable."
 	done
 
 _BTGreetingM2Text:
-	text "Work, work, work…"
-	line "I'm always busy!"
+	text "Trabajo, trabajo…"
+	line "¡Siempre ocupado!"
 	done
 
 _BTLossM2Text:
-	text "But, I work hard"
-	line "in battle too!"
+	text "¡Yo también curro"
+	line "duro en combate!"
 	done
 
 _BTWinM2Text:
-	text "I'm too busy to be"
-	line "battling!"
+	text "Estoy muy ocupado"
+	line "¡para luchar!"
 	done
 
 _BTGreetingM3Text:
-	text "Brace yourself for"
-	line "my all-out attack!"
+	text "¡Prepárate para"
+	line "mi ataque total!"
 	done
 
 _BTLossM3Text:
-	text "What a cakewalk!"
-	line "You're too easy!"
+	text "¡Qué fácil!"
+	line "¡Eres pan comido!"
 	done
 
 _BTWinM3Text:
-	text "I won't lose next"
-	line "time, all right?"
+	text "La próxima vez"
+	line "no perderé, ¿vale?"
 	done
 
 _BTGreetingM4Text:
-	text "Heh, your #mon"
-	line "look pretty cool."
+	text "Je, tus #mon"
+	line "se ven geniales."
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, no way!"
-	line "You won't win!"
+	text "¡Vaya, vaya, no!"
+	line "¡No vas a ganar!"
 	done
 
 _BTWinM4Text:
-	text "You serious?"
-	line "This is brutal!"
+	text "¿En serio?"
+	line "¡Qué brutal!"
 	done
 
 _BTGreetingM5Text:
-	text "#mon every day!"
-	line "I love battling!"
+	text "¡#mon cada día!"
+	line "¡Amo luchar!"
 	done
 
 _BTLossM5Text:
-	text "I'm on top of my"
-	line "game, but not you!"
+	text "Doy lo mejor de"
+	line "mí, ¡pero tú no!"
 	done
 
 _BTWinM5Text:
-	text "I don't care that"
-	line "I lost, really!"
+	text "¡No me importa"
+	line "haber perdido!"
 	done
 
 _BTGreetingM6Text:
-	text "Hi, there! Let's"
-	line "keep this clean!"
+	text "¡Hola! ¡Vamos a"
+	line "jugar limpio!"
 	done
 
 _BTLossM6Text:
-	text "Whoops, sorry for"
-	line "that wipeout!"
+	text "¡Uy, perdón por"
+	line "esa paliza!"
 	done
 
 _BTWinM6Text:
-	text "Whoops! Come on,"
-	line "let me win one!"
+	text "¡Uy! Vamos,"
+	line "¡déjame ganar!"
 	done
 
 _BTGreetingM7Text:
-	text "Do you want to see"
-	line "my battle level?"
+	text "¿Quieres ver mi"
+	line "nivel de combate?"
 	done
 
 _BTLossM7Text:
-	text "Hehehe, I know"
-	line "your level now!"
+	text "Jejeje, ya sé"
+	line "¡tu nivel ahora!"
 	done
 
 _BTWinM7Text:
-	text "Ouch… I'm just too"
-	line "weak…"
+	text "Ay… Soy muy"
+	line "débil…"
 	done
 
 _BTGreetingM8Text:
-	text "Hey, let's battle."
-	line "I'm your opponent."
+	text "Oye, luchemos."
+	line "Soy tu rival."
 	done
 
 _BTLossM8Text:
-	text "Wow, you're not"
-	line "serious about it!"
+	text "¡Vaya, no te lo"
+	line "tomas en serio!"
 	done
 
 _BTWinM8Text:
-	text "…Urgh… Nothing"
-	line "positive here…"
+	text "…Argh… Nada"
+	line "positivo aquí…"
 	done
 
 _BTGreetingM9Text:
-	text "I'm your"
-	line "opponent."
+	text "Soy tu"
+	line "rival."
 
-	para "Get ready to be"
-	line "hammered."
+	para "Prepárate para"
+	line "la paliza."
 	done
 
 _BTLossM9Text:
-	text "Hahah! That was a"
-	line "pushover!"
+	text "¡Jajaja! ¡Qué"
+	line "fácil fue eso!"
 	done
 
 _BTWinM9Text:
-	text "No way! There has"
-	line "to be a mistake!"
+	text "¡No puede ser!"
+	line "¡Debe haber error!"
 	done
 
 _BTGreetingM10Text:
-	text "Hah!"
-	line "Let's get rolling!"
+	text "¡Ja!"
+	line "¡Vamos allá!"
 	done
 
 _BTLossM10Text:
-	text "Wahahaha! Didn't"
-	line "break a sweat!"
+	text "¡Jajaja! ¡Ni"
+	line "sudé nada!"
 	done
 
 _BTWinM10Text:
-	text "Tough! I'm no"
-	line "match for you!"
+	text "¡Qué duro! No soy"
+	line "rival para ti."
 	done
 
 _BTGreetingM11Text:
 	text "………………"
-	line "…………Battle?"
+	line "…………¿Combate?"
 	done
 
 _BTLossM11Text:
 	text "………………"
-	line "…………I won?"
+	line "…………¿Gané?"
 	done
 
 _BTWinM11Text:
 	text "………………"
-	line "…………I lost?"
+	line "…………¿Perdí?"
 	done
 
 _BTGreetingM12Text:
-	text "You want to be a"
-	line "leader?"
+	text "¿Quieres ser"
+	line "líder?"
 
-	para "Let me battle you,"
-	line "then!"
+	para "Entonces,"
+	line "¡lucha contra mí!"
 	done
 
 _BTLossM12Text:
-	text "You need another"
-	line "ten years of"
+	text "Necesitas otros"
+	line "diez años"
 
-	para "training to get"
-	line "better, I'd say."
+	para "de entrenamiento"
+	line "para mejorar."
 	done
 
 _BTWinM12Text:
-	text "You're incredibly"
-	line "talented."
+	text "Tienes un talento"
+	line "increíble."
 
-	para "No one can touch"
-	line "you now!"
+	para "¡Nadie puede"
+	line "hacerte sombra!"
 	done
 
 _BTGreetingM13Text:
-	text "Today, I'm going"
-	line "to whomp you."
+	text "Hoy voy a"
+	line "machacarte."
 	done
 
 _BTLossM13Text:
-	text "I knew I'd win."
-	line "I'm so great!"
+	text "Sabía que ganaría."
+	line "¡Soy el mejor!"
 	done
 
 _BTWinM13Text:
-	text "Uh? My plans are"
-	line "out of whack…"
+	text "¿Eh? Mis planes"
+	line "se torcieron…"
 	done
 
 _BTGreetingM14Text:
-	text "I bet you can't"
-	line "beat me!"
+	text "Seguro que no"
+	line "¡puedes ganarme!"
 	done
 
 _BTLossM14Text:
-	text "Those #mon"
-	line "aren't enough!"
+	text "Esos #mon"
+	line "¡no bastan!"
 	done
 
 _BTWinM14Text:
-	text "I want your"
-	line "#mon. Please?"
+	text "Quiero tu"
+	line "#mon. ¿Puedo?"
 	done
 
 _BTGreetingM15Text:
-	text "I'll show you a"
-	line "real battle!"
+	text "Te mostraré un"
+	line "¡combate real!"
 	done
 
 _BTLossM15Text:
-	text "This battle…"
-	line "I'm bored!"
+	text "Este combate…"
+	line "¡Qué aburrido!"
 	done
 
 _BTWinM15Text:
-	text "…I won't turn tail"
-	line "in battle!"
+	text "…No huiré"
+	line "¡de un combate!"
 	done
 
 _BTGreetingM16Text:
-	text "Let's go!"
-	line "No holds barred!"
+	text "¡Vamos!"
+	line "¡Sin piedad!"
 	done
 
 _BTLossM16Text:
-	text "Sorry! I wanted"
-	line "the win more!"
+	text "¡Perdón! ¡Quería"
+	line "ganar más que tú!"
 	done
 
 _BTWinM16Text:
-	text "Wahah! Congrats!"
-	line "I can't do better!"
+	text "¡Vaya!"
+	line "¡No puedo mejorar!"
 	done
 
 _BTGreetingM17Text:
-	text "My #mon skills"
-	line "are phenomenal!"
+	text "Mis #mon son"
+	line "¡fenomenales!"
 	done
 
 _BTLossM17Text:
-	text "You've got a long"
-	line "way to go."
+	text "Aún te queda"
+	line "mucho camino."
 
-	para "Well, keep trying!"
-	line "Best of luck!"
+	para "¡Pero no te"
+	line "rindas! ¡Suerte!"
 	done
 
 _BTWinM17Text:
-	text "Aww… Don't lose"
-	line "after beating me."
+	text "Ay… No pierdas"
+	line "tras vencerme."
 	done
 
 _BTGreetingM18Text:
-	text "Who are you?"
-	line "I don't know you…"
+	text "¿Quién eres?"
+	line "No te conozco…"
 	done
 
 _BTLossM18Text:
-	text "I must've imagined"
-	line "that."
+	text "Debo haberlo"
+	line "imaginado."
 
-	para "There seems to be"
-	line "no one here…"
+	para "Parece que no"
+	line "hay nadie aquí…"
 	done
 
 _BTWinM18Text:
-	text "Who am I?"
-	line "I don't know…"
+	text "¿Quién soy?"
+	line "No lo sé…"
 	done
 
 _BTGreetingM19Text:
-	text "Um… Are you that…"
-	line "um…person?"
+	text "Eh… ¿Eres esa…"
+	line "esa persona?"
 	done
 
 _BTLossM19Text:
-	text "It doesn't appear"
-	line "to be you…"
+	text "Parece que no"
+	line "eras tú…"
 	done
 
 _BTWinM19Text:
-	text "Then you really"
-	line "are the legendary…"
+	text "Entonces sí eres"
+	line "el legendario…"
 	done
 
 _BTGreetingM20Text:
-	text "I heard that"
-	line "you're hot!"
+	text "Dicen que"
+	line "¡estás en racha!"
 	done
 
 _BTLossM20Text:
-	text "Not bad. I was"
-	line "just a bit better."
+	text "Nada mal. Yo"
+	line "fui algo mejor."
 	done
 
 _BTWinM20Text:
-	text "Eh, you're not"
-	line "that special."
+	text "Eh, no eres"
+	line "tan especial."
 	done
 
 _BTGreetingM21Text:
-	text "I'm scared about"
-	line "what might happen."
+	text "Me da miedo"
+	line "lo que pasará."
 
-	para "My #mon are way"
-	line "too strong."
+	para "Mis #mon son"
+	line "demasiado fuertes."
 	done
 
 _BTLossM21Text:
-	text "See? My #mon"
-	line "were too strong."
+	text "¿Ves? Mis #mon"
+	line "eran muy fuertes."
 	done
 
 _BTWinM21Text:
-	text "Graa! My #mon"
-	line "were total wimps!"
+	text "¡Grr! Mis #mon"
+	line "¡eran unos flojos!"
 	done
 
 _BTGreetingM22Text:
-	text "Hey, there!"
-	line "I'll take you on!"
+	text "¡Hola!"
+	line "¡Voy a por ti!"
 	done
 
 _BTLossM22Text:
-	text "Don't you have a"
-	line "better strategy?"
+	text "¿No tienes una"
+	line "mejor estrategia?"
 	done
 
 _BTWinM22Text:
-	text "You've got decent"
-	line "style!"
+	text "Tienes buen"
+	line "¡estilo!"
 	done
 
 _BTGreetingM23Text:
-	text "I wonder if I can"
-	line "battle properly…"
+	text "Me pregunto si"
+	line "sé luchar bien…"
 	done
 
 _BTLossM23Text:
-	text "Um… Sorry…"
-	line "I think I won."
+	text "Eh… Perdón…"
+	line "Creo que gané."
 	done
 
 _BTWinM23Text:
-	text "I guess I'm not"
-	line "good enough yet…"
+	text "Supongo que aún"
+	line "no soy bueno…"
 	done
 
 _BTGreetingM24Text:
-	text "Wrrooar!"
-	line "I won't lose!"
+	text "¡Grrraaa!"
+	line "¡No perderé!"
 	done
 
 _BTLossM24Text:
-	text "Wrrooar! I knew"
-	line "I was a genius!"
+	text "¡Grrraaa! Sabía"
+	line "¡que era un genio!"
 	done
 
 _BTWinM24Text:
-	text "Arrooh! I hate it"
-	line "when I lose!"
+	text "¡Aaargh! Odio"
+	line "¡perder así!"
 	done
 
 _BTGreetingM25Text:
-	text "Sorry, but I'm"
-	line "going to win."
+	text "Perdón, pero"
+	line "voy a ganar."
 	done
 
 _BTLossM25Text:
-	text "Yeah! My #mon"
-	line "rule!"
+	text "¡Sí! Mis #mon"
+	line "¡mandan!"
 	done
 
 _BTWinM25Text:
-	text "Oh, close! I lost"
-	line "by just a bit!"
+	text "¡Uy, qué cerca!"
+	line "¡Perdí por poco!"
 	done
 
 _BTGreetingF1Text:
-	text "OK, I'm not"
-	line "fooling around!"
+	text "Vale, voy"
+	line "¡muy en serio!"
 	done
 
 _BTLossF1Text:
-	text "Yay! Too easy!"
-	line "Like, no way!"
+	text "¡Bien! ¡Muy fácil!"
+	line "¡No puede ser!"
 	done
 
 _BTWinF1Text:
-	text "No!"
-	line "Like, no way!"
+	text "¡No!"
+	line "¡No puede ser!"
 	done
 
 _BTGreetingF2Text:
-	text "Look! My #mon"
-	line "are really cute!"
+	text "¡Mira! Mis #mon"
+	line "¡son monísimos!"
 	done
 
 _BTLossF2Text:
-	text "Aren't they really"
-	line "adorable?"
+	text "¿A que son"
+	line "adorables?"
 	done
 
 _BTWinF2Text:
-	text "I'm sorry, it's"
-	line "all my fault!"
+	text "Lo siento, es"
+	line "todo culpa mía."
 	done
 
 _BTGreetingF3Text:
-	text "Let's get our"
-	line "battle started!"
+	text "¡Que empiece"
+	line "el combate!"
 	done
 
 _BTLossF3Text:
-	text "Was I too strong"
-	line "for you?"
+	text "¿Fui muy fuerte"
+	line "para ti?"
 	done
 
 _BTWinF3Text:
-	text "Ooh, you're in a"
-	line "different class."
+	text "Vaya, estás en"
+	line "otra categoría."
 	done
 
 _BTGreetingF4Text:
-	text "Are we going to"
-	line "battle? Let's!"
+	text "¿Vamos a luchar?"
+	line "¡Hagámoslo!"
 	done
 
 _BTLossF4Text:
-	text "Oh, you're too"
-	line "weak. Shame."
+	text "Vaya, eres muy"
+	line "débil. Qué pena."
 	done
 
 _BTWinF4Text:
-	text "Wow! Are you quite"
-	line "satisfied?"
+	text "¡Vaya! ¿Estás"
+	line "satisfecho?"
 	done
 
 _BTGreetingF5Text:
-	text "Oh, you have some"
-	line "rare #mon."
+	text "Vaya, tienes"
+	line "#mon raros."
 	done
 
 _BTLossF5Text:
-	text "May I have one of"
-	line "your #mon?"
+	text "¿Me das uno de"
+	line "tus #mon?"
 	done
 
 _BTWinF5Text:
-	text "…I want one of"
-	line "your #mon."
+	text "…Quiero uno de"
+	line "tus #mon."
 	done
 
 _BTGreetingF6Text:
-	text "Want to hear about"
-	line "my cute #mon?"
+	text "¿Quieres oír de"
+	line "mis #mon monos?"
 	done
 
 _BTLossF6Text:
-	text "What do you think"
-	line "about my cuties?"
+	text "¿Qué opinas de"
+	line "mis monadas?"
 	done
 
 _BTWinF6Text:
-	text "Oh! My! You're a"
-	line "dreadful trainer!"
+	text "¡Vaya! Eres un"
+	line "¡entrenador cruel!"
 	done
 
 _BTGreetingF7Text:
-	text "Battle? Sure!"
-	line "Right now!"
+	text "¿Combate? ¡Claro!"
+	line "¡Ahora mismo!"
 	done
 
 _BTLossF7Text:
-	text "Oh, I love it!"
-	line "Battling is wild!"
+	text "¡Me encanta!"
+	line "¡Qué emoción!"
 	done
 
 _BTWinF7Text:
-	text "Oh, how rude! Wait"
-	line "till next time!"
+	text "¡Qué grosero!"
+	line "¡Espera y verás!"
 	done
 
 _BTGreetingF8Text:
-	text "Please let me win!"
-	line "Please?"
+	text "¡Déjame ganar,"
+	line "por favor!"
 	done
 
 _BTLossF8Text:
-	text "Wow, thank you!"
-	line "You're so nice!"
+	text "¡Vaya, gracias!"
+	line "¡Qué amable eres!"
 	done
 
 _BTWinF8Text:
-	text "You're mean!"
-	line "I hate meanies!"
+	text "¡Eres malo!"
+	line "¡Odio a los malos!"
 	done
 
 _BTGreetingF9Text:
-	text "Well, can we"
-	line "begin?"
+	text "Bueno, ¿podemos"
+	line "empezar?"
 	done
 
 _BTLossF9Text:
-	text "Well, I beg your"
-	line "pardon…"
+	text "Vaya, disculpa,"
+	line "gané yo…"
 	done
 
 _BTWinF9Text:
-	text "Sob… That's not"
-	line "fair!"
+	text "Snif… ¡Eso no"
+	line "es justo!"
 	done
 
 _BTGreetingF10Text:
-	text "I'm good!"
-	line "You can't win."
+	text "¡Soy buena!"
+	line "No puedes ganar."
 	done
 
 _BTLossF10Text:
-	text "Giving up? You're"
-	line "pretty weak!"
+	text "¿Te rindes? ¡Eres"
+	line "bastante débil!"
 	done
 
 _BTWinF10Text:
-	text "I won't accept"
-	line "this… No way!"
+	text "No acepto esto…"
+	line "¡No puede ser!"
 	done
 
 _BTGreetingF11Text:
-	text "Are you treating"
-	line "this seriously?"
+	text "¿Te lo estás"
+	line "tomando en serio?"
 	done
 
 _BTLossF11Text:
-	text "Oh, sorry! Looks"
-	line "like I won!"
+	text "¡Uy, perdón!"
+	line "¡Parece que gané!"
 	done
 
 _BTWinF11Text:
-	text "Oh, how nasty!"
-	line "You were serious!"
+	text "¡Vaya, en serio!"
+	line "¡Ibas muy serio!"
 	done
 
 _BTGreetingF12Text:
-	text "Ahahah! I'll take"
-	line "it easy on you!"
+	text "¡Jajaja! Seré"
+	line "¡buena contigo!"
 	done
 
 _BTLossF12Text:
-	text "Oops, sorry! But"
-	line "I'm happy too!"
+	text "¡Uy, perdón! Pero"
+	line "¡yo también feliz!"
 	done
 
 _BTWinF12Text:
-	text "Oh, oh, I lost!"
-	line "Thanks. Bye!"
+	text "¡Vaya, perdí!"
+	line "Gracias, ¡adiós!"
 	done
 
 _BTGreetingF13Text:
-	text "Battle Tower is a"
-	line "tough place!"
+	text "¡La Torre Batalla"
+	line "es muy dura!"
 	done
 
 _BTLossF13Text:
-	text "You might have a"
-	line "hard time."
+	text "Podrías pasarlo"
+	line "mal aquí."
 	done
 
 _BTWinF13Text:
-	text "Ooh, you might"
-	line "make a run here!"
+	text "Vaya, podrías"
+	line "llegar lejos aquí."
 	done
 
 _BTGreetingF14Text:
-	text "I want to see your"
-	line "style in action!"
+	text "Quiero ver tu"
+	line "¡estilo en acción!"
 	done
 
 _BTLossF14Text:
-	text "Every battle is a"
-	line "drama!"
+	text "¡Cada combate es"
+	line "un drama!"
 	done
 
 _BTWinF14Text:
-	text "Oh… Want to trade"
-	line "something?"
+	text "Oh… ¿Quieres"
+	line "intercambiar algo?"
 	done
 
 _BTGreetingF15Text:
-	text "OK, here goes!"
-	line "I have momentum!"
+	text "¡Allá voy!"
+	line "¡Tengo impulso!"
 	done
 
 _BTLossF15Text:
-	text "See, I rolled"
-	line "right over you!"
+	text "¿Ves? ¡Te aplasté"
+	line "por completo!"
 	done
 
 _BTWinF15Text:
-	text "No! This did not"
-	line "happen!"
+	text "¡No! Esto no"
+	line "¡ha pasado!"
 	done
 
 BattleTowerText_GreetingTycoon:
-	text "Hi! My name's"
+	text "¡Hola! Soy"
 	line "Palmer."
 
-	para "You're <PLAYER>"
-	line "from New Bark"
-	cont "Town, right?"
+	para "Eres <PLAYER>, de"
+	line "Pueblo Primavera,"
+	cont "¿verdad?"
 
-	para "I've heard a lot"
-	line "about you."
+	para "He oído mucho"
+	line "sobre ti."
 
-	para "Show me the bond"
-	line "you've built with"
-	cont "your #mon."
+	para "Muéstrame el"
+	line "vínculo que tienes"
+	cont "con tu #mon."
 
-	para "Show me what you've"
-	line "learned through"
+	para "Muéstrame lo que"
+	line "has aprendido"
 
-	para "battles with"
-	line "trainers!"
+	para "luchando contra"
+	line "¡entrenadores!"
 	done
 
 BattleTowerText_LossTycoon:
-	text "Ah, wonderful!"
-	line "Do come again!"
+	text "¡Ah, genial!"
+	line "¡Vuelve pronto!"
 	done
 
 BattleTowerText_WinTycoon:
-	text "I have no problem"
-	line "losing to a spec-"
+	text "No me importa"
+	line "perder ante un"
 
-	para "tacular trainer"
-	line "like you!"
+	para "entrenador tan"
+	line "¡espectacular!"
 	done
 
 BattleFactoryText_GreetingHead:
@@ -667,33 +667,35 @@ BattleFactoryText_GreetingHead:
 	ret
 
 .Text
-	text "Bzweeeeep!"
+	text "¡Bzzzip!"
 
-	para "Sorry, don't mind"
-	line "me. I'm Thorton."
+	para "Perdona, no me"
+	line "hagas caso."
+	cont "Soy Thorton."
 
-	para "I'm using my data-"
-	line "analyzing machine"
-	cont "for this match."
+	para "Uso mi máquina"
+	line "de análisis de"
+	cont "datos para este"
+	cont "combate."
 
-	para "I see! It's reading"
+	para "¡Vaya! Marca un"
 	line ""
 	text_decimal wRandomValue, 1, 2
-	text " percent."
+	text " por ciento."
 
-	para "Oh, don't let that"
-	line "concern you!"
+	para "Ah, no dejes que"
+	line "¡eso te preocupe!"
 
-	para "All righty, let's"
-	line "get going!"
+	para "Muy bien,"
+	line "¡vamos allá!"
 	done
 
 BattleFactoryText_LossHead:
-	text "See? Just as"
-	line "analyzed."
+	text "¿Ves? Tal como"
+	line "lo analicé."
 	done
 
 BattleFactoryText_WinHead:
-	text "Whoa! You sure"
-	line "showed me!"
+	text "¡Vaya! Me lo"
+	line "¡has demostrado!"
 	done
