@@ -306,7 +306,7 @@ MenuDataHeader_BattleInfoCancel:
 MenuData2_BattleInfoCancel:
 	db $a0 ; flags
 	db 3
-	db "Combate@"
+	db "Luchar@"
 	db "Info@"
 	db "Salir@"
 
