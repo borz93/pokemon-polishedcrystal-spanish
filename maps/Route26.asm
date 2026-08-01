@@ -268,7 +268,7 @@ GenericTrainerFisherScott:
 GenericTrainerDragonTamerErick:
 	generictrainer DRAGON_TAMER, ERICK, EVENT_BEAT_DRAGON_TAMER_ERICK, DragonTamerErickSeenText, DragonTamerErickBeatenText
 
-	text "La Ruta Victoria"
+	text "La Calle Victoria"
 	line "es dura."
 
 	para "Cada entrenador"

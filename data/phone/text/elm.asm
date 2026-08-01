@@ -387,7 +387,7 @@ ElmPhoneEvoText_Pikachu:
 	line "evoluciona al"
 
 	para "exponerse a"
-	line "Piedra Trueno"
+	line "Piedratrueno o"
 	cont "un Suvenir Raro."
 	prompt
 
@@ -432,7 +432,7 @@ ElmPhoneEvoText_Magneton:
 	line "evoluciona al"
 
 	para "exponerse a"
-	line "Piedra Truen, o"
+	line "Piedratrueno, o"
 
 	para "al subir de"
 	line "nivel en un"

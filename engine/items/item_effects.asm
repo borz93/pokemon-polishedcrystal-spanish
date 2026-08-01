@@ -2768,10 +2768,10 @@ Ball_ReplacePartyMonCaughtBall:
 	jmp PrintText
 
 BallReplacedText:
-	text "Put "
+	text "Poner "
 	text_ram wStringBuffer1
-	text " in"
-	line "the "
+	text " en"
+	line "el "
 	text_ram wStringBuffer2
 	text "."
 	prompt
@@ -3143,15 +3143,15 @@ AbilityCap:
 	jr .loop
 
 ChangeAbilityToText:
-	text "Change ability to"
+	text "¿Cambiar a"
 	line ""
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 AbilityChangedText:
-	text "The ability was"
-	line "changed!"
+	text "¡La habilidad fue"
+	line "cambiada!"
 	prompt
 
 INCLUDE "engine/battle_anims/pokeball_wobble.asm"

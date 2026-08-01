@@ -982,7 +982,7 @@ MeetFriedaText:
 	done
 
 FriedaGivesGiftText:
-	text "¡Toma un Dardo"
+	text "¡Toma una Flecha"
 	line "Veneno!"
 	done
 
