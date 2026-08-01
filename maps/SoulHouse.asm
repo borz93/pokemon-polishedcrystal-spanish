@@ -133,7 +133,7 @@ MrFujiThanksForExorcisingText:
 	line "gratitud, quiero"
 	cont "que tengas esto."
 
-	para "Silph Co. lo"
+	para "Silph S.A lo"
 	line "fabricó hace"
 	cont "años, pero nunca"
 	cont "supieron usarlo"

@@ -118,7 +118,7 @@ SilphCo3FGentlemanText:
 	done
 
 SilphCo3FDeptSignText:
-	text "Silph Co. Piso 3"
+	text "Silph S.A Piso 3"
 	line "Tecno. # Ball"
 	done
 

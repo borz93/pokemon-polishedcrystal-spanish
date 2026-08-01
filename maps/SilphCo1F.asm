@@ -75,7 +75,7 @@ SilphCoReceptionistText:
 	text "Bienvenido. Este"
 	line "es el Edificio"
 	cont "Central de"
-	cont "Silph Co."
+	cont "Silph S.A"
 	done
 
 
@@ -83,7 +83,7 @@ SilphCo1FGentlemanText:
 	text "Tengo una cita"
 	line "con el ingeniero"
 	cont "jefe aquí en"
-	cont "Silph Co."
+	cont "Silph S.A"
 	done
 
 SilphCo1FCooltrainerfText:

@@ -145,7 +145,7 @@ SaffronCityCooltrainerMText:
 	done
 
 SaffronCityCooltrainerFText:
-	text "Esto es Silph Co.,"
+	text "Esto es Silph S.A,"
 	line "famosa por"
 	cont "mercancía #mon."
 
@@ -293,7 +293,7 @@ FightingDojoSignText:
 	done
 
 SilphCoSignText:
-	text "Silph Co."
+	text "Silph S.A"
 	line "Edificio de"
 	cont "Oficinas"
 	done

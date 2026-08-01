@@ -54,7 +54,7 @@ SilphCo2FEmployee1Script:
 .Text2:
 	text "Es el último"
 	line "producto de"
-	cont "Silph Co."
+	cont "Silph S.A"
 
 	para "Aún no se vende"
 	line "en ningún sitio."
@@ -96,7 +96,7 @@ SilphCo2FScientist2Text:
 	done
 
 SilphCo2FDeptSignText:
-	text "Silph Co. 2F"
+	text "Silph S.A 2F"
 	line "Desarrollo Softw."
 	done
 
