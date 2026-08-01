@@ -5277,7 +5277,7 @@ BreederGroup:
 		tr_moves TRANSFORM
 	end_trainer
 
-	def_trainer CARLENE, "Carlene"
+	def_trainer CARLENE, "Carla"
 	tr_mon 58, SMEARGLE @ WISE_GLASSES, FEMALE
 		tr_moves SPORE, NASTY_PLOT, HYPER_VOICE, PSYCHIC_M
 	tr_mon 58, SMEARGLE @ MUSCLE_BAND, FEMALE
