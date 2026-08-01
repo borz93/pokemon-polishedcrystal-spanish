@@ -1470,7 +1470,7 @@ ElmGiveTicketText2:
 	cont "cerca de Ciudad"
 	cont "Olivo."
 
-	para "Una campeona como"
+	para "Un campeon como"
 	line "tú lo hará genial"
 	cont "compitiendo allí!"
 	done

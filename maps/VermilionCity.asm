@@ -462,8 +462,8 @@ PokemonFanClubSignText:
 	text "Club de Fans"
 	line "#mon"
 
-	para "¡Todos los Fans"
-	line "# son"
+	para "¡Todos los "
+	line "#Fans son"
 	cont "bienvenidos!"
 	done
 

@@ -222,7 +222,7 @@ Museum1FReceptionistScript:
 
 	para "Gracias a una"
 	line "generosa donación"
-	cont "de Silph Co.,"
+	cont "de Silph S.A,"
 
 	para "¡la entrada es"
 	line "gratuita!"

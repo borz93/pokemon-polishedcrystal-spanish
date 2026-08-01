@@ -175,7 +175,7 @@ CeruleanCityFisherText:
 	text "Soy un gran fan de"
 	line "Misty, del"
 	cont "Gimnasio de"
-	cont "Cerulean."
+	cont "Celeste."
 	done
 
 CeruleanCityFisherRocketTipText:

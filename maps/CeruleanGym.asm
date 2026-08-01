@@ -411,7 +411,7 @@ CeruleanGymSomethingUnderwaterText:
 	text "Hay algo bajo el"
 	line "agua…"
 
-	para "¿Y si ese Grunt"
+	para "¿Y si ese Soldado"
 	line "del Team Rocket"
 	cont "habla?"
 

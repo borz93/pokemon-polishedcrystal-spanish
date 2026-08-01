@@ -47,6 +47,6 @@ Route5AdvancedTipsSignText:
 	para "Pero un #mon"
 	line "con la Habilidad"
 
-	para "Propio Ritmo"
+	para "Ritmo propio"
 	line "no se confunde!"
 	done
