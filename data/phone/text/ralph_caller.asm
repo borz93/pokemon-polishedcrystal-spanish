@@ -15,7 +15,8 @@ RalphDefeatedMonText:
 	text "Acabo de vencer a"
 	line "un "
 	text_ram wStringBuffer4
-	text " salvaje."
+	text ""
+	line "salvaje."
 
 	para "Se lo dije a mi"
 	line "hijo, pero se rio"
@@ -29,7 +30,8 @@ RalphDefeatedMonText:
 	done
 
 RalphLostAMonText:
-	text "Ayer un "
+	text "Ayer un"
+	line ""
 	text_ram wStringBuffer4
 	line "salvaje se me"
 	cont "escapó,"

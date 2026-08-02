@@ -1439,19 +1439,19 @@ SnorlaxPokedexEntry::
 SECTION "ArticunoPlainPokedexEntry", ROMX
 ArticunoPlainPokedexEntry::
 	db "Congelar@"
-	text "#mon legendario"
-	next "ave. Al volar"
-	next "por el cielo,"
-	page "enfría el aire"
-	next "y hace que caiga"
-	next "nieve.@"
+	text "#mon ave"
+	next "legendaria. Al"
+	next "volar por el"
+	page "cielo, enfría "
+	next "el aire y hace"
+	next "que caiga nieve.@"
 
 SECTION "ZapdosPlainPokedexEntry", ROMX
 ZapdosPlainPokedexEntry::
 	db "Eléctrico@"
-	text "#mon legendario"
-	next "ave. Dicen que"
-	next "el rayo de sus"
+	text "#mon ave"
+	next "legendaria. Dicen"
+	next "que el rayo de sus"
 	page "alas al batir"
 	next "causa tormentas"
 	next "de verano.@"
@@ -1459,8 +1459,8 @@ ZapdosPlainPokedexEntry::
 SECTION "MoltresPlainPokedexEntry", ROMX
 MoltresPlainPokedexEntry::
 	db "Llama@"
-	text "#mon legendario"
-	next "ave. Se dice"
+	text "#mon ave"
+	next "Legendaria. Dicen"
 	next "que migra"
 	page "desde el sur"
 	next "junto con la"

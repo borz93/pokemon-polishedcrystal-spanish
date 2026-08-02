@@ -6326,7 +6326,7 @@ GuitaristMGroup:
 	tr_mon 50, ELECTABUZZ
 	end_trainer
 
-	def_trainer VINCENT, "Vincent"
+	def_trainer VINCENT, "Vince"
 	tr_mon 53, VOLTORB
 	tr_mon 52, MAGNEMITE
 	tr_mon 55, JOLTEON

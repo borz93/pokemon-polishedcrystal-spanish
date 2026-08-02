@@ -61,7 +61,8 @@ JoseGenericText:
 
 	para "Mi "
 	text_ram wStringBuffer4
-	text " tiene"
+	text ""
+	line "tiene"
 	line "demasiada"
 	cont "energía."
 

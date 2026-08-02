@@ -262,7 +262,7 @@ Route10NorthLawrenceGreetingText:
 	done
 
 Route10NorthLawrenceZapdosText:
-	text "Lawrence: Eso es"
+	text "Lawrence: Ese es"
 	line "un Zapdos."
 
 	para "Debió de atraerlo"
