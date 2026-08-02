@@ -21,6 +21,9 @@ Todo el mérito del hack original —diseño, mecánicas, mapas, gráficos, bala
 
 Esta rama (`spanish-translation`) vive en [mi propio repositorio](https://github.com/borz93/pokemon-polishedcrystal-spanish); `master` se mantiene sincronizada con el repositorio original para poder traer actualizaciones cuando se publican.
 
+Para descargar la ROM ya compilada en español, ir a la pagina de releases y descargar el fichero.
+Recordar que esta traducción es en base a la rama 'master' de Polished Crystal, por lo que pueden haber errores propios del hackrom.
+
 ---
 
 # Pokémon Polished Crystal
