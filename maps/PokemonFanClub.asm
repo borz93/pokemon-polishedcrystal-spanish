@@ -215,7 +215,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	line "uno. Así que me"
 
 	para "conformo con un"
-	line "Muñeco # que"
+	line "#Muñeco que"
 	cont "encontré."
 	done
 
@@ -228,7 +228,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 	para "Vale. ¿Podrías"
 	line "llevarle este"
-	cont "Muñeco #"
+	cont "#Muñeco "
 
 	para "de vuelta a esa"
 	line "pobre chica?"

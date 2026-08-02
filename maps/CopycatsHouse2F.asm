@@ -215,7 +215,7 @@ CopycatFoundLostItemScript:
 
 .FoundDollText:
 	text "Copycat: ¡Bien!"
-	line "¡Es el # Muñeco"
+	line "¡Es el #Muñeco"
 	cont "de Clefairy!"
 
 	para "¿Ves el remiendo"
@@ -286,7 +286,7 @@ CopycatLostDoll1Text:
 	text "<PLAYER>: ¡Hola!"
 	line "Oí que perdiste tu"
 
-	para "# Muñeco"
+	para "#Muñeco"
 	line "favorito."
 
 	para "<PLAYER>: ¿Si lo"
@@ -332,7 +332,7 @@ CopycatLostDoll2Text:
 	text "<PLAYER>: Hola."
 	line "¿De verdad"
 	cont "perdiste tu"
-	cont "# Muñeco?"
+	cont "#Muñeco?"
 
 	para "<PLAYER>: ¿De"
 	line "verdad me darás"

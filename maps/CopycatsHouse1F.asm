@@ -42,7 +42,7 @@ CopycatsHouse1FPokefanFScript:
 
 .Text2:
 	text "Hace poco perdió"
-	line "el # Muñeco que"
+	line "el #Muñeco que"
 
 	para "le dio un chico"
 	line "hace tres años."

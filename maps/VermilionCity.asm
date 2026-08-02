@@ -377,14 +377,14 @@ VermilionCitySuperNerdText:
 VermilionCitySuperNerd2Text:
 	text "La Fábrica de"
 	line "Combate es"
-	cont "nuevecita, pero"
+	cont "nuevecita, ¡pero"
 
 	para "ya están llegando"
 	line "entrenadores"
 
 	para "de regiones"
 	line "lejanas para"
-	cont "¡aceptar su reto!"
+	cont "aceptar el reto!"
 	done
 
 VermilionCityOfficerFText:

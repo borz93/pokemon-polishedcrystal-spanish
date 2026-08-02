@@ -207,7 +207,7 @@ Special_DisplayMoneyAndCoinBalance:
 	jmp PrintNum
 
 MoneyString:
-	db "Dinero@"
+	db "Din.@"
 CoinString:
 	db "Moneda@"
 

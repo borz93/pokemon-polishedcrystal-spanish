@@ -515,6 +515,6 @@ MailboxPC:
 	db %10000000 ; flags
 	db 4 ; items
 	db "Leer carta@"
-	db "Poner en bolso@"
+	db "Al bolso@"
 	db "Dar carta@"
 	db "Salir@"
