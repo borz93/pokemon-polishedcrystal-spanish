@@ -1960,4 +1960,116 @@
 	wildmon 66, GENGAR
 	end_grass_wildmons
 
+	def_grass_wildmons HAUNTED_RADIO_TOWER_2F
+	db 10 percent ; encounter rate
+	; morn
+	wildmon 32, GASTLY
+	wildmon 32, CUBONE
+	wildmon 33, GOLBAT
+	wildmon 34, GASTLY
+	wildmon 34, MURKROW
+	wildmon 35, MISDREAVUS
+	wildmon 36, HAUNTER
+	; day
+	wildmon 32, GASTLY
+	wildmon 32, CUBONE
+	wildmon 33, GOLBAT
+	wildmon 34, GASTLY
+	wildmon 34, MURKROW
+	wildmon 35, MISDREAVUS
+	wildmon 36, HAUNTER
+	; nite
+	wildmon 39, HAUNTER
+	wildmon 38, MISDREAVUS
+	wildmon 37, MURKROW
+	wildmon 37, GASTLY
+	wildmon 36, GOLBAT
+	wildmon 35, CUBONE
+	wildmon 35, GASTLY
+	end_grass_wildmons
+
+	def_grass_wildmons HAUNTED_RADIO_TOWER_3F
+	db 12 percent ; encounter rate
+	; morn
+	wildmon 36, HAUNTER
+	wildmon 37, CUBONE
+	wildmon 37, GOLBAT
+	wildmon 38, MURKROW
+	wildmon 39, MISDREAVUS
+	wildmon 40, MAROWAK
+	wildmon 41, MISMAGIUS
+	; day
+	wildmon 36, HAUNTER
+	wildmon 37, CUBONE
+	wildmon 37, GOLBAT
+	wildmon 38, MURKROW
+	wildmon 39, MISDREAVUS
+	wildmon 40, MAROWAK
+	wildmon 41, MISMAGIUS
+	; nite
+	wildmon 44, MISMAGIUS
+	wildmon 43, MAROWAK
+	wildmon 42, MISDREAVUS
+	wildmon 41, MURKROW
+	wildmon 40, GOLBAT
+	wildmon 40, CUBONE
+	wildmon 39, HAUNTER
+	end_grass_wildmons
+
+	def_grass_wildmons HAUNTED_RADIO_TOWER_4F
+	db 14 percent ; encounter rate
+	; morn
+	wildmon 41, HAUNTER
+	wildmon 41, GOLBAT
+	wildmon 42, MAROWAK
+	wildmon 43, MISMAGIUS
+	wildmon 44, HONCHKROW
+	wildmon 45, CROBAT
+	wildmon 46, GENGAR
+	; day
+	wildmon 41, HAUNTER
+	wildmon 41, GOLBAT
+	wildmon 42, MAROWAK
+	wildmon 43, MISMAGIUS
+	wildmon 44, HONCHKROW
+	wildmon 45, CROBAT
+	wildmon 46, GENGAR
+	; nite
+	wildmon 49, GENGAR
+	wildmon 48, CROBAT
+	wildmon 47, HONCHKROW
+	wildmon 46, MISMAGIUS
+	wildmon 45, MAROWAK
+	wildmon 44, GOLBAT
+	wildmon 44, HAUNTER
+	end_grass_wildmons
+
+	def_grass_wildmons HAUNTED_RADIO_TOWER_5F
+	db 16 percent ; encounter rate
+	; morn
+	wildmon 45, HAUNTER
+	wildmon 46, CROBAT
+	wildmon 47, MISMAGIUS
+	wildmon 48, MAROWAK
+	wildmon 49, HONCHKROW
+	wildmon 50, GENGAR
+	wildmon 51, MISDREAVUS
+	; day
+	wildmon 45, HAUNTER
+	wildmon 46, CROBAT
+	wildmon 47, MISMAGIUS
+	wildmon 48, MAROWAK
+	wildmon 49, HONCHKROW
+	wildmon 50, GENGAR
+	wildmon 51, MISDREAVUS
+	; nite
+	wildmon 54, MISDREAVUS
+	wildmon 53, GENGAR
+	wildmon 52, HONCHKROW
+	wildmon 51, MAROWAK
+	wildmon 50, MISMAGIUS
+	wildmon 49, CROBAT
+	wildmon 48, HAUNTER
+	end_grass_wildmons
+
 	db -1 ; end

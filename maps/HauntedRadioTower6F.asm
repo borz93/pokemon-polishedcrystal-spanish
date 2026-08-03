@@ -12,7 +12,7 @@ HauntedRadioTower6F_MapScriptHeader:
 	bg_event  9,  2, BGEVENT_JUMPTEXT, HauntedRadioTower6FShrineText
 
 	def_object_events
-	object_event  8, 14, SPRITE_MON_ICON, SPRITEMOVEDATA_STANDING_DOWN, 0, MAROWAK, -1, PAL_MON_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, HauntedRadioTower6FMarowakScript, EVENT_EXORCISED_LAV_RADIO_TOWER
+	object_event  8, 14, SPRITE_MON_ICON, SPRITEMOVEDATA_STANDING_DOWN, 0, MAROWAK, -1, PAL_MON_BLACK, OBJECTTYPE_SCRIPT, ALOLAN_FORM, HauntedRadioTower6FMarowakScript, EVENT_EXORCISED_LAV_RADIO_TOWER
 
 	object_const_def
 	const HAUNTEDRADIOTOWER6F_MAROWAK
@@ -37,8 +37,8 @@ HauntedRadioTower6FMarowakScript:
 	writetext HauntedRadioTower6FRevealedText
 	waitbutton
 	closetext
-	cry MAROWAK
-	loadwildmon MAROWAK, 56
+	cry MAROWAK, ALOLAN_FORM
+	loadwildmon MAROWAK, ALOLAN_FORM, 56
 	loadvar VAR_BATTLETYPE, BATTLETYPE_GHOST
 	startbattle
 	ifequalfwd DRAW, .Fled
@@ -95,7 +95,7 @@ HauntedRadioTower6FRevealedText:
 
 	para "sombra se revela"
 	line "por fin: es un"
-	cont "Marowak."
+	cont "Marowak de Alola."
 	done
 
 HauntedRadioTower6FShinyRevealText:
