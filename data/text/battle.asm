@@ -305,7 +305,7 @@ BattleText_UsersFutureSightMissed:
 
 BattleText_TargetWasHitByFutureSight:
 	text "¡<TARGET>"
-	line "recibió la"
+	line "herido por"
 	cont "Premonición!"
 	prompt
 
@@ -320,7 +320,7 @@ BattleText_SafeguardFaded:
 	text "¡Velo Sagrado de"
 	line ""
 	text_ram wStringBuffer1
-	cont "se disipó!"
+	cont "se desvaneció!"
 	prompt
 
 BattleText_LightScreenFell:
@@ -345,8 +345,7 @@ BattleText_TheRainStopped:
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "El sol"
-	line "se apagó."
+	text "Se ha ido el sol."
 	prompt
 
 BattleText_TheSandstormSubsided:

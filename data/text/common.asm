@@ -1801,14 +1801,14 @@ Text_ABoostedStringBuffer2ExpPoints::
 	line "un impulso de"
 	cont ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Pts.Exp.!"
+	text " Puntos Exp.!"
 	prompt
 
 SECTION "Text_StringBuffer2ExpPoints", ROMX
 Text_StringBuffer2ExpPoints::
 	line ""
 	text_decimal wStringBuffer2, 3, 6
-	text " Pts.Exp.!"
+	text " Puntos Exp.!"
 	prompt
 
 SECTION "Text_GoPkmn", ROMX

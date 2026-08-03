@@ -26,11 +26,11 @@ CeladonUniversityNursesOfficeNurseScript:
 	special RestartMapMusic
 	jumpthistext
 
-	text "¡Cuídate, cariño!"
+	text "¡Cuídate, cielo!"
 	done
 
 CeladonUniversityNursesOfficeNurseText:
-	text "Pasa, cariño."
+	text "Pasa, cielo."
 	line "¿Te encuentras"
 	cont "bien?"
 

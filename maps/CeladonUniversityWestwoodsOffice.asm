@@ -55,17 +55,17 @@ CeladonUniversityWestwoodsOfficeChildScript:
 	done
 
 CeladonUniversityWestwoodsOfficeBookText:
-	text "Querido diario,"
+	text "Querido diario:"
 
-	para "Mi trabajo"
+	para "mi trabajo"
 	line "recopilando"
 	cont "entradas para la"
-	cont "#dex."
+	cont "#dex"
 
-	para "Sigue siendo"
+	para "sigue siendo"
 	line "bien recibido."
 
-	para "Prueba de que no"
+	para "¡Prueba de que no"
 	line "siempre hay que"
 	cont "salir de la"
 	cont "oficina para"
