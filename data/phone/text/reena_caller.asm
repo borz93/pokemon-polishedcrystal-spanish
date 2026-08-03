@@ -18,7 +18,8 @@ ReenaMonsIsAPerfectMatchText:
 
 ReenaDefeatedMonText:
 	text "¿He combatido"
-	line "contra un "
+	line "contra un"
+	line ""
 	text_ram wStringBuffer4
 	text " salvaje?"
 
@@ -80,7 +81,7 @@ ReenaHurryText:
 	text "¿Qué estás"
 	line "haciendo?"
 
-	para "Te dije que el"
+	para "¡Te dije que el"
 	line "lugar era:"
 
 	para ""

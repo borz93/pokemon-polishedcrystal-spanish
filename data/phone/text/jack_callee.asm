@@ -39,7 +39,7 @@ JackGreetText:
 	done
 
 JackGreetDayText:
-	text "<PLAYER>, ¡hola!"
+	text "¡Hola, <PLAYER>!"
 
 	para "Soy "
 	text_ram wStringBuffer3

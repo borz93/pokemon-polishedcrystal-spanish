@@ -38,7 +38,7 @@ BethGreetText:
 	done
 
 BethGreetDayText:
-	text "<PLAYER>, ¡hola!"
+	text "¡Hola, <PLAYER>!"
 	line "Soy "
 	text_ram wStringBuffer3
 	text "."
