@@ -29,8 +29,7 @@ HauntedRadioTower3FHaunterScript:
 	loadwildmon HAUNTER, 51
 	startbattle
 	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .end
+	ifequalfwd DRAW, .end
 	setevent EVENT_HAUNTED_RADIO_TOWER_HAUNTER
 	disappear HAUNTEDRADIOTOWER3F_HAUNTER
 .end

@@ -31,8 +31,7 @@ HauntedRadioTower2FGastlyScript:
 	loadwildmon GASTLY, 48
 	startbattle
 	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .end
+	ifequalfwd DRAW, .end
 	setevent EVENT_HAUNTED_RADIO_TOWER_GASTLY
 	disappear HAUNTEDRADIOTOWER2F_GASTLY
 .end

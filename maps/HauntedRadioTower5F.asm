@@ -30,8 +30,7 @@ HauntedRadioTower5FGengarScript:
 	loadwildmon GENGAR, 54
 	startbattle
 	reloadmapafterbattle
-	special CheckBattleCaughtResult
-	iffalsefwd .end
+	ifequalfwd DRAW, .end
 	setevent EVENT_HAUNTED_RADIO_TOWER_GENGAR
 	disappear HAUNTEDRADIOTOWER5F_GENGAR
 .end
