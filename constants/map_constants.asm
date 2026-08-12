@@ -215,15 +215,14 @@ ENDM
 	map_const ROUTE_4,                                    33, 10 ; 12
 	map_const ROUTE_24,                                   14, 20 ; 13
 	map_const ROUTE_25,                                   17, 21 ; 14
-	map_const CERULEAN_CAPE,                              25, 19 ; 15
-	map_const CERULEAN_CITY,                              20, 16 ; 16
-	map_const CERULEAN_CAVE_1F,                           17, 12 ; 17
-	map_const CERULEAN_CAVE_2F,                           17, 11 ; 18
-	map_const CERULEAN_CAVE_B1F,                          17, 11 ; 19
-	map_const CERULEAN_BIKE_SHOP,                          4,  4 ; 20
-	map_const CERULEAN_BERRY_POWDER_HOUSE,                 4,  4 ; 21
-	map_const CERULEAN_COUPLE_HOUSE,                       4,  4 ; 22
-	map_const CERULEAN_WATER_SHOW_SPEECH_HOUSE,            4,  4 ; 23
+	map_const CERULEAN_CITY,                              20, 16 ; 15
+	map_const CERULEAN_CAVE_1F,                           17, 12 ; 16
+	map_const CERULEAN_CAVE_2F,                           17, 11 ; 17
+	map_const CERULEAN_CAVE_B1F,                          17, 11 ; 18
+	map_const CERULEAN_BIKE_SHOP,                          4,  4 ; 19
+	map_const CERULEAN_BERRY_POWDER_HOUSE,                 4,  4 ; 20
+	map_const CERULEAN_COUPLE_HOUSE,                       4,  4 ; 21
+	map_const CERULEAN_WATER_SHOW_SPEECH_HOUSE,            4,  4 ; 22
 
 	newgroup                                                     ;  8
 	map_const AZALEA_POKECENTER_1F,                        6,  4 ;  1
@@ -439,9 +438,9 @@ ENDM
 	map_const HIDDEN_CAVE_GROTTO,                          4,  6 ;  5
 
 	newgroup                                                     ; 21
-	map_const ROUTE_7,                                    10,  9 ;  1
-	map_const ROUTE_16_EAST,                              14,  7 ;  2
-	map_const ROUTE_17_NORTH,                             12, 10 ;  3
+	map_const ROUTE_7,                                    10,  7 ;  1
+	map_const ROUTE_16_EAST,                               6,  6 ;  2
+	map_const ROUTE_17_NORTH,                              9, 10 ;  3
 	map_const ROUTE_17_SOUTH,                             10, 62 ;  4
 	map_const ROUTE_18_WEST,                              12,  9 ;  5
 	map_const URAGA_CHANNEL_EAST,                         23,  9 ;  6
@@ -535,7 +534,7 @@ ENDM
 	map_const VIRIDIAN_FOREST_VIRIDIAN_GATE,               5,  4 ; 15
 	map_const VIRIDIAN_FOREST_PEWTER_GATE,                 5,  4 ; 16
 	map_const ROUTE_1_VIRIDIAN_GATE,                       5,  4 ; 17
-	map_const ROUTE_16_NORTH,                             14,  7 ; 18
+	map_const ROUTE_16_NORTH,                             11,  5 ; 18
 
 	newgroup                                                     ; 24
 	map_const ROUTE_26,                                   10, 54 ;  1
@@ -706,5 +705,8 @@ ENDM
 	newgroup                                                     ; 37
 	map_const ECRUTEAK_SHRINE_OUTSIDE,                     8, 11 ;  1
 	map_const ECRUTEAK_SHRINE_INSIDE,                      6,  6 ;  2
+
+	newgroup                                                     ; 38
+	map_const CERULEAN_CAPE,                              25, 19 ;  1
 
 DEF NUM_MAP_GROUPS EQU const_value ; 37
