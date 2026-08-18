@@ -3,6 +3,7 @@ PewterCity_MapScriptHeader:
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, PewterCityFlyPoint
+	callback MAPCALLBACK_CMDQUEUE, PewterCitySetUpPaletteSwap
 
 	def_warp_events
 	warp_event 29, 15, PEWTER_NIDORAN_SPEECH_HOUSE, 1
@@ -19,7 +20,7 @@ PewterCity_MapScriptHeader:
 	def_bg_events
 	bg_event 25, 25, BGEVENT_JUMPTEXT, PewterCitySignText
 	bg_event 13, 19, BGEVENT_JUMPTEXT, PewterGymSignText
-	bg_event 13, 11, BGEVENT_JUMPTEXT, PewterMuseumOfScienceSignText
+	bg_event 13, 10, BGEVENT_JUMPTEXT, PewterMuseumOfScienceSignText
 	bg_event 33, 21, BGEVENT_JUMPTEXT, PewterCityMtMoonGiftShopSignText
 	bg_event 19, 31, BGEVENT_JUMPTEXT, PewterCityTrainerTipsText
 
@@ -30,12 +31,20 @@ PewterCity_MapScriptHeader:
 	object_event 29, 19, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PewterCityGrampsScript, -1
 	object_event  6, 15, SPRITE_SCHOOLBOY, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PewterCityYoungsterScript, -1
 	object_event 25, 28, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, PAL_NPC_PURPLE, OBJECTTYPE_SCRIPT, 0, PewterCityPokefanMScript, -1
-	fruittree_event 32,  6, FRUITTREE_PEWTER_CITY_1, PETAYA_BERRY, PAL_NPC_PINK
-	fruittree_event 30,  6, FRUITTREE_PEWTER_CITY_2, APICOT_BERRY, PAL_NPC_BLUE
+	fruittree_event 26,  5, FRUITTREE_PEWTER_CITY_1, PETAYA_BERRY, PAL_NPC_PINK
+	fruittree_event 24,  5, FRUITTREE_PEWTER_CITY_2, APICOT_BERRY, PAL_NPC_BLUE
 
 PewterCityFlyPoint:
 	setflag ENGINE_FLYPOINT_PEWTER
 	endcallback
+
+PewterCitySetUpPaletteSwap:
+	usepaletteswap .PaletteSwap
+	endcallback
+
+.PaletteSwap:
+	paletteswap 0, 255, 0, 13, PAL_BG_WATER, OverworldWaterPalettes, PewterCityMuseumRoofPalettes
+	db -1 ; end
 
 PewterCityGrampsScript:
 	checkevent EVENT_GOT_OLD_AMBER
