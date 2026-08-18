@@ -342,7 +342,7 @@ Text_PowerPlantTutorZapCannon:
 	para "pega como un"
 	line "camión!"
 
-	text "¿Le enseño"
+	para "¿Le enseño"
 	line "Electrocañón a"
 	cont "tu #mon?"
 	done

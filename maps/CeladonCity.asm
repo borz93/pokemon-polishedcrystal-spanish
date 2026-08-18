@@ -198,17 +198,21 @@ CeladonCityGramps2Text:
 	done
 
 CeladonCityPicnickerText:
-	text "It's our responsi-"
-	line "bility as Gym"
+	text "Como entrenadoras"
+	line "de Gimnasio, es"
 
-	para "trainers to tend"
-	line "to these flowers."
+	para "nuestra"
+	line "responsabilidad"
+	cont "cuidar estas"
+	cont "flores."
 
-	para "The University"
-	line "here also counts"
+	para "La Universidad de"
+	line "aquí también lo"
 
-	para "it as practical"
-	line "gardening credit."
+	para "cuenta como"
+	line "crédito de"
+	cont "jardinería"
+	cont "práctica."
 	done
 
 CeladonCityYoungster1Text:
